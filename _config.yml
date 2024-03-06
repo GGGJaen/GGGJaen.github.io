@@ -1,6 +1,6 @@
 title: GEU Docs
 description: The GEU App Docs page
-remote_theme: just-the-docs
+theme: just-the-docs
 
 url: https://gggjaen.github.io
 
