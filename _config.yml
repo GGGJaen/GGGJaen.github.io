@@ -59,7 +59,7 @@ search:
   tokenizer_separator: /[\s/]+/
   # Display the relative url in search results
   # Supports true (default) or false
-  rel_url: true
+  rel_url: false
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
@@ -73,7 +73,7 @@ enable_copy_code_button: true
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.6"
+  version: "10.9.0"
   # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
   # See also docs/ui-components/code
   # To load mermaid from a local library, also use the `path` key to specify the location of the library; e.g.
@@ -87,8 +87,8 @@ mermaid:
 heading_anchors: true
 
 # Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
+back_to_top: false
+#back_to_top_text: "Back to top"
 
 footer_content: "Copyright &copy; 2024-2024 GGGJ."
 
