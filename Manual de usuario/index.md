@@ -7,4 +7,4 @@ nav_order: 2
 
 # Manual de usuario
 
-Colección de páginas dedicadas al uso de la aplicación GEU como usuario final. Describen aspectos como por ejemplo: controles mediante teclado/ratón y combinación de teclas; uso y explicación de ciertas funcionalidades; ejemplos de funcionamiento con datos de muestra...
+Las siguientes páginas presentan la funcionalidad básica de GEU, desde los controles mediante teclado y ratón esenciales, hasta el funcionamiento de ciertos aspectos de la aplicación. Estas páginas se muestran como presentación de GEU; para información concreta sobre el uso ante casos concretos, vea [Casos de uso y ejemplos](/Casos%20de%20uso%20y%20ejemplos/).

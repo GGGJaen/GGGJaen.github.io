@@ -13,20 +13,29 @@ La interfaz de usuario de GEU persigue la distribución de otros softwares de si
 |:-------------------------------------------------------------------------------------------------------------------------:|
 | *Imagen de la interfaz de usuario. Puede variar dependiendo de la versión del software y distribución de ventanas usada.* |
 
-En el lateral izquierdo se encuentra la ventana de detalles, que se activará y variará dependiendo de la entidad seleccionada en la jerarquía. Desde esta ventana se podrán modificar valores básicos como posición, rotación, escalado, visibilidad...
 
-| ![Detalles](../Assets/Images/gui_details.png) |
-|:---------------------------------------------:|
-| Ventana de detalles de la cámara              |
+## Ventanas
 
-En la barra superior podemos encontrar distintos menús desplegables que nos 
+Cada una de las ventanas lleva asociado un propósito específico dentro de la aplicación:
 
-![File menu](../Assets/Images/scenes_manage.png)
+* **Inspector**: Listado con los contenidos de la escena activa.
+* **Detalles**: Detalles del elemento del inspector seleccionado.
+* **Materiales**: Listado de materiales generados en la aplicación.
+* **Estadísticas**: Información general sobre el rendimiento de la aplicación.
+* **Ajustes**: Propiedades generales de la aplicación.
 
-El segundo menú, *Content*, nos permite cargar los assets soportados por el programa: Nubes de puntos en formato PLY, modelos 3D, imágenes... 
+## Barra superior de menú
 
-![Content menu](../Assets/Images/gui_menu_content.png)
+La mayor parte de la funcionalidad de GEU queda accesible desde los múltiples botones y menús de esta barra superior, disponible en casi todo momento:
 
-El tercer menú, *Windows*, tenemos la opción de activar y desactivar ventanas. Un aspecto relevante del sistema de ventanas es que es completamente personalizable. Tanto el tamaño como la posición de las ventanas se puede personalizar simplemente arrastrándolas, de manera similar a las ventanas de Windows. 
+* **Fichero**: Opciones generales para la gestión de escenas. Permite la creación, guardado y borrado de escenas, así como navegar entre las escenas cargadas.
+* **Contenido**: Opciones de carga o creación de elementos para la escena activa. Permite cargar diversos tipos de fichero: nubes de puntos (PLY, LAS/LAZ), modelos 3D (OBJ) e imágenes (PNG); además de la creación de nuevas cámaras y luces virtuales.
+* **Ventanas**: Desplegable para la visualización de las ventanas disponibles. Activa o desactiva las ventanas esenciales detalladas en la sección anterior [Ventanas](#ventanas).
+* **Conexiones remotas**: Submenú para la gestión y tratamiento de conexiones con BBDD y NAS. Permite realizar la conexión y desconexión con los servidores remotos, así como consultar y descargar la información que almacenan.
+* **Módulos**: Colección de desplegables para el acceso a funcionalidad específica.
 
-![Windows menu](../Assets/Images/gui_menu_windows.png)
+
+|![File menu](../Assets/Images/scenes_manage.png) ![Content menu](../Assets/Images/gui_menu_content.png) ![Windows menu](../Assets/Images/gui_menu_windows.png)|
+|:-------------------------------------------------------------------------------------------------------------------------:|
+|*Contenido de los menús **Fichero**, **Contenido** y **Ventanas***|
+

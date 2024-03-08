@@ -1,8 +1,8 @@
 ---
-title: Ejemplos de fusión
+title: Fusión de datos espectrales
 layout: default
-parent: Manual de usuario
-nav_order: 4
+parent: Casos de uso y ejemplos
+nav_order: 1
 ---
 
 # Térmica

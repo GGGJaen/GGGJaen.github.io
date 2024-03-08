@@ -1,9 +1,10 @@
+<!--
 ---
 
 title: Segmentación de individuos
 layout: default
-parent: Manual de usuario
-nav_order: 5
+parent: Casos de uso y ejemplos
+nav_order: 2
 
 ---
 
@@ -21,7 +22,7 @@ En primer lugar, debe seleccionarse la imagen aérea de la zona que se busca seg
 * **Kernel de dilatación**: Empleando el botón junto al parámetro anterior, puede editarse cada valor de la matriz. Por defecto, todas las celdas se establecen a 1.
 * **Iteraciones de dilatación**: Número de veces que se aplicará la dilatación sobre la imagen. Valores más altos distorsionan más la imagen.
 
-![image](https://github.com/allopezr/GEU/assets/48591541/c6b1d3c6-aaab-45da-8cc0-613b9742a1bb)
+![image](../Assets/Images/segment_input.png)
 
 ## Búsqueda y gestión de regiones
 
@@ -31,7 +32,7 @@ Como método de filtrado, se facilita un rango de tamaño para las regiones enco
 
 Finalmente, el procedimiento de segmentación evalúa la imagen y genera las regiones de interés, mostrándolas sobre la previsualización como rectángulos. Al ser un proceso ciertamente impreciso en estas situaciones, se facilitan herramientas para la gestión de regiones, pudiendo añadir, mover o eliminar regiones manualmente mediante el cursor.
 
-![image](https://github.com/allopezr/GEU/assets/48591541/a86e0edd-21ef-47d8-a2e3-d171ea8c5134)
+![image](../Assets/Images/segment_areas.png)
 
 ## Subida a base de datos
 
@@ -39,4 +40,5 @@ Con todas las regiones establecidas, los resultados pueden subirse a la base de 
 
 La zona en que se encuentran los individuos puede asignarse manualmente consultando la base de datos, o de forma automática según las coordenadas geográficas anteriores. Cuando toda la información ha sido asignada, los datos podrán subirse a la base de datos remota.
 
-![image](https://github.com/allopezr/GEU/assets/48591541/981deb81-ad21-4cab-91e3-12ed77bcfca8)
+![image](../Assets/Images/segment_upload.png)
+ -->

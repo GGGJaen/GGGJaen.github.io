@@ -27,10 +27,14 @@ En todo momento, la aplicación mantiene un listado con las escenas activas, hab
 
 Para la gestión y manejo del contenido de la escena activa, se recurre principalmente a la ventana de inspector, desde la que se podrán añadir, eliminar y ajustar los elementos cargados. El listado de elementos se presenta categorizado en varias secciones:
 
-* **Cámaras**: Cámaras de renderizado disponibles (solo 1 es la cámara activa).
-* **Luces**: Luces de la escena para los cálculos de *shader*.
-* **Modelos**: Modelos 3D importados desde ficheros “.obj”.
-* **Nubes de puntos**: Nubes de puntos importadas desde ficheros “.ply”.
-* **Imágenes**: Imágenes raster importadas desde ficheros “.png”.
+* **Cámaras**: Cámaras de renderizado disponibles (siempre debe existir una cámara activa).
+* **Luces**: Luces de la escena para los cálculos de iluminación y sombreado.
+* **Modelos**: Modelos 3D importados desde ficheros OBJ.
+* **Nubes de puntos**: Nubes de puntos importadas desde ficheros PLY o LAS/LAZ.
+* **Imágenes**: Imágenes raster importadas desde ficheros PNG.
+
+|![Inspector y detalles de la escena](../Assets/Images/scenes_inspector.png)|
+|:-:|
+|Ventanas **Inspector** y **Detalles** de una escena|
 
 Seleccionando cualquier elemento del listado (mediante el botón principal del ratón), se activará la ventana *detalles* con la información y parámetros de tal elemento. Para añadir un nuevo elemento, existen dos alternativas: desde el menú *contenido* de la barra superior, o bien con el botón secundario del ratón sobre el interior de la ventana *inspector*. Para eliminar un elemento, basta con seleccionarlo usando el botón secundario en el listado, y aparecerá un menú contextual con la opción de eliminar (en casos concretos, esta opción estará deshabilitada: por ejemplo, al tratar de eliminar la última cámara de la escena; siempre debe haber al menos una cámara activa).
