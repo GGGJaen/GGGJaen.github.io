@@ -1,0 +1,7 @@
+<map id="GEU::Renderer::getCamera" name="GEU::Renderer::getCamera">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,47,408,73"/>
+<area shape="rect" id="Node000002" href="$d5/da0/class_g_e_u_1_1_camera_axis_window.html#ac9608b6606430f76acf096b429d1d1dd" title="Renders the window and contents." alt="" coords="5,5,180,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,47,180,42,181,37,213,42"/>
+<area shape="rect" id="Node000003" href="$da/d81/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74" title="Renders the window and contents." alt="" coords="14,72,171,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,78,172,84,171,79,212,73"/>
+</map>

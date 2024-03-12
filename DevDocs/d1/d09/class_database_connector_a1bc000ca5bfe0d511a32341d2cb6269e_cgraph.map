@@ -1,0 +1,9 @@
+<map id="DatabaseConnector::getDronesAsync" name="DatabaseConnector::getDronesAsync">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,149,48"/>
+<area shape="rect" id="Node000002" href="$d1/d09/class_database_connector.html#a6a967887fbbc355e694f44195bf634dd" title=" " alt="" coords="197,5,340,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,24,181,24,181,29,149,29"/>
+<area shape="rect" id="Node000003" href="$d1/d09/class_database_connector.html#ac90222fa0a3af98aea6a087b90ac0c38" title=" " alt="" coords="388,5,531,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="340,24,373,24,373,29,340,29"/>
+<area shape="rect" id="Node000004" href="$d5/df8/struct_database_1_1_dron.html#a22c42fcba00cfed433b63571d8c9a6ec" title=" " alt="" coords="579,13,759,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="532,24,564,24,564,29,532,29"/>
+</map>

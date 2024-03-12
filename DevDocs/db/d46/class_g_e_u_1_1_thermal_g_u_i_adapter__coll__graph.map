@@ -1,0 +1,9 @@
+<map id="GEU::ThermalGUIAdapter" name="GEU::ThermalGUIAdapter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,280,176,307"/>
+<area shape="rect" id="Node000002" href="$d8/d88/class_g_e_u_1_1_interface_adapter.html" title="Adapter pattern for GUI windows and functionality." alt="" coords="15,204,166,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,246,93,280,88,280,88,246"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="51,97,130,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,139,93,204,88,204,88,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="28,5,153,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,64,93,97,88,97,88,64"/>
+</map>

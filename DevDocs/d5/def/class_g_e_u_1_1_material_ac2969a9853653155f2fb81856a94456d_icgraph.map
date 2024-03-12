@@ -1,0 +1,9 @@
+<map id="GEU::Material::getAssociatedShader" name="GEU::Material::getAssociatedShader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,72,422,115"/>
+<area shape="rect" id="Node000002" href="$d0/d9a/class_g_e_u_1_1_basic_attenuation.html#a93d6c9b94c628e860063e74518855e2d" title=" " alt="" coords="14,5,171,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,70,169,51,170,46,235,65"/>
+<area shape="rect" id="Node000003" href="$d3/d29/class_g_e_u_1_1_distance_attenuation.html#aee69d9ebbf087519fec7d40dd69549b3" title=" " alt="" coords="5,72,180,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,96,180,96,180,91,212,91"/>
+<area shape="rect" id="Node000004" href="$d5/d6e/class_g_e_u_1_1_pixar_attenuation.html#a5ac7dbf3e4e84bc921d2c5525ef087c4" title=" " alt="" coords="16,139,169,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,122,170,141,169,135,233,117"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="unibn::Octree&lt; PointT, ContainerT &gt;" name="unibn::Octree&lt; PointT, ContainerT &gt;">
+<area shape="rect" id="Node000001" title="Index&#45;based Octree implementation offering different queries and insertion/removal of points." alt="" coords="284,125,436,168"/>
+<area shape="rect" id="Node000002" href="$dc/dff/structunibn_1_1_octree_params.html" title=" " alt="" coords="9,5,154,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,35,159,42,247,83,321,122,318,127,244,88,157,46,141,40"/>
+<area shape="rect" id="Node000003" href="$da/df3/classunibn_1_1_octree_1_1_octant.html" title=" " alt="" coords="5,96,158,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,124,284,136,283,141,173,130"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="57,78,66,72,81,69,96,71,106,77,110,86,109,96,104,95,105,87,102,81,94,76,82,75,68,77,60,83"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="10,163,153,189"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="168,164,259,155,283,152,284,157,260,160,169,170"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="6,213,157,240"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="172,208,259,185,310,166,312,171,260,191,173,213"/>
+</map>

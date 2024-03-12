@@ -1,0 +1,15 @@
+<map id="AutoUpdater::checkForUpdate" name="AutoUpdater::checkForUpdate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,68,202,95"/>
+<area shape="rect" id="Node000002" href="$de/de6/class_g_e_u_1_1_g_u_i.html#a7b3101bbac98cc31f1d02eea41cda857" title="Inserts new popup window to queue." alt="" coords="278,5,424,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,65,279,34,281,39,160,70"/>
+<area shape="rect" id="Node000003" href="$d1/df9/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="500,60,697,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,86,484,86,484,92,202,91"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="202,71,484,71,484,76,202,77"/>
+<area shape="rect" id="Node000004" href="$d2/dfb/class_g_e_u_1_1_n_a_s_session.html#aab7e02581d64801797d4e1799c0a4137" title="Downloads remote file to a string." alt="" coords="250,131,452,173"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="154,93,260,123,258,128,152,98"/>
+<area shape="rect" id="Node000006" href="$d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6" title="Handles NAS login API request." alt="" coords="268,197,434,224"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="122,93,176,137,212,162,251,183,267,190,265,195,249,188,210,166,173,142,118,97"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="428,127,506,105,507,110,429,133"/>
+<area shape="rect" id="Node000005" href="$d2/d0c/class_locale_strings.html#a90f2903c439af79e6af28892f8f9c139" title=" " alt="" coords="519,139,679,165"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="453,149,503,149,503,155,453,155"/>
+</map>

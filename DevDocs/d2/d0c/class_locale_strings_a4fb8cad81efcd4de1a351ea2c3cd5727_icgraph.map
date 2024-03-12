@@ -1,0 +1,9 @@
+<map id="LocaleStrings::setLocale" name="LocaleStrings::setLocale">
+<area shape="rect" id="Node000001" title="Changes active locale." alt="" coords="404,47,568,73"/>
+<area shape="rect" id="Node000002" href="$da/dc4/class_g_e_u_1_1_settings_window.html#a3ab87976735bc5f078274776e9b7dc9a" title="imgui.ini userdata value line reader" alt="" coords="205,5,356,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="388,47,356,42,357,36,389,42"/>
+<area shape="rect" id="Node000004" href="$da/dc4/class_g_e_u_1_1_settings_window.html#a7af9db6d6ad56c4c4fc336251024472f" title="Renders the window and contents." alt="" coords="205,72,356,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="389,78,357,84,356,78,388,73"/>
+<area shape="rect" id="Node000003" href="$da/dc4/class_g_e_u_1_1_settings_window.html#a8bced2d758f62c2a0ab5b36cf4b25d02" title=" " alt="" coords="5,5,157,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,29,157,29,157,24,189,24"/>
+</map>

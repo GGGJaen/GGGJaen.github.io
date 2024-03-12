@@ -1,0 +1,5 @@
+<map id="RandomUtilities::getUniformRandomColor" name="RandomUtilities::getUniformRandomColor">
+<area shape="rect" id="Node000001" title="Generates a random color in [0, 1] by using getUniformRandom function for each channel." alt="" coords="5,5,188,48"/>
+<area shape="rect" id="Node000002" href="$da/dbb/namespace_random_utilities.html#a4cf0f50c9dd47572244ddb4f8a1e6d84" title=" " alt="" coords="236,5,418,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,24,220,24,220,29,188,29"/>
+</map>

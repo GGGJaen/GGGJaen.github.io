@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$d8/d88/class_g_e_u_1_1_interface_adapter.html" title="Adapter pattern for GUI windows and functionality." alt="" coords="5,56,157,83"/>
+<area shape="rect" id="Node000001" href="$de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html" title=" " alt="" coords="205,5,410,32"/>
+<area shape="poly" id="edge23_Node000000_Node000001" title=" " alt="" coords="158,49,244,30,245,35,159,55"/>
+<area shape="rect" id="Node000002" href="$d1/dd3/class_g_e_u_1_1_thermal_g_u_i_adapter.html" title=" " alt="" coords="222,56,393,83"/>
+<area shape="poly" id="edge24_Node000000_Node000002" title=" " alt="" coords="172,67,222,67,222,72,172,72"/>
+<area shape="rect" id="Node000003" href="$d4/d3f/class_normales_g_u_i_adapter.html" title=" " alt="" coords="236,107,379,133"/>
+<area shape="poly" id="edge25_Node000000_Node000003" title=" " alt="" coords="159,84,245,103,244,109,158,89"/>
+</map>

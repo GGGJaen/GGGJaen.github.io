@@ -1,0 +1,19 @@
+<map id="GEU::GuiUtilities::BeginCombo" name="GEU::GuiUtilities::BeginCombo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="455,172,583,215"/>
+<area shape="rect" id="Node000002" href="$db/d50/class_g_e_u_1_1_details_window.html#a241455ad0e5a659831aa86d3182b9551" title="Renders inspector details for camera items." alt="" coords="210,5,394,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="495,160,457,110,433,84,406,62,385,51,388,46,408,58,436,80,461,106,499,157"/>
+<area shape="rect" id="Node000004" href="$db/d50/class_g_e_u_1_1_details_window.html#addd0dc775ee807e26a5936815ad411b8" title=" " alt="" coords="209,72,395,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="472,166,406,129,377,118,379,113,408,124,475,161"/>
+<area shape="rect" id="Node000005" href="$db/d50/class_g_e_u_1_1_details_window.html#a9edcfff4507d107037e9f7500a3d6717" title="Renders inspector details for point cloud items." alt="" coords="211,139,393,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="439,184,393,177,393,171,440,179"/>
+<area shape="rect" id="Node000006" href="$d2/d4d/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb" title="Renders the window and contents." alt="" coords="197,205,407,248"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="440,208,408,213,407,208,439,203"/>
+<area shape="rect" id="Node000007" href="$d9/db1/class_g_e_u_1_1_picking_window.html#a56f55b34996a68d41418a2df8ea008db" title="Renders the window and contents." alt="" coords="229,272,375,315"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="475,225,408,262,376,275,374,270,406,258,472,221"/>
+<area shape="rect" id="Node000008" href="$da/dc4/class_g_e_u_1_1_settings_window.html#a7af9db6d6ad56c4c4fc336251024472f" title="Renders the window and contents." alt="" coords="226,339,378,381"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="499,230,461,281,436,307,408,329,379,344,376,339,406,324,433,303,457,277,495,226"/>
+<area shape="rect" id="Node000003" href="$db/d50/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,72,149,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="214,55,150,75,148,70,212,50"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="194,96,149,96,149,91,194,91"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="212,136,148,117,150,112,214,131"/>
+</map>

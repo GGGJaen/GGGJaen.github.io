@@ -1,0 +1,9 @@
+<map id="GEU::MultiespectralGUIAdapter" name="GEU::MultiespectralGUIAdapter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,280,211,307"/>
+<area shape="rect" id="Node000002" href="$d8/d88/class_g_e_u_1_1_interface_adapter.html" title="Adapter pattern for GUI windows and functionality." alt="" coords="32,204,184,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,246,111,280,105,280,105,246"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="68,97,148,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,139,111,204,105,204,105,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="45,5,171,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,64,111,97,105,97,105,64"/>
+</map>

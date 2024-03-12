@@ -1,0 +1,7 @@
+<map id="GEU::I_GUIPopup" name="GEU::I_GUIPopup">
+<area shape="rect" id="Node000001" title="ImGUI popups interface adapter class." alt="" coords="5,188,132,215"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,97,108,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,140,71,187,66,187,66,140"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="6,5,131,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="71,64,71,97,66,97,66,64"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="GEU::VAO::Point::get8BitRGBColor" name="GEU::VAO::Point::get8BitRGBColor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="484,56,656,99"/>
+<area shape="rect" id="Node000002" href="$d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a4234196f8be419dba1c3ca4468adaa02" title="Packs an RGB color into an unsigned value." alt="" coords="251,13,436,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,57,406,43,407,38,469,52"/>
+<area shape="rect" id="Node000004" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a1a270d2f19a07085ce98eca86d30869a" title="Sustituye el vector actual del color indicado por el nuevo." alt="" coords="255,64,432,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="468,80,432,80,432,75,468,75"/>
+<area shape="rect" id="Node000005" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a555018876cbe1c71475f0e940491878f" title="Sustituye el vector actual del color indicado por el nuevo." alt="" coords="255,115,432,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="469,103,407,117,406,111,468,97"/>
+<area shape="rect" id="Node000003" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a392fef4e156fe3823ce2b8333743ffa4" title=" " alt="" coords="5,5,203,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,29,203,29,203,24,235,24"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="AABB::min" name="AABB::min">
+<area shape="rect" id="Node000001" title=" " alt="" coords="467,55,553,81"/>
+<area shape="rect" id="Node000002" href="$db/d50/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="220,5,419,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,58,419,51,420,46,452,53"/>
+<area shape="rect" id="Node000003" href="$dc/d47/class_a_a_b_b.html#ac7df26fada02a660519ce8829eec1bf2" title=" " alt="" coords="267,96,372,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="452,83,373,101,372,95,451,78"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="352,83,341,77,319,75,299,77,289,81,286,87,291,94,287,97,281,87,285,78,298,71,319,69,342,72,354,78"/>
+<area shape="rect" id="Node000004" href="$d9/db1/class_g_e_u_1_1_picking_window.html#a898e5f19fa3ef08a325e02d15e15532f" title=" " alt="" coords="15,55,162,97"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,102,162,89,162,84,252,97"/>
+<area shape="rect" id="Node000005" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a2cb34ca60b228ed4e5472a8fa5590841" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="5,121,172,164"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="252,122,173,133,172,128,251,116"/>
+</map>

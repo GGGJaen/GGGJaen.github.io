@@ -1,0 +1,22 @@
+<map id="GEU::MaterialsWindow::renderWindow" name="GEU::MaterialsWindow::renderWindow">
+<area shape="rect" id="Node000001" title="Renders the window and contents." alt="" coords="5,211,162,253"/>
+<area shape="rect" id="Node000002" href="$d8/dbd/class_g_e_u_1_1_material_list.html#ad6d2a1664119ab7e1e93caa28f69c170" title=" " alt="" coords="241,5,374,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,209,136,135,169,94,208,58,226,47,228,52,211,62,173,98,141,138,97,212"/>
+<area shape="rect" id="Node000003" href="$d8/dbd/class_g_e_u_1_1_material_list.html#a046fac4bb0e03659ab2a9e29bb15f490" title=" " alt="" coords="241,72,374,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,208,152,170,208,131,231,119,233,124,211,136,155,174,110,212"/>
+<area shape="rect" id="Node000004" href="$dc/d53/class_g_e_u_1_1_i___g_u_i_window.html#aebb42760f87240d85f4c747312740ec5" title=" " alt="" coords="210,189,405,216"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,219,194,215,194,220,163,224"/>
+<area shape="rect" id="Node000005" href="$d1/df9/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="453,131,655,173"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="124,208,164,190,209,175,267,163,326,155,438,148,438,153,327,160,268,168,210,180,166,195,126,213"/>
+<area shape="rect" id="Node000007" href="$da/d81/class_g_e_u_1_1_inspector_window.html#a588d2705683680efdf36f8435c7bf8a5" title="Checks if item parameters equals to currently selected item." alt="" coords="229,240,386,283"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="163,240,214,246,213,252,162,245"/>
+<area shape="rect" id="Node000008" href="$db/d50/class_g_e_u_1_1_details_window.html#a9953ff27c2344fe179d9c229628b70da" title="Resets shader details indices to default." alt="" coords="231,307,384,349"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="126,252,211,292,226,298,224,303,209,297,124,256"/>
+<area shape="rect" id="Node000009" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a9e9d1bf63c5c0e2c1eee6a30dc2dc83d" title=" " alt="" coords="243,373,372,416"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="103,252,148,305,178,334,211,359,230,369,228,374,208,364,175,338,144,309,99,256"/>
+<area shape="rect" id="Node000010" href="$da/d81/class_g_e_u_1_1_inspector_window.html#ae13b1a6e82ca486e2ed63f92de060e18" title="Updates inspector selection status." alt="" coords="229,440,386,483"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="95,253,112,290,137,336,170,384,211,426,217,430,214,435,208,430,166,388,132,339,107,292,90,255"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="375,186,438,173,439,178,377,191"/>
+<area shape="rect" id="Node000006" href="$d2/d0c/class_locale_strings.html#a90f2903c439af79e6af28892f8f9c139" title=" " alt="" coords="474,197,634,224"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="406,203,458,205,458,210,405,209"/>
+</map>

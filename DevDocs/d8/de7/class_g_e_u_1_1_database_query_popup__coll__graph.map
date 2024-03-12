@@ -1,0 +1,12 @@
+<map id="GEU::DatabaseQueryPopup" name="GEU::DatabaseQueryPopup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="60,279,245,305"/>
+<area shape="rect" id="Node000002" href="$df/ddd/class_g_e_u_1_1_i___g_u_i_popup.html" title="ImGUI popups interface adapter class." alt="" coords="5,188,132,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,224,142,276,139,280,89,228"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="113,97,192,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,138,82,189,79,186,128,134"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="156,188,320,215"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="177,133,228,186,224,189,173,137"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="90,5,215,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="155,64,155,97,150,97,150,64"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="217,228,167,280,163,276,213,224"/>
+</map>

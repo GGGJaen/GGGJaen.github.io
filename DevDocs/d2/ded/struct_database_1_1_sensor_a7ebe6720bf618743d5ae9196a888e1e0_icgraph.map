@@ -1,0 +1,7 @@
+<map id="Database::Sensor::fromQuery" name="Database::Sensor::fromQuery">
+<area shape="rect" id="Node000001" title=" " alt="" coords="197,47,390,73"/>
+<area shape="rect" id="Node000002" href="$d1/d09/class_database_connector.html#a28d7a210ebba53972eb7ce3d01938673" title=" " alt="" coords="5,5,149,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,46,149,40,150,35,188,41"/>
+<area shape="rect" id="Node000003" href="$d1/d09/class_database_connector.html#a65a59fd6110558b507ba789eb1f2a0dd" title=" " alt="" coords="5,72,149,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,79,150,85,149,80,187,74"/>
+</map>

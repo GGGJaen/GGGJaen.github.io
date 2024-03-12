@@ -1,0 +1,26 @@
+<map id="GEU::ImageTreeSegmentation" name="GEU::ImageTreeSegmentation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1230,172,1428,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="586,9,797,52"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="812,19,902,19,1003,27,1107,45,1158,60,1207,79,1242,99,1274,124,1318,169,1314,173,1270,128,1239,103,1205,84,1157,65,1106,50,1002,32,901,24,812,24"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="180,108,259,135"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,99,283,89,360,69,440,54,585,35,586,41,441,59,362,74,284,95,260,104"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="621,68,762,111"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="275,115,621,91,621,97,275,120"/>
+<area shape="rect" id="Node000006" href="$dc/d36/class_g_e_u_1_1_texture.html" title=" " alt="" coords="876,144,976,171"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="275,132,365,147,510,157,654,161,875,157,875,162,654,166,510,162,364,152,274,137"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="384,204,542,247"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="240,145,260,169,285,188,333,208,384,218,383,224,332,213,282,193,256,173,236,149"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,100,131,143"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="146,119,179,119,179,124,146,124"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="777,78,867,74,976,75,1092,86,1151,96,1207,111,1238,123,1267,138,1312,169,1309,174,1264,143,1235,128,1206,116,1150,102,1092,91,975,81,867,79,777,84"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="991,159,1230,176,1230,181,991,164"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="557,218,672,208,796,188,820,180,875,166,876,171,822,185,798,193,673,213,558,224"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="866,195,985,221"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="1001,208,1099,209,1206,204,1260,197,1260,202,1207,209,1099,214,1001,214"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="884,245,967,272"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="983,256,1087,249,1147,242,1206,231,1255,215,1298,197,1301,202,1257,220,1207,236,1148,247,1088,255,983,261"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="821,296,1030,339"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="1045,310,1126,298,1166,287,1205,274,1238,257,1267,236,1312,197,1316,201,1271,240,1240,261,1207,278,1168,292,1127,303,1046,315"/>
+<area shape="rect" id="Node000011" href="$dd/d7d/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html" title=" " alt="" coords="364,296,562,339"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="577,315,821,315,821,320,577,320"/>
+</map>

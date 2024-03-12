@@ -1,0 +1,12 @@
+<map id="GEU::Model3D::getName" name="GEU::Model3D::getName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="388,64,556,91"/>
+<area shape="rect" id="Node000002" href="$db/db3/class_projection.html#a67d1978e8e05988f84b45075c63894a5" title=" " alt="" coords="211,5,326,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="408,62,317,35,318,30,409,57"/>
+<area shape="rect" id="Node000003" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a55126fb89c2cd5e8675c2632a94fd92e" title=" " alt="" coords="201,56,336,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="373,80,336,80,336,75,373,75"/>
+<area shape="rect" id="Node000004" href="$d4/d3f/class_normales_g_u_i_adapter.html#a5f2b290d502274f01fc3e9bdadfca50e" title=" " alt="" coords="197,147,340,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="427,100,319,149,317,144,425,95"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="299,133,287,128,268,125,250,127,240,132,235,138,237,146,232,147,230,137,236,128,249,122,268,120,289,122,301,129"/>
+<area shape="rect" id="Node000005" href="$d4/d3f/class_normales_g_u_i_adapter.html#ad27c678722407ed6f3d2bb41ccc2b640" title="Custom module GUI window contents." alt="" coords="5,147,149,189"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="181,171,149,171,149,165,181,165"/>
+</map>

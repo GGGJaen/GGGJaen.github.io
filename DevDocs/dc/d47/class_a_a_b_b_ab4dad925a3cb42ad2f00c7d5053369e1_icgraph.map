@@ -1,0 +1,19 @@
+<map id="AABB::dot" name="AABB::dot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="675,131,759,157"/>
+<area shape="rect" id="Node000002" href="$db/d6c/class_g_e_u_1_1_model3_d.html#ab5fdc7a938aa8ae8f6697cb4bf3e94b4" title=" " alt="" coords="457,72,627,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="665,127,626,113,591,102,592,97,628,108,667,122"/>
+<area shape="rect" id="Node000008" href="$d9/d4a/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095" title=" " alt="" coords="471,123,613,165"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="660,147,614,147,614,141,660,141"/>
+<area shape="rect" id="Node000009" href="$d9/d4a/class_g_e_u_1_1_triangle_mesh.html#af3317dd9b6bbec740f6d45d419f28feb" title=" " alt="" coords="464,189,620,232"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="666,166,601,191,599,186,664,161"/>
+<area shape="rect" id="Node000003" href="$dd/d0c/class_g_e_u_1_1_camera.html#a40576296046dd7cbeb67cfcd7bdbcba8" title=" " alt="" coords="225,13,394,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,70,365,43,366,38,472,65"/>
+<area shape="rect" id="Node000005" href="$db/d50/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="210,64,409,107"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="441,88,409,88,409,83,441,83"/>
+<area shape="rect" id="Node000006" href="$d4/d3f/class_normales_g_u_i_adapter.html#a32cec8b0ea288f27e15946d5a4ea3728" title=" " alt="" coords="238,131,381,173"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="479,106,382,134,381,129,477,101"/>
+<area shape="rect" id="Node000004" href="$da/d81/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74" title="Renders the window and contents." alt="" coords="5,5,162,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="209,29,162,29,162,24,209,24"/>
+<area shape="rect" id="Node000007" href="$d4/d3f/class_normales_g_u_i_adapter.html#ad27c678722407ed6f3d2bb41ccc2b640" title="Custom module GUI window contents." alt="" coords="12,131,155,173"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="222,155,156,155,156,149,222,149"/>
+</map>

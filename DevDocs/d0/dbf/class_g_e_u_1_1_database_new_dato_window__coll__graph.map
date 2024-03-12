@@ -1,0 +1,9 @@
+<map id="GEU::DatabaseNewDatoWindow" name="GEU::DatabaseNewDatoWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,264,216,291"/>
+<area shape="rect" id="Node000002" href="$dc/d53/class_g_e_u_1_1_i___g_u_i_window.html" title="ImGUI window interface adapter class." alt="" coords="43,188,178,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,230,113,264,108,264,108,230"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="71,97,150,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,140,113,187,108,187,108,140"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="48,5,173,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,64,113,97,108,97,108,64"/>
+</map>

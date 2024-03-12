@@ -1,0 +1,9 @@
+<map id="GEU::GuiUtilities::makeLocButton" name="GEU::GuiUtilities::makeLocButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="259,72,387,115"/>
+<area shape="rect" id="Node000002" href="$de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d" title="Custom module GUI window contents." alt="" coords="5,5,211,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,72,178,51,180,46,245,66"/>
+<area shape="rect" id="Node000003" href="$d1/dd3/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a1509f8f0d21826efa7cc133bbd190931" title="Custom module GUI window contents." alt="" coords="23,72,193,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,96,194,96,194,91,243,91"/>
+<area shape="rect" id="Node000004" href="$d2/da0/class_g_e_u_1_1_database_new_raw_popup.html#aabf3be0d95c567d3b439cdae51edc79e" title="Renders the popup and its contents." alt="" coords="8,139,208,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,120,180,141,178,135,243,115"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="GEU::CameraAxisWindow" name="GEU::CameraAxisWindow">
+<area shape="rect" id="Node000001" title="Camera&#45;based axis window: shows world axis relative to camera movements." alt="" coords="5,264,180,291"/>
+<area shape="rect" id="Node000002" href="$dc/d53/class_g_e_u_1_1_i___g_u_i_window.html" title="ImGUI window interface adapter class." alt="" coords="25,188,160,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,230,95,264,90,264,90,230"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="53,97,132,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,140,95,187,90,187,90,140"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="30,5,155,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,64,95,97,90,97,90,64"/>
+</map>

@@ -1,0 +1,40 @@
+<map id="GEU::GuiUtilities::makeButton" name="GEU::GuiUtilities::makeButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="502,301,630,344"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="600,288,587,282,566,280,546,282,534,287,530,293,531,300,526,301,525,291,531,282,545,277,566,275,589,277,602,283"/>
+<area shape="rect" id="Node000002" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a1c14068c48b831ee9b2f4300deb80e13" title=" " alt="" coords="291,139,422,181"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="541,290,503,241,479,217,453,196,421,180,424,175,455,191,483,213,507,238,545,287"/>
+<area shape="rect" id="Node000006" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#af5e9fa24f47a96b09eb235cbf0956e7b" title=" " alt="" coords="289,205,424,248"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="516,296,453,262,424,251,426,246,455,258,519,291"/>
+<area shape="rect" id="Node000008" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a51f7b03162a92f79594e82e1aca62133" title=" " alt="" coords="292,272,421,315"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="486,314,421,305,421,300,487,309"/>
+<area shape="rect" id="Node000009" href="$de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d" title="Custom module GUI window contents." alt="" coords="5,335,211,377"/>
+<area shape="poly" id="edge20_Node000001_Node000009" title=" " alt="" coords="487,331,211,351,211,346,486,326"/>
+<area shape="rect" id="Node000010" href="$d1/dd3/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a1509f8f0d21826efa7cc133bbd190931" title="Custom module GUI window contents." alt="" coords="23,401,193,444"/>
+<area shape="poly" id="edge21_Node000001_Node000010" title=" " alt="" coords="487,345,455,353,194,409,193,403,453,348,486,340"/>
+<area shape="rect" id="Node000011" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a275a16f7f31031ade260bdd899b53109" title=" " alt="" coords="292,5,421,48"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="556,286,545,236,525,176,495,115,475,87,452,62,420,42,422,38,456,58,479,83,499,112,530,174,550,235,562,285"/>
+<area shape="rect" id="Node000012" href="$d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#afc5e6623a13133c49738b38d29e2d7bd" title=" " alt="" coords="292,72,421,115"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="551,288,536,251,515,208,487,165,452,129,419,110,422,105,456,125,491,162,520,205,541,248,556,286"/>
+<area shape="rect" id="Node000013" href="$de/de6/class_g_e_u_1_1_g_u_i.html#af7ebc89aa431e3a9e86bb1424b819d47" title="Draws ImGUI elements." alt="" coords="295,440,418,467"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="537,357,500,392,455,424,413,442,411,437,453,419,497,387,534,353"/>
+<area shape="rect" id="Node000014" href="$d4/d3f/class_normales_g_u_i_adapter.html#ad27c678722407ed6f3d2bb41ccc2b640" title="Custom module GUI window contents." alt="" coords="285,491,428,533"/>
+<area shape="poly" id="edge22_Node000001_Node000014" title=" " alt="" coords="550,359,512,421,486,453,456,481,430,496,427,491,452,477,482,449,508,418,546,357"/>
+<area shape="rect" id="Node000015" href="$db/dac/class_g_e_u_1_1_info_popup.html#a159ea5e5a4c7240aaa3592082d39e008" title="Renders the popup and its contents." alt="" coords="259,557,454,584"/>
+<area shape="poly" id="edge23_Node000001_Node000015" title=" " alt="" coords="559,360,546,403,525,454,495,504,477,527,456,547,437,559,434,554,452,543,473,524,491,501,520,452,541,401,554,358"/>
+<area shape="rect" id="Node000003" href="$d3/d7c/class_g_e_u_1_1_confirm_popup.html#a82f88c00c88912fb0beab3db3dcccdf0" title="Renders the popup and its contents." alt="" coords="35,68,181,111"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="275,140,181,113,182,108,277,135"/>
+<area shape="rect" id="Node000004" href="$d2/da0/class_g_e_u_1_1_database_new_raw_popup.html#aabf3be0d95c567d3b439cdae51edc79e" title="Renders the popup and its contents." alt="" coords="8,201,208,244"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="276,183,196,203,195,198,275,178"/>
+<area shape="rect" id="Node000005" href="$d7/dbe/class_g_e_u_1_1_database_query_popup.html#a22764a8a53570961466432ac856eb4fc" title="Renders the popup and its contents." alt="" coords="16,135,200,177"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="275,161,201,160,201,155,275,156"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="273,206,257,195,240,177,232,159,224,142,209,125,180,109,183,104,212,121,229,139,237,157,245,174,260,191,276,201"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="274,228,208,227,208,222,274,223"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="273,206,185,180,186,175,275,201"/>
+<area shape="rect" id="Node000007" href="$d9/d8f/class_g_e_u_1_1_p_cloud_classify_popup.html#a7f59ae3b46b461ced5c0fef7e89f37a3" title="Renders the popup and its contents." alt="" coords="17,268,199,311"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="274,250,196,270,195,265,273,245"/>
+<area shape="poly" id="edge14_Node000008_Node000004" title=" " alt="" coords="277,274,185,247,186,242,278,268"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="278,316,196,337,195,331,276,311"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="317,326,268,360,212,392,185,403,183,398,209,387,265,355,313,322"/>
+<area shape="poly" id="edge16_Node000011_Node000003" title=" " alt="" coords="278,49,182,74,181,68,276,44"/>
+<area shape="poly" id="edge18_Node000012_Node000003" title=" " alt="" coords="277,95,181,93,182,88,277,89"/>
+</map>

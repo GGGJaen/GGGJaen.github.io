@@ -1,0 +1,7 @@
+<map id="GEU::I_GUIWindow" name="GEU::I_GUIWindow">
+<area shape="rect" id="Node000001" title="ImGUI window interface adapter class." alt="" coords="5,188,141,215"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="33,97,113,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,140,76,187,70,187,70,140"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="10,5,136,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,64,76,97,70,97,70,64"/>
+</map>
