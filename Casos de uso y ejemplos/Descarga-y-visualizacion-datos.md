@@ -21,7 +21,11 @@ Después de iniciar sesión con sus credenciales de usuario o las credenciales p
 
 ## Consulta y descarga de datos
 
-En este ejemplo, utilizaremos los datos de la finca **J1**. Concretamente, buscaremos la nube de puntos RGB generada mediante SfM para cargarla y visualizarla en GEU. Seleccionando la opción *Descargar* del menú de la base de datos, aparecerá la ventana de consulta con los distintos filtros posibles:
+En este ejemplo, utilizaremos los datos de la finca **J1**. Concretamente, buscaremos la nube de puntos RGB generada mediante SfM para cargarla y visualizarla en GEU. En la siguiente imagen se etiqueta cada paso a seguir al rellenar el formulario con los filtros para la consulta, detallando a continuación cada una de estas secciones:
+
+1. **Fecha, Tipo y Distintivo**: Filtros básicos para limitar los resultados según una fecha, tipo de dato o distintivo concretos. En el caso de la fecha, debe activarse la casilla **¿Usar filtro?** para que tenga efecto al realizar la consulta.
+2. **Zona**: Filtro sobre el lugar de toma del dato, detallado a nivel de *Provincia*, *Municipio*, o *Zona* concreta. Al igual que la fecha, debe activarse la casilla **¿Usar filtro?** para que tenga efecto. La información de los desplegable se obtiene automáticamente al abrir esta ventana, limitando los posibles valores a aquellos contemplados en la base de datos.
+3. **Selección**: Tras encontrar el dato deseado, basta con seleccionarlo en el listado mediante clic principal del ratón y se activará el botón **Confirmar**. Utilizando este botón comenzará la descarga del dato.
 
 ![Ventana de consulta sobre la base de datos](../Assets/Images/downloaddata_query.png)
 

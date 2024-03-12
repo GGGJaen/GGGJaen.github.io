@@ -8,10 +8,9 @@ nav_order: 4
 
 Además de poder trabajar con ficheros ubicados en el sistema, GEU permite establecer conexión con un servidor NAS y la base de datos asociados al grupo. De esta manera, podrá descargar los datos necesarios para aplicar cualquier operación sobre ellos y, posteriormente, subir los resultados para que sean accesibles por el resto de usuarios.
 
-![Iconos de estado de las conexiones remotas en GEU (desconectado)](../Assets/Images/remote_disconected.png)
-
-![Iconos de estado de las conexiones remotas en GEU (conectado)](../Assets/Images/remote_connected.png)
-
+|![Iconos de estado de las conexiones remotas en GEU (desconectado)](../Assets/Images/remote_disconected.png) ![Iconos de estado de las conexiones remotas en GEU (conectado)](../Assets/Images/remote_connected.png)|
+|:-:|
+|Iconos de estado de las conexiones remotas en GEU (desconectado a la izquierda, conectado a la derecha)|
 
 El estado de ambas conexiones queda siempre visible desde la barra de menú superior, donde un círculo rojo indicará que no se ha iniciado sesión y un círculo con un punto en su interior verde representa una conexión establecida correctamente. Cualquier operación que requiera la subida o descarga de datos requiere la conexión a ambos servidores.
 
