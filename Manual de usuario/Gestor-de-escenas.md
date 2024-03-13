@@ -5,6 +5,12 @@ parent: Manual de usuario
 nav_order: 3
 ---
 
+- [Gestor de escenas](#gestor-de-escenas)
+  - [Manejo de escenas](#manejo-de-escenas)
+  - [Contenidos de escenas](#contenidos-de-escenas)
+    - [Funciones básicas](#funciones-básicas)
+
+
 # Gestor de escenas
 
 La interfaz gráfica de usuario principal de la aplicación se basa en un gestor/inspector de escenas, similar al que proponen motores gráficos como *Unity* ([Jerarquía](https://docs.unity3d.com/Manual/Hierarchy.html); [Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html)) o herramientas como *Blender* ([Outliner](https://docs.blender.org/manual/en/2.80/editors/outliner.html)). Cada ventana es ajustable dentro de la ventana principal, pudiendo también acoplar varias vistas en una única ventana con pestañas ([docking](https://github.com/ocornut/imgui/issues/2109)).
@@ -37,4 +43,18 @@ Para la gestión y manejo del contenido de la escena activa, se recurre principa
 |:-:|
 |Ventanas **Inspector** y **Detalles** de una escena|
 
-Seleccionando cualquier elemento del listado (mediante el botón principal del ratón), se activará la ventana *detalles* con la información y parámetros de tal elemento. Para añadir un nuevo elemento, existen dos alternativas: desde el menú *contenido* de la barra superior, o bien con el botón secundario del ratón sobre el interior de la ventana *inspector*. Para eliminar un elemento, basta con seleccionarlo usando el botón secundario en el listado, y aparecerá un menú contextual con la opción de eliminar (en casos concretos, esta opción estará deshabilitada: por ejemplo, al tratar de eliminar la última cámara de la escena; siempre debe haber al menos una cámara activa).
+### Funciones básicas
+
+* Seleccionando cualquier elemento del listado (botón principal del ratón) en el <ins>inspector</ins>, se actualizará la ventana de <ins>detalles</ins> sobre el elemento en cuestión. Para modelos 3D y nubes de puntos, puede hacer doble clic con el botón principal sobre el objeto en el <ins>inspector</ins>, la cámara activa se posicionará próxima al objeto en el espacio para su visualización.
+* Para añadir un nuevo elemento, existen dos alternativas: desde el menú <ins>**Contenido**</ins> de la barra superior, o bien con el botón secundario del ratón sobre el interior de la ventana <ins>inspector</ins>.
+
+|![Menú contextual para añadir objetos a la escena](../Assets/Images/scenes_newinspector.png)|
+|:-:|
+|Menú contextual para añadir objetos a la escena|
+
+* Para eliminar un elemento, basta con seleccionarlo usando el botón secundario del ratón sobre éste en el <ins>inspector</ins>, con lo que aparecerá un menú contextual que incluye la opción de borrado. En casos concretos, esta opción puede estar deshabilitada según el tipo y estado del objeto: por ejemplo, no es posible borrar la última cámara virtual de la escena, pues se requiere para la visualización.
+
+|![Menú contextual para el borrado de objetos de la escena](../Assets/Images/scenes_deleteinspector.png)|
+|:-:|
+|Menú contextual para el borrado de objetos de la escena|
+

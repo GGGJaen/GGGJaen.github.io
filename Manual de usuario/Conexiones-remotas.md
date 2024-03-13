@@ -4,6 +4,11 @@ layout: default
 parent: Manual de usuario
 nav_order: 4
 ---
+
+- [Conexiones remotas](#conexiones-remotas)
+  - [Base de datos](#base-de-datos)
+
+
 # Conexiones remotas
 
 Además de poder trabajar con ficheros ubicados en el sistema, GEU permite establecer conexión con un servidor NAS y la base de datos asociados al grupo. De esta manera, podrá descargar los datos necesarios para aplicar cualquier operación sobre ellos y, posteriormente, subir los resultados para que sean accesibles por el resto de usuarios.

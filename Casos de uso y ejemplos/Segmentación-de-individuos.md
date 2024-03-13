@@ -1,11 +1,11 @@
----
+<!-- ---
 
 title: Segmentación de individuos
 layout: default
 parent: Casos de uso y ejemplos
-nav_order: 2
+nav_order: 4
 
----
+--- -->
 
 # Segmentación de individuos
 

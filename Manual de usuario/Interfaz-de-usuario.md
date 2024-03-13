@@ -5,6 +5,11 @@ parent: Manual de usuario
 nav_order: 1
 ---
 
+- [Interfaz de usuario](#interfaz-de-usuario)
+  - [Ventanas](#ventanas)
+  - [Barra superior de menú](#barra-superior-de-menú)
+
+
 # Interfaz de usuario
 
 La interfaz de usuario de GEU persigue la distribución de otros softwares de similar índole como Blender o Unity. En el lateral derecho de la imagen se pueden ver la jerarquía de la escena, con todas las entidades cargadas, clasificadas por categorías. 
@@ -23,6 +28,8 @@ Cada una de las ventanas lleva asociado un propósito específico dentro de la a
 * **Materiales**: Listado de materiales generados en la aplicación.
 * **Estadísticas**: Información general sobre el rendimiento de la aplicación.
 * **Ajustes**: Propiedades generales de la aplicación.
+
+Las ventanas **Estadísticas** y **Ajustes** presentan un funcionamiento simple y básico, y, generalmente, no será necesario su uso. Para las otras ventanas, vea la página [Gestor de escenas](/Manual%20de%20usuario/Gestor-de-escenas) para obtener más información sobre su función.
 
 ## Barra superior de menú
 
