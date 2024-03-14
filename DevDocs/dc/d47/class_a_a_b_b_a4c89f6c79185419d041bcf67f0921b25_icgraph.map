@@ -1,5 +1,15 @@
 <map id="AABB::size" name="AABB::size">
-<area shape="rect" id="Node000001" title=" " alt="" coords="220,13,309,40"/>
-<area shape="rect" id="Node000002" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a2cb34ca60b228ed4e5472a8fa5590841" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="5,5,172,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,29,172,29,172,24,204,24"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="258,164,347,191"/>
+<area shape="rect" id="Node000002" href="$dd/dcb/class_g_e_u_1_1_procedural_generator.html#a5fb6272591570506c14b2e194a9b3805" title="Initialize the voxel grid." alt="" coords="19,5,196,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,152,253,106,232,82,208,62,188,51,191,46,211,58,236,79,257,103,289,149"/>
+<area shape="rect" id="Node000003" href="$dd/d40/class_procedural_voxel.html#a0859652c3cb5e0a3f5a8ea2915b5bf2f" title=" " alt="" coords="14,72,201,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,156,243,133,209,113,178,102,180,97,211,108,246,129,276,152"/>
+<area shape="rect" id="Node000004" href="$dd/d40/class_procedural_voxel.html#a47404fa7e0f5a450f4675f058b8e6780" title=" " alt="" coords="24,123,191,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,170,191,161,192,156,243,165"/>
+<area shape="rect" id="Node000005" href="$dd/d40/class_procedural_voxel.html#adbf03535a497f92cee03cf6d7d575094" title=" " alt="" coords="5,189,210,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="243,190,211,196,210,190,242,185"/>
+<area shape="rect" id="Node000006" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a2cb34ca60b228ed4e5472a8fa5590841" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="24,256,191,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="275,203,245,225,211,246,185,258,183,253,208,242,242,221,272,199"/>
+<area shape="rect" id="Node000007" href="$dd/dcb/class_g_e_u_1_1_procedural_generator.html#ab8413581fb4ba7ab9709a72bca03ce64" title="Assign each point of the PointCloud to the corresponding voxel in the voxel grid and computes the cor..." alt="" coords="19,323,196,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="291,206,260,260,238,288,211,313,192,324,190,320,208,309,234,285,256,257,287,203"/>
 </map>

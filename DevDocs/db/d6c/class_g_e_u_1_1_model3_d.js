@@ -15,6 +15,8 @@ var class_g_e_u_1_1_model3_d =
     [ "rotate", "db/d6c/class_g_e_u_1_1_model3_d.html#ace28fc4cea011d5f99fbe870dcba4c51", null ],
     [ "saveBinaryFile", "db/d6c/class_g_e_u_1_1_model3_d.html#ad992e891520794d767a9b713bd5a8ebe", null ],
     [ "scale", "db/d6c/class_g_e_u_1_1_model3_d.html#a902c025b3445b714c7a231b5db62a9f8", null ],
+    [ "setAABB", "db/d6c/class_g_e_u_1_1_model3_d.html#a05ca3827da3786ef315ae446020650a6", null ],
+    [ "setEnable", "db/d6c/class_g_e_u_1_1_model3_d.html#a18e517825dd3fa765ecba851f8a4d57a", null ],
     [ "setPosition", "db/d6c/class_g_e_u_1_1_model3_d.html#af7493eea28693fd480d046dca3f3cd7e", null ],
     [ "setRotation", "db/d6c/class_g_e_u_1_1_model3_d.html#a38514d6a8165a6e6681072531263cd8b", null ],
     [ "setScale", "db/d6c/class_g_e_u_1_1_model3_d.html#ab8b85a6a980e34a7de1013825206349b", null ],

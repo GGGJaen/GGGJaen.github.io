@@ -9,6 +9,7 @@ var class_a_a_b_b =
     [ "dot", "dc/d47/class_a_a_b_b.html#ab4dad925a3cb42ad2f00c7d5053369e1", null ],
     [ "extent", "dc/d47/class_a_a_b_b.html#ad782b2c27b8da5ce7b01474c5b1f2228", null ],
     [ "extentLength", "dc/d47/class_a_a_b_b.html#aa64a954e8c1435f575015681f945895c", null ],
+    [ "isInside", "dc/d47/class_a_a_b_b.html#a94f98c6bee4a015a8d33cd33fb888656", null ],
     [ "max", "dc/d47/class_a_a_b_b.html#aa80c2fc1bbc932572311ba94a8f76530", null ],
     [ "min", "dc/d47/class_a_a_b_b.html#a29073914f600f7657f4a44937702a471", null ],
     [ "operator=", "dc/d47/class_a_a_b_b.html#ac62409a5160bd5398a977711025a1b5b", null ],

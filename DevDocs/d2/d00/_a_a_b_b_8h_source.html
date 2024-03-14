@@ -20,9 +20,6 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -32,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.8</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
    </div>
   </td>
  </tr>
@@ -133,9 +130,11 @@ $(function(){initNavTree('d2/d00/_a_a_b_b_8h_source.html','../../'); initResizab
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d47/class_a_a_b_b.html#aefec979c670a14e30d4321fe127383d2">rayIntersects</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; origin, <span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; direction) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../dc/d47/class_a_a_b_b.html#a82ed00a2fdd48874ddbe48ebea1bcca9">   28</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d47/class_a_a_b_b.html#a82ed00a2fdd48874ddbe48ebea1bcca9">aabbIntersects</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../dc/d47/class_a_a_b_b.html">AABB</a>&amp; o) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d47/class_a_a_b_b.html#a94f98c6bee4a015a8d33cd33fb888656">isInside</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; point);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
 </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="ttc" id="aclass_a_a_b_b_html"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html">AABB</a></div><div class="ttdef"><b>Definition</b> AABB.h:3</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_a29073914f600f7657f4a44937702a471"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#a29073914f600f7657f4a44937702a471">AABB::min</a></div><div class="ttdeci">vec3 min() const</div><div class="ttdef"><b>Definition</b> AABB.h:17</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_a37fe03c1375a2b98345fe219cd59d3bd"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#a37fe03c1375a2b98345fe219cd59d3bd">AABB::center</a></div><div class="ttdeci">glm::dvec3 center() const</div><div class="ttdef"><b>Definition</b> AABB.h:12</div></div>
@@ -147,6 +146,7 @@ $(function(){initNavTree('d2/d00/_a_a_b_b_8h_source.html','../../'); initResizab
 <div class="ttc" id="aclass_a_a_b_b_html_a7a43651ebd0edfde0fe707afc97295fa"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#a7a43651ebd0edfde0fe707afc97295fa">AABB::AABB</a></div><div class="ttdeci">AABB(const AABB &amp;aabb)</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_a82ed00a2fdd48874ddbe48ebea1bcca9"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#a82ed00a2fdd48874ddbe48ebea1bcca9">AABB::aabbIntersects</a></div><div class="ttdeci">bool aabbIntersects(const AABB &amp;o) const</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_a8b91a18a00abf976acfd464a2af1e79e"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#a8b91a18a00abf976acfd464a2af1e79e">AABB::AABB</a></div><div class="ttdeci">AABB(const dvec3 &amp;min=vec3(INFINITY), const dvec3 &amp;max=vec3(-INFINITY))</div><div class="ttdef"><b>Definition</b> AABB.cpp:4</div></div>
+<div class="ttc" id="aclass_a_a_b_b_html_a94f98c6bee4a015a8d33cd33fb888656"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#a94f98c6bee4a015a8d33cd33fb888656">AABB::isInside</a></div><div class="ttdeci">bool isInside(const vec3 &amp;point)</div><div class="ttdef"><b>Definition</b> AABB.cpp:129</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_aa64a954e8c1435f575015681f945895c"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#aa64a954e8c1435f575015681f945895c">AABB::extentLength</a></div><div class="ttdeci">double extentLength() const</div><div class="ttdef"><b>Definition</b> AABB.h:15</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_aa80c2fc1bbc932572311ba94a8f76530"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#aa80c2fc1bbc932572311ba94a8f76530">AABB::max</a></div><div class="ttdeci">vec3 max() const</div><div class="ttdef"><b>Definition</b> AABB.h:16</div></div>
 <div class="ttc" id="aclass_a_a_b_b_html_ab4dad925a3cb42ad2f00c7d5053369e1"><div class="ttname"><a href="../../dc/d47/class_a_a_b_b.html#ab4dad925a3cb42ad2f00c7d5053369e1">AABB::dot</a></div><div class="ttdeci">AABB dot(const mat4 &amp;matrix) const</div><div class="ttdef"><b>Definition</b> AABB.cpp:14</div></div>

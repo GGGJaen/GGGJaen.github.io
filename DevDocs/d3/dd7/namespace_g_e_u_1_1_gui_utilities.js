@@ -50,6 +50,7 @@ var namespace_g_e_u_1_1_gui_utilities =
     [ "InputText", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a0c8f0f5af8119c36fa703bc2ed301bde", null ],
     [ "InputTextMultiline", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#aac1ea4f7d9f0ad6e7301fe369e9c489c", null ],
     [ "InsertToast", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a84bb8e77631e925660765d1e2e9104c2", null ],
+    [ "InsertToast", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#ae19de031d1878518f739c269fde6a4ae", null ],
     [ "leaveSpace", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a0fc991c5fd69dd43aaddab0b20792b87", null ],
     [ "loadingIcon", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#aa4e9186189a097316ffd71424d4a7259", null ],
     [ "makeButton", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#abcf3ec220dead7a6cb3e2c1e752e44df", null ],

@@ -20,9 +20,6 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -32,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.8</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
    </div>
   </td>
  </tr>
@@ -110,7 +107,7 @@ $(function(){initNavTree('d4/d34/struct_database_1_1_dato.html','../../'); initR
 <div class="dynheader">
 Collaboration diagram for Database::Dato:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d85/struct_database_1_1_dato__coll__graph.svg" width="347" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d85/struct_database_1_1_dato__coll__graph.svg" width="100%" height="519"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -150,14 +147,14 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:af51f6133cf7655dd3ee5b03a15b1192a" id="r_af51f6133cf7655dd3ee5b03a15b1192a"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51f6133cf7655dd3ee5b03a15b1192a">SELECT_QUERY</a> = &quot;SELECT NOMBRE, RUTA_URL, TIPO, SOFTWARE, DESCRIPCION, DISTINTIVO, PROCESADO, VUELOS_FECHA, ZONA_UBICACION, MUNICIPIO_CODIGO FROM DATO&quot;</td></tr>
 <tr class="separator:af51f6133cf7655dd3ee5b03a15b1192a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13442220201a2f137e1b58c35642fe8b" id="r_a13442220201a2f137e1b58c35642fe8b"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13442220201a2f137e1b58c35642fe8b">DISTINTIVOS</a> = { &quot;Olivar&quot;, &quot;Bosque&quot;, &quot;Castillo&quot;, &quot;Puente&quot; }</td></tr>
-<tr class="separator:a13442220201a2f137e1b58c35642fe8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7f4bbe44752e07f2f2d0c4989ce493" id="r_a2e7f4bbe44752e07f2f2d0c4989ce493"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e7f4bbe44752e07f2f2d0c4989ce493">TIPOS</a> = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Fusion&quot;, &quot;Adicional&quot; }</td></tr>
-<tr class="separator:a2e7f4bbe44752e07f2f2d0c4989ce493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c79465959be52657f5a49c89238f2db" id="r_a7c79465959be52657f5a49c89238f2db"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c79465959be52657f5a49c89238f2db">TIPOS_MANUAL</a> = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Adicional&quot; }</td></tr>
-<tr class="separator:a7c79465959be52657f5a49c89238f2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20c1ee9218aadc58f6c3273a85e60501" id="r_a20c1ee9218aadc58f6c3273a85e60501"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c1ee9218aadc58f6c3273a85e60501">TIPOS_FORMATOS</a> = { &quot;Point cloud(*.ply *.las *.laz){.ply,.las,.laz}&quot;, &quot;Point cloud(*.ply *.las *.laz){.ply,.las,.laz}&quot;, &quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.jpg,.jpeg}&quot;, &quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.jpg,.jpeg}&quot;, &quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.jpg,.jpeg}&quot;, &quot;&quot;, &quot;Text files(*.txt){.txt}&quot; }</td></tr>
-<tr class="separator:a20c1ee9218aadc58f6c3273a85e60501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ba522ba42c6f686422c3778e4e14c1" id="r_a37ba522ba42c6f686422c3778e4e14c1"><td class="memItemLeft" align="right" valign="top">static const std::array&lt; std::string, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37ba522ba42c6f686422c3778e4e14c1">DISTINTIVOS</a> = { &quot;Olivar&quot;, &quot;Bosque&quot;, &quot;Castillo&quot;, &quot;Puente&quot; }</td></tr>
+<tr class="separator:a37ba522ba42c6f686422c3778e4e14c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc00c41ed8e3973a00f77aaa4c46805" id="r_a0fc00c41ed8e3973a00f77aaa4c46805"><td class="memItemLeft" align="right" valign="top">static const std::array&lt; std::string, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc00c41ed8e3973a00f77aaa4c46805">TIPOS</a> = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Fusion&quot;, &quot;Adicional&quot; }</td></tr>
+<tr class="separator:a0fc00c41ed8e3973a00f77aaa4c46805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bd623f0a7b1fe15c8f5b971732168fd" id="r_a2bd623f0a7b1fe15c8f5b971732168fd"><td class="memItemLeft" align="right" valign="top">static const std::array&lt; std::string, 7 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bd623f0a7b1fe15c8f5b971732168fd">TIPOS_MANUAL</a> = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Adicional&quot; }</td></tr>
+<tr class="separator:a2bd623f0a7b1fe15c8f5b971732168fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ece75af0c872d7cd39efdf6a6023c34" id="r_a0ece75af0c872d7cd39efdf6a6023c34"><td class="memItemLeft" align="right" valign="top">static const std::array&lt; std::string, 7 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ece75af0c872d7cd39efdf6a6023c34">TIPOS_FORMATOS</a></td></tr>
+<tr class="separator:a0ece75af0c872d7cd39efdf6a6023c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4db5e25377b69d8034530f936c70ae61" name="a4db5e25377b69d8034530f936c70ae61"></a>
@@ -258,8 +255,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a13442220201a2f137e1b58c35642fe8b" name="a13442220201a2f137e1b58c35642fe8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13442220201a2f137e1b58c35642fe8b">&#9670;&#160;</a></span>DISTINTIVOS</h2>
+<a id="a37ba522ba42c6f686422c3778e4e14c1" name="a37ba522ba42c6f686422c3778e4e14c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ba522ba42c6f686422c3778e4e14c1">&#9670;&#160;</a></span>DISTINTIVOS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +265,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;std::string&gt; Database::Dato::DISTINTIVOS = { &quot;Olivar&quot;, &quot;Bosque&quot;, &quot;Castillo&quot;, &quot;Puente&quot; }</td>
+          <td class="memname">const std::array&lt;std::string, 4&gt; Database::Dato::DISTINTIVOS = { &quot;Olivar&quot;, &quot;Bosque&quot;, &quot;Castillo&quot;, &quot;Puente&quot; }</td>
         </tr>
       </table>
   </td>
@@ -386,8 +383,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2e7f4bbe44752e07f2f2d0c4989ce493" name="a2e7f4bbe44752e07f2f2d0c4989ce493"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e7f4bbe44752e07f2f2d0c4989ce493">&#9670;&#160;</a></span>TIPOS</h2>
+<a id="a0fc00c41ed8e3973a00f77aaa4c46805" name="a0fc00c41ed8e3973a00f77aaa4c46805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc00c41ed8e3973a00f77aaa4c46805">&#9670;&#160;</a></span>TIPOS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +393,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;std::string&gt; Database::Dato::TIPOS = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Fusion&quot;, &quot;Adicional&quot; }</td>
+          <td class="memname">const std::array&lt;std::string, 8&gt; Database::Dato::TIPOS = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Fusion&quot;, &quot;Adicional&quot; }</td>
         </tr>
       </table>
   </td>
@@ -408,8 +405,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a20c1ee9218aadc58f6c3273a85e60501" name="a20c1ee9218aadc58f6c3273a85e60501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20c1ee9218aadc58f6c3273a85e60501">&#9670;&#160;</a></span>TIPOS_FORMATOS</h2>
+<a id="a0ece75af0c872d7cd39efdf6a6023c34" name="a0ece75af0c872d7cd39efdf6a6023c34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ece75af0c872d7cd39efdf6a6023c34">&#9670;&#160;</a></span>TIPOS_FORMATOS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,7 +415,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;std::string&gt; Database::Dato::TIPOS_FORMATOS = { &quot;Point cloud(*.ply *.las *.laz){.ply,.las,.laz}&quot;, &quot;Point cloud(*.ply *.las *.laz){.ply,.las,.laz}&quot;, &quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.jpg,.jpeg}&quot;, &quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.jpg,.jpeg}&quot;, &quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.jpg,.jpeg}&quot;, &quot;&quot;, &quot;Text files(*.txt){.txt}&quot; }</td>
+          <td class="memname">const std::array&lt;std::string, 7&gt; Database::Dato::TIPOS_FORMATOS</td>
         </tr>
       </table>
   </td>
@@ -427,11 +424,18 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;Point cloud(*.ply *.las *.laz){.ply,.las,.laz}&quot;</span>,</div>
+<div class="line">                                                                        <span class="stringliteral">&quot;Point cloud(*.ply *.las *.laz){.ply,.las,.laz}&quot;</span>,</div>
+<div class="line">                                                                        <span class="stringliteral">&quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.tif,.TIF,.jpg,.jpeg}&quot;</span>,</div>
+<div class="line">                                                                        <span class="stringliteral">&quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.tif,.TIF,.jpg,.jpeg}&quot;</span>,</div>
+<div class="line">                                                                        <span class="stringliteral">&quot;Image files(*.png *.tiff *.jpg *.jpeg){.png,.tiff,.tif,.TIF,.jpg,.jpeg}&quot;</span>,</div>
+<div class="line">                                                                        <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line">                                                                        <span class="stringliteral">&quot;Text files(*.txt){.txt}&quot;</span> }</div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a7c79465959be52657f5a49c89238f2db" name="a7c79465959be52657f5a49c89238f2db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c79465959be52657f5a49c89238f2db">&#9670;&#160;</a></span>TIPOS_MANUAL</h2>
+<a id="a2bd623f0a7b1fe15c8f5b971732168fd" name="a2bd623f0a7b1fe15c8f5b971732168fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bd623f0a7b1fe15c8f5b971732168fd">&#9670;&#160;</a></span>TIPOS_MANUAL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,7 +444,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;std::string&gt; Database::Dato::TIPOS_MANUAL = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Adicional&quot; }</td>
+          <td class="memname">const std::array&lt;std::string, 7&gt; Database::Dato::TIPOS_MANUAL = { &quot;LiDAR&quot;, &quot;SfM&quot;, &quot;RGB&quot;, &quot;Multiespectral&quot;, &quot;Termica&quot;, &quot;Hiperespectral&quot;, &quot;Adicional&quot; }</td>
         </tr>
       </table>
   </td>
