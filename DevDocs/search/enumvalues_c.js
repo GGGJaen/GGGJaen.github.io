@@ -31,10 +31,5 @@ var searchData=
   ['num_5fshader_5ftypes_28',['NUM_SHADER_TYPES',['../de/d5b/struct_g_e_u_1_1_shader_enum.html#a84715d853940680430820b21a4189821a6e2eaeeb798d8351076421a33629c969',1,'GEU::ShaderEnum']]],
   ['num_5ftexture_5ftypes_29',['NUM_TEXTURE_TYPES',['../dc/d36/class_g_e_u_1_1_texture.html#a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc',1,'GEU::Texture']]],
   ['num_5fvbos_30',['NUM_VBOS',['../de/d53/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a85c923fc6fba055fee8c86c4922ee94f',1,'GEU::VAO']]],
-  ['num_5fvertex_5fsubroutines_31',['NUM_VERTEX_SUBROUTINES',['../de/d5b/struct_g_e_u_1_1_shader_enum.html#a55862a2e6e9c52df2287f230f41558d8af64f5e90257f47674a72d13ce442ce98',1,'GEU::ShaderEnum']]],
-  ['nurbss_5fsceneitem_5fdegree_32',['NURBSS_SCENEITEM_DEGREE',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573aae856a99f77918a67fc1375f800eabc0',1,'locale_strings.h']]],
-  ['nurbss_5fsceneitem_5fdensity_33',['NURBSS_SCENEITEM_DENSITY',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573afd2eaa95aa9530c3569a9eec735f8e7c',1,'locale_strings.h']]],
-  ['nurbss_5fsceneitem_5fgenerate_34',['NURBSS_SCENEITEM_GENERATE',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a2fd24a1e1099e0f0bc98c32b1cd4b49b',1,'locale_strings.h']]],
-  ['nurbss_5fsceneitem_5fpoint_5fdistribution_35',['NURBSS_SCENEITEM_POINT_DISTRIBUTION',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a04ac8e398bdbe3904c1d68b8638830aa',1,'locale_strings.h']]],
-  ['nurbss_5fsceneitem_5fsubdivisions_36',['NURBSS_SCENEITEM_SUBDIVISIONS',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ab4d4f09bb61d2aab7eaedad2b20250bc',1,'locale_strings.h']]]
+  ['num_5fvertex_5fsubroutines_31',['NUM_VERTEX_SUBROUTINES',['../de/d5b/struct_g_e_u_1_1_shader_enum.html#a55862a2e6e9c52df2287f230f41558d8af64f5e90257f47674a72d13ce442ce98',1,'GEU::ShaderEnum']]]
 ];

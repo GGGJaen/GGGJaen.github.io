@@ -20,6 +20,9 @@
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -29,7 +32,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.8</span>
    </div>
   </td>
  </tr>
@@ -161,7 +164,7 @@ $(function(){initNavTree('d9/dd4/_v_a_o_8h_source.html','../../'); initResizable
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a77229fb0ec630013ffb6d0141fa94e6e">   52</a></span>            <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <a class="code hl_function" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a77229fb0ec630013ffb6d0141fa94e6e">getFloatRGBColor</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; rgb) { <span class="keywordflow">return</span> packUnorm4x8(<a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>(rgb, .0f)); }</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a869b1c796dc79a8c17f4f2ffd6e6ea02">   54</a></span>            <span class="keyword">static</span> <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> <a class="code hl_function" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a869b1c796dc79a8c17f4f2ffd6e6ea02">getRGBVec4</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span>&amp; uintRGB) { <span class="keywordflow">return</span> glm::unpackUnorm4x8(uintRGB); }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a869b1c796dc79a8c17f4f2ffd6e6ea02">   54</a></span>            <span class="keyword">static</span> <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> <a class="code hl_function" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a869b1c796dc79a8c17f4f2ffd6e6ea02">getRGBVec4</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span>&amp; uintRGB) { <span class="keywordflow">return</span> glm::unpackUnorm4x8(uintRGB) / 255.0f; }</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a46afe38741009cb8a18c1701b174e91f">   59</a></span>            <a class="code hl_typedef" href="../../db/d06/stdafx_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> <a class="code hl_function" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a46afe38741009cb8a18c1701b174e91f">getRGBVec3</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a869b1c796dc79a8c17f4f2ffd6e6ea02">getRGBVec4</a>(<a class="code hl_variable" href="../../d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#afa4647afa6751c2f7ddb9103c2e9cfab">_rgb</a>); }</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>

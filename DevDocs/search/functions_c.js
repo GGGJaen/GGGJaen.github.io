@@ -13,6 +13,5 @@ var searchData=
   ['normalcomparison_10',['normalComparison',['../d4/d3f/class_normales_g_u_i_adapter.html#a5f2b290d502274f01fc3e9bdadfca50e',1,'NormalesGUIAdapter']]],
   ['normalesguiadapter_11',['NormalesGUIAdapter',['../d4/d3f/class_normales_g_u_i_adapter.html#a2a9aafc9707e829940b1fa606be6c3ab',1,'NormalesGUIAdapter::NormalesGUIAdapter()=delete'],['../d4/d3f/class_normales_g_u_i_adapter.html#a4f3921a79afc92c349d918715f762354',1,'NormalesGUIAdapter::NormalesGUIAdapter(const std::string &amp;id, const std::string &amp;icon, LOCALE_STRINGS idx)'],['../d4/d3f/class_normales_g_u_i_adapter.html#a521e75664214fdddd83c20265a7b7888',1,'NormalesGUIAdapter::NormalesGUIAdapter(const InterfaceAdapter &amp;o)']]],
   ['normalizereflectance_12',['normalizeReflectance',['../db/db3/class_projection.html#a7fb0619ded149484bdc7f2cddd29fdd4',1,'Projection']]],
-  ['normalizevi_13',['normalizeVi',['../db/db3/class_projection.html#abe314ac3095b6a36d014f4d097431555',1,'Projection']]],
-  ['numberpointstodensity_14',['numberPointsToDensity',['../dd/d40/class_procedural_voxel.html#adbf03535a497f92cee03cf6d7d575094',1,'ProceduralVoxel']]]
+  ['normalizevi_13',['normalizeVi',['../db/db3/class_projection.html#abe314ac3095b6a36d014f4d097431555',1,'Projection']]]
 ];

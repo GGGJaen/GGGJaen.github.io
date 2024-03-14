@@ -143,8 +143,7 @@ var searchData=
   ['details_5fscale_140',['DETAILS_SCALE',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a01bf2d9759ce992114856eb88bd0ff25',1,'locale_strings.h']]],
   ['details_5fscan_5fangle_5fthreshold_141',['DETAILS_SCAN_ANGLE_THRESHOLD',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a68e4f5adf706dc32ae34450b8830e4d8',1,'locale_strings.h']]],
   ['details_5fview_5fmode_142',['DETAILS_VIEW_MODE',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ac89dbde32b0bd0cb948eebd5512d5df2',1,'locale_strings.h']]],
-  ['digital_5fterrain_5fmodel_143',['DIGITAL_TERRAIN_MODEL',['../de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a4683f3ef77798afb5945777f1ae30bd4',1,'locale_strings.h']]],
-  ['directional_5flight_144',['DIRECTIONAL_LIGHT',['../d4/dd4/class_g_e_u_1_1_light_model.html#ac2d668ef9f931f8b789fc203aa943a72a64260d604c9e8b28ddb9e22b1684fcef',1,'GEU::LightModel']]],
-  ['draw_5fnormals_145',['DRAW_NORMALS',['../de/d5b/struct_g_e_u_1_1_shader_enum.html#a11ceb761ed8a57fbe5affd891960d2efa248db752b4142ee5517dcac3c200ed75',1,'GEU::ShaderEnum']]],
-  ['dron_146',['DRON',['../d7/dbe/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbadc6da663c9953798850c8d2b4c054924',1,'GEU::DatabaseQueryPopup']]]
+  ['directional_5flight_143',['DIRECTIONAL_LIGHT',['../d4/dd4/class_g_e_u_1_1_light_model.html#ac2d668ef9f931f8b789fc203aa943a72a64260d604c9e8b28ddb9e22b1684fcef',1,'GEU::LightModel']]],
+  ['draw_5fnormals_144',['DRAW_NORMALS',['../de/d5b/struct_g_e_u_1_1_shader_enum.html#a11ceb761ed8a57fbe5affd891960d2efa248db752b4142ee5517dcac3c200ed75',1,'GEU::ShaderEnum']]],
+  ['dron_145',['DRON',['../d7/dbe/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbadc6da663c9953798850c8d2b4c054924',1,'GEU::DatabaseQueryPopup']]]
 ];

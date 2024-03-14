@@ -1,10 +1,10 @@
 <map id="C:/GitHub/GEU/GEU/Source/Modules/SegmentacionIndiv" name="C:/GitHub/GEU/GEU/Source/Modules/SegmentacionIndiv">
 <area shape="rect" id="node1" href="dir_06c34d06c2c0899a86f1c3a9afdd6987.html" title="SegmentacionIndiv" alt="" coords="27,53,157,80"/>
 <area shape="rect" id="node2" href="dir_2abd27123e390496a5eabd83ea470d27.html" title="UI" alt="" coords="39,128,78,155"/>
-<area shape="poly" id="edge1" href="dir_000015_000020.html" alt="" coords="89,82,73,115,68,113,84,79"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000015_000020.html" title="4" alt="" coords="76,107,83,123"/>
+<area shape="poly" id="edge1" href="dir_000014_000019.html" alt="" coords="89,82,73,115,68,113,84,79"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000014_000019.html" title="4" alt="" coords="76,107,83,123"/>
 <area shape="rect" id="node3" href="dir_4d0ef5f5e2253a3811462ade617e4c37.html" title="Core" alt="" coords="103,128,151,155"/>
-<area shape="poly" id="edge2" href="dir_000015_000002.html" alt="" coords="100,79,117,113,112,115,96,82"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000015_000002.html" title="1" alt="" coords="117,100,124,116"/>
+<area shape="poly" id="edge2" href="dir_000014_000002.html" alt="" coords="100,79,117,113,112,115,96,82"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000014_000002.html" title="1" alt="" coords="117,100,124,116"/>
 <area shape="rect" id="clust1" href="dir_006672d30c9a73ed957ead1f695e8662.html" title="Modules" alt="" coords="16,16,168,91"/>
 </map>

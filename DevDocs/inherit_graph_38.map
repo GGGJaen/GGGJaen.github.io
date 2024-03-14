@@ -1,9 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$d6/dce/class_g_e_u_1_1_light_attenuation.html" title=" " alt="" coords="5,56,157,83"/>
-<area shape="rect" id="Node000001" href="$d0/d9a/class_g_e_u_1_1_basic_attenuation.html" title=" " alt="" coords="214,5,370,32"/>
-<area shape="poly" id="edge26_Node000000_Node000001" title=" " alt="" coords="154,49,233,30,234,35,155,54"/>
-<area shape="rect" id="Node000002" href="$d3/d29/class_g_e_u_1_1_distance_attenuation.html" title=" " alt="" coords="205,56,379,83"/>
-<area shape="poly" id="edge27_Node000000_Node000002" title=" " alt="" coords="172,67,204,67,204,72,172,72"/>
-<area shape="rect" id="Node000003" href="$d5/d6e/class_g_e_u_1_1_pixar_attenuation.html" title=" " alt="" coords="215,107,369,133"/>
-<area shape="poly" id="edge28_Node000000_Node000003" title=" " alt="" coords="155,84,234,103,233,109,154,89"/>
+<area shape="rect" id="Node000000" href="$d4/dd4/class_g_e_u_1_1_light_model.html" title=" " alt="" coords="5,107,126,133"/>
+<area shape="rect" id="Node000001" href="$d5/d79/class_g_e_u_1_1_ambient_light.html" title=" " alt="" coords="180,5,314,32"/>
+<area shape="poly" id="edge29_Node000000_Node000001" title=" " alt="" coords="93,94,130,68,172,42,199,30,201,35,175,46,133,72,97,99"/>
+<area shape="rect" id="Node000002" href="$df/d8b/class_g_e_u_1_1_directional_light.html" title=" " alt="" coords="174,56,320,83"/>
+<area shape="poly" id="edge30_Node000000_Node000002" title=" " alt="" coords="130,99,196,81,197,86,131,104"/>
+<area shape="rect" id="Node000003" href="$d0/d12/class_g_e_u_1_1_point_light.html" title=" " alt="" coords="189,107,305,133"/>
+<area shape="poly" id="edge31_Node000000_Node000003" title=" " alt="" coords="141,117,189,117,189,123,141,123"/>
+<area shape="rect" id="Node000004" href="$d8/dc3/class_g_e_u_1_1_rim_light.html" title=" " alt="" coords="193,157,301,184"/>
+<area shape="poly" id="edge32_Node000000_Node000004" title=" " alt="" coords="131,136,197,154,196,159,130,141"/>
+<area shape="rect" id="Node000005" href="$df/d9f/class_g_e_u_1_1_spot_light.html" title=" " alt="" coords="191,208,303,235"/>
+<area shape="poly" id="edge33_Node000000_Node000005" title=" " alt="" coords="97,141,133,168,175,194,201,205,199,210,172,198,130,172,93,146"/>
 </map>

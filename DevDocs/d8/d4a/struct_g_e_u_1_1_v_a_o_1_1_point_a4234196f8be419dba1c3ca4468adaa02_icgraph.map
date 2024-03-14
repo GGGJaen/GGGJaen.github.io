@@ -1,15 +1,5 @@
 <map id="GEU::VAO::Point::saveRGB" name="GEU::VAO::Point::saveRGB">
-<area shape="rect" id="Node000001" title="Packs an RGB color into an unsigned value." alt="" coords="251,180,436,207"/>
-<area shape="rect" id="Node000002" href="$dc/d51/class_g_e_u_1_1_image_cloud_proj.html#a5b25ca28287f8c088a55152666fffacc" title=" " alt="" coords="13,5,195,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,170,269,116,236,87,201,62,179,51,181,46,204,58,240,83,273,112,323,166"/>
-<area shape="rect" id="Node000003" href="$dc/d51/class_g_e_u_1_1_image_cloud_proj.html#a50053abf8153350b563d06d390254608" title="Compare Rasters." alt="" coords="30,72,178,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="301,175,202,129,172,118,174,113,204,124,303,170"/>
-<area shape="rect" id="Node000004" href="$dd/dcb/class_g_e_u_1_1_procedural_generator.html#ab0c3b30380c1fd538c92fcea0e1e04d2" title=" " alt="" coords="16,139,192,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,181,192,175,193,170,236,176"/>
-<area shape="rect" id="Node000005" href="$dc/d51/class_g_e_u_1_1_image_cloud_proj.html#a848fc707da91041591987216223e1b93" title="Reconstruction Cloud MDT." alt="" coords="18,205,190,248"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="236,211,191,217,190,212,235,206"/>
-<area shape="rect" id="Node000006" href="$dd/dcb/class_g_e_u_1_1_procedural_generator.html#a91e7c3b5466deff7022c4e9ed8e6687c" title=" " alt="" coords="15,272,193,315"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="303,217,204,262,174,274,172,269,202,258,301,212"/>
-<area shape="rect" id="Node000007" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a392fef4e156fe3823ce2b8333743ffa4" title=" " alt="" coords="5,339,203,381"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="323,221,273,275,240,304,204,329,181,341,179,336,201,324,236,299,269,271,319,217"/>
+<area shape="rect" id="Node000001" title="Packs an RGB color into an unsigned value." alt="" coords="251,13,436,40"/>
+<area shape="rect" id="Node000002" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a392fef4e156fe3823ce2b8333743ffa4" title=" " alt="" coords="5,5,203,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,29,203,29,203,24,235,24"/>
 </map>

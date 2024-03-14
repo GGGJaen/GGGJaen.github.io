@@ -1,13 +1,9 @@
 <map id="GEU::Renderer::addModel" name="GEU::Renderer::addModel">
-<area shape="rect" id="Node000001" title="Inserts 3D model to current scene." alt="" coords="495,72,668,99"/>
-<area shape="rect" id="Node000002" href="$dc/d51/class_g_e_u_1_1_image_cloud_proj.html#a3ee870ef12a3caf968bfd23e318d09a4" title=" " alt="" coords="254,5,403,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="506,71,402,46,404,41,507,65"/>
-<area shape="rect" id="Node000003" href="$dd/db9/class_g_e_u_1_1_file_manager.html#ad604f08d090bb872c17b17b93c04b1c0" title="Carga la malla de triangulos de la ruta especificada." alt="" coords="210,72,447,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="479,88,447,88,447,83,479,83"/>
-<area shape="rect" id="Node000006" href="$dd/dcb/class_g_e_u_1_1_procedural_generator.html#a91e7c3b5466deff7022c4e9ed8e6687c" title=" " alt="" coords="240,123,417,165"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="507,105,418,126,417,121,506,100"/>
-<area shape="rect" id="Node000004" href="$de/de6/class_g_e_u_1_1_g_u_i.html#af7ebc89aa431e3a9e86bb1424b819d47" title="Draws ImGUI elements." alt="" coords="22,43,145,69"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="196,72,145,66,146,61,197,67"/>
-<area shape="rect" id="Node000005" href="$da/d81/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74" title="Renders the window and contents." alt="" coords="5,93,162,136"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="197,104,162,108,162,103,196,98"/>
+<area shape="rect" id="Node000001" title="Inserts 3D model to current scene." alt="" coords="495,35,668,61"/>
+<area shape="rect" id="Node000002" href="$dd/db9/class_g_e_u_1_1_file_manager.html#ad604f08d090bb872c17b17b93c04b1c0" title="Carga la malla de triangulos de la ruta especificada." alt="" coords="210,35,447,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,51,447,51,447,45,479,45"/>
+<area shape="rect" id="Node000003" href="$de/de6/class_g_e_u_1_1_g_u_i.html#af7ebc89aa431e3a9e86bb1424b819d47" title="Draws ImGUI elements." alt="" coords="22,5,145,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="196,35,145,29,146,23,197,30"/>
+<area shape="rect" id="Node000004" href="$da/d81/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74" title="Renders the window and contents." alt="" coords="5,56,162,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,66,162,71,162,65,196,61"/>
 </map>

@@ -55,7 +55,6 @@ var hierarchy =
       [ "GEU::StatsWindow", "d0/d9f/class_g_e_u_1_1_stats_window.html", null ]
     ] ],
     [ "GEU::Image", "d8/dc1/class_g_e_u_1_1_image.html", null ],
-    [ "GEU::ImageCloudProj", "dc/d51/class_g_e_u_1_1_image_cloud_proj.html", null ],
     [ "GEU::GuiUtilities::ImageTooltipDrawArea", "d9/d92/struct_g_e_u_1_1_gui_utilities_1_1_image_tooltip_draw_area.html", null ],
     [ "GEU::ImageTreeSegmentation", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html", null ],
     [ "GEU::InterfaceAdapter", "d8/d88/class_g_e_u_1_1_interface_adapter.html", [
@@ -105,8 +104,6 @@ var hierarchy =
     [ "GEU::GuiUtilities::Parameters", "d0/d35/struct_g_e_u_1_1_gui_utilities_1_1_parameters.html", null ],
     [ "GEU::VAO::Point", "d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html", null ],
     [ "PointCloudAdaptor< Derived >", "d3/dcb/struct_point_cloud_adaptor.html", null ],
-    [ "GEU::ProceduralGenerator", "dd/dcb/class_g_e_u_1_1_procedural_generator.html", null ],
-    [ "ProceduralVoxel", "dd/d40/class_procedural_voxel.html", null ],
     [ "Projection", "db/db3/class_projection.html", null ],
     [ "Database::Provincia", "d2/d70/struct_database_1_1_provincia.html", null ],
     [ "Rectangle2D", "d0/d10/class_rectangle2_d.html", null ],

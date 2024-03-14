@@ -46,7 +46,7 @@
   </g>
 </defs>
 <script type="application/ecmascript">
-var viewWidth = 2633;
+var viewWidth = 2315;
 var viewHeight = 256;
 var sectionId = 'dynsection-1';
 </script>
@@ -58,9 +58,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="1314.5,-248 1174,-248 1174,-216 1314.5,-216 1314.5,-248"/>
-<text text-anchor="start" x="1182" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1244.25" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Core/FBOScreenshot.h</text>
+<polygon fill="#999999" stroke="#666666" points="1155.5,-248 1015,-248 1015,-216 1155.5,-216 1155.5,-248"/>
+<text text-anchor="start" x="1023" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1085.25" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Core/FBOScreenshot.h</text>
 </a>
 </g>
 </g>
@@ -68,9 +68,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="../../d2/d16/_f_b_o_screenshot_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1235.5,-180 1095,-180 1095,-148 1235.5,-148 1235.5,-180"/>
-<text text-anchor="start" x="1103" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1165.25" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Core/FBOScreenshot.cpp</text>
+<polygon fill="white" stroke="#666666" points="1076.5,-180 936,-180 936,-148 1076.5,-148 1076.5,-180"/>
+<text text-anchor="start" x="944" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1006.25" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Core/FBOScreenshot.cpp</text>
 </a>
 </g>
 </g>
@@ -78,8 +78,8 @@ var sectionId = 'dynsection-1';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1217.11,-208.32C1206.1,-199.13 1193.68,-188.75 1183.75,-180.45"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1214.85,-211 1224.77,-214.72 1219.34,-205.62 1214.85,-211"/>
+<path fill="none" stroke="#63b8ff" d="M1058.11,-208.32C1047.1,-199.13 1034.68,-188.75 1024.75,-180.45"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1055.85,-211 1065.77,-214.72 1060.34,-205.62 1055.85,-211"/>
 </a>
 </g>
 </g>
@@ -87,9 +87,9 @@ var sectionId = 'dynsection-1';
 <g id="Node000003" class="node">
 <title>Node3</title>
 <g id="a_Node000003"><a xlink:href="../../d3/da0/_renderer_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1394.5,-180 1254,-180 1254,-148 1394.5,-148 1394.5,-180"/>
-<text text-anchor="start" x="1262" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1324.25" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Core/Renderer.h</text>
+<polygon fill="white" stroke="#666666" points="1235.5,-180 1095,-180 1095,-148 1235.5,-148 1235.5,-180"/>
+<text text-anchor="start" x="1103" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1165.25" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Core/Renderer.h</text>
 </a>
 </g>
 </g>
@@ -97,8 +97,8 @@ var sectionId = 'dynsection-1';
 <g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
 <g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1271.4,-208.6C1282.63,-199.34 1295.36,-188.83 1305.52,-180.45"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1269.46,-205.67 1263.97,-214.73 1273.91,-211.07 1269.46,-205.67"/>
+<path fill="none" stroke="#63b8ff" d="M1112.4,-208.6C1123.63,-199.34 1136.36,-188.83 1146.52,-180.45"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1110.46,-205.67 1104.97,-214.73 1114.91,-211.07 1110.46,-205.67"/>
 </a>
 </g>
 </g>
@@ -116,8 +116,8 @@ var sectionId = 'dynsection-1';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.54,-147.96C758.69,-96.33 628,-181.67 150.25,-112 141.16,-110.67 131.61,-108.7 122.4,-106.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.84,-151.4 1252.16,-149 1242.6,-144.44 1241.84,-151.4"/>
+<path fill="none" stroke="#63b8ff" d="M1083.29,-147.92C669.97,-102.84 557.88,-172.6 150.25,-112 141.16,-110.65 131.61,-108.66 122.41,-106.44"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1082.84,-151.39 1093.16,-149.02 1083.61,-144.44 1082.84,-151.39"/>
 </a>
 </g>
 </g>
@@ -135,8 +135,8 @@ var sectionId = 'dynsection-1';
 <g id="edge4_Node000003_Node000005" class="edge">
 <title>Node3&#45;&gt;Node5</title>
 <g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.29,-147.92C828.97,-102.84 716.88,-172.6 309.25,-112 300.16,-110.65 290.61,-108.66 281.41,-106.44"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.84,-151.39 1252.16,-149.02 1242.61,-144.44 1241.84,-151.39"/>
+<path fill="none" stroke="#63b8ff" d="M1083.4,-147.92C740.3,-109.28 646.89,-163.56 309.25,-112 300.31,-110.63 290.92,-108.67 281.85,-106.48"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1082.82,-151.38 1093.16,-149.04 1083.62,-144.43 1082.82,-151.38"/>
 </a>
 </g>
 </g>
@@ -154,8 +154,8 @@ var sectionId = 'dynsection-1';
 <g id="edge5_Node000003_Node000006" class="edge">
 <title>Node3&#45;&gt;Node6</title>
 <g id="a_edge5_Node000003_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.4,-147.92C899.3,-109.28 805.89,-163.56 468.25,-112 459.31,-110.63 449.92,-108.67 440.85,-106.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.82,-151.38 1252.16,-149.04 1242.62,-144.43 1241.82,-151.38"/>
+<path fill="none" stroke="#63b8ff" d="M1083.61,-147.93C810.64,-115.67 735.96,-154.52 468.25,-112 459.46,-110.6 450.23,-108.65 441.3,-106.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1082.81,-151.36 1093.15,-149.08 1083.64,-144.41 1082.81,-151.36"/>
 </a>
 </g>
 </g>
@@ -173,8 +173,8 @@ var sectionId = 'dynsection-1';
 <g id="edge6_Node000003_Node000007" class="edge">
 <title>Node3&#45;&gt;Node7</title>
 <g id="a_edge6_Node000003_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.27,-147.89C971.35,-115.82 897.34,-152.71 631.25,-112 622.04,-110.59 612.36,-108.63 602.98,-106.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.81,-151.36 1252.15,-149.08 1242.64,-144.41 1241.81,-151.36"/>
+<path fill="none" stroke="#63b8ff" d="M1083.41,-147.87C882.62,-122.14 827.4,-144.07 631.25,-112 622.2,-110.52 612.69,-108.55 603.46,-106.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1082.77,-151.32 1093.14,-149.14 1083.68,-144.38 1082.77,-151.32"/>
 </a>
 </g>
 </g>
@@ -189,11 +189,11 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node3&#45;&gt;Node9 -->
-<g id="edge25_Node000003_Node000009" class="edge">
+<g id="edge23_Node000003_Node000009" class="edge">
 <title>Node3&#45;&gt;Node9</title>
-<g id="a_edge25_Node000003_Node000009"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.37,-148.23C1141.67,-141.15 710.85,-152.68 664.25,-112 641.57,-92.2 641.32,-53.64 643.22,-32.24"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.87,-151.7 1252.15,-149.13 1242.51,-144.73 1241.87,-151.7"/>
+<g id="a_edge23_Node000003_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1083.52,-148.22C1003.77,-141.75 697.41,-141.64 664.25,-112 641.8,-91.94 641.46,-53.48 643.28,-32.17"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1082.83,-151.67 1093.14,-149.21 1083.55,-144.7 1082.83,-151.67"/>
 </a>
 </g>
 </g>
@@ -212,8 +212,8 @@ var sectionId = 'dynsection-1';
 <g id="edge9_Node000003_Node000010" class="edge">
 <title>Node3&#45;&gt;Node10</title>
 <g id="a_edge9_Node000003_Node000010"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.25,-147.83C1063.67,-124.06 1014.52,-140.4 840.25,-112 837.15,-111.49 834,-110.94 830.82,-110.35"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.76,-151.3 1252.14,-149.17 1242.7,-144.36 1241.76,-151.3"/>
+<path fill="none" stroke="#63b8ff" d="M1083.48,-147.76C974.79,-130.02 944.84,-132.12 840.25,-112 837.17,-111.41 834.03,-110.78 830.86,-110.12"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1082.68,-151.17 1093.11,-149.35 1083.82,-144.27 1082.68,-151.17"/>
 </a>
 </g>
 </g>
@@ -232,19 +232,18 @@ var sectionId = 'dynsection-1';
 <g id="edge10_Node000003_Node000011" class="edge">
 <title>Node3&#45;&gt;Node11</title>
 <g id="a_edge10_Node000003_Node000011"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1242.49,-147.75C1137.3,-130.34 1108.24,-132.25 1007.25,-112 1004.15,-111.38 1001,-110.72 997.82,-110.03"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1241.67,-151.16 1252.11,-149.37 1242.83,-144.26 1241.67,-151.16"/>
+<path fill="none" stroke="#63b8ff" d="M1102.51,-144.33C1069.69,-134.57 1029.36,-122.57 995.27,-112.43"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1101.3,-147.63 1111.88,-147.12 1103.3,-140.92 1101.3,-147.63"/>
 </a>
 </g>
 </g>
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="../../d2/dd0/_image_cloud_proj_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1156.5,-112 1016,-112 1016,-68 1156.5,-68 1156.5,-112"/>
-<text text-anchor="start" x="1024" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="start" x="1024" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Modules/Reconstruccion</text>
-<text text-anchor="middle" x="1086.25" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ImageCloudProj.cpp</text>
+<g id="a_Node000012"><a xlink:href="../../d3/d58/_camera_axis_window_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1156.5,-106 1016,-106 1016,-74 1156.5,-74 1156.5,-106"/>
+<text text-anchor="start" x="1024" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1086.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/CameraAxisWindow.cpp</text>
 </a>
 </g>
 </g>
@@ -252,19 +251,18 @@ var sectionId = 'dynsection-1';
 <g id="edge11_Node000003_Node000012" class="edge">
 <title>Node3&#45;&gt;Node12</title>
 <g id="a_edge11_Node000003_Node000012"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1262.51,-144.32C1230.09,-134.52 1190.24,-122.46 1156.63,-112.29"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1261.16,-147.57 1271.74,-147.12 1263.19,-140.87 1261.16,-147.57"/>
+<path fill="none" stroke="#63b8ff" d="M1140.17,-140.14C1128.13,-129.17 1114.02,-116.31 1103.25,-106.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1137.63,-142.56 1147.38,-146.71 1142.34,-137.39 1137.63,-142.56"/>
 </a>
 </g>
 </g>
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="../../d5/d7a/_procedural_generator_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1315.5,-112 1175,-112 1175,-68 1315.5,-68 1315.5,-112"/>
-<text text-anchor="start" x="1183" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="start" x="1183" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Modules/Reconstruccion</text>
-<text text-anchor="middle" x="1245.25" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/ProceduralGenerator.cpp</text>
+<g id="a_Node000013"><a xlink:href="../../d0/d1c/_debug_window_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1315.5,-106 1175,-106 1175,-74 1315.5,-74 1315.5,-106"/>
+<text text-anchor="start" x="1183" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1245.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/DebugWindow.cpp</text>
 </a>
 </g>
 </g>
@@ -272,18 +270,18 @@ var sectionId = 'dynsection-1';
 <g id="edge12_Node000003_Node000013" class="edge">
 <title>Node3&#45;&gt;Node13</title>
 <g id="a_edge12_Node000003_Node000013"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1298.99,-139.98C1289.24,-131.09 1278.14,-120.97 1268.57,-112.26"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1296.63,-142.56 1306.38,-146.71 1301.34,-137.39 1296.63,-142.56"/>
+<path fill="none" stroke="#63b8ff" d="M1190.64,-140.14C1202.84,-129.17 1217.13,-116.31 1228.03,-106.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1188.43,-137.43 1183.34,-146.72 1193.12,-142.63 1188.43,-137.43"/>
 </a>
 </g>
 </g>
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="../../d3/d58/_camera_axis_window_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000014"><a xlink:href="../../d1/dfc/_details_window_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1474.5,-106 1334,-106 1334,-74 1474.5,-74 1474.5,-106"/>
 <text text-anchor="start" x="1342" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1404.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/CameraAxisWindow.cpp</text>
+<text text-anchor="middle" x="1404.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/DetailsWindow.h</text>
 </a>
 </g>
 </g>
@@ -291,75 +289,75 @@ var sectionId = 'dynsection-1';
 <g id="edge13_Node000003_Node000014" class="edge">
 <title>Node3&#45;&gt;Node14</title>
 <g id="a_edge13_Node000003_Node000014"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1349.64,-140.14C1361.84,-129.17 1376.13,-116.31 1387.03,-106.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1347.43,-137.43 1342.34,-146.72 1352.12,-142.63 1347.43,-137.43"/>
-</a>
-</g>
-</g>
-<!-- Node15 -->
-<g id="Node000015" class="node">
-<title>Node15</title>
-<g id="a_Node000015"><a xlink:href="../../d0/d1c/_debug_window_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1633.5,-106 1493,-106 1493,-74 1633.5,-74 1633.5,-106"/>
-<text text-anchor="start" x="1501" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1563.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/DebugWindow.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node15 -->
-<g id="edge14_Node000003_Node000015" class="edge">
-<title>Node3&#45;&gt;Node15</title>
-<g id="a_edge14_Node000003_Node000015"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1386.49,-144.25C1425.55,-132.48 1475.3,-117.49 1512.06,-106.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1385.54,-140.88 1376.97,-147.12 1387.56,-147.58 1385.54,-140.88"/>
+<path fill="none" stroke="#63b8ff" d="M1227.49,-144.25C1266.55,-132.48 1316.3,-117.49 1353.06,-106.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1226.54,-140.88 1217.97,-147.12 1228.56,-147.58 1226.54,-140.88"/>
 </a>
 </g>
 </g>
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="../../d1/dfc/_details_window_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1792.5,-106 1652,-106 1652,-74 1792.5,-74 1792.5,-106"/>
-<text text-anchor="start" x="1660" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1722.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/DetailsWindow.h</text>
+<g id="a_Node000016"><a xlink:href="../../d3/d27/_g_u_i_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1602.5,-32 1462,-32 1462,0 1602.5,0 1602.5,-32"/>
+<text text-anchor="start" x="1470" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1532.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/GUI.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node16 -->
-<g id="edge15_Node000003_Node000016" class="edge">
+<g id="edge17_Node000003_Node000016" class="edge">
 <title>Node3&#45;&gt;Node16</title>
-<g id="a_edge15_Node000003_Node000016"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1406.02,-152.13C1470.49,-143.02 1562.51,-128.82 1642.25,-112 1649.98,-110.37 1658.08,-108.47 1666.03,-106.49"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1405.63,-148.65 1396.21,-153.5 1406.6,-155.58 1405.63,-148.65"/>
+<g id="a_edge17_Node000003_Node000016"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1247,-158.21C1328.44,-151.99 1446.49,-138.63 1483.25,-112 1510.15,-92.52 1523.39,-53.83 1528.92,-32.33"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1246.99,-154.7 1237.28,-158.93 1247.51,-161.68 1246.99,-154.7"/>
 </a>
 </g>
 </g>
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="../../d3/d27/_g_u_i_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1920.5,-32 1780,-32 1780,0 1920.5,0 1920.5,-32"/>
-<text text-anchor="start" x="1788" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1850.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/GUI.cpp</text>
+<g id="a_Node000018"><a xlink:href="../../df/da0/_inspector_window_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1670.5,-106 1530,-106 1530,-74 1670.5,-74 1670.5,-106"/>
+<text text-anchor="start" x="1538" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1600.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/InspectorWindow.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node18 -->
-<g id="edge19_Node000003_Node000018" class="edge">
+<g id="edge18_Node000003_Node000018" class="edge">
 <title>Node3&#45;&gt;Node18</title>
-<g id="a_edge19_Node000003_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1405.81,-163.41C1524.86,-162.51 1738.85,-154.74 1801.25,-112 1828.81,-93.12 1841.84,-53.83 1847.15,-32.16"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1406.09,-159.91 1396.11,-163.47 1406.13,-166.91 1406.09,-159.91"/>
+<g id="a_edge18_Node000003_Node000018"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1247.01,-153.49C1318.4,-144.62 1424.64,-130.06 1516.25,-112 1524.51,-110.37 1533.17,-108.45 1541.67,-106.44"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1246.86,-149.98 1237.36,-154.68 1247.72,-156.93 1246.86,-149.98"/>
+</a>
+</g>
+</g>
+<!-- Node19 -->
+<g id="Node000019" class="node">
+<title>Node19</title>
+<g id="a_Node000019"><a xlink:href="../../dc/d71/_picking_window_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1829.5,-106 1689,-106 1689,-74 1829.5,-74 1829.5,-106"/>
+<text text-anchor="start" x="1697" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1759.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/PickingWindow.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node19 -->
+<g id="edge19_Node000003_Node000019" class="edge">
+<title>Node3&#45;&gt;Node19</title>
+<g id="a_edge19_Node000003_Node000019"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1247.43,-158.85C1349.37,-152.79 1528.19,-139.15 1679.25,-112 1687.73,-110.48 1696.63,-108.51 1705.29,-106.4"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1247.28,-155.36 1237.5,-159.43 1247.69,-162.34 1247.28,-155.36"/>
 </a>
 </g>
 </g>
 <!-- Node20 -->
 <g id="Node000020" class="node">
 <title>Node20</title>
-<g id="a_Node000020"><a xlink:href="../../df/da0/_inspector_window_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000020"><a xlink:href="../../d5/dbd/_stats_window_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="1988.5,-106 1848,-106 1848,-74 1988.5,-74 1988.5,-106"/>
 <text text-anchor="start" x="1856" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1918.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/InspectorWindow.cpp</text>
+<text text-anchor="middle" x="1918.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/StatsWindow.cpp</text>
 </a>
 </g>
 </g>
@@ -367,18 +365,18 @@ var sectionId = 'dynsection-1';
 <g id="edge20_Node000003_Node000020" class="edge">
 <title>Node3&#45;&gt;Node20</title>
 <g id="a_edge20_Node000003_Node000020"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1406.16,-158.49C1507.33,-152.07 1684.42,-138.08 1834.25,-112 1842.99,-110.48 1852.16,-108.54 1861.1,-106.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1406.08,-154.98 1396.32,-159.1 1406.52,-161.97 1406.08,-154.98"/>
+<path fill="none" stroke="#63b8ff" d="M1247.18,-161.56C1374.47,-158.26 1627.08,-147.42 1838.25,-112 1846.89,-110.55 1855.95,-108.6 1864.75,-106.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1247.42,-158.05 1237.51,-161.8 1247.6,-165.05 1247.42,-158.05"/>
 </a>
 </g>
 </g>
 <!-- Node21 -->
 <g id="Node000021" class="node">
 <title>Node21</title>
-<g id="a_Node000021"><a xlink:href="../../dc/d71/_picking_window_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000021"><a xlink:href="../../d5/d1f/_auto_updater_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2147.5,-106 2007,-106 2007,-74 2147.5,-74 2147.5,-106"/>
 <text text-anchor="start" x="2015" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="2077.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/PickingWindow.cpp</text>
+<text text-anchor="middle" x="2077.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Utilities/AutoUpdater.cpp</text>
 </a>
 </g>
 </g>
@@ -386,18 +384,18 @@ var sectionId = 'dynsection-1';
 <g id="edge21_Node000003_Node000021" class="edge">
 <title>Node3&#45;&gt;Node21</title>
 <g id="a_edge21_Node000003_Node000021"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1406.18,-161.56C1533.47,-158.26 1786.08,-147.42 1997.25,-112 2005.89,-110.55 2014.95,-108.6 2023.75,-106.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1406.42,-158.05 1396.51,-161.8 1406.6,-165.05 1406.42,-158.05"/>
+<path fill="none" stroke="#63b8ff" d="M1247.23,-163.26C1397.12,-162.57 1724.99,-155.65 1997.25,-112 2006.04,-110.59 2015.27,-108.63 2024.2,-106.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1247.39,-159.76 1237.4,-163.3 1247.41,-166.76 1247.39,-159.76"/>
 </a>
 </g>
 </g>
 <!-- Node22 -->
 <g id="Node000022" class="node">
 <title>Node22</title>
-<g id="a_Node000022"><a xlink:href="../../d5/dbd/_stats_window_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000022"><a xlink:href="../../d3/d93/_file_manager_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="2306.5,-106 2166,-106 2166,-74 2306.5,-74 2306.5,-106"/>
 <text text-anchor="start" x="2174" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="2236.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/StatsWindow.cpp</text>
+<text text-anchor="middle" x="2236.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Utilities/FileManager.cpp</text>
 </a>
 </g>
 </g>
@@ -405,46 +403,8 @@ var sectionId = 'dynsection-1';
 <g id="edge22_Node000003_Node000022" class="edge">
 <title>Node3&#45;&gt;Node22</title>
 <g id="a_edge22_Node000003_Node000022"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1406.23,-163.26C1556.12,-162.57 1883.99,-155.65 2156.25,-112 2165.04,-110.59 2174.27,-108.63 2183.2,-106.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1406.39,-159.76 1396.4,-163.3 1406.41,-166.76 1406.39,-159.76"/>
-</a>
-</g>
-</g>
-<!-- Node23 -->
-<g id="Node000023" class="node">
-<title>Node23</title>
-<g id="a_Node000023"><a xlink:href="../../d5/d1f/_auto_updater_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2465.5,-106 2325,-106 2325,-74 2465.5,-74 2465.5,-106"/>
-<text text-anchor="start" x="2333" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="2395.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Utilities/AutoUpdater.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node23 -->
-<g id="edge23_Node000003_Node000023" class="edge">
-<title>Node3&#45;&gt;Node23</title>
-<g id="a_edge23_Node000003_Node000023"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1406.17,-160.95C1610.88,-155.48 2140.86,-139.08 2315.25,-112 2324.19,-110.61 2333.57,-108.64 2342.64,-106.44"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1406.32,-157.45 1396.42,-161.21 1406.51,-164.44 1406.32,-157.45"/>
-</a>
-</g>
-</g>
-<!-- Node24 -->
-<g id="Node000024" class="node">
-<title>Node24</title>
-<g id="a_Node000024"><a xlink:href="../../d3/d93/_file_manager_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="2624.5,-106 2484,-106 2484,-74 2624.5,-74 2624.5,-106"/>
-<text text-anchor="start" x="2492" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="2554.25" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Utilities/FileManager.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node24 -->
-<g id="edge24_Node000003_Node000024" class="edge">
-<title>Node3&#45;&gt;Node24</title>
-<g id="a_edge24_Node000003_Node000024"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1406.25,-161.63C1633.48,-157.46 2268.02,-143.28 2474.25,-112 2483.19,-110.64 2492.58,-108.68 2501.65,-106.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1406.22,-158.13 1396.29,-161.81 1406.35,-165.12 1406.22,-158.13"/>
+<path fill="none" stroke="#63b8ff" d="M1247.17,-160.95C1451.88,-155.48 1981.86,-139.08 2156.25,-112 2165.19,-110.61 2174.57,-108.64 2183.64,-106.44"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1247.32,-157.45 1237.42,-161.21 1247.51,-164.44 1247.32,-157.45"/>
 </a>
 </g>
 </g>
@@ -476,50 +436,50 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
+<!-- Node15 -->
+<g id="Node000015" class="node">
+<title>Node15</title>
+<g id="a_Node000015"><a xlink:href="../../df/d72/_details_window_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1284.5,-32 1144,-32 1144,0 1284.5,0 1284.5,-32"/>
+<text text-anchor="start" x="1152" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1214.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/DetailsWindow.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge14_Node000014_Node000015" class="edge">
+<title>Node14&#45;&gt;Node15</title>
+<g id="a_edge14_Node000014_Node000015"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1352.96,-69.56C1322.19,-57.91 1283.6,-43.28 1254.94,-32.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1351.48,-72.75 1362.07,-73.02 1353.96,-66.2 1351.48,-72.75"/>
+</a>
+</g>
+</g>
+<!-- Node14&#45;&gt;Node16 -->
+<g id="edge15_Node000014_Node000016" class="edge">
+<title>Node14&#45;&gt;Node16</title>
+<g id="a_edge15_Node000014_Node000016"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1441.55,-68.02C1461.79,-56.64 1486.37,-42.81 1504.84,-32.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1440.03,-64.86 1433.03,-72.81 1443.46,-70.96 1440.03,-64.86"/>
+</a>
+</g>
+</g>
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="../../df/d72/_details_window_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1602.5,-32 1462,-32 1462,0 1602.5,0 1602.5,-32"/>
-<text text-anchor="start" x="1470" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1532.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/DetailsWindow.cpp</text>
+<g id="a_Node000017"><a xlink:href="../../de/d32/_materials_window_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1443.5,-32 1303,-32 1303,0 1443.5,0 1443.5,-32"/>
+<text text-anchor="start" x="1311" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
+<text text-anchor="middle" x="1373.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/MaterialsWindow.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
-<g id="edge16_Node000016_Node000017" class="edge">
-<title>Node16&#45;&gt;Node17</title>
-<g id="a_edge16_Node000016_Node000017"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1670.96,-69.56C1640.19,-57.91 1601.6,-43.28 1572.94,-32.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1669.48,-72.75 1680.07,-73.02 1671.96,-66.2 1669.48,-72.75"/>
-</a>
-</g>
-</g>
-<!-- Node16&#45;&gt;Node18 -->
-<g id="edge17_Node000016_Node000018" class="edge">
-<title>Node16&#45;&gt;Node18</title>
-<g id="a_edge17_Node000016_Node000018"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1759.55,-68.02C1779.79,-56.64 1804.37,-42.81 1822.84,-32.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1758.03,-64.86 1751.03,-72.81 1761.46,-70.96 1758.03,-64.86"/>
-</a>
-</g>
-</g>
-<!-- Node19 -->
-<g id="Node000019" class="node">
-<title>Node19</title>
-<g id="a_Node000019"><a xlink:href="../../de/d32/_materials_window_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1761.5,-32 1621,-32 1621,0 1761.5,0 1761.5,-32"/>
-<text text-anchor="start" x="1629" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/GitHub/GEU/GEU/Source</text>
-<text text-anchor="middle" x="1691.25" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UI/MaterialsWindow.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node16&#45;&gt;Node19 -->
-<g id="edge18_Node000016_Node000019" class="edge">
-<title>Node16&#45;&gt;Node19</title>
-<g id="a_edge18_Node000016_Node000019"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M1711.26,-63.48C1706.77,-53.04 1701.72,-41.31 1697.81,-32.25"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="1707.91,-64.54 1715.08,-72.34 1714.34,-61.77 1707.91,-64.54"/>
+<!-- Node14&#45;&gt;Node17 -->
+<g id="edge16_Node000014_Node000017" class="edge">
+<title>Node14&#45;&gt;Node17</title>
+<g id="a_edge16_Node000014_Node000017"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M1393.26,-63.48C1388.77,-53.04 1383.72,-41.31 1379.81,-32.25"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1389.91,-64.54 1397.08,-72.34 1396.34,-61.77 1389.91,-64.54"/>
 </a>
 </g>
 </g>
