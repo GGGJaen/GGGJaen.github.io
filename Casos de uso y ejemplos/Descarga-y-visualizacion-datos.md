@@ -44,8 +44,6 @@ En este ejemplo, utilizaremos los datos de la finca **J1**. Concretamente, busca
 
 ![Ventana de consulta sobre la base de datos](../Assets/Images/downloaddata_query.png)
 
-El dato que buscamos es de tipo SfM, y cuenta con el distintivo "Olivar". Simplemente con estos dos filtros, la consulta encuentra 4 datos compatibles. Marcando aquel correspondiente a la zona J1 se habilitará el botón de confirmación para iniciar la descarga.
-
 ![Descarga en progreso desde el servidor NAS](../Assets/Images/downloaddata_download.png)
 
 ## Datos espectrales - Imágenes y adicional
