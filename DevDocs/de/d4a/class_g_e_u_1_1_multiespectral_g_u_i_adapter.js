@@ -1,12 +1,38 @@
 var class_g_e_u_1_1_multiespectral_g_u_i_adapter =
 [
+    [ "CameraMaker", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a961b5cd6a2e5a257d70641d540588f20", [
+      [ "Parrot", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a961b5cd6a2e5a257d70641d540588f20ae7cb1e977e896954fec46d2ea7832072", null ],
+      [ "Micasense", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a961b5cd6a2e5a257d70641d540588f20a361c45a8ba818bf3f5bb9379c857e5dc", null ]
+    ] ],
     [ "MultiespectralGUIAdapter", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a086cc212a0b032471983248e4174dc20", null ],
     [ "MultiespectralGUIAdapter", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a525f6dcffb73f547fe41e3145a5704a1", null ],
     [ "clearModuleData", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a2a1ff5b55341b8813942313a524d62d5", null ],
+    [ "loadCameras", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a87e342800370f2052eb4aa079402707d", null ],
     [ "mapping", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afafb062e54a135be4bc20d2eaee39862", null ],
     [ "previewVegetationIndex", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a3979fa9ce0e1e8172b74b1bcfa172e29", null ],
     [ "renderGuiObject", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d", null ],
+    [ "resetValues", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afbf7eda8f85e1d740f99c1da54567df5", null ],
     [ "segmentation", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab650976eaeb0570f205b73158d5aaa47", null ],
     [ "setCameraFile", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#aae196576073535f02bc9985c60ba4b23", null ],
-    [ "setImgDirectory", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab90fbe1e37af16557c264ed1c7eddb38", null ]
+    [ "setImgDirectory", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab90fbe1e37af16557c264ed1c7eddb38", null ],
+    [ "_cameraMaker", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#abe785cccba44d5a41b50c57e0e28f654", null ],
+    [ "_cameras", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a5334f11e06919635a83556e9c11b13b0", null ],
+    [ "_camerasFilePath", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a7c3cfbca504eebf0bb11660dd9d88b1e", null ],
+    [ "_camFileSelected", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#aec7b826c153a1a84b5e07901890512ae", null ],
+    [ "_executionThread", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ae010685fca60eb1f93cc82367fd3a2c5", null ],
+    [ "_icpFilePath", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ac99a9fd0895e1103945cf95f081cf4d2", null ],
+    [ "_icpFileSelected", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a92366583145679e95e45483a6cff1231", null ],
+    [ "_imgDirectory", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a819ec442d7f058e57d92a20d010708cc", null ],
+    [ "_imgDirectorySelected", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a74399ff70e87bbad69d5d2db8fa9ded3", null ],
+    [ "_kValsFilePath", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a2398e3e9b7193393279a2094c1102772", null ],
+    [ "_kValsFileSelected", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a941a9b7be5d0e87270eef85763c9083c", null ],
+    [ "_needCalibrationFile", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab549dd2b9cbb619bafb7d0aaf6198754", null ],
+    [ "_needICPAlignment", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab9959faf57e35db64d5eb4505ee345c0", null ],
+    [ "_pCloudSelection", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a81befc4a0794555c62fec8a5d4b17b08", null ],
+    [ "_progress", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a9bee423fad674afe29fc3856da23a379", null ],
+    [ "_progressMsg", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a250a4b5c6aa460e1b5b78adb303e737e", null ],
+    [ "_progressMsgMutex", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#abb30e59ad92db78ded79f310b187d17f", null ],
+    [ "_projection", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a0f6e36be4b2190ec2589a1f71c42800e", null ],
+    [ "_projectionDone", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afb135f149796e5b6a2900123856ca82e", null ],
+    [ "_vegetationIndexComputed", "de/d4a/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#aafe05324eafb7e9b2885dbdf9c0eb354", null ]
 ];

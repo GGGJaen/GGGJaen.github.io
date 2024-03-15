@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente C:/GitHub/GEU/GEU/Source/Core/Scene.h</title>
+<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d3/d00/a00113_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Scene.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d3/d00/a00113.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../d4/d06/a00008.html">Camera/Camera.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d6/d05/a00047.html">Lights/Light.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d00/a00449.html">Utilities/DatabaseConnector.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d4/d04/a00543.html">GEU</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keyword">class </span>LinesModel;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">class </span>PointCloud;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">class </span>TriangleMesh;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../dc/d02/a01521.html">   13</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="../../dc/d02/a01521.html">DatabaseDownloadedFiles</a> {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../dc/d02/a01521.html#a69f8f8486308c22b8facf06cf40de600">   14</a></span>        std::vector&lt;Database::Dato&gt; <a class="code hl_variable" href="../../dc/d02/a01521.html#a69f8f8486308c22b8facf06cf40de600">_downloadedData</a>; <span class="comment">//Vector of downloaded data. Is gonna be used later to link the generated data to the origin.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../dc/d02/a01521.html#a1d1ed9279dd58b18d531d9c6abda6867">   15</a></span>        std::string <a class="code hl_variable" href="../../dc/d02/a01521.html#a1d1ed9279dd58b18d531d9c6abda6867">_localPath</a>; <span class="comment">//Local data path</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../dc/d02/a01521.html#ac84896538f36b93722a8ca1d324418c3">   16</a></span>        std::string <a class="code hl_variable" href="../../dc/d02/a01521.html#ac84896538f36b93722a8ca1d324418c3">_remotePath</a>; <span class="comment">//Data path in the NAS</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    };</div>
+</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html">   19</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../db/d01/a01525.html">Scene</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#a1f5d861dc740c1110a0d7a0bb744270e">   21</a></span>        std::string <a class="code hl_variable" href="../../db/d01/a01525.html#a1f5d861dc740c1110a0d7a0bb744270e">_sceneName</a> = <span class="stringliteral">&quot;New Scene&quot;</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#a1de6454466ad544ed28771dcca0f0c32">   22</a></span>        std::string <a class="code hl_variable" href="../../db/d01/a01525.html#a1de6454466ad544ed28771dcca0f0c32">_scenePath</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#adb7d12a8993233df51b4167e0c65f725">   23</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d01/a01525.html#adb7d12a8993233df51b4167e0c65f725">dirty</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#ad079a178c5029519e352fd3efc91071f">   25</a></span>        <a class="code hl_struct" href="../../dc/d02/a01521.html">DatabaseDownloadedFiles</a> <a class="code hl_variable" href="../../db/d01/a01525.html#ad079a178c5029519e352fd3efc91071f">_databaseInfo</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#a7530cb17de4c07e5055234ff2adff28f">   27</a></span>        <span class="keywordtype">unsigned</span> <a class="code hl_variable" href="../../db/d01/a01525.html#a7530cb17de4c07e5055234ff2adff28f">_activeCamera</a> = 0;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#a0895f624afe50af0b9af464b754cc825">   28</a></span>        std::vector&lt;std::unique_ptr&lt;Camera&gt;&gt;    <a class="code hl_variable" href="../../db/d01/a01525.html#a0895f624afe50af0b9af464b754cc825">_camera</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#ab5b0955ceb4a5bd97f415c3803ccea05">   29</a></span>        std::vector&lt;std::unique_ptr&lt;Light&gt;&gt;     <a class="code hl_variable" href="../../db/d01/a01525.html#ab5b0955ceb4a5bd97f415c3803ccea05">_light</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#a047a2f67a3c415424076bb9c42797ad6">   30</a></span>        std::unordered_map&lt;std::string, std::unique_ptr&lt;TriangleMesh&gt;&gt; <a class="code hl_variable" href="../../db/d01/a01525.html#a047a2f67a3c415424076bb9c42797ad6">_triangleMeshes</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#ac19b84d6f6ef07486052df604829fbc1">   31</a></span>        std::unordered_map&lt;std::string, std::unique_ptr&lt;PointCloud&gt;&gt; <a class="code hl_variable" href="../../db/d01/a01525.html#ac19b84d6f6ef07486052df604829fbc1">_pointClouds</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#a36c0f15d150a4833f23e958ec27ffc61">   32</a></span>        std::unordered_map&lt;std::string, std::unique_ptr&lt;LinesModel&gt;&gt; <a class="code hl_variable" href="../../db/d01/a01525.html#a36c0f15d150a4833f23e958ec27ffc61">_linesModels</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../db/d01/a01525.html#ac32611789cfae4c9c2c770302cd9c89b">   34</a></span>        <a class="code hl_function" href="../../db/d01/a01525.html#ac32611789cfae4c9c2c770302cd9c89b">Scene</a>() = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_function" href="../../db/d01/a01525.html#ac32611789cfae4c9c2c770302cd9c89b">Scene</a>(uint16_t width, uint16_t height);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <a class="code hl_function" href="../../db/d01/a01525.html#ac32611789cfae4c9c2c770302cd9c89b">Scene</a>(<a class="code hl_typedef" href="../../d3/d07/a00305.html#a2ae0654b8272003bf84d58e1cbd8eb44">ivec2</a> viewportSize);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keyword">virtual</span> <a class="code hl_function" href="../../db/d01/a01525.html#a45fd7276c7df794bc4df8f09798e525f">~Scene</a>();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d01/a01525.html#a32d51c1a97828ea7839fceb93ac69f77">save</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d01/a01525.html#a32d51c1a97828ea7839fceb93ac69f77">save</a>(<span class="keyword">const</span> std::string&amp; scenePath, <span class="keyword">const</span> std::string&amp; sceneName);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d01/a01525.html#a6008c15bade4b7c949e9e958c21b7acb">load</a>(<span class="keyword">const</span> std::string&amp; scenePath, <span class="keyword">const</span> std::string&amp; sceneName);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_class" href="../../df/d00/a01385.html">Camera</a>* <a class="code hl_function" href="../../db/d01/a01525.html#a32e6f62d221dd01bac85a6e4201d9418">getActiveCamera</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d01/a01525.html#a7579ed69fd8f3b0901ef8c218f67d009">readCameraArray</a>(std::vector&lt;std::unique_ptr&lt;Camera&gt;&gt;&amp; buffer, <span class="keyword">const</span> std::string&amp; filename) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d01/a01525.html#a5942f56a62bfa79a1fd95442edb016b4">writeCameraArray</a>(<span class="keyword">const</span> std::vector&lt;std::unique_ptr&lt;Camera&gt;&gt;&amp; buffer, <span class="keyword">const</span> std::string&amp; filename);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d01/a01525.html#a83406c7addb93e349495328570915b95">readLightArray</a>(std::vector&lt;std::unique_ptr&lt;Light&gt;&gt;&amp; buffer, <span class="keyword">const</span> std::string&amp; filename) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d01/a01525.html#a523aac564146b4d3bb893b4eb9aba280">writeLightArray</a>(<span class="keyword">const</span> std::vector&lt;std::unique_ptr&lt;Light&gt;&gt;&amp; buffer, <span class="keyword">const</span> std::string&amp; filename);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    };</div>
+</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
+<div class="ttc" id="aa00008_html"><div class="ttname"><a href="../../d4/d06/a00008.html">Camera.h</a></div></div>
+<div class="ttc" id="aa00047_html"><div class="ttname"><a href="../../d6/d05/a00047.html">Light.h</a></div></div>
+<div class="ttc" id="aa00305_html_a2ae0654b8272003bf84d58e1cbd8eb44"><div class="ttname"><a href="../../d3/d07/a00305.html#a2ae0654b8272003bf84d58e1cbd8eb44">ivec2</a></div><div class="ttdeci">glm::ivec2 ivec2</div><div class="ttdef"><b>Definition</b> stdafx.h:79</div></div>
+<div class="ttc" id="aa00449_html"><div class="ttname"><a href="../../d9/d00/a00449.html">DatabaseConnector.h</a></div></div>
+<div class="ttc" id="aa00543_html"><div class="ttname"><a href="../../d4/d04/a00543.html">GEU</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
+<div class="ttc" id="aa01385_html"><div class="ttname"><a href="../../df/d00/a01385.html">GEU::Camera</a></div><div class="ttdef"><b>Definition</b> Camera.h:7</div></div>
+<div class="ttc" id="aa01521_html"><div class="ttname"><a href="../../dc/d02/a01521.html">GEU::DatabaseDownloadedFiles</a></div><div class="ttdef"><b>Definition</b> Scene.h:13</div></div>
+<div class="ttc" id="aa01521_html_a1d1ed9279dd58b18d531d9c6abda6867"><div class="ttname"><a href="../../dc/d02/a01521.html#a1d1ed9279dd58b18d531d9c6abda6867">GEU::DatabaseDownloadedFiles::_localPath</a></div><div class="ttdeci">std::string _localPath</div><div class="ttdef"><b>Definition</b> Scene.h:15</div></div>
+<div class="ttc" id="aa01521_html_a69f8f8486308c22b8facf06cf40de600"><div class="ttname"><a href="../../dc/d02/a01521.html#a69f8f8486308c22b8facf06cf40de600">GEU::DatabaseDownloadedFiles::_downloadedData</a></div><div class="ttdeci">std::vector&lt; Database::Dato &gt; _downloadedData</div><div class="ttdef"><b>Definition</b> Scene.h:14</div></div>
+<div class="ttc" id="aa01521_html_ac84896538f36b93722a8ca1d324418c3"><div class="ttname"><a href="../../dc/d02/a01521.html#ac84896538f36b93722a8ca1d324418c3">GEU::DatabaseDownloadedFiles::_remotePath</a></div><div class="ttdeci">std::string _remotePath</div><div class="ttdef"><b>Definition</b> Scene.h:16</div></div>
+<div class="ttc" id="aa01525_html"><div class="ttname"><a href="../../db/d01/a01525.html">GEU::Scene</a></div><div class="ttdef"><b>Definition</b> Scene.h:19</div></div>
+<div class="ttc" id="aa01525_html_a047a2f67a3c415424076bb9c42797ad6"><div class="ttname"><a href="../../db/d01/a01525.html#a047a2f67a3c415424076bb9c42797ad6">GEU::Scene::_triangleMeshes</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::unique_ptr&lt; TriangleMesh &gt; &gt; _triangleMeshes</div><div class="ttdef"><b>Definition</b> Scene.h:30</div></div>
+<div class="ttc" id="aa01525_html_a0895f624afe50af0b9af464b754cc825"><div class="ttname"><a href="../../db/d01/a01525.html#a0895f624afe50af0b9af464b754cc825">GEU::Scene::_camera</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; Camera &gt; &gt; _camera</div><div class="ttdef"><b>Definition</b> Scene.h:28</div></div>
+<div class="ttc" id="aa01525_html_a1de6454466ad544ed28771dcca0f0c32"><div class="ttname"><a href="../../db/d01/a01525.html#a1de6454466ad544ed28771dcca0f0c32">GEU::Scene::_scenePath</a></div><div class="ttdeci">std::string _scenePath</div><div class="ttdef"><b>Definition</b> Scene.h:22</div></div>
+<div class="ttc" id="aa01525_html_a1f5d861dc740c1110a0d7a0bb744270e"><div class="ttname"><a href="../../db/d01/a01525.html#a1f5d861dc740c1110a0d7a0bb744270e">GEU::Scene::_sceneName</a></div><div class="ttdeci">std::string _sceneName</div><div class="ttdef"><b>Definition</b> Scene.h:21</div></div>
+<div class="ttc" id="aa01525_html_a32d51c1a97828ea7839fceb93ac69f77"><div class="ttname"><a href="../../db/d01/a01525.html#a32d51c1a97828ea7839fceb93ac69f77">GEU::Scene::save</a></div><div class="ttdeci">bool save()</div><div class="ttdef"><b>Definition</b> Scene.cpp:20</div></div>
+<div class="ttc" id="aa01525_html_a32e6f62d221dd01bac85a6e4201d9418"><div class="ttname"><a href="../../db/d01/a01525.html#a32e6f62d221dd01bac85a6e4201d9418">GEU::Scene::getActiveCamera</a></div><div class="ttdeci">Camera * getActiveCamera() const</div><div class="ttdef"><b>Definition</b> Scene.cpp:153</div></div>
+<div class="ttc" id="aa01525_html_a36c0f15d150a4833f23e958ec27ffc61"><div class="ttname"><a href="../../db/d01/a01525.html#a36c0f15d150a4833f23e958ec27ffc61">GEU::Scene::_linesModels</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::unique_ptr&lt; LinesModel &gt; &gt; _linesModels</div><div class="ttdef"><b>Definition</b> Scene.h:32</div></div>
+<div class="ttc" id="aa01525_html_a45fd7276c7df794bc4df8f09798e525f"><div class="ttname"><a href="../../db/d01/a01525.html#a45fd7276c7df794bc4df8f09798e525f">GEU::Scene::~Scene</a></div><div class="ttdeci">virtual ~Scene()</div><div class="ttdef"><b>Definition</b> Scene.cpp:14</div></div>
+<div class="ttc" id="aa01525_html_a523aac564146b4d3bb893b4eb9aba280"><div class="ttname"><a href="../../db/d01/a01525.html#a523aac564146b4d3bb893b4eb9aba280">GEU::Scene::writeLightArray</a></div><div class="ttdeci">bool writeLightArray(const std::vector&lt; std::unique_ptr&lt; Light &gt; &gt; &amp;buffer, const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> Scene.cpp:212</div></div>
+<div class="ttc" id="aa01525_html_a5942f56a62bfa79a1fd95442edb016b4"><div class="ttname"><a href="../../db/d01/a01525.html#a5942f56a62bfa79a1fd95442edb016b4">GEU::Scene::writeCameraArray</a></div><div class="ttdeci">bool writeCameraArray(const std::vector&lt; std::unique_ptr&lt; Camera &gt; &gt; &amp;buffer, const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> Scene.cpp:179</div></div>
+<div class="ttc" id="aa01525_html_a6008c15bade4b7c949e9e958c21b7acb"><div class="ttname"><a href="../../db/d01/a01525.html#a6008c15bade4b7c949e9e958c21b7acb">GEU::Scene::load</a></div><div class="ttdeci">void load(const std::string &amp;scenePath, const std::string &amp;sceneName)</div><div class="ttdef"><b>Definition</b> Scene.cpp:85</div></div>
+<div class="ttc" id="aa01525_html_a7530cb17de4c07e5055234ff2adff28f"><div class="ttname"><a href="../../db/d01/a01525.html#a7530cb17de4c07e5055234ff2adff28f">GEU::Scene::_activeCamera</a></div><div class="ttdeci">unsigned _activeCamera</div><div class="ttdef"><b>Definition</b> Scene.h:27</div></div>
+<div class="ttc" id="aa01525_html_a7579ed69fd8f3b0901ef8c218f67d009"><div class="ttname"><a href="../../db/d01/a01525.html#a7579ed69fd8f3b0901ef8c218f67d009">GEU::Scene::readCameraArray</a></div><div class="ttdeci">bool readCameraArray(std::vector&lt; std::unique_ptr&lt; Camera &gt; &gt; &amp;buffer, const std::string &amp;filename) const</div><div class="ttdef"><b>Definition</b> Scene.cpp:157</div></div>
+<div class="ttc" id="aa01525_html_a83406c7addb93e349495328570915b95"><div class="ttname"><a href="../../db/d01/a01525.html#a83406c7addb93e349495328570915b95">GEU::Scene::readLightArray</a></div><div class="ttdeci">bool readLightArray(std::vector&lt; std::unique_ptr&lt; Light &gt; &gt; &amp;buffer, const std::string &amp;filename) const</div><div class="ttdef"><b>Definition</b> Scene.cpp:194</div></div>
+<div class="ttc" id="aa01525_html_ab5b0955ceb4a5bd97f415c3803ccea05"><div class="ttname"><a href="../../db/d01/a01525.html#ab5b0955ceb4a5bd97f415c3803ccea05">GEU::Scene::_light</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; Light &gt; &gt; _light</div><div class="ttdef"><b>Definition</b> Scene.h:29</div></div>
+<div class="ttc" id="aa01525_html_ac19b84d6f6ef07486052df604829fbc1"><div class="ttname"><a href="../../db/d01/a01525.html#ac19b84d6f6ef07486052df604829fbc1">GEU::Scene::_pointClouds</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::unique_ptr&lt; PointCloud &gt; &gt; _pointClouds</div><div class="ttdef"><b>Definition</b> Scene.h:31</div></div>
+<div class="ttc" id="aa01525_html_ac32611789cfae4c9c2c770302cd9c89b"><div class="ttname"><a href="../../db/d01/a01525.html#ac32611789cfae4c9c2c770302cd9c89b">GEU::Scene::Scene</a></div><div class="ttdeci">Scene()=delete</div></div>
+<div class="ttc" id="aa01525_html_ad079a178c5029519e352fd3efc91071f"><div class="ttname"><a href="../../db/d01/a01525.html#ad079a178c5029519e352fd3efc91071f">GEU::Scene::_databaseInfo</a></div><div class="ttdeci">DatabaseDownloadedFiles _databaseInfo</div><div class="ttdef"><b>Definition</b> Scene.h:25</div></div>
+<div class="ttc" id="aa01525_html_adb7d12a8993233df51b4167e0c65f725"><div class="ttname"><a href="../../db/d01/a01525.html#adb7d12a8993233df51b4167e0c65f725">GEU::Scene::dirty</a></div><div class="ttdeci">bool dirty</div><div class="ttdef"><b>Definition</b> Scene.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

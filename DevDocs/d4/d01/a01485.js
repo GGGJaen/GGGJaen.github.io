@@ -1,0 +1,28 @@
+var a01485 =
+[
+    [ "MaterialDescription", "d2/d04/a01489.html", "d2/d04/a01489" ],
+    [ "Material", "d4/d01/a01485.html#a838d0be9bc39b6c1cd628423db854757", null ],
+    [ "Material", "d4/d01/a01485.html#a9ba8d328755dc1696d63f709d6a08173", null ],
+    [ "applyMaterial", "d4/d01/a01485.html#a777da35ac8d48ccb690e3190f15de7b8", null ],
+    [ "getAssociatedShader", "d4/d01/a01485.html#ac2969a9853653155f2fb81856a94456d", null ],
+    [ "getMaterialDescription", "d4/d01/a01485.html#a979e43504ce9256a2ef20d16a798759d", null ],
+    [ "getMaterialDescription", "d4/d01/a01485.html#ae63560152f939d7649c6d70d33e1fada", null ],
+    [ "getName", "d4/d01/a01485.html#a1a12fb50e526c074d0ea805b92723471", null ],
+    [ "operator=", "d4/d01/a01485.html#a57f10d3f71e0f7d9fd4cff3544345250", null ],
+    [ "setDisplacementFactor", "d4/d01/a01485.html#a291ae06275a638bee78b343f172136a0", null ],
+    [ "setShininess", "d4/d01/a01485.html#a0f80452e044271d2a58deb1dad7cc456", null ],
+    [ "setSubroutine", "d4/d01/a01485.html#a8e185918df3fedb80c7c8c0f862df3d7", null ],
+    [ "setSubroutine", "d4/d01/a01485.html#af908ae13142e42d09cf1f7c88e700f2c", null ],
+    [ "setSubroutine", "d4/d01/a01485.html#abb5aacb1ebce4d9a9c119ea122d921df", null ],
+    [ "setTexture", "d4/d01/a01485.html#aaac0eb006023bcf7dc146c5943a4ca8c", null ],
+    [ "DetailsWindow", "d4/d01/a01485.html#a7786e2e385d628b59b4b05c76bc2bf3e", null ],
+    [ "MaterialList", "d4/d01/a01485.html#a664e204762f0ede656db90abe8e2608b", null ],
+    [ "_activeSubroutine", "d4/d01/a01485.html#a32b3171a7c60318746263910112defc4", null ],
+    [ "_associatedShader", "d4/d01/a01485.html#aa382c01615f7b585175d96dc659b2ed2", null ],
+    [ "_band", "d4/d01/a01485.html#aa0b94caf0b941486bc51f6e8dc813c1b", null ],
+    [ "_displacementFactor", "d4/d01/a01485.html#a1c20a229b8d1919fc5b81672b6620894", null ],
+    [ "_enabledSubroutines", "d4/d01/a01485.html#afecb821fe69c7af4a9bc8205195efd86", null ],
+    [ "_name", "d4/d01/a01485.html#ac48a52a8b314e3973abc72328f381214", null ],
+    [ "_shininess", "d4/d01/a01485.html#ad156e095dc135650803b91605c3c051e", null ],
+    [ "_texture", "d4/d01/a01485.html#a23e67e2113133327bd60fabe25295f67", null ]
+];

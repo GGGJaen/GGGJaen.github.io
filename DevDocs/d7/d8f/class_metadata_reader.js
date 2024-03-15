@@ -2,6 +2,8 @@ var class_metadata_reader =
 [
     [ "MetadataReader", "d7/d8f/class_metadata_reader.html#a27974dc2261090b6d71cb04fcdec6150", null ],
     [ "~MetadataReader", "d7/d8f/class_metadata_reader.html#ac9bc955fec39e62e739bfe7efa849cba", null ],
+    [ "getParrotReflectance", "d7/d8f/class_metadata_reader.html#a4091d36a5336e388b4ebae3375cec01f", null ],
+    [ "MicasenseRadiometricCalibration", "d7/d8f/class_metadata_reader.html#a97ebc513416a67a04a1350e5ddc4e9fb", null ],
     [ "micasenseReflectanceCalculation", "d7/d8f/class_metadata_reader.html#ab174c31148099bf46c0d65fd995ae863", null ],
     [ "parrotReflectanceCalculation", "d7/d8f/class_metadata_reader.html#aa944c36f63b44549e0a7e7f7ca249ebf", null ],
     [ "printMetadata", "d7/d8f/class_metadata_reader.html#ab27546b340478a739a7215e701130ac9", null ],

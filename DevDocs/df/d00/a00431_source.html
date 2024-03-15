@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente C:/GitHub/GEU/GEU/Source/Utilities/AutoUpdater.h</title>
+<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('df/d00/a00431_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">AutoUpdater.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../df/d00/a00431.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="foldopen" id="foldopen00002" data-start="{" data-end="};">
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno"><a class="line" href="../../db/d05/a01833.html">    2</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d05/a01833.html">AutoUpdater</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d5/d01/a01945.html">GEU::Singleton</a>&lt;AutoUpdater&gt; {</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../db/d05/a01833.html#a26d5b30d500eb285876eb47bdb67b274">    3</a></span>    <span class="keyword">friend</span> <a class="code hl_variable" href="../../db/d05/a01833.html#a26d5b30d500eb285876eb47bdb67b274">Singleton</a>;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="../../db/d05/a01833.html#a9b6da91fd6dfb04b91752808096bda18">    4</a></span>    std::string <a class="code hl_variable" href="../../db/d05/a01833.html#a9b6da91fd6dfb04b91752808096bda18">_currentVersion</a>;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../db/d05/a01833.html#a069f0f2bf7209869fe89298826931b2a">    5</a></span>    <span class="keyword">const</span> std::string <a class="code hl_variable" href="../../db/d05/a01833.html#a069f0f2bf7209869fe89298826931b2a">_patchFileRemotePath</a>=<span class="stringliteral">&quot;GEU/patch.txt&quot;</span>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../db/d05/a01833.html#a3edce71fa584cd5636519817e0d1caf3">    6</a></span>    <span class="keyword">const</span> std::string <a class="code hl_variable" href="../../db/d05/a01833.html#a3edce71fa584cd5636519817e0d1caf3">_GEURemotePath</a> = <span class="stringliteral">&quot;GEU/GEU&quot;</span>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../db/d05/a01833.html#aecadfd2da8c4b72943bc319cfb4541d4">    7</a></span>    <a class="code hl_function" href="../../db/d05/a01833.html#aecadfd2da8c4b72943bc319cfb4541d4">AutoUpdater</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d05/a01833.html#ace78c32abf470219b575b901d02caa68">autoUpdate</a>(<span class="keyword">const</span> std::string&amp; newVersion) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d05/a01833.html#aaae020aa50e70c0ba9583d36514e4bb6">setCurrentVersion</a>(<span class="keyword">const</span> std::string&amp; <a class="code hl_variable" href="../../d3/d01/a00200.html#af1d08f0ffe4249dcec4b475b2a0d8b9f">version</a>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d05/a01833.html#addbef684fb89817493a5bbc81c8ef36a">checkForUpdate</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>};</div>
+</div>
+<div class="ttc" id="aa00200_html_af1d08f0ffe4249dcec4b475b2a0d8b9f"><div class="ttname"><a href="../../d3/d01/a00200.html#af1d08f0ffe4249dcec4b475b2a0d8b9f">version</a></div><div class="ttdeci">const std::string version</div><div class="ttdef"><b>Definition</b> main.cpp:15</div></div>
+<div class="ttc" id="aa01833_html"><div class="ttname"><a href="../../db/d05/a01833.html">AutoUpdater</a></div><div class="ttdef"><b>Definition</b> AutoUpdater.h:2</div></div>
+<div class="ttc" id="aa01833_html_a069f0f2bf7209869fe89298826931b2a"><div class="ttname"><a href="../../db/d05/a01833.html#a069f0f2bf7209869fe89298826931b2a">AutoUpdater::_patchFileRemotePath</a></div><div class="ttdeci">const std::string _patchFileRemotePath</div><div class="ttdef"><b>Definition</b> AutoUpdater.h:5</div></div>
+<div class="ttc" id="aa01833_html_a26d5b30d500eb285876eb47bdb67b274"><div class="ttname"><a href="../../db/d05/a01833.html#a26d5b30d500eb285876eb47bdb67b274">AutoUpdater::Singleton</a></div><div class="ttdeci">friend Singleton</div><div class="ttdef"><b>Definition</b> AutoUpdater.h:3</div></div>
+<div class="ttc" id="aa01833_html_a3edce71fa584cd5636519817e0d1caf3"><div class="ttname"><a href="../../db/d05/a01833.html#a3edce71fa584cd5636519817e0d1caf3">AutoUpdater::_GEURemotePath</a></div><div class="ttdeci">const std::string _GEURemotePath</div><div class="ttdef"><b>Definition</b> AutoUpdater.h:6</div></div>
+<div class="ttc" id="aa01833_html_a9b6da91fd6dfb04b91752808096bda18"><div class="ttname"><a href="../../db/d05/a01833.html#a9b6da91fd6dfb04b91752808096bda18">AutoUpdater::_currentVersion</a></div><div class="ttdeci">std::string _currentVersion</div><div class="ttdef"><b>Definition</b> AutoUpdater.h:4</div></div>
+<div class="ttc" id="aa01833_html_aaae020aa50e70c0ba9583d36514e4bb6"><div class="ttname"><a href="../../db/d05/a01833.html#aaae020aa50e70c0ba9583d36514e4bb6">AutoUpdater::setCurrentVersion</a></div><div class="ttdeci">void setCurrentVersion(const std::string &amp;version)</div><div class="ttdef"><b>Definition</b> AutoUpdater.cpp:9</div></div>
+<div class="ttc" id="aa01833_html_ace78c32abf470219b575b901d02caa68"><div class="ttname"><a href="../../db/d05/a01833.html#ace78c32abf470219b575b901d02caa68">AutoUpdater::autoUpdate</a></div><div class="ttdeci">void autoUpdate(const std::string &amp;newVersion) const</div><div class="ttdef"><b>Definition</b> AutoUpdater.cpp:33</div></div>
+<div class="ttc" id="aa01833_html_addbef684fb89817493a5bbc81c8ef36a"><div class="ttname"><a href="../../db/d05/a01833.html#addbef684fb89817493a5bbc81c8ef36a">AutoUpdater::checkForUpdate</a></div><div class="ttdeci">void checkForUpdate() const</div><div class="ttdef"><b>Definition</b> AutoUpdater.cpp:13</div></div>
+<div class="ttc" id="aa01833_html_aecadfd2da8c4b72943bc319cfb4541d4"><div class="ttname"><a href="../../db/d05/a01833.html#aecadfd2da8c4b72943bc319cfb4541d4">AutoUpdater::AutoUpdater</a></div><div class="ttdeci">AutoUpdater()=default</div></div>
+<div class="ttc" id="aa01945_html"><div class="ttname"><a href="../../d5/d01/a01945.html">GEU::Singleton</a></div><div class="ttdef"><b>Definition</b> Singleton.h:4</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

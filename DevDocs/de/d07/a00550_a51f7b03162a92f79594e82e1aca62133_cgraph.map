@@ -1,0 +1,8 @@
+<map id="GEU::GuiUtilities::makeLocButton" name="GEU::GuiUtilities::makeLocButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,134,93"/>
+<area shape="rect" id="Node000002" href="$d5/d01/a01945.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="182,5,384,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,56,166,49,167,54,135,61"/>
+<area shape="rect" id="Node000003" href="$de/d07/a00550.html#a4a4cc2d3f5e9444384aa7e7eb062dbf0" title=" " alt="" coords="219,96,347,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,83,204,98,203,103,133,88"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="242,96,241,86,247,77,262,71,283,69,306,72,319,78,317,83,304,77,283,75,263,77,251,81,246,87,247,95"/>
+</map>

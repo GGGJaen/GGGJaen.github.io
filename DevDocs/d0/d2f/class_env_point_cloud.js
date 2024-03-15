@@ -19,5 +19,6 @@ var class_env_point_cloud =
     [ "_q1", "d0/d2f/class_env_point_cloud.html#ace777cf151791ea814a0fd198e73e71e", null ],
     [ "_q3", "d0/d2f/class_env_point_cloud.html#af8d28c42ceb568b1d0b709d4edcc207d", null ],
     [ "_targetPointCloud", "d0/d2f/class_env_point_cloud.html#a0e75c8dd9c4ad27acaeeecf2067ab3a2", null ],
-    [ "_temperatureRange", "d0/d2f/class_env_point_cloud.html#a2a32f0a907aa449a8d45411df322834a", null ]
+    [ "_temperatureRange", "d0/d2f/class_env_point_cloud.html#a2a32f0a907aa449a8d45411df322834a", null ],
+    [ "TARGET_SCALE_X", "d0/d2f/class_env_point_cloud.html#ab07ef441a7546640ac240fd9ee681726", null ]
 ];

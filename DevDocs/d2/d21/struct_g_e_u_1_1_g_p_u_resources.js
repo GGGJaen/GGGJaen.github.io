@@ -46,5 +46,7 @@ var struct_g_e_u_1_1_g_p_u_resources =
     [ "reserveGPUMemory", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#add637910eeb07649f3331aa3d5933129", null ],
     [ "uploadToGPU", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#ab7dc4af355df812aaddbc32ff6678026", null ],
     [ "_memoryReserved", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#ae71863aaed4874e76fb8d54b73e0bdec", null ],
-    [ "_ssboIds", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#ab74e15266eb41875ec7925233a2206bb", null ]
+    [ "_ssboIds", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#ab74e15266eb41875ec7925233a2206bb", null ],
+    [ "maxMemoryPerSSBO", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#a4f1fc9543e987cee19f570699db03384", null ],
+    [ "totalUsedMemory", "d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#a3eddd63a67c8782ef562095613e1e3e4", null ]
 ];

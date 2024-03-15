@@ -1,0 +1,16 @@
+<map id="NormalesGUIAdapter" name="NormalesGUIAdapter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="700,100,843,127"/>
+<area shape="rect" id="Node000002" href="$de/d04/a01809.html" title="Adapter pattern for GUI windows and functionality." alt="" coords="373,49,524,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="540,70,676,89,713,97,712,102,675,95,539,75"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="180,19,259,45"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="274,18,283,17,343,17,513,24,586,35,677,61,716,78,749,97,747,102,713,83,675,67,585,40,512,29,343,23,283,23,275,24"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="275,47,284,49,373,59,372,64,283,55,273,53"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,11,131,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="146,29,179,29,179,35,146,35"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="381,100,516,127"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="531,111,699,111,699,116,531,116"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="367,151,530,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="545,151,675,132,712,125,713,130,676,137,546,156"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="407,201,490,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="505,207,587,194,631,184,675,170,717,148,751,125,754,129,719,153,677,174,633,189,588,200,506,213"/>
+</map>

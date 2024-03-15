@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['unibn_0',['unibn',['../de/dd0/namespaceunibn.html',1,'']]],
-  ['unibn_3a_3atraits_1',['traits',['../d2/df4/namespaceunibn_1_1traits.html',1,'unibn']]]
+  ['unibn_0',['unibn',['../dc/d03/a00546.html',1,'']]],
+  ['unibn_3a_3atraits_1',['traits',['../d9/d03/a00547.html',1,'unibn']]]
 ];

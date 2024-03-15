@@ -1,5 +1,6 @@
 var class_database_connector =
 [
+    [ "DatabaseConnector", "d1/d09/class_database_connector.html#af371bd32e0f186f1de9fa487872eb1c1", null ],
     [ "~DatabaseConnector", "d1/d09/class_database_connector.html#a4312f4426fbfd8519bea54c919c27c6a", null ],
     [ "connect", "d1/d09/class_database_connector.html#aa1aa6d6e4c67b2b3b61a598cc801805f", null ],
     [ "disconnect", "d1/d09/class_database_connector.html#a3e5a7533877956070312220d98322587", null ],
@@ -44,6 +45,10 @@ var class_database_connector =
     [ "queryVuelo", "d1/d09/class_database_connector.html#a2b4f98699f6e9dba0728ccc4f695e147", null ],
     [ "queryZona", "d1/d09/class_database_connector.html#aafa175f116074af1e83d841ca7e07f3d", null ],
     [ "Singleton", "d1/d09/class_database_connector.html#ac14a8b7cbcbd5a98fc75ac3df176d864", null ],
+    [ "_connected", "d1/d09/class_database_connector.html#acf41cf94c2b8ef98d3021de519103155", null ],
+    [ "_connectString", "d1/d09/class_database_connector.html#ae2288c98168fb293187ead3a7eed5312", null ],
+    [ "_connPool", "d1/d09/class_database_connector.html#aafc7cad7e05c96fd10e9ea33028d1e6e", null ],
+    [ "_env", "d1/d09/class_database_connector.html#a3f6b34c2f9d170dedbe2d1e08428b498", null ],
     [ "_pass", "d1/d09/class_database_connector.html#a0670541cfe6785eb74af8df23dc51cb2", null ],
     [ "_user", "d1/d09/class_database_connector.html#a945c5f640dd4b3ac0c594e1a15bd3189", null ]
 ];

@@ -1,0 +1,5 @@
+<map id="mve::rotatePerm" name="mve::rotatePerm">
+<area shape="rect" id="Node000001" title="Rotates a permutation left or right by a given offset. If the offset is positive, the permutation wil..." alt="" coords="5,5,122,32"/>
+<area shape="rect" id="Node000002" href="$d8/d00/a00557.html#a1586a758e5ae08fc9be89787a7406955" title=" " alt="" coords="170,5,254,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,16,154,16,154,21,122,21"/>
+</map>

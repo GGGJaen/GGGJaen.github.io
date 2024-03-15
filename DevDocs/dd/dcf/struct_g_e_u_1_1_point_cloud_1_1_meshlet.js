@@ -11,5 +11,6 @@ var struct_g_e_u_1_1_point_cloud_1_1_meshlet =
     [ "diskIndex", "dd/dcf/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html#af5f0d8fc5d22b7feefe26b02f7dc892f", null ],
     [ "fusionDataState", "dd/dcf/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html#a78676b601688779f9e2b5c0681647ddf", null ],
     [ "index", "dd/dcf/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html#ae11993375841cb74a3942ddee42c9634", null ],
+    [ "meshletSize", "dd/dcf/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html#afe5b8a68613a5204e76ab7f8dd6f277f", null ],
     [ "parent", "dd/dcf/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html#a594c99139bd12b2411e7e2d903fca481", null ]
 ];

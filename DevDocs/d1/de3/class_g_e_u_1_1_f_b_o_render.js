@@ -5,5 +5,7 @@ var class_g_e_u_1_1_f_b_o_render =
     [ "bindDepthAttachment", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#a30ce2f9c3f25eb4e8db3c20a3d030ef4", null ],
     [ "bindFramebuffer", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#a33b12f5cb93f75780ed1c5f198dd7b6e", null ],
     [ "getColorAttachmentId", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#ae04face96f7e5f3ce233ce4305af1f92", null ],
-    [ "modifySize", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#a17b34f867dc0e2b4374e2a50d354fb97", null ]
+    [ "modifySize", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#a17b34f867dc0e2b4374e2a50d354fb97", null ],
+    [ "_colorAttachment", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#aeac7b005aeec615e2bd5c3a976e28fde", null ],
+    [ "_depthAttachment", "d1/de3/class_g_e_u_1_1_f_b_o_render.html#a2292c8f67da7da86d90613d77f1fb3ab", null ]
 ];

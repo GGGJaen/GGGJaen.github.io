@@ -24,9 +24,17 @@ var class_g_e_u_1_1_texture =
     [ "getId", "dc/d36/class_g_e_u_1_1_texture.html#a21d896df2d97969aa7b9eec70baa747f", null ],
     [ "getSize", "dc/d36/class_g_e_u_1_1_texture.html#aeffd29387eacb01022011fb0b1a6d0c4", null ],
     [ "getWidth", "dc/d36/class_g_e_u_1_1_texture.html#a166b0d1c38adf38d6479654fbc0ddaaf", null ],
+    [ "toAssimp", "dc/d36/class_g_e_u_1_1_texture.html#a2eb96d3fbcd8f32b1b9f4c4a8c578165", null ],
     [ "_color", "dc/d36/class_g_e_u_1_1_texture.html#a62b0b8b3181f1e58494d5c9babba02b4", null ],
     [ "_filename", "dc/d36/class_g_e_u_1_1_texture.html#a491fa42f686ca66e60a86255f77d8324", null ],
     [ "_height", "dc/d36/class_g_e_u_1_1_texture.html#ad2497fed9e3580cd410a6656f0404afd", null ],
     [ "_id", "dc/d36/class_g_e_u_1_1_texture.html#a2bbe7510e5747ebf9a9c9fb010b7c235", null ],
-    [ "_width", "dc/d36/class_g_e_u_1_1_texture.html#a64ec84cf26791c250107bc338a522f00", null ]
+    [ "_width", "dc/d36/class_g_e_u_1_1_texture.html#a64ec84cf26791c250107bc338a522f00", null ],
+    [ "MAG_FILTER", "dc/d36/class_g_e_u_1_1_texture.html#a830767ee4e87ba6496cbdc3accf7083b", null ],
+    [ "MIN_FILTER", "dc/d36/class_g_e_u_1_1_texture.html#a9fb9c8f6eded9d46e1b86c6a4dcb2cb4", null ],
+    [ "SHADER_VARIABLE", "dc/d36/class_g_e_u_1_1_texture.html#afb5b8bbab8fd92fb36a9a6133da15b16", null ],
+    [ "TEXTURE_LAYER_IDS", "dc/d36/class_g_e_u_1_1_texture.html#a5277e51f7768a6bfae06c23faa661580", null ],
+    [ "WRAP_R", "dc/d36/class_g_e_u_1_1_texture.html#ac1a97778ee402a2903c5596e9a4d3ab1", null ],
+    [ "WRAP_S", "dc/d36/class_g_e_u_1_1_texture.html#a7f7c1ce01718fdc0f952d9b190bc69f5", null ],
+    [ "WRAP_T", "dc/d36/class_g_e_u_1_1_texture.html#a7344441f3a73222a885737462c39a3d1", null ]
 ];

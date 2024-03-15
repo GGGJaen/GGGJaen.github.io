@@ -41,5 +41,7 @@ var class_g_e_u_1_1_image_tree_segmentation =
     [ "_thresholdedImageMat", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a0020dd8cc615c29f74e61494886ac225", null ],
     [ "_thresholdedImageTexture", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a4c14f017e58695a478ae65aa41997871", null ],
     [ "_thresholdMax", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#ac57772156e0812d43a92b901a3c0b17a", null ],
-    [ "_thresholdValue", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a4cf864827239bf8aaaba195ffd912b6a", null ]
+    [ "_thresholdValue", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a4cf864827239bf8aaaba195ffd912b6a", null ],
+    [ "CONTOUR_APPROX_MODES", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a078e5c3210338b3f74085b217addd8b9", null ],
+    [ "INPUT_CHANNELS", "d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a6383e6bea99441774280d0f434b2e6f0", null ]
 ];

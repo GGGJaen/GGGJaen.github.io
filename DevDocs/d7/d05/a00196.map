@@ -1,0 +1,23 @@
+<map id="C:/GitHub/GEU/GEU/Source/Geometry/Rectangle2D.h" name="C:/GitHub/GEU/GEU/Source/Geometry/Rectangle2D.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="136,5,323,48"/>
+<area shape="rect" id="Node000002" href="$d9/d00/a00191.html" title=" " alt="" coords="5,96,193,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,59,131,98,128,93,185,55"/>
+<area shape="rect" id="Node000003" href="$de/d05/a00290.html" title=" " alt="" coords="129,277,381,320"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,63,256,277,250,277,230,64"/>
+<area shape="rect" id="Node000004" href="$d4/d05/a00503.html" title=" " alt="" coords="343,96,530,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,52,389,93,387,98,291,57"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="365,148,335,166,308,189,291,210,278,234,262,278,257,276,274,232,287,207,304,185,332,162,363,143"/>
+<area shape="rect" id="Node000005" href="$d6/d02/a00293.html" title=" " alt="" coords="318,187,555,229"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="439,154,439,186,434,186,434,154"/>
+<area shape="rect" id="Node000009" href="$d4/d07/a00488.html" title=" " alt="" coords="579,187,771,229"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="508,142,620,184,618,189,506,147"/>
+<area shape="rect" id="Node000010" href="$de/d06/a00500.html" title=" " alt="" coords="795,187,982,229"/>
+<area shape="poly" id="edge11_Node000004_Node000010" title=" " alt="" coords="546,137,795,186,794,191,545,143"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="381,239,298,279,296,274,379,234"/>
+<area shape="rect" id="Node000006" href="$df/d05/a00299.html" title=" " alt="" coords="405,277,657,320"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="471,238,511,275,507,279,468,242"/>
+<area shape="rect" id="Node000007" href="$dd/d02/a00221.html" title=" " alt="" coords="305,368,501,411"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="491,331,434,370,431,365,488,327"/>
+<area shape="rect" id="Node000008" href="$db/d03/a00296.html" title=" " alt="" coords="525,368,791,411"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="574,327,630,365,626,370,571,331"/>
+</map>

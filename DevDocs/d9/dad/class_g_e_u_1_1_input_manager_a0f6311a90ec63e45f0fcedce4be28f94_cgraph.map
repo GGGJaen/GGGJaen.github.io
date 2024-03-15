@@ -1,0 +1,10 @@
+<map id="GEU::InputManager::mouseButtonCallback" name="GEU::InputManager::mouseButtonCallback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,154,48"/>
+<area shape="rect" id="Node000002" href="$d1/df9/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="214,5,359,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,33,198,33,198,38,154,38"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="154,15,198,15,198,20,154,21"/>
+<area shape="rect" id="Node000003" href="$de/de6/class_g_e_u_1_1_g_u_i.html#aa349dc16a3b768b18cf94e22aa8b4e95" title=" " alt="" coords="202,72,371,99"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="155,45,223,65,221,70,153,50"/>
+<area shape="rect" id="Node000004" href="$d9/dad/class_g_e_u_1_1_input_manager.html#af2ea72a4bd53eb6f69a5c873e4c22017" title=" " alt="" coords="419,64,562,107"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="371,83,404,83,404,88,371,88"/>
+</map>

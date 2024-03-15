@@ -1,13 +1,23 @@
 <map id="Database::Zona::fromQuery" name="Database::Zona::fromQuery">
-<area shape="rect" id="Node000001" title=" " alt="" coords="827,47,1007,73"/>
-<area shape="rect" id="Node000002" href="$d1/d09/class_database_connector.html#aafa175f116074af1e83d841ca7e07f3d" title=" " alt="" coords="635,39,779,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="811,63,779,63,779,57,811,57"/>
-<area shape="rect" id="Node000003" href="$d1/d09/class_database_connector.html#a7a2dc4fc6ce7dd51e3b2a0749547d46e" title="Obtiene un listado de todos las zonas de la base de datos." alt="" coords="444,5,587,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="619,47,587,42,588,37,620,42"/>
-<area shape="rect" id="Node000006" href="$d1/d09/class_database_connector.html#ae8cee0dc5c4be4cd1ee03404f00df01e" title=" " alt="" coords="444,72,587,115"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="620,78,588,83,587,78,619,73"/>
-<area shape="rect" id="Node000004" href="$d1/d09/class_database_connector.html#af48507d47d876f6b094c6847aafa0e9d" title=" " alt="" coords="253,5,396,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="428,29,396,29,396,24,428,24"/>
-<area shape="rect" id="Node000005" href="$d2/da0/class_g_e_u_1_1_database_new_raw_popup.html#ad085501a66eeb639c40519d7cf608b2e" title=" " alt="" coords="5,5,205,48"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="237,29,205,29,205,24,237,24"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="917,147,1097,173"/>
+<area shape="rect" id="Node000002" href="$d1/d09/class_database_connector.html#aafa175f116074af1e83d841ca7e07f3d" title=" " alt="" coords="725,139,869,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="901,163,869,163,869,157,901,157"/>
+<area shape="rect" id="Node000003" href="$d1/d09/class_database_connector.html#a7a2dc4fc6ce7dd51e3b2a0749547d46e" title="Obtiene un listado de todos las zonas de la base de datos." alt="" coords="514,39,657,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="746,133,676,96,649,84,651,79,678,91,748,128"/>
+<area shape="rect" id="Node000007" href="$d7/dbe/class_g_e_u_1_1_database_query_popup.html#a5ce1cc7c0c60cf95ca37da22cbf13e97" title=" " alt="" coords="493,105,677,148"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="710,149,677,144,678,139,710,144"/>
+<area shape="rect" id="Node000009" href="$d7/dbe/class_g_e_u_1_1_database_query_popup.html#afef45bcc74cf0edca75cd3f386f9e09b" title=" " alt="" coords="493,172,677,215"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="710,176,678,181,677,176,710,171"/>
+<area shape="rect" id="Node000011" href="$d1/d09/class_database_connector.html#ae8cee0dc5c4be4cd1ee03404f00df01e" title=" " alt="" coords="514,239,657,281"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="748,192,678,229,651,241,649,236,676,224,746,187"/>
+<area shape="rect" id="Node000004" href="$d1/d09/class_database_connector.html#af48507d47d876f6b094c6847aafa0e9d" title=" " alt="" coords="281,39,425,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="498,63,425,63,425,57,498,57"/>
+<area shape="rect" id="Node000005" href="$d2/da0/class_g_e_u_1_1_database_new_raw_popup.html#ad085501a66eeb639c40519d7cf608b2e" title=" " alt="" coords="9,5,209,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="266,51,209,43,209,38,266,46"/>
+<area shape="rect" id="Node000006" href="$db/dbe/class_g_e_u_1_1_database_new_vuelo_popup.html#a3939a10ac14ff4dbfd34f341fc52db79" title=" " alt="" coords="5,72,213,115"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="267,74,213,82,213,76,266,69"/>
+<area shape="rect" id="Node000008" href="$d7/dbe/class_g_e_u_1_1_database_query_popup.html#afc8c81955f8b810c699753b511f61031" title=" " alt="" coords="261,105,445,148"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="477,129,446,129,446,124,477,124"/>
+<area shape="rect" id="Node000010" href="$d7/dbe/class_g_e_u_1_1_database_query_popup.html#ad5e45356898c5dfc51d7ef890f7a5b41" title=" " alt="" coords="261,172,445,215"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="477,196,446,196,446,191,477,191"/>
 </map>

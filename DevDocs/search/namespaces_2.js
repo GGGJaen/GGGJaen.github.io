@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['filemanagement_0',['FileManagement',['../d2/dad/namespace_file_management.html',1,'']]]
+  ['filedialogregex_0',['FileDialogRegex',['../dc/d01/a00554.html',1,'']]],
+  ['filemanagement_1',['FileManagement',['../d6/d05/a00556.html',1,'']]]
 ];

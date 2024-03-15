@@ -1,0 +1,13 @@
+<map id="GEU::FileManager" name="GEU::FileManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="178,295,307,321"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="174,188,311,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,246,245,294,240,294,240,246"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="203,97,282,124"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="188,122,120,135,54,157,29,172,13,188,9,207,18,229,33,246,50,261,92,282,136,295,178,302,177,307,135,300,90,287,48,265,29,250,13,232,3,208,9,186,26,167,52,152,119,130,187,116"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,140,245,187,240,187,240,140"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="334,196,498,223"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="280,130,395,193,392,198,277,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="180,5,305,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="245,64,245,97,240,97,240,64"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="398,236,378,256,355,273,327,287,299,297,297,292,325,282,352,268,375,251,394,232"/>
+</map>

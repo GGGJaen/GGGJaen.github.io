@@ -22,5 +22,11 @@ var struct_g_e_u_1_1_shader_enum =
       [ "VERTEX_COLOR_SOURCE", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a55862a2e6e9c52df2287f230f41558d8a2b236c76980b6506f3064bdf772328aa", null ],
       [ "FILTER_VEGETATION_INDEX", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a55862a2e6e9c52df2287f230f41558d8a73c9692b7ef28e397b2986d4fc5b0df8", null ],
       [ "NUM_VERTEX_SUBROUTINES", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a55862a2e6e9c52df2287f230f41558d8af64f5e90257f47674a72d13ce442ce98", null ]
-    ] ]
+    ] ],
+    [ "fromOpenGLToShaderTypes", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a70d2891b71f79f0279679513af8363ec", null ],
+    [ "fromShaderTypesToOpenGL", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a3c1b4ad3d76792920e2fb638e568aea8", null ],
+    [ "fromShaderTypesToOpenGL", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a538937c3ce73d6e46d3a9869ed3f3082", null ],
+    [ "ShaderName", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a9e98db35f26954706c3db3a299dbba39", null ],
+    [ "SubroutineName", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a4ecd53dde06d3c0c62e05afb7b71c504", null ],
+    [ "SubroutineUniformNames", "de/d5b/struct_g_e_u_1_1_shader_enum.html#a0d75e03114ae933b1efb3f0f26385e09", null ]
 ];

@@ -9,9 +9,14 @@ var class_g_e_u_1_1_g_u_i =
     [ "~GUI", "de/de6/class_g_e_u_1_1_g_u_i.html#a827b1bda6802e6feda3522c60a42fed1", null ],
     [ "addPopup", "de/de6/class_g_e_u_1_1_g_u_i.html#a7b3101bbac98cc31f1d02eea41cda857", null ],
     [ "deleteCurrentScene", "de/de6/class_g_e_u_1_1_g_u_i.html#ac1d7053318478ac2b13c3ae4bdaa82a1", null ],
+    [ "getFrameRate", "de/de6/class_g_e_u_1_1_g_u_i.html#a8dc3b435e68148c79094024ab3e122bc", null ],
     [ "handleNextPopup", "de/de6/class_g_e_u_1_1_g_u_i.html#a25741966b2b13947cc190ade25df565b", null ],
     [ "initialize", "de/de6/class_g_e_u_1_1_g_u_i.html#a455b1ab303f7874e9d0b5b6da3cced98", null ],
+    [ "isKeyboardActive", "de/de6/class_g_e_u_1_1_g_u_i.html#a55827b7b1ac5d854e149a290a45f5f64", null ],
     [ "isMaximized", "de/de6/class_g_e_u_1_1_g_u_i.html#aca22bab6f62b6ef6c6f7f526b59c446e", null ],
+    [ "isMouseActive", "de/de6/class_g_e_u_1_1_g_u_i.html#ace582d91189b41aec4e089fdc6735de6", null ],
+    [ "loadImGUIStyle", "de/de6/class_g_e_u_1_1_g_u_i.html#ad05e6ee6d84e1ee4690dff6e1c3ab851", null ],
+    [ "makeMainDockNode", "de/de6/class_g_e_u_1_1_g_u_i.html#abf14f729f81711cd314ed32635a72f43", null ],
     [ "pointerPicking", "de/de6/class_g_e_u_1_1_g_u_i.html#aa349dc16a3b768b18cf94e22aa8b4e95", null ],
     [ "render", "de/de6/class_g_e_u_1_1_g_u_i.html#af7ebc89aa431e3a9e86bb1424b819d47", null ],
     [ "resetPicking", "de/de6/class_g_e_u_1_1_g_u_i.html#ad6b6b3fd7a0e1413c7e15d5cdab4b871", null ],
@@ -30,5 +35,7 @@ var class_g_e_u_1_1_g_u_i =
     [ "MAX_WINDOW_SIZE", "de/de6/class_g_e_u_1_1_g_u_i.html#a73cc93df1a0c01b23550717615418ad7", null ],
     [ "MIN_POPUP_SIZE", "de/de6/class_g_e_u_1_1_g_u_i.html#ad69b2ea3a00c2bc19054ba619604e7c1", null ],
     [ "MIN_WINDOW_SIZE", "de/de6/class_g_e_u_1_1_g_u_i.html#a3384833b06c6cb2895410ecf131fd0d4", null ],
-    [ "testProg", "de/de6/class_g_e_u_1_1_g_u_i.html#aabe370c537c9cf1e63330426e181ccb2", null ]
+    [ "Singleton", "de/de6/class_g_e_u_1_1_g_u_i.html#a728ad27a5c00b41b4ddf6697edac2dc3", null ],
+    [ "testProg", "de/de6/class_g_e_u_1_1_g_u_i.html#aabe370c537c9cf1e63330426e181ccb2", null ],
+    [ "WINDOW_CLOSE_PENDING", "de/de6/class_g_e_u_1_1_g_u_i.html#afc7a42769f9a0df428c3eac256a64a24", null ]
 ];

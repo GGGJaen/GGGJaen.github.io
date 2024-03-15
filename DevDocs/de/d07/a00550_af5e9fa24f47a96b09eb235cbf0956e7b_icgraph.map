@@ -1,0 +1,11 @@
+<map id="GEU::GuiUtilities::makeConfirmButton" name="GEU::GuiUtilities::makeConfirmButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,105,388,148"/>
+<area shape="rect" id="Node000002" href="$d0/d06/a01741.html#a82f88c00c88912fb0beab3db3dcccdf0" title="Renders the popup and its contents." alt="" coords="32,5,178,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,99,204,62,176,51,178,46,206,58,274,94"/>
+<area shape="rect" id="Node000003" href="$d5/d07/a01749.html#aabf3be0d95c567d3b439cdae51edc79e" title="Renders the popup and its contents." alt="" coords="5,72,205,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,116,205,111,206,106,238,111"/>
+<area shape="rect" id="Node000004" href="$db/d00/a01757.html#a22764a8a53570961466432ac856eb4fc" title="Renders the popup and its contents." alt="" coords="13,139,197,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,142,198,148,197,143,237,137"/>
+<area shape="rect" id="Node000005" href="$d4/d01/a01817.html#a7f59ae3b46b461ced5c0fef7e89f37a3" title="Renders the popup and its contents." alt="" coords="14,205,196,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="274,159,206,196,178,207,176,202,204,191,271,154"/>
+</map>

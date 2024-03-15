@@ -1,0 +1,21 @@
+<map id="DatabaseConnector::queryVuelo" name="DatabaseConnector::queryVuelo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="732,139,876,181"/>
+<area shape="rect" id="Node000002" href="$d5/d01/a01901.html#aa501d9be228c74946830759e8f350bb2" title="Obtiene un listado de todos los vuelos de la base de datos." alt="" coords="521,39,664,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="753,133,683,96,656,84,658,79,685,91,755,128"/>
+<area shape="rect" id="Node000006" href="$d5/d01/a01901.html#a6318696fa147d8bfb49b387960b9dbbc" title=" " alt="" coords="521,105,664,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="716,149,664,141,665,135,717,144"/>
+<area shape="rect" id="Node000007" href="$db/d00/a01757.html#a095cd13fc65fee6dfe8adcb986e185b7" title=" " alt="" coords="500,172,684,215"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="717,176,685,181,684,176,717,171"/>
+<area shape="rect" id="Node000009" href="$db/d00/a01757.html#ad84110548dc0b8959e81cd9a219dc77b" title=" " alt="" coords="500,239,684,281"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="755,192,685,229,658,241,656,236,683,224,753,187"/>
+<area shape="rect" id="Node000003" href="$d5/d07/a01749.html#a0ab8ef55837c3a0c64ae56593e807128" title=" " alt="" coords="253,5,452,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="505,51,452,43,453,38,506,45"/>
+<area shape="rect" id="Node000004" href="$d5/d01/a01901.html#a00e40c8a8c699d22f2201c54a6092586" title=" " alt="" coords="281,72,424,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="506,75,425,86,424,81,505,69"/>
+<area shape="rect" id="Node000005" href="$d5/d07/a01749.html#ad085501a66eeb639c40519d7cf608b2e" title=" " alt="" coords="5,72,205,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="265,96,205,96,205,91,265,91"/>
+<area shape="rect" id="Node000008" href="$db/d00/a01757.html#a83023007463bdd6e6a4b40c55146b825" title=" " alt="" coords="260,172,445,215"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="484,196,445,196,445,191,484,191"/>
+<area shape="rect" id="Node000010" href="$db/d00/a01757.html#a6799cf756f5e2cb191268e786a8df4ba" title=" " alt="" coords="260,239,445,281"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="484,263,445,263,445,257,484,257"/>
+</map>

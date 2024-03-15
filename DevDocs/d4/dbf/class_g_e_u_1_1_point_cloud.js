@@ -27,6 +27,7 @@ var class_g_e_u_1_1_point_cloud =
     [ "addSubcloud", "d4/dbf/class_g_e_u_1_1_point_cloud.html#aea50cf81d1b0ea48d94dc86cbc55c125", null ],
     [ "clearData", "d4/dbf/class_g_e_u_1_1_point_cloud.html#af05762ea64b560bc5547fcfcc1f67c5a", null ],
     [ "convertToPCLPointCloud", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a2ae9681e4dda937bb5b0218ead067e5e", null ],
+    [ "DataSourceToString", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a26d29dd70f64699d185d8a414af193af", null ],
     [ "drawModel", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a1684ef907dd9c1eacc4c3d28637a8527", null ],
     [ "exportAsImage", "d4/dbf/class_g_e_u_1_1_point_cloud.html#ace4a012de683ecf33f6126559d533102", null ],
     [ "getCloudSummary", "d4/dbf/class_g_e_u_1_1_point_cloud.html#abfa6f796deb0a0ff36914aed54db5238", null ],
@@ -36,6 +37,7 @@ var class_g_e_u_1_1_point_cloud =
     [ "getMeshlets", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0", null ],
     [ "getNormals", "d4/dbf/class_g_e_u_1_1_point_cloud.html#af0b00f0dfca52b32562dd5f82b483933", null ],
     [ "getNumberOfPoints", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a82e16a07082e1f628216badaa7f6d91e", null ],
+    [ "getPointColor", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a049b0b27cf08791544dc044d7a9f2c0d", null ],
     [ "getPointsColor", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a51c362a48e58352238cd5d47f3e801c6", null ],
     [ "getPointsPosition", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a52698b429492303948167bed5da1a0d9", null ],
     [ "getSubcloud", "d4/dbf/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6", null ],
@@ -64,6 +66,11 @@ var class_g_e_u_1_1_point_cloud =
     [ "setFusionData", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a5eb95b0ee2395c017433a76dbfc4a469", null ],
     [ "setNewPoints", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a467e6534ece2051b434e7e3a4d494eb6", null ],
     [ "setNormals", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a72ea4942f667757725035e7085d05806", null ],
+    [ "setPointColor", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a44fa44093deca94a8fcf6c100cb3a8f8", null ],
+    [ "slotFromDataSource", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a0435bc9d4a814130f558ee2b1487483b", null ],
+    [ "slotFromDataSource", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a15674111a375cca4ae6b5d01a14c32e8", null ],
+    [ "slotFromPointColorType", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a1968529e6158f77337f9b7208acb93f7", null ],
+    [ "slotFromPointColorType", "d4/dbf/class_g_e_u_1_1_point_cloud.html#acdb0e742a3c0a5d4ca3e0b6af0a380f2", null ],
     [ "spatialOrdering", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a2cb34ca60b228ed4e5472a8fa5590841", null ],
     [ "updateAABB", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a35ba6843e6eb68dc9450a9e7a2ce02df", null ],
     [ "updateAABB", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a9ad53cb3483170c0b176a2e2caf0ff67", null ],
@@ -93,5 +100,7 @@ var class_g_e_u_1_1_point_cloud =
     [ "_selectedRenderBand", "d4/dbf/class_g_e_u_1_1_point_cloud.html#afa46dc2bb345e909823f287aa04009c9", null ],
     [ "_subClouds", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a79e60e0cb5627088ddf37cb5c5f29e17", null ],
     [ "_viewMode", "d4/dbf/class_g_e_u_1_1_point_cloud.html#ab2ae485587f2c6cdb39d5f86ef67b5d7", null ],
-    [ "_viewNormals", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a14e5b3400be707cf8f1578c6d2e113cd", null ]
+    [ "_viewModes", "d4/dbf/class_g_e_u_1_1_point_cloud.html#ab2475634bf86c761786313d41a248e56", null ],
+    [ "_viewNormals", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a14e5b3400be707cf8f1578c6d2e113cd", null ],
+    [ "dataBandsNumber", "d4/dbf/class_g_e_u_1_1_point_cloud.html#a7bdfb3491c67de92b3e9d70440e71b33", null ]
 ];

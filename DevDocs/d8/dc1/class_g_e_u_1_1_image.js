@@ -5,6 +5,7 @@ var class_g_e_u_1_1_image =
     [ "~Image", "d8/dc1/class_g_e_u_1_1_image.html#a2d641586d517b0390510f5dfb60fd172", null ],
     [ "bits", "d8/dc1/class_g_e_u_1_1_image.html#ad8c64d59af4fc9469b001a38f6d1cca9", null ],
     [ "flipImageVertically", "d8/dc1/class_g_e_u_1_1_image.html#a11d5e92ff1b87f268284ba8dde4d35e6", null ],
+    [ "flipImageVertically", "d8/dc1/class_g_e_u_1_1_image.html#a28779e95983a44d1d8b8639c0828b5ba", null ],
     [ "getDepth", "d8/dc1/class_g_e_u_1_1_image.html#a8774fbe94fb3063ece919d4a4b89bb52", null ],
     [ "getFilename", "d8/dc1/class_g_e_u_1_1_image.html#ad5a00b2f2614b9017944c684724d22db", null ],
     [ "getHeight", "d8/dc1/class_g_e_u_1_1_image.html#a382c634b44f2871503f3e46d6e622010", null ],

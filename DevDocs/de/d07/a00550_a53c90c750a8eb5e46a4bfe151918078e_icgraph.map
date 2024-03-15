@@ -1,0 +1,10 @@
+<map id="GEU::GuiUtilities::setNextTableItemAlign" name="GEU::GuiUtilities::setNextTableItemAlign">
+<area shape="rect" id="Node000001" title=" " alt="" coords="426,39,577,81"/>
+<area shape="rect" id="Node000002" href="$df/d03/a01765.html#afef856466732ea159773d087909d0fdf" title="Renders inspector details for 3D model items." alt="" coords="200,5,375,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="410,49,374,43,375,38,411,43"/>
+<area shape="rect" id="Node000004" href="$df/d03/a01765.html#a9edcfff4507d107037e9f7500a3d6717" title="Renders inspector details for point cloud items." alt="" coords="197,72,378,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="411,77,379,82,378,77,410,71"/>
+<area shape="rect" id="Node000003" href="$df/d03/a01765.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,39,149,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="185,46,149,51,148,46,185,40"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="181,79,149,74,149,69,182,74"/>
+</map>

@@ -5,6 +5,7 @@ var class_open_c_v_image =
     [ "OpenCVImage", "d0/da8/class_open_c_v_image.html#a70b7016a5510a09e7962d76e983d82c2", null ],
     [ "OpenCVImage", "d0/da8/class_open_c_v_image.html#ae5a22005fa766c2a5b4104527766d6e4", null ],
     [ "blur", "d0/da8/class_open_c_v_image.html#aa9da1d0dfe6723e68f4156f484d8ca7d", null ],
+    [ "composeRectangle", "d0/da8/class_open_c_v_image.html#a00d6cda31297fde9a4c0e1d06563b49a", null ],
     [ "convertToGrayscale", "d0/da8/class_open_c_v_image.html#a9557b5818a906019f1f2e33695cd6345", null ],
     [ "crop", "d0/da8/class_open_c_v_image.html#aca2db1ad767ecd0ca9ce59ee2ce9f5e5", null ],
     [ "drawRectangle", "d0/da8/class_open_c_v_image.html#a4687739a9ae72ae1b188f2e63624bfc9", null ],

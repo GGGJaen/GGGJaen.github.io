@@ -27,6 +27,9 @@ var class_g_e_u_1_1_v_a_o =
     [ "VAO", "de/d53/class_g_e_u_1_1_v_a_o.html#a7a2c3924d11cd9067fa7a00c7439ddc7", null ],
     [ "~VAO", "de/d53/class_g_e_u_1_1_v_a_o.html#a7f61d7669a1f8db36d00744a426bdcfa", null ],
     [ "clearVBOData", "de/d53/class_g_e_u_1_1_v_a_o.html#a508882d1c50e998128ca36935afaecd8", null ],
+    [ "defineInterleavedVBOForPointCloud", "de/d53/class_g_e_u_1_1_v_a_o.html#a3e1729d5bd550a6d5dceb3673d34cc7b", null ],
+    [ "defineInterleavedVBOForTriangleMesh", "de/d53/class_g_e_u_1_1_v_a_o.html#a7758d5da3f0c4342d1b2bed8c3a5353a", null ],
+    [ "defineNonInterleaveVBO", "de/d53/class_g_e_u_1_1_v_a_o.html#a4d15ba54b897ca6653c5a81aed76df4c", null ],
     [ "drawObject", "de/d53/class_g_e_u_1_1_v_a_o.html#a9544944dd1a08259781e176b4c3f75f0", null ],
     [ "drawObject", "de/d53/class_g_e_u_1_1_v_a_o.html#a00c1d416b76beb4a62c495727ceef38c", null ],
     [ "setIBOData", "de/d53/class_g_e_u_1_1_v_a_o.html#acc9b59426ddd62357160eb1ee9ee93b8", null ],
@@ -37,5 +40,9 @@ var class_g_e_u_1_1_v_a_o =
     [ "support", "de/d53/class_g_e_u_1_1_v_a_o.html#a4fc6f21443c1f3e7b1681d5c11ce2dc3", null ],
     [ "support", "de/d53/class_g_e_u_1_1_v_a_o.html#a9d32310c4d150d8b0fca80b08a69451c", null ],
     [ "support", "de/d53/class_g_e_u_1_1_v_a_o.html#a79e19b08839795d8c9d283ca40fc674c", null ],
-    [ "support", "de/d53/class_g_e_u_1_1_v_a_o.html#aa286f3776f98cff3540d94e58c111184", null ]
+    [ "support", "de/d53/class_g_e_u_1_1_v_a_o.html#aa286f3776f98cff3540d94e58c111184", null ],
+    [ "_defineVBO", "de/d53/class_g_e_u_1_1_v_a_o.html#a014cb12e6612e8802c2b772989c0034f", null ],
+    [ "_ibos", "de/d53/class_g_e_u_1_1_v_a_o.html#a7097683d2c1cf92fa440626d5df3a981", null ],
+    [ "_vao", "de/d53/class_g_e_u_1_1_v_a_o.html#ab53c9c42dd54acbb8b773a765c5a0947", null ],
+    [ "_vbos", "de/d53/class_g_e_u_1_1_v_a_o.html#a76e91138d9a3d767f44c148d71fe66ba", null ]
 ];

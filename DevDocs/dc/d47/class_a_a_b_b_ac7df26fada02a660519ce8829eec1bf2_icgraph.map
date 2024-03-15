@@ -1,8 +1,17 @@
 <map id="AABB::update" name="AABB::update">
-<area shape="rect" id="Node000001" title=" " alt="" coords="220,47,324,73"/>
-<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="303,34,292,28,272,25,253,27,243,32,240,37,245,45,240,48,235,38,239,28,251,22,272,20,294,23,306,29"/>
-<area shape="rect" id="Node000002" href="$d9/db1/class_g_e_u_1_1_picking_window.html#a898e5f19fa3ef08a325e02d15e15532f" title=" " alt="" coords="15,5,162,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,50,162,43,163,37,205,45"/>
-<area shape="rect" id="Node000003" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a2cb34ca60b228ed4e5472a8fa5590841" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="5,72,172,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,75,172,81,172,76,204,70"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="459,139,563,165"/>
+<area shape="poly" id="edge8_Node000001_Node000001" title=" " alt="" coords="543,126,532,120,511,117,492,119,481,124,479,129,484,137,479,140,473,130,477,120,490,114,511,112,534,115,546,121"/>
+<area shape="rect" id="Node000002" href="$dd/dcb/class_g_e_u_1_1_procedural_generator.html#ab0c3b30380c1fd538c92fcea0e1e04d2" title=" " alt="" coords="235,5,411,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="487,129,452,95,410,62,388,51,391,46,412,58,456,91,490,126"/>
+<area shape="rect" id="Node000003" href="$d9/db1/class_g_e_u_1_1_picking_window.html#a898e5f19fa3ef08a325e02d15e15532f" title=" " alt="" coords="250,72,396,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="451,136,393,118,394,113,452,131"/>
+<area shape="rect" id="Node000004" href="$dd/db9/class_g_e_u_1_1_file_manager.html#ad9c308882e7e55a84874880c56515c92" title=" " alt="" coords="6,176,186,203"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="444,161,186,184,186,179,443,155"/>
+<area shape="rect" id="Node000005" href="$d9/d4a/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd" title=" " alt="" coords="252,189,394,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="452,173,394,191,393,186,451,168"/>
+<area shape="rect" id="Node000006" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a2cb34ca60b228ed4e5472a8fa5590841" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="240,256,406,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="490,178,456,213,412,246,391,258,388,253,410,242,452,209,487,175"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="249,253,234,246,131,206,133,201,236,242,251,248"/>
+<area shape="rect" id="Node000007" href="$dd/db9/class_g_e_u_1_1_file_manager.html#aebeb11b59981efb0536a7e57fe284120" title=" " alt="" coords="5,264,187,291"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="224,280,187,280,187,275,224,275"/>
 </map>

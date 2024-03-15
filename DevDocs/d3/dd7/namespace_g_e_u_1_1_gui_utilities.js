@@ -1,9 +1,9 @@
 var namespace_g_e_u_1_1_gui_utilities =
 [
-    [ "Colors", "d6/df2/struct_g_e_u_1_1_gui_utilities_1_1_colors.html", null ],
-    [ "DragDropIDs", "d3/ddf/struct_g_e_u_1_1_gui_utilities_1_1_drag_drop_i_ds.html", null ],
+    [ "Colors", "d6/df2/struct_g_e_u_1_1_gui_utilities_1_1_colors.html", "d6/df2/struct_g_e_u_1_1_gui_utilities_1_1_colors" ],
+    [ "DragDropIDs", "d3/ddf/struct_g_e_u_1_1_gui_utilities_1_1_drag_drop_i_ds.html", "d3/ddf/struct_g_e_u_1_1_gui_utilities_1_1_drag_drop_i_ds" ],
     [ "ImageTooltipDrawArea", "d9/d92/struct_g_e_u_1_1_gui_utilities_1_1_image_tooltip_draw_area.html", "d9/d92/struct_g_e_u_1_1_gui_utilities_1_1_image_tooltip_draw_area" ],
-    [ "Parameters", "d0/d35/struct_g_e_u_1_1_gui_utilities_1_1_parameters.html", null ],
+    [ "Parameters", "d0/d35/struct_g_e_u_1_1_gui_utilities_1_1_parameters.html", "d0/d35/struct_g_e_u_1_1_gui_utilities_1_1_parameters" ],
     [ "beginCamaraTable", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#aa728619e93d9746bc29510e5bf62aafc", null ],
     [ "BeginCombo", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a95d5f616a34dd70aca4886e546720966", null ],
     [ "beginDatoCrudoTable", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#adaabda63297ba1a7732d1dfdb993fdb2", null ],
@@ -50,6 +50,7 @@ var namespace_g_e_u_1_1_gui_utilities =
     [ "InputText", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a0c8f0f5af8119c36fa703bc2ed301bde", null ],
     [ "InputTextMultiline", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#aac1ea4f7d9f0ad6e7301fe369e9c489c", null ],
     [ "InsertToast", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a84bb8e77631e925660765d1e2e9104c2", null ],
+    [ "InsertToast", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#ae19de031d1878518f739c269fde6a4ae", null ],
     [ "leaveSpace", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#a0fc991c5fd69dd43aaddab0b20792b87", null ],
     [ "loadingIcon", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#aa4e9186189a097316ffd71424d4a7259", null ],
     [ "makeButton", "d3/dd7/namespace_g_e_u_1_1_gui_utilities.html#abcf3ec220dead7a6cb3e2c1e752e44df", null ],

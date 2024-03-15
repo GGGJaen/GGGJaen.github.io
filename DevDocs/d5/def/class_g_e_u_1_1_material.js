@@ -5,6 +5,7 @@ var class_g_e_u_1_1_material =
     [ "Material", "d5/def/class_g_e_u_1_1_material.html#a9ba8d328755dc1696d63f709d6a08173", null ],
     [ "applyMaterial", "d5/def/class_g_e_u_1_1_material.html#a777da35ac8d48ccb690e3190f15de7b8", null ],
     [ "getAssociatedShader", "d5/def/class_g_e_u_1_1_material.html#ac2969a9853653155f2fb81856a94456d", null ],
+    [ "getMaterialDescription", "d5/def/class_g_e_u_1_1_material.html#a979e43504ce9256a2ef20d16a798759d", null ],
     [ "getMaterialDescription", "d5/def/class_g_e_u_1_1_material.html#ae63560152f939d7649c6d70d33e1fada", null ],
     [ "getName", "d5/def/class_g_e_u_1_1_material.html#a1a12fb50e526c074d0ea805b92723471", null ],
     [ "operator=", "d5/def/class_g_e_u_1_1_material.html#a57f10d3f71e0f7d9fd4cff3544345250", null ],

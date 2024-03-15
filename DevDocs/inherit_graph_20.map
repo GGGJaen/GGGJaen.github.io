@@ -1,7 +1,7 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$d2/df0/class_g_e_u_1_1_camera_projection.html" title=" " alt="" coords="5,31,166,57"/>
-<area shape="rect" id="Node000001" href="$d2/d53/class_g_e_u_1_1_orthographic_projection.html" title=" " alt="" coords="214,5,403,32"/>
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$d0/d05/a01389.html" title=" " alt="" coords="5,31,166,57"/>
+<area shape="rect" id="Node000001" href="$dc/d04/a01401.html" title=" " alt="" coords="214,5,403,32"/>
 <area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="181,30,213,27,213,32,182,36"/>
-<area shape="rect" id="Node000002" href="$d8/de4/class_g_e_u_1_1_perspective_projection.html" title=" " alt="" coords="217,56,400,83"/>
+<area shape="rect" id="Node000002" href="$d7/d04/a01397.html" title=" " alt="" coords="217,56,400,83"/>
 <area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="182,52,217,56,216,62,181,58"/>
 </map>

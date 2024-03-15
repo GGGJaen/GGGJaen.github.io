@@ -48,5 +48,20 @@ var class_g_e_u_1_1_light_properties =
     [ "_minDistance", "d4/d41/class_g_e_u_1_1_light_properties.html#aca14dca52f4148f5cd5b3434d89cfdd7", null ],
     [ "_penumbraAngle", "d4/d41/class_g_e_u_1_1_light_properties.html#ab6f691313df2f116f7c460a9a310d1b1", null ],
     [ "_position", "d4/d41/class_g_e_u_1_1_light_properties.html#a233ba566be1077ed9689d65aa7ac8dd0", null ],
-    [ "_umbraAngle", "d4/d41/class_g_e_u_1_1_light_properties.html#ad0791c47838c203a4b3ff1be1e9d1562", null ]
+    [ "_umbraAngle", "d4/d41/class_g_e_u_1_1_light_properties.html#ad0791c47838c203a4b3ff1be1e9d1562", null ],
+    [ "C1", "d4/d41/class_g_e_u_1_1_light_properties.html#a1f8caf8093459b5957fc9592c677fc19", null ],
+    [ "C2", "d4/d41/class_g_e_u_1_1_light_properties.html#a90cf764ff1694c54e8dc5ff13e73405a", null ],
+    [ "C3", "d4/d41/class_g_e_u_1_1_light_properties.html#a3f9d3fd20aee0393da8e7ff822c18128", null ],
+    [ "COLOR", "d4/d41/class_g_e_u_1_1_light_properties.html#aab44d0f7e3b5d31dc2ffd5a63fd935c1", null ],
+    [ "DIRECTION", "d4/d41/class_g_e_u_1_1_light_properties.html#a210b1b9076b9f1130cdfb1530446f0dc", null ],
+    [ "DISTANCE_C", "d4/d41/class_g_e_u_1_1_light_properties.html#a71c7e4c9dfb5311e1ea7a4c94aa3236a", null ],
+    [ "EXPONENT_S", "d4/d41/class_g_e_u_1_1_light_properties.html#a62268d6fbf671a953a875a12c6a9ecd4", null ],
+    [ "EXPONENT_SE", "d4/d41/class_g_e_u_1_1_light_properties.html#a0e66d476de4f2b81be1985225b1814e6", null ],
+    [ "FACTOR_C", "d4/d41/class_g_e_u_1_1_light_properties.html#af3c68c02b0d55a52dd2b5843dd5ced36", null ],
+    [ "MAX_DISTANCE", "d4/d41/class_g_e_u_1_1_light_properties.html#ab18a456c394737412da161175c6ef762", null ],
+    [ "MAX_FACTOR", "d4/d41/class_g_e_u_1_1_light_properties.html#af511a7aeea3094cfb19e0ed2eaaa5b3c", null ],
+    [ "MIN_DISTANCE", "d4/d41/class_g_e_u_1_1_light_properties.html#a9056fae7b369a7067c7cd7c9d3733dbc", null ],
+    [ "PENUMBRA_ANGLE", "d4/d41/class_g_e_u_1_1_light_properties.html#a592800393dbfaf7ae19fbe44b26bcb40", null ],
+    [ "POSITION", "d4/d41/class_g_e_u_1_1_light_properties.html#ad78d24ff7022d13a2e8cda1246d32b64", null ],
+    [ "UMBRA_ANGLE", "d4/d41/class_g_e_u_1_1_light_properties.html#aa8c8460c09fa49c32891855e68fd3716", null ]
 ];

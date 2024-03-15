@@ -1,5 +1,6 @@
 var class_projection =
 [
+    [ "OclusionData", "dc/d7f/struct_projection_1_1_oclusion_data.html", "dc/d7f/struct_projection_1_1_oclusion_data" ],
     [ "Projection", "db/db3/class_projection.html#a2b95a14f167b9b394d68eb1edf173929", null ],
     [ "~Projection", "db/db3/class_projection.html#ac0554f994078308f0169a4629a2d1b0a", null ],
     [ "addMultiRmatrix", "db/db3/class_projection.html#aa819aa1c45f4781c8640e5391e4a3384", null ],
@@ -34,5 +35,27 @@ var class_projection =
     [ "setAssociatedPointCloud", "db/db3/class_projection.html#aca1e12a42de7a9acd19aafd1cc157f42", null ],
     [ "setMapped", "db/db3/class_projection.html#a46dda22c4a175c1767dabf209776bb15", null ],
     [ "setVRegister", "db/db3/class_projection.html#a5fff59c0fc720f712baf544fb9cd7650", null ],
-    [ "vegetationIndexCalculation", "db/db3/class_projection.html#ab46ebe5cf87462e4bed4b6166b7625b9", null ]
+    [ "vegetationIndexCalculation", "db/db3/class_projection.html#ab46ebe5cf87462e4bed4b6166b7625b9", null ],
+    [ "_aligned", "db/db3/class_projection.html#a38e1d0c03ed81ce5fed10583463c80fb", null ],
+    [ "_associatedPointCloud", "db/db3/class_projection.html#ae6f899a916cdcf14636ea05572b01116", null ],
+    [ "_camerasImagePath", "db/db3/class_projection.html#a164ec329cfbbeba6a3b44285c9442c15", null ],
+    [ "_camerasKMatrix", "db/db3/class_projection.html#ad04e518b48485b88c6a95930965a9898", null ],
+    [ "_camerasRadialDistortion", "db/db3/class_projection.html#a491d18fa41028f7cc8bcbd4e8cd03c2d", null ],
+    [ "_camerasRotationMatrix", "db/db3/class_projection.html#a79d9cac313d41bd2751512ba0fe21c5c", null ],
+    [ "_camerasTagencialDistortion", "db/db3/class_projection.html#a03015e6568b35e72e7cf189113e131ad", null ],
+    [ "_euler", "db/db3/class_projection.html#a3b50e6155aedc86214ce03a54fb159b5", null ],
+    [ "_icp", "db/db3/class_projection.html#a1548e8f0a488f41388cdab6397d705d3", null ],
+    [ "_mapped", "db/db3/class_projection.html#a5b72db07c4844fc18f3f0b9b7fa00c5b", null ],
+    [ "_maxNdvi", "db/db3/class_projection.html#abbb01d0108af594c1a34cf962cb9ed48", null ],
+    [ "_maxReflectance", "db/db3/class_projection.html#a47c003b6ff84859d175b61ed407d71db", null ],
+    [ "_minNdvi", "db/db3/class_projection.html#a2e3af78a05d9ed05dc085066e6a5a388", null ],
+    [ "_minReflectance", "db/db3/class_projection.html#a263b314854c7c2cab0a549cdb255b2e5", null ],
+    [ "_path", "db/db3/class_projection.html#a616cfab3f3f1eb7138d5796284a3263b", null ],
+    [ "_projectedPoints", "db/db3/class_projection.html#a3cb54ce4552508cf40a33514f7a7f792", null ],
+    [ "_projectedPointsMutex", "db/db3/class_projection.html#ad37c6588745f936c3e2483e305b456c8", null ],
+    [ "_transformationMatrix", "db/db3/class_projection.html#aa50d431aebccbba8ca1f30f12feb8e53", null ],
+    [ "_vEuler", "db/db3/class_projection.html#a356f4ace8e1066e625ebf7d39f0164f6", null ],
+    [ "_viCalculated", "db/db3/class_projection.html#acc9dfee4ce891738fc1eec05fd8478e3", null ],
+    [ "_vK", "db/db3/class_projection.html#a8237d0ea23148823afeb166c562077d2", null ],
+    [ "_vRegister", "db/db3/class_projection.html#ae2d6a26267ac934c49326065f584cea9", null ]
 ];

@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente C:/GitHub/GEU/GEU/Source/Core/Material.h</title>
+<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d1/d01/a00077_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Material.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d1/d01/a00077.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;assimp/scene.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/d06/a00125.html">Core/Shaders/RenderingShader.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d06/a00146.html">Texture.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d4/d04/a00543.html">GEU</a> {</div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html">    8</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d4/d01/a01485.html">Material</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a7786e2e385d628b59b4b05c76bc2bf3e">    9</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../df/d03/a01765.html">DetailsWindow</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a664e204762f0ede656db90abe8e2608b">   10</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d2/d01/a01493.html">MaterialList</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html">   13</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="../../d2/d04/a01489.html">MaterialDescription</a> {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#a5c27452368370a1fac4a9dca983cb2cd">   14</a></span>            std::string                 <a class="code hl_variable" href="../../d2/d04/a01489.html#a5c27452368370a1fac4a9dca983cb2cd">_rootFolder</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#a964374c2c606b50712b813af60733734">   15</a></span>            std::vector&lt;std::string&gt;    <a class="code hl_variable" href="../../d2/d04/a01489.html#a964374c2c606b50712b813af60733734">_textureImage</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#abe7f87e7d401a27fad1fe5e5be723451">   16</a></span>            std::vector&lt;vec4&gt;           <a class="code hl_variable" href="../../d2/d04/a01489.html#abe7f87e7d401a27fad1fe5e5be723451">_textureColor</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#ad99c1900e0955e4dc5b0ce433af74833">   17</a></span>            <span class="keywordtype">float</span>                       <a class="code hl_variable" href="../../d2/d04/a01489.html#ad99c1900e0955e4dc5b0ce433af74833">_ns</a> = 0;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#a3238a9496d0feb5d6535794e0ef172fa">   19</a></span>            <a class="code hl_function" href="../../d2/d04/a01489.html#a3238a9496d0feb5d6535794e0ef172fa">MaterialDescription</a>() : <a class="code hl_variable" href="../../d2/d04/a01489.html#a964374c2c606b50712b813af60733734">_textureImage</a>(<a class="code hl_class" href="../../d3/d03/a01549.html">Texture</a>::NUM_TEXTURE_TYPES), <a class="code hl_variable" href="../../d2/d04/a01489.html#abe7f87e7d401a27fad1fe5e5be723451">_textureColor</a>(<a class="code hl_class" href="../../d3/d03/a01549.html">Texture</a>::NUM_TEXTURE_TYPES) {}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#a18b2a043d7bb76bb7e2e4d12e13b35c2">   21</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d04/a01489.html#a18b2a043d7bb76bb7e2e4d12e13b35c2">setRootFolder</a>(<span class="keyword">const</span> std::string&amp; path) {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                <a class="code hl_variable" href="../../d2/d04/a01489.html#a5c27452368370a1fac4a9dca983cb2cd">_rootFolder</a> = path;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            }</div>
+</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#a6404ec880a676cc7804ecb2bbaeed0ab">   25</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d04/a01489.html#a6404ec880a676cc7804ecb2bbaeed0ab">setTextureColor</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../d3/d03/a01549.html#a819945accff31cec112c5e58e14662b3">Texture::TextureLayer</a> texture, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; color) {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                <a class="code hl_variable" href="../../d2/d04/a01489.html#abe7f87e7d401a27fad1fe5e5be723451">_textureColor</a>[texture] = color;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            }</div>
+</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d2/d04/a01489.html#ac66ab99c4c9176cfd85667451bba3bac">   29</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d04/a01489.html#ac66ab99c4c9176cfd85667451bba3bac">setTexturePath</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../d3/d03/a01549.html#a819945accff31cec112c5e58e14662b3">Texture::TextureLayer</a> texture, <span class="keyword">const</span> std::string&amp; path) {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                <a class="code hl_variable" href="../../d2/d04/a01489.html#a964374c2c606b50712b813af60733734">_textureImage</a>[texture] = path;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            }</div>
+</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        };</div>
+</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#aa0b94caf0b941486bc51f6e8dc813c1b">   34</a></span>        <span class="keywordtype">int</span>                 <a class="code hl_variable" href="../../d4/d01/a01485.html#aa0b94caf0b941486bc51f6e8dc813c1b">_band</a> = 0; <span class="comment">//Used for multispectral and hyperspectral data</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a32b3171a7c60318746263910112defc4">   35</a></span>        <span class="keywordtype">int</span>                 <a class="code hl_variable" href="../../d4/d01/a01485.html#a32b3171a7c60318746263910112defc4">_activeSubroutine</a>[<a class="code hl_enumvalue" href="../../df/d07/a01537.html#a84715d853940680430820b21a4189821a6e2eaeeb798d8351076421a33629c969">ShaderEnum::NUM_SHADER_TYPES</a>] = { 0,0,0,0 };</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#ac48a52a8b314e3973abc72328f381214">   37</a></span>        std::string <a class="code hl_variable" href="../../d4/d01/a01485.html#ac48a52a8b314e3973abc72328f381214">_name</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#aa382c01615f7b585175d96dc659b2ed2">   38</a></span>        <a class="code hl_class" href="../../d1/d02/a01533.html">RenderingShader</a>* <a class="code hl_variable" href="../../d4/d01/a01485.html#aa382c01615f7b585175d96dc659b2ed2">_associatedShader</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a23e67e2113133327bd60fabe25295f67">   39</a></span>        <a class="code hl_class" href="../../d3/d03/a01549.html">Texture</a>* <a class="code hl_variable" href="../../d4/d01/a01485.html#a23e67e2113133327bd60fabe25295f67">_texture</a>[<a class="code hl_enumvalue" href="../../d3/d03/a01549.html#a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc">Texture::NUM_TEXTURE_TYPES</a>]{};</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a1c20a229b8d1919fc5b81672b6620894">   40</a></span>        <span class="keywordtype">float</span>               <a class="code hl_variable" href="../../d4/d01/a01485.html#a1c20a229b8d1919fc5b81672b6620894">_displacementFactor</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#ad156e095dc135650803b91605c3c051e">   41</a></span>        <span class="keywordtype">float</span>               <a class="code hl_variable" href="../../d4/d01/a01485.html#ad156e095dc135650803b91605c3c051e">_shininess</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#afecb821fe69c7af4a9bc8205195efd86">   42</a></span>        std::vector&lt;std::string&gt; <a class="code hl_variable" href="../../d4/d01/a01485.html#afecb821fe69c7af4a9bc8205195efd86">_enabledSubroutines</a>[<a class="code hl_enumvalue" href="../../df/d07/a01537.html#a84715d853940680430820b21a4189821a6e2eaeeb798d8351076421a33629c969">ShaderEnum::NUM_SHADER_TYPES</a>];</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_function" href="../../d4/d01/a01485.html#a838d0be9bc39b6c1cd628423db854757">Material</a>(<span class="keyword">const</span> std::string&amp; name, <a class="code hl_class" href="../../d1/d02/a01533.html">RenderingShader</a>* shader);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a9ba8d328755dc1696d63f709d6a08173">   45</a></span>        <a class="code hl_function" href="../../d4/d01/a01485.html#a9ba8d328755dc1696d63f709d6a08173">Material</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d4/d01/a01485.html">Material</a>&amp; material) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../d4/d01/a01485.html#a57f10d3f71e0f7d9fd4cff3544345250">   46</a></span>        <a class="code hl_class" href="../../d4/d01/a01485.html">Material</a>&amp; <a class="code hl_function" href="../../d4/d01/a01485.html#a57f10d3f71e0f7d9fd4cff3544345250">operator=</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d4/d01/a01485.html">Material</a>&amp; material) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#a777da35ac8d48ccb690e3190f15de7b8">applyMaterial</a>(<span class="keyword">const</span> <a class="code hl_struct" href="../../de/d04/a01553.html">Texture::RenderTextureRequirements</a>* renderRequirements = <span class="keyword">nullptr</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_struct" href="../../d2/d04/a01489.html">MaterialDescription</a> <a class="code hl_function" href="../../d4/d01/a01485.html#ae63560152f939d7649c6d70d33e1fada">getMaterialDescription</a>(<span class="keyword">const</span> std::string&amp; rootFolder) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keyword">static</span> <a class="code hl_struct" href="../../d2/d04/a01489.html">MaterialDescription</a> <a class="code hl_function" href="../../d4/d01/a01485.html#ae63560152f939d7649c6d70d33e1fada">getMaterialDescription</a>(<span class="keyword">const</span> aiMaterial* material, <span class="keyword">const</span> std::string&amp; folder);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_class" href="../../d1/d02/a01533.html">RenderingShader</a>* <a class="code hl_function" href="../../d4/d01/a01485.html#ac2969a9853653155f2fb81856a94456d">getAssociatedShader</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        std::string <a class="code hl_function" href="../../d4/d01/a01485.html#a1a12fb50e526c074d0ea805b92723471">getName</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#a291ae06275a638bee78b343f172136a0">setDisplacementFactor</a>(<span class="keywordtype">float</span> dispFactor);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#a0f80452e044271d2a58deb1dad7cc456">setShininess</a>(<span class="keywordtype">float</span> shininess);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#aaac0eb006023bcf7dc146c5943a4ca8c">setTexture</a>(<a class="code hl_enumeration" href="../../d3/d03/a01549.html#a819945accff31cec112c5e58e14662b3">Texture::TextureLayer</a> textureLayer, <a class="code hl_class" href="../../d3/d03/a01549.html">Texture</a>* texture);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#abb5aacb1ebce4d9a9c119ea122d921df">setSubroutine</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../df/d07/a01537.html#a55862a2e6e9c52df2287f230f41558d8">ShaderEnum::VertexSubroutines</a>&amp; subroutine, <span class="keyword">const</span> std::string&amp; functionName);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#abb5aacb1ebce4d9a9c119ea122d921df">setSubroutine</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../df/d07/a01537.html#a11ceb761ed8a57fbe5affd891960d2ef">ShaderEnum::GeometrySubroutines</a>&amp; subroutine, <span class="keyword">const</span> std::string&amp; functionName);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/a01485.html#abb5aacb1ebce4d9a9c119ea122d921df">setSubroutine</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../df/d07/a01537.html#a5c269897394be2cae824570d05bf63c7">ShaderEnum::FragmentSubroutines</a>&amp; subroutine, <span class="keyword">const</span> std::string&amp; functionName);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    };</div>
+</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
+<div class="ttc" id="aa00125_html"><div class="ttname"><a href="../../dc/d06/a00125.html">RenderingShader.h</a></div></div>
+<div class="ttc" id="aa00146_html"><div class="ttname"><a href="../../d9/d06/a00146.html">Texture.h</a></div></div>
+<div class="ttc" id="aa00305_html_ac54e849f8b2339f592307eaf6cdbba77"><div class="ttname"><a href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a></div><div class="ttdeci">glm::vec4 vec4</div><div class="ttdef"><b>Definition</b> stdafx.h:63</div></div>
+<div class="ttc" id="aa00543_html"><div class="ttname"><a href="../../d4/d04/a00543.html">GEU</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
+<div class="ttc" id="aa01485_html"><div class="ttname"><a href="../../d4/d01/a01485.html">GEU::Material</a></div><div class="ttdef"><b>Definition</b> Material.h:8</div></div>
+<div class="ttc" id="aa01485_html_a0f80452e044271d2a58deb1dad7cc456"><div class="ttname"><a href="../../d4/d01/a01485.html#a0f80452e044271d2a58deb1dad7cc456">GEU::Material::setShininess</a></div><div class="ttdeci">void setShininess(float shininess)</div><div class="ttdef"><b>Definition</b> Material.cpp:107</div></div>
+<div class="ttc" id="aa01485_html_a1a12fb50e526c074d0ea805b92723471"><div class="ttname"><a href="../../d4/d01/a01485.html#a1a12fb50e526c074d0ea805b92723471">GEU::Material::getName</a></div><div class="ttdeci">std::string getName() const</div><div class="ttdef"><b>Definition</b> Material.cpp:99</div></div>
+<div class="ttc" id="aa01485_html_a1c20a229b8d1919fc5b81672b6620894"><div class="ttname"><a href="../../d4/d01/a01485.html#a1c20a229b8d1919fc5b81672b6620894">GEU::Material::_displacementFactor</a></div><div class="ttdeci">float _displacementFactor</div><div class="ttdef"><b>Definition</b> Material.h:40</div></div>
+<div class="ttc" id="aa01485_html_a23e67e2113133327bd60fabe25295f67"><div class="ttname"><a href="../../d4/d01/a01485.html#a23e67e2113133327bd60fabe25295f67">GEU::Material::_texture</a></div><div class="ttdeci">Texture * _texture[Texture::NUM_TEXTURE_TYPES]</div><div class="ttdef"><b>Definition</b> Material.h:39</div></div>
+<div class="ttc" id="aa01485_html_a291ae06275a638bee78b343f172136a0"><div class="ttname"><a href="../../d4/d01/a01485.html#a291ae06275a638bee78b343f172136a0">GEU::Material::setDisplacementFactor</a></div><div class="ttdeci">void setDisplacementFactor(float dispFactor)</div><div class="ttdef"><b>Definition</b> Material.cpp:103</div></div>
+<div class="ttc" id="aa01485_html_a32b3171a7c60318746263910112defc4"><div class="ttname"><a href="../../d4/d01/a01485.html#a32b3171a7c60318746263910112defc4">GEU::Material::_activeSubroutine</a></div><div class="ttdeci">int _activeSubroutine[ShaderEnum::NUM_SHADER_TYPES]</div><div class="ttdef"><b>Definition</b> Material.h:35</div></div>
+<div class="ttc" id="aa01485_html_a57f10d3f71e0f7d9fd4cff3544345250"><div class="ttname"><a href="../../d4/d01/a01485.html#a57f10d3f71e0f7d9fd4cff3544345250">GEU::Material::operator=</a></div><div class="ttdeci">Material &amp; operator=(const Material &amp;material)=delete</div></div>
+<div class="ttc" id="aa01485_html_a777da35ac8d48ccb690e3190f15de7b8"><div class="ttname"><a href="../../d4/d01/a01485.html#a777da35ac8d48ccb690e3190f15de7b8">GEU::Material::applyMaterial</a></div><div class="ttdeci">void applyMaterial(const Texture::RenderTextureRequirements *renderRequirements=nullptr) const</div><div class="ttdef"><b>Definition</b> Material.cpp:19</div></div>
+<div class="ttc" id="aa01485_html_a838d0be9bc39b6c1cd628423db854757"><div class="ttname"><a href="../../d4/d01/a01485.html#a838d0be9bc39b6c1cd628423db854757">GEU::Material::Material</a></div><div class="ttdeci">Material(const std::string &amp;name, RenderingShader *shader)</div><div class="ttdef"><b>Definition</b> Material.cpp:7</div></div>
+<div class="ttc" id="aa01485_html_a9ba8d328755dc1696d63f709d6a08173"><div class="ttname"><a href="../../d4/d01/a01485.html#a9ba8d328755dc1696d63f709d6a08173">GEU::Material::Material</a></div><div class="ttdeci">Material(const Material &amp;material)=delete</div></div>
+<div class="ttc" id="aa01485_html_aa0b94caf0b941486bc51f6e8dc813c1b"><div class="ttname"><a href="../../d4/d01/a01485.html#aa0b94caf0b941486bc51f6e8dc813c1b">GEU::Material::_band</a></div><div class="ttdeci">int _band</div><div class="ttdef"><b>Definition</b> Material.h:34</div></div>
+<div class="ttc" id="aa01485_html_aa382c01615f7b585175d96dc659b2ed2"><div class="ttname"><a href="../../d4/d01/a01485.html#aa382c01615f7b585175d96dc659b2ed2">GEU::Material::_associatedShader</a></div><div class="ttdeci">RenderingShader * _associatedShader</div><div class="ttdef"><b>Definition</b> Material.h:38</div></div>
+<div class="ttc" id="aa01485_html_aaac0eb006023bcf7dc146c5943a4ca8c"><div class="ttname"><a href="../../d4/d01/a01485.html#aaac0eb006023bcf7dc146c5943a4ca8c">GEU::Material::setTexture</a></div><div class="ttdeci">void setTexture(Texture::TextureLayer textureLayer, Texture *texture)</div><div class="ttdef"><b>Definition</b> Material.cpp:111</div></div>
+<div class="ttc" id="aa01485_html_abb5aacb1ebce4d9a9c119ea122d921df"><div class="ttname"><a href="../../d4/d01/a01485.html#abb5aacb1ebce4d9a9c119ea122d921df">GEU::Material::setSubroutine</a></div><div class="ttdeci">void setSubroutine(const ShaderEnum::VertexSubroutines &amp;subroutine, const std::string &amp;functionName)</div><div class="ttdef"><b>Definition</b> Material.cpp:115</div></div>
+<div class="ttc" id="aa01485_html_ac2969a9853653155f2fb81856a94456d"><div class="ttname"><a href="../../d4/d01/a01485.html#ac2969a9853653155f2fb81856a94456d">GEU::Material::getAssociatedShader</a></div><div class="ttdeci">RenderingShader * getAssociatedShader() const</div><div class="ttdef"><b>Definition</b> Material.cpp:95</div></div>
+<div class="ttc" id="aa01485_html_ac48a52a8b314e3973abc72328f381214"><div class="ttname"><a href="../../d4/d01/a01485.html#ac48a52a8b314e3973abc72328f381214">GEU::Material::_name</a></div><div class="ttdeci">std::string _name</div><div class="ttdef"><b>Definition</b> Material.h:37</div></div>
+<div class="ttc" id="aa01485_html_ad156e095dc135650803b91605c3c051e"><div class="ttname"><a href="../../d4/d01/a01485.html#ad156e095dc135650803b91605c3c051e">GEU::Material::_shininess</a></div><div class="ttdeci">float _shininess</div><div class="ttdef"><b>Definition</b> Material.h:41</div></div>
+<div class="ttc" id="aa01485_html_ae63560152f939d7649c6d70d33e1fada"><div class="ttname"><a href="../../d4/d01/a01485.html#ae63560152f939d7649c6d70d33e1fada">GEU::Material::getMaterialDescription</a></div><div class="ttdeci">MaterialDescription getMaterialDescription(const std::string &amp;rootFolder) const</div><div class="ttdef"><b>Definition</b> Material.cpp:39</div></div>
+<div class="ttc" id="aa01485_html_afecb821fe69c7af4a9bc8205195efd86"><div class="ttname"><a href="../../d4/d01/a01485.html#afecb821fe69c7af4a9bc8205195efd86">GEU::Material::_enabledSubroutines</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _enabledSubroutines[ShaderEnum::NUM_SHADER_TYPES]</div><div class="ttdef"><b>Definition</b> Material.h:42</div></div>
+<div class="ttc" id="aa01489_html"><div class="ttname"><a href="../../d2/d04/a01489.html">GEU::Material::MaterialDescription</a></div><div class="ttdef"><b>Definition</b> Material.h:13</div></div>
+<div class="ttc" id="aa01489_html_a18b2a043d7bb76bb7e2e4d12e13b35c2"><div class="ttname"><a href="../../d2/d04/a01489.html#a18b2a043d7bb76bb7e2e4d12e13b35c2">GEU::Material::MaterialDescription::setRootFolder</a></div><div class="ttdeci">void setRootFolder(const std::string &amp;path)</div><div class="ttdef"><b>Definition</b> Material.h:21</div></div>
+<div class="ttc" id="aa01489_html_a3238a9496d0feb5d6535794e0ef172fa"><div class="ttname"><a href="../../d2/d04/a01489.html#a3238a9496d0feb5d6535794e0ef172fa">GEU::Material::MaterialDescription::MaterialDescription</a></div><div class="ttdeci">MaterialDescription()</div><div class="ttdef"><b>Definition</b> Material.h:19</div></div>
+<div class="ttc" id="aa01489_html_a5c27452368370a1fac4a9dca983cb2cd"><div class="ttname"><a href="../../d2/d04/a01489.html#a5c27452368370a1fac4a9dca983cb2cd">GEU::Material::MaterialDescription::_rootFolder</a></div><div class="ttdeci">std::string _rootFolder</div><div class="ttdef"><b>Definition</b> Material.h:14</div></div>
+<div class="ttc" id="aa01489_html_a6404ec880a676cc7804ecb2bbaeed0ab"><div class="ttname"><a href="../../d2/d04/a01489.html#a6404ec880a676cc7804ecb2bbaeed0ab">GEU::Material::MaterialDescription::setTextureColor</a></div><div class="ttdeci">void setTextureColor(const Texture::TextureLayer texture, const vec4 &amp;color)</div><div class="ttdef"><b>Definition</b> Material.h:25</div></div>
+<div class="ttc" id="aa01489_html_a964374c2c606b50712b813af60733734"><div class="ttname"><a href="../../d2/d04/a01489.html#a964374c2c606b50712b813af60733734">GEU::Material::MaterialDescription::_textureImage</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _textureImage</div><div class="ttdef"><b>Definition</b> Material.h:15</div></div>
+<div class="ttc" id="aa01489_html_abe7f87e7d401a27fad1fe5e5be723451"><div class="ttname"><a href="../../d2/d04/a01489.html#abe7f87e7d401a27fad1fe5e5be723451">GEU::Material::MaterialDescription::_textureColor</a></div><div class="ttdeci">std::vector&lt; vec4 &gt; _textureColor</div><div class="ttdef"><b>Definition</b> Material.h:16</div></div>
+<div class="ttc" id="aa01489_html_ac66ab99c4c9176cfd85667451bba3bac"><div class="ttname"><a href="../../d2/d04/a01489.html#ac66ab99c4c9176cfd85667451bba3bac">GEU::Material::MaterialDescription::setTexturePath</a></div><div class="ttdeci">void setTexturePath(const Texture::TextureLayer texture, const std::string &amp;path)</div><div class="ttdef"><b>Definition</b> Material.h:29</div></div>
+<div class="ttc" id="aa01489_html_ad99c1900e0955e4dc5b0ce433af74833"><div class="ttname"><a href="../../d2/d04/a01489.html#ad99c1900e0955e4dc5b0ce433af74833">GEU::Material::MaterialDescription::_ns</a></div><div class="ttdeci">float _ns</div><div class="ttdef"><b>Definition</b> Material.h:17</div></div>
+<div class="ttc" id="aa01493_html"><div class="ttname"><a href="../../d2/d01/a01493.html">GEU::MaterialList</a></div><div class="ttdef"><b>Definition</b> MaterialList.h:7</div></div>
+<div class="ttc" id="aa01533_html"><div class="ttname"><a href="../../d1/d02/a01533.html">GEU::RenderingShader</a></div><div class="ttdef"><b>Definition</b> RenderingShader.h:7</div></div>
+<div class="ttc" id="aa01537_html_a11ceb761ed8a57fbe5affd891960d2ef"><div class="ttname"><a href="../../df/d07/a01537.html#a11ceb761ed8a57fbe5affd891960d2ef">GEU::ShaderEnum::GeometrySubroutines</a></div><div class="ttdeci">GeometrySubroutines</div><div class="ttdef"><b>Definition</b> ShaderEnums.h:20</div></div>
+<div class="ttc" id="aa01537_html_a55862a2e6e9c52df2287f230f41558d8"><div class="ttname"><a href="../../df/d07/a01537.html#a55862a2e6e9c52df2287f230f41558d8">GEU::ShaderEnum::VertexSubroutines</a></div><div class="ttdeci">VertexSubroutines</div><div class="ttdef"><b>Definition</b> ShaderEnums.h:14</div></div>
+<div class="ttc" id="aa01537_html_a5c269897394be2cae824570d05bf63c7"><div class="ttname"><a href="../../df/d07/a01537.html#a5c269897394be2cae824570d05bf63c7">GEU::ShaderEnum::FragmentSubroutines</a></div><div class="ttdeci">FragmentSubroutines</div><div class="ttdef"><b>Definition</b> ShaderEnums.h:25</div></div>
+<div class="ttc" id="aa01537_html_a84715d853940680430820b21a4189821a6e2eaeeb798d8351076421a33629c969"><div class="ttname"><a href="../../df/d07/a01537.html#a84715d853940680430820b21a4189821a6e2eaeeb798d8351076421a33629c969">GEU::ShaderEnum::NUM_SHADER_TYPES</a></div><div class="ttdeci">@ NUM_SHADER_TYPES</div><div class="ttdef"><b>Definition</b> ShaderEnums.h:11</div></div>
+<div class="ttc" id="aa01549_html"><div class="ttname"><a href="../../d3/d03/a01549.html">GEU::Texture</a></div><div class="ttdef"><b>Definition</b> Texture.h:9</div></div>
+<div class="ttc" id="aa01549_html_a819945accff31cec112c5e58e14662b3"><div class="ttname"><a href="../../d3/d03/a01549.html#a819945accff31cec112c5e58e14662b3">GEU::Texture::TextureLayer</a></div><div class="ttdeci">TextureLayer</div><div class="ttdef"><b>Definition</b> Texture.h:11</div></div>
+<div class="ttc" id="aa01549_html_a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc"><div class="ttname"><a href="../../d3/d03/a01549.html#a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc">GEU::Texture::NUM_TEXTURE_TYPES</a></div><div class="ttdeci">@ NUM_TEXTURE_TYPES</div><div class="ttdef"><b>Definition</b> Texture.h:13</div></div>
+<div class="ttc" id="aa01553_html"><div class="ttname"><a href="../../de/d04/a01553.html">GEU::Texture::RenderTextureRequirements</a></div><div class="ttdef"><b>Definition</b> Texture.h:19</div></div>
+<div class="ttc" id="aa01765_html"><div class="ttname"><a href="../../df/d03/a01765.html">GEU::DetailsWindow</a></div><div class="ttdoc">Inspector selection details window: allow to manipulate scene contents properties.</div><div class="ttdef"><b>Definition</b> DetailsWindow.h:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

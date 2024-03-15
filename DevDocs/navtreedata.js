@@ -25,50 +25,50 @@
 var NAVTREE =
 [
   [ "GEU", "index.html", [
-    [ "¡Bienvenido a GEU Docs!", "d9/d70/md__c_1_2_git_hub_2_g_e_u_2_docs_2index.html", null ],
-    [ "Localización", "df/d59/md__c_1_2_git_hub_2_g_e_u_2_docs_2_localizaci_x_c3_x_b3n_01e_01idiomas.html", [
-      [ "Incorporación de un nuevo idioma", "df/d59/md__c_1_2_git_hub_2_g_e_u_2_docs_2_localizaci_x_c3_x_b3n_01e_01idiomas.html#incorporación-de-un-nuevo-idioma", null ],
-      [ "Uso de cadenas localizadas", "df/d59/md__c_1_2_git_hub_2_g_e_u_2_docs_2_localizaci_x_c3_x_b3n_01e_01idiomas.html#uso-de-cadenas-localizadas", null ]
+    [ "¡Bienvenido a GEU Docs!", "dd/d00/a04182.html", null ],
+    [ "Localización", "db/d04/a04183.html", [
+      [ "Incorporación de un nuevo idioma", "db/d04/a04183.html#incorporación-de-un-nuevo-idioma", null ],
+      [ "Uso de cadenas localizadas", "db/d04/a04183.html#uso-de-cadenas-localizadas", null ]
     ] ],
-    [ "Nubes de puntos", "db/db8/nubes-de-puntos.html", null ],
-    [ "Shaders", "d8/d90/shaders.html", null ],
-    [ "Unit tests", "d6/df8/unit-tests.html", null ],
-    [ "Uso del Logger", "d8/d49/uso-del-logger.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
+    [ "Nubes de puntos", "d1/d01/a04184.html", null ],
+    [ "Shaders", "d9/d05/a04185.html", null ],
+    [ "Unit tests", "dd/d05/a04186.html", null ],
+    [ "Uso del Logger", "d1/d06/a04187.html", null ],
+    [ "Espacios de nombres", "namespaces.html", [
+      [ "Lista de espacios de nombres", "namespaces.html", "namespaces_dup" ],
+      [ "Miembros del espacio de nombres ", "namespacemembers.html", [
+        [ "Todos", "namespacemembers.html", null ],
+        [ "Funciones", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
+        [ "typedefs", "namespacemembers_type.html", null ],
+        [ "Enumeraciones", "namespacemembers_enum.html", null ],
+        [ "Valores de enumeraciones", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+    [ "Clases", "annotated.html", [
+      [ "Lista de clases", "annotated.html", "annotated_dup" ],
+      [ "Índice de clases", "classes.html", null ],
+      [ "Jerarquía de clases", "hierarchy.html", "hierarchy" ],
+      [ "Miembros de clases", "functions.html", [
+        [ "Todos", "functions.html", "functions_dup" ],
+        [ "Funciones", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Symbols", "functions_rela.html", null ]
+        [ "typedefs", "functions_type.html", null ],
+        [ "Enumeraciones", "functions_enum.html", null ],
+        [ "Valores de enumeraciones", "functions_eval.html", null ],
+        [ "Símbolos relacionados", "functions_rela.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", null ],
+    [ "Archivos", "files.html", [
+      [ "Lista de archivos", "files.html", "files_dup" ],
+      [ "Miembros de los archivos", "globals.html", [
+        [ "Todos", "globals.html", "globals_dup" ],
+        [ "Funciones", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", "globals_eval" ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "typedefs", "globals_type.html", null ],
+        [ "Enumeraciones", "globals_enum.html", null ],
+        [ "Valores de enumeraciones", "globals_eval.html", "globals_eval" ],
+        [ "defines", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -77,29 +77,34 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d9a/class_g_e_u_1_1_image_tree_segmentation.html#a34dc2baba94657f3b1e631a4f9a69254",
-"d2/d21/struct_g_e_u_1_1_g_p_u_resources.html#adafc66f7bd205941a47af8503c084d23a5673888297a9878a0bb50e487057bce4",
-"d2/ded/struct_database_1_1_sensor.html#ad7edad3eeeff9ff28e03e1435ee44f8d",
-"d4/d2d/_file_management_8h.html",
-"d4/d87/_gui_utilities_8h.html#adaabda63297ba1a7732d1dfdb993fdb2",
-"d5/d19/_icons_font_awesome6_8h.html#a02f81cd8c119a060cb08587d36921791",
-"d5/d19/_icons_font_awesome6_8h.html#a31880d1c9f04cc1e46a83331b91bc5c3",
-"d5/d19/_icons_font_awesome6_8h.html#a5ec4f1683d3153fd227c1450b879c1fc",
-"d5/d19/_icons_font_awesome6_8h.html#a8b15ff2b4367b8bde159f17a0d77ef41",
-"d5/d19/_icons_font_awesome6_8h.html#ab9cddd958f5c2d1d5a359a4417a072b1",
-"d5/d19/_icons_font_awesome6_8h.html#ae77aa0d16cdb7691010372274e21a465",
-"d5/def/class_g_e_u_1_1_material.html#a1a12fb50e526c074d0ea805b92723471",
-"d7/dbe/class_g_e_u_1_1_database_query_popup.html#aadb92cd55fd53be263f08c55340b63af",
-"d9/d8f/class_g_e_u_1_1_p_cloud_classify_popup.html#a035e684d51c672e0cfb1948e0eb91d03",
-"da/db2/class_g_e_u_1_1_shader_program.html#a641091a19324ac8460f5b72c7afd2b66",
-"db/d6c/class_g_e_u_1_1_model3_d.html#ab7b729843ba0b2832d1258a1eb53accc",
-"dc/d38/_shader_manager_8h_source.html",
-"dd/d1f/struct_database_1_1_vuelo.html#a57f84397c1ece74778861f98ea28287d",
-"de/dac/class_g_e_u_1_1_renderer.html#a217dca2a88355442838cd7a77f50e0ff",
-"de/dbf/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a7b0e636604c6e85d6885e992640fbd9c",
-"de/de6/class_g_e_u_1_1_g_u_i.html#a73cc93df1a0c01b23550717615418ad7",
-"globals_defs_r.html"
+"d1/d03/a01429.html#a9d27150ccccbfe0d72c6e54a053de886",
+"d2/d03/a01433.html#a125cfd37104000908ce46e0f01aac1c8",
+"d3/d01/a01657.html#a67d1978e8e05988f84b45075c63894a5",
+"d3/d03/a01549.html#afd3b1defbc606c8b99faa39152017ccb",
+"d4/d06/a01793.html#a1a402149fb06626fa50f5b16ae34afbd",
+"d5/d01/a00176.html#a1fac57d64f3dc66411df5ab574f615f9",
+"d5/d01/a00176.html#a4f641898b894ed3853234231bfa7f93c",
+"d5/d01/a00176.html#a7a9054fc8e685066c78ea0ca430e12f4",
+"d5/d01/a00176.html#aa60ba1b358e06843c3d779e620d0556f",
+"d5/d01/a00176.html#ad501a7623b63e9496f2aebef80e97987",
+"d5/d01/a01901.html#a36467574fdd9916b814cd5aacc118314",
+"d5/d07/a00308.html",
+"d6/d06/a01861.html",
+"d8/d00/a00557.html#acad21749572f0aa55dc6e3f673c2038e",
+"d9/d05/a01665.html#a8457e28ae42ec38e4140261b4419b753",
+"da/d00/a01689.html#ae2a207e6e306cae56d562617d04d9683",
+"db/d00/a01757.html#ac99c561e4f9992845d08a61cab6809bbaa8ba831daed18d1d210f6054df543566",
+"db/d05/a01637.html#afd5f4956a2043597167ff66821f7b223",
+"db/d06/a01529.html#a83d8bcef9dca990b55fc1614a5dfe42e",
+"dc/d06/a01517.html#a72b3daad001195710680cac05a52d824",
+"dd/d02/a01545.html#aef3e34be95dba832dd4d5ebf1d754068",
+"de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573a336d44971818e3444889a3f931d2d035",
+"de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573abd5345a01639b75b8083240d31fae6f5",
+"de/d03/a01473.html#ad0791c47838c203a4b3ff1be1e9d1562",
+"de/d07/a00550.html#a55126fb89c2cd5e8675c2632a94fd92e",
+"df/d00/a01385.html#a7786e2e385d628b59b4b05c76bc2bf3e",
+"functions_vars_n.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'pulsar para deshabilitar sincronización';
+var SYNCOFFMSG = 'pulsar para habilitar sincronización';

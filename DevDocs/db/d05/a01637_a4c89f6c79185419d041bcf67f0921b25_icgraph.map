@@ -1,0 +1,19 @@
+<map id="AABB::size" name="AABB::size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="487,164,576,191"/>
+<area shape="rect" id="Node000002" href="$de/d06/a01685.html#a5fb6272591570506c14b2e194a9b3805" title="Initialize the voxel grid." alt="" coords="249,5,425,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="514,152,482,106,461,82,437,62,418,51,420,46,441,58,465,79,486,103,518,149"/>
+<area shape="rect" id="Node000003" href="$da/d00/a01689.html#a0859652c3cb5e0a3f5a8ea2915b5bf2f" title=" " alt="" coords="244,72,430,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="502,156,472,133,438,113,407,102,409,97,440,108,475,129,506,152"/>
+<area shape="rect" id="Node000004" href="$da/d00/a01689.html#a47404fa7e0f5a450f4675f058b8e6780" title=" " alt="" coords="254,123,420,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="471,170,420,161,421,156,472,165"/>
+<area shape="rect" id="Node000005" href="$da/d00/a01689.html#adbf03535a497f92cee03cf6d7d575094" title=" " alt="" coords="235,189,439,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="472,190,440,196,439,190,471,185"/>
+<area shape="rect" id="Node000006" href="$db/d06/a01509.html#a2cb34ca60b228ed4e5472a8fa5590841" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="254,256,420,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="505,203,475,225,440,246,414,258,412,253,438,242,472,221,501,199"/>
+<area shape="rect" id="Node000009" href="$de/d06/a01685.html#ab8413581fb4ba7ab9709a72bca03ce64" title="Assign each point of the PointCloud to the corresponding voxel in the voxel grid and computes the cor..." alt="" coords="249,323,425,365"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="521,206,489,260,467,288,441,313,422,324,419,320,437,309,463,285,485,257,516,203"/>
+<area shape="rect" id="Node000007" href="$d9/d00/a01909.html#aebeb11b59981efb0536a7e57fe284120" title=" " alt="" coords="5,239,187,265"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="238,270,187,264,187,259,239,264"/>
+<area shape="rect" id="Node000008" href="$d9/d00/a01909.html#ad9c308882e7e55a84874880c56515c92" title=" " alt="" coords="6,289,186,316"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="239,290,186,296,186,291,238,285"/>
+</map>

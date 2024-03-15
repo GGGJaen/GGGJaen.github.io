@@ -10,9 +10,13 @@ var class_g_e_u_1_1_n_a_s_session =
     [ "getSharedListings", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a8ba33518127084da74a31f3d97903cf1", null ],
     [ "logIn", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6", null ],
     [ "logOut", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a6185d29735320a6365915506a5ee0111", null ],
+    [ "nasProgressCallback", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#abd71f738d3b9f49177138b67b4c9d9e6", null ],
     [ "sessionActive", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a7beefe7ad3c459af3269a50931bc680b", null ],
     [ "uploadFile", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#aded81e48475f28cd507f6b7136974645", null ],
     [ "uploadFolder", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a238b6550585c243c3926b773225bd63d", null ],
+    [ "_downloadCount", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#ac8f9daafc2221d8e0d58432fdcc46c1e", null ],
+    [ "_downloadCurrent", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a6c3c41f543870151a6efbceb009c3df1", null ],
+    [ "_downloadProgress", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#af6d3aa39dc1c5b058587530a04e7535e", null ],
     [ "_errorCode", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a2566741b99b6fefbab030e813c88a9d6", null ],
     [ "_ftpNAScli", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#aec63c6011067692cf3a219998bc5e5b4", null ],
     [ "_lastLogin", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#ad64d1f324465b0c49681441e9db62d35", null ],
@@ -20,6 +24,12 @@ var class_g_e_u_1_1_n_a_s_session =
     [ "_mainThread", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a79f6acd07893a7fb2fab219fcfa7909f", null ],
     [ "_NASroot", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a79f607f7d16a04104341f8d1c0488689", null ],
     [ "_sessionID", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a65f1327fbef1cf7edc6d4101bb87e353", null ],
+    [ "_uploadCount", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a2f226aad1a119a311a9a88e0f92e4cd9", null ],
+    [ "_uploadCurrent", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a14bcd35016a6ce154484f734c2a61098", null ],
+    [ "_uploadProgress", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a8aca0d2a0fb84fb64c69d89fd02f922f", null ],
     [ "downloadInProgress", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a476f85e7dd076d92b9a297d479ee8fb9", null ],
-    [ "uploadInProgress", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a10d2debba89af126d1538e77aeda59f1", null ]
+    [ "LOGIN_DELAY", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a780bb8be7fcb5685b34fb02859f9ff66", null ],
+    [ "Singleton", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a4964260c4a20117b89ce93e5d0d7ea9e", null ],
+    [ "uploadInProgress", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a10d2debba89af126d1538e77aeda59f1", null ],
+    [ "useProgressCallback", "d2/dfb/class_g_e_u_1_1_n_a_s_session.html#a631a79bfa600c723500efd26df2505b1", null ]
 ];
