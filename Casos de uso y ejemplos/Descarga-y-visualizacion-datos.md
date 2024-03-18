@@ -48,16 +48,15 @@ En este ejemplo, utilizaremos los datos de la finca **J1**. Concretamente, busca
 
 ## Datos espectrales - Imágenes y adicional
 
-Junto a la nube de puntos, descargamos también la información multiespectral necesaria para futuros tutoriales: imágenes RGB y multiespectrales, además de ficheros adicionales para los métodos necesarios. 
+Junto a la nube de puntos, descargaremos también las imágenes *RGB* tomadas en el mismo vuelo. Al igual que en la sección anterior, a continuación se listan los parámetros empleados en el formulario de consulta:
 
 {: .highlight }
-> Debe repetir el proceso de selección para cada uno de los datos, **no es posible seleccionar múltiples entradas** del listado y realizar su descarga en conjunto.
+> Para la descarga de varios datos, debe seleccionar y descargarlos uno a uno, **no es posible seleccionar múltiples entradas** del listado y realizar su descarga en conjunto.
 
-Al igual que en la sección anterior, a continuación se listan los parámetros empleados en el formulario de consulta:
 
 1. **Fecha, Tipo y Distintivo**
    
-   <ins>Para este ejemplo</ins>, marcamos el filtro de fecha para extraer todos los datos relativos al mismo vuelo y evitar incongruencias, especificando el día **2 de marzo de 2023**. En el tipo, seleccionamos *RGB*, *Multiespectral* y *Adicional*, pues son los datos que requeriremos en el futuro. Como distintivo, mantenemos *Olivar*.
+   <ins>Para este ejemplo</ins>, marcamos el filtro de fecha para extraer todos los datos relativos al mismo vuelo y evitar incongruencias, especificando el día **2 de marzo de 2023**. En el tipo, seleccionamos *RGB*, pues será el que utilizaremos en el próximo ejemplo ([Subida de datos a los servidores](/Casos%20de%20uso%20y%20ejemplos//Subida-datos-nas)). Como distintivo, mantenemos *Olivar*.
 
 2. **Zona**
     
@@ -65,7 +64,7 @@ Al igual que en la sección anterior, a continuación se listan los parámetros 
 
 3. **Selección**
 
-    <ins>Para este ejemplo</ins>, seleccionamos una fila con los datos a descargar, repitiendo el proceso hasta disponer de toda la información en su equipo.
+    <ins>Para este ejemplo</ins>, seleccionamos la fila con los datos a descargar.
 
 ![Ventana de consulta sobre la base de datos](../Assets/Images/downloaddata_queryextra.png)
 
@@ -80,8 +79,6 @@ En este ejemplo, los ficheros quedarán almacenados en los siguientes directorio
 ```
 /GEU/Cache/Datos de campo/Olivar/Jaen/Marmolejo/J3/2023-03-02/SfM
 /GEU/Cache/Datos de campo/Olivar/Jaen/Marmolejo/J3/2023-03-02/RGB
-/GEU/Cache/Datos de campo/Olivar/Jaen/Marmolejo/J3/2023-03-02/Multiespectral
-/GEU/Cache/Datos de campo/Olivar/Jaen/Marmolejo/J3/2023-03-02/Adicional
 ```
 
 Al descargar nubes de puntos, GEU abrirá el fichero automáticamente una vez finaliza la descarga, añadiendo la nube a la escena activa. Para más información sobre el manejo de la escena, vea la página [Gestor de escenas](/Manual%20de%20usuario/Gestor-de-escenas).
