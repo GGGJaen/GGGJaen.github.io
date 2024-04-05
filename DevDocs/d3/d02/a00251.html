@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del archivo C:/GitHub/GEU/GEU/Source/Modules/Reconstruccion/ProceduralGenerator.cpp</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia del archivo D:/GEU/GEUCore/Source/Graphics/Renderer.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,25 +94,82 @@ $(function(){initNavTree('d3/d02/a00251.html','../../'); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Referencia del archivo ProceduralGenerator.cpp</div></div>
+  <div class="summary">
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo Renderer.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d07/a00305_source.html">stdafx.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d03/a00254_source.html">ProceduralGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d02/a00101_source.html">Core/PointCloud.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d00/a00107_source.html">Core/Renderer.h</a>&quot;</code><br />
-<code>#include &quot;tinynurbs/tinynurbs.h&quot;</code><br />
-<code>#include &quot;omp.h&quot;</code><br />
-<code>#include &lt;random&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;pcl/point_types.h&gt;</code><br />
-<code>#include &lt;pcl/search/search.h&gt;</code><br />
-<code>#include &lt;pcl/search/kdtree.h&gt;</code><br />
-<code>#include &lt;pcl/segmentation/region_growing_rgb.h&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Gráfico de dependencias incluidas en ProceduralGenerator.cpp:</div>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d00/a00191_source.html">GEUCorePch.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d03/a00254_source.html">Renderer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d06/a00125_source.html">ApplicationState.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d00/a00407_source.html">Utilities/ChronoUtilities.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d07/a00248_source.html">MaterialList.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d07/a00164_source.html">DataTypes/LinesModel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d01/a00176_source.html">DataTypes/PointCloud.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d05/a00182_source.html">DataTypes/TriangleMesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d05/a00266_source.html">Shaders/ComputeShader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d06/a00272_source.html">Shaders/RenderingShader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d04/a00281_source.html">Shaders/ShaderManager.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a23390391f566e9a4cf74eb3d20251fc9" id="r_a23390391f566e9a4cf74eb3d20251fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23390391f566e9a4cf74eb3d20251fc9">message_callback</a> (GLenum source, GLenum type, uint32_t id, GLenum severity, GLsizei length, GLchar const *message, void const *user_param)</td></tr>
+<tr class="memdesc:a23390391f566e9a4cf74eb3d20251fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback mensajes de debug de OpenGL.  <br /></td></tr>
+<tr class="separator:a23390391f566e9a4cf74eb3d20251fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de funciones</h2>
+<a id="a23390391f566e9a4cf74eb3d20251fc9" name="a23390391f566e9a4cf74eb3d20251fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23390391f566e9a4cf74eb3d20251fc9">&#9670;&#160;</a></span>message_callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void message_callback </td>
+          <td>(</td>
+          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>source</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>type</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>severity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizei</td>          <td class="paramname"><span class="paramname"><em>length</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLchar const *</td>          <td class="paramname"><span class="paramname"><em>message</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void const *</td>          <td class="paramname"><span class="paramname"><em>user_param</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Callback mensajes de debug de OpenGL. </p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d05/a00252.svg" width="4907" height="251"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d02/a00251_a23390391f566e9a4cf74eb3d20251fc9_icgraph.svg" width="396" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-</div></div><!-- contents -->
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->

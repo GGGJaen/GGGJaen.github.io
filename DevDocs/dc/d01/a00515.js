@@ -1,4 +1,4 @@
 var a00515 =
 [
-    [ "GEU::WindowsCommCall", "dd/d06/a01949.html", "dd/d06/a01949" ]
+    [ "GEU::MultiespectralGUIAdapter", "d0/d07/a02065.html", "d0/d07/a02065" ]
 ];

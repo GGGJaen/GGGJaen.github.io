@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la clase GEU::InterfaceAdapter</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la estructura Database::Vuelo</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,174 +96,67 @@ $(function(){initNavTree('de/d04/a01809.html','../../'); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
-<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
 <a href="../../db/d02/a01806.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la clase GEU::InterfaceAdapter<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Referencia de la estructura Database::Vuelo</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Adapter pattern for <a class="el" href="../../d5/d06/a01773.html" title="ImGUI wrapper and interface manager.">GUI</a> windows and functionality.  
- <a href="#details">Más...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../dc/d01/a00389_source.html">InterfaceAdapter.h</a>&gt;</code></p>
-<div class="dynheader">
-Diagrama de herencia de GEU::InterfaceAdapter</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d02/a01808.svg" width="579" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
-<div class="dynheader">
-Diagrama de colaboración de GEU::InterfaceAdapter:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d03/a01807.svg" width="163" height="236"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d1/d05/a00311_source.html">DatabaseConnector.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a31e92c5a65c18e4bc91421247948a9fb" id="r_a31e92c5a65c18e4bc91421247948a9fb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31e92c5a65c18e4bc91421247948a9fb">~InterfaceAdapter</a> ()=default</td></tr>
-<tr class="separator:a31e92c5a65c18e4bc91421247948a9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2668dadc33a1bbe0429db08d8eab7bb" id="r_aa2668dadc33a1bbe0429db08d8eab7bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2668dadc33a1bbe0429db08d8eab7bb">InterfaceAdapter</a> ()=delete</td></tr>
-<tr class="separator:aa2668dadc33a1bbe0429db08d8eab7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8457055d3772ada322d9ada431012409" id="r_a8457055d3772ada322d9ada431012409"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8457055d3772ada322d9ada431012409">InterfaceAdapter</a> (const std::string &amp;id, const std::string &amp;icon, <a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx)</td></tr>
-<tr class="separator:a8457055d3772ada322d9ada431012409"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a490447ef0fb4a2407333a0d92591f36c" id="r_a490447ef0fb4a2407333a0d92591f36c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a490447ef0fb4a2407333a0d92591f36c">InterfaceAdapter</a> (const <a class="el" href="../../de/d04/a01809.html">InterfaceAdapter</a> &amp;o)=default</td></tr>
-<tr class="separator:a490447ef0fb4a2407333a0d92591f36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3b3fed0d46e847572a1f27e982fd13" id="r_a1b3b3fed0d46e847572a1f27e982fd13"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3b3fed0d46e847572a1f27e982fd13">renderGuiObject</a> (<a class="el" href="../../da/d07/a01381.html">ApplicationState</a> *appState, <a class="el" href="../../db/d01/a01525.html">Scene</a> *sceneContent)=0</td></tr>
-<tr class="memdesc:a1b3b3fed0d46e847572a1f27e982fd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom module <a class="el" href="../../d5/d06/a01773.html" title="ImGUI wrapper and interface manager.">GUI</a> window contents.  <br /></td></tr>
-<tr class="separator:a1b3b3fed0d46e847572a1f27e982fd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e849885e673b38d8668fcb06ed2b20a" id="r_a2e849885e673b38d8668fcb06ed2b20a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e849885e673b38d8668fcb06ed2b20a">getLocalizedName</a> ()</td></tr>
-<tr class="separator:a2e849885e673b38d8668fcb06ed2b20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a434d050fae07cd546444e24c054ddcfb" id="r_a434d050fae07cd546444e24c054ddcfb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a434d050fae07cd546444e24c054ddcfb">getIconName</a> ()</td></tr>
-<tr class="separator:a434d050fae07cd546444e24c054ddcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de95b3c1f3bb6e12400c6c82c57a806" id="r_a9de95b3c1f3bb6e12400c6c82c57a806"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de95b3c1f3bb6e12400c6c82c57a806">getWindowName</a> ()</td></tr>
-<tr class="separator:a9de95b3c1f3bb6e12400c6c82c57a806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a354bd8ff703af9787821d9bf35646aef" id="r_a354bd8ff703af9787821d9bf35646aef"><td class="memItemLeft" align="right" valign="top">bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a354bd8ff703af9787821d9bf35646aef">getWindowOpenPtr</a> ()</td></tr>
-<tr class="separator:a354bd8ff703af9787821d9bf35646aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26b6070e856c790d2f6a255675680303" id="r_a26b6070e856c790d2f6a255675680303"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26b6070e856c790d2f6a255675680303">enableWindow</a> ()</td></tr>
-<tr class="separator:a26b6070e856c790d2f6a255675680303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c89ef100548f8536eb51472c492d241" id="r_a3c89ef100548f8536eb51472c492d241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c89ef100548f8536eb51472c492d241">getLocaleNameIdx</a> ()</td></tr>
-<tr class="separator:a3c89ef100548f8536eb51472c492d241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a821c9c3660702e20fb00d1b698683558" id="r_a821c9c3660702e20fb00d1b698683558"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a821c9c3660702e20fb00d1b698683558">operator==</a> (const <a class="el" href="../../de/d04/a01809.html">Vuelo</a> &amp;other) const</td></tr>
+<tr class="separator:a821c9c3660702e20fb00d1b698683558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Atributos protegidos</h2></td></tr>
-<tr class="memitem:a2e087bb11acc541e30eacfd98746cedd" id="r_a2e087bb11acc541e30eacfd98746cedd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e087bb11acc541e30eacfd98746cedd">_locNameIdx</a></td></tr>
-<tr class="memdesc:a2e087bb11acc541e30eacfd98746cedd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method localized name index.  <br /></td></tr>
-<tr class="separator:a2e087bb11acc541e30eacfd98746cedd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c808b862a9601ffe5a1ff6eff2a1dca" id="r_a2c808b862a9601ffe5a1ff6eff2a1dca"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c808b862a9601ffe5a1ff6eff2a1dca">_icon</a></td></tr>
-<tr class="memdesc:a2c808b862a9601ffe5a1ff6eff2a1dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method icon.  <br /></td></tr>
-<tr class="separator:a2c808b862a9601ffe5a1ff6eff2a1dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620eae33f366cfb5946268305a5633e8" id="r_a620eae33f366cfb5946268305a5633e8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a620eae33f366cfb5946268305a5633e8">_methodId</a></td></tr>
-<tr class="memdesc:a620eae33f366cfb5946268305a5633e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method internal ID.  <br /></td></tr>
-<tr class="separator:a620eae33f366cfb5946268305a5633e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a136ec26609877af763f8e5353d08f153" id="r_a136ec26609877af763f8e5353d08f153"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136ec26609877af763f8e5353d08f153">_windowOpen</a></td></tr>
-<tr class="separator:a136ec26609877af763f8e5353d08f153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:af2b86fd4bbe70ce92931ba82c3f0974b" id="r_af2b86fd4bbe70ce92931ba82c3f0974b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../de/d04/a01809.html">Vuelo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2b86fd4bbe70ce92931ba82c3f0974b">fromQuery</a> (oracle::occi::ResultSet *result)</td></tr>
+<tr class="separator:af2b86fd4bbe70ce92931ba82c3f0974b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a57f84397c1ece74778861f98ea28287d" id="r_a57f84397c1ece74778861f98ea28287d"><td class="memItemLeft" align="right" valign="top">oracle::occi::Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57f84397c1ece74778861f98ea28287d">fecha</a></td></tr>
+<tr class="separator:a57f84397c1ece74778861f98ea28287d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4c4c8628be181f6f4db733c1441734" id="r_a3c4c4c8628be181f6f4db733c1441734"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c4c4c8628be181f6f4db733c1441734">ubicacion</a></td></tr>
+<tr class="separator:a3c4c4c8628be181f6f4db733c1441734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dedf8f4011b4bc22aa2017b10154e9b" id="r_a6dedf8f4011b4bc22aa2017b10154e9b"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dedf8f4011b4bc22aa2017b10154e9b">codMunicipio</a></td></tr>
+<tr class="separator:a6dedf8f4011b4bc22aa2017b10154e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5335ba4bfb78b91c7e37528b45e7fc" id="r_a5f5335ba4bfb78b91c7e37528b45e7fc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f5335ba4bfb78b91c7e37528b45e7fc">horaInicio</a></td></tr>
+<tr class="separator:a5f5335ba4bfb78b91c7e37528b45e7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1983b517248af8a6c48b851b779c1b90" id="r_a1983b517248af8a6c48b851b779c1b90"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1983b517248af8a6c48b851b779c1b90">horaFin</a></td></tr>
+<tr class="separator:a1983b517248af8a6c48b851b779c1b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ca309b0e59def251df3fcdad08945c" id="r_aa9ca309b0e59def251df3fcdad08945c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9ca309b0e59def251df3fcdad08945c">duracion</a></td></tr>
+<tr class="separator:aa9ca309b0e59def251df3fcdad08945c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6866485ace25ff033580b5ecb06fbc6" id="r_aa6866485ace25ff033580b5ecb06fbc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6866485ace25ff033580b5ecb06fbc6">altitud</a></td></tr>
+<tr class="separator:aa6866485ace25ff033580b5ecb06fbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e57ce19d8dda27fd26a5a02bebdc3b9" id="r_a4e57ce19d8dda27fd26a5a02bebdc3b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e57ce19d8dda27fd26a5a02bebdc3b9">solape</a></td></tr>
+<tr class="separator:a4e57ce19d8dda27fd26a5a02bebdc3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b29d80940153933c99d991278c21aa3" id="r_a3b29d80940153933c99d991278c21aa3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b29d80940153933c99d991278c21aa3">velocidad</a></td></tr>
+<tr class="separator:a3b29d80940153933c99d991278c21aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e7db20898f49e6f839d503f98e1ba2" id="r_ac8e7db20898f49e6f839d503f98e1ba2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e7db20898f49e6f839d503f98e1ba2">solapeLong</a></td></tr>
+<tr class="separator:ac8e7db20898f49e6f839d503f98e1ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fe46407d31b47f48cfad3d78f7e336" id="r_ab2fe46407d31b47f48cfad3d78f7e336"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2fe46407d31b47f48cfad3d78f7e336">solapeTran</a></td></tr>
+<tr class="separator:ab2fe46407d31b47f48cfad3d78f7e336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39e5690f7518d80be3a8291ba87f03f" id="r_ae39e5690f7518d80be3a8291ba87f03f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae39e5690f7518d80be3a8291ba87f03f">incidencias</a></td></tr>
+<tr class="separator:ae39e5690f7518d80be3a8291ba87f03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e778b9e9455e49ef6a4c7281d52f51" id="r_a51e778b9e9455e49ef6a4c7281d52f51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51e778b9e9455e49ef6a4c7281d52f51">aterrizajes</a></td></tr>
+<tr class="separator:a51e778b9e9455e49ef6a4c7281d52f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a3a334cf2e7f1349227ba1868d524d" id="r_ad3a3a334cf2e7f1349227ba1868d524d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a3a334cf2e7f1349227ba1868d524d">emailPersonal</a></td></tr>
+<tr class="separator:ad3a3a334cf2e7f1349227ba1868d524d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdf26d3f98858a1ffe9918b550a4529" id="r_a1fdf26d3f98858a1ffe9918b550a4529"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fdf26d3f98858a1ffe9918b550a4529">idDron</a></td></tr>
+<tr class="separator:a1fdf26d3f98858a1ffe9918b550a4529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a963acde49ed1801c94a6b3d588cae4e4" id="r_a963acde49ed1801c94a6b3d588cae4e4"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963acde49ed1801c94a6b3d588cae4e4">SELECT_QUERY</a> = &quot;SELECT FECHA, ZONA_UBICACION, ZONA_MUNICIPIO_CODIGO, HORA_INICIO, HORA_FIN, DURACION, ALTITUD, SOLAPE, VELOCIDAD, SOLAPE_LONGITUDINAL, SOLAPE_TRANSVERSAL, INCIDENCIAS, ATERRIZAJES, PERSONAL_EMAIL, DRON_ID_DRON FROM VUELOS&quot;</td></tr>
+<tr class="separator:a963acde49ed1801c94a6b3d588cae4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Adapter pattern for <a class="el" href="../../d5/d06/a01773.html" title="ImGUI wrapper and interface manager.">GUI</a> windows and functionality. </p>
-</div><h2 class="groupheader">Documentación de constructores y destructores</h2>
-<a id="a31e92c5a65c18e4bc91421247948a9fb" name="a31e92c5a65c18e4bc91421247948a9fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31e92c5a65c18e4bc91421247948a9fb">&#9670;&#160;</a></span>~InterfaceAdapter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual GEU::InterfaceAdapter::~InterfaceAdapter </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa2668dadc33a1bbe0429db08d8eab7bb" name="aa2668dadc33a1bbe0429db08d8eab7bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2668dadc33a1bbe0429db08d8eab7bb">&#9670;&#160;</a></span>InterfaceAdapter() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GEU::InterfaceAdapter::InterfaceAdapter </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8457055d3772ada322d9ada431012409" name="a8457055d3772ada322d9ada431012409"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8457055d3772ada322d9ada431012409">&#9670;&#160;</a></span>InterfaceAdapter() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GEU::InterfaceAdapter::InterfaceAdapter </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>icon</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>idx</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a490447ef0fb4a2407333a0d92591f36c" name="a490447ef0fb4a2407333a0d92591f36c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a490447ef0fb4a2407333a0d92591f36c">&#9670;&#160;</a></span>InterfaceAdapter() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GEU::InterfaceAdapter::InterfaceAdapter </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/d04/a01809.html">InterfaceAdapter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>o</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="a26b6070e856c790d2f6a255675680303" name="a26b6070e856c790d2f6a255675680303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26b6070e856c790d2f6a255675680303">&#9670;&#160;</a></span>enableWindow()</h2>
+<a id="af2b86fd4bbe70ce92931ba82c3f0974b" name="af2b86fd4bbe70ce92931ba82c3f0974b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2b86fd4bbe70ce92931ba82c3f0974b">&#9670;&#160;</a></span>fromQuery()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,113 +165,28 @@ Atributos protegidos</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::InterfaceAdapter::enableWindow </td>
+          <td class="memname">static <a class="el" href="../../de/d04/a01809.html">Vuelo</a> Database::Vuelo::fromQuery </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype">oracle::occi::ResultSet *</td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a434d050fae07cd546444e24c054ddcfb" name="a434d050fae07cd546444e24c054ddcfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a434d050fae07cd546444e24c054ddcfb">&#9670;&#160;</a></span>getIconName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string GEU::InterfaceAdapter::getIconName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d04/a01809_a434d050fae07cd546444e24c054ddcfb_cgraph.svg" width="612" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a3c89ef100548f8536eb51472c492d241" name="a3c89ef100548f8536eb51472c492d241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c89ef100548f8536eb51472c492d241">&#9670;&#160;</a></span>getLocaleNameIdx()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> GEU::InterfaceAdapter::getLocaleNameIdx </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2e849885e673b38d8668fcb06ed2b20a" name="a2e849885e673b38d8668fcb06ed2b20a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e849885e673b38d8668fcb06ed2b20a">&#9670;&#160;</a></span>getLocalizedName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string GEU::InterfaceAdapter::getLocalizedName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d04/a01809_a2e849885e673b38d8668fcb06ed2b20a_cgraph.svg" width="412" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d04/a01809_a2e849885e673b38d8668fcb06ed2b20a_icgraph.svg" width="362" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d04/a01809_af2b86fd4bbe70ce92931ba82c3f0974b_icgraph.svg" width="852" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a9de95b3c1f3bb6e12400c6c82c57a806" name="a9de95b3c1f3bb6e12400c6c82c57a806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9de95b3c1f3bb6e12400c6c82c57a806">&#9670;&#160;</a></span>getWindowName()</h2>
+<a id="a821c9c3660702e20fb00d1b698683558" name="a821c9c3660702e20fb00d1b698683558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a821c9c3660702e20fb00d1b698683558">&#9670;&#160;</a></span>operator==()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,10 +195,10 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string GEU::InterfaceAdapter::getWindowName </td>
+          <td class="memname">bool Database::Vuelo::operator== </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d04/a01809.html">Vuelo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -400,82 +207,152 @@ Gráfico de llamadas a esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d04/a01809_a9de95b3c1f3bb6e12400c6c82c57a806_cgraph.svg" width="612" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a354bd8ff703af9787821d9bf35646aef" name="a354bd8ff703af9787821d9bf35646aef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a354bd8ff703af9787821d9bf35646aef">&#9670;&#160;</a></span>getWindowOpenPtr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool * GEU::InterfaceAdapter::getWindowOpenPtr </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1b3b3fed0d46e847572a1f27e982fd13" name="a1b3b3fed0d46e847572a1f27e982fd13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3b3fed0d46e847572a1f27e982fd13">&#9670;&#160;</a></span>renderGuiObject()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void GEU::InterfaceAdapter::renderGuiObject </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d07/a01381.html">ApplicationState</a> *</td>          <td class="paramname"><span class="paramname"><em>appState</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d01/a01525.html">Scene</a> *</td>          <td class="paramname"><span class="paramname"><em>sceneContent</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Custom module <a class="el" href="../../d5/d06/a01773.html" title="ImGUI wrapper and interface manager.">GUI</a> window contents. </p>
-<dl class="params"><dt>Parámetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">appState</td><td>Pointer to current application state </td></tr>
-    <tr><td class="paramname">sceneContent</td><td>Pointer to currently active scene </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implementado en <a class="el" href="../../d1/d03/a01653.html#a30cdb8738563252a05b2da154c3f864d">GEU::MultiespectralGUIAdapter</a>, <a class="el" href="../../d3/d06/a01725.html#a1509f8f0d21826efa7cc133bbd190931">GEU::ThermalGUIAdapter</a> y <a class="el" href="../../d7/d03/a01645.html#ad27c678722407ed6f3d2bb41ccc2b640">NormalesGUIAdapter</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a2c808b862a9601ffe5a1ff6eff2a1dca" name="a2c808b862a9601ffe5a1ff6eff2a1dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c808b862a9601ffe5a1ff6eff2a1dca">&#9670;&#160;</a></span>_icon</h2>
+<a id="aa6866485ace25ff033580b5ecb06fbc6" name="aa6866485ace25ff033580b5ecb06fbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6866485ace25ff033580b5ecb06fbc6">&#9670;&#160;</a></span>altitud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Database::Vuelo::altitud</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51e778b9e9455e49ef6a4c7281d52f51" name="a51e778b9e9455e49ef6a4c7281d52f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e778b9e9455e49ef6a4c7281d52f51">&#9670;&#160;</a></span>aterrizajes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Database::Vuelo::aterrizajes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6dedf8f4011b4bc22aa2017b10154e9b" name="a6dedf8f4011b4bc22aa2017b10154e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dedf8f4011b4bc22aa2017b10154e9b">&#9670;&#160;</a></span>codMunicipio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Database::Vuelo::codMunicipio</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9ca309b0e59def251df3fcdad08945c" name="aa9ca309b0e59def251df3fcdad08945c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9ca309b0e59def251df3fcdad08945c">&#9670;&#160;</a></span>duracion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Database::Vuelo::duracion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3a3a334cf2e7f1349227ba1868d524d" name="ad3a3a334cf2e7f1349227ba1868d524d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a3a334cf2e7f1349227ba1868d524d">&#9670;&#160;</a></span>emailPersonal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Database::Vuelo::emailPersonal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57f84397c1ece74778861f98ea28287d" name="a57f84397c1ece74778861f98ea28287d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f84397c1ece74778861f98ea28287d">&#9670;&#160;</a></span>fecha</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">oracle::occi::Date Database::Vuelo::fecha</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1983b517248af8a6c48b851b779c1b90" name="a1983b517248af8a6c48b851b779c1b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1983b517248af8a6c48b851b779c1b90">&#9670;&#160;</a></span>horaFin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Database::Vuelo::horaFin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f5335ba4bfb78b91c7e37528b45e7fc" name="a5f5335ba4bfb78b91c7e37528b45e7fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f5335ba4bfb78b91c7e37528b45e7fc">&#9670;&#160;</a></span>horaInicio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Database::Vuelo::horaInicio</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fdf26d3f98858a1ffe9918b550a4529" name="a1fdf26d3f98858a1ffe9918b550a4529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fdf26d3f98858a1ffe9918b550a4529">&#9670;&#160;</a></span>idDron</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Database::Vuelo::idDron</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae39e5690f7518d80be3a8291ba87f03f" name="ae39e5690f7518d80be3a8291ba87f03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39e5690f7518d80be3a8291ba87f03f">&#9670;&#160;</a></span>incidencias</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Database::Vuelo::incidencias</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a963acde49ed1801c94a6b3d588cae4e4" name="a963acde49ed1801c94a6b3d588cae4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963acde49ed1801c94a6b3d588cae4e4">&#9670;&#160;</a></span>SELECT_QUERY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,93 +361,90 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string GEU::InterfaceAdapter::_icon</td>
+          <td class="memname">const std::string Database::Vuelo::SELECT_QUERY = &quot;SELECT FECHA, ZONA_UBICACION, ZONA_MUNICIPIO_CODIGO, HORA_INICIO, HORA_FIN, DURACION, ALTITUD, SOLAPE, VELOCIDAD, SOLAPE_LONGITUDINAL, SOLAPE_TRANSVERSAL, INCIDENCIAS, ATERRIZAJES, PERSONAL_EMAIL, DRON_ID_DRON FROM VUELOS&quot;</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Method icon. </p>
-
 </div>
 </div>
-<a id="a2e087bb11acc541e30eacfd98746cedd" name="a2e087bb11acc541e30eacfd98746cedd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e087bb11acc541e30eacfd98746cedd">&#9670;&#160;</a></span>_locNameIdx</h2>
+<a id="a4e57ce19d8dda27fd26a5a02bebdc3b9" name="a4e57ce19d8dda27fd26a5a02bebdc3b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e57ce19d8dda27fd26a5a02bebdc3b9">&#9670;&#160;</a></span>solape</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> GEU::InterfaceAdapter::_locNameIdx</td>
+          <td class="memname">int Database::Vuelo::solape</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Method localized name index. </p>
-
 </div>
 </div>
-<a id="a620eae33f366cfb5946268305a5633e8" name="a620eae33f366cfb5946268305a5633e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a620eae33f366cfb5946268305a5633e8">&#9670;&#160;</a></span>_methodId</h2>
+<a id="ac8e7db20898f49e6f839d503f98e1ba2" name="ac8e7db20898f49e6f839d503f98e1ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8e7db20898f49e6f839d503f98e1ba2">&#9670;&#160;</a></span>solapeLong</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string GEU::InterfaceAdapter::_methodId</td>
+          <td class="memname">int Database::Vuelo::solapeLong</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Method internal ID. </p>
-
 </div>
 </div>
-<a id="a136ec26609877af763f8e5353d08f153" name="a136ec26609877af763f8e5353d08f153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a136ec26609877af763f8e5353d08f153">&#9670;&#160;</a></span>_windowOpen</h2>
+<a id="ab2fe46407d31b47f48cfad3d78f7e336" name="ab2fe46407d31b47f48cfad3d78f7e336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2fe46407d31b47f48cfad3d78f7e336">&#9670;&#160;</a></span>solapeTran</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool GEU::InterfaceAdapter::_windowOpen</td>
+          <td class="memname">int Database::Vuelo::solapeTran</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
-<li>C:/GitHub/GEU/GEU/Source/UI/<a class="el" href="../../dc/d01/a00389_source.html">InterfaceAdapter.h</a></li>
-<li>C:/GitHub/GEU/GEU/Source/UI/<a class="el" href="../../dd/d05/a00386.html">InterfaceAdapter.cpp</a></li>
+<a id="a3c4c4c8628be181f6f4db733c1441734" name="a3c4c4c8628be181f6f4db733c1441734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c4c4c8628be181f6f4db733c1441734">&#9670;&#160;</a></span>ubicacion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Database::Vuelo::ubicacion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b29d80940153933c99d991278c21aa3" name="a3b29d80940153933c99d991278c21aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b29d80940153933c99d991278c21aa3">&#9670;&#160;</a></span>velocidad</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Database::Vuelo::velocidad</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
+<li>D:/GEU/GEUCore/Source/IO/<a class="el" href="../../d1/d05/a00311_source.html">DatabaseConnector.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

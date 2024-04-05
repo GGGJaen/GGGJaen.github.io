@@ -1,0 +1,44 @@
+<map id="ImGui::InsertNotification" name="ImGui::InsertNotification">
+<area shape="rect" id="Node000001" title=" " alt="" coords="656,448,816,475"/>
+<area shape="rect" id="Node000002" href="$dc/d06/a01505.html#a898e5f19fa3ef08a325e02d15e15532f" title=" " alt="" coords="421,5,567,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="732,433,726,358,708,259,692,206,670,153,642,105,607,62,588,48,566,39,568,34,591,44,610,58,647,102,675,151,697,204,713,257,731,358,737,432"/>
+<area shape="rect" id="Node000003" href="$d2/d00/a02081.html#a82fe07b0265c5eadc11266fdc2b6828d" title=" " alt="" coords="406,72,582,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="730,433,720,370,699,288,683,245,663,202,637,163,607,129,581,112,584,108,610,125,642,160,667,200,688,243,704,286,725,369,735,432"/>
+<area shape="rect" id="Node000004" href="$d9/d03/a01877.html#a1fe25df4d2b4f620117bfb339e7d8ee4" title="Get file information from FTP file." alt="" coords="395,139,593,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="728,433,716,378,694,309,678,273,658,239,635,207,607,179,588,168,591,164,610,175,639,203,663,236,683,271,699,307,721,377,733,432"/>
+<area shape="rect" id="Node000005" href="$d9/d03/a01877.html#ae92eabdf53aa53955bde7249ee78ae0b" title="Downloads remote file to local file system." alt="" coords="382,189,605,216"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="725,434,710,388,687,333,652,277,631,252,607,230,587,219,590,214,610,226,635,248,657,274,691,330,715,386,730,432"/>
+<area shape="rect" id="Node000006" href="$d9/d03/a01877.html#aab7e02581d64801797d4e1799c0a4137" title="Downloads remote file to a string." alt="" coords="393,240,595,283"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="719,436,675,366,644,329,607,297,587,286,590,281,610,292,647,325,679,363,724,433"/>
+<area shape="rect" id="Node000009" href="$d9/d03/a01877.html#a45f35a0eea1be47d162b6e8eaee7136a" title="Downloads remote directory to local file system." alt="" coords="393,307,595,349"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="709,440,664,401,607,364,581,352,583,348,610,359,667,396,712,436"/>
+<area shape="rect" id="Node000010" href="$d9/d03/a01877.html#a8ba33518127084da74a31f3d97903cf1" title=" " alt="" coords="395,373,593,416"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="669,446,573,419,575,414,671,441"/>
+<area shape="rect" id="Node000011" href="$d5/d03/a00631.html#a84bb8e77631e925660765d1e2e9104c2" title=" " alt="" coords="430,440,558,483"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="641,464,558,464,558,459,641,459"/>
+<area shape="rect" id="Node000015" href="$d5/d03/a00631.html#ae19de031d1878518f739c269fde6a4ae" title=" " alt="" coords="430,507,558,549"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="670,482,559,513,558,508,669,477"/>
+<area shape="rect" id="Node000016" href="$d5/d00/a01865.html#aebeb11b59981efb0536a7e57fe284120" title=" " alt="" coords="403,573,584,600"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="713,487,668,527,639,547,609,564,579,575,577,570,607,559,637,542,664,523,710,483"/>
+<area shape="rect" id="Node000017" href="$d5/d00/a01865.html#ad9c308882e7e55a84874880c56515c92" title=" " alt="" coords="404,624,583,651"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="722,490,677,553,646,586,610,614,585,626,583,621,607,610,642,582,673,550,718,487"/>
+<area shape="rect" id="Node000018" href="$da/d01/a02101.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="379,675,608,717"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="727,490,710,529,685,576,652,624,610,665,591,676,588,672,607,661,648,621,681,574,706,527,722,488"/>
+<area shape="rect" id="Node000019" href="$d2/d00/a02081.html#a0b38aef5c1b02e9cdf3cff49bd708297" title=" " alt="" coords="405,741,582,784"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="732,491,719,542,695,607,660,674,637,704,610,731,584,748,581,743,607,727,633,701,655,671,690,605,713,540,727,489"/>
+<area shape="rect" id="Node000020" href="$d9/d03/a01877.html#aded81e48475f28cd507f6b7136974645" title="Uploads local file to remote directory." alt="" coords="395,808,593,835"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="735,490,727,554,706,638,690,682,669,724,643,764,610,798,593,810,590,805,607,794,638,760,664,722,685,679,701,636,721,553,730,490"/>
+<area shape="rect" id="Node000021" href="$d9/d03/a01877.html#a238b6550585c243c3926b773225bd63d" title="Uploads local folder to remote directory." alt="" coords="387,859,600,885"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="737,491,731,563,713,660,697,711,675,762,646,808,610,849,593,860,590,856,607,845,642,805,670,759,692,710,708,659,726,563,732,490"/>
+<area shape="rect" id="Node000007" href="$d3/d03/a01549.html#addbef684fb89817493a5bbc81c8ef36a" title=" " alt="" coords="119,248,315,275"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="377,264,315,264,315,259,377,259"/>
+<area shape="rect" id="Node000008" href="$d4/d01/a00017.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,248,55,275"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="103,264,55,264,55,259,103,259"/>
+<area shape="rect" id="Node000012" href="$d9/d03/a01469.html#af7ebc89aa431e3a9e86bb1424b819d47" title="Draws ImGUI elements." alt="" coords="155,419,279,445"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="414,456,278,441,279,436,415,450"/>
+<area shape="rect" id="Node000013" href="$d8/d07/a01477.html#a1ce8f4dd45e914ab6fa4580d1c481947" title="Renders the window and contents." alt="" coords="103,469,331,512"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="414,472,331,481,331,476,414,467"/>
+<area shape="rect" id="Node000014" href="$d1/d04/a01481.html#a8719af7640d1a32dcd4cdf5d305aa342" title=" " alt="" coords="112,683,322,725"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="416,479,380,497,329,541,287,593,253,644,231,684,226,681,249,641,282,590,326,538,378,492,414,475"/>
+<area shape="poly" id="edge20_Node000020_Node000014" title=" " alt="" coords="400,806,378,798,307,764,248,728,251,723,309,759,380,794,402,801"/>
+</map>

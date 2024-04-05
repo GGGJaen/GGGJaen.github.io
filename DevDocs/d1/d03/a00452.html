@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del archivo C:/GitHub/GEU/GEU/Source/Utilities/FileDialogRegex.hpp</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia del archivo D:/GEU/GEUCore/Source/Utilities/OpenCVImage.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,60 +95,57 @@ $(function(){initNavTree('d1/d03/a00452.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Espacios de nombres</a> &#124;
-<a href="#enum-members">Enumeraciones</a> &#124;
-<a href="#func-members">Funciones</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Referencia del archivo FileDialogRegex.hpp</div></div>
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#define-members">defines</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo OpenCVImage.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;map&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Gráfico de dependencias incluidas en FileDialogRegex.hpp:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/a00453.svg" width="203" height="128"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div class="dynheader">
-Gráfico de los archivos que directa o indirectamente incluyen a este archivo:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d07/a00454.svg" width="4794" height="827"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="textblock"><code>#include &lt;opencv2/opencv.hpp&gt;</code><br />
+<code>#include &lt;opencv2/imgcodecs.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d00/a00158_source.html">DataTypes/Geometry/Rectangle2D.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d1/d03/a00452_source.html">Ir al código fuente de este archivo.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Espacios de nombres</h2></td></tr>
-<tr class="memitem:dc/d01/a00554" id="r_dc/d01/a00554"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a00554.html">FileDialogRegex</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d05/a02021.html">OpenCVImage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumeraciones</h2></td></tr>
-<tr class="memitem:abc72412e188ec7ae765fce8b2cb1d6d8" id="r_abc72412e188ec7ae765fce8b2cb1d6d8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogRegex::FileDialogType</a> { <br />
-&#160;&#160;<a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8a2092da90cf257cc24d406a221783a8c7">FileDialogRegex::POINT_CLOUDS</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8a6fcf99a66c09959e90e17228e290e186">FileDialogRegex::MODELS</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8ab34687a3607271050f02aa9bf90c731a">FileDialogRegex::IMAGES</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8a7a4ebf03a1744e9bf01885d44bc96050">FileDialogRegex::IMAGES_PNG</a>
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8af82b0e52f33f04fe2c446fe8895401c2">FileDialogRegex::IMAGES_TIF</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8a61a96ffcb251bb9bf0abf8fec19d0ea8">FileDialogRegex::TEXT</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8acc5b4ede2c32f875c14c854df38f5ea6">FileDialogRegex::GEU_SCENE</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b">FileDialogRegex::HYPERSPECTRAL_HEADER</a>
-, <br />
-&#160;&#160;<a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48">FileDialogRegex::DIRECTORY</a>
-, <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8a8e1bde3c3d303163521522cf1d62f21f">FileDialogRegex::ANY</a>
-<br />
- }</td></tr>
-<tr class="separator:abc72412e188ec7ae765fce8b2cb1d6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Funciones</h2></td></tr>
-<tr class="memitem:acfb88c6321dcf6bf008dce11582baa15" id="r_acfb88c6321dcf6bf008dce11582baa15"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a00554.html#acfb88c6321dcf6bf008dce11582baa15">FileDialogRegex::getRegex</a> (<a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a> type)</td></tr>
-<tr class="separator:acfb88c6321dcf6bf008dce11582baa15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2427071b5c9ef2e486cb02ad0166546e" id="r_a2427071b5c9ef2e486cb02ad0166546e"><td class="memItemLeft" align="right" valign="top">static std::map&lt; <a class="el" href="../../dc/d01/a00554.html#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d01/a00554.html#a2427071b5c9ef2e486cb02ad0166546e">FileDialogRegex::FILEDIALOG_REGEX</a></td></tr>
-<tr class="separator:a2427071b5c9ef2e486cb02ad0166546e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+defines</h2></td></tr>
+<tr class="memitem:af67efbc680d4a92edfa7879617cc093d" id="r_af67efbc680d4a92edfa7879617cc093d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af67efbc680d4a92edfa7879617cc093d">JPG_EXTENSION</a>&#160;&#160;&#160;&quot;.jpg&quot;</td></tr>
+<tr class="separator:af67efbc680d4a92edfa7879617cc093d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262b922204a2c808bacff50d4a658b78" id="r_a262b922204a2c808bacff50d4a658b78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262b922204a2c808bacff50d4a658b78">TIF_EXTENSION</a>&#160;&#160;&#160;&quot;.tif&quot;</td></tr>
+<tr class="separator:a262b922204a2c808bacff50d4a658b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentación de «define»</h2>
+<a id="af67efbc680d4a92edfa7879617cc093d" name="af67efbc680d4a92edfa7879617cc093d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af67efbc680d4a92edfa7879617cc093d">&#9670;&#160;</a></span>JPG_EXTENSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPG_EXTENSION&#160;&#160;&#160;&quot;.jpg&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a262b922204a2c808bacff50d4a658b78" name="a262b922204a2c808bacff50d4a658b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262b922204a2c808bacff50d4a658b78">&#9670;&#160;</a></span>TIF_EXTENSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIF_EXTENSION&#160;&#160;&#160;&quot;.tif&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->

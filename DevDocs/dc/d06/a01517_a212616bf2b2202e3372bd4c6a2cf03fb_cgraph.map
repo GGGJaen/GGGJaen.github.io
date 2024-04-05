@@ -1,0 +1,11 @@
+<map id="GEU::ModuleManager::addMainModules" name="GEU::ModuleManager::addMainModules">
+<area shape="rect" id="Node000001" title="Adds basic modules to GUI." alt="" coords="5,35,155,77"/>
+<area shape="rect" id="Node000002" href="$da/d06/a01941.html#abbe19d1677429a1330eee4713061fcde" title=" " alt="" coords="203,35,354,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,53,187,53,187,59,155,59"/>
+<area shape="rect" id="Node000003" href="$da/d06/a01941.html#aa9d84619ca4efa90cd1116a896e17fc8" title=" " alt="" coords="402,35,553,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,53,387,53,387,59,355,59"/>
+<area shape="rect" id="Node000004" href="$d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="601,5,804,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="553,44,585,39,586,45,554,49"/>
+<area shape="rect" id="Node000005" href="$d0/d05/a02017.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="622,72,783,99"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="554,63,607,70,607,76,553,68"/>
+</map>

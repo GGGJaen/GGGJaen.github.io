@@ -1,0 +1,37 @@
+<map id="ImGui::RenderNotifications" name="ImGui::RenderNotifications">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,309,181,336"/>
+<area shape="rect" id="Node000002" href="$d4/d07/a01913.html#a2654d2a5f55121d1a805a505b978470c" title=" " alt="" coords="239,5,421,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,309,106,258,130,186,147,147,169,108,196,73,227,42,233,38,236,42,230,46,200,76,174,111,152,149,135,188,111,260,99,310"/>
+<area shape="rect" id="Node000003" href="$d4/d07/a01913.html#ac803efd1f988cbe4054b941e3daa6618" title="Get the color of the toast notification based on its type." alt="" coords="258,56,402,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,308,111,266,137,207,175,145,200,117,227,93,242,83,245,88,230,97,203,121,180,149,141,210,115,268,101,310"/>
+<area shape="rect" id="Node000004" href="$d4/d07/a01913.html#a96f5b9bd1f3cd16ff0a6a1219783655b" title="Get the content of the toast notification." alt="" coords="251,107,409,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="98,308,116,274,144,229,181,183,227,143,236,138,239,142,230,147,185,186,148,233,120,277,103,310"/>
+<area shape="rect" id="Node000005" href="$d4/d07/a01913.html#a6934db1f2dd029cacbefe2e3e681140c" title="Get the default title of the toast notification based on its type." alt="" coords="241,157,419,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="103,307,152,252,188,220,227,194,240,188,242,192,230,198,191,225,156,256,107,311"/>
+<area shape="rect" id="Node000008" href="$d4/d07/a01913.html#a03f6471dffaef6d174c3de68b0ec8930" title=" " alt="" coords="236,208,424,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="117,307,167,279,228,251,265,237,266,242,230,256,169,284,119,311"/>
+<area shape="rect" id="Node000010" href="$d4/d07/a01913.html#ad1a075e89c3fb3563ec18022737e3c68" title="Get the current phase of the toast notification based on the elapsed time since its creation." alt="" coords="505,259,655,285"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="160,306,228,295,365,281,489,273,490,278,366,286,229,300,160,311"/>
+<area shape="rect" id="Node000011" href="$d4/d07/a01913.html#a582ad1ba86ccdef4dae44219795c33d0" title="Get the icon of the toast notification based on its type." alt="" coords="261,309,399,336"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="181,320,246,320,246,325,181,325"/>
+<area shape="rect" id="Node000012" href="$d4/d07/a01913.html#aa8fac09338154542811c1f2c2040c554" title=" " alt="" coords="229,360,431,387"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="160,334,250,354,249,359,158,339"/>
+<area shape="rect" id="Node000013" href="$d4/d07/a01913.html#ae2c05ee32dde32ff416494a51d096e6c" title=" " alt="" coords="234,411,426,437"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="116,334,167,365,230,396,250,403,248,408,228,401,164,370,113,339"/>
+<area shape="rect" id="Node000014" href="$d4/d07/a01913.html#aae3a1d3ebd7bfb5fe59ce43f13b9ac22" title="Get the title of the toast notification." alt="" coords="261,461,399,488"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="107,335,156,390,191,421,230,447,247,455,245,460,227,452,188,425,152,393,103,338"/>
+<area shape="rect" id="Node000015" href="$d4/d07/a01913.html#a2b618b6461ad38ac00da87de8d0e2474" title=" " alt="" coords="234,512,426,539"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="103,335,120,369,148,413,185,459,230,498,239,503,236,507,227,502,181,463,144,416,116,371,98,337"/>
+<area shape="rect" id="Node000016" href="$dc/d06/a00630.html#ab753b79282e23ce81bb5f1181243fe96" title="Removes a notification from the list of notifications." alt="" coords="243,563,417,589"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="101,336,115,378,141,436,180,497,203,525,230,549,237,553,234,558,227,553,200,528,175,500,137,438,111,380,96,337"/>
+<area shape="rect" id="Node000017" href="$d4/d07/a01913.html#a7ece0f110aea2c83184196490e93c7d2" title="Set the ImGui window flags for the notification." alt="" coords="234,613,426,640"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="99,336,111,386,135,457,152,496,174,534,200,569,230,599,236,603,233,608,227,603,196,573,169,537,147,498,130,459,106,387,94,337"/>
+<area shape="rect" id="Node000006" href="$d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="479,91,681,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="389,154,471,135,472,140,390,159"/>
+<area shape="rect" id="Node000007" href="$d0/d05/a02017.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="500,157,660,184"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="419,168,485,168,485,173,419,173"/>
+<area shape="rect" id="Node000009" href="$d4/d07/a01913.html#a65410a0636cab3b0b651e3e9da601984" title="Get the elapsed time in milliseconds since the creation of the object." alt="" coords="729,233,918,260"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="424,223,714,238,713,244,424,229"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="400,233,496,252,495,258,399,238"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="655,262,713,255,714,261,656,267"/>
+</map>

@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUModules/Termica/Source/ThermalAugment.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d7/d01/a00584_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ThermalAugment.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d7/d01/a00584.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;glm/mat3x3.hpp&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d6/d06/a00572.html">EnvPointCloud.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d01/a00140.html">DataStructures/Octree.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/d03/a00452.html">Utilities/OpenCVImage.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../db/d02/a00641.html">   10</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../db/d02/a00641.html">std::filesystem</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">class </span>path;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>}</div>
+</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/a00622.html">GEU</a> {</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html">   16</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d8/d06/a02113.html">ThermalAugment</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#a5a0a096d8ce55e1db6c270487c48c4c9">   18</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../db/d06/a02129.html">ThermalGUIAdapter</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html">   20</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/d01/a02117.html">ThermalImageParams</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a935f630682fc45871eb243f44e74bdd0">   21</a></span>            std::string <a class="code hl_variable" href="../../d0/d01/a02117.html#a935f630682fc45871eb243f44e74bdd0">_imageName</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a94410a058c29db2717cd405fc0b3cd06">   22</a></span>            glm::uvec2 <a class="code hl_variable" href="../../d0/d01/a02117.html#a94410a058c29db2717cd405fc0b3cd06">_size</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a52be04af972c9be3926d3c7afc88ba2d">   23</a></span>            std::vector&lt;float&gt; <a class="code hl_variable" href="../../d0/d01/a02117.html#a52be04af972c9be3926d3c7afc88ba2d">_temperature</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a4937835435b803c2af226ad6d1d8762d">   25</a></span>            glm::mat3 <a class="code hl_variable" href="../../d0/d01/a02117.html#a4937835435b803c2af226ad6d1d8762d">_matrixK</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#ad6e65ec9c25b3964c3824c497342dc8b">   26</a></span>            glm::vec3 <a class="code hl_variable" href="../../d0/d01/a02117.html#ad6e65ec9c25b3964c3824c497342dc8b">_radialDistortion</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a68023e2195b674692ba33bc9bfdd5e06">   27</a></span>            glm::vec2 <a class="code hl_variable" href="../../d0/d01/a02117.html#a68023e2195b674692ba33bc9bfdd5e06">_tangentialDistortion</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a35c78f9e535a74118c1dfeb1f357cbbc">   29</a></span>            <a class="code hl_class" href="../../d8/d05/a02021.html">OpenCVImage</a>* <a class="code hl_variable" href="../../d0/d01/a02117.html#a35c78f9e535a74118c1dfeb1f357cbbc">_rawImage</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#ab16dfb2b83f39d5e871d22beaed781b6">   30</a></span>            <a class="code hl_struct" href="../../d0/d01/a02117.html">ThermalImageParams</a>* <a class="code hl_variable" href="../../d0/d01/a02117.html#ab16dfb2b83f39d5e871d22beaed781b6">_alignedImage</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#ad3da83071634d6d2716814bb7c7e0e78">   32</a></span>            <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d0/d01/a02117.html#ad3da83071634d6d2716814bb7c7e0e78">_registered</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d0/d01/a02117.html#a48b8cf49d4e64ff22f5d214dbded7619">   33</a></span>            glm::mat3 <a class="code hl_variable" href="../../d0/d01/a02117.html#a48b8cf49d4e64ff22f5d214dbded7619">_warpMatrix</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d0/d01/a02117.html#a05ac7b7d4b07222184ac265a2ff6df18">registerAlignedImage</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d8/d06/a02113.html">ThermalAugment</a>&amp; augmenter);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            glm::vec3 <a class="code hl_function" href="../../d0/d01/a02117.html#a373d0edd30cdef84b96cba52ba516378">retrieveColor</a>(<span class="keyword">const</span> glm::vec2&amp; point, <span class="keyword">const</span> <a class="code hl_class" href="../../dd/d02/a01621.html">Rectangle2D</a>&amp; rect) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d0/d01/a02117.html#acf9e20f66de580583ef7206f19344a3b">retrieveTemperature</a>(<span class="keyword">const</span> glm::vec2&amp; point, <span class="keyword">const</span> <a class="code hl_class" href="../../dd/d02/a01621.html">Rectangle2D</a>&amp; rect, <span class="keywordtype">float</span>&amp; temperature) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        };</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html">   40</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="../../d6/d03/a02121.html">ThermalCameraParams</a> {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#a7236e878c7659f8df1f32d2f259483f8">   41</a></span>            glm::vec3 <a class="code hl_variable" href="../../d6/d03/a02121.html#a7236e878c7659f8df1f32d2f259483f8">_localPosition</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#a343d4dbf4b4dd3313a7f83bd11861cbe">   42</a></span>            glm::vec3 <a class="code hl_variable" href="../../d6/d03/a02121.html#a343d4dbf4b4dd3313a7f83bd11861cbe">_omegaPhiKappa</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#a218d58f77aa9b12eab01ff82c7b22bce">   43</a></span>            glm::mat4 <a class="code hl_variable" href="../../d6/d03/a02121.html#a218d58f77aa9b12eab01ff82c7b22bce">_pMatrix</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#ac92371a69d5c6a73fbc5b420f2bd4947">   44</a></span>            glm::mat3 <a class="code hl_variable" href="../../d6/d03/a02121.html#ac92371a69d5c6a73fbc5b420f2bd4947">_rotationMatrix</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#a33c399868a72ed2214120cc0cb77eb3e">   45</a></span>            glm::vec3 <a class="code hl_variable" href="../../d6/d03/a02121.html#a33c399868a72ed2214120cc0cb77eb3e">_utmPosition</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#a3b3a3b44f77674ca692debc8a589c88f">   47</a></span>            <a class="code hl_struct" href="../../d0/d01/a02117.html">ThermalImageParams</a> <a class="code hl_variable" href="../../d6/d03/a02121.html#a3b3a3b44f77674ca692debc8a589c88f">_imageParams</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d6/d03/a02121.html#aedc7162d85e7270c5cbc6c21391a0b25">   49</a></span>            glm::vec2 <a class="code hl_function" href="../../d6/d03/a02121.html#aedc7162d85e7270c5cbc6c21391a0b25">transformTo2D</a>(<span class="keyword">const</span> glm::vec4&amp; point)<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                <span class="keyword">const</span> glm::vec4 newPoint = <a class="code hl_variable" href="../../d6/d03/a02121.html#a218d58f77aa9b12eab01ff82c7b22bce">_pMatrix</a> * point;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                <span class="keywordflow">return</span> { newPoint.x / newPoint.z, newPoint.y / newPoint.z };</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            }</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        };</div>
+</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="};">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html">   55</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="../../d8/d02/a02125.html">GlobalCameraParams</a> {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html#a74c7ea3e02c35d0f405e0ea57fc6436c">   56</a></span>            glm::vec2 <a class="code hl_variable" href="../../d8/d02/a02125.html#a74c7ea3e02c35d0f405e0ea57fc6436c">_apertureAngle</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html#acaa7bab9099c637dcea0ab0a7f74893d">   57</a></span>            <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d8/d02/a02125.html#acaa7bab9099c637dcea0ab0a7f74893d">_focalLength</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html#a0fde6abe9975ad4080f57770258196c4">   58</a></span>            glm::vec2 <a class="code hl_variable" href="../../d8/d02/a02125.html#a0fde6abe9975ad4080f57770258196c4">_imageCropOffset</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html#ad263763f67be8d7769a5cfb6ae084af2">   59</a></span>            glm::vec2 <a class="code hl_variable" href="../../d8/d02/a02125.html#ad263763f67be8d7769a5cfb6ae084af2">_imageCropScale</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html#ac2506a028b910a85af814755336005e4">   60</a></span>            glm::uvec2 <a class="code hl_variable" href="../../d8/d02/a02125.html#ac2506a028b910a85af814755336005e4">_imageOriginalSize</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../d8/d02/a02125.html#af48df4e835a543ad0678d2856f010bb2">   61</a></span>            glm::vec2 <a class="code hl_variable" href="../../d8/d02/a02125.html#af48df4e835a543ad0678d2856f010bb2">_sensorWidth</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        };</div>
+</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#a531352cfc23157a6a18aabff42bacf69">   65</a></span>        <a class="code hl_class" href="../../d7/d06/a02109.html">EnvPointCloud</a>* <a class="code hl_variable" href="../../d8/d06/a02113.html#a531352cfc23157a6a18aabff42bacf69">_pointCloud</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#ad14b71977ef188ea17406900cfac6ad8">   66</a></span>        <a class="code hl_class" href="../../da/d04/a01609.html">unibn::Octree&lt;glm::vec3&gt;</a>* <a class="code hl_variable" href="../../d8/d06/a02113.html#ad14b71977ef188ea17406900cfac6ad8">_octree</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#a794d20f15f3bb6fdf444b320590a853c">   67</a></span>        std::map&lt;std::string, ThermalCameraParams&gt; <a class="code hl_variable" href="../../d8/d06/a02113.html#a794d20f15f3bb6fdf444b320590a853c">_camerasRGB</a>, <a class="code hl_variable" href="../../d8/d06/a02113.html#a425f3e1f243ccb6c7c4338dc8d9abe4c">_camerasThermal</a>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#ad60d44bc4cf4db31ee12d226c27e49b5">   68</a></span>        glm::vec3 <a class="code hl_variable" href="../../d8/d06/a02113.html#ad60d44bc4cf4db31ee12d226c27e49b5">_offsetRGB</a> = glm::vec3(0.0f);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#a7e3b455d81244ab3f26fdaba5e3ba61e">   69</a></span>        glm::vec3 <a class="code hl_variable" href="../../d8/d06/a02113.html#a7e3b455d81244ab3f26fdaba5e3ba61e">_offsetThermal</a> = glm::vec3(0.0f);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#af8e78c0bf1c94db8e72182c3fe3171e6">   71</a></span>        <a class="code hl_struct" href="../../d8/d02/a02125.html">GlobalCameraParams</a> <a class="code hl_variable" href="../../d8/d06/a02113.html#af8e78c0bf1c94db8e72182c3fe3171e6">_globalCamParamsRGB</a>, <a class="code hl_variable" href="../../d8/d06/a02113.html#aec83808a60cd39bfde3d2f391ad04aea">_globalCamParamsThermal</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#a61237c9117cf95ac00cb07098278afe5">   72</a></span>        <a class="code hl_class" href="../../dd/d02/a01621.html">Rectangle2D</a> <a class="code hl_variable" href="../../d8/d06/a02113.html#a61237c9117cf95ac00cb07098278afe5">_rectangleRGB</a>, <a class="code hl_variable" href="../../d8/d06/a02113.html#a2614f6987aadeea033f13d764f3cbc0e">_rectangleThermal</a>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">    #pragma region CAMERA_METADATA</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a6a08710e033620d8898cafcca26c17fb">readCameraCalibratedParameters</a>(<span class="keyword">const</span> std::string&amp; filename, std::map&lt;std::string, ThermalCameraParams&gt;&amp; targetTypeMap);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a995a4751cbcdcc9eb59a0470b79be64a">readCameraOffset</a>(<span class="keyword">const</span> std::string&amp; filename, glm::vec3&amp; offsetTargetVec);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a9d53ea82ca043cfdc5516f3c3c8ab0be">readCameraPMatrices</a>(<span class="keyword">const</span> std::string&amp; filename, std::map&lt;std::string, ThermalCameraParams&gt;&amp; targetTypeMap);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#ac4d5f810cfa1b9b5d7fe9e84e639d38d">readCameraExternalCalibratedParameters</a>(<span class="keyword">const</span> std::string&amp; filename, std::map&lt;std::string, ThermalCameraParams&gt;&amp; targetTypeMap);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#ade5f2087a09b7d124b20761b0727d5c0">readCameraInternalCalibratedParameters</a>(<span class="keyword">const</span> std::string&amp; filename, <a class="code hl_struct" href="../../d8/d02/a02125.html">GlobalCameraParams</a>&amp; targetTypeCamParams);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#af91c8c9d065406c68163f58e26963466">readCameraImageCropArea</a>(<span class="keyword">const</span> std::string&amp; filename, <a class="code hl_struct" href="../../d8/d02/a02125.html">GlobalCameraParams</a>&amp; targetTypeCamParams);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">    #pragma region IMAGE_LOAD</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a2d90d8208a8ab8e8ea1a22b442c3a753">loadImagesRGB</a>(<span class="keyword">const</span> std::filesystem::path&amp; rgbPath, <span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a22feffc808fba4ed4fc72c328dca04c2">loadImagesThermal</a>(<span class="keyword">const</span> std::filesystem::path&amp; thermalPath, <span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#ac7d842177abfc35aa03649a38dd89c24">registerImages</a>(<span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">    #pragma region TEMPERATURE_LOAD</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a8e3b385d318cdddc4032eaddc09ae8b6">readTemperatureFLIR</a>(<span class="keyword">const</span> std::filesystem::path&amp; thermalCSVpath, <span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="../../d8/d06/a02113.html#abefc46bc4ff9c2dd3fdbd960bf1d4d24">   99</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#abefc46bc4ff9c2dd3fdbd960bf1d4d24">readTemperatureDJI</a>(<span class="keyword">const</span> std::filesystem::path&amp; imagesPath, <span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a7d44bfe00e67702d5af13b627f6500f6">setUpCloud</a>(<a class="code hl_class" href="../../db/d05/a01637.html">PointCloud</a>* pc);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a94e82a3e31bc19fdbe1af2e1d5f6cecb">readCameraMetadata</a>(<span class="keyword">const</span> std::filesystem::path&amp; rgbPath, <span class="keyword">const</span> std::filesystem::path&amp; thermalPath, <span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a7543b442631fac3eb9f3f2afb2f36de9">linkImages</a>(<span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#ae03d060be28b798d5f21707bf7803b62">augmentCloud</a>(<span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d06/a02113.html#a5744648f0d918b565c8c479809d0c676">cleanup</a>(<span class="keywordtype">float</span>&amp; progress);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    };</div>
+</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>}</div>
+<div class="ttc" id="aa00140_html"><div class="ttname"><a href="../../d5/d01/a00140.html">Octree.hpp</a></div></div>
+<div class="ttc" id="aa00452_html"><div class="ttname"><a href="../../d1/d03/a00452.html">OpenCVImage.h</a></div></div>
+<div class="ttc" id="aa00572_html"><div class="ttname"><a href="../../d6/d06/a00572.html">EnvPointCloud.h</a></div></div>
+<div class="ttc" id="aa00622_html"><div class="ttname"><a href="../../d0/d01/a00622.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="aa00641_html"><div class="ttname"><a href="../../db/d02/a00641.html">std::filesystem</a></div><div class="ttdef"><b>Definition</b> ThermalAugment.h:11</div></div>
+<div class="ttc" id="aa01609_html"><div class="ttname"><a href="../../da/d04/a01609.html">unibn::Octree</a></div><div class="ttdoc">Index-based Octree implementation offering different queries and insertion/removal of points.</div><div class="ttdef"><b>Definition</b> Octree.hpp:231</div></div>
+<div class="ttc" id="aa01621_html"><div class="ttname"><a href="../../dd/d02/a01621.html">Rectangle2D</a></div><div class="ttdef"><b>Definition</b> Rectangle2D.h:14</div></div>
+<div class="ttc" id="aa01637_html"><div class="ttname"><a href="../../db/d05/a01637.html">GEU::PointCloud</a></div><div class="ttdef"><b>Definition</b> PointCloud.h:14</div></div>
+<div class="ttc" id="aa02021_html"><div class="ttname"><a href="../../d8/d05/a02021.html">OpenCVImage</a></div><div class="ttdef"><b>Definition</b> OpenCVImage.h:10</div></div>
+<div class="ttc" id="aa02109_html"><div class="ttname"><a href="../../d7/d06/a02109.html">EnvPointCloud</a></div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:20</div></div>
+<div class="ttc" id="aa02113_html"><div class="ttname"><a href="../../d8/d06/a02113.html">GEU::ThermalAugment</a></div><div class="ttdef"><b>Definition</b> ThermalAugment.h:16</div></div>
+<div class="ttc" id="aa02113_html_a22feffc808fba4ed4fc72c328dca04c2"><div class="ttname"><a href="../../d8/d06/a02113.html#a22feffc808fba4ed4fc72c328dca04c2">GEU::ThermalAugment::loadImagesThermal</a></div><div class="ttdeci">void loadImagesThermal(const std::filesystem::path &amp;thermalPath, float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:470</div></div>
+<div class="ttc" id="aa02113_html_a2614f6987aadeea033f13d764f3cbc0e"><div class="ttname"><a href="../../d8/d06/a02113.html#a2614f6987aadeea033f13d764f3cbc0e">GEU::ThermalAugment::_rectangleThermal</a></div><div class="ttdeci">Rectangle2D _rectangleThermal</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:72</div></div>
+<div class="ttc" id="aa02113_html_a2d90d8208a8ab8e8ea1a22b442c3a753"><div class="ttname"><a href="../../d8/d06/a02113.html#a2d90d8208a8ab8e8ea1a22b442c3a753">GEU::ThermalAugment::loadImagesRGB</a></div><div class="ttdeci">void loadImagesRGB(const std::filesystem::path &amp;rgbPath, float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:429</div></div>
+<div class="ttc" id="aa02113_html_a425f3e1f243ccb6c7c4338dc8d9abe4c"><div class="ttname"><a href="../../d8/d06/a02113.html#a425f3e1f243ccb6c7c4338dc8d9abe4c">GEU::ThermalAugment::_camerasThermal</a></div><div class="ttdeci">std::map&lt; std::string, ThermalCameraParams &gt; _camerasThermal</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:67</div></div>
+<div class="ttc" id="aa02113_html_a531352cfc23157a6a18aabff42bacf69"><div class="ttname"><a href="../../d8/d06/a02113.html#a531352cfc23157a6a18aabff42bacf69">GEU::ThermalAugment::_pointCloud</a></div><div class="ttdeci">EnvPointCloud * _pointCloud</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:65</div></div>
+<div class="ttc" id="aa02113_html_a5744648f0d918b565c8c479809d0c676"><div class="ttname"><a href="../../d8/d06/a02113.html#a5744648f0d918b565c8c479809d0c676">GEU::ThermalAugment::cleanup</a></div><div class="ttdeci">void cleanup(float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:728</div></div>
+<div class="ttc" id="aa02113_html_a61237c9117cf95ac00cb07098278afe5"><div class="ttname"><a href="../../d8/d06/a02113.html#a61237c9117cf95ac00cb07098278afe5">GEU::ThermalAugment::_rectangleRGB</a></div><div class="ttdeci">Rectangle2D _rectangleRGB</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:72</div></div>
+<div class="ttc" id="aa02113_html_a6a08710e033620d8898cafcca26c17fb"><div class="ttname"><a href="../../d8/d06/a02113.html#a6a08710e033620d8898cafcca26c17fb">GEU::ThermalAugment::readCameraCalibratedParameters</a></div><div class="ttdeci">static void readCameraCalibratedParameters(const std::string &amp;filename, std::map&lt; std::string, ThermalCameraParams &gt; &amp;targetTypeMap)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:140</div></div>
+<div class="ttc" id="aa02113_html_a7543b442631fac3eb9f3f2afb2f36de9"><div class="ttname"><a href="../../d8/d06/a02113.html#a7543b442631fac3eb9f3f2afb2f36de9">GEU::ThermalAugment::linkImages</a></div><div class="ttdeci">void linkImages(float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:674</div></div>
+<div class="ttc" id="aa02113_html_a794d20f15f3bb6fdf444b320590a853c"><div class="ttname"><a href="../../d8/d06/a02113.html#a794d20f15f3bb6fdf444b320590a853c">GEU::ThermalAugment::_camerasRGB</a></div><div class="ttdeci">std::map&lt; std::string, ThermalCameraParams &gt; _camerasRGB</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:67</div></div>
+<div class="ttc" id="aa02113_html_a7d44bfe00e67702d5af13b627f6500f6"><div class="ttname"><a href="../../d8/d06/a02113.html#a7d44bfe00e67702d5af13b627f6500f6">GEU::ThermalAugment::setUpCloud</a></div><div class="ttdeci">void setUpCloud(PointCloud *pc)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:666</div></div>
+<div class="ttc" id="aa02113_html_a7e3b455d81244ab3f26fdaba5e3ba61e"><div class="ttname"><a href="../../d8/d06/a02113.html#a7e3b455d81244ab3f26fdaba5e3ba61e">GEU::ThermalAugment::_offsetThermal</a></div><div class="ttdeci">glm::vec3 _offsetThermal</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:69</div></div>
+<div class="ttc" id="aa02113_html_a8e3b385d318cdddc4032eaddc09ae8b6"><div class="ttname"><a href="../../d8/d06/a02113.html#a8e3b385d318cdddc4032eaddc09ae8b6">GEU::ThermalAugment::readTemperatureFLIR</a></div><div class="ttdeci">void readTemperatureFLIR(const std::filesystem::path &amp;thermalCSVpath, float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:540</div></div>
+<div class="ttc" id="aa02113_html_a94e82a3e31bc19fdbe1af2e1d5f6cecb"><div class="ttname"><a href="../../d8/d06/a02113.html#a94e82a3e31bc19fdbe1af2e1d5f6cecb">GEU::ThermalAugment::readCameraMetadata</a></div><div class="ttdeci">void readCameraMetadata(const std::filesystem::path &amp;rgbPath, const std::filesystem::path &amp;thermalPath, float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:610</div></div>
+<div class="ttc" id="aa02113_html_a995a4751cbcdcc9eb59a0470b79be64a"><div class="ttname"><a href="../../d8/d06/a02113.html#a995a4751cbcdcc9eb59a0470b79be64a">GEU::ThermalAugment::readCameraOffset</a></div><div class="ttdeci">static void readCameraOffset(const std::string &amp;filename, glm::vec3 &amp;offsetTargetVec)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:243</div></div>
+<div class="ttc" id="aa02113_html_a9d53ea82ca043cfdc5516f3c3c8ab0be"><div class="ttname"><a href="../../d8/d06/a02113.html#a9d53ea82ca043cfdc5516f3c3c8ab0be">GEU::ThermalAugment::readCameraPMatrices</a></div><div class="ttdeci">static void readCameraPMatrices(const std::string &amp;filename, std::map&lt; std::string, ThermalCameraParams &gt; &amp;targetTypeMap)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:269</div></div>
+<div class="ttc" id="aa02113_html_abefc46bc4ff9c2dd3fdbd960bf1d4d24"><div class="ttname"><a href="../../d8/d06/a02113.html#abefc46bc4ff9c2dd3fdbd960bf1d4d24">GEU::ThermalAugment::readTemperatureDJI</a></div><div class="ttdeci">void readTemperatureDJI(const std::filesystem::path &amp;imagesPath, float &amp;progress)</div></div>
+<div class="ttc" id="aa02113_html_ac4d5f810cfa1b9b5d7fe9e84e639d38d"><div class="ttname"><a href="../../d8/d06/a02113.html#ac4d5f810cfa1b9b5d7fe9e84e639d38d">GEU::ThermalAugment::readCameraExternalCalibratedParameters</a></div><div class="ttdeci">static void readCameraExternalCalibratedParameters(const std::string &amp;filename, std::map&lt; std::string, ThermalCameraParams &gt; &amp;targetTypeMap)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:303</div></div>
+<div class="ttc" id="aa02113_html_ac7d842177abfc35aa03649a38dd89c24"><div class="ttname"><a href="../../d8/d06/a02113.html#ac7d842177abfc35aa03649a38dd89c24">GEU::ThermalAugment::registerImages</a></div><div class="ttdeci">void registerImages(float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:511</div></div>
+<div class="ttc" id="aa02113_html_ad14b71977ef188ea17406900cfac6ad8"><div class="ttname"><a href="../../d8/d06/a02113.html#ad14b71977ef188ea17406900cfac6ad8">GEU::ThermalAugment::_octree</a></div><div class="ttdeci">unibn::Octree&lt; glm::vec3 &gt; * _octree</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:66</div></div>
+<div class="ttc" id="aa02113_html_ad60d44bc4cf4db31ee12d226c27e49b5"><div class="ttname"><a href="../../d8/d06/a02113.html#ad60d44bc4cf4db31ee12d226c27e49b5">GEU::ThermalAugment::_offsetRGB</a></div><div class="ttdeci">glm::vec3 _offsetRGB</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:68</div></div>
+<div class="ttc" id="aa02113_html_ade5f2087a09b7d124b20761b0727d5c0"><div class="ttname"><a href="../../d8/d06/a02113.html#ade5f2087a09b7d124b20761b0727d5c0">GEU::ThermalAugment::readCameraInternalCalibratedParameters</a></div><div class="ttdeci">static void readCameraInternalCalibratedParameters(const std::string &amp;filename, GlobalCameraParams &amp;targetTypeCamParams)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:333</div></div>
+<div class="ttc" id="aa02113_html_ae03d060be28b798d5f21707bf7803b62"><div class="ttname"><a href="../../d8/d06/a02113.html#ae03d060be28b798d5f21707bf7803b62">GEU::ThermalAugment::augmentCloud</a></div><div class="ttdeci">void augmentCloud(float &amp;progress)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:690</div></div>
+<div class="ttc" id="aa02113_html_aec83808a60cd39bfde3d2f391ad04aea"><div class="ttname"><a href="../../d8/d06/a02113.html#aec83808a60cd39bfde3d2f391ad04aea">GEU::ThermalAugment::_globalCamParamsThermal</a></div><div class="ttdeci">GlobalCameraParams _globalCamParamsThermal</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:71</div></div>
+<div class="ttc" id="aa02113_html_af8e78c0bf1c94db8e72182c3fe3171e6"><div class="ttname"><a href="../../d8/d06/a02113.html#af8e78c0bf1c94db8e72182c3fe3171e6">GEU::ThermalAugment::_globalCamParamsRGB</a></div><div class="ttdeci">GlobalCameraParams _globalCamParamsRGB</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:71</div></div>
+<div class="ttc" id="aa02113_html_af91c8c9d065406c68163f58e26963466"><div class="ttname"><a href="../../d8/d06/a02113.html#af91c8c9d065406c68163f58e26963466">GEU::ThermalAugment::readCameraImageCropArea</a></div><div class="ttdeci">static void readCameraImageCropArea(const std::string &amp;filename, GlobalCameraParams &amp;targetTypeCamParams)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:392</div></div>
+<div class="ttc" id="aa02117_html"><div class="ttname"><a href="../../d0/d01/a02117.html">GEU::ThermalAugment::ThermalImageParams</a></div><div class="ttdef"><b>Definition</b> ThermalAugment.h:20</div></div>
+<div class="ttc" id="aa02117_html_a05ac7b7d4b07222184ac265a2ff6df18"><div class="ttname"><a href="../../d0/d01/a02117.html#a05ac7b7d4b07222184ac265a2ff6df18">GEU::ThermalAugment::ThermalImageParams::registerAlignedImage</a></div><div class="ttdeci">bool registerAlignedImage(const ThermalAugment &amp;augmenter)</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:36</div></div>
+<div class="ttc" id="aa02117_html_a35c78f9e535a74118c1dfeb1f357cbbc"><div class="ttname"><a href="../../d0/d01/a02117.html#a35c78f9e535a74118c1dfeb1f357cbbc">GEU::ThermalAugment::ThermalImageParams::_rawImage</a></div><div class="ttdeci">OpenCVImage * _rawImage</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:29</div></div>
+<div class="ttc" id="aa02117_html_a373d0edd30cdef84b96cba52ba516378"><div class="ttname"><a href="../../d0/d01/a02117.html#a373d0edd30cdef84b96cba52ba516378">GEU::ThermalAugment::ThermalImageParams::retrieveColor</a></div><div class="ttdeci">glm::vec3 retrieveColor(const glm::vec2 &amp;point, const Rectangle2D &amp;rect) const</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:110</div></div>
+<div class="ttc" id="aa02117_html_a48b8cf49d4e64ff22f5d214dbded7619"><div class="ttname"><a href="../../d0/d01/a02117.html#a48b8cf49d4e64ff22f5d214dbded7619">GEU::ThermalAugment::ThermalImageParams::_warpMatrix</a></div><div class="ttdeci">glm::mat3 _warpMatrix</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:33</div></div>
+<div class="ttc" id="aa02117_html_a4937835435b803c2af226ad6d1d8762d"><div class="ttname"><a href="../../d0/d01/a02117.html#a4937835435b803c2af226ad6d1d8762d">GEU::ThermalAugment::ThermalImageParams::_matrixK</a></div><div class="ttdeci">glm::mat3 _matrixK</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:25</div></div>
+<div class="ttc" id="aa02117_html_a52be04af972c9be3926d3c7afc88ba2d"><div class="ttname"><a href="../../d0/d01/a02117.html#a52be04af972c9be3926d3c7afc88ba2d">GEU::ThermalAugment::ThermalImageParams::_temperature</a></div><div class="ttdeci">std::vector&lt; float &gt; _temperature</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:23</div></div>
+<div class="ttc" id="aa02117_html_a68023e2195b674692ba33bc9bfdd5e06"><div class="ttname"><a href="../../d0/d01/a02117.html#a68023e2195b674692ba33bc9bfdd5e06">GEU::ThermalAugment::ThermalImageParams::_tangentialDistortion</a></div><div class="ttdeci">glm::vec2 _tangentialDistortion</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:27</div></div>
+<div class="ttc" id="aa02117_html_a935f630682fc45871eb243f44e74bdd0"><div class="ttname"><a href="../../d0/d01/a02117.html#a935f630682fc45871eb243f44e74bdd0">GEU::ThermalAugment::ThermalImageParams::_imageName</a></div><div class="ttdeci">std::string _imageName</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:21</div></div>
+<div class="ttc" id="aa02117_html_a94410a058c29db2717cd405fc0b3cd06"><div class="ttname"><a href="../../d0/d01/a02117.html#a94410a058c29db2717cd405fc0b3cd06">GEU::ThermalAugment::ThermalImageParams::_size</a></div><div class="ttdeci">glm::uvec2 _size</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:22</div></div>
+<div class="ttc" id="aa02117_html_ab16dfb2b83f39d5e871d22beaed781b6"><div class="ttname"><a href="../../d0/d01/a02117.html#ab16dfb2b83f39d5e871d22beaed781b6">GEU::ThermalAugment::ThermalImageParams::_alignedImage</a></div><div class="ttdeci">ThermalImageParams * _alignedImage</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:30</div></div>
+<div class="ttc" id="aa02117_html_acf9e20f66de580583ef7206f19344a3b"><div class="ttname"><a href="../../d0/d01/a02117.html#acf9e20f66de580583ef7206f19344a3b">GEU::ThermalAugment::ThermalImageParams::retrieveTemperature</a></div><div class="ttdeci">bool retrieveTemperature(const glm::vec2 &amp;point, const Rectangle2D &amp;rect, float &amp;temperature) const</div><div class="ttdef"><b>Definition</b> ThermalAugment.cpp:124</div></div>
+<div class="ttc" id="aa02117_html_ad3da83071634d6d2716814bb7c7e0e78"><div class="ttname"><a href="../../d0/d01/a02117.html#ad3da83071634d6d2716814bb7c7e0e78">GEU::ThermalAugment::ThermalImageParams::_registered</a></div><div class="ttdeci">bool _registered</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:32</div></div>
+<div class="ttc" id="aa02117_html_ad6e65ec9c25b3964c3824c497342dc8b"><div class="ttname"><a href="../../d0/d01/a02117.html#ad6e65ec9c25b3964c3824c497342dc8b">GEU::ThermalAugment::ThermalImageParams::_radialDistortion</a></div><div class="ttdeci">glm::vec3 _radialDistortion</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:26</div></div>
+<div class="ttc" id="aa02121_html"><div class="ttname"><a href="../../d6/d03/a02121.html">GEU::ThermalAugment::ThermalCameraParams</a></div><div class="ttdef"><b>Definition</b> ThermalAugment.h:40</div></div>
+<div class="ttc" id="aa02121_html_a218d58f77aa9b12eab01ff82c7b22bce"><div class="ttname"><a href="../../d6/d03/a02121.html#a218d58f77aa9b12eab01ff82c7b22bce">GEU::ThermalAugment::ThermalCameraParams::_pMatrix</a></div><div class="ttdeci">glm::mat4 _pMatrix</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:43</div></div>
+<div class="ttc" id="aa02121_html_a33c399868a72ed2214120cc0cb77eb3e"><div class="ttname"><a href="../../d6/d03/a02121.html#a33c399868a72ed2214120cc0cb77eb3e">GEU::ThermalAugment::ThermalCameraParams::_utmPosition</a></div><div class="ttdeci">glm::vec3 _utmPosition</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:45</div></div>
+<div class="ttc" id="aa02121_html_a343d4dbf4b4dd3313a7f83bd11861cbe"><div class="ttname"><a href="../../d6/d03/a02121.html#a343d4dbf4b4dd3313a7f83bd11861cbe">GEU::ThermalAugment::ThermalCameraParams::_omegaPhiKappa</a></div><div class="ttdeci">glm::vec3 _omegaPhiKappa</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:42</div></div>
+<div class="ttc" id="aa02121_html_a3b3a3b44f77674ca692debc8a589c88f"><div class="ttname"><a href="../../d6/d03/a02121.html#a3b3a3b44f77674ca692debc8a589c88f">GEU::ThermalAugment::ThermalCameraParams::_imageParams</a></div><div class="ttdeci">ThermalImageParams _imageParams</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:47</div></div>
+<div class="ttc" id="aa02121_html_a7236e878c7659f8df1f32d2f259483f8"><div class="ttname"><a href="../../d6/d03/a02121.html#a7236e878c7659f8df1f32d2f259483f8">GEU::ThermalAugment::ThermalCameraParams::_localPosition</a></div><div class="ttdeci">glm::vec3 _localPosition</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:41</div></div>
+<div class="ttc" id="aa02121_html_ac92371a69d5c6a73fbc5b420f2bd4947"><div class="ttname"><a href="../../d6/d03/a02121.html#ac92371a69d5c6a73fbc5b420f2bd4947">GEU::ThermalAugment::ThermalCameraParams::_rotationMatrix</a></div><div class="ttdeci">glm::mat3 _rotationMatrix</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:44</div></div>
+<div class="ttc" id="aa02121_html_aedc7162d85e7270c5cbc6c21391a0b25"><div class="ttname"><a href="../../d6/d03/a02121.html#aedc7162d85e7270c5cbc6c21391a0b25">GEU::ThermalAugment::ThermalCameraParams::transformTo2D</a></div><div class="ttdeci">glm::vec2 transformTo2D(const glm::vec4 &amp;point) const</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:49</div></div>
+<div class="ttc" id="aa02125_html"><div class="ttname"><a href="../../d8/d02/a02125.html">GEU::ThermalAugment::GlobalCameraParams</a></div><div class="ttdef"><b>Definition</b> ThermalAugment.h:55</div></div>
+<div class="ttc" id="aa02125_html_a0fde6abe9975ad4080f57770258196c4"><div class="ttname"><a href="../../d8/d02/a02125.html#a0fde6abe9975ad4080f57770258196c4">GEU::ThermalAugment::GlobalCameraParams::_imageCropOffset</a></div><div class="ttdeci">glm::vec2 _imageCropOffset</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:58</div></div>
+<div class="ttc" id="aa02125_html_a74c7ea3e02c35d0f405e0ea57fc6436c"><div class="ttname"><a href="../../d8/d02/a02125.html#a74c7ea3e02c35d0f405e0ea57fc6436c">GEU::ThermalAugment::GlobalCameraParams::_apertureAngle</a></div><div class="ttdeci">glm::vec2 _apertureAngle</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:56</div></div>
+<div class="ttc" id="aa02125_html_ac2506a028b910a85af814755336005e4"><div class="ttname"><a href="../../d8/d02/a02125.html#ac2506a028b910a85af814755336005e4">GEU::ThermalAugment::GlobalCameraParams::_imageOriginalSize</a></div><div class="ttdeci">glm::uvec2 _imageOriginalSize</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:60</div></div>
+<div class="ttc" id="aa02125_html_acaa7bab9099c637dcea0ab0a7f74893d"><div class="ttname"><a href="../../d8/d02/a02125.html#acaa7bab9099c637dcea0ab0a7f74893d">GEU::ThermalAugment::GlobalCameraParams::_focalLength</a></div><div class="ttdeci">float _focalLength</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:57</div></div>
+<div class="ttc" id="aa02125_html_ad263763f67be8d7769a5cfb6ae084af2"><div class="ttname"><a href="../../d8/d02/a02125.html#ad263763f67be8d7769a5cfb6ae084af2">GEU::ThermalAugment::GlobalCameraParams::_imageCropScale</a></div><div class="ttdeci">glm::vec2 _imageCropScale</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:59</div></div>
+<div class="ttc" id="aa02125_html_af48df4e835a543ad0678d2856f010bb2"><div class="ttname"><a href="../../d8/d02/a02125.html#af48df4e835a543ad0678d2856f010bb2">GEU::ThermalAugment::GlobalCameraParams::_sensorWidth</a></div><div class="ttdeci">glm::vec2 _sensorWidth</div><div class="ttdef"><b>Definition</b> ThermalAugment.h:61</div></div>
+<div class="ttc" id="aa02129_html"><div class="ttname"><a href="../../db/d06/a02129.html">GEU::ThermalGUIAdapter</a></div><div class="ttdef"><b>Definition</b> ThermalGUIAdapter.h:12</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

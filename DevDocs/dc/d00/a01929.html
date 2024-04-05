@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la clase MetadataReader</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la estructura GEU::GuiUtilities::ImageTooltipDrawArea</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -98,772 +97,142 @@ $(function(){initNavTree('dc/d00/a01929.html','../../'); initResizable(); });
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
 <a href="#pub-attribs">Atributos públicos</a> &#124;
-<a href="#pri-methods">Métodos privados</a> &#124;
 <a href="../../d2/d01/a01926.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la clase MetadataReader</div></div>
+  <div class="headertitle"><div class="title">Referencia de la estructura GEU::GuiUtilities::ImageTooltipDrawArea</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d00/a00491_source.html">MetadataReader.h</a>&gt;</code></p>
-<div class="dynheader">
-Diagrama de colaboración de MetadataReader:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d02/a01927.svg" width="136" height="284"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d5/d05/a00374_source.html">GuiUtilities.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a27974dc2261090b6d71cb04fcdec6150" id="r_a27974dc2261090b6d71cb04fcdec6150"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27974dc2261090b6d71cb04fcdec6150">MetadataReader</a> (const std::string &amp;path, bool loadImg=true)</td></tr>
-<tr class="separator:a27974dc2261090b6d71cb04fcdec6150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9bc955fec39e62e739bfe7efa849cba" id="r_ac9bc955fec39e62e739bfe7efa849cba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9bc955fec39e62e739bfe7efa849cba">~MetadataReader</a> ()</td></tr>
-<tr class="separator:ac9bc955fec39e62e739bfe7efa849cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba0e097a9cdac209e81b94d970a0dff8" id="r_aba0e097a9cdac209e81b94d970a0dff8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba0e097a9cdac209e81b94d970a0dff8">readBasicMetadata</a> ()</td></tr>
-<tr class="separator:aba0e097a9cdac209e81b94d970a0dff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5baae423b957e74cef1df556523e2cda" id="r_a5baae423b957e74cef1df556523e2cda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5baae423b957e74cef1df556523e2cda">readParrotMetadata</a> ()</td></tr>
-<tr class="separator:a5baae423b957e74cef1df556523e2cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5da5327f2a3dae64e1073807d8e49099" id="r_a5da5327f2a3dae64e1073807d8e49099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da5327f2a3dae64e1073807d8e49099">readMicasenseMetadata</a> ()</td></tr>
-<tr class="separator:a5da5327f2a3dae64e1073807d8e49099"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa944c36f63b44549e0a7e7f7ca249ebf" id="r_aa944c36f63b44549e0a7e7f7ca249ebf"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa944c36f63b44549e0a7e7f7ca249ebf">parrotReflectanceCalculation</a> (float k) const</td></tr>
-<tr class="separator:aa944c36f63b44549e0a7e7f7ca249ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab174c31148099bf46c0d65fd995ae863" id="r_ab174c31148099bf46c0d65fd995ae863"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab174c31148099bf46c0d65fd995ae863">micasenseReflectanceCalculation</a> (float k, const <a class="el" href="../../d3/d07/a00305.html#a456be013bdf687ab454bdf8bb211474e">mat3</a> &amp;matrixK, const <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;radialDistortion, const <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> &amp;tangentialDistortion) const</td></tr>
-<tr class="separator:ab174c31148099bf46c0d65fd995ae863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab27546b340478a739a7215e701130ac9" id="r_ab27546b340478a739a7215e701130ac9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab27546b340478a739a7215e701130ac9">printMetadata</a> ()</td></tr>
-<tr class="separator:ab27546b340478a739a7215e701130ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b7809b3d60d80d40bdd78b9546ce99" id="r_a83b7809b3d60d80d40bdd78b9546ce99"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b7809b3d60d80d40bdd78b9546ce99">getAreaSize</a> () const</td></tr>
+<tr class="separator:a83b7809b3d60d80d40bdd78b9546ce99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7920b1ea35dc4fb414e588b8db74f407" id="r_a7920b1ea35dc4fb414e588b8db74f407"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7920b1ea35dc4fb414e588b8db74f407">getUVSize</a> () const</td></tr>
+<tr class="separator:a7920b1ea35dc4fb414e588b8db74f407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Atributos públicos</h2></td></tr>
-<tr class="memitem:a6642322f3cf523e8a3cedf396363d861" id="r_a6642322f3cf523e8a3cedf396363d861"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6642322f3cf523e8a3cedf396363d861">_path</a></td></tr>
-<tr class="separator:a6642322f3cf523e8a3cedf396363d861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeed7c72b07e34a6029453fd7c563211d" id="r_aeed7c72b07e34a6029453fd7c563211d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeed7c72b07e34a6029453fd7c563211d">_maker</a></td></tr>
-<tr class="separator:aeed7c72b07e34a6029453fd7c563211d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8c59f316f833475f5805a00661f19b9" id="r_aa8c59f316f833475f5805a00661f19b9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8c59f316f833475f5805a00661f19b9">_model</a></td></tr>
-<tr class="separator:aa8c59f316f833475f5805a00661f19b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f254b1d2b75cc376a79ce688beae33c" id="r_a6f254b1d2b75cc376a79ce688beae33c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f254b1d2b75cc376a79ce688beae33c">_band</a></td></tr>
-<tr class="separator:a6f254b1d2b75cc376a79ce688beae33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11fe61e5abefed06f19cc0558ac29e74" id="r_a11fe61e5abefed06f19cc0558ac29e74"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11fe61e5abefed06f19cc0558ac29e74">_longitude</a> = 0.f</td></tr>
-<tr class="separator:a11fe61e5abefed06f19cc0558ac29e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd6f5eb9a1f7e55b81eb03f0ff2a5653" id="r_afd6f5eb9a1f7e55b81eb03f0ff2a5653"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6f5eb9a1f7e55b81eb03f0ff2a5653">_latitude</a> = 0.f</td></tr>
-<tr class="separator:afd6f5eb9a1f7e55b81eb03f0ff2a5653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae612343dd14fccdebad78c42ae3befc9" id="r_ae612343dd14fccdebad78c42ae3befc9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae612343dd14fccdebad78c42ae3befc9">_date</a></td></tr>
-<tr class="separator:ae612343dd14fccdebad78c42ae3befc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05bb262f761c81d6bcc12488f7c276d4" id="r_a05bb262f761c81d6bcc12488f7c276d4"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05bb262f761c81d6bcc12488f7c276d4">cv_img</a></td></tr>
-<tr class="separator:a05bb262f761c81d6bcc12488f7c276d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e0ef038429ab10a26ffd0815a6d3267" id="r_a3e0ef038429ab10a26ffd0815a6d3267"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e0ef038429ab10a26ffd0815a6d3267">iso</a> = 0.0f</td></tr>
-<tr class="separator:a3e0ef038429ab10a26ffd0815a6d3267"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a372b9d3026244fe197dc85d505be3e2a" id="r_a372b9d3026244fe197dc85d505be3e2a"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a372b9d3026244fe197dc85d505be3e2a">rows</a> = 0</td></tr>
-<tr class="separator:a372b9d3026244fe197dc85d505be3e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c9918bc86a6e74c33a1db28236343c1" id="r_a4c9918bc86a6e74c33a1db28236343c1"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c9918bc86a6e74c33a1db28236343c1">cols</a> = 0</td></tr>
-<tr class="separator:a4c9918bc86a6e74c33a1db28236343c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01e765b2d742640793c2382014b8502f" id="r_a01e765b2d742640793c2382014b8502f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01e765b2d742640793c2382014b8502f">exposure_time</a> = 0.0f</td></tr>
-<tr class="separator:a01e765b2d742640793c2382014b8502f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66270902f604db0596676eaf058c8c8b" id="r_a66270902f604db0596676eaf058c8c8b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66270902f604db0596676eaf058c8c8b">f_number</a> = 0.0f</td></tr>
-<tr class="separator:a66270902f604db0596676eaf058c8c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3f286e8e91522918b9d02b466590be6" id="r_ac3f286e8e91522918b9d02b466590be6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3f286e8e91522918b9d02b466590be6">blackLevel</a> = 0.0f</td></tr>
-<tr class="separator:ac3f286e8e91522918b9d02b466590be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75f275ed453f41dc701ed3a2d7bf444" id="r_aa75f275ed453f41dc701ed3a2d7bf444"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75f275ed453f41dc701ed3a2d7bf444">cx</a> = 0.0f</td></tr>
-<tr class="separator:aa75f275ed453f41dc701ed3a2d7bf444"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1df91e6b6bcde4b138893bfaa859eb4a" id="r_a1df91e6b6bcde4b138893bfaa859eb4a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1df91e6b6bcde4b138893bfaa859eb4a">cy</a> = 0.0f</td></tr>
-<tr class="separator:a1df91e6b6bcde4b138893bfaa859eb4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682b79d7f5edf6a3551acf7cc5bfb5bc" id="r_a682b79d7f5edf6a3551acf7cc5bfb5bc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a682b79d7f5edf6a3551acf7cc5bfb5bc">A</a> = 0.0f</td></tr>
-<tr class="separator:a682b79d7f5edf6a3551acf7cc5bfb5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8fa607668c853e58a66d16998f5b8a" id="r_acd8fa607668c853e58a66d16998f5b8a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd8fa607668c853e58a66d16998f5b8a">B</a> = 0.0f</td></tr>
-<tr class="separator:acd8fa607668c853e58a66d16998f5b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27930f4200c0a57492f478fe50966a91" id="r_a27930f4200c0a57492f478fe50966a91"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27930f4200c0a57492f478fe50966a91">C</a> = 0.0f</td></tr>
-<tr class="separator:a27930f4200c0a57492f478fe50966a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a0611ffea56bd53fd2a1d79ed2d3120" id="r_a4a0611ffea56bd53fd2a1d79ed2d3120"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a0611ffea56bd53fd2a1d79ed2d3120">fisheye_polynomial</a> [4] { 0,0,0,0 }</td></tr>
-<tr class="separator:a4a0611ffea56bd53fd2a1d79ed2d3120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fe28f0c6a4cff00d4f80104722ab9d0" id="r_a1fe28f0c6a4cff00d4f80104722ab9d0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fe28f0c6a4cff00d4f80104722ab9d0">affine_matrix</a> [4] { 0,0,0,0 }</td></tr>
-<tr class="separator:a1fe28f0c6a4cff00d4f80104722ab9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a402b207564bf0763d74f4ab98459336e" id="r_a402b207564bf0763d74f4ab98459336e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a402b207564bf0763d74f4ab98459336e">vignettePolynomial</a> [6] { 0,0,0,0,0,0 }</td></tr>
-<tr class="separator:a402b207564bf0763d74f4ab98459336e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa97ef412a30687806adae52b3211abac" id="r_aa97ef412a30687806adae52b3211abac"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa97ef412a30687806adae52b3211abac">vignetteCx</a> = 0</td></tr>
-<tr class="separator:aa97ef412a30687806adae52b3211abac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac74ba59b21c1e7d6b04d2137222b4dd5" id="r_ac74ba59b21c1e7d6b04d2137222b4dd5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac74ba59b21c1e7d6b04d2137222b4dd5">vignetteCy</a> = 0</td></tr>
-<tr class="separator:ac74ba59b21c1e7d6b04d2137222b4dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdb1670f27794921771a993e18961389" id="r_afdb1670f27794921771a993e18961389"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdb1670f27794921771a993e18961389">bitsPerSample</a> = 0</td></tr>
-<tr class="separator:afdb1670f27794921771a993e18961389"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afafe10a2e992b34ae1acfc725deacd35" id="r_afafe10a2e992b34ae1acfc725deacd35"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afafe10a2e992b34ae1acfc725deacd35">fx</a> = 0.0f</td></tr>
-<tr class="separator:afafe10a2e992b34ae1acfc725deacd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9eee41209a1e4b64a98a008069e8b101" id="r_a9eee41209a1e4b64a98a008069e8b101"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eee41209a1e4b64a98a008069e8b101">fy</a> = 0.0f</td></tr>
-<tr class="separator:a9eee41209a1e4b64a98a008069e8b101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e2e3ac2ca2a6ef4ec009804010c2bd8" id="r_a7e2e3ac2ca2a6ef4ec009804010c2bd8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2e3ac2ca2a6ef4ec009804010c2bd8">iss</a> = 0.0f</td></tr>
-<tr class="separator:a7e2e3ac2ca2a6ef4ec009804010c2bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df35dcc48a1de8f300562e0d8a5acc0" id="r_a4df35dcc48a1de8f300562e0d8a5acc0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df35dcc48a1de8f300562e0d8a5acc0">focalLenght</a> = 4.0f</td></tr>
-<tr class="separator:a4df35dcc48a1de8f300562e0d8a5acc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Métodos privados</h2></td></tr>
-<tr class="memitem:a4091d36a5336e388b4ebae3375cec01f" id="r_a4091d36a5336e388b4ebae3375cec01f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4091d36a5336e388b4ebae3375cec01f">getParrotReflectance</a> (int p_value) const</td></tr>
-<tr class="separator:a4091d36a5336e388b4ebae3375cec01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97ebc513416a67a04a1350e5ddc4e9fb" id="r_a97ebc513416a67a04a1350e5ddc4e9fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97ebc513416a67a04a1350e5ddc4e9fb">MicasenseRadiometricCalibration</a> (float p_value, <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> pixel) const</td></tr>
-<tr class="separator:a97ebc513416a67a04a1350e5ddc4e9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a186a0cafb7815413b3f903ddd479581d" id="r_a186a0cafb7815413b3f903ddd479581d"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186a0cafb7815413b3f903ddd479581d">_areaBegin</a></td></tr>
+<tr class="separator:a186a0cafb7815413b3f903ddd479581d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a51f49b5b322df42e5a287a4485ac2c" id="r_a2a51f49b5b322df42e5a287a4485ac2c"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a51f49b5b322df42e5a287a4485ac2c">_areaEnd</a></td></tr>
+<tr class="separator:a2a51f49b5b322df42e5a287a4485ac2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009c6b5c2f190530337c84863084f1b6" id="r_a009c6b5c2f190530337c84863084f1b6"><td class="memItemLeft" align="right" valign="top">ImDrawList *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a009c6b5c2f190530337c84863084f1b6">_areaDrawList</a></td></tr>
+<tr class="separator:a009c6b5c2f190530337c84863084f1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54fc5f463788e5765955591fd03e247e" id="r_a54fc5f463788e5765955591fd03e247e"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54fc5f463788e5765955591fd03e247e">_uvBegin</a></td></tr>
+<tr class="separator:a54fc5f463788e5765955591fd03e247e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af931f057f52b123366e6ad489b380875" id="r_af931f057f52b123366e6ad489b380875"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af931f057f52b123366e6ad489b380875">_uvEnd</a></td></tr>
+<tr class="separator:af931f057f52b123366e6ad489b380875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentación de constructores y destructores</h2>
-<a id="a27974dc2261090b6d71cb04fcdec6150" name="a27974dc2261090b6d71cb04fcdec6150"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27974dc2261090b6d71cb04fcdec6150">&#9670;&#160;</a></span>MetadataReader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MetadataReader::MetadataReader </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>loadImg</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac9bc955fec39e62e739bfe7efa849cba" name="ac9bc955fec39e62e739bfe7efa849cba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9bc955fec39e62e739bfe7efa849cba">&#9670;&#160;</a></span>~MetadataReader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MetadataReader::~MetadataReader </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="a4091d36a5336e388b4ebae3375cec01f" name="a4091d36a5336e388b4ebae3375cec01f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4091d36a5336e388b4ebae3375cec01f">&#9670;&#160;</a></span>getParrotReflectance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::getParrotReflectance </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>p_value</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d00/a01929_a4091d36a5336e388b4ebae3375cec01f_icgraph.svg" width="462" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a97ebc513416a67a04a1350e5ddc4e9fb" name="a97ebc513416a67a04a1350e5ddc4e9fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97ebc513416a67a04a1350e5ddc4e9fb">&#9670;&#160;</a></span>MicasenseRadiometricCalibration()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::MicasenseRadiometricCalibration </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>p_value</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>pixel</em></span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d00/a01929_a97ebc513416a67a04a1350e5ddc4e9fb_icgraph.svg" width="434" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ab174c31148099bf46c0d65fd995ae863" name="ab174c31148099bf46c0d65fd995ae863"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab174c31148099bf46c0d65fd995ae863">&#9670;&#160;</a></span>micasenseReflectanceCalculation()</h2>
+<a id="a83b7809b3d60d80d40bdd78b9546ce99" name="a83b7809b3d60d80d40bdd78b9546ce99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b7809b3d60d80d40bdd78b9546ce99">&#9670;&#160;</a></span>getAreaSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXf MetadataReader::micasenseReflectanceCalculation </td>
+          <td class="memname">ImVec2 GEU::GuiUtilities::ImageTooltipDrawArea::getAreaSize </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>k</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d07/a00305.html#a456be013bdf687ab454bdf8bb211474e">mat3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>matrixK</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>radialDistortion</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tangentialDistortion</em></span>&#160;) const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d00/a01929_ab174c31148099bf46c0d65fd995ae863_cgraph.svg" width="434" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="aa944c36f63b44549e0a7e7f7ca249ebf" name="aa944c36f63b44549e0a7e7f7ca249ebf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa944c36f63b44549e0a7e7f7ca249ebf">&#9670;&#160;</a></span>parrotReflectanceCalculation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::MatrixXf MetadataReader::parrotReflectanceCalculation </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>k</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d00/a01929_aa944c36f63b44549e0a7e7f7ca249ebf_cgraph.svg" width="462" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
-<a id="ab27546b340478a739a7215e701130ac9" name="ab27546b340478a739a7215e701130ac9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab27546b340478a739a7215e701130ac9">&#9670;&#160;</a></span>printMetadata()</h2>
+<a id="a7920b1ea35dc4fb414e588b8db74f407" name="a7920b1ea35dc4fb414e588b8db74f407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7920b1ea35dc4fb414e588b8db74f407">&#9670;&#160;</a></span>getUVSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MetadataReader::printMetadata </td>
+          <td class="memname">ImVec2 GEU::GuiUtilities::ImageTooltipDrawArea::getUVSize </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="aba0e097a9cdac209e81b94d970a0dff8" name="aba0e097a9cdac209e81b94d970a0dff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba0e097a9cdac209e81b94d970a0dff8">&#9670;&#160;</a></span>readBasicMetadata()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MetadataReader::readBasicMetadata </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d00/a01929_aba0e097a9cdac209e81b94d970a0dff8_icgraph.svg" width="440" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a5da5327f2a3dae64e1073807d8e49099" name="a5da5327f2a3dae64e1073807d8e49099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5da5327f2a3dae64e1073807d8e49099">&#9670;&#160;</a></span>readMicasenseMetadata()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MetadataReader::readMicasenseMetadata </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5baae423b957e74cef1df556523e2cda" name="a5baae423b957e74cef1df556523e2cda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5baae423b957e74cef1df556523e2cda">&#9670;&#160;</a></span>readParrotMetadata()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MetadataReader::readParrotMetadata </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d00/a01929_a5baae423b957e74cef1df556523e2cda_cgraph.svg" width="572" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a6f254b1d2b75cc376a79ce688beae33c" name="a6f254b1d2b75cc376a79ce688beae33c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f254b1d2b75cc376a79ce688beae33c">&#9670;&#160;</a></span>_band</h2>
+<a id="a186a0cafb7815413b3f903ddd479581d" name="a186a0cafb7815413b3f903ddd479581d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a186a0cafb7815413b3f903ddd479581d">&#9670;&#160;</a></span>_areaBegin</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MetadataReader::_band</td>
+          <td class="memname">ImVec2 GEU::GuiUtilities::ImageTooltipDrawArea::_areaBegin</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae612343dd14fccdebad78c42ae3befc9" name="ae612343dd14fccdebad78c42ae3befc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae612343dd14fccdebad78c42ae3befc9">&#9670;&#160;</a></span>_date</h2>
+<a id="a009c6b5c2f190530337c84863084f1b6" name="a009c6b5c2f190530337c84863084f1b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a009c6b5c2f190530337c84863084f1b6">&#9670;&#160;</a></span>_areaDrawList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MetadataReader::_date</td>
+          <td class="memname">ImDrawList* GEU::GuiUtilities::ImageTooltipDrawArea::_areaDrawList</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="afd6f5eb9a1f7e55b81eb03f0ff2a5653" name="afd6f5eb9a1f7e55b81eb03f0ff2a5653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd6f5eb9a1f7e55b81eb03f0ff2a5653">&#9670;&#160;</a></span>_latitude</h2>
+<a id="a2a51f49b5b322df42e5a287a4485ac2c" name="a2a51f49b5b322df42e5a287a4485ac2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a51f49b5b322df42e5a287a4485ac2c">&#9670;&#160;</a></span>_areaEnd</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double MetadataReader::_latitude = 0.f</td>
+          <td class="memname">ImVec2 GEU::GuiUtilities::ImageTooltipDrawArea::_areaEnd</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a11fe61e5abefed06f19cc0558ac29e74" name="a11fe61e5abefed06f19cc0558ac29e74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11fe61e5abefed06f19cc0558ac29e74">&#9670;&#160;</a></span>_longitude</h2>
+<a id="a54fc5f463788e5765955591fd03e247e" name="a54fc5f463788e5765955591fd03e247e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54fc5f463788e5765955591fd03e247e">&#9670;&#160;</a></span>_uvBegin</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double MetadataReader::_longitude = 0.f</td>
+          <td class="memname">ImVec2 GEU::GuiUtilities::ImageTooltipDrawArea::_uvBegin</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aeed7c72b07e34a6029453fd7c563211d" name="aeed7c72b07e34a6029453fd7c563211d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeed7c72b07e34a6029453fd7c563211d">&#9670;&#160;</a></span>_maker</h2>
+<a id="af931f057f52b123366e6ad489b380875" name="af931f057f52b123366e6ad489b380875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af931f057f52b123366e6ad489b380875">&#9670;&#160;</a></span>_uvEnd</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MetadataReader::_maker</td>
+          <td class="memname">ImVec2 GEU::GuiUtilities::ImageTooltipDrawArea::_uvEnd</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa8c59f316f833475f5805a00661f19b9" name="aa8c59f316f833475f5805a00661f19b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8c59f316f833475f5805a00661f19b9">&#9670;&#160;</a></span>_model</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MetadataReader::_model</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6642322f3cf523e8a3cedf396363d861" name="a6642322f3cf523e8a3cedf396363d861"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6642322f3cf523e8a3cedf396363d861">&#9670;&#160;</a></span>_path</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MetadataReader::_path</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a682b79d7f5edf6a3551acf7cc5bfb5bc" name="a682b79d7f5edf6a3551acf7cc5bfb5bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a682b79d7f5edf6a3551acf7cc5bfb5bc">&#9670;&#160;</a></span>A</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::A = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1fe28f0c6a4cff00d4f80104722ab9d0" name="a1fe28f0c6a4cff00d4f80104722ab9d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fe28f0c6a4cff00d4f80104722ab9d0">&#9670;&#160;</a></span>affine_matrix</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::affine_matrix[4] { 0,0,0,0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd8fa607668c853e58a66d16998f5b8a" name="acd8fa607668c853e58a66d16998f5b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd8fa607668c853e58a66d16998f5b8a">&#9670;&#160;</a></span>B</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::B = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afdb1670f27794921771a993e18961389" name="afdb1670f27794921771a993e18961389"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdb1670f27794921771a993e18961389">&#9670;&#160;</a></span>bitsPerSample</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned MetadataReader::bitsPerSample = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3f286e8e91522918b9d02b466590be6" name="ac3f286e8e91522918b9d02b466590be6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3f286e8e91522918b9d02b466590be6">&#9670;&#160;</a></span>blackLevel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::blackLevel = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a27930f4200c0a57492f478fe50966a91" name="a27930f4200c0a57492f478fe50966a91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27930f4200c0a57492f478fe50966a91">&#9670;&#160;</a></span>C</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::C = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4c9918bc86a6e74c33a1db28236343c1" name="a4c9918bc86a6e74c33a1db28236343c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c9918bc86a6e74c33a1db28236343c1">&#9670;&#160;</a></span>cols</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint MetadataReader::cols = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a05bb262f761c81d6bcc12488f7c276d4" name="a05bb262f761c81d6bcc12488f7c276d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05bb262f761c81d6bcc12488f7c276d4">&#9670;&#160;</a></span>cv_img</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">cv::Mat MetadataReader::cv_img</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa75f275ed453f41dc701ed3a2d7bf444" name="aa75f275ed453f41dc701ed3a2d7bf444"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75f275ed453f41dc701ed3a2d7bf444">&#9670;&#160;</a></span>cx</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::cx = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1df91e6b6bcde4b138893bfaa859eb4a" name="a1df91e6b6bcde4b138893bfaa859eb4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1df91e6b6bcde4b138893bfaa859eb4a">&#9670;&#160;</a></span>cy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::cy = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a01e765b2d742640793c2382014b8502f" name="a01e765b2d742640793c2382014b8502f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01e765b2d742640793c2382014b8502f">&#9670;&#160;</a></span>exposure_time</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::exposure_time = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66270902f604db0596676eaf058c8c8b" name="a66270902f604db0596676eaf058c8c8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66270902f604db0596676eaf058c8c8b">&#9670;&#160;</a></span>f_number</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::f_number = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a0611ffea56bd53fd2a1d79ed2d3120" name="a4a0611ffea56bd53fd2a1d79ed2d3120"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a0611ffea56bd53fd2a1d79ed2d3120">&#9670;&#160;</a></span>fisheye_polynomial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::fisheye_polynomial[4] { 0,0,0,0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4df35dcc48a1de8f300562e0d8a5acc0" name="a4df35dcc48a1de8f300562e0d8a5acc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4df35dcc48a1de8f300562e0d8a5acc0">&#9670;&#160;</a></span>focalLenght</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::focalLenght = 4.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afafe10a2e992b34ae1acfc725deacd35" name="afafe10a2e992b34ae1acfc725deacd35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afafe10a2e992b34ae1acfc725deacd35">&#9670;&#160;</a></span>fx</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::fx = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9eee41209a1e4b64a98a008069e8b101" name="a9eee41209a1e4b64a98a008069e8b101"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eee41209a1e4b64a98a008069e8b101">&#9670;&#160;</a></span>fy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::fy = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e0ef038429ab10a26ffd0815a6d3267" name="a3e0ef038429ab10a26ffd0815a6d3267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e0ef038429ab10a26ffd0815a6d3267">&#9670;&#160;</a></span>iso</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::iso = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7e2e3ac2ca2a6ef4ec009804010c2bd8" name="a7e2e3ac2ca2a6ef4ec009804010c2bd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e2e3ac2ca2a6ef4ec009804010c2bd8">&#9670;&#160;</a></span>iss</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::iss = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a372b9d3026244fe197dc85d505be3e2a" name="a372b9d3026244fe197dc85d505be3e2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a372b9d3026244fe197dc85d505be3e2a">&#9670;&#160;</a></span>rows</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint MetadataReader::rows = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa97ef412a30687806adae52b3211abac" name="aa97ef412a30687806adae52b3211abac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa97ef412a30687806adae52b3211abac">&#9670;&#160;</a></span>vignetteCx</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::vignetteCx = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac74ba59b21c1e7d6b04d2137222b4dd5" name="ac74ba59b21c1e7d6b04d2137222b4dd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac74ba59b21c1e7d6b04d2137222b4dd5">&#9670;&#160;</a></span>vignetteCy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::vignetteCy = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a402b207564bf0763d74f4ab98459336e" name="a402b207564bf0763d74f4ab98459336e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a402b207564bf0763d74f4ab98459336e">&#9670;&#160;</a></span>vignettePolynomial</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MetadataReader::vignettePolynomial[6] { 0,0,0,0,0,0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
-<li>C:/GitHub/GEU/GEU/Source/Utilities/<a class="el" href="../../d6/d00/a00491_source.html">MetadataReader.h</a></li>
-<li>C:/GitHub/GEU/GEU/Source/Utilities/<a class="el" href="../../d4/d07/a00488.html">MetadataReader.cpp</a></li>
+<hr/>La documentación de esta estructura está generada de los siguientes archivos:<ul>
+<li>D:/GEU/GEUCore/Source/UI/<a class="el" href="../../d5/d05/a00374_source.html">GuiUtilities.h</a></li>
+<li>D:/GEU/GEUCore/Source/UI/<a class="el" href="../../d6/d00/a00371.html">GuiUtilities.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

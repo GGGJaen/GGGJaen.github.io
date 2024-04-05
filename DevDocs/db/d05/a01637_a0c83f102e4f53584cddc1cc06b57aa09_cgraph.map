@@ -1,0 +1,10 @@
+<map id="GEU::PointCloud::spatialOrdering" name="GEU::PointCloud::spatialOrdering">
+<area shape="rect" id="Node000001" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="5,23,172,65"/>
+<area shape="rect" id="Node000002" href="$d6/d05/a01617.html#ac7df26fada02a660519ce8829eec1bf2" title=" " alt="" coords="220,31,324,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,41,204,41,204,47,172,47"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="246,31,242,22,245,12,255,6,272,4,290,7,299,13,296,18,288,12,272,9,257,11,249,16,247,22,251,29"/>
+<area shape="rect" id="Node000003" href="$d6/d05/a01617.html#aa80c2fc1bbc932572311ba94a8f76530" title=" " alt="" coords="372,5,462,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,32,356,27,357,32,325,38"/>
+<area shape="rect" id="Node000004" href="$d6/d05/a01617.html#a29073914f600f7657f4a44937702a471" title=" " alt="" coords="374,56,460,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="325,50,359,57,358,62,324,56"/>
+</map>

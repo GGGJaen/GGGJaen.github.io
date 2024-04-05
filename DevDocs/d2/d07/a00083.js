@@ -1,4 +1,4 @@
 var a00083 =
 [
-    [ "GEU::MaterialList", "d2/d01/a01493.html", "d2/d01/a01493" ]
+    [ "GEU::SettingsWindow", "db/d06/a01509.html", "db/d06/a01509" ]
 ];

@@ -1,0 +1,5 @@
+<map id="GEU::CloudExportDialogPopup" name="GEU::CloudExportDialogPopup">
+<area shape="rect" id="Node000001" title="ImGUIFileDialog popup wrapper for point cloud file selection." alt="" coords="5,80,207,107"/>
+<area shape="rect" id="Node000002" href="$dc/d07/a01933.html" title="ImGUI popups interface adapter class." alt="" coords="43,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,48,109,80,103,80,103,48"/>
+</map>

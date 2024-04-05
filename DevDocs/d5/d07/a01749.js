@@ -1,25 +1,32 @@
 var a01749 =
 [
-    [ "DatabaseNewRawPopup", "d5/d07/a01749.html#ad085501a66eeb639c40519d7cf608b2e", null ],
-    [ "autofill", "d5/d07/a01749.html#a0ab8ef55837c3a0c64ae56593e807128", null ],
-    [ "openPopup", "d5/d07/a01749.html#a67e7e09c17a35a031cf4d82a48c991e4", null ],
-    [ "renderPopup", "d5/d07/a01749.html#aabf3be0d95c567d3b439cdae51edc79e", null ],
-    [ "_createNewVuelo", "d5/d07/a01749.html#a21d71afbeba3aea56999324a96fe0187", null ],
-    [ "_createNewZona", "d5/d07/a01749.html#aeef054d50d929adfd4467527a5ac58cf", null ],
-    [ "_directoryPath", "d5/d07/a01749.html#adadf841d904dfe035b1d0f3b4e357157", null ],
-    [ "_directorySelected", "d5/d07/a01749.html#a892a20d1fe38e931e212dd36b8dc472b", null ],
-    [ "_filePath", "d5/d07/a01749.html#aab710f33edcb42bfdef53b95fe0a0fae", null ],
-    [ "_municipios", "d5/d07/a01749.html#a5977234e8c9f2e9b8f52244fbafb2b22", null ],
-    [ "_municipiosFuture", "d5/d07/a01749.html#aaff27a5b7c32135020f870f96930a522", null ],
-    [ "_newData", "d5/d07/a01749.html#a595121e27b49137bea4af5a231089297", null ],
-    [ "_newVuelo", "d5/d07/a01749.html#acaf7f7cc7e69936ad8ca63561ec81938", null ],
-    [ "_newZona", "d5/d07/a01749.html#a971e7870ed5c2725682c01493922435e", null ],
-    [ "_provincias", "d5/d07/a01749.html#a058743aa989ed945783ec4277592c114", null ],
-    [ "_provinciasFuture", "d5/d07/a01749.html#a744dccefe6adedd1ef28f18a0a354c3b", null ],
-    [ "_selectedVuelo", "d5/d07/a01749.html#af2c9fa2e342f092fe3ae409ce3b672e5", null ],
-    [ "_selectedZona", "d5/d07/a01749.html#a90dcb60053cd85f7e5f7df95ae7d03f5", null ],
-    [ "_vuelos", "d5/d07/a01749.html#ad89d2751a9a1a2a21254b9fd690c4495", null ],
-    [ "_vuelosFuture", "d5/d07/a01749.html#a90acc4e93233f4d182b1cc5639d3dae5", null ],
-    [ "_zonas", "d5/d07/a01749.html#a45dec054aed5738021eb95772a2d4056", null ],
-    [ "_zonasFuture", "d5/d07/a01749.html#a4fc76f387f72b56aa3daa4c185cd6ac3", null ]
+    [ "FragmentSubroutines", "d5/d07/a01749.html#a5c269897394be2cae824570d05bf63c7", [
+      [ "LIGHTING", "d5/d07/a01749.html#a5c269897394be2cae824570d05bf63c7a249adb549791a26146ec0f36bbec2bf5", null ],
+      [ "LIGHT_ATTENUATION", "d5/d07/a01749.html#a5c269897394be2cae824570d05bf63c7a6c811af4f84611cb60a85d1c30a44f5a", null ],
+      [ "FRAGMENT_COLOR_SOURCE", "d5/d07/a01749.html#a5c269897394be2cae824570d05bf63c7acaf8922bb35890232b77104c8ba5356c", null ],
+      [ "NORMAL_MAPPING", "d5/d07/a01749.html#a5c269897394be2cae824570d05bf63c7aa29c346438b55c29146dd118a15b015e", null ],
+      [ "NUM_FRAGMENT_SUBROUTINES", "d5/d07/a01749.html#a5c269897394be2cae824570d05bf63c7a7c560a532d2387b210345398e936d0e5", null ]
+    ] ],
+    [ "GeometrySubroutines", "d5/d07/a01749.html#a11ceb761ed8a57fbe5affd891960d2ef", [
+      [ "DRAW_NORMALS", "d5/d07/a01749.html#a11ceb761ed8a57fbe5affd891960d2efa248db752b4142ee5517dcac3c200ed75", null ],
+      [ "NUM_GEOMETRY_SUBROUTINES", "d5/d07/a01749.html#a11ceb761ed8a57fbe5affd891960d2efaf7d5b38c94e127a3ff430dfa7be9b71a", null ]
+    ] ],
+    [ "ShaderTypes", "d5/d07/a01749.html#a84715d853940680430820b21a4189821", [
+      [ "VERTEX_SHADER", "d5/d07/a01749.html#a84715d853940680430820b21a4189821acb00deb5276ce45592c0d228e0136d08", null ],
+      [ "GEOMETRY_SHADER", "d5/d07/a01749.html#a84715d853940680430820b21a4189821a0941402c38ccf312d6039885a0733565", null ],
+      [ "FRAGMENT_SHADER", "d5/d07/a01749.html#a84715d853940680430820b21a4189821a93a7a5fc97a745cd0f348b3dc470a998", null ],
+      [ "COMPUTE_SHADER", "d5/d07/a01749.html#a84715d853940680430820b21a4189821ae7d93e31d152579a03dbacd709ad23f2", null ],
+      [ "NUM_SHADER_TYPES", "d5/d07/a01749.html#a84715d853940680430820b21a4189821a6e2eaeeb798d8351076421a33629c969", null ]
+    ] ],
+    [ "VertexSubroutines", "d5/d07/a01749.html#a55862a2e6e9c52df2287f230f41558d8", [
+      [ "VERTEX_COLOR_SOURCE", "d5/d07/a01749.html#a55862a2e6e9c52df2287f230f41558d8a2b236c76980b6506f3064bdf772328aa", null ],
+      [ "FILTER_VEGETATION_INDEX", "d5/d07/a01749.html#a55862a2e6e9c52df2287f230f41558d8a73c9692b7ef28e397b2986d4fc5b0df8", null ],
+      [ "NUM_VERTEX_SUBROUTINES", "d5/d07/a01749.html#a55862a2e6e9c52df2287f230f41558d8af64f5e90257f47674a72d13ce442ce98", null ]
+    ] ],
+    [ "fromOpenGLToShaderTypes", "d5/d07/a01749.html#a70d2891b71f79f0279679513af8363ec", null ],
+    [ "fromShaderTypesToOpenGL", "d5/d07/a01749.html#a3c1b4ad3d76792920e2fb638e568aea8", null ],
+    [ "fromShaderTypesToOpenGL", "d5/d07/a01749.html#a538937c3ce73d6e46d3a9869ed3f3082", null ],
+    [ "ShaderName", "d5/d07/a01749.html#a9e98db35f26954706c3db3a299dbba39", null ],
+    [ "SubroutineName", "d5/d07/a01749.html#a4ecd53dde06d3c0c62e05afb7b71c504", null ],
+    [ "SubroutineUniformNames", "d5/d07/a01749.html#a0d75e03114ae933b1efb3f0f26385e09", null ]
 ];

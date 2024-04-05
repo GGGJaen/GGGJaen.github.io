@@ -1,4 +1,4 @@
 var a00089 =
 [
-    [ "GEU::MemoryManager", "db/d06/a01497.html", "db/d06/a01497" ]
+    [ "GEU::StatsWindow", "d0/d02/a01513.html", "d0/d02/a01513" ]
 ];

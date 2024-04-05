@@ -1,4 +1,4 @@
 var a00473 =
 [
-    [ "Histogram", "d4/d07/a01913.html", "d4/d07/a01913" ]
+    [ "NormalesGUIAdapter", "d6/d04/a02033.html", "d6/d04/a02033" ]
 ];

@@ -1,0 +1,13 @@
+<map id="GEU::LightModel" name="GEU::LightModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="331,5,451,32"/>
+<area shape="rect" id="Node000002" href="$d9/d05/a01673.html" title=" " alt="" coords="5,80,139,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="320,39,128,82,127,77,319,33"/>
+<area shape="rect" id="Node000003" href="$df/d02/a01681.html" title=" " alt="" coords="163,80,309,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="351,41,264,82,262,77,349,37"/>
+<area shape="rect" id="Node000004" href="$d2/d04/a01677.html" title=" " alt="" coords="333,80,448,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="393,48,393,80,388,80,388,48"/>
+<area shape="rect" id="Node000005" href="$da/d00/a01689.html" title=" " alt="" coords="473,80,581,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="429,37,504,77,502,82,427,42"/>
+<area shape="rect" id="Node000006" href="$de/d06/a01685.html" title=" " alt="" coords="605,80,718,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="453,34,615,77,613,82,452,39"/>
+</map>

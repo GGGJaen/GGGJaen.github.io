@@ -1,4 +1,4 @@
 var a01681 =
 [
-    [ "operator()", "df/d02/a01681.html#af79a5016297e51e9f5424ee132f78d01", null ]
+    [ "applyLight", "df/d02/a01681.html#a19ab57328d0533a9f53c2fdc7bc5366d", null ]
 ];

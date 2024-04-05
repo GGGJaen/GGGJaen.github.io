@@ -1,0 +1,28 @@
+<map id="json::jobject::pretty" name="json::jobject::pretty">
+<area shape="rect" id="Node000001" title="Returns a pretty (multi&#45;line indented) serialzed representation of the object or array." alt="" coords="5,300,138,327"/>
+<area shape="poly" id="edge14_Node000001_Node000001" title=" " alt="" coords="41,301,35,291,39,282,51,275,72,273,93,276,105,282,102,287,91,281,71,279,53,281,43,285,41,291,45,298"/>
+<area shape="rect" id="Node000002" href="$d0/d03/a01997.html#a07e29a2948df56e3eb332fcebe6ab9d5" title="Parses a serialized JSON string." alt="" coords="186,191,317,217"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,297,214,223,217,228,97,302"/>
+<area shape="rect" id="Node000008" href="$d1/d02/a00638.html#a41134b9f4ec1ec6b8db4f8027536b762" title=" " alt="" coords="747,157,864,184"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="138,320,215,328,308,333,409,331,510,317,565,304,607,290,697,244,739,218,775,192,778,196,742,223,700,249,609,295,567,310,511,323,410,336,308,338,214,334,138,326"/>
+<area shape="rect" id="Node000010" href="$dd/d06/a00639.html#a0ead22b90b3354cc09a0a21e517e9385" title="(t)rims (l)eading (w)hite (s)pace" alt="" coords="565,208,692,235"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="138,316,215,319,309,317,410,307,510,285,556,266,595,242,598,246,558,271,511,291,411,312,309,322,215,324,138,321"/>
+<area shape="rect" id="Node000003" href="$dd/d06/a00639.html#a38da988d5211eacc7d4b76da2236e51a" title="Decodes a string in JSON format." alt="" coords="365,183,510,225"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="317,201,350,201,350,207,317,207"/>
+<area shape="rect" id="Node000004" href="$d0/d03/a01997.html#a24ec98b78f9e603359f71f805a152739" title="Flag for differentiating objects and arrays." alt="" coords="365,249,510,276"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="297,215,380,242,378,247,295,220"/>
+<area shape="rect" id="Node000005" href="$dd/d06/a00639.html#a2b8591533a42f229d2070223a6c48aa7" title="Parses the first value encountered in a JSON string." alt="" coords="370,81,505,108"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="269,188,311,157,364,124,387,112,389,117,366,129,314,162,272,192"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="289,188,325,176,365,168,438,159,470,160,511,168,536,179,560,194,573,199,571,204,557,198,534,184,510,173,470,165,438,164,365,173,326,182,290,193"/>
+<area shape="rect" id="Node000006" href="$d3/d07/a01985.html#afefb8447a7db13bc4f6f7dc5f12a22c2" title="Checks if the stored value is valid." alt="" coords="559,107,698,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="506,101,544,106,543,111,506,106"/>
+<area shape="rect" id="Node000007" href="$d3/d07/a01985.html#aa1d0e99cecf438761764c16fa39134d1" title=" " alt="" coords="566,157,691,184"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="472,106,559,143,575,149,573,154,557,148,470,111"/>
+<area shape="rect" id="Node000009" href="$d3/d07/a01985.html#ae1cfe678a10a9d0a4b04ad5ff64c43c9" title="Returns the stored value." alt="" coords="558,5,699,32"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="470,78,557,42,573,35,575,40,559,46,472,83"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="481,106,512,125,528,143,536,161,545,177,560,194,566,198,563,203,557,198,540,180,532,163,524,146,509,129,479,111"/>
+<area shape="rect" id="Node000011" href="$d3/d07/a01985.html#aec12648e76c0f529f892d89d4fabfe4c" title="Checks the value." alt="" coords="567,56,690,83"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="506,83,552,77,552,82,506,88"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="692,168,731,168,731,173,692,173"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="674,81,700,92,742,118,778,145,775,150,739,123,697,97,672,86"/>
+</map>

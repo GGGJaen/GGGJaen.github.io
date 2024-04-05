@@ -1,18 +1,25 @@
 var a01529 =
 [
-    [ "WorkGroupAxis", "db/d06/a01529.html#a13e3307ad1aab8665231a867d44120c0", [
-      [ "X_AXIS", "db/d06/a01529.html#a13e3307ad1aab8665231a867d44120c0ac9615af5fc16be877f7875e9e02cd2a1", null ],
-      [ "Y_AXIS", "db/d06/a01529.html#a13e3307ad1aab8665231a867d44120c0a97e00e528bf89acde37240a7e3376dc8", null ],
-      [ "Z_AXIS", "db/d06/a01529.html#a13e3307ad1aab8665231a867d44120c0ad5cdb3491bfd21da8bda94b7f605844f", null ]
-    ] ],
-    [ "applyActiveSubroutines", "db/d06/a01529.html#a0e37dbbcdd9a84e1543f1fda81dc9874", null ],
-    [ "createShaderProgram", "db/d06/a01529.html#a1e99dde243092c353857cb3d06fec654", null ],
-    [ "execute", "db/d06/a01529.html#a83d8bcef9dca990b55fc1614a5dfe42e", null ],
-    [ "getAllowedNumberOfInstances", "db/d06/a01529.html#a42eb24f45a67f4016aa0519c08f285d1", null ],
-    [ "getMaxGroupSize", "db/d06/a01529.html#abc8666431cbbc72c53d8a805ca314f82", null ],
-    [ "getMaxLocalSize", "db/d06/a01529.html#aeafad8ef56616ca147775e0f06f97b10", null ],
-    [ "getNumGroups", "db/d06/a01529.html#a9558784dff632148eb14176bacf22d8e", null ],
-    [ "getWorkGroupSize", "db/d06/a01529.html#ac6ac627898c07e105c9902a224df1495", null ],
-    [ "initializeMaxGroupSize", "db/d06/a01529.html#aa6350d2d1ed7a5fec8c4b1abafb06464", null ],
-    [ "MAX_WORK_GROUP_SIZE", "db/d06/a01529.html#afc93af8688d09c0218bd534ccda3f7e8", null ]
+    [ "DatabaseNewRawPopup", "db/d06/a01529.html#ad085501a66eeb639c40519d7cf608b2e", null ],
+    [ "autofill", "db/d06/a01529.html#a0ab8ef55837c3a0c64ae56593e807128", null ],
+    [ "openPopup", "db/d06/a01529.html#a67e7e09c17a35a031cf4d82a48c991e4", null ],
+    [ "renderPopup", "db/d06/a01529.html#aabf3be0d95c567d3b439cdae51edc79e", null ],
+    [ "_createNewVuelo", "db/d06/a01529.html#a21d71afbeba3aea56999324a96fe0187", null ],
+    [ "_createNewZona", "db/d06/a01529.html#aeef054d50d929adfd4467527a5ac58cf", null ],
+    [ "_directoryPath", "db/d06/a01529.html#adadf841d904dfe035b1d0f3b4e357157", null ],
+    [ "_directorySelected", "db/d06/a01529.html#a892a20d1fe38e931e212dd36b8dc472b", null ],
+    [ "_filePath", "db/d06/a01529.html#aab710f33edcb42bfdef53b95fe0a0fae", null ],
+    [ "_municipios", "db/d06/a01529.html#a5977234e8c9f2e9b8f52244fbafb2b22", null ],
+    [ "_municipiosFuture", "db/d06/a01529.html#aaff27a5b7c32135020f870f96930a522", null ],
+    [ "_newData", "db/d06/a01529.html#a595121e27b49137bea4af5a231089297", null ],
+    [ "_newVuelo", "db/d06/a01529.html#acaf7f7cc7e69936ad8ca63561ec81938", null ],
+    [ "_newZona", "db/d06/a01529.html#a971e7870ed5c2725682c01493922435e", null ],
+    [ "_provincias", "db/d06/a01529.html#a058743aa989ed945783ec4277592c114", null ],
+    [ "_provinciasFuture", "db/d06/a01529.html#a744dccefe6adedd1ef28f18a0a354c3b", null ],
+    [ "_selectedVuelo", "db/d06/a01529.html#af2c9fa2e342f092fe3ae409ce3b672e5", null ],
+    [ "_selectedZona", "db/d06/a01529.html#a90dcb60053cd85f7e5f7df95ae7d03f5", null ],
+    [ "_vuelos", "db/d06/a01529.html#ad89d2751a9a1a2a21254b9fd690c4495", null ],
+    [ "_vuelosFuture", "db/d06/a01529.html#a90acc4e93233f4d182b1cc5639d3dae5", null ],
+    [ "_zonas", "db/d06/a01529.html#a45dec054aed5738021eb95772a2d4056", null ],
+    [ "_zonasFuture", "db/d06/a01529.html#a4fc76f387f72b56aa3daa4c185cd6ac3", null ]
 ];

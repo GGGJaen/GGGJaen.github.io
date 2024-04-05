@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del archivo C:/GitHub/GEU/GEU/Source/Core/Renderer.cpp</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia del archivo D:/GEU/GEUApp/Source/UI/Popups/Database/DatabaseNewRawPopup.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,84 +95,112 @@ $(function(){initNavTree('d0/d02/a00104.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#namespaces">Espacios de nombres</a> &#124;
 <a href="#func-members">Funciones</a>  </div>
-  <div class="headertitle"><div class="title">Referencia del archivo Renderer.cpp</div></div>
+  <div class="headertitle"><div class="title">Referencia del archivo DatabaseNewRawPopup.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d07/a00305_source.html">stdafx.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d00/a00107_source.html">Core/Renderer.h</a>&quot;</code><br />
-<code>#include &lt;ranges&gt;</code><br />
-<code>#include &lt;pcl/impl/point_types.hpp&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d02/a00119_source.html">Core/Shaders/ComputeShader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d00/a00437_source.html">Utilities/ChronoUtilities.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d02/a00041_source.html">InputManager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d01/a00071_source.html">LinesModel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d07/a00083_source.html">MaterialList.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d02/a00101_source.html">PointCloud.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d00/a00158_source.html">TriangleMesh.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d06/a00134_source.html">Core/Shaders/ShaderManager.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Gráfico de dependencias incluidas en Renderer.cpp:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d02/a00105.svg" width="5814" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d05/a00374_source.html">GuiUtilities.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d06/a00383_source.html">UI/I_GUIPopup.h</a>&quot;</code><br />
+<code>#include &quot;Utilities/DatabaseConnector.h&quot;</code><br />
+<code>#include &quot;Utilities/MetadataReader.h&quot;</code><br />
 </div>
-</div><table class="memberdecls">
+<p><a href="../../d0/d02/a00104_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d06/a01529.html">GEU::DatabaseNewRawPopup</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Espacios de nombres</h2></td></tr>
+<tr class="memitem:d0/d01/a00622" id="r_d0/d01/a00622"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d01/a00622.html">GEU</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Funciones</h2></td></tr>
-<tr class="memitem:ab2b13ba4f591e8639b67d08d68864b8a" id="r_ab2b13ba4f591e8639b67d08d68864b8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b13ba4f591e8639b67d08d68864b8a">message_callback</a> (GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, GLchar const *message, void const *user_param)</td></tr>
-<tr class="memdesc:ab2b13ba4f591e8639b67d08d68864b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback mensajes de debug de OpenGL.  <br /></td></tr>
-<tr class="separator:ab2b13ba4f591e8639b67d08d68864b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d793394809462a3b7209886db87cac" id="r_ae7d793394809462a3b7209886db87cac"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7d793394809462a3b7209886db87cac">toRadians</a> (const double &amp;degree)</td></tr>
+<tr class="separator:ae7d793394809462a3b7209886db87cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c111259c85b89e020738ca18f4aef2" id="r_a12c111259c85b89e020738ca18f4aef2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c111259c85b89e020738ca18f4aef2">gpsDistance</a> (double lat1, double long1, double lat2, double long2)</td></tr>
+<tr class="separator:a12c111259c85b89e020738ca18f4aef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de funciones</h2>
-<a id="ab2b13ba4f591e8639b67d08d68864b8a" name="ab2b13ba4f591e8639b67d08d68864b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2b13ba4f591e8639b67d08d68864b8a">&#9670;&#160;</a></span>message_callback()</h2>
+<a id="a12c111259c85b89e020738ca18f4aef2" name="a12c111259c85b89e020738ca18f4aef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12c111259c85b89e020738ca18f4aef2">&#9670;&#160;</a></span>gpsDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void message_callback </td>
+          <td class="memname">double gpsDistance </td>
           <td>(</td>
-          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>source</em>, </span></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>lat1</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>type</em>, </span></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>long1</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GLuint</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>lat2</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>severity</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GLsizei</td>          <td class="paramname"><span class="paramname"><em>length</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GLchar const *</td>          <td class="paramname"><span class="paramname"><em>message</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void const *</td>          <td class="paramname"><span class="paramname"><em>user_param</em></span>&#160;)</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>long2</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Callback mensajes de debug de OpenGL. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/a00104_a12c111259c85b89e020738ca18f4aef2_cgraph.svg" width="232" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/a00104_ab2b13ba4f591e8639b67d08d68864b8a_icgraph.svg" width="671" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/a00104_a12c111259c85b89e020738ca18f4aef2_icgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae7d793394809462a3b7209886db87cac" name="ae7d793394809462a3b7209886db87cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7d793394809462a3b7209886db87cac">&#9670;&#160;</a></span>toRadians()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double toRadians </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;</td>          <td class="paramname"><span class="paramname"><em>degree</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/a00104_ae7d793394809462a3b7209886db87cac_icgraph.svg" width="479" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

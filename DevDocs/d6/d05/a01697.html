@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la estructura GEU::ImageTreeSegmentation::SegmentAABB</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la clase GEU::BasicAttenuation</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,39 +96,35 @@ $(function(){initNavTree('d6/d05/a01697.html','../../'); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
-<a href="#pub-attribs">Atributos públicos</a> &#124;
-<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
 <a href="../../d4/d06/a01694.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la estructura GEU::ImageTreeSegmentation::SegmentAABB</div></div>
+  <div class="headertitle"><div class="title">Referencia de la clase GEU::BasicAttenuation</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d06/a00272_source.html">ImageTreeSegmentation.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/d00/a00230_source.html">LightAttenuation.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de herencia de GEU::BasicAttenuation</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/a01696.svg" width="167" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a18dc089db8189e417a4e0919a97bd4a0" id="r_a18dc089db8189e417a4e0919a97bd4a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18dc089db8189e417a4e0919a97bd4a0">checkSphere</a> (<a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> center, float radius) const</td></tr>
-<tr class="separator:a18dc089db8189e417a4e0919a97bd4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93d6c9b94c628e860063e74518855e2d" id="r_a93d6c9b94c628e860063e74518855e2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93d6c9b94c628e860063e74518855e2d">applyAttenuation</a> (<a class="el" href="../../d1/d07/a01709.html">LightProperties</a> *lightProperties, <a class="el" href="../../dd/d03/a01717.html">GEU::Material</a> *material) override</td></tr>
+<tr class="separator:a93d6c9b94c628e860063e74518855e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Atributos públicos</h2></td></tr>
-<tr class="memitem:ab351f24b405fec1012c5f619777e612b" id="r_ab351f24b405fec1012c5f619777e612b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab351f24b405fec1012c5f619777e612b">_min</a></td></tr>
-<tr class="separator:ab351f24b405fec1012c5f619777e612b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b96b436c63e4897b6d47cc81db6cbc5" id="r_a7b96b436c63e4897b6d47cc81db6cbc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b96b436c63e4897b6d47cc81db6cbc5">_max</a></td></tr>
-<tr class="separator:a7b96b436c63e4897b6d47cc81db6cbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Métodos protegidos estáticos</h2></td></tr>
-<tr class="memitem:ad6da06e04a2761e7c623839d67c5da91" id="r_ad6da06e04a2761e7c623839d67c5da91"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6da06e04a2761e7c623839d67c5da91">projVector</a> (<a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> a, <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> b)</td></tr>
-<tr class="separator:ad6da06e04a2761e7c623839d67c5da91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40132e2db6db8e2cfb5b4338538fdba0" id="r_a40132e2db6db8e2cfb5b4338538fdba0"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40132e2db6db8e2cfb5b4338538fdba0">hypot2Vector</a> (<a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> a, <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> b)</td></tr>
-<tr class="separator:a40132e2db6db8e2cfb5b4338538fdba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60c9e7a64d729769e8884735aa700c22" id="r_a60c9e7a64d729769e8884735aa700c22"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60c9e7a64d729769e8884735aa700c22">distToLine</a> (<a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> vA, <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> vB, <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> point)</td></tr>
-<tr class="separator:a60c9e7a64d729769e8884735aa700c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_types_a01693"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_a01693')"><img src="../../closed.png" alt="-"/>&#160;Tipos públicos heredados de <a class="el" href="../../dd/d04/a01693.html">GEU::LightAttenuation</a></td></tr>
+<tr class="memitem:ac6c693d974ee09f472c9af9514cdd55f inherit pub_types_a01693" id="r_ac6c693d974ee09f472c9af9514cdd55f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55f">AttenuationModel</a> { <a class="el" href="../../dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55fa6725dbf4ed89d8949397f2d824048adf">DEFAULT_DISTANCE</a>
+, <a class="el" href="../../dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55fa660c0671289476cbbab5f1a612ad0a1b">CONTROLLED_DISTANCE</a>
+, <a class="el" href="../../dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55fa4da4a7ddb39b7d912c2edb3f4c77a5ca">PIXAR</a>
+ }</td></tr>
+<tr class="separator:ac6c693d974ee09f472c9af9514cdd55f inherit pub_types_a01693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="a18dc089db8189e417a4e0919a97bd4a0" name="a18dc089db8189e417a4e0919a97bd4a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18dc089db8189e417a4e0919a97bd4a0">&#9670;&#160;</a></span>checkSphere()</h2>
+<a id="a93d6c9b94c628e860063e74518855e2d" name="a93d6c9b94c628e860063e74518855e2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93d6c9b94c628e860063e74518855e2d">&#9670;&#160;</a></span>applyAttenuation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,178 +133,35 @@ Métodos protegidos estáticos</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool GEU::ImageTreeSegmentation::SegmentAABB::checkSphere </td>
+          <td class="memname">void GEU::BasicAttenuation::applyAttenuation </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>center</em>, </span></td>
+          <td class="paramtype"><a class="el" href="../../d1/d07/a01709.html">LightProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>lightProperties</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;) const</td>
+          <td class="paramtype"><a class="el" href="../../dd/d03/a01717.html">GEU::Material</a> *</td>          <td class="paramname"><span class="paramname"><em>material</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implementa <a class="el" href="../../dd/d04/a01693.html#ab10a17b5ad92bdd6071b9a726face833">GEU::LightAttenuation</a>.</p>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_a18dc089db8189e417a4e0919a97bd4a0_cgraph.svg" width="708" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_a18dc089db8189e417a4e0919a97bd4a0_icgraph.svg" width="467" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_a93d6c9b94c628e860063e74518855e2d_cgraph.svg" width="410" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a60c9e7a64d729769e8884735aa700c22" name="a60c9e7a64d729769e8884735aa700c22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c9e7a64d729769e8884735aa700c22">&#9670;&#160;</a></span>distToLine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static float GEU::ImageTreeSegmentation::SegmentAABB::distToLine </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>vA</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>vB</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_a60c9e7a64d729769e8884735aa700c22_cgraph.svg" width="459" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_a60c9e7a64d729769e8884735aa700c22_icgraph.svg" width="712" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a40132e2db6db8e2cfb5b4338538fdba0" name="a40132e2db6db8e2cfb5b4338538fdba0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40132e2db6db8e2cfb5b4338538fdba0">&#9670;&#160;</a></span>hypot2Vector()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static float GEU::ImageTreeSegmentation::SegmentAABB::hypot2Vector </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_a40132e2db6db8e2cfb5b4338538fdba0_icgraph.svg" width="963" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ad6da06e04a2761e7c623839d67c5da91" name="ad6da06e04a2761e7c623839d67c5da91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6da06e04a2761e7c623839d67c5da91">&#9670;&#160;</a></span>projVector()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> GEU::ImageTreeSegmentation::SegmentAABB::projVector </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d05/a01697_ad6da06e04a2761e7c623839d67c5da91_icgraph.svg" width="958" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a7b96b436c63e4897b6d47cc81db6cbc5" name="a7b96b436c63e4897b6d47cc81db6cbc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b96b436c63e4897b6d47cc81db6cbc5">&#9670;&#160;</a></span>_max</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> GEU::ImageTreeSegmentation::SegmentAABB::_max</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab351f24b405fec1012c5f619777e612b" name="ab351f24b405fec1012c5f619777e612b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab351f24b405fec1012c5f619777e612b">&#9670;&#160;</a></span>_min</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d07/a00305.html#a43182e59794291f6ab00e51b160706c2">vec2</a> GEU::ImageTreeSegmentation::SegmentAABB::_min</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
-<li>C:/GitHub/GEU/GEU/Source/Modules/SegmentacionIndiv/<a class="el" href="../../d9/d06/a00272_source.html">ImageTreeSegmentation.h</a></li>
+<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
+<li>D:/GEU/GEUCore/Source/Graphics/Lights/<a class="el" href="../../d1/d00/a00230_source.html">LightAttenuation.h</a></li>
+<li>D:/GEU/GEUCore/Source/Graphics/Lights/<a class="el" href="../../d9/d01/a00227.html">LightAttenuation.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

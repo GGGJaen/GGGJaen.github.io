@@ -1,12 +1,23 @@
 var a01497 =
 [
-    [ "currentRamUsage", "db/d06/a01497.html#ad81cc3ae2f758896a7e7ac206a204553", null ],
-    [ "currentVramUsage", "db/d06/a01497.html#a737931154a7d65a38cb69fd591958318", null ],
-    [ "mustFreeMemory", "db/d06/a01497.html#ae084a9f9c1ddfcc7c9a3919c6018941e", null ],
-    [ "updateCurrentRamUsage", "db/d06/a01497.html#a0dd0a497b52354417492d92872583169", null ],
-    [ "_currentRamUsage", "db/d06/a01497.html#ad8ce6341276fc7e9ed4f50dbe893c76f", null ],
-    [ "_currentVramUsage", "db/d06/a01497.html#a14aad1c2d93486d49a2bb4b7cfc1076d", null ],
-    [ "_limit", "db/d06/a01497.html#a3d28d6fa8fbfb20db613d22394ee19a8", null ],
-    [ "_maxRam", "db/d06/a01497.html#ac044ea8a08411787e1565163c6ba98c8", null ],
-    [ "_maxVram", "db/d06/a01497.html#a276f3ebcca50921c1edefadb7583354f", null ]
+    [ "SceneItemType", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17", [
+      [ "None", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Camera", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17a967d35e40f3f95b1f538bd248640bf3b", null ],
+      [ "Light", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17a9914a0ce04a7b7b6a8e39bec55064b82", null ],
+      [ "Material", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17ad92a8333dd3ccb895cc65f7455b71206", null ],
+      [ "PCloud", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17a577c2b864ced263ce071ee79265ee838", null ],
+      [ "Model3D", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17a1cd204050ec7f52020766f99b3129701", null ],
+      [ "Image", "db/d06/a01497.html#addcdbf401343706c62bb0a7d84d2fa17abe53a0541a6d36f6ecb879fa2c584b08", null ]
+    ] ],
+    [ "InspectorWindow", "db/d06/a01497.html#a3a09148efb45473e0df187a85a8d0c8f", null ],
+    [ "isItemSelected", "db/d06/a01497.html#a588d2705683680efdf36f8435c7bf8a5", null ],
+    [ "renderWindow", "db/d06/a01497.html#a63b0402d61dd34944da9280a89fa9f74", null ],
+    [ "resetInspectorSelection", "db/d06/a01497.html#a6b41b7255c51fa9d0dfb542b25627200", null ],
+    [ "setInspectorItem", "db/d06/a01497.html#ae13b1a6e82ca486e2ed63f92de060e18", null ],
+    [ "showContextPopup", "db/d06/a01497.html#a07b3960bd11cd20221c14ff683ef50fc", null ],
+    [ "DetailsWindow", "db/d06/a01497.html#a7786e2e385d628b59b4b05c76bc2bf3e", null ],
+    [ "MaterialsWindow", "db/d06/a01497.html#ad33b6815222d6fdeddc7eb5674b19eb6", null ],
+    [ "_selectedInspectorItem", "db/d06/a01497.html#a27ea2a078f2d5eab16ed54dc670bba80", null ],
+    [ "_selectedItemName", "db/d06/a01497.html#a17939b2642ad66048d4d1a2f1ed4f298", null ],
+    [ "_selectedItemType", "db/d06/a01497.html#a7e4236c6f6454bb694515389a328e508", null ]
 ];

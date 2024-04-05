@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del archivo C:/GitHub/GEU/GEU/Source/Core/TextureList.h</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia del archivo D:/GEU/GEUCore/Source/DataTypes/Geometry/Operators3D.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,33 +95,26 @@ $(function(){initNavTree('d7/d02/a00152.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Clases</a>  </div>
-  <div class="headertitle"><div class="title">Referencia del archivo TextureList.h</div></div>
+<a href="#namespaces">Espacios de nombres</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo Operators3D.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d06/a00146_source.html">Texture.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d06/a00509_source.html">Utilities/Singleton.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Gráfico de dependencias incluidas en TextureList.h:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d01/a00153.svg" width="492" height="352"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div class="dynheader">
-Gráfico de los archivos que directa o indirectamente incluyen a este archivo:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d05/a00154.svg" width="1259" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+
 <p><a href="../../d7/d02/a00152_source.html">Ir al código fuente de este archivo.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Clases</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d04/a01557.html">TextureList</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Espacios de nombres</h2></td></tr>
+<tr class="memitem:d0/d01/a00622" id="r_d0/d01/a00622"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d01/a00622.html">GEU</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d01/a01561.html">TextureList::ColorHash</a></td></tr>
+<tr class="memitem:d3/d03/a00627" id="r_d3/d03/a00627"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/a00627.html">GEU::Operators3D</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/a01565.html">TextureList::ColorEqual</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a0a99a48e076892312a722187ee14028d" id="r_a0a99a48e076892312a722187ee14028d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d03/a00627.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a> (<a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;hitPos)</td></tr>
+<tr class="memdesc:a0a99a48e076892312a722187ee14028d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check intersection between <a class="el" href="../../d6/d05/a01617.html">AABB</a> and ray. Adapted from <a href="https://github.com/erich666/GraphicsGems/blob/master/gems/RayBox.c">https://github.com/erich666/GraphicsGems/blob/master/gems/RayBox.c</a>.  <br /></td></tr>
+<tr class="separator:a0a99a48e076892312a722187ee14028d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

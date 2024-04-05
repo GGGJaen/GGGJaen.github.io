@@ -1,13 +1,19 @@
 var a01481 =
 [
-    [ "LinesModel", "d1/d04/a01481.html#a9d787ddef9e6927544daef6a5d90a1da", null ],
-    [ "drawModel", "d1/d04/a01481.html#a1a9ecf6e24d267300766dc8a88fa74b0", null ],
-    [ "loadBinaryFile", "d1/d04/a01481.html#a26a764ad4a36ae32c9431a9bac2c2a43", null ],
-    [ "saveBinaryFile", "d1/d04/a01481.html#add09930426a6c2985fb973124e1dfa96", null ],
-    [ "setEnabled", "d1/d04/a01481.html#a4cd06b694e7be7f04c38cf91b4fa93e0", null ],
-    [ "setLines", "d1/d04/a01481.html#ad87ec93a3e72d9eee2f1d41f97e8f346", null ],
-    [ "updateVAO", "d1/d04/a01481.html#afccce11fe32c84d3377eb5b4656b5cd4", null ],
-    [ "_linesPosition", "d1/d04/a01481.html#ab544aceb57667a13e1d42c3bc35d62e2", null ],
-    [ "_needUpdate", "d1/d04/a01481.html#adeafc6b9fffce9950d8c774813b339e4", null ],
-    [ "_vao", "d1/d04/a01481.html#a49b170b5aca97955a21d5d057e3f9bed", null ]
+    [ "DatabaseNewDatoWindow", "d1/d04/a01481.html#a78fd810eb86260e4ead6b7a94b8df1a1", null ],
+    [ "renderWindow", "d1/d04/a01481.html#ae07f0a25c9ecb584624ce7bf67bc48cb", null ],
+    [ "showNewDatoDuplicatedPopup", "d1/d04/a01481.html#a6ea01dc83a34747f5390085fda4e8980", null ],
+    [ "uploadNewDato", "d1/d04/a01481.html#a8719af7640d1a32dcd4cdf5d305aa342", null ],
+    [ "_checkingDupedDato", "d1/d04/a01481.html#aaf0f1a658097ae4caa85d77fb1171640", null ],
+    [ "_datoVuelo", "d1/d04/a01481.html#a9295ad8ff4713ebda02c40d2286aaf62", null ],
+    [ "_datoZona", "d1/d04/a01481.html#a4d817525eac09891d10d0f94c71c3d35", null ],
+    [ "_distintivoIdx", "d1/d04/a01481.html#a3a5515f3df648674d3690761296b2a46", null ],
+    [ "_files", "d1/d04/a01481.html#a80ecab2638761d7e3f92a3702ebee4f7", null ],
+    [ "_newDato", "d1/d04/a01481.html#a0a02b13f1544cc7d28ddcb3dddd12340", null ],
+    [ "_newDatoDuplucated", "d1/d04/a01481.html#aedd5fddeb71955361b349696da492028", null ],
+    [ "_queryDatosDuplicated", "d1/d04/a01481.html#a2a0178c4ad08275ece7f8f3bd91fa49b", null ],
+    [ "_tipoIdx", "d1/d04/a01481.html#a2fd1f6671f138dfc50e7733286bfec28", null ],
+    [ "_uploadInProgress", "d1/d04/a01481.html#ade04924685334c5317b4703f6aabbb18", null ],
+    [ "_vueloSelected", "d1/d04/a01481.html#ae0af8c0e89c51e29f95224db0e0bc0e0", null ],
+    [ "_zonaSelected", "d1/d04/a01481.html#a899b0661b6dc98566827647aed291c4a", null ]
 ];

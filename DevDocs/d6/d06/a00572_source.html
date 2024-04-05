@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUModules/Termica/Source/EnvPointCloud.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d6/d06/a00572_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">EnvPointCloud.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d6/d06/a00572.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;glm/vec2.hpp&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;glm/vec3.hpp&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;glm/vec4.hpp&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/a00622.html">GEU</a> {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">class </span>PointCloud;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d7/d06/a02109.html">EnvPointCloud</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a1c1faef7fc6caf261e9f5ddf8a88b7f0">   23</a></span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_friend" href="../../d7/d06/a02109.html#a1c1faef7fc6caf261e9f5ddf8a88b7f0">ThermalEnvironment</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#ab07ef441a7546640ac240fd9ee681726">   25</a></span>    <span class="keyword">const</span> <span class="keyword">static</span> <span class="keywordtype">float</span>          <a class="code hl_variable" href="../../d7/d06/a02109.html#ab07ef441a7546640ac240fd9ee681726">TARGET_SCALE_X</a>;                     </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">// Other properties</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a49b20e5563bc26c6eecc89892376f7b8">   27</a></span>    <span class="keywordtype">float</span>               <a class="code hl_variable" href="../../d7/d06/a02109.html#a49b20e5563bc26c6eecc89892376f7b8">_interquartileRange</a>;                        </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a10ae880fc6dd86d4bb031488ed1f3162">   28</a></span>    <span class="keywordtype">float</span>               <a class="code hl_variable" href="../../d7/d06/a02109.html#a10ae880fc6dd86d4bb031488ed1f3162">_meanTemperature</a>;                           </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#ade7d4cd1cf7ffba4d31854dc5c763b7c">   29</a></span>    std::vector&lt;unsigned&gt;   <a class="code hl_variable" href="../../d7/d06/a02109.html#ade7d4cd1cf7ffba4d31854dc5c763b7c">_pointClass</a>;                                </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#ace777cf151791ea814a0fd198e73e71e">   30</a></span>    <span class="keywordtype">float</span>               <a class="code hl_variable" href="../../d7/d06/a02109.html#ace777cf151791ea814a0fd198e73e71e">_q1</a>, <a class="code hl_variable" href="../../d7/d06/a02109.html#af8d28c42ceb568b1d0b709d4edcc207d">_q3</a>;                                   </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a79106b9505053d457aa48f257c3259b0">   31</a></span>    glm::vec2               <a class="code hl_variable" href="../../d7/d06/a02109.html#a79106b9505053d457aa48f257c3259b0">_temperatureRange</a>;                          </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a0e75c8dd9c4ad27acaeeecf2067ab3a2">   33</a></span>    <a class="code hl_class" href="../../db/d05/a01637.html">GEU::PointCloud</a>* <a class="code hl_variable" href="../../d7/d06/a02109.html#a0e75c8dd9c4ad27acaeeecf2067ab3a2">_targetPointCloud</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">//void sortTemperature(std::vector&lt;float&gt;&amp; sortedTemperature);</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_function" href="../../d7/d06/a02109.html#a18a7ce66468e9c7de7d31d240491d7cb">EnvPointCloud</a>(<a class="code hl_class" href="../../db/d05/a01637.html">GEU::PointCloud</a>* pCloud);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d06/a02109.html#ad6f65578c127b1f37b2a0139f30911c5">computeQuartiles</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d06/a02109.html#a82b46e1ef5fda1611a6c246d3339b822">updateBoundaries</a>(<span class="keyword">const</span> glm::vec3&amp; xyz);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="../../d7/d06/a02109.html#aaffe506925e4e620af70288e5c12d569">queryTemperature</a>(<span class="keyword">const</span> glm::vec4&amp; screenColor);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">// Getters</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a0853082c601fb176fb590f794c5d5099">   67</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="../../d7/d06/a02109.html#a0853082c601fb176fb590f794c5d5099">getInterquartileRange</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d06/a02109.html#a49b20e5563bc26c6eecc89892376f7b8">_interquartileRange</a>; }</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a87392267fb33bb1faf2b78f5ca5317c3">   72</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="../../d7/d06/a02109.html#a87392267fb33bb1faf2b78f5ca5317c3">getMeanTemperature</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d06/a02109.html#a10ae880fc6dd86d4bb031488ed1f3162">_meanTemperature</a>; }</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#ad12bc07d46c918e37834c97bde288d7d">   78</a></span>    std::vector&lt;unsigned&gt;* <a class="code hl_function" href="../../d7/d06/a02109.html#ad12bc07d46c918e37834c97bde288d7d">getPointClass</a>() { <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d7/d06/a02109.html#ade7d4cd1cf7ffba4d31854dc5c763b7c">_pointClass</a>; }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a51cbeca85d6b38bbe93c8e5b02b8f171">   83</a></span>    glm::vec2 <a class="code hl_function" href="../../d7/d06/a02109.html#a51cbeca85d6b38bbe93c8e5b02b8f171">getQ1Q3</a>() { <span class="keywordflow">return</span> { <a class="code hl_variable" href="../../d7/d06/a02109.html#ace777cf151791ea814a0fd198e73e71e">_q1</a>, <a class="code hl_variable" href="../../d7/d06/a02109.html#af8d28c42ceb568b1d0b709d4edcc207d">_q3</a> }; }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a1014e8e24002c66024e2d63be45cee36">   88</a></span>    glm::vec2 <a class="code hl_function" href="../../d7/d06/a02109.html#a1014e8e24002c66024e2d63be45cee36">getTemperatureRange</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d06/a02109.html#a79106b9505053d457aa48f257c3259b0">_temperatureRange</a>; }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a5cdf511291b80ba118da0d39cc94ddb5">   95</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d06/a02109.html#a5cdf511291b80ba118da0d39cc94ddb5">setMean</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> mean) { <a class="code hl_variable" href="../../d7/d06/a02109.html#a10ae880fc6dd86d4bb031488ed1f3162">_meanTemperature</a> = mean; }</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#a7849807874130f7ec8b0de7f2048b78c">  100</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d06/a02109.html#a7849807874130f7ec8b0de7f2048b78c">setTemperatureRange</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> minTemperature, <span class="keyword">const</span> <span class="keywordtype">float</span> maxTemperature) { <a class="code hl_variable" href="../../d7/d06/a02109.html#a79106b9505053d457aa48f257c3259b0">_temperatureRange</a> = glm::vec2(minTemperature, maxTemperature); }</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="../../d7/d06/a02109.html#ad0139c1cd01f5c17a2ceccb7a44c7d23">  102</a></span>    <a class="code hl_class" href="../../db/d05/a01637.html">GEU::PointCloud</a>* <a class="code hl_function" href="../../d7/d06/a02109.html#ad0139c1cd01f5c17a2ceccb7a44c7d23">getCloud</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d06/a02109.html#a0e75c8dd9c4ad27acaeeecf2067ab3a2">_targetPointCloud</a>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
+</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>};</div>
+</div>
+<div class="ttc" id="aa00622_html"><div class="ttname"><a href="../../d0/d01/a00622.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="aa01637_html"><div class="ttname"><a href="../../db/d05/a01637.html">GEU::PointCloud</a></div><div class="ttdef"><b>Definition</b> PointCloud.h:14</div></div>
+<div class="ttc" id="aa02109_html"><div class="ttname"><a href="../../d7/d06/a02109.html">EnvPointCloud</a></div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:20</div></div>
+<div class="ttc" id="aa02109_html_a0853082c601fb176fb590f794c5d5099"><div class="ttname"><a href="../../d7/d06/a02109.html#a0853082c601fb176fb590f794c5d5099">EnvPointCloud::getInterquartileRange</a></div><div class="ttdeci">float getInterquartileRange() const</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:67</div></div>
+<div class="ttc" id="aa02109_html_a0e75c8dd9c4ad27acaeeecf2067ab3a2"><div class="ttname"><a href="../../d7/d06/a02109.html#a0e75c8dd9c4ad27acaeeecf2067ab3a2">EnvPointCloud::_targetPointCloud</a></div><div class="ttdeci">GEU::PointCloud * _targetPointCloud</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:33</div></div>
+<div class="ttc" id="aa02109_html_a1014e8e24002c66024e2d63be45cee36"><div class="ttname"><a href="../../d7/d06/a02109.html#a1014e8e24002c66024e2d63be45cee36">EnvPointCloud::getTemperatureRange</a></div><div class="ttdeci">glm::vec2 getTemperatureRange() const</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:88</div></div>
+<div class="ttc" id="aa02109_html_a10ae880fc6dd86d4bb031488ed1f3162"><div class="ttname"><a href="../../d7/d06/a02109.html#a10ae880fc6dd86d4bb031488ed1f3162">EnvPointCloud::_meanTemperature</a></div><div class="ttdeci">float _meanTemperature</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:28</div></div>
+<div class="ttc" id="aa02109_html_a18a7ce66468e9c7de7d31d240491d7cb"><div class="ttname"><a href="../../d7/d06/a02109.html#a18a7ce66468e9c7de7d31d240491d7cb">EnvPointCloud::EnvPointCloud</a></div><div class="ttdeci">EnvPointCloud(GEU::PointCloud *pCloud)</div><div class="ttdoc">Sorts the temperature array so that quartiles can be computed.</div><div class="ttdef"><b>Definition</b> EnvPointCloud.cpp:13</div></div>
+<div class="ttc" id="aa02109_html_a1c1faef7fc6caf261e9f5ddf8a88b7f0"><div class="ttname"><a href="../../d7/d06/a02109.html#a1c1faef7fc6caf261e9f5ddf8a88b7f0">EnvPointCloud::ThermalEnvironment</a></div><div class="ttdeci">friend class ThermalEnvironment</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:23</div></div>
+<div class="ttc" id="aa02109_html_a49b20e5563bc26c6eecc89892376f7b8"><div class="ttname"><a href="../../d7/d06/a02109.html#a49b20e5563bc26c6eecc89892376f7b8">EnvPointCloud::_interquartileRange</a></div><div class="ttdeci">float _interquartileRange</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:27</div></div>
+<div class="ttc" id="aa02109_html_a51cbeca85d6b38bbe93c8e5b02b8f171"><div class="ttname"><a href="../../d7/d06/a02109.html#a51cbeca85d6b38bbe93c8e5b02b8f171">EnvPointCloud::getQ1Q3</a></div><div class="ttdeci">glm::vec2 getQ1Q3()</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:83</div></div>
+<div class="ttc" id="aa02109_html_a5cdf511291b80ba118da0d39cc94ddb5"><div class="ttname"><a href="../../d7/d06/a02109.html#a5cdf511291b80ba118da0d39cc94ddb5">EnvPointCloud::setMean</a></div><div class="ttdeci">void setMean(const float mean)</div><div class="ttdoc">Setters.</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:95</div></div>
+<div class="ttc" id="aa02109_html_a7849807874130f7ec8b0de7f2048b78c"><div class="ttname"><a href="../../d7/d06/a02109.html#a7849807874130f7ec8b0de7f2048b78c">EnvPointCloud::setTemperatureRange</a></div><div class="ttdeci">void setTemperatureRange(const float minTemperature, const float maxTemperature)</div><div class="ttdoc">Stores the temperature range.</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:100</div></div>
+<div class="ttc" id="aa02109_html_a79106b9505053d457aa48f257c3259b0"><div class="ttname"><a href="../../d7/d06/a02109.html#a79106b9505053d457aa48f257c3259b0">EnvPointCloud::_temperatureRange</a></div><div class="ttdeci">glm::vec2 _temperatureRange</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:31</div></div>
+<div class="ttc" id="aa02109_html_a82b46e1ef5fda1611a6c246d3339b822"><div class="ttname"><a href="../../d7/d06/a02109.html#a82b46e1ef5fda1611a6c246d3339b822">EnvPointCloud::updateBoundaries</a></div><div class="ttdeci">void updateBoundaries(const glm::vec3 &amp;xyz)</div><div class="ttdoc">Updates the current Axis-Aligned Bounding-Box.</div><div class="ttdef"><b>Definition</b> EnvPointCloud.cpp:47</div></div>
+<div class="ttc" id="aa02109_html_a87392267fb33bb1faf2b78f5ca5317c3"><div class="ttname"><a href="../../d7/d06/a02109.html#a87392267fb33bb1faf2b78f5ca5317c3">EnvPointCloud::getMeanTemperature</a></div><div class="ttdeci">float getMeanTemperature() const</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:72</div></div>
+<div class="ttc" id="aa02109_html_aaffe506925e4e620af70288e5c12d569"><div class="ttname"><a href="../../d7/d06/a02109.html#aaffe506925e4e620af70288e5c12d569">EnvPointCloud::queryTemperature</a></div><div class="ttdeci">float queryTemperature(const glm::vec4 &amp;screenColor)</div><div class="ttdef"><b>Definition</b> EnvPointCloud.cpp:51</div></div>
+<div class="ttc" id="aa02109_html_ab07ef441a7546640ac240fd9ee681726"><div class="ttname"><a href="../../d7/d06/a02109.html#ab07ef441a7546640ac240fd9ee681726">EnvPointCloud::TARGET_SCALE_X</a></div><div class="ttdeci">static const float TARGET_SCALE_X</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:25</div></div>
+<div class="ttc" id="aa02109_html_ace777cf151791ea814a0fd198e73e71e"><div class="ttname"><a href="../../d7/d06/a02109.html#ace777cf151791ea814a0fd198e73e71e">EnvPointCloud::_q1</a></div><div class="ttdeci">float _q1</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:30</div></div>
+<div class="ttc" id="aa02109_html_ad0139c1cd01f5c17a2ceccb7a44c7d23"><div class="ttname"><a href="../../d7/d06/a02109.html#ad0139c1cd01f5c17a2ceccb7a44c7d23">EnvPointCloud::getCloud</a></div><div class="ttdeci">GEU::PointCloud * getCloud() const</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:102</div></div>
+<div class="ttc" id="aa02109_html_ad12bc07d46c918e37834c97bde288d7d"><div class="ttname"><a href="../../d7/d06/a02109.html#ad12bc07d46c918e37834c97bde288d7d">EnvPointCloud::getPointClass</a></div><div class="ttdeci">std::vector&lt; unsigned &gt; * getPointClass()</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:78</div></div>
+<div class="ttc" id="aa02109_html_ad6f65578c127b1f37b2a0139f30911c5"><div class="ttname"><a href="../../d7/d06/a02109.html#ad6f65578c127b1f37b2a0139f30911c5">EnvPointCloud::computeQuartiles</a></div><div class="ttdeci">void computeQuartiles()</div><div class="ttdef"><b>Definition</b> EnvPointCloud.cpp:18</div></div>
+<div class="ttc" id="aa02109_html_ade7d4cd1cf7ffba4d31854dc5c763b7c"><div class="ttname"><a href="../../d7/d06/a02109.html#ade7d4cd1cf7ffba4d31854dc5c763b7c">EnvPointCloud::_pointClass</a></div><div class="ttdeci">std::vector&lt; unsigned &gt; _pointClass</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:29</div></div>
+<div class="ttc" id="aa02109_html_af8d28c42ceb568b1d0b709d4edcc207d"><div class="ttname"><a href="../../d7/d06/a02109.html#af8d28c42ceb568b1d0b709d4edcc207d">EnvPointCloud::_q3</a></div><div class="ttdeci">float _q3</div><div class="ttdef"><b>Definition</b> EnvPointCloud.h:30</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

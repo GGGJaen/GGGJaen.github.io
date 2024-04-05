@@ -1,0 +1,8 @@
+<map id="GEU::PointCloud::getSubclouds" name="GEU::PointCloud::getSubclouds">
+<area shape="rect" id="Node000001" title="return all the subclouds in this cloud. If there isn&#39;t any subcloud, the vector will be empty." alt="" coords="388,37,595,64"/>
+<area shape="rect" id="Node000002" href="$d6/d04/a02033.html#a5f2b290d502274f01fc3e9bdadfca50e" title=" " alt="" coords="197,29,340,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,53,341,53,341,48,373,48"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="299,16,287,10,268,8,250,10,240,15,235,21,237,28,232,29,230,19,236,10,249,5,268,3,289,5,301,11"/>
+<area shape="rect" id="Node000003" href="$d6/d04/a02033.html#ad27c678722407ed6f3d2bb41ccc2b640" title="Custom module GUI window contents." alt="" coords="5,29,149,72"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="181,53,149,53,149,48,181,48"/>
+</map>

@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Archivo de código fuente C:/GitHub/GEU/GEU/Source/Modules/Hiperespectral/HyperGUIAdapter.h</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Archivo de código fuente D:/GEU/GEUCore/Source/Graphics/Lights/Light.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -100,94 +99,92 @@ $(function(){initNavTree('dc/d02/a00218_source.html','../../'); initResizable();
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">HyperGUIAdapter.h</div></div>
+  <div class="headertitle"><div class="title">Light.h</div></div>
 </div><!--header-->
 <div class="contents">
 <a href="../../dc/d02/a00218.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifdef _HYPERSPECTRAL</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/d01/a00389.html">UI/InterfaceAdapter.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d4/d02/a00101.html">Core/PointCloud.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/d01/a00212.html">Hypercube.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d4/d04/a00543.html">GEU</a> {</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/d00/a00230.html">LightAttenuation.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d00/a00236.html">LightModel.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/a00622.html">GEU</a> {</div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html">    7</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../dc/d04/a01669.html">Light</a> {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a7786e2e385d628b59b4b05c76bc2bf3e">    8</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d2/d01/a01493.html">DetailsWindow</a>;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">class </span>HyperGUIAdapter : <span class="keyword">public</span> InterfaceAdapter {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">struct </span>HyperStats {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>            <span class="keywordtype">double</span> mean, mode;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            <span class="keywordtype">double</span> variance, stdev;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keywordtype">double</span> skewness, kurtosis;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            HyperStats() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            <span class="keyword">explicit</span> HyperStats(<span class="keyword">const</span> std::vector&lt;float&gt;&amp; values) {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                mean = std::accumulate(values.begin(), values.end(), 0LL) / values.size();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                mode = *std::ranges::max_element(values, [&amp;](<span class="keyword">const</span> <span class="keywordtype">int</span> a, <span class="keyword">const</span> <span class="keywordtype">int</span> b)</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                    <span class="keywordflow">return</span> std::ranges::count(values, a) &lt; std::ranges::count(values, b);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                });</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                variance = 0.0;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                <span class="keywordtype">double</span> kurtA = 0.0, kurtB = 0.0;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">float</span>&amp; v : values) {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                    variance += (v - mean) * (v - mean);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                    kurtA += std::pow(v - mean, 4.0);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                    kurtB += (v - mean) * (v - mean);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                variance /= values.size();</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                stdev = std::sqrt(variance);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                skewness = (mean - mode) / stdev;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                <span class="keyword">const</span> <span class="keywordtype">double</span> n = values.size();</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                kurtosis = ((n + 1) * n * (n - 1)) / ((n - 1) * (n - 3));</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                kurtosis *= (kurtA / (kurtB * kurtB));</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                kurtosis -= (3 * (n - 1) * (n - 1)) / ((n - 2) * (n - 3));</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            }</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        };</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        Hypercube&lt;uint8_t&gt;* _activeHypercube;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordtype">int</span> _selectedLayer, _layerPreviewIdx;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        Texture* _layerTexture;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_class" href="../../db/d06/a01509.html">GEU::PointCloud</a>* _targetPointCloud;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">bool</span> _cubeLoadStarted;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        ImVec2 _selectedPixelPreview, _selectedPixelScreenPos;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        std::vector&lt;float&gt; _pixelBandValues;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        Texture* _focusTexture;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        HyperStats _selectedPixelStats;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">float</span> _fusionProgress;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        std::string _fusionStatus;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">int</span> _hyperBandMin;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">int</span> _hyperBandMax;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordtype">void</span> generateLayerTexture(std::vector&lt;float&gt;&amp; bandBuffer, <span class="keyword">const</span> <span class="keywordtype">int</span>&amp; layer);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        HyperGUIAdapter(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>, <span class="keyword">const</span> std::string&amp; icon, <a class="code hl_enumeration" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        ~HyperGUIAdapter() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keywordtype">void</span> renderGuiObject(ApplicationState* appState, Scene* sceneContent) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keywordtype">void</span> loadHypercube(<span class="keyword">const</span> std::string&amp; fileAndPath);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keywordtype">void</span> assignStepHyperdata();</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    };</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aa00101_html"><div class="ttname"><a href="../../d4/d02/a00101.html">PointCloud.h</a></div></div>
-<div class="ttc" id="aa00197_html_a601a7b55b6c3e8ec0bf8451cb7995573"><div class="ttname"><a href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></div><div class="ttdeci">LOCALE_STRINGS</div><div class="ttdef"><b>Definition</b> locale_strings.h:2</div></div>
-<div class="ttc" id="aa00212_html"><div class="ttname"><a href="../../dd/d01/a00212.html">Hypercube.h</a></div></div>
-<div class="ttc" id="aa00389_html"><div class="ttname"><a href="../../dc/d01/a00389.html">InterfaceAdapter.h</a></div></div>
-<div class="ttc" id="aa00543_html"><div class="ttname"><a href="../../d4/d04/a00543.html">GEU</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
-<div class="ttc" id="aa01509_html"><div class="ttname"><a href="../../db/d06/a01509.html">GEU::PointCloud</a></div><div class="ttdef"><b>Definition</b> PointCloud.h:14</div></div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a435db7f9b75a11bfee227d76edd7f9c7">   10</a></span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keyword">const</span> <span class="keyword">static</span> std::unordered_map&lt;std::string, LightModel::LightModelEnum&gt; <a class="code hl_variable" href="../../dc/d04/a01669.html#a435db7f9b75a11bfee227d76edd7f9c7">LIGHT_ENUM_STR</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a352fb88cddec20328f82e9cf360365e1">   13</a></span>        <span class="keyword">const</span> <span class="keyword">static</span> std::vector&lt;std::unique_ptr&lt;GEU::LightModel&gt;&gt;          <a class="code hl_variable" href="../../dc/d04/a01669.html#a352fb88cddec20328f82e9cf360365e1">_lightModel</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a1bbdef1e3f6ee896b5664a590f191825">   14</a></span>        <span class="keyword">const</span> <span class="keyword">static</span> std::vector&lt;std::unique_ptr&lt;GEU::LightAttenuation&gt;&gt;    <a class="code hl_variable" href="../../dc/d04/a01669.html#a1bbdef1e3f6ee896b5664a590f191825">_lightAttenuation</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a7ff25831988c2505d8e3e5536f4f8413">   17</a></span>        std::string                     <a class="code hl_variable" href="../../dc/d04/a01669.html#a7ff25831988c2505d8e3e5536f4f8413">_name</a>;</div>
+</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#ab3c30cb3ac2aa709ed1a8a65d57185b4">   18</a></span>        <span class="keywordtype">int</span>                             <a class="code hl_variable" href="../../dc/d04/a01669.html#ab3c30cb3ac2aa709ed1a8a65d57185b4">_attenuationType</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#ad9261bc9cf59fe92a383f31453be4f83">   19</a></span>        <span class="keywordtype">bool</span>                            <a class="code hl_variable" href="../../dc/d04/a01669.html#ad9261bc9cf59fe92a383f31453be4f83">_enabled</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a9071e7a8b63fd75c9a470dafd5e7131b">   20</a></span>        <span class="keywordtype">int</span>                             <a class="code hl_variable" href="../../dc/d04/a01669.html#a9071e7a8b63fd75c9a470dafd5e7131b">_lightType</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a34c87bda9457f419308894079e6344b9">   21</a></span>        <a class="code hl_class" href="../../d1/d07/a01709.html">LightProperties</a>                 <a class="code hl_variable" href="../../dc/d04/a01669.html#a34c87bda9457f419308894079e6344b9">_properties</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">static</span> std::vector&lt;std::unique_ptr&lt;GEU::LightAttenuation&gt;&gt; <a class="code hl_function" href="../../dc/d04/a01669.html#a229ebde383ebc63c6d64444ae90c5ea0">getLightAttenuationApplicators</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keyword">static</span> std::vector&lt;std::unique_ptr&lt;GEU::LightModel&gt;&gt; <a class="code hl_function" href="../../dc/d04/a01669.html#a98fadaf9b468e6d2eece8882f0bfa08a">getLightTypeApplicators</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_function" href="../../dc/d04/a01669.html#a125cfd37104000908ce46e0f01aac1c8">Light</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keyword">virtual</span> <a class="code hl_function" href="../../dc/d04/a01669.html#ac711d1e85144a8f356737b962ca1c481">~Light</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d04/a01669.html#a7b029287a6ff62962895c2d066c2bd5c">applyLight</a>(<a class="code hl_class" href="../../dd/d03/a01717.html">GEU::Material</a>* material, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d2/d07/a00014.html#a2db59f395fe82a7394c6324956c265d8">mat4</a>&amp; viewMatrix, uint32_t shad1, uint32_t shad2);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a8b250ac7406d45a789a328cec3210d7f">   32</a></span>        <a class="code hl_class" href="../../d1/d07/a01709.html">LightProperties</a>* <a class="code hl_function" href="../../dc/d04/a01669.html#a8b250ac7406d45a789a328cec3210d7f">getProperties</a>() { <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../dc/d04/a01669.html#a34c87bda9457f419308894079e6344b9">_properties</a>; }</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d04/a01669.html#a1111434d190bd3417d8dce956409578a">setAttenuationType</a>(<a class="code hl_enumeration" href="../../dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55f">GEU::LightAttenuation::AttenuationModel</a> attenuation);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d04/a01669.html#a2dc5ef1db0e480423a59599d5604ea3d">setLightType</a>(<a class="code hl_enumeration" href="../../d2/d04/a01713.html#ac2d668ef9f931f8b789fc203aa943a72">GEU::LightModel::LightModelEnum</a> lightModel);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d04/a01669.html#a8e65bfbca6bfff59a59c36939c0920c9">toggle</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a8c316597ef87815dc4902bfb370a812a">   39</a></span>        std::string <a class="code hl_function" href="../../dc/d04/a01669.html#a8c316597ef87815dc4902bfb370a812a">getName</a>() {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d04/a01669.html#a7ff25831988c2505d8e3e5536f4f8413">_name</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        };</div>
+</div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../dc/d04/a01669.html#a2c10feb22b74f08ca02e6422e0960ca4">   42</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d04/a01669.html#a2c10feb22b74f08ca02e6422e0960ca4">setName</a>(<span class="keyword">const</span> std::string&amp; name) {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <a class="code hl_variable" href="../../dc/d04/a01669.html#a7ff25831988c2505d8e3e5536f4f8413">_name</a> = name;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    };</div>
+</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="ttc" id="aa00014_html_a2db59f395fe82a7394c6324956c265d8"><div class="ttname"><a href="../../d2/d07/a00014.html#a2db59f395fe82a7394c6324956c265d8">mat4</a></div><div class="ttdeci">glm::mat4 mat4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:58</div></div>
+<div class="ttc" id="aa00230_html"><div class="ttname"><a href="../../d1/d00/a00230.html">LightAttenuation.h</a></div></div>
+<div class="ttc" id="aa00236_html"><div class="ttname"><a href="../../d7/d00/a00236.html">LightModel.h</a></div></div>
+<div class="ttc" id="aa00622_html"><div class="ttname"><a href="../../d0/d01/a00622.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="aa01493_html"><div class="ttname"><a href="../../d2/d01/a01493.html">GEU::DetailsWindow</a></div><div class="ttdoc">Inspector selection details window: allow to manipulate scene contents properties.</div><div class="ttdef"><b>Definition</b> DetailsWindow.h:10</div></div>
+<div class="ttc" id="aa01669_html"><div class="ttname"><a href="../../dc/d04/a01669.html">GEU::Light</a></div><div class="ttdef"><b>Definition</b> Light.h:7</div></div>
+<div class="ttc" id="aa01669_html_a1111434d190bd3417d8dce956409578a"><div class="ttname"><a href="../../dc/d04/a01669.html#a1111434d190bd3417d8dce956409578a">GEU::Light::setAttenuationType</a></div><div class="ttdeci">void setAttenuationType(GEU::LightAttenuation::AttenuationModel attenuation)</div><div class="ttdef"><b>Definition</b> Light.cpp:45</div></div>
+<div class="ttc" id="aa01669_html_a125cfd37104000908ce46e0f01aac1c8"><div class="ttname"><a href="../../dc/d04/a01669.html#a125cfd37104000908ce46e0f01aac1c8">GEU::Light::Light</a></div><div class="ttdeci">Light()</div><div class="ttdef"><b>Definition</b> Light.cpp:24</div></div>
+<div class="ttc" id="aa01669_html_a1bbdef1e3f6ee896b5664a590f191825"><div class="ttname"><a href="../../dc/d04/a01669.html#a1bbdef1e3f6ee896b5664a590f191825">GEU::Light::_lightAttenuation</a></div><div class="ttdeci">static const std::vector&lt; std::unique_ptr&lt; GEU::LightAttenuation &gt; &gt; _lightAttenuation</div><div class="ttdef"><b>Definition</b> Light.h:14</div></div>
+<div class="ttc" id="aa01669_html_a229ebde383ebc63c6d64444ae90c5ea0"><div class="ttname"><a href="../../dc/d04/a01669.html#a229ebde383ebc63c6d64444ae90c5ea0">GEU::Light::getLightAttenuationApplicators</a></div><div class="ttdeci">static std::vector&lt; std::unique_ptr&lt; GEU::LightAttenuation &gt; &gt; getLightAttenuationApplicators()</div><div class="ttdef"><b>Definition</b> Light.cpp:55</div></div>
+<div class="ttc" id="aa01669_html_a2c10feb22b74f08ca02e6422e0960ca4"><div class="ttname"><a href="../../dc/d04/a01669.html#a2c10feb22b74f08ca02e6422e0960ca4">GEU::Light::setName</a></div><div class="ttdeci">void setName(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> Light.h:42</div></div>
+<div class="ttc" id="aa01669_html_a2dc5ef1db0e480423a59599d5604ea3d"><div class="ttname"><a href="../../dc/d04/a01669.html#a2dc5ef1db0e480423a59599d5604ea3d">GEU::Light::setLightType</a></div><div class="ttdeci">void setLightType(GEU::LightModel::LightModelEnum lightModel)</div><div class="ttdef"><b>Definition</b> Light.cpp:49</div></div>
+<div class="ttc" id="aa01669_html_a34c87bda9457f419308894079e6344b9"><div class="ttname"><a href="../../dc/d04/a01669.html#a34c87bda9457f419308894079e6344b9">GEU::Light::_properties</a></div><div class="ttdeci">LightProperties _properties</div><div class="ttdef"><b>Definition</b> Light.h:21</div></div>
+<div class="ttc" id="aa01669_html_a352fb88cddec20328f82e9cf360365e1"><div class="ttname"><a href="../../dc/d04/a01669.html#a352fb88cddec20328f82e9cf360365e1">GEU::Light::_lightModel</a></div><div class="ttdeci">static const std::vector&lt; std::unique_ptr&lt; GEU::LightModel &gt; &gt; _lightModel</div><div class="ttdef"><b>Definition</b> Light.h:13</div></div>
+<div class="ttc" id="aa01669_html_a435db7f9b75a11bfee227d76edd7f9c7"><div class="ttname"><a href="../../dc/d04/a01669.html#a435db7f9b75a11bfee227d76edd7f9c7">GEU::Light::LIGHT_ENUM_STR</a></div><div class="ttdeci">static const std::unordered_map&lt; std::string, LightModel::LightModelEnum &gt; LIGHT_ENUM_STR</div><div class="ttdef"><b>Definition</b> Light.h:10</div></div>
+<div class="ttc" id="aa01669_html_a7b029287a6ff62962895c2d066c2bd5c"><div class="ttname"><a href="../../dc/d04/a01669.html#a7b029287a6ff62962895c2d066c2bd5c">GEU::Light::applyLight</a></div><div class="ttdeci">void applyLight(GEU::Material *material, const mat4 &amp;viewMatrix, uint32_t shad1, uint32_t shad2)</div><div class="ttdef"><b>Definition</b> Light.cpp:40</div></div>
+<div class="ttc" id="aa01669_html_a7ff25831988c2505d8e3e5536f4f8413"><div class="ttname"><a href="../../dc/d04/a01669.html#a7ff25831988c2505d8e3e5536f4f8413">GEU::Light::_name</a></div><div class="ttdeci">std::string _name</div><div class="ttdef"><b>Definition</b> Light.h:17</div></div>
+<div class="ttc" id="aa01669_html_a8b250ac7406d45a789a328cec3210d7f"><div class="ttname"><a href="../../dc/d04/a01669.html#a8b250ac7406d45a789a328cec3210d7f">GEU::Light::getProperties</a></div><div class="ttdeci">LightProperties * getProperties()</div><div class="ttdef"><b>Definition</b> Light.h:32</div></div>
+<div class="ttc" id="aa01669_html_a8c316597ef87815dc4902bfb370a812a"><div class="ttname"><a href="../../dc/d04/a01669.html#a8c316597ef87815dc4902bfb370a812a">GEU::Light::getName</a></div><div class="ttdeci">std::string getName()</div><div class="ttdef"><b>Definition</b> Light.h:39</div></div>
+<div class="ttc" id="aa01669_html_a8e65bfbca6bfff59a59c36939c0920c9"><div class="ttname"><a href="../../dc/d04/a01669.html#a8e65bfbca6bfff59a59c36939c0920c9">GEU::Light::toggle</a></div><div class="ttdeci">void toggle()</div><div class="ttdef"><b>Definition</b> Light.cpp:53</div></div>
+<div class="ttc" id="aa01669_html_a9071e7a8b63fd75c9a470dafd5e7131b"><div class="ttname"><a href="../../dc/d04/a01669.html#a9071e7a8b63fd75c9a470dafd5e7131b">GEU::Light::_lightType</a></div><div class="ttdeci">int _lightType</div><div class="ttdef"><b>Definition</b> Light.h:20</div></div>
+<div class="ttc" id="aa01669_html_a98fadaf9b468e6d2eece8882f0bfa08a"><div class="ttname"><a href="../../dc/d04/a01669.html#a98fadaf9b468e6d2eece8882f0bfa08a">GEU::Light::getLightTypeApplicators</a></div><div class="ttdeci">static std::vector&lt; std::unique_ptr&lt; GEU::LightModel &gt; &gt; getLightTypeApplicators()</div><div class="ttdef"><b>Definition</b> Light.cpp:65</div></div>
+<div class="ttc" id="aa01669_html_ab3c30cb3ac2aa709ed1a8a65d57185b4"><div class="ttname"><a href="../../dc/d04/a01669.html#ab3c30cb3ac2aa709ed1a8a65d57185b4">GEU::Light::_attenuationType</a></div><div class="ttdeci">int _attenuationType</div><div class="ttdef"><b>Definition</b> Light.h:18</div></div>
+<div class="ttc" id="aa01669_html_ac711d1e85144a8f356737b962ca1c481"><div class="ttname"><a href="../../dc/d04/a01669.html#ac711d1e85144a8f356737b962ca1c481">GEU::Light::~Light</a></div><div class="ttdeci">virtual ~Light()</div><div class="ttdef"><b>Definition</b> Light.cpp:38</div></div>
+<div class="ttc" id="aa01669_html_ad9261bc9cf59fe92a383f31453be4f83"><div class="ttname"><a href="../../dc/d04/a01669.html#ad9261bc9cf59fe92a383f31453be4f83">GEU::Light::_enabled</a></div><div class="ttdeci">bool _enabled</div><div class="ttdef"><b>Definition</b> Light.h:19</div></div>
+<div class="ttc" id="aa01693_html_ac6c693d974ee09f472c9af9514cdd55f"><div class="ttname"><a href="../../dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55f">GEU::LightAttenuation::AttenuationModel</a></div><div class="ttdeci">AttenuationModel</div><div class="ttdef"><b>Definition</b> LightAttenuation.h:8</div></div>
+<div class="ttc" id="aa01709_html"><div class="ttname"><a href="../../d1/d07/a01709.html">GEU::LightProperties</a></div><div class="ttdef"><b>Definition</b> LightModel.h:6</div></div>
+<div class="ttc" id="aa01713_html_ac2d668ef9f931f8b789fc203aa943a72"><div class="ttname"><a href="../../d2/d04/a01713.html#ac2d668ef9f931f8b789fc203aa943a72">GEU::LightModel::LightModelEnum</a></div><div class="ttdeci">LightModelEnum</div><div class="ttdef"><b>Definition</b> LightModel.h:76</div></div>
+<div class="ttc" id="aa01717_html"><div class="ttname"><a href="../../dd/d03/a01717.html">GEU::Material</a></div><div class="ttdef"><b>Definition</b> Material.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

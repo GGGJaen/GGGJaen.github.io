@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la plantilla de la estructura unibn::traits::access&lt; PointT, 0 &gt;</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la plantilla de la estructura unibn::MaxDistance&lt; PointT &gt;</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -98,33 +97,133 @@ $(function(){initNavTree('d7/d02/a01601.html','../../'); initResizable(); });
   <div class="summary">
 <a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
 <a href="../../d3/d05/a01598.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la plantilla de la estructura unibn::traits::access&lt; PointT, 0 &gt;</div></div>
+  <div class="headertitle"><div class="title">Referencia de la plantilla de la estructura unibn::MaxDistance&lt; PointT &gt;</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/d07/a00173_source.html">Octree.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d5/d01/a00140_source.html">Octree.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Métodos públicos estáticos</h2></td></tr>
-<tr class="memitem:af26b2b5dbcce603169dd1046290b4f2b" id="r_af26b2b5dbcce603169dd1046290b4f2b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af26b2b5dbcce603169dd1046290b4f2b">get</a> (const PointT &amp;p)</td></tr>
-<tr class="separator:af26b2b5dbcce603169dd1046290b4f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8740690b6b6a258f63e260ef0305bac" id="r_ad8740690b6b6a258f63e260ef0305bac"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8740690b6b6a258f63e260ef0305bac">compute</a> (const PointT &amp;p, const PointT &amp;q)</td></tr>
+<tr class="separator:ad8740690b6b6a258f63e260ef0305bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56027a3849061a4f3dd7baeb318b81ef" id="r_a56027a3849061a4f3dd7baeb318b81ef"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56027a3849061a4f3dd7baeb318b81ef">norm</a> (float x, float y, float z)</td></tr>
+<tr class="separator:a56027a3849061a4f3dd7baeb318b81ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081caab5dccaffb995335fa4f8d93ee2" id="r_a081caab5dccaffb995335fa4f8d93ee2"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081caab5dccaffb995335fa4f8d93ee2">sqr</a> (float r)</td></tr>
+<tr class="separator:a081caab5dccaffb995335fa4f8d93ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71777bc1201735023c66c5abbcd1950f" id="r_a71777bc1201735023c66c5abbcd1950f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71777bc1201735023c66c5abbcd1950f">sqrt</a> (float r)</td></tr>
+<tr class="separator:a71777bc1201735023c66c5abbcd1950f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="af26b2b5dbcce603169dd1046290b4f2b" name="af26b2b5dbcce603169dd1046290b4f2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26b2b5dbcce603169dd1046290b4f2b">&#9670;&#160;</a></span>get()</h2>
+<a id="ad8740690b6b6a258f63e260ef0305bac" name="ad8740690b6b6a258f63e260ef0305bac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8740690b6b6a258f63e260ef0305bac">&#9670;&#160;</a></span>compute()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class PointT &gt; </div>
+template&lt;typename PointT &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static float <a class="el" href="../../d0/d05/a01597.html">unibn::traits::access</a>&lt; PointT, 0 &gt;::get </td>
+          <td class="memname">static float <a class="el" href="../../d7/d02/a01601.html">unibn::MaxDistance</a>&lt; PointT &gt;::compute </td>
           <td>(</td>
-          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>q</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56027a3849061a4f3dd7baeb318b81ef" name="a56027a3849061a4f3dd7baeb318b81ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56027a3849061a4f3dd7baeb318b81ef">&#9670;&#160;</a></span>norm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float <a class="el" href="../../d7/d02/a01601.html">unibn::MaxDistance</a>&lt; PointT &gt;::norm </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>z</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a081caab5dccaffb995335fa4f8d93ee2" name="a081caab5dccaffb995335fa4f8d93ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081caab5dccaffb995335fa4f8d93ee2">&#9670;&#160;</a></span>sqr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float <a class="el" href="../../d7/d02/a01601.html">unibn::MaxDistance</a>&lt; PointT &gt;::sqr </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71777bc1201735023c66c5abbcd1950f" name="a71777bc1201735023c66c5abbcd1950f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71777bc1201735023c66c5abbcd1950f">&#9670;&#160;</a></span>sqrt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float <a class="el" href="../../d7/d02/a01601.html">unibn::MaxDistance</a>&lt; PointT &gt;::sqrt </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -138,7 +237,7 @@ template&lt;class PointT &gt; </div>
 </div>
 </div>
 <hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
-<li>C:/GitHub/GEU/GEU/Source/DataStructures/<a class="el" href="../../d7/d07/a00173_source.html">Octree.hpp</a></li>
+<li>D:/GEU/GEUCore/Source/DataStructures/<a class="el" href="../../d5/d01/a00140_source.html">Octree.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

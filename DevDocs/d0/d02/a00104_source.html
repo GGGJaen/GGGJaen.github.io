@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUApp/Source/UI/Popups/Database/DatabaseNewRawPopup.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d0/d02/a00104_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DatabaseNewRawPopup.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d0/d02/a00104.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d05/a00374.html">GuiUtilities.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d06/a00383.html">UI/I_GUIPopup.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;Utilities/DatabaseConnector.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Utilities/MetadataReader.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/a00622.html">GEU</a> {</div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html">    9</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../db/d06/a01529.html">DatabaseNewRawPopup</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../dc/d07/a01933.html">I_GUIPopup</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a595121e27b49137bea4af5a231089297">   11</a></span>        Database::DatoCrudo <a class="code hl_variable" href="../../db/d06/a01529.html#a595121e27b49137bea4af5a231089297">_newData</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#acaf7f7cc7e69936ad8ca63561ec81938">   12</a></span>        <a class="code hl_struct" href="../../de/d04/a01809.html">Database::Vuelo</a> <a class="code hl_variable" href="../../db/d06/a01529.html#acaf7f7cc7e69936ad8ca63561ec81938">_newVuelo</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a971e7870ed5c2725682c01493922435e">   13</a></span>        <a class="code hl_struct" href="../../d1/d00/a01813.html">Database::Zona</a> <a class="code hl_variable" href="../../db/d06/a01529.html#a971e7870ed5c2725682c01493922435e">_newZona</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#ad89d2751a9a1a2a21254b9fd690c4495">   14</a></span>        std::unordered_map&lt;unsigned, Database::Vuelo&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#ad89d2751a9a1a2a21254b9fd690c4495">_vuelos</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a90acc4e93233f4d182b1cc5639d3dae5">   15</a></span>        std::future&lt;std::unordered_map&lt;unsigned, Database::Vuelo&gt;&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#a90acc4e93233f4d182b1cc5639d3dae5">_vuelosFuture</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a45dec054aed5738021eb95772a2d4056">   16</a></span>        std::unordered_map&lt;unsigned, Database::Zona&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#a45dec054aed5738021eb95772a2d4056">_zonas</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a4fc76f387f72b56aa3daa4c185cd6ac3">   17</a></span>        std::future&lt;std::unordered_map&lt;unsigned, Database::Zona&gt;&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#a4fc76f387f72b56aa3daa4c185cd6ac3">_zonasFuture</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a5977234e8c9f2e9b8f52244fbafb2b22">   18</a></span>        std::unordered_map&lt;unsigned, Database::Municipio&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#a5977234e8c9f2e9b8f52244fbafb2b22">_municipios</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#aaff27a5b7c32135020f870f96930a522">   19</a></span>        std::future &lt; std::unordered_map&lt;unsigned, Database::Municipio&gt;&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#aaff27a5b7c32135020f870f96930a522">_municipiosFuture</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a058743aa989ed945783ec4277592c114">   21</a></span>        std::unordered_map&lt;unsigned, Database::Provincia&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#a058743aa989ed945783ec4277592c114">_provincias</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a744dccefe6adedd1ef28f18a0a354c3b">   22</a></span>        std::future &lt; std::unordered_map&lt;unsigned, Database::Provincia&gt;&gt; <a class="code hl_variable" href="../../db/d06/a01529.html#a744dccefe6adedd1ef28f18a0a354c3b">_provinciasFuture</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#af2c9fa2e342f092fe3ae409ce3b672e5">   24</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../db/d06/a01529.html#af2c9fa2e342f092fe3ae409ce3b672e5">_selectedVuelo</a> = -1;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a90dcb60053cd85f7e5f7df95ae7d03f5">   25</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../db/d06/a01529.html#a90dcb60053cd85f7e5f7df95ae7d03f5">_selectedZona</a> = -1;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a892a20d1fe38e931e212dd36b8dc472b">   27</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d06/a01529.html#a892a20d1fe38e931e212dd36b8dc472b">_directorySelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#aeef054d50d929adfd4467527a5ac58cf">   28</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d06/a01529.html#aeef054d50d929adfd4467527a5ac58cf">_createNewZona</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a21d71afbeba3aea56999324a96fe0187">   29</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d06/a01529.html#a21d71afbeba3aea56999324a96fe0187">_createNewVuelo</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#adadf841d904dfe035b1d0f3b4e357157">   30</a></span>        std::string <a class="code hl_variable" href="../../db/d06/a01529.html#adadf841d904dfe035b1d0f3b4e357157">_directoryPath</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#aab710f33edcb42bfdef53b95fe0a0fae">   31</a></span>        std::string <a class="code hl_variable" href="../../db/d06/a01529.html#aab710f33edcb42bfdef53b95fe0a0fae">_filePath</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#ad085501a66eeb639c40519d7cf608b2e">   35</a></span>        <a class="code hl_function" href="../../db/d06/a01529.html#ad085501a66eeb639c40519d7cf608b2e">DatabaseNewRawPopup</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code hl_enumeration" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx) :</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <a class="code hl_class" href="../../dc/d07/a01933.html">I_GUIPopup</a>(id, idx), <a class="code hl_variable" href="../../db/d06/a01529.html#a595121e27b49137bea4af5a231089297">_newData</a>(), <a class="code hl_variable" href="../../db/d06/a01529.html#acaf7f7cc7e69936ad8ca63561ec81938">_newVuelo</a>(), <a class="code hl_variable" href="../../db/d06/a01529.html#a971e7870ed5c2725682c01493922435e">_newZona</a>() {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <a class="code hl_variable" href="../../db/d06/a01529.html#a90acc4e93233f4d182b1cc5639d3dae5">_vuelosFuture</a> = <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#a00e40c8a8c699d22f2201c54a6092586">getVuelosAsync</a>();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            <a class="code hl_variable" href="../../db/d06/a01529.html#a4fc76f387f72b56aa3daa4c185cd6ac3">_zonasFuture</a> = <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#af48507d47d876f6b094c6847aafa0e9d">getZonasAsync</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <a class="code hl_variable" href="../../db/d06/a01529.html#aaff27a5b7c32135020f870f96930a522">_municipiosFuture</a> = <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#a8307c2ab71cb7da47fcbb8a88c5a6c54">getMunicipiosAsync</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <a class="code hl_variable" href="../../db/d06/a01529.html#a744dccefe6adedd1ef28f18a0a354c3b">_provinciasFuture</a> = <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#ae58a02574d3c2ab4c4596a7495d3d1ab">getProvinciasAsync</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        }</div>
+</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d06/a01529.html#a67e7e09c17a35a031cf4d82a48c991e4">openPopup</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d06/a01529.html#aabf3be0d95c567d3b439cdae51edc79e">renderPopup</a>(<a class="code hl_struct" href="../../de/d04/a01553.html">ApplicationState</a>* appState, <a class="code hl_class" href="../../df/d06/a01737.html">Scene</a>* scene) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d06/a01529.html#a0ab8ef55837c3a0c64ae56593e807128">autofill</a>(<span class="keyword">const</span> std::string&amp; directory, <span class="keyword">const</span> std::string&amp; filename);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    };</div>
+</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a67e7e09c17a35a031cf4d82a48c991e4">   62</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d06/a01529.html#a67e7e09c17a35a031cf4d82a48c991e4">GEU::DatabaseNewRawPopup::openPopup</a>() {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    ImGui::OpenPopup(<a class="code hl_function" href="../../dc/d07/a01933.html#abdcc20870710b60595e8777b9fd796ed">getIdTitle</a>().c_str());</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}</div>
+</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#aabf3be0d95c567d3b439cdae51edc79e">   67</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d06/a01529.html#aabf3be0d95c567d3b439cdae51edc79e">GEU::DatabaseNewRawPopup::renderPopup</a>(<a class="code hl_struct" href="../../de/d04/a01553.html">ApplicationState</a>* appState, <a class="code hl_class" href="../../df/d06/a01737.html">Scene</a>* scene) {</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">bool</span> closing = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordflow">if</span> (_vuelos.empty()) {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">if</span> (_vuelosFuture.wait_for(std::chrono::milliseconds(5)) == std::future_status::ready)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            _vuelos = _vuelosFuture.get();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordflow">if</span> (_zonas.empty()) {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordflow">if</span> (_zonasFuture.wait_for(std::chrono::milliseconds(5)) == std::future_status::ready)</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            _zonas = _zonasFuture.get();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    }</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordflow">if</span> (ImGui::BeginPopupModal(getIdTitle().c_str())) {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        ImGui::InputText(<span class="stringliteral">&quot;##newRaw_name&quot;</span>, &amp;_newData.nombre);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d03/a00631.html#a51f7b03162a92f79594e82e1aca62133">GuiUtilities::makeLocButton</a>(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573ae6859ab905d92ef447478db6c307fd11">POPUP_RAWDBDATA</a>)) {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <a class="code hl_function" href="../../d9/d07/a01953.html#ae812e21e62615fd347d33ee0ddb0cc82">GEU::PopupSystem::addPopup</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../dd/d06/a01949.html">FileDialogPopup</a>(<span class="stringliteral">&quot;databaseRawDataFilePopup&quot;</span>, <a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573ae6859ab905d92ef447478db6c307fd11">POPUP_RAWDBDATA</a>, <span class="stringliteral">&quot;.tif&quot;</span>, <a class="code hl_enumvalue" href="../../de/d07/a00362.html#aa9de5efefa95a90cbf0cfaad5e0e69fda1b807ae34268df765395416db146973a">ImGuiFileDialogFlags_Modal</a>, [<span class="keyword">this</span>](<span class="keyword">const</span> std::string&amp; directory, <span class="keyword">const</span> std::string&amp; filename, <span class="keywordtype">void</span>* p) { this-&gt;autofill(directory, filename); }));</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        ImVec2 childWinSize = ImGui::GetContentRegionAvail();</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        childWinSize.y -= 32.0f;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        ImGui::BeginChild(<span class="stringliteral">&quot;##newRaw_childwin&quot;</span>, childWinSize);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        ImGui::BeginDisabled(!_directorySelected);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="keywordflow">if</span> (ImGui::BeginTabBar(<span class="stringliteral">&quot;New rawData tabs&quot;</span>)) {</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <span class="keywordflow">if</span> (ImGui::BeginTabItem(<a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;getString(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573adb13ff40684efb884b4c976752749eda">LOCALE_STRINGS::DATABASE_ZONA</a>).c_str())) {</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                <span class="keywordflow">if</span> (ImGui::BeginCombo(<span class="stringliteral">&quot;##newRaw_zonasCombo&quot;</span>, _selectedZona &gt;= 0 ? _zonas[_selectedZona].ubicacion.c_str() : <span class="stringliteral">&quot;&quot;</span>)) {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; _zona : _zonas) {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                        <span class="keyword">const</span> <span class="keywordtype">bool</span> is_selected = _selectedZona == _zona.first;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                        <span class="keywordflow">if</span> (ImGui::Selectable(_zona.second.ubicacion.c_str(), &amp;is_selected)) {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                            _selectedZona = _zona.first;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                        }</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                        <span class="keywordflow">if</span> (is_selected)</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                            ImGui::SetItemDefaultFocus();</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                    }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                    ImGui::EndCombo();</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                ImGui::Separator();</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                <span class="keywordflow">if</span> (_selectedZona &gt;= 0) {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                    ImGui::InputDouble(<a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;getString(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a83906aba343a9d19e60509345b441571">DATABASE_GPS_LONGITUD</a>).c_str(), &amp;_newZona.longitud, 0.00000001f, 0.0000001f, <span class="stringliteral">&quot;%.8f&quot;</span>);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>                    ImGui::SameLine();</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>                    ImGui::InputDouble(<a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;getString(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a5f5a962a5ba9f2fa925e607a3fa7bdb7">DATABASE_GPS_LATITUD</a>).c_str(), &amp;_newZona.latitud, 0.00000001f, 0.0000001f, <span class="stringliteral">&quot;%.8f&quot;</span>);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>                }</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                ImGui::EndTabItem();</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            }</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>            ImGui::EndDisabled();</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            ImGui::BeginDisabled(!_createNewVuelo);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>            <span class="keywordflow">if</span> (ImGui::BeginTabItem(<a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;getString(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a5f10cd799cd129d453cc64414b26183f">LOCALE_STRINGS::DATABASE_VUELO</a>).c_str())) {</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                <span class="keywordflow">if</span> (ImGui::BeginCombo(<span class="stringliteral">&quot;##newRaw_vueloCombo&quot;</span>, _selectedVuelo &gt;= 0 ? std::to_string(_vuelos[_selectedVuelo].<span class="keywordtype">id</span>).c_str() : <span class="stringliteral">&quot;&quot;</span>)) {</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; _vuelo : _vuelos) {</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                        <span class="keyword">const</span> <span class="keywordtype">bool</span> is_selected = _selectedVuelo == _vuelo.first;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                        <span class="keywordflow">if</span> (ImGui::Selectable(std::to_string(_vuelo.second.id).c_str(), &amp;is_selected)) {</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                            _selectedVuelo = _vuelo.first;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                        }</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                        <span class="keywordflow">if</span> (is_selected)</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                            ImGui::SetItemDefaultFocus();</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                    }</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                    ImGui::EndCombo();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>                }</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>                ImGui::Separator();</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>                <span class="keywordflow">if</span> (_selectedVuelo &gt;= 0) {</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>                    <span class="keywordflow">if</span> (!_createNewVuelo)</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>                        _newVuelo = _vuelos[_selectedVuelo];</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>                    GuiUtilities::makeDateGroup(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a5c0fb7f37e17b7d8484a4adf767ebd15">LOCALE_STRINGS::DATABASE_VUELO_FECHA</a>, _newVuelo.fecha.toText(<span class="stringliteral">&quot;DD-MON-YYYY&quot;</span>));</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>                    <a class="code hl_function" href="../../d5/d03/a00631.html#a83017981b61d220781f6e17dc6beb750">GuiUtilities::makeLocInputText</a>(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a26042d4e59b4063a0722569cde5602c7">LOCALE_STRINGS::DATABASE_VUELO_HORAINICIO</a>, &amp;_newVuelo.horaInicio);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>                    <a class="code hl_function" href="../../d5/d03/a00631.html#a83017981b61d220781f6e17dc6beb750">GuiUtilities::makeLocInputText</a>(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573aa620eec71763adb4f7be22cb59ac5a0c">LOCALE_STRINGS::DATABASE_VUELO_HORAFIN</a>, &amp;_newVuelo.horaFin);</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>                }</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                ImGui::EndTabItem();</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>            }</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>            ImGui::EndDisabled();</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            ImGui::EndTabBar();</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        }</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        ImGui::EndChild();</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d03/a00631.html#af5e9fa24f47a96b09eb235cbf0956e7b">GuiUtilities::makeConfirmButton</a>()) {</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>            closing = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>            <span class="keywordflow">if</span> (_createNewZona)</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>                <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#a953d13da784dceb73bb44a6c8d23a4b1">insert</a>(_newZona);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>            <span class="keywordflow">if</span> (_createNewVuelo)</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#a953d13da784dceb73bb44a6c8d23a4b1">insert</a>(_newVuelo);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>            ImGui::CloseCurrentPopup();</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        }</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        ImGui::SameLine();</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d03/a00631.html#a1c14068c48b831ee9b2f4300deb80e13">GuiUtilities::makeCancelButton</a>()) {</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            closing = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>            ImGui::CloseCurrentPopup();</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>        }</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        ImGui::EndPopup();</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    }</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keywordflow">return</span> closing;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>}</div>
+</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="foldopen" id="foldopen00171" data-start="{" data-end="}">
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">  171</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">toRadians</a>(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; degree) {</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="comment">// cmath library in C++ </span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="comment">// defines the constant</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="comment">// M_PI as the value of</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="comment">// pi accurate to 1e-30</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keyword">constexpr</span> <span class="keywordtype">double</span> one_deg = (M_PI) / 180;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keywordflow">return</span> one_deg * degree;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>}</div>
+</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="foldopen" id="foldopen00180" data-start="{" data-end="}">
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="../../d0/d02/a00104.html#a12c111259c85b89e020738ca18f4aef2">  180</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="../../d0/d02/a00104.html#a12c111259c85b89e020738ca18f4aef2">gpsDistance</a>(<span class="keywordtype">double</span> lat1, <span class="keywordtype">double</span> long1,</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">double</span> lat2, <span class="keywordtype">double</span> long2) {</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="comment">// Convert the latitudes </span></div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="comment">// and longitudes</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="comment">// from degree to radians.</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    lat1 = <a class="code hl_function" href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">toRadians</a>(lat1);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    long1 = <a class="code hl_function" href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">toRadians</a>(long1);</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    lat2 = <a class="code hl_function" href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">toRadians</a>(lat2);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    long2 = <a class="code hl_function" href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">toRadians</a>(long2);</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="comment">// Haversine Formula</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> dlong = long2 - long1;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    <span class="keyword">const</span> <span class="keywordtype">double</span> dlat = lat2 - lat1;</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="keywordtype">double</span> ans = pow(sin(dlat / 2), 2) +</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        cos(lat1) * cos(lat2) *</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        pow(sin(dlong / 2), 2);</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    ans = 2 * asin(sqrt(ans));</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="comment">// Radius of Earth in </span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="comment">// Kilometers, R = 6371</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keyword">constexpr</span> <span class="keywordtype">double</span> R = 6371;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="comment">// Calculate the result</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    ans = ans * R;</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordflow">return</span> ans;</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>}</div>
+</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
+<div class="foldopen" id="foldopen00210" data-start="{" data-end="}">
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno"><a class="line" href="../../db/d06/a01529.html#a0ab8ef55837c3a0c64ae56593e807128">  210</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d06/a01529.html#a0ab8ef55837c3a0c64ae56593e807128">GEU::DatabaseNewRawPopup::autofill</a>(<span class="keyword">const</span> std::string&amp; directory, <span class="keyword">const</span> std::string&amp; filename) {</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    _createNewZona = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    _createNewVuelo = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    _directorySelected = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    <span class="keyword">const</span> std::string fileExtension = filename.substr(filename.find_last_of(<span class="charliteral">&#39;.&#39;</span>) + 1);</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordflow">if</span> (fileExtension == <span class="stringliteral">&quot;tif&quot;</span> || fileExtension == <span class="stringliteral">&quot;TIF&quot;</span>) {</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        <a class="code hl_class" href="../../de/d03/a01873.html">MetadataReader</a> reader(directory + <span class="stringliteral">&quot;\\&quot;</span> + filename);</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        reader.<a class="code hl_function" href="../../de/d03/a01873.html#aba0e097a9cdac209e81b94d970a0dff8">readBasicMetadata</a>();</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>        <span class="keywordflow">if</span> (_zonas.empty())</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>            _zonas = _zonasFuture.get();</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; zona : _zonas) {</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>            <span class="keyword">const</span> <span class="keywordtype">double</span> distance = <a class="code hl_function" href="../../d0/d02/a00104.html#a12c111259c85b89e020738ca18f4aef2">gpsDistance</a>(reader.<a class="code hl_variable" href="../../de/d03/a01873.html#afd6f5eb9a1f7e55b81eb03f0ff2a5653">_latitude</a>, reader.<a class="code hl_variable" href="../../de/d03/a01873.html#a11fe61e5abefed06f19cc0558ac29e74">_longitude</a>, zona.second.latitud, zona.second.longitud);</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>            <span class="keywordflow">if</span> (distance &lt;= zona.second.radio) {</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                _selectedZona = zona.first;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>                _newVuelo.idZona = zona.first;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>                _createNewZona = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>            }</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        }</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        <span class="keywordflow">if</span> (!_createNewZona) {</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            <span class="keyword">const</span> <span class="keyword">auto</span> filteredVuelos = <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#aa501d9be228c74946830759e8f350bb2">getVuelos</a>(_newVuelo.idZona);</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>            Date date;</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>            date.fromText(reader.<a class="code hl_variable" href="../../de/d03/a01873.html#ae612343dd14fccdebad78c42ae3befc9">_date</a>, <span class="stringliteral">&quot;YYYY-MM-DD HH24:MI:SS&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <a class="code hl_function" href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">DatabaseConnector::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d01/a01857.html#ae28bab7afb35a4d51a3040efd2144cc7">getOracleEnviroment</a>());</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>            _newVuelo.fecha = date;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>            <span class="keywordtype">int</span> year, year2;</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>            <span class="keywordtype">unsigned</span> month, day, hour, minute, second, month2, day2, hour2, minute2, second2;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            date.getDate(year, month, day, hour, minute, second);</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; vuelo : filteredVuelos) {</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                vuelo.second.fecha.getDate(year2, month2, day2, hour2, minute2, second2);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>                <span class="keywordflow">if</span> (year == year2 &amp;&amp; month == month2 &amp;&amp; day == day2) {</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>                    _selectedVuelo = vuelo.first;</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                    _newData.idVuelo = vuelo.first;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>                    _createNewVuelo = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>                }</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>            }</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>        }</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    }</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>};</div>
+</div>
+<div class="ttc" id="aa00104_html_a12c111259c85b89e020738ca18f4aef2"><div class="ttname"><a href="../../d0/d02/a00104.html#a12c111259c85b89e020738ca18f4aef2">gpsDistance</a></div><div class="ttdeci">double gpsDistance(double lat1, double long1, double lat2, double long2)</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:180</div></div>
+<div class="ttc" id="aa00104_html_ae7d793394809462a3b7209886db87cac"><div class="ttname"><a href="../../d0/d02/a00104.html#ae7d793394809462a3b7209886db87cac">toRadians</a></div><div class="ttdeci">double toRadians(const double &amp;degree)</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:171</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></div><div class="ttdeci">LOCALE_STRINGS</div><div class="ttdef"><b>Definition</b> locale_strings.h:2</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573a26042d4e59b4063a0722569cde5602c7"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a26042d4e59b4063a0722569cde5602c7">DATABASE_VUELO_HORAINICIO</a></div><div class="ttdeci">@ DATABASE_VUELO_HORAINICIO</div><div class="ttdef"><b>Definition</b> locale_strings.h:78</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573a5c0fb7f37e17b7d8484a4adf767ebd15"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a5c0fb7f37e17b7d8484a4adf767ebd15">DATABASE_VUELO_FECHA</a></div><div class="ttdeci">@ DATABASE_VUELO_FECHA</div><div class="ttdef"><b>Definition</b> locale_strings.h:76</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573a5f10cd799cd129d453cc64414b26183f"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a5f10cd799cd129d453cc64414b26183f">DATABASE_VUELO</a></div><div class="ttdeci">@ DATABASE_VUELO</div><div class="ttdef"><b>Definition</b> locale_strings.h:69</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573a5f5a962a5ba9f2fa925e607a3fa7bdb7"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a5f5a962a5ba9f2fa925e607a3fa7bdb7">DATABASE_GPS_LATITUD</a></div><div class="ttdeci">@ DATABASE_GPS_LATITUD</div><div class="ttdef"><b>Definition</b> locale_strings.h:44</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573a83906aba343a9d19e60509345b441571"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a83906aba343a9d19e60509345b441571">DATABASE_GPS_LONGITUD</a></div><div class="ttdeci">@ DATABASE_GPS_LONGITUD</div><div class="ttdef"><b>Definition</b> locale_strings.h:45</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573aa620eec71763adb4f7be22cb59ac5a0c"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573aa620eec71763adb4f7be22cb59ac5a0c">DATABASE_VUELO_HORAFIN</a></div><div class="ttdeci">@ DATABASE_VUELO_HORAFIN</div><div class="ttdef"><b>Definition</b> locale_strings.h:77</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573adb13ff40684efb884b4c976752749eda"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573adb13ff40684efb884b4c976752749eda">DATABASE_ZONA</a></div><div class="ttdeci">@ DATABASE_ZONA</div><div class="ttdef"><b>Definition</b> locale_strings.h:88</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573ae6859ab905d92ef447478db6c307fd11"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573ae6859ab905d92ef447478db6c307fd11">POPUP_RAWDBDATA</a></div><div class="ttdeci">@ POPUP_RAWDBDATA</div><div class="ttdef"><b>Definition</b> locale_strings.h:376</div></div>
+<div class="ttc" id="aa00362_html_aa9de5efefa95a90cbf0cfaad5e0e69fda1b807ae34268df765395416db146973a"><div class="ttname"><a href="../../de/d07/a00362.html#aa9de5efefa95a90cbf0cfaad5e0e69fda1b807ae34268df765395416db146973a">ImGuiFileDialogFlags_Modal</a></div><div class="ttdeci">@ ImGuiFileDialogFlags_Modal</div><div class="ttdef"><b>Definition</b> ImGuiFileDialog.h:1152</div></div>
+<div class="ttc" id="aa00374_html"><div class="ttname"><a href="../../d5/d05/a00374.html">GuiUtilities.h</a></div></div>
+<div class="ttc" id="aa00383_html"><div class="ttname"><a href="../../da/d06/a00383.html">I_GUIPopup.h</a></div></div>
+<div class="ttc" id="aa00622_html"><div class="ttname"><a href="../../d0/d01/a00622.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="aa00631_html_a1c14068c48b831ee9b2f4300deb80e13"><div class="ttname"><a href="../../d5/d03/a00631.html#a1c14068c48b831ee9b2f4300deb80e13">GEU::GuiUtilities::makeCancelButton</a></div><div class="ttdeci">bool makeCancelButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1057</div></div>
+<div class="ttc" id="aa00631_html_a51f7b03162a92f79594e82e1aca62133"><div class="ttname"><a href="../../d5/d03/a00631.html#a51f7b03162a92f79594e82e1aca62133">GEU::GuiUtilities::makeLocButton</a></div><div class="ttdeci">bool makeLocButton(LOCALE_STRINGS idx, const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1075</div></div>
+<div class="ttc" id="aa00631_html_a83017981b61d220781f6e17dc6beb750"><div class="ttname"><a href="../../d5/d03/a00631.html#a83017981b61d220781f6e17dc6beb750">GEU::GuiUtilities::makeLocInputText</a></div><div class="ttdeci">bool makeLocInputText(LOCALE_STRINGS idx, std::string *textString, ImGuiInputTextFlags flags=ImGuiInputTextFlags_None)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1079</div></div>
+<div class="ttc" id="aa00631_html_af5e9fa24f47a96b09eb235cbf0956e7b"><div class="ttname"><a href="../../d5/d03/a00631.html#af5e9fa24f47a96b09eb235cbf0956e7b">GEU::GuiUtilities::makeConfirmButton</a></div><div class="ttdeci">bool makeConfirmButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1046</div></div>
+<div class="ttc" id="aa01529_html"><div class="ttname"><a href="../../db/d06/a01529.html">GEU::DatabaseNewRawPopup</a></div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:9</div></div>
+<div class="ttc" id="aa01529_html_a058743aa989ed945783ec4277592c114"><div class="ttname"><a href="../../db/d06/a01529.html#a058743aa989ed945783ec4277592c114">GEU::DatabaseNewRawPopup::_provincias</a></div><div class="ttdeci">std::unordered_map&lt; unsigned, Database::Provincia &gt; _provincias</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:21</div></div>
+<div class="ttc" id="aa01529_html_a0ab8ef55837c3a0c64ae56593e807128"><div class="ttname"><a href="../../db/d06/a01529.html#a0ab8ef55837c3a0c64ae56593e807128">GEU::DatabaseNewRawPopup::autofill</a></div><div class="ttdeci">void autofill(const std::string &amp;directory, const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:210</div></div>
+<div class="ttc" id="aa01529_html_a21d71afbeba3aea56999324a96fe0187"><div class="ttname"><a href="../../db/d06/a01529.html#a21d71afbeba3aea56999324a96fe0187">GEU::DatabaseNewRawPopup::_createNewVuelo</a></div><div class="ttdeci">bool _createNewVuelo</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:29</div></div>
+<div class="ttc" id="aa01529_html_a45dec054aed5738021eb95772a2d4056"><div class="ttname"><a href="../../db/d06/a01529.html#a45dec054aed5738021eb95772a2d4056">GEU::DatabaseNewRawPopup::_zonas</a></div><div class="ttdeci">std::unordered_map&lt; unsigned, Database::Zona &gt; _zonas</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:16</div></div>
+<div class="ttc" id="aa01529_html_a4fc76f387f72b56aa3daa4c185cd6ac3"><div class="ttname"><a href="../../db/d06/a01529.html#a4fc76f387f72b56aa3daa4c185cd6ac3">GEU::DatabaseNewRawPopup::_zonasFuture</a></div><div class="ttdeci">std::future&lt; std::unordered_map&lt; unsigned, Database::Zona &gt; &gt; _zonasFuture</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:17</div></div>
+<div class="ttc" id="aa01529_html_a595121e27b49137bea4af5a231089297"><div class="ttname"><a href="../../db/d06/a01529.html#a595121e27b49137bea4af5a231089297">GEU::DatabaseNewRawPopup::_newData</a></div><div class="ttdeci">Database::DatoCrudo _newData</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:11</div></div>
+<div class="ttc" id="aa01529_html_a5977234e8c9f2e9b8f52244fbafb2b22"><div class="ttname"><a href="../../db/d06/a01529.html#a5977234e8c9f2e9b8f52244fbafb2b22">GEU::DatabaseNewRawPopup::_municipios</a></div><div class="ttdeci">std::unordered_map&lt; unsigned, Database::Municipio &gt; _municipios</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:18</div></div>
+<div class="ttc" id="aa01529_html_a67e7e09c17a35a031cf4d82a48c991e4"><div class="ttname"><a href="../../db/d06/a01529.html#a67e7e09c17a35a031cf4d82a48c991e4">GEU::DatabaseNewRawPopup::openPopup</a></div><div class="ttdeci">void openPopup() override</div><div class="ttdoc">Sets up ImGUI to open a popup window.</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:62</div></div>
+<div class="ttc" id="aa01529_html_a744dccefe6adedd1ef28f18a0a354c3b"><div class="ttname"><a href="../../db/d06/a01529.html#a744dccefe6adedd1ef28f18a0a354c3b">GEU::DatabaseNewRawPopup::_provinciasFuture</a></div><div class="ttdeci">std::future&lt; std::unordered_map&lt; unsigned, Database::Provincia &gt; &gt; _provinciasFuture</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:22</div></div>
+<div class="ttc" id="aa01529_html_a892a20d1fe38e931e212dd36b8dc472b"><div class="ttname"><a href="../../db/d06/a01529.html#a892a20d1fe38e931e212dd36b8dc472b">GEU::DatabaseNewRawPopup::_directorySelected</a></div><div class="ttdeci">bool _directorySelected</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:27</div></div>
+<div class="ttc" id="aa01529_html_a90acc4e93233f4d182b1cc5639d3dae5"><div class="ttname"><a href="../../db/d06/a01529.html#a90acc4e93233f4d182b1cc5639d3dae5">GEU::DatabaseNewRawPopup::_vuelosFuture</a></div><div class="ttdeci">std::future&lt; std::unordered_map&lt; unsigned, Database::Vuelo &gt; &gt; _vuelosFuture</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:15</div></div>
+<div class="ttc" id="aa01529_html_a90dcb60053cd85f7e5f7df95ae7d03f5"><div class="ttname"><a href="../../db/d06/a01529.html#a90dcb60053cd85f7e5f7df95ae7d03f5">GEU::DatabaseNewRawPopup::_selectedZona</a></div><div class="ttdeci">int _selectedZona</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:25</div></div>
+<div class="ttc" id="aa01529_html_a971e7870ed5c2725682c01493922435e"><div class="ttname"><a href="../../db/d06/a01529.html#a971e7870ed5c2725682c01493922435e">GEU::DatabaseNewRawPopup::_newZona</a></div><div class="ttdeci">Database::Zona _newZona</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:13</div></div>
+<div class="ttc" id="aa01529_html_aab710f33edcb42bfdef53b95fe0a0fae"><div class="ttname"><a href="../../db/d06/a01529.html#aab710f33edcb42bfdef53b95fe0a0fae">GEU::DatabaseNewRawPopup::_filePath</a></div><div class="ttdeci">std::string _filePath</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:31</div></div>
+<div class="ttc" id="aa01529_html_aabf3be0d95c567d3b439cdae51edc79e"><div class="ttname"><a href="../../db/d06/a01529.html#aabf3be0d95c567d3b439cdae51edc79e">GEU::DatabaseNewRawPopup::renderPopup</a></div><div class="ttdeci">bool renderPopup(ApplicationState *appState, Scene *scene) override</div><div class="ttdoc">Renders the popup and its contents.</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:67</div></div>
+<div class="ttc" id="aa01529_html_aaff27a5b7c32135020f870f96930a522"><div class="ttname"><a href="../../db/d06/a01529.html#aaff27a5b7c32135020f870f96930a522">GEU::DatabaseNewRawPopup::_municipiosFuture</a></div><div class="ttdeci">std::future&lt; std::unordered_map&lt; unsigned, Database::Municipio &gt; &gt; _municipiosFuture</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:19</div></div>
+<div class="ttc" id="aa01529_html_acaf7f7cc7e69936ad8ca63561ec81938"><div class="ttname"><a href="../../db/d06/a01529.html#acaf7f7cc7e69936ad8ca63561ec81938">GEU::DatabaseNewRawPopup::_newVuelo</a></div><div class="ttdeci">Database::Vuelo _newVuelo</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:12</div></div>
+<div class="ttc" id="aa01529_html_ad085501a66eeb639c40519d7cf608b2e"><div class="ttname"><a href="../../db/d06/a01529.html#ad085501a66eeb639c40519d7cf608b2e">GEU::DatabaseNewRawPopup::DatabaseNewRawPopup</a></div><div class="ttdeci">DatabaseNewRawPopup(const std::string &amp;id, const LOCALE_STRINGS idx)</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:35</div></div>
+<div class="ttc" id="aa01529_html_ad89d2751a9a1a2a21254b9fd690c4495"><div class="ttname"><a href="../../db/d06/a01529.html#ad89d2751a9a1a2a21254b9fd690c4495">GEU::DatabaseNewRawPopup::_vuelos</a></div><div class="ttdeci">std::unordered_map&lt; unsigned, Database::Vuelo &gt; _vuelos</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:14</div></div>
+<div class="ttc" id="aa01529_html_adadf841d904dfe035b1d0f3b4e357157"><div class="ttname"><a href="../../db/d06/a01529.html#adadf841d904dfe035b1d0f3b4e357157">GEU::DatabaseNewRawPopup::_directoryPath</a></div><div class="ttdeci">std::string _directoryPath</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:30</div></div>
+<div class="ttc" id="aa01529_html_aeef054d50d929adfd4467527a5ac58cf"><div class="ttname"><a href="../../db/d06/a01529.html#aeef054d50d929adfd4467527a5ac58cf">GEU::DatabaseNewRawPopup::_createNewZona</a></div><div class="ttdeci">bool _createNewZona</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:28</div></div>
+<div class="ttc" id="aa01529_html_af2c9fa2e342f092fe3ae409ce3b672e5"><div class="ttname"><a href="../../db/d06/a01529.html#af2c9fa2e342f092fe3ae409ce3b672e5">GEU::DatabaseNewRawPopup::_selectedVuelo</a></div><div class="ttdeci">int _selectedVuelo</div><div class="ttdef"><b>Definition</b> DatabaseNewRawPopup.h:24</div></div>
+<div class="ttc" id="aa01553_html"><div class="ttname"><a href="../../de/d04/a01553.html">GEU::ApplicationState</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
+<div class="ttc" id="aa01737_html"><div class="ttname"><a href="../../df/d06/a01737.html">GEU::Scene</a></div><div class="ttdef"><b>Definition</b> Scene.h:18</div></div>
+<div class="ttc" id="aa01809_html"><div class="ttname"><a href="../../de/d04/a01809.html">Database::Vuelo</a></div><div class="ttdef"><b>Definition</b> DatabaseConnector.h:86</div></div>
+<div class="ttc" id="aa01813_html"><div class="ttname"><a href="../../d1/d00/a01813.html">Database::Zona</a></div><div class="ttdef"><b>Definition</b> DatabaseConnector.h:135</div></div>
+<div class="ttc" id="aa01857_html_a00e40c8a8c699d22f2201c54a6092586"><div class="ttname"><a href="../../de/d01/a01857.html#a00e40c8a8c699d22f2201c54a6092586">DatabaseConnector::getVuelosAsync</a></div><div class="ttdeci">std::future&lt; std::vector&lt; Database::Vuelo &gt; &gt; getVuelosAsync() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:517</div></div>
+<div class="ttc" id="aa01857_html_a8307c2ab71cb7da47fcbb8a88c5a6c54"><div class="ttname"><a href="../../de/d01/a01857.html#a8307c2ab71cb7da47fcbb8a88c5a6c54">DatabaseConnector::getMunicipiosAsync</a></div><div class="ttdeci">std::future&lt; std::vector&lt; Database::Municipio &gt; &gt; getMunicipiosAsync() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:551</div></div>
+<div class="ttc" id="aa01857_html_a953d13da784dceb73bb44a6c8d23a4b1"><div class="ttname"><a href="../../de/d01/a01857.html#a953d13da784dceb73bb44a6c8d23a4b1">DatabaseConnector::insert</a></div><div class="ttdeci">void insert(const Database::Dato &amp;d) const</div><div class="ttdoc">Inserta un producto en la base de datos.</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:101</div></div>
+<div class="ttc" id="aa01857_html_aa501d9be228c74946830759e8f350bb2"><div class="ttname"><a href="../../de/d01/a01857.html#aa501d9be228c74946830759e8f350bb2">DatabaseConnector::getVuelos</a></div><div class="ttdeci">std::vector&lt; Database::Vuelo &gt; getVuelos() const</div><div class="ttdoc">Obtiene un listado de todos los vuelos de la base de datos.</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:512</div></div>
+<div class="ttc" id="aa01857_html_ae28bab7afb35a4d51a3040efd2144cc7"><div class="ttname"><a href="../../de/d01/a01857.html#ae28bab7afb35a4d51a3040efd2144cc7">DatabaseConnector::getOracleEnviroment</a></div><div class="ttdeci">Environment * getOracleEnviroment() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:88</div></div>
+<div class="ttc" id="aa01857_html_ae58a02574d3c2ab4c4596a7495d3d1ab"><div class="ttname"><a href="../../de/d01/a01857.html#ae58a02574d3c2ab4c4596a7495d3d1ab">DatabaseConnector::getProvinciasAsync</a></div><div class="ttdeci">std::future&lt; std::vector&lt; Database::Provincia &gt; &gt; getProvinciasAsync() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:574</div></div>
+<div class="ttc" id="aa01857_html_af48507d47d876f6b094c6847aafa0e9d"><div class="ttname"><a href="../../de/d01/a01857.html#af48507d47d876f6b094c6847aafa0e9d">DatabaseConnector::getZonasAsync</a></div><div class="ttdeci">std::future&lt; std::vector&lt; Database::Zona &gt; &gt; getZonasAsync() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:526</div></div>
+<div class="ttc" id="aa01873_html"><div class="ttname"><a href="../../de/d03/a01873.html">MetadataReader</a></div><div class="ttdef"><b>Definition</b> MetadataReader.h:21</div></div>
+<div class="ttc" id="aa01873_html_a11fe61e5abefed06f19cc0558ac29e74"><div class="ttname"><a href="../../de/d03/a01873.html#a11fe61e5abefed06f19cc0558ac29e74">MetadataReader::_longitude</a></div><div class="ttdeci">double _longitude</div><div class="ttdef"><b>Definition</b> MetadataReader.h:32</div></div>
+<div class="ttc" id="aa01873_html_aba0e097a9cdac209e81b94d970a0dff8"><div class="ttname"><a href="../../de/d03/a01873.html#aba0e097a9cdac209e81b94d970a0dff8">MetadataReader::readBasicMetadata</a></div><div class="ttdeci">void readBasicMetadata()</div><div class="ttdef"><b>Definition</b> MetadataReader.cpp:18</div></div>
+<div class="ttc" id="aa01873_html_ae612343dd14fccdebad78c42ae3befc9"><div class="ttname"><a href="../../de/d03/a01873.html#ae612343dd14fccdebad78c42ae3befc9">MetadataReader::_date</a></div><div class="ttdeci">std::string _date</div><div class="ttdef"><b>Definition</b> MetadataReader.h:35</div></div>
+<div class="ttc" id="aa01873_html_afd6f5eb9a1f7e55b81eb03f0ff2a5653"><div class="ttname"><a href="../../de/d03/a01873.html#afd6f5eb9a1f7e55b81eb03f0ff2a5653">MetadataReader::_latitude</a></div><div class="ttdeci">double _latitude</div><div class="ttdef"><b>Definition</b> MetadataReader.h:33</div></div>
+<div class="ttc" id="aa01933_html"><div class="ttname"><a href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></div><div class="ttdoc">ImGUI popups interface adapter class.</div><div class="ttdef"><b>Definition</b> I_GUIPopup.h:12</div></div>
+<div class="ttc" id="aa01933_html_abdcc20870710b60595e8777b9fd796ed"><div class="ttname"><a href="../../dc/d07/a01933.html#abdcc20870710b60595e8777b9fd796ed">GEU::I_GUIPopup::getIdTitle</a></div><div class="ttdeci">std::string getIdTitle() const</div><div class="ttdef"><b>Definition</b> I_GUIPopup.h:50</div></div>
+<div class="ttc" id="aa01949_html"><div class="ttname"><a href="../../dd/d06/a01949.html">GEU::FileDialogPopup</a></div><div class="ttdoc">ImGUIFileDialog popup wrapper for system file selection.</div><div class="ttdef"><b>Definition</b> FileDialogPopup.h:10</div></div>
+<div class="ttc" id="aa01953_html_ae812e21e62615fd347d33ee0ddb0cc82"><div class="ttname"><a href="../../d9/d07/a01953.html#ae812e21e62615fd347d33ee0ddb0cc82">GEU::PopupSystem::addPopup</a></div><div class="ttdeci">static void addPopup(I_GUIPopup *popup)</div><div class="ttdef"><b>Definition</b> PopupSystem.cpp:4</div></div>
+<div class="ttc" id="aa02029_html_a47c7e7c2110f4cc59c9ff1f5594c366e"><div class="ttname"><a href="../../d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Singleton&lt; DatabaseConnector &gt;::getInstance</a></div><div class="ttdeci">static DatabaseConnector * getInstance()</div><div class="ttdef"><b>Definition</b> Singleton.h:27</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

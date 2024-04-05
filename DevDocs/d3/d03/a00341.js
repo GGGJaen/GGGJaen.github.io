@@ -1,6 +1,5 @@
 var a00341 =
 [
-    [ "GEU::DatabaseNewRawPopup", "d5/d07/a01749.html", "d5/d07/a01749" ],
-    [ "gpsDistance", "d3/d03/a00341.html#a12c111259c85b89e020738ca18f4aef2", null ],
-    [ "toRadians", "d3/d03/a00341.html#ae7d793394809462a3b7209886db87cac", null ]
+    [ "GL_GPU_MEM_INFO_CURRENT_AVAILABLE_MEM_NVX", "d3/d03/a00341.html#a6742682a27903641a258e686a0db0368", null ],
+    [ "GL_GPU_MEM_INFO_TOTAL_AVAILABLE_MEM_NVX", "d3/d03/a00341.html#ad36bf08b723b4d19079cf67054a28c10", null ]
 ];

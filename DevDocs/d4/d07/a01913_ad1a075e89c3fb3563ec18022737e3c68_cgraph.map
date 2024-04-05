@@ -1,0 +1,5 @@
+<map id="ImGuiToast::getPhase" name="ImGuiToast::getPhase">
+<area shape="rect" id="Node000001" title="Get the current phase of the toast notification based on the elapsed time since its creation." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="Node000002" href="$d4/d07/a01913.html#a65410a0636cab3b0b651e3e9da601984" title="Get the elapsed time in milliseconds since the creation of the object." alt="" coords="204,5,392,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,16,188,16,188,21,156,21"/>
+</map>

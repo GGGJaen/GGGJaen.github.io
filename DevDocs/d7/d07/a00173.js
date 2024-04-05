@@ -1,14 +1,10 @@
 var a00173 =
 [
-    [ "unibn::traits::access< PointT, D >", "d0/d05/a01597.html", null ],
-    [ "unibn::traits::access< PointT, 0 >", "d7/d02/a01601.html", "d7/d02/a01601" ],
-    [ "unibn::traits::access< PointT, 1 >", "d5/d05/a01605.html", "d5/d05/a01605" ],
-    [ "unibn::traits::access< PointT, 2 >", "da/d04/a01609.html", "da/d04/a01609" ],
-    [ "unibn::L1Distance< PointT >", "d3/d01/a01613.html", "d3/d01/a01613" ],
-    [ "unibn::L2Distance< PointT >", "d6/d05/a01617.html", "d6/d05/a01617" ],
-    [ "unibn::MaxDistance< PointT >", "dd/d02/a01621.html", "dd/d02/a01621" ],
-    [ "unibn::OctreeParams", "d3/d05/a01625.html", "d3/d05/a01625" ],
-    [ "unibn::Octree< PointT, ContainerT >", "dc/d02/a01629.html", "dc/d02/a01629" ],
-    [ "unibn::Octree< PointT, ContainerT >::Octant", "d6/d06/a01633.html", "d6/d06/a01633" ],
-    [ "get", "d7/d07/a00173.html#a25ab80a36b4045a4165a234d7fe9db00", null ]
+    [ "PointCloudAdaptor< Derived >", "d6/d06/a01633.html", "d6/d06/a01633" ],
+    [ "compareFunction", "d7/d07/a00173.html#a02c9ad869bc94ba3df2dc2f501b43858", null ],
+    [ "expandBits", "d7/d07/a00173.html#aa0746e1ead8dddd6bd61f715f27c74cc", null ],
+    [ "morton3D", "d7/d07/a00173.html#ac47d3f95e00400ef77a449b64576fe64", null ],
+    [ "mortonToHilbert3D", "d7/d07/a00173.html#a46b221fe7df61be5b8d477efdb0f4109", null ],
+    [ "transformCurve", "d7/d07/a00173.html#aeba17cb9e66a7781d3c225a51083dddf", null ],
+    [ "mortonToHilbertTable", "d7/d07/a00173.html#afb076a5f1f10901bcf7738ccf1b032ee", null ]
 ];

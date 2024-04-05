@@ -1,0 +1,19 @@
+<map id="GEU::ThermalAugment::ThermalImageParams::registerAlignedImage" name="GEU::ThermalAugment::ThermalImageParams::registerAlignedImage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,91,161,149"/>
+<area shape="rect" id="Node000002" href="$d8/d05/a02021.html#a00d6cda31297fde9a4c0e1d06563b49a" title=" " alt="" coords="212,5,437,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,88,163,63,208,42,228,34,230,39,210,46,166,68,126,93"/>
+<area shape="rect" id="Node000004" href="$d8/d05/a02021.html#a9557b5818a906019f1f2e33695cd6345" title=" " alt="" coords="211,56,438,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,101,242,84,243,89,162,106"/>
+<area shape="rect" id="Node000006" href="$d8/d05/a02021.html#aca2db1ad767ecd0ca9ce59ee2ce9f5e5" title=" " alt="" coords="255,107,394,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="161,117,240,117,240,123,161,123"/>
+<area shape="rect" id="Node000007" href="$d8/d05/a02021.html#a1f872b185ce42e9fdecfc43199946980" title=" " alt="" coords="209,157,440,200"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="162,136,220,151,218,156,161,141"/>
+<area shape="rect" id="Node000008" href="$d8/d05/a02021.html#a9dd8d6f7f82fd943b41150bfed77721d" title=" " alt="" coords="250,224,399,251"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="118,148,160,181,210,210,236,219,234,224,208,214,157,185,115,152"/>
+<area shape="rect" id="Node000003" href="$dd/d02/a01621.html#ad7631e5c8434827a48e82b591c388ea9" title=" " alt="" coords="513,5,660,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,16,497,16,497,21,437,21"/>
+<area shape="rect" id="Node000005" href="$d8/d05/a02021.html#ae6e4f0bc433f713ddd69dc4825f5eaba" title="[Public methods]" alt="" coords="488,107,685,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="398,81,500,101,499,106,397,86"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="394,117,473,117,473,123,394,123"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="398,223,439,210,502,176,554,141,557,145,505,181,441,214,400,228"/>
+</map>

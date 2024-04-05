@@ -1,5 +1,5 @@
 var a00242 =
 [
-    [ "Reg", "d9/d05/a01665.html", "d9/d05/a01665" ],
-    [ "Register", "dc/d04/a01669.html", "dc/d04/a01669" ]
+    [ "GEU::Material", "dd/d03/a01717.html", "dd/d03/a01717" ],
+    [ "GEU::Material::MaterialDescription", "db/d06/a01721.html", "db/d06/a01721" ]
 ];

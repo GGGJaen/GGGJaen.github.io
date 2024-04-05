@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la clase GEU::ThermalAugment</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la clase GEU::LightProperties</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,161 +95,220 @@ $(function(){initNavTree('d1/d07/a01709.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Clases</a> &#124;
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
 <a href="#pro-methods">Métodos protegidos</a> &#124;
-<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
-<a href="#pro-attribs">Atributos protegidos</a> &#124;
-<a href="#friends">Amigas</a> &#124;
+<a href="#pro-static-attribs">Atributos estáticos protegidos</a> &#124;
 <a href="../../db/d06/a01706.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la clase GEU::ThermalAugment</div></div>
+  <div class="headertitle"><div class="title">Referencia de la clase GEU::LightProperties</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d02/a00293_source.html">ThermalAugment.h</a>&gt;</code></p>
-<div class="dynheader">
-Diagrama de colaboración de GEU::ThermalAugment:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/a01707.svg" width="3164" height="1136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d7/d00/a00236_source.html">LightModel.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Clases</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d04/a01713.html">ThermalImageParams</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a8e3b385d318cdddc4032eaddc09ae8b6" id="r_a8e3b385d318cdddc4032eaddc09ae8b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e3b385d318cdddc4032eaddc09ae8b6">readTemperatureFLIR</a> (const std::filesystem::path &amp;thermalCSVpath, float &amp;progress)</td></tr>
-<tr class="separator:a8e3b385d318cdddc4032eaddc09ae8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abefc46bc4ff9c2dd3fdbd960bf1d4d24" id="r_abefc46bc4ff9c2dd3fdbd960bf1d4d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abefc46bc4ff9c2dd3fdbd960bf1d4d24">readTemperatureDJI</a> (const std::filesystem::path &amp;imagesPath, float &amp;progress)</td></tr>
-<tr class="separator:abefc46bc4ff9c2dd3fdbd960bf1d4d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d44bfe00e67702d5af13b627f6500f6" id="r_a7d44bfe00e67702d5af13b627f6500f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d44bfe00e67702d5af13b627f6500f6">setUpCloud</a> (<a class="el" href="../../db/d06/a01509.html">PointCloud</a> *pc)</td></tr>
-<tr class="separator:a7d44bfe00e67702d5af13b627f6500f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94e82a3e31bc19fdbe1af2e1d5f6cecb" id="r_a94e82a3e31bc19fdbe1af2e1d5f6cecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94e82a3e31bc19fdbe1af2e1d5f6cecb">readCameraMetadata</a> (const std::filesystem::path &amp;rgbPath, const std::filesystem::path &amp;thermalPath, float &amp;progress)</td></tr>
-<tr class="separator:a94e82a3e31bc19fdbe1af2e1d5f6cecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7543b442631fac3eb9f3f2afb2f36de9" id="r_a7543b442631fac3eb9f3f2afb2f36de9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7543b442631fac3eb9f3f2afb2f36de9">linkImages</a> (float &amp;progress)</td></tr>
-<tr class="separator:a7543b442631fac3eb9f3f2afb2f36de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae03d060be28b798d5f21707bf7803b62" id="r_ae03d060be28b798d5f21707bf7803b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03d060be28b798d5f21707bf7803b62">augmentCloud</a> (float &amp;progress)</td></tr>
-<tr class="separator:ae03d060be28b798d5f21707bf7803b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5744648f0d918b565c8c479809d0c676" id="r_a5744648f0d918b565c8c479809d0c676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5744648f0d918b565c8c479809d0c676">cleanup</a> (float &amp;progress)</td></tr>
-<tr class="separator:a5744648f0d918b565c8c479809d0c676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6842e2d807b22e22ce94c4475f11540d" id="r_a6842e2d807b22e22ce94c4475f11540d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6842e2d807b22e22ce94c4475f11540d">LightProperties</a> ()</td></tr>
+<tr class="separator:a6842e2d807b22e22ce94c4475f11540d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a4b15c4c5b78b00552373ffdbc1924" id="r_ac5a4b15c4c5b78b00552373ffdbc1924"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5a4b15c4c5b78b00552373ffdbc1924">~LightProperties</a> ()</td></tr>
+<tr class="separator:ac5a4b15c4c5b78b00552373ffdbc1924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a1fb24c8fac2681fbd78995f0c182b" id="r_ae4a1fb24c8fac2681fbd78995f0c182b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4a1fb24c8fac2681fbd78995f0c182b">getIa</a> () const</td></tr>
+<tr class="separator:ae4a1fb24c8fac2681fbd78995f0c182b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdacdf757c493d4a7ec91c327c7b1a94" id="r_afdacdf757c493d4a7ec91c327c7b1a94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdacdf757c493d4a7ec91c327c7b1a94">getId</a> () const</td></tr>
+<tr class="separator:afdacdf757c493d4a7ec91c327c7b1a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03f3c2e94578723488f1d3d7f9f6e66" id="r_aa03f3c2e94578723488f1d3d7f9f6e66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa03f3c2e94578723488f1d3d7f9f6e66">getIs</a> () const</td></tr>
+<tr class="separator:aa03f3c2e94578723488f1d3d7f9f6e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e24c7b623bcb663511fc043050251b7" id="r_a5e24c7b623bcb663511fc043050251b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e24c7b623bcb663511fc043050251b7">getPosition</a> () const</td></tr>
+<tr class="separator:a5e24c7b623bcb663511fc043050251b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7081f4e79c15535faad91119bf60b9e0" id="r_a7081f4e79c15535faad91119bf60b9e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7081f4e79c15535faad91119bf60b9e0">getDirection</a> () const</td></tr>
+<tr class="separator:a7081f4e79c15535faad91119bf60b9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da7837617231e5eda02a68a1e331b45" id="r_a6da7837617231e5eda02a68a1e331b45"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6da7837617231e5eda02a68a1e331b45">getExponentS</a> () const</td></tr>
+<tr class="separator:a6da7837617231e5eda02a68a1e331b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b17a9c1793e22bcd7d7143f7cbab174" id="r_a7b17a9c1793e22bcd7d7143f7cbab174"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b17a9c1793e22bcd7d7143f7cbab174">getPenumbraDegrees</a> () const</td></tr>
+<tr class="separator:a7b17a9c1793e22bcd7d7143f7cbab174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662fc1c3eb32ab94cdcf1ffa2f00084f" id="r_a662fc1c3eb32ab94cdcf1ffa2f00084f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a662fc1c3eb32ab94cdcf1ffa2f00084f">getUmbraDegrees</a> () const</td></tr>
+<tr class="separator:a662fc1c3eb32ab94cdcf1ffa2f00084f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa668ebf2507a92f512c31d5716ec2693" id="r_aa668ebf2507a92f512c31d5716ec2693"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa668ebf2507a92f512c31d5716ec2693">getAttenuationCoefficients</a> () const</td></tr>
+<tr class="separator:aa668ebf2507a92f512c31d5716ec2693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99832bfd3d21881fd43f2aed6b0ef5e" id="r_ad99832bfd3d21881fd43f2aed6b0ef5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad99832bfd3d21881fd43f2aed6b0ef5e">getDistanceRange</a> () const</td></tr>
+<tr class="separator:ad99832bfd3d21881fd43f2aed6b0ef5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2276481b7a896f48dc31bf5c889b29" id="r_a2a2276481b7a896f48dc31bf5c889b29"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a2276481b7a896f48dc31bf5c889b29">getFactorC</a> () const</td></tr>
+<tr class="separator:a2a2276481b7a896f48dc31bf5c889b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1696134e639c5edafab0c49a74c0b41a" id="r_a1696134e639c5edafab0c49a74c0b41a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1696134e639c5edafab0c49a74c0b41a">getDistanceC</a> () const</td></tr>
+<tr class="separator:a1696134e639c5edafab0c49a74c0b41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4f35ca2b1cdeda15519da2f1d7cd89" id="r_a9f4f35ca2b1cdeda15519da2f1d7cd89"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f4f35ca2b1cdeda15519da2f1d7cd89">getMaxAttFactor</a> () const</td></tr>
+<tr class="separator:a9f4f35ca2b1cdeda15519da2f1d7cd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9651e3709d82e84ac752156c2ca5a0d9" id="r_a9651e3709d82e84ac752156c2ca5a0d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9651e3709d82e84ac752156c2ca5a0d9">getExponentSE</a> () const</td></tr>
+<tr class="separator:a9651e3709d82e84ac752156c2ca5a0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac0191c8b44dc7878d7f11ce8ace8df" id="r_a8ac0191c8b44dc7878d7f11ce8ace8df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ac0191c8b44dc7878d7f11ce8ace8df">getKCoefficients</a> () const</td></tr>
+<tr class="separator:a8ac0191c8b44dc7878d7f11ce8ace8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46d1840cb3a203d4f406a7a15e780578" id="r_a46d1840cb3a203d4f406a7a15e780578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46d1840cb3a203d4f406a7a15e780578">setIa</a> (const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;Ia)</td></tr>
+<tr class="separator:a46d1840cb3a203d4f406a7a15e780578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d1fc2e0b60d71296fba05f5abdecb9" id="r_a77d1fc2e0b60d71296fba05f5abdecb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77d1fc2e0b60d71296fba05f5abdecb9">setId</a> (const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;Id)</td></tr>
+<tr class="separator:a77d1fc2e0b60d71296fba05f5abdecb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eed640be6fb680a237fb3596be5f12b" id="r_a5eed640be6fb680a237fb3596be5f12b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eed640be6fb680a237fb3596be5f12b">setIs</a> (const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;Is)</td></tr>
+<tr class="separator:a5eed640be6fb680a237fb3596be5f12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab261ab26d6bef8da2e62c53fc689597d" id="r_ab261ab26d6bef8da2e62c53fc689597d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab261ab26d6bef8da2e62c53fc689597d">setPosition</a> (const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;position)</td></tr>
+<tr class="separator:ab261ab26d6bef8da2e62c53fc689597d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1468b58d09166cf2d1e796418f7fa9f" id="r_ae1468b58d09166cf2d1e796418f7fa9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1468b58d09166cf2d1e796418f7fa9f">setDirection</a> (const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;direction)</td></tr>
+<tr class="separator:ae1468b58d09166cf2d1e796418f7fa9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad494e51d179e79adf4130e2310eae19e" id="r_ad494e51d179e79adf4130e2310eae19e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad494e51d179e79adf4130e2310eae19e">setExponentS</a> (float exponent)</td></tr>
+<tr class="separator:ad494e51d179e79adf4130e2310eae19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae704e5d16fedded8f765dfc027095bbb" id="r_ae704e5d16fedded8f765dfc027095bbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae704e5d16fedded8f765dfc027095bbb">setUmbraPenumbraRange</a> (float innerAngle, float outterAngle)</td></tr>
+<tr class="separator:ae704e5d16fedded8f765dfc027095bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37652bd5e21f461ffe064f4d235c1296" id="r_a37652bd5e21f461ffe064f4d235c1296"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37652bd5e21f461ffe064f4d235c1296">setAttenuationCoefficients</a> (float c1, float c2, float c3)</td></tr>
+<tr class="separator:a37652bd5e21f461ffe064f4d235c1296"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04946d90923d0c9684cce1199cdc419" id="r_ac04946d90923d0c9684cce1199cdc419"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac04946d90923d0c9684cce1199cdc419">setAttenuationDistanceRange</a> (float minDistance, float maxDistance)</td></tr>
+<tr class="separator:ac04946d90923d0c9684cce1199cdc419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b674b446160aee4562468f521811a5" id="r_ad4b674b446160aee4562468f521811a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b674b446160aee4562468f521811a5">setAttenuationCoeffDistance</a> (float attFactor, float distance)</td></tr>
+<tr class="separator:ad4b674b446160aee4562468f521811a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee5ed56c19cd93556a239a878ad9a31" id="r_abee5ed56c19cd93556a239a878ad9a31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee5ed56c19cd93556a239a878ad9a31">setMaxAttenuationFactor</a> (float maxAttFactor)</td></tr>
+<tr class="separator:abee5ed56c19cd93556a239a878ad9a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee2de771de4a8f5d91aeab8361a1d10" id="r_afee2de771de4a8f5d91aeab8361a1d10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee2de771de4a8f5d91aeab8361a1d10">setExponentSE</a> (float exponentSE)</td></tr>
+<tr class="separator:afee2de771de4a8f5d91aeab8361a1d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:ad3f437347e988e32e6fb79ccb8d96b98" id="r_ad3f437347e988e32e6fb79ccb8d96b98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f437347e988e32e6fb79ccb8d96b98">_Ia</a></td></tr>
+<tr class="separator:ad3f437347e988e32e6fb79ccb8d96b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073100df5898893c999f0856aa44c0b3" id="r_a073100df5898893c999f0856aa44c0b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a073100df5898893c999f0856aa44c0b3">_Id</a></td></tr>
+<tr class="separator:a073100df5898893c999f0856aa44c0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acadd258ae6b11f7b41a429876185ac" id="r_a3acadd258ae6b11f7b41a429876185ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3acadd258ae6b11f7b41a429876185ac">_Is</a></td></tr>
+<tr class="memdesc:a3acadd258ae6b11f7b41a429876185ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambient (as well as rim), diffuse and specular colors!  <br /></td></tr>
+<tr class="separator:a3acadd258ae6b11f7b41a429876185ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233ba566be1077ed9689d65aa7ac8dd0" id="r_a233ba566be1077ed9689d65aa7ac8dd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a233ba566be1077ed9689d65aa7ac8dd0">_position</a></td></tr>
+<tr class="memdesc:a233ba566be1077ed9689d65aa7ac8dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">World position.  <br /></td></tr>
+<tr class="separator:a233ba566be1077ed9689d65aa7ac8dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a3038d877fda370748268e3668eb99" id="r_a50a3038d877fda370748268e3668eb99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50a3038d877fda370748268e3668eb99">_direction</a></td></tr>
+<tr class="memdesc:a50a3038d877fda370748268e3668eb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only for directional and spot lights.  <br /></td></tr>
+<tr class="separator:a50a3038d877fda370748268e3668eb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c586199b1cf022f22c97b30156e389" id="r_a63c586199b1cf022f22c97b30156e389"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63c586199b1cf022f22c97b30156e389">_exponentS</a></td></tr>
+<tr class="memdesc:a63c586199b1cf022f22c97b30156e389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phong exponent.  <br /></td></tr>
+<tr class="separator:a63c586199b1cf022f22c97b30156e389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f691313df2f116f7c460a9a310d1b1" id="r_ab6f691313df2f116f7c460a9a310d1b1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6f691313df2f116f7c460a9a310d1b1">_penumbraAngle</a></td></tr>
+<tr class="memdesc:ab6f691313df2f116f7c460a9a310d1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary angle which delimites the zone completely lighted (attenuation = 1) and the fading area (radians)  <br /></td></tr>
+<tr class="separator:ab6f691313df2f116f7c460a9a310d1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0791c47838c203a4b3ff1be1e9d1562" id="r_ad0791c47838c203a4b3ff1be1e9d1562"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0791c47838c203a4b3ff1be1e9d1562">_umbraAngle</a></td></tr>
+<tr class="memdesc:ad0791c47838c203a4b3ff1be1e9d1562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary angle to attenuate completely the surface color (radians)  <br /></td></tr>
+<tr class="separator:ad0791c47838c203a4b3ff1be1e9d1562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1af1fb2f5eb5063175b94ee896ad797" id="r_af1af1fb2f5eb5063175b94ee896ad797"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1af1fb2f5eb5063175b94ee896ad797">_c1</a></td></tr>
+<tr class="separator:af1af1fb2f5eb5063175b94ee896ad797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2221ff1ee2134c206d62396bcba164e" id="r_ae2221ff1ee2134c206d62396bcba164e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2221ff1ee2134c206d62396bcba164e">_c2</a></td></tr>
+<tr class="separator:ae2221ff1ee2134c206d62396bcba164e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae703f19ca22e6a92968386cc5cbf2df0" id="r_ae703f19ca22e6a92968386cc5cbf2df0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae703f19ca22e6a92968386cc5cbf2df0">_c3</a></td></tr>
+<tr class="memdesc:ae703f19ca22e6a92968386cc5cbf2df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attenuation factor (Model 1)  <br /></td></tr>
+<tr class="separator:ae703f19ca22e6a92968386cc5cbf2df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca14dca52f4148f5cd5b3434d89cfdd7" id="r_aca14dca52f4148f5cd5b3434d89cfdd7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca14dca52f4148f5cd5b3434d89cfdd7">_minDistance</a></td></tr>
+<tr class="separator:aca14dca52f4148f5cd5b3434d89cfdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e8d91c9583c42cd32a356f6c9f0cfb" id="r_a36e8d91c9583c42cd32a356f6c9f0cfb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36e8d91c9583c42cd32a356f6c9f0cfb">_maxDistance</a></td></tr>
+<tr class="memdesc:a36e8d91c9583c42cd32a356f6c9f0cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mininum distance -&gt; max distance (attenuation range) (Model 2)  <br /></td></tr>
+<tr class="separator:a36e8d91c9583c42cd32a356f6c9f0cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e1e5f78340dbc5a373db2a18979530" id="r_a61e1e5f78340dbc5a373db2a18979530"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61e1e5f78340dbc5a373db2a18979530">_factorC</a></td></tr>
+<tr class="separator:a61e1e5f78340dbc5a373db2a18979530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497f580c15465fbb55fc91469795d3b4" id="r_a497f580c15465fbb55fc91469795d3b4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a497f580c15465fbb55fc91469795d3b4">_distC</a></td></tr>
+<tr class="memdesc:a497f580c15465fbb55fc91469795d3b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attenuation factor factorC is reached at distC distance (Model 3: Pixar)  <br /></td></tr>
+<tr class="separator:a497f580c15465fbb55fc91469795d3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184fe801fdd329b9614d406d2f7cb5e7" id="r_a184fe801fdd329b9614d406d2f7cb5e7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a184fe801fdd329b9614d406d2f7cb5e7">_maxAttFactor</a></td></tr>
+<tr class="memdesc:a184fe801fdd329b9614d406d2f7cb5e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum attenuation factor (Model 3: Pixar)  <br /></td></tr>
+<tr class="separator:a184fe801fdd329b9614d406d2f7cb5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b2cde8a5d2212ab488f572a37b7c2e" id="r_ad6b2cde8a5d2212ab488f572a37b7c2e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6b2cde8a5d2212ab488f572a37b7c2e">_exponentSE</a></td></tr>
+<tr class="memdesc:ad6b2cde8a5d2212ab488f572a37b7c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases attenuation factor as the distance gets bigger (Model 3: Pixar)  <br /></td></tr>
+<tr class="separator:ad6b2cde8a5d2212ab488f572a37b7c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7dc572a71bc3e66a140e10ad6932200" id="r_af7dc572a71bc3e66a140e10ad6932200"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7dc572a71bc3e66a140e10ad6932200">_k0</a></td></tr>
+<tr class="separator:af7dc572a71bc3e66a140e10ad6932200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554674dbfee0236e4b1ea5aa89eab1b4" id="r_a554674dbfee0236e4b1ea5aa89eab1b4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a554674dbfee0236e4b1ea5aa89eab1b4">_k1</a></td></tr>
+<tr class="memdesc:a554674dbfee0236e4b1ea5aa89eab1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivated attributes from previous variables (Model 3: Pixar)  <br /></td></tr>
+<tr class="separator:a554674dbfee0236e4b1ea5aa89eab1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Métodos protegidos</h2></td></tr>
-<tr class="memitem:a2d90d8208a8ab8e8ea1a22b442c3a753" id="r_a2d90d8208a8ab8e8ea1a22b442c3a753"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d90d8208a8ab8e8ea1a22b442c3a753">loadImagesRGB</a> (const std::filesystem::path &amp;rgbPath, float &amp;progress)</td></tr>
-<tr class="separator:a2d90d8208a8ab8e8ea1a22b442c3a753"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22feffc808fba4ed4fc72c328dca04c2" id="r_a22feffc808fba4ed4fc72c328dca04c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22feffc808fba4ed4fc72c328dca04c2">loadImagesThermal</a> (const std::filesystem::path &amp;thermalPath, float &amp;progress)</td></tr>
-<tr class="separator:a22feffc808fba4ed4fc72c328dca04c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d842177abfc35aa03649a38dd89c24" id="r_ac7d842177abfc35aa03649a38dd89c24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d842177abfc35aa03649a38dd89c24">registerImages</a> (float &amp;progress)</td></tr>
-<tr class="separator:ac7d842177abfc35aa03649a38dd89c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82bed9592c905de8807077ab5f735ed1" id="r_a82bed9592c905de8807077ab5f735ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82bed9592c905de8807077ab5f735ed1">computePixarAttenuationCoefficients</a> ()</td></tr>
+<tr class="separator:a82bed9592c905de8807077ab5f735ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Métodos protegidos estáticos</h2></td></tr>
-<tr class="memitem:a6a08710e033620d8898cafcca26c17fb" id="r_a6a08710e033620d8898cafcca26c17fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a08710e033620d8898cafcca26c17fb">readCameraCalibratedParameters</a> (const std::string &amp;filename, std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt; &amp;targetTypeMap)</td></tr>
-<tr class="separator:a6a08710e033620d8898cafcca26c17fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae92b5f8ffa8c5665618dcc2a07325083" id="r_ae92b5f8ffa8c5665618dcc2a07325083"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92b5f8ffa8c5665618dcc2a07325083">readCameraOffset</a> (const std::string &amp;filename, <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;offsetTargetVec)</td></tr>
-<tr class="separator:ae92b5f8ffa8c5665618dcc2a07325083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d53ea82ca043cfdc5516f3c3c8ab0be" id="r_a9d53ea82ca043cfdc5516f3c3c8ab0be"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d53ea82ca043cfdc5516f3c3c8ab0be">readCameraPMatrices</a> (const std::string &amp;filename, std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt; &amp;targetTypeMap)</td></tr>
-<tr class="separator:a9d53ea82ca043cfdc5516f3c3c8ab0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4d5f810cfa1b9b5d7fe9e84e639d38d" id="r_ac4d5f810cfa1b9b5d7fe9e84e639d38d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4d5f810cfa1b9b5d7fe9e84e639d38d">readCameraExternalCalibratedParameters</a> (const std::string &amp;filename, std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt; &amp;targetTypeMap)</td></tr>
-<tr class="separator:ac4d5f810cfa1b9b5d7fe9e84e639d38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade5f2087a09b7d124b20761b0727d5c0" id="r_ade5f2087a09b7d124b20761b0727d5c0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5f2087a09b7d124b20761b0727d5c0">readCameraInternalCalibratedParameters</a> (const std::string &amp;filename, <a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a> &amp;targetTypeCamParams)</td></tr>
-<tr class="separator:ade5f2087a09b7d124b20761b0727d5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af91c8c9d065406c68163f58e26963466" id="r_af91c8c9d065406c68163f58e26963466"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af91c8c9d065406c68163f58e26963466">readCameraImageCropArea</a> (const std::string &amp;filename, <a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a> &amp;targetTypeCamParams)</td></tr>
-<tr class="separator:af91c8c9d065406c68163f58e26963466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Atributos protegidos</h2></td></tr>
-<tr class="memitem:a531352cfc23157a6a18aabff42bacf69" id="r_a531352cfc23157a6a18aabff42bacf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d05/a01705.html">EnvPointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a531352cfc23157a6a18aabff42bacf69">_pointCloud</a> = nullptr</td></tr>
-<tr class="separator:a531352cfc23157a6a18aabff42bacf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8143a3570c4a017f1ed9488d06bf13ed" id="r_a8143a3570c4a017f1ed9488d06bf13ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d02/a01629.html">unibn::Octree</a>&lt; <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8143a3570c4a017f1ed9488d06bf13ed">_octree</a> = nullptr</td></tr>
-<tr class="separator:a8143a3570c4a017f1ed9488d06bf13ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794d20f15f3bb6fdf444b320590a853c" id="r_a794d20f15f3bb6fdf444b320590a853c"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794d20f15f3bb6fdf444b320590a853c">_camerasRGB</a></td></tr>
-<tr class="separator:a794d20f15f3bb6fdf444b320590a853c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a425f3e1f243ccb6c7c4338dc8d9abe4c" id="r_a425f3e1f243ccb6c7c4338dc8d9abe4c"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425f3e1f243ccb6c7c4338dc8d9abe4c">_camerasThermal</a></td></tr>
-<tr class="separator:a425f3e1f243ccb6c7c4338dc8d9abe4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14a54b772b7fd0e27865bc5476de5713" id="r_a14a54b772b7fd0e27865bc5476de5713"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14a54b772b7fd0e27865bc5476de5713">_offsetRGB</a> = <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f)</td></tr>
-<tr class="separator:a14a54b772b7fd0e27865bc5476de5713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7e4d41b2e3e967ec05a513a1048a04" id="r_a2a7e4d41b2e3e967ec05a513a1048a04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a7e4d41b2e3e967ec05a513a1048a04">_offsetThermal</a> = <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f)</td></tr>
-<tr class="separator:a2a7e4d41b2e3e967ec05a513a1048a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8e78c0bf1c94db8e72182c3fe3171e6" id="r_af8e78c0bf1c94db8e72182c3fe3171e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8e78c0bf1c94db8e72182c3fe3171e6">_globalCamParamsRGB</a></td></tr>
-<tr class="separator:af8e78c0bf1c94db8e72182c3fe3171e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec83808a60cd39bfde3d2f391ad04aea" id="r_aec83808a60cd39bfde3d2f391ad04aea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec83808a60cd39bfde3d2f391ad04aea">_globalCamParamsThermal</a></td></tr>
-<tr class="separator:aec83808a60cd39bfde3d2f391ad04aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61237c9117cf95ac00cb07098278afe5" id="r_a61237c9117cf95ac00cb07098278afe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d00/a01641.html">Rectangle2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61237c9117cf95ac00cb07098278afe5">_rectangleRGB</a></td></tr>
-<tr class="separator:a61237c9117cf95ac00cb07098278afe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2614f6987aadeea033f13d764f3cbc0e" id="r_a2614f6987aadeea033f13d764f3cbc0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d00/a01641.html">Rectangle2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2614f6987aadeea033f13d764f3cbc0e">_rectangleThermal</a></td></tr>
-<tr class="separator:a2614f6987aadeea033f13d764f3cbc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Amigas</h2></td></tr>
-<tr class="memitem:a5a0a096d8ce55e1db6c270487c48c4c9" id="r_a5a0a096d8ce55e1db6c270487c48c4c9"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a0a096d8ce55e1db6c270487c48c4c9">ThermalGUIAdapter</a></td></tr>
-<tr class="separator:a5a0a096d8ce55e1db6c270487c48c4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Atributos estáticos protegidos</h2></td></tr>
+<tr class="memitem:aab44d0f7e3b5d31dc2ffd5a63fd935c1" id="r_aab44d0f7e3b5d31dc2ffd5a63fd935c1"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab44d0f7e3b5d31dc2ffd5a63fd935c1">COLOR</a> = <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.4f, 0.4f, 0.4f)</td></tr>
+<tr class="separator:aab44d0f7e3b5d31dc2ffd5a63fd935c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78d24ff7022d13a2e8cda1246d32b64" id="r_ad78d24ff7022d13a2e8cda1246d32b64"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad78d24ff7022d13a2e8cda1246d32b64">POSITION</a> = <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f, 20.0f, 0.0f)</td></tr>
+<tr class="separator:ad78d24ff7022d13a2e8cda1246d32b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210b1b9076b9f1130cdfb1530446f0dc" id="r_a210b1b9076b9f1130cdfb1530446f0dc"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a210b1b9076b9f1130cdfb1530446f0dc">DIRECTION</a> = <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f, -1.0f, 0.0f)</td></tr>
+<tr class="separator:a210b1b9076b9f1130cdfb1530446f0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62268d6fbf671a953a875a12c6a9ecd4" id="r_a62268d6fbf671a953a875a12c6a9ecd4"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62268d6fbf671a953a875a12c6a9ecd4">EXPONENT_S</a> = 3.0f</td></tr>
+<tr class="separator:a62268d6fbf671a953a875a12c6a9ecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592800393dbfaf7ae19fbe44b26bcb40" id="r_a592800393dbfaf7ae19fbe44b26bcb40"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a592800393dbfaf7ae19fbe44b26bcb40">PENUMBRA_ANGLE</a> = 20.0f</td></tr>
+<tr class="separator:a592800393dbfaf7ae19fbe44b26bcb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c8460c09fa49c32891855e68fd3716" id="r_aa8c8460c09fa49c32891855e68fd3716"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8c8460c09fa49c32891855e68fd3716">UMBRA_ANGLE</a> = 35.0f</td></tr>
+<tr class="separator:aa8c8460c09fa49c32891855e68fd3716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f8caf8093459b5957fc9592c677fc19" id="r_a1f8caf8093459b5957fc9592c677fc19"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8caf8093459b5957fc9592c677fc19">C1</a> = 1.0f</td></tr>
+<tr class="separator:a1f8caf8093459b5957fc9592c677fc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90cf764ff1694c54e8dc5ff13e73405a" id="r_a90cf764ff1694c54e8dc5ff13e73405a"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90cf764ff1694c54e8dc5ff13e73405a">C2</a> = 0.0f</td></tr>
+<tr class="separator:a90cf764ff1694c54e8dc5ff13e73405a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f9d3fd20aee0393da8e7ff822c18128" id="r_a3f9d3fd20aee0393da8e7ff822c18128"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f9d3fd20aee0393da8e7ff822c18128">C3</a> = 0.0f</td></tr>
+<tr class="separator:a3f9d3fd20aee0393da8e7ff822c18128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18a456c394737412da161175c6ef762" id="r_ab18a456c394737412da161175c6ef762"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab18a456c394737412da161175c6ef762">MAX_DISTANCE</a> = 20.0f</td></tr>
+<tr class="separator:ab18a456c394737412da161175c6ef762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9056fae7b369a7067c7cd7c9d3733dbc" id="r_a9056fae7b369a7067c7cd7c9d3733dbc"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9056fae7b369a7067c7cd7c9d3733dbc">MIN_DISTANCE</a> = 4.0f</td></tr>
+<tr class="separator:a9056fae7b369a7067c7cd7c9d3733dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c68c02b0d55a52dd2b5843dd5ced36" id="r_af3c68c02b0d55a52dd2b5843dd5ced36"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3c68c02b0d55a52dd2b5843dd5ced36">FACTOR_C</a> = 0.6f</td></tr>
+<tr class="separator:af3c68c02b0d55a52dd2b5843dd5ced36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c7e4c9dfb5311e1ea7a4c94aa3236a" id="r_a71c7e4c9dfb5311e1ea7a4c94aa3236a"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c7e4c9dfb5311e1ea7a4c94aa3236a">DISTANCE_C</a> = 10.0f</td></tr>
+<tr class="separator:a71c7e4c9dfb5311e1ea7a4c94aa3236a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af511a7aeea3094cfb19e0ed2eaaa5b3c" id="r_af511a7aeea3094cfb19e0ed2eaaa5b3c"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af511a7aeea3094cfb19e0ed2eaaa5b3c">MAX_FACTOR</a> = 0.3f</td></tr>
+<tr class="separator:af511a7aeea3094cfb19e0ed2eaaa5b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e66d476de4f2b81be1985225b1814e6" id="r_a0e66d476de4f2b81be1985225b1814e6"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e66d476de4f2b81be1985225b1814e6">EXPONENT_SE</a> = 3.0f</td></tr>
+<tr class="separator:a0e66d476de4f2b81be1985225b1814e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a6842e2d807b22e22ce94c4475f11540d" name="a6842e2d807b22e22ce94c4475f11540d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6842e2d807b22e22ce94c4475f11540d">&#9670;&#160;</a></span>LightProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::LightProperties::LightProperties </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a6842e2d807b22e22ce94c4475f11540d_cgraph.svg" width="446" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac5a4b15c4c5b78b00552373ffdbc1924" name="ac5a4b15c4c5b78b00552373ffdbc1924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a4b15c4c5b78b00552373ffdbc1924">&#9670;&#160;</a></span>~LightProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::LightProperties::~LightProperties </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="ae03d060be28b798d5f21707bf7803b62" name="ae03d060be28b798d5f21707bf7803b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae03d060be28b798d5f21707bf7803b62">&#9670;&#160;</a></span>augmentCloud()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::augmentCloud </td>
-          <td>(</td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ae03d060be28b798d5f21707bf7803b62_cgraph.svg" width="415" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a5744648f0d918b565c8c479809d0c676" name="a5744648f0d918b565c8c479809d0c676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5744648f0d918b565c8c479809d0c676">&#9670;&#160;</a></span>cleanup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::cleanup </td>
-          <td>(</td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7543b442631fac3eb9f3f2afb2f36de9" name="a7543b442631fac3eb9f3f2afb2f36de9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7543b442631fac3eb9f3f2afb2f36de9">&#9670;&#160;</a></span>linkImages()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::linkImages </td>
-          <td>(</td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d90d8208a8ab8e8ea1a22b442c3a753" name="a2d90d8208a8ab8e8ea1a22b442c3a753"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d90d8208a8ab8e8ea1a22b442c3a753">&#9670;&#160;</a></span>loadImagesRGB()</h2>
+<a id="a82bed9592c905de8807077ab5f735ed1" name="a82bed9592c905de8807077ab5f735ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82bed9592c905de8807077ab5f735ed1">&#9670;&#160;</a></span>computePixarAttenuationCoefficients()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,14 +317,10 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::loadImagesRGB </td>
+          <td class="memname">void GEU::LightProperties::computePixarAttenuationCoefficients </td>
           <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>rgbPath</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -276,15 +330,15 @@ Gráfico de llamadas de esta función:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Gráfico de llamadas de esta función:</div>
+Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a2d90d8208a8ab8e8ea1a22b442c3a753_cgraph.svg" width="362" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a82bed9592c905de8807077ab5f735ed1_icgraph.svg" width="446" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a22feffc808fba4ed4fc72c328dca04c2" name="a22feffc808fba4ed4fc72c328dca04c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22feffc808fba4ed4fc72c328dca04c2">&#9670;&#160;</a></span>loadImagesThermal()</h2>
+<a id="aa668ebf2507a92f512c31d5716ec2693" name="aa668ebf2507a92f512c31d5716ec2693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa668ebf2507a92f512c31d5716ec2693">&#9670;&#160;</a></span>getAttenuationCoefficients()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,71 +347,28 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::loadImagesThermal </td>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::getAttenuationCoefficients </td>
           <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>thermalPath</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a22feffc808fba4ed4fc72c328dca04c2_cgraph.svg" width="362" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a6a08710e033620d8898cafcca26c17fb" name="a6a08710e033620d8898cafcca26c17fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a08710e033620d8898cafcca26c17fb">&#9670;&#160;</a></span>readCameraCalibratedParameters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraCalibratedParameters </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>targetTypeMap</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a6a08710e033620d8898cafcca26c17fb_cgraph.svg" width="479" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a6a08710e033620d8898cafcca26c17fb_icgraph.svg" width="439" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_aa668ebf2507a92f512c31d5716ec2693_icgraph.svg" width="396" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="ac4d5f810cfa1b9b5d7fe9e84e639d38d" name="ac4d5f810cfa1b9b5d7fe9e84e639d38d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4d5f810cfa1b9b5d7fe9e84e639d38d">&#9670;&#160;</a></span>readCameraExternalCalibratedParameters()</h2>
+<a id="a7081f4e79c15535faad91119bf60b9e0" name="a7081f4e79c15535faad91119bf60b9e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7081f4e79c15535faad91119bf60b9e0">&#9670;&#160;</a></span>getDirection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,37 +377,28 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraExternalCalibratedParameters </td>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::getDirection </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>targetTypeMap</em></span>&#160;)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ac4d5f810cfa1b9b5d7fe9e84e639d38d_cgraph.svg" width="460" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ac4d5f810cfa1b9b5d7fe9e84e639d38d_icgraph.svg" width="420" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a7081f4e79c15535faad91119bf60b9e0_icgraph.svg" width="383" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="af91c8c9d065406c68163f58e26963466" name="af91c8c9d065406c68163f58e26963466"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af91c8c9d065406c68163f58e26963466">&#9670;&#160;</a></span>readCameraImageCropArea()</h2>
+<a id="a1696134e639c5edafab0c49a74c0b41a" name="a1696134e639c5edafab0c49a74c0b41a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1696134e639c5edafab0c49a74c0b41a">&#9670;&#160;</a></span>getDistanceC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -405,37 +407,28 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraImageCropArea </td>
+          <td class="memname">float GEU::LightProperties::getDistanceC </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>targetTypeCamParams</em></span>&#160;)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_af91c8c9d065406c68163f58e26963466_cgraph.svg" width="443" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_af91c8c9d065406c68163f58e26963466_icgraph.svg" width="403" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a1696134e639c5edafab0c49a74c0b41a_icgraph.svg" width="356" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="ade5f2087a09b7d124b20761b0727d5c0" name="ade5f2087a09b7d124b20761b0727d5c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade5f2087a09b7d124b20761b0727d5c0">&#9670;&#160;</a></span>readCameraInternalCalibratedParameters()</h2>
+<a id="ad99832bfd3d21881fd43f2aed6b0ef5e" name="ad99832bfd3d21881fd43f2aed6b0ef5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99832bfd3d21881fd43f2aed6b0ef5e">&#9670;&#160;</a></span>getDistanceRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -444,68 +437,28 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraInternalCalibratedParameters </td>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a43182e59794291f6ab00e51b160706c2">vec2</a> GEU::LightProperties::getDistanceRange </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>targetTypeCamParams</em></span>&#160;)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ade5f2087a09b7d124b20761b0727d5c0_cgraph.svg" width="454" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ade5f2087a09b7d124b20761b0727d5c0_icgraph.svg" width="414" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ad99832bfd3d21881fd43f2aed6b0ef5e_icgraph.svg" width="378" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a94e82a3e31bc19fdbe1af2e1d5f6cecb" name="a94e82a3e31bc19fdbe1af2e1d5f6cecb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94e82a3e31bc19fdbe1af2e1d5f6cecb">&#9670;&#160;</a></span>readCameraMetadata()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraMetadata </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>rgbPath</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>thermalPath</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a94e82a3e31bc19fdbe1af2e1d5f6cecb_cgraph.svg" width="682" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ae92b5f8ffa8c5665618dcc2a07325083" name="ae92b5f8ffa8c5665618dcc2a07325083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae92b5f8ffa8c5665618dcc2a07325083">&#9670;&#160;</a></span>readCameraOffset()</h2>
+<a id="a6da7837617231e5eda02a68a1e331b45" name="a6da7837617231e5eda02a68a1e331b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6da7837617231e5eda02a68a1e331b45">&#9670;&#160;</a></span>getExponentS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,37 +467,28 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraOffset </td>
+          <td class="memname">float GEU::LightProperties::getExponentS </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>offsetTargetVec</em></span>&#160;)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ae92b5f8ffa8c5665618dcc2a07325083_cgraph.svg" width="410" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ae92b5f8ffa8c5665618dcc2a07325083_icgraph.svg" width="370" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a6da7837617231e5eda02a68a1e331b45_icgraph.svg" width="383" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a9d53ea82ca043cfdc5516f3c3c8ab0be" name="a9d53ea82ca043cfdc5516f3c3c8ab0be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d53ea82ca043cfdc5516f3c3c8ab0be">&#9670;&#160;</a></span>readCameraPMatrices()</h2>
+<a id="a9651e3709d82e84ac752156c2ca5a0d9" name="a9651e3709d82e84ac752156c2ca5a0d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9651e3709d82e84ac752156c2ca5a0d9">&#9670;&#160;</a></span>getExponentSE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,84 +497,28 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::readCameraPMatrices </td>
+          <td class="memname">float GEU::LightProperties::getExponentSE </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>targetTypeMap</em></span>&#160;)</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a9d53ea82ca043cfdc5516f3c3c8ab0be_cgraph.svg" width="412" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a9d53ea82ca043cfdc5516f3c3c8ab0be_icgraph.svg" width="372" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a9651e3709d82e84ac752156c2ca5a0d9_icgraph.svg" width="356" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="abefc46bc4ff9c2dd3fdbd960bf1d4d24" name="abefc46bc4ff9c2dd3fdbd960bf1d4d24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abefc46bc4ff9c2dd3fdbd960bf1d4d24">&#9670;&#160;</a></span>readTemperatureDJI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::readTemperatureDJI </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>imagesPath</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8e3b385d318cdddc4032eaddc09ae8b6" name="a8e3b385d318cdddc4032eaddc09ae8b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e3b385d318cdddc4032eaddc09ae8b6">&#9670;&#160;</a></span>readTemperatureFLIR()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::readTemperatureFLIR </td>
-          <td>(</td>
-          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>thermalCSVpath</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a8e3b385d318cdddc4032eaddc09ae8b6_cgraph.svg" width="410" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ac7d842177abfc35aa03649a38dd89c24" name="ac7d842177abfc35aa03649a38dd89c24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7d842177abfc35aa03649a38dd89c24">&#9670;&#160;</a></span>registerImages()</h2>
+<a id="a2a2276481b7a896f48dc31bf5c889b29" name="a2a2276481b7a896f48dc31bf5c889b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a2276481b7a896f48dc31bf5c889b29">&#9670;&#160;</a></span>getFactorC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -639,46 +527,28 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::ThermalAugment::registerImages </td>
+          <td class="memname">float GEU::LightProperties::getFactorC </td>
           <td>(</td>
-          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7d44bfe00e67702d5af13b627f6500f6" name="a7d44bfe00e67702d5af13b627f6500f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d44bfe00e67702d5af13b627f6500f6">&#9670;&#160;</a></span>setUpCloud()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ThermalAugment::setUpCloud </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d06/a01509.html">PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pc</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 <div class="dynheader">
-Gráfico de llamadas de esta función:</div>
+Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a7d44bfe00e67702d5af13b627f6500f6_cgraph.svg" width="398" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a2a2276481b7a896f48dc31bf5c889b29_icgraph.svg" width="356" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<h2 class="groupheader">Documentación de símbolos amigos y relacionados</h2>
-<a id="a5a0a096d8ce55e1db6c270487c48c4c9" name="a5a0a096d8ce55e1db6c270487c48c4c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a0a096d8ce55e1db6c270487c48c4c9">&#9670;&#160;</a></span>ThermalGUIAdapter</h2>
+<a id="ae4a1fb24c8fac2681fbd78995f0c182b" name="ae4a1fb24c8fac2681fbd78995f0c182b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a1fb24c8fac2681fbd78995f0c182b">&#9670;&#160;</a></span>getIa()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -687,21 +557,803 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="../../d3/d06/a01725.html">ThermalGUIAdapter</a></td>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::getIa </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ae4a1fb24c8fac2681fbd78995f0c182b_icgraph.svg" width="386" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="afdacdf757c493d4a7ec91c327c7b1a94" name="afdacdf757c493d4a7ec91c327c7b1a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdacdf757c493d4a7ec91c327c7b1a94">&#9670;&#160;</a></span>getId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::getId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_afdacdf757c493d4a7ec91c327c7b1a94_icgraph.svg" width="386" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa03f3c2e94578723488f1d3d7f9f6e66" name="aa03f3c2e94578723488f1d3d7f9f6e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa03f3c2e94578723488f1d3d7f9f6e66">&#9670;&#160;</a></span>getIs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::getIs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_aa03f3c2e94578723488f1d3d7f9f6e66_icgraph.svg" width="386" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8ac0191c8b44dc7878d7f11ce8ace8df" name="a8ac0191c8b44dc7878d7f11ce8ace8df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ac0191c8b44dc7878d7f11ce8ace8df">&#9670;&#160;</a></span>getKCoefficients()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a43182e59794291f6ab00e51b160706c2">vec2</a> GEU::LightProperties::getKCoefficients </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a8ac0191c8b44dc7878d7f11ce8ace8df_icgraph.svg" width="356" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9f4f35ca2b1cdeda15519da2f1d7cd89" name="a9f4f35ca2b1cdeda15519da2f1d7cd89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f4f35ca2b1cdeda15519da2f1d7cd89">&#9670;&#160;</a></span>getMaxAttFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::getMaxAttFactor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a9f4f35ca2b1cdeda15519da2f1d7cd89_icgraph.svg" width="356" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7b17a9c1793e22bcd7d7143f7cbab174" name="a7b17a9c1793e22bcd7d7143f7cbab174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b17a9c1793e22bcd7d7143f7cbab174">&#9670;&#160;</a></span>getPenumbraDegrees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::getPenumbraDegrees </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a7b17a9c1793e22bcd7d7143f7cbab174_icgraph.svg" width="392" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5e24c7b623bcb663511fc043050251b7" name="a5e24c7b623bcb663511fc043050251b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e24c7b623bcb663511fc043050251b7">&#9670;&#160;</a></span>getPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::getPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a5e24c7b623bcb663511fc043050251b7_icgraph.svg" width="386" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a662fc1c3eb32ab94cdcf1ffa2f00084f" name="a662fc1c3eb32ab94cdcf1ffa2f00084f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662fc1c3eb32ab94cdcf1ffa2f00084f">&#9670;&#160;</a></span>getUmbraDegrees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::getUmbraDegrees </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a662fc1c3eb32ab94cdcf1ffa2f00084f_icgraph.svg" width="383" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad4b674b446160aee4562468f521811a5" name="ad4b674b446160aee4562468f521811a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b674b446160aee4562468f521811a5">&#9670;&#160;</a></span>setAttenuationCoeffDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setAttenuationCoeffDistance </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>attFactor</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>distance</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37652bd5e21f461ffe064f4d235c1296" name="a37652bd5e21f461ffe064f4d235c1296"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37652bd5e21f461ffe064f4d235c1296">&#9670;&#160;</a></span>setAttenuationCoefficients()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setAttenuationCoefficients </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>c1</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>c2</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>c3</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac04946d90923d0c9684cce1199cdc419" name="ac04946d90923d0c9684cce1199cdc419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04946d90923d0c9684cce1199cdc419">&#9670;&#160;</a></span>setAttenuationDistanceRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setAttenuationDistanceRange </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistance</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1468b58d09166cf2d1e796418f7fa9f" name="ae1468b58d09166cf2d1e796418f7fa9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1468b58d09166cf2d1e796418f7fa9f">&#9670;&#160;</a></span>setDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setDirection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>direction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ae1468b58d09166cf2d1e796418f7fa9f_icgraph.svg" width="324" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad494e51d179e79adf4130e2310eae19e" name="ad494e51d179e79adf4130e2310eae19e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad494e51d179e79adf4130e2310eae19e">&#9670;&#160;</a></span>setExponentS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setExponentS </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>exponent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afee2de771de4a8f5d91aeab8361a1d10" name="afee2de771de4a8f5d91aeab8361a1d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee2de771de4a8f5d91aeab8361a1d10">&#9670;&#160;</a></span>setExponentSE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setExponentSE </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>exponentSE</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46d1840cb3a203d4f406a7a15e780578" name="a46d1840cb3a203d4f406a7a15e780578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46d1840cb3a203d4f406a7a15e780578">&#9670;&#160;</a></span>setIa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setIa </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Ia</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a46d1840cb3a203d4f406a7a15e780578_icgraph.svg" width="324" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a77d1fc2e0b60d71296fba05f5abdecb9" name="a77d1fc2e0b60d71296fba05f5abdecb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77d1fc2e0b60d71296fba05f5abdecb9">&#9670;&#160;</a></span>setId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a77d1fc2e0b60d71296fba05f5abdecb9_icgraph.svg" width="324" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5eed640be6fb680a237fb3596be5f12b" name="a5eed640be6fb680a237fb3596be5f12b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eed640be6fb680a237fb3596be5f12b">&#9670;&#160;</a></span>setIs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setIs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>Is</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_a5eed640be6fb680a237fb3596be5f12b_icgraph.svg" width="324" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="abee5ed56c19cd93556a239a878ad9a31" name="abee5ed56c19cd93556a239a878ad9a31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee5ed56c19cd93556a239a878ad9a31">&#9670;&#160;</a></span>setMaxAttenuationFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setMaxAttenuationFactor </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAttFactor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab261ab26d6bef8da2e62c53fc689597d" name="ab261ab26d6bef8da2e62c53fc689597d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab261ab26d6bef8da2e62c53fc689597d">&#9670;&#160;</a></span>setPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d07/a01709_ab261ab26d6bef8da2e62c53fc689597d_icgraph.svg" width="324" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae704e5d16fedded8f765dfc027095bbb" name="ae704e5d16fedded8f765dfc027095bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae704e5d16fedded8f765dfc027095bbb">&#9670;&#160;</a></span>setUmbraPenumbraRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::LightProperties::setUmbraPenumbraRange </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>innerAngle</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>outterAngle</em></span>&#160;)</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a794d20f15f3bb6fdf444b320590a853c" name="a794d20f15f3bb6fdf444b320590a853c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a794d20f15f3bb6fdf444b320590a853c">&#9670;&#160;</a></span>_camerasRGB</h2>
+<a id="af1af1fb2f5eb5063175b94ee896ad797" name="af1af1fb2f5eb5063175b94ee896ad797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1af1fb2f5eb5063175b94ee896ad797">&#9670;&#160;</a></span>_c1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_c1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2221ff1ee2134c206d62396bcba164e" name="ae2221ff1ee2134c206d62396bcba164e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2221ff1ee2134c206d62396bcba164e">&#9670;&#160;</a></span>_c2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_c2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae703f19ca22e6a92968386cc5cbf2df0" name="ae703f19ca22e6a92968386cc5cbf2df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae703f19ca22e6a92968386cc5cbf2df0">&#9670;&#160;</a></span>_c3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_c3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attenuation factor (Model 1) </p>
+
+</div>
+</div>
+<a id="a50a3038d877fda370748268e3668eb99" name="a50a3038d877fda370748268e3668eb99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a3038d877fda370748268e3668eb99">&#9670;&#160;</a></span>_direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::_direction</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Only for directional and spot lights. </p>
+
+</div>
+</div>
+<a id="a497f580c15465fbb55fc91469795d3b4" name="a497f580c15465fbb55fc91469795d3b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497f580c15465fbb55fc91469795d3b4">&#9670;&#160;</a></span>_distC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_distC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attenuation factor factorC is reached at distC distance (Model 3: Pixar) </p>
+
+</div>
+</div>
+<a id="a63c586199b1cf022f22c97b30156e389" name="a63c586199b1cf022f22c97b30156e389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63c586199b1cf022f22c97b30156e389">&#9670;&#160;</a></span>_exponentS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_exponentS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Phong exponent. </p>
+
+</div>
+</div>
+<a id="ad6b2cde8a5d2212ab488f572a37b7c2e" name="ad6b2cde8a5d2212ab488f572a37b7c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b2cde8a5d2212ab488f572a37b7c2e">&#9670;&#160;</a></span>_exponentSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_exponentSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decreases attenuation factor as the distance gets bigger (Model 3: Pixar) </p>
+
+</div>
+</div>
+<a id="a61e1e5f78340dbc5a373db2a18979530" name="a61e1e5f78340dbc5a373db2a18979530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e1e5f78340dbc5a373db2a18979530">&#9670;&#160;</a></span>_factorC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_factorC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3f437347e988e32e6fb79ccb8d96b98" name="ad3f437347e988e32e6fb79ccb8d96b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f437347e988e32e6fb79ccb8d96b98">&#9670;&#160;</a></span>_Ia</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::_Ia</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a073100df5898893c999f0856aa44c0b3" name="a073100df5898893c999f0856aa44c0b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a073100df5898893c999f0856aa44c0b3">&#9670;&#160;</a></span>_Id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::_Id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3acadd258ae6b11f7b41a429876185ac" name="a3acadd258ae6b11f7b41a429876185ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acadd258ae6b11f7b41a429876185ac">&#9670;&#160;</a></span>_Is</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::_Is</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ambient (as well as rim), diffuse and specular colors! </p>
+
+</div>
+</div>
+<a id="af7dc572a71bc3e66a140e10ad6932200" name="af7dc572a71bc3e66a140e10ad6932200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7dc572a71bc3e66a140e10ad6932200">&#9670;&#160;</a></span>_k0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_k0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a554674dbfee0236e4b1ea5aa89eab1b4" name="a554674dbfee0236e4b1ea5aa89eab1b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a554674dbfee0236e4b1ea5aa89eab1b4">&#9670;&#160;</a></span>_k1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_k1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivated attributes from previous variables (Model 3: Pixar) </p>
+
+</div>
+</div>
+<a id="a184fe801fdd329b9614d406d2f7cb5e7" name="a184fe801fdd329b9614d406d2f7cb5e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184fe801fdd329b9614d406d2f7cb5e7">&#9670;&#160;</a></span>_maxAttFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_maxAttFactor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maximum attenuation factor (Model 3: Pixar) </p>
+
+</div>
+</div>
+<a id="a36e8d91c9583c42cd32a356f6c9f0cfb" name="a36e8d91c9583c42cd32a356f6c9f0cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e8d91c9583c42cd32a356f6c9f0cfb">&#9670;&#160;</a></span>_maxDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_maxDistance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mininum distance -&gt; max distance (attenuation range) (Model 2) </p>
+
+</div>
+</div>
+<a id="aca14dca52f4148f5cd5b3434d89cfdd7" name="aca14dca52f4148f5cd5b3434d89cfdd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca14dca52f4148f5cd5b3434d89cfdd7">&#9670;&#160;</a></span>_minDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_minDistance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6f691313df2f116f7c460a9a310d1b1" name="ab6f691313df2f116f7c460a9a310d1b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f691313df2f116f7c460a9a310d1b1">&#9670;&#160;</a></span>_penumbraAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_penumbraAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Boundary angle which delimites the zone completely lighted (attenuation = 1) and the fading area (radians) </p>
+
+</div>
+</div>
+<a id="a233ba566be1077ed9689d65aa7ac8dd0" name="a233ba566be1077ed9689d65aa7ac8dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233ba566be1077ed9689d65aa7ac8dd0">&#9670;&#160;</a></span>_position</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::_position</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>World position. </p>
+
+</div>
+</div>
+<a id="ad0791c47838c203a4b3ff1be1e9d1562" name="ad0791c47838c203a4b3ff1be1e9d1562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0791c47838c203a4b3ff1be1e9d1562">&#9670;&#160;</a></span>_umbraAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::LightProperties::_umbraAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Boundary angle to attenuate completely the surface color (radians) </p>
+
+</div>
+</div>
+<a id="a1f8caf8093459b5957fc9592c677fc19" name="a1f8caf8093459b5957fc9592c677fc19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8caf8093459b5957fc9592c677fc19">&#9670;&#160;</a></span>C1</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -710,20 +1362,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a>&gt; GEU::ThermalAugment::_camerasRGB</td>
+          <td class="memname">const float GEU::LightProperties::C1 = 1.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a425f3e1f243ccb6c7c4338dc8d9abe4c" name="a425f3e1f243ccb6c7c4338dc8d9abe4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a425f3e1f243ccb6c7c4338dc8d9abe4c">&#9670;&#160;</a></span>_camerasThermal</h2>
+<a id="a90cf764ff1694c54e8dc5ff13e73405a" name="a90cf764ff1694c54e8dc5ff13e73405a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90cf764ff1694c54e8dc5ff13e73405a">&#9670;&#160;</a></span>C2</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -732,20 +1384,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="../../dd/d03/a01717.html">ThermalCameraParams</a>&gt; GEU::ThermalAugment::_camerasThermal</td>
+          <td class="memname">const float GEU::LightProperties::C2 = 0.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af8e78c0bf1c94db8e72182c3fe3171e6" name="af8e78c0bf1c94db8e72182c3fe3171e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8e78c0bf1c94db8e72182c3fe3171e6">&#9670;&#160;</a></span>_globalCamParamsRGB</h2>
+<a id="a3f9d3fd20aee0393da8e7ff822c18128" name="a3f9d3fd20aee0393da8e7ff822c18128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f9d3fd20aee0393da8e7ff822c18128">&#9670;&#160;</a></span>C3</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -754,20 +1406,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a> GEU::ThermalAugment::_globalCamParamsRGB</td>
+          <td class="memname">const float GEU::LightProperties::C3 = 0.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aec83808a60cd39bfde3d2f391ad04aea" name="aec83808a60cd39bfde3d2f391ad04aea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec83808a60cd39bfde3d2f391ad04aea">&#9670;&#160;</a></span>_globalCamParamsThermal</h2>
+<a id="aab44d0f7e3b5d31dc2ffd5a63fd935c1" name="aab44d0f7e3b5d31dc2ffd5a63fd935c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab44d0f7e3b5d31dc2ffd5a63fd935c1">&#9670;&#160;</a></span>COLOR</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -776,20 +1428,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d06/a01721.html">GlobalCameraParams</a> GEU::ThermalAugment::_globalCamParamsThermal</td>
+          <td class="memname">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::COLOR = <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.4f, 0.4f, 0.4f)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8143a3570c4a017f1ed9488d06bf13ed" name="a8143a3570c4a017f1ed9488d06bf13ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8143a3570c4a017f1ed9488d06bf13ed">&#9670;&#160;</a></span>_octree</h2>
+<a id="a210b1b9076b9f1130cdfb1530446f0dc" name="a210b1b9076b9f1130cdfb1530446f0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210b1b9076b9f1130cdfb1530446f0dc">&#9670;&#160;</a></span>DIRECTION</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -798,20 +1450,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d02/a01629.html">unibn::Octree</a>&lt;<a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&gt;* GEU::ThermalAugment::_octree = nullptr</td>
+          <td class="memname">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::DIRECTION = <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f, -1.0f, 0.0f)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a14a54b772b7fd0e27865bc5476de5713" name="a14a54b772b7fd0e27865bc5476de5713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14a54b772b7fd0e27865bc5476de5713">&#9670;&#160;</a></span>_offsetRGB</h2>
+<a id="a71c7e4c9dfb5311e1ea7a4c94aa3236a" name="a71c7e4c9dfb5311e1ea7a4c94aa3236a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71c7e4c9dfb5311e1ea7a4c94aa3236a">&#9670;&#160;</a></span>DISTANCE_C</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -820,20 +1472,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::ThermalAugment::_offsetRGB = <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f)</td>
+          <td class="memname">const float GEU::LightProperties::DISTANCE_C = 10.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2a7e4d41b2e3e967ec05a513a1048a04" name="a2a7e4d41b2e3e967ec05a513a1048a04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a7e4d41b2e3e967ec05a513a1048a04">&#9670;&#160;</a></span>_offsetThermal</h2>
+<a id="a62268d6fbf671a953a875a12c6a9ecd4" name="a62268d6fbf671a953a875a12c6a9ecd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62268d6fbf671a953a875a12c6a9ecd4">&#9670;&#160;</a></span>EXPONENT_S</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -842,20 +1494,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::ThermalAugment::_offsetThermal = <a class="el" href="../../d3/d07/a00305.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f)</td>
+          <td class="memname">const float GEU::LightProperties::EXPONENT_S = 3.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a531352cfc23157a6a18aabff42bacf69" name="a531352cfc23157a6a18aabff42bacf69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a531352cfc23157a6a18aabff42bacf69">&#9670;&#160;</a></span>_pointCloud</h2>
+<a id="a0e66d476de4f2b81be1985225b1814e6" name="a0e66d476de4f2b81be1985225b1814e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e66d476de4f2b81be1985225b1814e6">&#9670;&#160;</a></span>EXPONENT_SE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -864,20 +1516,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d05/a01705.html">EnvPointCloud</a>* GEU::ThermalAugment::_pointCloud = nullptr</td>
+          <td class="memname">const float GEU::LightProperties::EXPONENT_SE = 3.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a61237c9117cf95ac00cb07098278afe5" name="a61237c9117cf95ac00cb07098278afe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61237c9117cf95ac00cb07098278afe5">&#9670;&#160;</a></span>_rectangleRGB</h2>
+<a id="af3c68c02b0d55a52dd2b5843dd5ced36" name="af3c68c02b0d55a52dd2b5843dd5ced36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c68c02b0d55a52dd2b5843dd5ced36">&#9670;&#160;</a></span>FACTOR_C</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -886,20 +1538,20 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d00/a01641.html">Rectangle2D</a> GEU::ThermalAugment::_rectangleRGB</td>
+          <td class="memname">const float GEU::LightProperties::FACTOR_C = 0.6f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2614f6987aadeea033f13d764f3cbc0e" name="a2614f6987aadeea033f13d764f3cbc0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2614f6987aadeea033f13d764f3cbc0e">&#9670;&#160;</a></span>_rectangleThermal</h2>
+<a id="ab18a456c394737412da161175c6ef762" name="ab18a456c394737412da161175c6ef762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18a456c394737412da161175c6ef762">&#9670;&#160;</a></span>MAX_DISTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -908,12 +1560,122 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d00/a01641.html">Rectangle2D</a> GEU::ThermalAugment::_rectangleThermal</td>
+          <td class="memname">const float GEU::LightProperties::MAX_DISTANCE = 20.0f</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af511a7aeea3094cfb19e0ed2eaaa5b3c" name="af511a7aeea3094cfb19e0ed2eaaa5b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af511a7aeea3094cfb19e0ed2eaaa5b3c">&#9670;&#160;</a></span>MAX_FACTOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float GEU::LightProperties::MAX_FACTOR = 0.3f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9056fae7b369a7067c7cd7c9d3733dbc" name="a9056fae7b369a7067c7cd7c9d3733dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9056fae7b369a7067c7cd7c9d3733dbc">&#9670;&#160;</a></span>MIN_DISTANCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float GEU::LightProperties::MIN_DISTANCE = 4.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a592800393dbfaf7ae19fbe44b26bcb40" name="a592800393dbfaf7ae19fbe44b26bcb40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592800393dbfaf7ae19fbe44b26bcb40">&#9670;&#160;</a></span>PENUMBRA_ANGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float GEU::LightProperties::PENUMBRA_ANGLE = 20.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad78d24ff7022d13a2e8cda1246d32b64" name="ad78d24ff7022d13a2e8cda1246d32b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad78d24ff7022d13a2e8cda1246d32b64">&#9670;&#160;</a></span>POSITION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::LightProperties::POSITION = <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>(0.0f, 20.0f, 0.0f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8c8460c09fa49c32891855e68fd3716" name="aa8c8460c09fa49c32891855e68fd3716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c8460c09fa49c32891855e68fd3716">&#9670;&#160;</a></span>UMBRA_ANGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float GEU::LightProperties::UMBRA_ANGLE = 35.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -921,8 +1683,8 @@ Gráfico de llamadas de esta función:</div>
 </div>
 </div>
 <hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
-<li>C:/GitHub/GEU/GEU/Source/Modules/Termica/<a class="el" href="../../d6/d02/a00293_source.html">ThermalAugment.h</a></li>
-<li>C:/GitHub/GEU/GEU/Source/Modules/Termica/<a class="el" href="../../de/d05/a00290.html">ThermalAugment.cpp</a></li>
+<li>D:/GEU/GEUCore/Source/Graphics/Lights/<a class="el" href="../../d7/d00/a00236_source.html">LightModel.h</a></li>
+<li>D:/GEU/GEUCore/Source/Graphics/Lights/<a class="el" href="../../d6/d01/a00233.html">LightModel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del archivo C:/GitHub/GEU/GEU/Source/UI/PickingWindow.cpp</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia del archivo D:/GEU/GEUCore/Source/Utilities/CURLWrapper.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,18 +94,36 @@ $(function(){initNavTree('d8/d01/a00410.html','../../'); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Referencia del archivo PickingWindow.cpp</div></div>
+  <div class="summary">
+<a href="#namespaces">Espacios de nombres</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo CURLWrapper.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d07/a00305_source.html">stdafx.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d04/a00413_source.html">PickingWindow.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d05/a00374_source.html">GuiUtilities.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d02/a00041_source.html">Core/InputManager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d00/a00107_source.html">Core/Renderer.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Gráfico de dependencias incluidas en PickingWindow.cpp:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d06/a00411.svg" width="5308" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="textblock"><code>#include &lt;regex&gt;</code><br />
+<code>#include &lt;curlpp/cURLpp.hpp&gt;</code><br />
+<code>#include &lt;curlpp/Options.hpp&gt;</code><br />
+<code>#include &lt;curlpp/Easy.hpp&gt;</code><br />
 </div>
-</div></div><!-- contents -->
+<p><a href="../../d8/d01/a00410_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Espacios de nombres</h2></td></tr>
+<tr class="memitem:d7/d04/a00634" id="r_d7/d04/a00634"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d04/a00634.html">CURLWrapper</a></td></tr>
+<tr class="memdesc:d7/d04/a00634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic CURL utilities, used for simple HTTP requests. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:afb7c426f046c1f87300d4751fa493652" id="r_afb7c426f046c1f87300d4751fa493652"><td class="memItemLeft" align="right" valign="top">std::ostringstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d04/a00634.html#afb7c426f046c1f87300d4751fa493652">CURLWrapper::requestURL</a> (const std::string &amp;url, const long &amp;port=80)</td></tr>
+<tr class="memdesc:afb7c426f046c1f87300d4751fa493652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a GET request to given url at target port.  <br /></td></tr>
+<tr class="separator:afb7c426f046c1f87300d4751fa493652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3585b90ea77ef1dac9d94a88de43a9c2" id="r_a3585b90ea77ef1dac9d94a88de43a9c2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d04/a00634.html#a3585b90ea77ef1dac9d94a88de43a9c2">CURLWrapper::encodeURL</a> (const std::string &amp;url)</td></tr>
+<tr class="memdesc:a3585b90ea77ef1dac9d94a88de43a9c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces URL special characters with their ASCII code.  <br /></td></tr>
+<tr class="separator:a3585b90ea77ef1dac9d94a88de43a9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0c81afc7a1c4864caca7e26ada716f" id="r_a9d0c81afc7a1c4864caca7e26ada716f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d04/a00634.html#a9d0c81afc7a1c4864caca7e26ada716f">CURLWrapper::decodeURL</a> (const std::string &amp;url)</td></tr>
+<tr class="memdesc:a9d0c81afc7a1c4864caca7e26ada716f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces URL special encoded caracters as plain text.  <br /></td></tr>
+<tr class="separator:a9d0c81afc7a1c4864caca7e26ada716f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
 </div><!-- doc-content -->

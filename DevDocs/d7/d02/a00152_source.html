@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Archivo de código fuente C:/GitHub/GEU/GEU/Source/Core/TextureList.h</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Archivo de código fuente D:/GEU/GEUCore/Source/DataTypes/Geometry/Operators3D.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -100,81 +99,87 @@ $(function(){initNavTree('d7/d02/a00152_source.html','../../'); initResizable();
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">TextureList.h</div></div>
+  <div class="headertitle"><div class="title">Operators3D.h</div></div>
 </div><!--header-->
 <div class="contents">
 <a href="../../d7/d02/a00152.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d06/a00146.html">Texture.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/d06/a00509.html">Utilities/Singleton.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d9/d04/a01557.html">    6</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d9/d04/a01557.html">TextureList</a>: <span class="keyword">public</span> <a class="code hl_class" href="../../d5/d01/a01945.html">GEU::Singleton</a>&lt;TextureList&gt;</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d9/d04/a01557.html#a6f3057965aab13b68f3bcb4b262c53f8">    8</a></span>    <span class="keyword">friend</span> <a class="code hl_variable" href="../../d9/d04/a01557.html#a6f3057965aab13b68f3bcb4b262c53f8">Singleton</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">private</span>:</div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d2/d01/a01561.html">   11</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="../../d2/d01/a01561.html">ColorHash</a> {</div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d2/d01/a01561.html#a664ee660c38a39b326197ae0167acbcb">   12</a></span>        std::size_t <a class="code hl_function" href="../../d2/d01/a01561.html#a664ee660c38a39b326197ae0167acbcb">operator()</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; color)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">        </span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            <span class="keyword">const</span> glm::ivec4 iColor = color * 256.0f;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(iColor.x + iColor.y * 256 + iColor.z * 512 + iColor.w + 1024);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        }</div>
+<div class="foldopen" id="foldopen00003" data-start="{" data-end="}">
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d3/d03/a00627.html">    3</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d3/d03/a00627.html">GEU::Operators3D</a></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/d03/a00627.html#a0a99a48e076892312a722187ee14028d">checkRayAABB</a>(<a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; hitPos);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
 </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    };</div>
-</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d6/d02/a01565.html">   19</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="../../d6/d02/a01565.html">ColorEqual</a> {</div>
-<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d6/d02/a01565.html#a2b1c1592369fbc5b349bef6c30d7d524">   20</a></span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d6/d02/a01565.html#a2b1c1592369fbc5b349bef6c30d7d524">operator()</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; c1, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; c2)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">        </span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="keywordflow">return</span> glm::distance(c1, c2) &lt; glm::epsilon&lt;float&gt;();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        }</div>
-</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d3/d03/a00627.html#a0a99a48e076892312a722187ee14028d">   17</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/d03/a00627.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a>(<a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="code hl_typedef" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; hitPos)</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">enum</span> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        NUMDIM = 3,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        RIGHT = 0,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        LEFT = 1,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        MIDDLE = 2</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    };</div>
-</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d9/d04/a01557.html#a9128eb96249f94c39c1e861ddb7f79a7">   27</a></span>    std::unordered_map&lt;vec4, GEU::Texture*, ColorHash, ColorEqual&gt; <a class="code hl_variable" href="../../d9/d04/a01557.html#a9128eb96249f94c39c1e861ddb7f79a7">_colorTexture</a>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d9/d04/a01557.html#a43e234643b6eaa0df8065bd616663ab4">   28</a></span>    std::unordered_map&lt;std::string, GEU::Texture*&gt;      <a class="code hl_variable" href="../../d9/d04/a01557.html#a43e234643b6eaa0df8065bd616663ab4">_imageTexture</a>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_function" href="../../d9/d04/a01557.html#a750d37ace9aed214e8cbe1f940faf06f">TextureList</a>();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">virtual</span> <a class="code hl_function" href="../../d9/d04/a01557.html#a11871c1708ae579b3cd39cb8a8cc1d88">~TextureList</a>();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_class" href="../../d3/d03/a01549.html">GEU::Texture</a>* <a class="code hl_function" href="../../d9/d04/a01557.html#aa0ed52420405c37f940cb4268a2577dc">isTextureAvailable</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; color);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_class" href="../../d3/d03/a01549.html">GEU::Texture</a>* <a class="code hl_function" href="../../d9/d04/a01557.html#aa0ed52420405c37f940cb4268a2577dc">isTextureAvailable</a>(<span class="keyword">const</span> std::string&amp; path);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d04/a01557.html#a42e16f75813a4c9d86ac79aaeef229e4">saveTexture</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; color, <a class="code hl_class" href="../../d3/d03/a01549.html">GEU::Texture</a>* texture);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d04/a01557.html#a42e16f75813a4c9d86ac79aaeef229e4">saveTexture</a>(<span class="keyword">const</span> std::string&amp; path, <a class="code hl_class" href="../../d3/d03/a01549.html">GEU::Texture</a>* texture);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    std::vector&lt;vec4&gt; <a class="code hl_function" href="../../d9/d04/a01557.html#a7025f41af3194004ca02034f279c7bae">getAllColorTex</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    std::vector&lt;std::string&gt; <a class="code hl_function" href="../../d9/d04/a01557.html#a5036b22700741e0e40da40c5f41044d0">getAllImageTex</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">bool</span> inside = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">char</span> quadrant[3];</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">int</span> i;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">double</span> maxT[3];</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">double</span> candidatePlane[3];</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">/* Find candidate planes; this loop can be avoided if</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">    rays cast all from the eye(assume perpsective view) */</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">if</span> (rayOrig[i] &lt; min[i]) {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            quadrant[i] = LEFT;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            candidatePlane[i] = min[i];</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            inside = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rayOrig[i] &gt; max[i]) {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            quadrant[i] = RIGHT;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            candidatePlane[i] = max[i];</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            inside = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            quadrant[i] = MIDDLE;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">/* Ray rayOrig inside bounding box */</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">if</span> (inside) {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        hitPos = rayOrig;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">/* Calculate T distances to candidate planes */</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">if</span> (quadrant[i] != MIDDLE &amp;&amp; rayDir[i] != 0.)</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            maxT[i] = (candidatePlane[i] - rayOrig[i]) / rayDir[i];</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            maxT[i] = -1.;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="comment">/* Get largest of the maxT&#39;s for final choice of intersection */</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">int</span> whichPlane = 0;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordflow">for</span> (i = 1; i &lt; 3; i++)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">if</span> (maxT[whichPlane] &lt; maxT[i])</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            whichPlane = i;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">/* Check final candidate actually inside box */</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">if</span> (maxT[whichPlane] &lt; 0.) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordflow">if</span> (whichPlane != i) {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            hitPos[i] = rayOrig[i] + maxT[whichPlane] * rayDir[i];</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordflow">if</span> (hitPos[i] &lt; min[i] || hitPos[i] &gt; max[i])</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        }</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            hitPos[i] = candidatePlane[i];</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        }</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;                <span class="comment">/* ray hits box */</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}</div>
 </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="ttc" id="aa00146_html"><div class="ttname"><a href="../../d9/d06/a00146.html">Texture.h</a></div></div>
-<div class="ttc" id="aa00305_html_ac54e849f8b2339f592307eaf6cdbba77"><div class="ttname"><a href="../../d3/d07/a00305.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a></div><div class="ttdeci">glm::vec4 vec4</div><div class="ttdef"><b>Definition</b> stdafx.h:63</div></div>
-<div class="ttc" id="aa00509_html"><div class="ttname"><a href="../../df/d06/a00509.html">Singleton.h</a></div></div>
-<div class="ttc" id="aa01549_html"><div class="ttname"><a href="../../d3/d03/a01549.html">GEU::Texture</a></div><div class="ttdef"><b>Definition</b> Texture.h:9</div></div>
-<div class="ttc" id="aa01557_html"><div class="ttname"><a href="../../d9/d04/a01557.html">TextureList</a></div><div class="ttdef"><b>Definition</b> TextureList.h:7</div></div>
-<div class="ttc" id="aa01557_html_a11871c1708ae579b3cd39cb8a8cc1d88"><div class="ttname"><a href="../../d9/d04/a01557.html#a11871c1708ae579b3cd39cb8a8cc1d88">TextureList::~TextureList</a></div><div class="ttdeci">virtual ~TextureList()</div><div class="ttdef"><b>Definition</b> TextureList.cpp:6</div></div>
-<div class="ttc" id="aa01557_html_a42e16f75813a4c9d86ac79aaeef229e4"><div class="ttname"><a href="../../d9/d04/a01557.html#a42e16f75813a4c9d86ac79aaeef229e4">TextureList::saveTexture</a></div><div class="ttdeci">void saveTexture(const vec4 &amp;color, GEU::Texture *texture)</div><div class="ttdef"><b>Definition</b> TextureList.cpp:28</div></div>
-<div class="ttc" id="aa01557_html_a43e234643b6eaa0df8065bd616663ab4"><div class="ttname"><a href="../../d9/d04/a01557.html#a43e234643b6eaa0df8065bd616663ab4">TextureList::_imageTexture</a></div><div class="ttdeci">std::unordered_map&lt; std::string, GEU::Texture * &gt; _imageTexture</div><div class="ttdef"><b>Definition</b> TextureList.h:28</div></div>
-<div class="ttc" id="aa01557_html_a5036b22700741e0e40da40c5f41044d0"><div class="ttname"><a href="../../d9/d04/a01557.html#a5036b22700741e0e40da40c5f41044d0">TextureList::getAllImageTex</a></div><div class="ttdeci">std::vector&lt; std::string &gt; getAllImageTex() const</div><div class="ttdef"><b>Definition</b> TextureList.cpp:46</div></div>
-<div class="ttc" id="aa01557_html_a6f3057965aab13b68f3bcb4b262c53f8"><div class="ttname"><a href="../../d9/d04/a01557.html#a6f3057965aab13b68f3bcb4b262c53f8">TextureList::Singleton</a></div><div class="ttdeci">friend Singleton</div><div class="ttdef"><b>Definition</b> TextureList.h:8</div></div>
-<div class="ttc" id="aa01557_html_a7025f41af3194004ca02034f279c7bae"><div class="ttname"><a href="../../d9/d04/a01557.html#a7025f41af3194004ca02034f279c7bae">TextureList::getAllColorTex</a></div><div class="ttdeci">std::vector&lt; vec4 &gt; getAllColorTex() const</div><div class="ttdef"><b>Definition</b> TextureList.cpp:36</div></div>
-<div class="ttc" id="aa01557_html_a750d37ace9aed214e8cbe1f940faf06f"><div class="ttname"><a href="../../d9/d04/a01557.html#a750d37ace9aed214e8cbe1f940faf06f">TextureList::TextureList</a></div><div class="ttdeci">TextureList()</div><div class="ttdef"><b>Definition</b> TextureList.cpp:4</div></div>
-<div class="ttc" id="aa01557_html_a9128eb96249f94c39c1e861ddb7f79a7"><div class="ttname"><a href="../../d9/d04/a01557.html#a9128eb96249f94c39c1e861ddb7f79a7">TextureList::_colorTexture</a></div><div class="ttdeci">std::unordered_map&lt; vec4, GEU::Texture *, ColorHash, ColorEqual &gt; _colorTexture</div><div class="ttdef"><b>Definition</b> TextureList.h:27</div></div>
-<div class="ttc" id="aa01557_html_aa0ed52420405c37f940cb4268a2577dc"><div class="ttname"><a href="../../d9/d04/a01557.html#aa0ed52420405c37f940cb4268a2577dc">TextureList::isTextureAvailable</a></div><div class="ttdeci">GEU::Texture * isTextureAvailable(const vec4 &amp;color)</div><div class="ttdef"><b>Definition</b> TextureList.cpp:16</div></div>
-<div class="ttc" id="aa01561_html"><div class="ttname"><a href="../../d2/d01/a01561.html">TextureList::ColorHash</a></div><div class="ttdef"><b>Definition</b> TextureList.h:11</div></div>
-<div class="ttc" id="aa01561_html_a664ee660c38a39b326197ae0167acbcb"><div class="ttname"><a href="../../d2/d01/a01561.html#a664ee660c38a39b326197ae0167acbcb">TextureList::ColorHash::operator()</a></div><div class="ttdeci">std::size_t operator()(const vec4 &amp;color) const</div><div class="ttdef"><b>Definition</b> TextureList.h:12</div></div>
-<div class="ttc" id="aa01565_html"><div class="ttname"><a href="../../d6/d02/a01565.html">TextureList::ColorEqual</a></div><div class="ttdef"><b>Definition</b> TextureList.h:19</div></div>
-<div class="ttc" id="aa01565_html_a2b1c1592369fbc5b349bef6c30d7d524"><div class="ttname"><a href="../../d6/d02/a01565.html#a2b1c1592369fbc5b349bef6c30d7d524">TextureList::ColorEqual::operator()</a></div><div class="ttdeci">bool operator()(const vec4 &amp;c1, const vec4 &amp;c2) const</div><div class="ttdef"><b>Definition</b> TextureList.h:20</div></div>
-<div class="ttc" id="aa01945_html"><div class="ttname"><a href="../../d5/d01/a01945.html">GEU::Singleton</a></div><div class="ttdef"><b>Definition</b> Singleton.h:4</div></div>
+<div class="ttc" id="aa00014_html_a3d0ce73e3199de81565fb01632415288"><div class="ttname"><a href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a></div><div class="ttdeci">glm::vec3 vec3</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:61</div></div>
+<div class="ttc" id="aa00627_html"><div class="ttname"><a href="../../d3/d03/a00627.html">GEU::Operators3D</a></div><div class="ttdef"><b>Definition</b> Operators3D.h:4</div></div>
+<div class="ttc" id="aa00627_html_a0a99a48e076892312a722187ee14028d"><div class="ttname"><a href="../../d3/d03/a00627.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a></div><div class="ttdeci">bool checkRayAABB(vec3 min, vec3 max, vec3 rayOrig, vec3 rayDir, vec3 &amp;hitPos)</div><div class="ttdoc">Check intersection between AABB and ray. Adapted from https://github.com/erich666/GraphicsGems/blob/m...</div><div class="ttdef"><b>Definition</b> Operators3D.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

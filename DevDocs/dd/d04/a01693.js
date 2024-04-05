@@ -1,47 +1,9 @@
 var a01693 =
 [
-    [ "SegmentAABB", "d6/d05/a01697.html", "d6/d05/a01697" ],
-    [ "SEGMENTATION_INPUT_CHANNEL", "dd/d04/a01693.html#a7c3206f5b6a9da74ef3533d2ad17faa3", [
-      [ "RGB", "dd/d04/a01693.html#a7c3206f5b6a9da74ef3533d2ad17faa3a889574aebacda6bfd3e534e2b49b8028", null ],
-      [ "R", "dd/d04/a01693.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae1e1d3d40573127e9ee0480caf1283d6", null ],
-      [ "G", "dd/d04/a01693.html#a7c3206f5b6a9da74ef3533d2ad17faa3adfcf28d0734569a6a693bc8194de62bf", null ],
-      [ "B", "dd/d04/a01693.html#a7c3206f5b6a9da74ef3533d2ad17faa3a9d5ed678fe57bcca610140957afab571", null ],
-      [ "count", "dd/d04/a01693.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae2942a04780e223b215eb8b663cf5353", null ]
+    [ "AttenuationModel", "dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55f", [
+      [ "DEFAULT_DISTANCE", "dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55fa6725dbf4ed89d8949397f2d824048adf", null ],
+      [ "CONTROLLED_DISTANCE", "dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55fa660c0671289476cbbab5f1a612ad0a1b", null ],
+      [ "PIXAR", "dd/d04/a01693.html#ac6c693d974ee09f472c9af9514cdd55fa4da4a7ddb39b7d912c2edb3f4c77a5ca", null ]
     ] ],
-    [ "ImageTreeSegmentation", "dd/d04/a01693.html#a4ffb3c99b81b40da01eb214f473ff94e", null ],
-    [ "~ImageTreeSegmentation", "dd/d04/a01693.html#aa91e8670297a0de7a3747e966766da8a", null ],
-    [ "applyDilation", "dd/d04/a01693.html#a5db4255736627fd8838786288160b24f", null ],
-    [ "applySegmentation", "dd/d04/a01693.html#a9c6a57ec9177bd291fa8b59a34caccf3", null ],
-    [ "applyThresholding", "dd/d04/a01693.html#a34dc2baba94657f3b1e631a4f9a69254", null ],
-    [ "findPointedSegment", "dd/d04/a01693.html#a40425ce4d51f695b2943b665cbe08497", null ],
-    [ "removePointedSegment", "dd/d04/a01693.html#ae734f99ebf17d79bf6d4c3b4a4f5c47a", null ],
-    [ "removePointedSegmentsCircle", "dd/d04/a01693.html#ad5a9edf9ee64970cd04cefa186743053", null ],
-    [ "removePointedSegmentsSquare", "dd/d04/a01693.html#a8d7dbc95a79e13c72af7841bf379def6", null ],
-    [ "setInputPath", "dd/d04/a01693.html#ad9b92957ef636675b93ad6c716c4b7b4", null ],
-    [ "validateDilateKernelIterations", "dd/d04/a01693.html#a0ccc3b02a8a31aba032f8bab753121c5", null ],
-    [ "validateDilateKernelSize", "dd/d04/a01693.html#a67d26c7c680cabbbcd6e1780a2982045", null ],
-    [ "validateThresholdRange", "dd/d04/a01693.html#ad7219705abe6253efc28f79e46d2beef", null ],
-    [ "TreeSegmentationGUIAdapter", "dd/d04/a01693.html#af6d8979535bed040c364556fe5d89b4b", null ],
-    [ "_contourApproxMode", "dd/d04/a01693.html#a8c8899e66060a0e79cffb29cc4aa9c1a", null ],
-    [ "_dilatedImageMat", "dd/d04/a01693.html#a65543cf9a286da4071c118b032ef36ec", null ],
-    [ "_dilatedImageTexture", "dd/d04/a01693.html#aaea5a2eed26f14d65b9cd5ac53649722", null ],
-    [ "_inputChannel", "dd/d04/a01693.html#a744c73e8f8d2ba5095e02b47d329d226", null ],
-    [ "_inputImageMat", "dd/d04/a01693.html#a0a9171387d7e410c6d12ecb112873287", null ],
-    [ "_inputImagePath", "dd/d04/a01693.html#aa263c2a234667feb944afe447031fcb8", null ],
-    [ "_inputImageTexture", "dd/d04/a01693.html#a07521b69228c63ebfb875c5786676b30", null ],
-    [ "_invertThreshold", "dd/d04/a01693.html#ac9046ae1ab6003e5f1351348fddd8b81", null ],
-    [ "_kernelDilation", "dd/d04/a01693.html#a5c30aaf6534edc0990d70c774556fbce", null ],
-    [ "_kernelIterations", "dd/d04/a01693.html#a9cbbef2b02cfb2657323206f2a615b88", null ],
-    [ "_kernelSize", "dd/d04/a01693.html#af9912ab2f261cf3087cd065a6826fb76", null ],
-    [ "_segmentationActive", "dd/d04/a01693.html#a97896dae8b00a1c536606faed5db9528", null ],
-    [ "_segmentationProgress", "dd/d04/a01693.html#adcbd574573bd5fbe800cbfad6b5ce038", null ],
-    [ "_segmentationResult", "dd/d04/a01693.html#aff59b0158ec7cca56259f22eed2c5b7d", null ],
-    [ "_segmentationThread", "dd/d04/a01693.html#a73d9daed97017271fb0e03678f69908a", null ],
-    [ "_segmentSizeLimits", "dd/d04/a01693.html#a8beb594bf33ab02cdd5f3cbe9abc7eaf", null ],
-    [ "_thresholdedImageMat", "dd/d04/a01693.html#a0020dd8cc615c29f74e61494886ac225", null ],
-    [ "_thresholdedImageTexture", "dd/d04/a01693.html#a4c14f017e58695a478ae65aa41997871", null ],
-    [ "_thresholdMax", "dd/d04/a01693.html#ac57772156e0812d43a92b901a3c0b17a", null ],
-    [ "_thresholdValue", "dd/d04/a01693.html#a4cf864827239bf8aaaba195ffd912b6a", null ],
-    [ "CONTOUR_APPROX_MODES", "dd/d04/a01693.html#a078e5c3210338b3f74085b217addd8b9", null ],
-    [ "INPUT_CHANNELS", "dd/d04/a01693.html#a6383e6bea99441774280d0f434b2e6f0", null ]
+    [ "applyAttenuation", "dd/d04/a01693.html#ab10a17b5ad92bdd6071b9a726face833", null ]
 ];

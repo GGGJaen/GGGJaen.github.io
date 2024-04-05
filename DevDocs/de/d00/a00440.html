@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del archivo C:/GitHub/GEU/GEU/Source/Utilities/CURLhandler.cpp</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia del archivo D:/GEU/GEUCore/Source/Utilities/json.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,15 +94,127 @@ $(function(){initNavTree('de/d00/a00440.html','../../'); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Referencia del archivo CURLhandler.cpp</div></div>
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#namespaces">Espacios de nombres</a> &#124;
+<a href="#typedef-members">typedefs</a> &#124;
+<a href="#enum-members">Enumeraciones</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo json.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d07/a00305_source.html">stdafx.h</a>&quot;</code><br />
-<code>#include &quot;CURLhandler.h&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Gráfico de dependencias incluidas en CURLhandler.cpp:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d06/a00441.svg" width="5308" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+
+<p>Simpleson header file.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 </div>
+<p><a href="../../de/d00/a00440_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d02/a01977.html">json::invalid_key</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception used for invalid JSON keys.  <a href="../../d5/d02/a01977.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/a01981.html">json::parsing_error</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception used when invalid JSON is encountered.  <a href="../../df/d02/a01981.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/a01985.html">json::reader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value reader.  <a href="../../d3/d07/a01985.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d07/a01989.html">json::kvp_reader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for reading object key value pairs.  <a href="../../dc/d07/a01989.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d01/a01993.html">json::parsing::parse_results</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for capturing the results of parsing.  <a href="../../d0/d01/a01993.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d03/a01997.html">json::jobject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class used for manipulating JSON objects and arrays.  <a href="../../d0/d03/a01997.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d04/a02001.html">json::jobject::entry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a value in the object.  <a href="../../d8/d04/a02001.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/a02005.html">json::jobject::const_value</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents an entry as a constant value.  <a href="../../d3/d01/a02005.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d00/a02009.html">json::jobject::const_proxy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents an entry as a constant proxy to the value.  <a href="../../d8/d00/a02009.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d05/a02013.html">json::jobject::proxy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A proxy that allows modification of the value.  <a href="../../d1/d05/a02013.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Espacios de nombres</h2></td></tr>
+<tr class="memitem:de/d03/a00637" id="r_de/d03/a00637"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/a00637.html">json</a></td></tr>
+<tr class="memdesc:de/d03/a00637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base namespace for simpleson. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d1/d02/a00638" id="r_d1/d02/a00638"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d02/a00638.html">json::jtype</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d06/a00639" id="r_dd/d06/a00639"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html">json::parsing</a></td></tr>
+<tr class="memdesc:dd/d06/a00639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace used for JSON parsing functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+typedefs</h2></td></tr>
+<tr class="memitem:abe2acef74d8536edb83b59cf42f497e5" id="r_abe2acef74d8536edb83b59cf42f497e5"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/a00637.html#abe2acef74d8536edb83b59cf42f497e5">json::kvp</a></td></tr>
+<tr class="memdesc:abe2acef74d8536edb83b59cf42f497e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(k)ey (v)alue (p)air  <br /></td></tr>
+<tr class="separator:abe2acef74d8536edb83b59cf42f497e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumeraciones</h2></td></tr>
+<tr class="memitem:a39a3ac5b26ad6618ae567eb0c8d67305" id="r_a39a3ac5b26ad6618ae567eb0c8d67305"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305">json::jtype::jtype</a> { <br />
+&#160;&#160;<a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305abb9cd9b26ae920188bf8309864819a1b">json::jtype::jstring</a>
+, <a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305ae57d27aa88b0cf3bf0661f3257ea21a5">json::jtype::jnumber</a>
+, <a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305aaa4dd46305fd0d9281c9dbe6368a519f">json::jtype::jobject</a>
+, <a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305a1188b469e15a72b442b3dc3011423550">json::jtype::jarray</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305abeac83cbc1ef0d5d6dfcf5a57302c8e3">json::jtype::jbool</a>
+, <a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305a582699c43e966a1ded39078ff31dc120">json::jtype::jnull</a>
+, <a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305a82e317b5efbad1b102de93f724bb872a">json::jtype::not_valid</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a39a3ac5b26ad6618ae567eb0c8d67305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor for the type of JSON data.  <a href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305">Más...</a><br /></td></tr>
+<tr class="separator:a39a3ac5b26ad6618ae567eb0c8d67305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a41134b9f4ec1ec6b8db4f8027536b762" id="r_a41134b9f4ec1ec6b8db4f8027536b762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305">jtype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d02/a00638.html#a41134b9f4ec1ec6b8db4f8027536b762">json::jtype::peek</a> (const char input)</td></tr>
+<tr class="separator:a41134b9f4ec1ec6b8db4f8027536b762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92effdd221ccd2f93dc25b32a6f627b4" id="r_a92effdd221ccd2f93dc25b32a6f627b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d02/a00638.html#a39a3ac5b26ad6618ae567eb0c8d67305">jtype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d02/a00638.html#a92effdd221ccd2f93dc25b32a6f627b4">json::jtype::detect</a> (const char *input)</td></tr>
+<tr class="memdesc:a92effdd221ccd2f93dc25b32a6f627b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geven a string, determines the type of value the string contains.  <br /></td></tr>
+<tr class="separator:a92effdd221ccd2f93dc25b32a6f627b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ead22b90b3354cc09a0a21e517e9385" id="r_a0ead22b90b3354cc09a0a21e517e9385"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a0ead22b90b3354cc09a0a21e517e9385">json::parsing::tlws</a> (const char *start)</td></tr>
+<tr class="memdesc:a0ead22b90b3354cc09a0a21e517e9385"><td class="mdescLeft">&#160;</td><td class="mdescRight">(t)rims (l)eading (w)hite (s)pace  <br /></td></tr>
+<tr class="separator:a0ead22b90b3354cc09a0a21e517e9385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c987a0b9f5d549f0a425a442ab1156f" id="r_a1c987a0b9f5d549f0a425a442ab1156f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a1c987a0b9f5d549f0a425a442ab1156f">json::parsing::read_digits</a> (const char *input)</td></tr>
+<tr class="memdesc:a1c987a0b9f5d549f0a425a442ab1156f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a set of digits from a string.  <br /></td></tr>
+<tr class="separator:a1c987a0b9f5d549f0a425a442ab1156f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38da988d5211eacc7d4b76da2236e51a" id="r_a38da988d5211eacc7d4b76da2236e51a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a38da988d5211eacc7d4b76da2236e51a">json::parsing::decode_string</a> (const char *input)</td></tr>
+<tr class="memdesc:a38da988d5211eacc7d4b76da2236e51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a string in JSON format.  <br /></td></tr>
+<tr class="separator:a38da988d5211eacc7d4b76da2236e51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9057af9b634c4ecf98a1111da9a2ca42" id="r_a9057af9b634c4ecf98a1111da9a2ca42"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a9057af9b634c4ecf98a1111da9a2ca42">json::parsing::encode_string</a> (const char *input)</td></tr>
+<tr class="memdesc:a9057af9b634c4ecf98a1111da9a2ca42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes a string in JSON format.  <br /></td></tr>
+<tr class="separator:a9057af9b634c4ecf98a1111da9a2ca42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8591533a42f229d2070223a6c48aa7" id="r_a2b8591533a42f229d2070223a6c48aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d01/a01993.html">parse_results</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a2b8591533a42f229d2070223a6c48aa7">json::parsing::parse</a> (const char *input)</td></tr>
+<tr class="memdesc:a2b8591533a42f229d2070223a6c48aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the first value encountered in a JSON string.  <br /></td></tr>
+<tr class="separator:a2b8591533a42f229d2070223a6c48aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811faf05268df9a0f83453fe9a003937" id="r_a811faf05268df9a0f83453fe9a003937"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a811faf05268df9a0f83453fe9a003937"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a811faf05268df9a0f83453fe9a003937">json::parsing::get_number</a> (const char *input, const char *format)</td></tr>
+<tr class="memdesc:a811faf05268df9a0f83453fe9a003937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template for reading a numeric value.  <br /></td></tr>
+<tr class="separator:a811faf05268df9a0f83453fe9a003937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948ba79c724a7f8ee43498aad8ce1a9c" id="r_a948ba79c724a7f8ee43498aad8ce1a9c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a948ba79c724a7f8ee43498aad8ce1a9c"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a948ba79c724a7f8ee43498aad8ce1a9c">json::parsing::get_number_string</a> (const T &amp;number, const char *format)</td></tr>
+<tr class="memdesc:a948ba79c724a7f8ee43498aad8ce1a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number to a string.  <br /></td></tr>
+<tr class="separator:a948ba79c724a7f8ee43498aad8ce1a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4728315996e44bc74b7c8346b6ae10fe" id="r_a4728315996e44bc74b7c8346b6ae10fe"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d06/a00639.html#a4728315996e44bc74b7c8346b6ae10fe">json::parsing::parse_array</a> (const char *input)</td></tr>
+<tr class="memdesc:a4728315996e44bc74b7c8346b6ae10fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a JSON array.  <br /></td></tr>
+<tr class="separator:a4728315996e44bc74b7c8346b6ae10fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Simpleson header file. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->

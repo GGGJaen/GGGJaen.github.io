@@ -1,10 +1,16 @@
 var a01849 =
 [
-    [ "fromQuery", "db/d04/a01849.html#a9b6272ad8e2b80fe49301f72b484d092", null ],
-    [ "codMunicipio", "db/d04/a01849.html#a56b2a373b23ca904901eeffd91584e5e", null ],
-    [ "fabricanteCamara", "db/d04/a01849.html#a44a10af9cad1b03e2af6937d35e62b69", null ],
-    [ "fechaVuelo", "db/d04/a01849.html#aeb6c21d8c2cb5d5ae61d30b12556f0fc", null ],
-    [ "modeloCamara", "db/d04/a01849.html#a0cc494debaae9785f073ad091adbd798", null ],
-    [ "SELECT_QUERY", "db/d04/a01849.html#a10ef9a950527fb2b3cdadafb6f20ffd4", null ],
-    [ "zonaUbicacion", "db/d04/a01849.html#ac5999f2806c7dcedc0ae57d05245c20c", null ]
+    [ "TIPOS_OBJETO", "db/d04/a01849.html#a56fa5a50e9533b9364453979fe6deb32", [
+      [ "Olivo", "db/d04/a01849.html#a56fa5a50e9533b9364453979fe6deb32a9aee913c80d1129c6835eee3fd2d30b1", null ],
+      [ "count", "db/d04/a01849.html#a56fa5a50e9533b9364453979fe6deb32ad351c7e9d784ef451e42ddf37e040a02", null ]
+    ] ],
+    [ "fromQuery", "db/d04/a01849.html#a23779e9f38a1d1ed6ff784d1e7969953", null ],
+    [ "operator==", "db/d04/a01849.html#a5c1aa04ebc741ee9b1ab27778aff98ea", null ],
+    [ "codMunicipio", "db/d04/a01849.html#abf8c462247d5ae989069cdb12db40251", null ],
+    [ "id", "db/d04/a01849.html#aa8cd84554fa513dd6a94d5bb7af9392a", null ],
+    [ "polEnvolvente", "db/d04/a01849.html#ab468181fa4ae1c0e9322908ec935db34", null ],
+    [ "SELECT_QUERY", "db/d04/a01849.html#a4d28be2967a5f1d59b8a15a26215365f", null ],
+    [ "tipo", "db/d04/a01849.html#ada1453ff2aaa194f76610428602b5ee4", null ],
+    [ "TIPOS", "db/d04/a01849.html#aee3db944477a0a07adeb36c42193957a", null ],
+    [ "ubicacion", "db/d04/a01849.html#accf50b4a4ed30ef282e5f4ac38e1c82f", null ]
 ];

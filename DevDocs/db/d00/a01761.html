@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la clase GEU::DebugWindow</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la clase GEU::Texture</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,78 +95,255 @@ $(function(){initNavTree('db/d00/a01761.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-types">Tipos públicos</a> &#124;
 <a href="#pub-methods">Métodos públicos</a> &#124;
-<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="#pro-static-attribs">Atributos estáticos protegidos</a> &#124;
 <a href="../../d9/d03/a01758.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la clase GEU::DebugWindow</div></div>
+  <div class="headertitle"><div class="title">Referencia de la clase GEU::Texture</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/d04/a00353_source.html">DebugWindow.h</a>&gt;</code></p>
-<div class="dynheader">
-Diagrama de herencia de GEU::DebugWindow</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d05/a01760.svg" width="151" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
-<div class="dynheader">
-Diagrama de colaboración de GEU::DebugWindow:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d05/a01759.svg" width="483" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d6/d02/a00293_source.html">Texture.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/a01765.html">RenderTextureRequirements</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos públicos</h2></td></tr>
+<tr class="memitem:a819945accff31cec112c5e58e14662b3" id="r_a819945accff31cec112c5e58e14662b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a819945accff31cec112c5e58e14662b3">TextureLayer</a> { <br />
+&#160;&#160;<a class="el" href="#a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12">KAD</a>
+, <a class="el" href="#a819945accff31cec112c5e58e14662b3a2b4a426c8fe4c06afcb16a4b1cedc391">AO</a>
+, <a class="el" href="#a819945accff31cec112c5e58e14662b3ac7b957fa901c43074e5e49936e2c33d4">BUMP</a>
+, <a class="el" href="#a819945accff31cec112c5e58e14662b3ade57d77d54929993679447b968b11c7c">HEIGHT</a>
+, <br />
+&#160;&#160;<a class="el" href="#a819945accff31cec112c5e58e14662b3aa61b6d7c718a43796e5b2e86a5a08d71">SEMI_TRANSPARENT</a>
+, <a class="el" href="#a819945accff31cec112c5e58e14662b3aad1bfa39fca89bde9b6f80151e10b7e8">BLOOM</a>
+, <a class="el" href="#a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5">ROUGHNESS</a>
+, <a class="el" href="#a819945accff31cec112c5e58e14662b3a7d10078dc48eeba0225fc37e066d2bf2">METALLIC</a>
+, <br />
+&#160;&#160;<a class="el" href="#a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc">NUM_TEXTURE_TYPES</a>
+<br />
+ }</td></tr>
+<tr class="separator:a819945accff31cec112c5e58e14662b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a9cb5b5f489fa28b3f68fdfb20075e245" id="r_a9cb5b5f489fa28b3f68fdfb20075e245"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb5b5f489fa28b3f68fdfb20075e245">DebugWindow</a> (const std::string &amp;id, <a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx, bool open, ImGuiWindowFlags flags)</td></tr>
-<tr class="separator:a9cb5b5f489fa28b3f68fdfb20075e245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd713e210c1fc5f7199301ccb4cdbf2" id="r_affd713e210c1fc5f7199301ccb4cdbf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affd713e210c1fc5f7199301ccb4cdbf2">renderWindow</a> () override</td></tr>
-<tr class="memdesc:affd713e210c1fc5f7199301ccb4cdbf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the window and contents.  <br /></td></tr>
-<tr class="separator:affd713e210c1fc5f7199301ccb4cdbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c650f14a0a5210c5625116b5148eef7" id="r_a1c650f14a0a5210c5625116b5148eef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c650f14a0a5210c5625116b5148eef7">setRenderFBO</a> (<a class="el" href="../../d4/d02/a01405.html">FBORender</a> *renderFBO)</td></tr>
-<tr class="separator:a1c650f14a0a5210c5625116b5148eef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a01797"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_a01797')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos heredados de <a class="el" href="../../d4/d01/a01797.html">GEU::I_GUIWindow</a></td></tr>
-<tr class="memitem:acab06f993b504247c5334088058c41f9 inherit pub_methods_a01797" id="r_acab06f993b504247c5334088058c41f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#acab06f993b504247c5334088058c41f9">I_GUIWindow</a> ()=delete</td></tr>
-<tr class="separator:acab06f993b504247c5334088058c41f9 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e625fd8b2cb51bd58ba3e6456fe8689 inherit pub_methods_a01797" id="r_a3e625fd8b2cb51bd58ba3e6456fe8689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a3e625fd8b2cb51bd58ba3e6456fe8689">I_GUIWindow</a> (const <a class="el" href="../../d4/d01/a01797.html">I_GUIWindow</a> &amp;other)=delete</td></tr>
-<tr class="separator:a3e625fd8b2cb51bd58ba3e6456fe8689 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8760a1a89de5d86a4ccfc687594e180 inherit pub_methods_a01797" id="r_aa8760a1a89de5d86a4ccfc687594e180"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#aa8760a1a89de5d86a4ccfc687594e180">I_GUIWindow</a> (const std::string &amp;id, <a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx, bool open, ImGuiWindowFlags flags=0)</td></tr>
-<tr class="separator:aa8760a1a89de5d86a4ccfc687594e180 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23b7b5191d0e61466066d9b8886d12f5 inherit pub_methods_a01797" id="r_a23b7b5191d0e61466066d9b8886d12f5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a23b7b5191d0e61466066d9b8886d12f5">~I_GUIWindow</a> ()</td></tr>
-<tr class="separator:a23b7b5191d0e61466066d9b8886d12f5 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebb42760f87240d85f4c747312740ec5 inherit pub_methods_a01797" id="r_aebb42760f87240d85f4c747312740ec5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#aebb42760f87240d85f4c747312740ec5">getIdTitle</a> () const</td></tr>
-<tr class="separator:aebb42760f87240d85f4c747312740ec5 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a875caa60720dd767055f2c02a0c849ec inherit pub_methods_a01797" id="r_a875caa60720dd767055f2c02a0c849ec"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a875caa60720dd767055f2c02a0c849ec">getTitle</a> () const</td></tr>
-<tr class="separator:a875caa60720dd767055f2c02a0c849ec inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8504f265d0c719da4f4a5ba5e1a21371 inherit pub_methods_a01797" id="r_a8504f265d0c719da4f4a5ba5e1a21371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a8504f265d0c719da4f4a5ba5e1a21371">toggleWindow</a> ()</td></tr>
-<tr class="separator:a8504f265d0c719da4f4a5ba5e1a21371 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bd1d3a00c9259183a2f29078b9cbcd7 inherit pub_methods_a01797" id="r_a7bd1d3a00c9259183a2f29078b9cbcd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a7bd1d3a00c9259183a2f29078b9cbcd7">isOpen</a> () const</td></tr>
-<tr class="separator:a7bd1d3a00c9259183a2f29078b9cbcd7 inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e6e9aee08931aa0148cd00c5ea521fd inherit pub_methods_a01797" id="r_a5e6e9aee08931aa0148cd00c5ea521fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a5e6e9aee08931aa0148cd00c5ea521fd">setOpen</a> ()</td></tr>
-<tr class="separator:a5e6e9aee08931aa0148cd00c5ea521fd inherit pub_methods_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad217455c6a8ec97ec6a04449a00c5e9" id="r_aad217455c6a8ec97ec6a04449a00c5e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad217455c6a8ec97ec6a04449a00c5e9">Texture</a> (<a class="el" href="../../d6/d02/a01965.html">Image</a> *image, uint32_t wrapS=<a class="el" href="#a38493cc0daedad8d7f83a2a113c4e768">WRAP_S</a>, uint32_t wrapT=<a class="el" href="#a7de8ea1ac0469967a482f9da2cbfe936">WRAP_T</a>, uint32_t minFilter=<a class="el" href="#a5cdc54384bf8224134a6e119d85ad69d">MIN_FILTER</a>, uint32_t magFilter=<a class="el" href="#a4d87d4933783a4610c28014674a2d0a0">MAG_FILTER</a>, bool swizzleG=false, bool swizzleB=false)</td></tr>
+<tr class="memdesc:aad217455c6a8ec97ec6a04449a00c5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">[Public methods]  <br /></td></tr>
+<tr class="separator:aad217455c6a8ec97ec6a04449a00c5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692bcf51b09c6b047e08655decb3471a" id="r_a692bcf51b09c6b047e08655decb3471a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a692bcf51b09c6b047e08655decb3471a">Texture</a> (<a class="el" href="../../d2/d07/a00014.html#afd1ed4467544c93d5fcad47f68f8754f">uvec2</a> textureSize, int32_t internalFormat, GLenum format, uint32_t wrapS=<a class="el" href="#a38493cc0daedad8d7f83a2a113c4e768">WRAP_S</a>, uint32_t wrapT=<a class="el" href="#a7de8ea1ac0469967a482f9da2cbfe936">WRAP_T</a>, uint32_t minFilter=<a class="el" href="#a5cdc54384bf8224134a6e119d85ad69d">MIN_FILTER</a>, uint32_t magFilter=<a class="el" href="#a4d87d4933783a4610c28014674a2d0a0">MAG_FILTER</a>)</td></tr>
+<tr class="separator:a692bcf51b09c6b047e08655decb3471a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0675e666c86adc89b246defd70008d" id="r_aaa0675e666c86adc89b246defd70008d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa0675e666c86adc89b246defd70008d">Texture</a> (const <a class="el" href="../../d2/d07/a00014.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> &amp;color)</td></tr>
+<tr class="separator:aaa0675e666c86adc89b246defd70008d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3b1defbc606c8b99faa39152017ccb" id="r_afd3b1defbc606c8b99faa39152017ccb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3b1defbc606c8b99faa39152017ccb">~Texture</a> ()</td></tr>
+<tr class="separator:afd3b1defbc606c8b99faa39152017ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667ade07e40b500c357e808d34c52d8e" id="r_a667ade07e40b500c357e808d34c52d8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a667ade07e40b500c357e808d34c52d8e">applyTexture</a> (<a class="el" href="../../db/d00/a01757.html">GEU::ShaderProgram</a> *shader, <a class="el" href="#a819945accff31cec112c5e58e14662b3">TextureLayer</a> textureLayer) const</td></tr>
+<tr class="separator:a667ade07e40b500c357e808d34c52d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace74c673561e1309f22328c4b5e40f35" id="r_ace74c673561e1309f22328c4b5e40f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace74c673561e1309f22328c4b5e40f35">applyTexture</a> (<a class="el" href="../../db/d00/a01757.html">GEU::ShaderProgram</a> *shader, int32_t id, const std::string &amp;shaderVariable) const</td></tr>
+<tr class="separator:ace74c673561e1309f22328c4b5e40f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d33a3d1577b36cf509712b9eff63233" id="r_a7d33a3d1577b36cf509712b9eff63233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d33a3d1577b36cf509712b9eff63233">getColor</a> () const</td></tr>
+<tr class="separator:a7d33a3d1577b36cf509712b9eff63233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf967005433d1a0c7ecf261fecd7cd61" id="r_adf967005433d1a0c7ecf261fecd7cd61"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf967005433d1a0c7ecf261fecd7cd61">getFilename</a> ()</td></tr>
+<tr class="separator:adf967005433d1a0c7ecf261fecd7cd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d33f02eebb212a4c0765717c24a4bb" id="r_a55d33f02eebb212a4c0765717c24a4bb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55d33f02eebb212a4c0765717c24a4bb">getId</a> () const</td></tr>
+<tr class="separator:a55d33f02eebb212a4c0765717c24a4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166b0d1c38adf38d6479654fbc0ddaaf" id="r_a166b0d1c38adf38d6479654fbc0ddaaf"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a166b0d1c38adf38d6479654fbc0ddaaf">getWidth</a> () const</td></tr>
+<tr class="separator:a166b0d1c38adf38d6479654fbc0ddaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdffe756c66453f952d05806654b085d" id="r_afdffe756c66453f952d05806654b085d"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdffe756c66453f952d05806654b085d">getHeight</a> () const</td></tr>
+<tr class="separator:afdffe756c66453f952d05806654b085d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffd29387eacb01022011fb0b1a6d0c4" id="r_aeffd29387eacb01022011fb0b1a6d0c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeffd29387eacb01022011fb0b1a6d0c4">getSize</a> () const</td></tr>
+<tr class="separator:aeffd29387eacb01022011fb0b1a6d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Atributos privados</h2></td></tr>
-<tr class="memitem:a50f008357492149b452e7148c1bfc628" id="r_a50f008357492149b452e7148c1bfc628"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d02/a01405.html">FBORender</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f008357492149b452e7148c1bfc628">_renderFBO</a></td></tr>
-<tr class="separator:a50f008357492149b452e7148c1bfc628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a2eb96d3fbcd8f32b1b9f4c4a8c578165" id="r_a2eb96d3fbcd8f32b1b9f4c4a8c578165"><td class="memItemLeft" align="right" valign="top">static aiTextureType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eb96d3fbcd8f32b1b9f4c4a8c578165">toAssimp</a> (<a class="el" href="#a819945accff31cec112c5e58e14662b3">TextureLayer</a> layer)</td></tr>
+<tr class="separator:a2eb96d3fbcd8f32b1b9f4c4a8c578165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Otros miembros heredados</h2></td></tr>
-<tr class="inherit_header pro_attribs_a01797"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_a01797')"><img src="../../closed.png" alt="-"/>&#160;Atributos protegidos heredados de <a class="el" href="../../d4/d01/a01797.html">GEU::I_GUIWindow</a></td></tr>
-<tr class="memitem:a1eecb6ffeef9fe5d82f3913da2b112dd inherit pro_attribs_a01797" id="r_a1eecb6ffeef9fe5d82f3913da2b112dd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a1eecb6ffeef9fe5d82f3913da2b112dd">_windowID</a></td></tr>
-<tr class="memdesc:a1eecb6ffeef9fe5d82f3913da2b112dd inherit pro_attribs_a01797"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImGUI window ID.  <br /></td></tr>
-<tr class="separator:a1eecb6ffeef9fe5d82f3913da2b112dd inherit pro_attribs_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a4e54998b8cc78473a2b31750867e34 inherit pro_attribs_a01797" id="r_a5a4e54998b8cc78473a2b31750867e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a5a4e54998b8cc78473a2b31750867e34">_windowTitleIdx</a></td></tr>
-<tr class="memdesc:a5a4e54998b8cc78473a2b31750867e34 inherit pro_attribs_a01797"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d00/a01593.html">Window</a> title string index in locales collection.  <br /></td></tr>
-<tr class="separator:a5a4e54998b8cc78473a2b31750867e34 inherit pro_attribs_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06bce7436a9ab6016dfe92c1e552509e inherit pro_attribs_a01797" id="r_a06bce7436a9ab6016dfe92c1e552509e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a06bce7436a9ab6016dfe92c1e552509e">_windowOpen</a></td></tr>
-<tr class="memdesc:a06bce7436a9ab6016dfe92c1e552509e inherit pro_attribs_a01797"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d9/d00/a01593.html">Window</a> open flags.  <br /></td></tr>
-<tr class="separator:a06bce7436a9ab6016dfe92c1e552509e inherit pro_attribs_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a060a2dadbaa13b87a57358cf9bd351b3 inherit pro_attribs_a01797" id="r_a060a2dadbaa13b87a57358cf9bd351b3"><td class="memItemLeft" align="right" valign="top">ImGuiWindowFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d01/a01797.html#a060a2dadbaa13b87a57358cf9bd351b3">_windowFlags</a></td></tr>
-<tr class="memdesc:a060a2dadbaa13b87a57358cf9bd351b3 inherit pro_attribs_a01797"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImGUI custom window flags.  <br /></td></tr>
-<tr class="separator:a060a2dadbaa13b87a57358cf9bd351b3 inherit pro_attribs_a01797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a5277e51f7768a6bfae06c23faa661580" id="r_a5277e51f7768a6bfae06c23faa661580"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5277e51f7768a6bfae06c23faa661580">TEXTURE_LAYER_IDS</a> [<a class="el" href="#a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc">NUM_TEXTURE_TYPES</a>]</td></tr>
+<tr class="separator:a5277e51f7768a6bfae06c23faa661580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:af517d31159e30d42659072e08567fa89" id="r_af517d31159e30d42659072e08567fa89"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af517d31159e30d42659072e08567fa89">_id</a> = UINT32_MAX</td></tr>
+<tr class="separator:af517d31159e30d42659072e08567fa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b0b8b3181f1e58494d5c9babba02b4" id="r_a62b0b8b3181f1e58494d5c9babba02b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62b0b8b3181f1e58494d5c9babba02b4">_color</a></td></tr>
+<tr class="separator:a62b0b8b3181f1e58494d5c9babba02b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491fa42f686ca66e60a86255f77d8324" id="r_a491fa42f686ca66e60a86255f77d8324"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a491fa42f686ca66e60a86255f77d8324">_filename</a></td></tr>
+<tr class="separator:a491fa42f686ca66e60a86255f77d8324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ec84cf26791c250107bc338a522f00" id="r_a64ec84cf26791c250107bc338a522f00"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ec84cf26791c250107bc338a522f00">_width</a></td></tr>
+<tr class="separator:a64ec84cf26791c250107bc338a522f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2497fed9e3580cd410a6656f0404afd" id="r_ad2497fed9e3580cd410a6656f0404afd"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2497fed9e3580cd410a6656f0404afd">_height</a></td></tr>
+<tr class="separator:ad2497fed9e3580cd410a6656f0404afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Atributos estáticos protegidos</h2></td></tr>
+<tr class="memitem:a5cdc54384bf8224134a6e119d85ad69d" id="r_a5cdc54384bf8224134a6e119d85ad69d"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cdc54384bf8224134a6e119d85ad69d">MIN_FILTER</a> = GL_LINEAR_MIPMAP_NEAREST</td></tr>
+<tr class="separator:a5cdc54384bf8224134a6e119d85ad69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d87d4933783a4610c28014674a2d0a0" id="r_a4d87d4933783a4610c28014674a2d0a0"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d87d4933783a4610c28014674a2d0a0">MAG_FILTER</a> = GL_LINEAR</td></tr>
+<tr class="separator:a4d87d4933783a4610c28014674a2d0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38493cc0daedad8d7f83a2a113c4e768" id="r_a38493cc0daedad8d7f83a2a113c4e768"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38493cc0daedad8d7f83a2a113c4e768">WRAP_S</a> = GL_MIRRORED_REPEAT</td></tr>
+<tr class="separator:a38493cc0daedad8d7f83a2a113c4e768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de8ea1ac0469967a482f9da2cbfe936" id="r_a7de8ea1ac0469967a482f9da2cbfe936"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7de8ea1ac0469967a482f9da2cbfe936">WRAP_T</a> = GL_MIRRORED_REPEAT</td></tr>
+<tr class="separator:a7de8ea1ac0469967a482f9da2cbfe936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613e048fae8ba6f673ae989d12397e13" id="r_a613e048fae8ba6f673ae989d12397e13"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a613e048fae8ba6f673ae989d12397e13">WRAP_R</a> = GL_MIRRORED_REPEAT</td></tr>
+<tr class="separator:a613e048fae8ba6f673ae989d12397e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb5b8bbab8fd92fb36a9a6133da15b16" id="r_afb5b8bbab8fd92fb36a9a6133da15b16"><td class="memItemLeft" align="right" valign="top">static const std::unordered_map&lt; uint16_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb5b8bbab8fd92fb36a9a6133da15b16">SHADER_VARIABLE</a></td></tr>
+<tr class="separator:afb5b8bbab8fd92fb36a9a6133da15b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentación de las enumeraciones miembro de la clase</h2>
+<a id="a819945accff31cec112c5e58e14662b3" name="a819945accff31cec112c5e58e14662b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a819945accff31cec112c5e58e14662b3">&#9670;&#160;</a></span>TextureLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a819945accff31cec112c5e58e14662b3">GEU::Texture::TextureLayer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12" name="a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12"></a>KAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3a2b4a426c8fe4c06afcb16a4b1cedc391" name="a819945accff31cec112c5e58e14662b3a2b4a426c8fe4c06afcb16a4b1cedc391"></a>AO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3ac7b957fa901c43074e5e49936e2c33d4" name="a819945accff31cec112c5e58e14662b3ac7b957fa901c43074e5e49936e2c33d4"></a>BUMP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3ade57d77d54929993679447b968b11c7c" name="a819945accff31cec112c5e58e14662b3ade57d77d54929993679447b968b11c7c"></a>HEIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3aa61b6d7c718a43796e5b2e86a5a08d71" name="a819945accff31cec112c5e58e14662b3aa61b6d7c718a43796e5b2e86a5a08d71"></a>SEMI_TRANSPARENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3aad1bfa39fca89bde9b6f80151e10b7e8" name="a819945accff31cec112c5e58e14662b3aad1bfa39fca89bde9b6f80151e10b7e8"></a>BLOOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5" name="a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5"></a>ROUGHNESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3a7d10078dc48eeba0225fc37e066d2bf2" name="a819945accff31cec112c5e58e14662b3a7d10078dc48eeba0225fc37e066d2bf2"></a>METALLIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc" name="a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc"></a>NUM_TEXTURE_TYPES&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Documentación de constructores y destructores</h2>
-<a id="a9cb5b5f489fa28b3f68fdfb20075e245" name="a9cb5b5f489fa28b3f68fdfb20075e245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cb5b5f489fa28b3f68fdfb20075e245">&#9670;&#160;</a></span>DebugWindow()</h2>
+<a id="aad217455c6a8ec97ec6a04449a00c5e9" name="aad217455c6a8ec97ec6a04449a00c5e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad217455c6a8ec97ec6a04449a00c5e9">&#9670;&#160;</a></span>Texture() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::Texture::Texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d02/a01965.html">Image</a> *</td>          <td class="paramname"><span class="paramname"><em>image</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>wrapS</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a38493cc0daedad8d7f83a2a113c4e768">WRAP_S</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>wrapT</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a7de8ea1ac0469967a482f9da2cbfe936">WRAP_T</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>minFilter</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a5cdc54384bf8224134a6e119d85ad69d">MIN_FILTER</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>magFilter</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a4d87d4933783a4610c28014674a2d0a0">MAG_FILTER</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>swizzleG</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>swizzleB</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>[Public methods] </p>
+<p>glTexImage2D: Target. Type of desired texture: GL_TEXTURE_2D, GL_PROXY_TEXTURE_2D... Level: Level of Detail. Level 0 is the base image. Level n is n-reduced image with mipmap algorithm Internal Format: Number of texture components Width Height Border: must be 0 Format: Format of pixel information. GL_RED, GL_RG, GL_RGB, GL_BGR, GL_RGBA, GL_BGRA, GL_RED_INTEGER... Type: Type of data of pixel information. GL_UNSIGNED_BYTE, GL_BYTE, GL_UNSIGNED_SHORT, GL_SHORT, GL_UNSIGNED_INT, GL_INT, GL_FLOAT... Data: <a class="el" href="../../d6/d02/a01965.html">Image</a> pixels </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_aad217455c6a8ec97ec6a04449a00c5e9_cgraph.svg" width="382" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a692bcf51b09c6b047e08655decb3471a" name="a692bcf51b09c6b047e08655decb3471a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692bcf51b09c6b047e08655decb3471a">&#9670;&#160;</a></span>Texture() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::Texture::Texture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d07/a00014.html#afd1ed4467544c93d5fcad47f68f8754f">uvec2</a></td>          <td class="paramname"><span class="paramname"><em>textureSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>internalFormat</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum</td>          <td class="paramname"><span class="paramname"><em>format</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>wrapS</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a38493cc0daedad8d7f83a2a113c4e768">WRAP_S</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>wrapT</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a7de8ea1ac0469967a482f9da2cbfe936">WRAP_T</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>minFilter</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a5cdc54384bf8224134a6e119d85ad69d">MIN_FILTER</a></span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>magFilter</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a4d87d4933783a4610c28014674a2d0a0">MAG_FILTER</a></span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa0675e666c86adc89b246defd70008d" name="aaa0675e666c86adc89b246defd70008d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa0675e666c86adc89b246defd70008d">&#9670;&#160;</a></span>Texture() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::Texture::Texture </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>color</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd3b1defbc606c8b99faa39152017ccb" name="afd3b1defbc606c8b99faa39152017ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3b1defbc606c8b99faa39152017ccb">&#9670;&#160;</a></span>~Texture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,24 +352,93 @@ Otros miembros heredados</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GEU::DebugWindow::DebugWindow </td>
+          <td class="memname">GEU::Texture::~Texture </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="ace74c673561e1309f22328c4b5e40f35" name="ace74c673561e1309f22328c4b5e40f35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace74c673561e1309f22328c4b5e40f35">&#9670;&#160;</a></span>applyTexture() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::Texture::applyTexture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d00/a01757.html">GEU::ShaderProgram</a> *</td>          <td class="paramname"><span class="paramname"><em>shader</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>idx</em>, </span></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>open</em>, </span></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>shaderVariable</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_ace74c673561e1309f22328c4b5e40f35_cgraph.svg" width="388" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a667ade07e40b500c357e808d34c52d8e" name="a667ade07e40b500c357e808d34c52d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667ade07e40b500c357e808d34c52d8e">&#9670;&#160;</a></span>applyTexture() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::Texture::applyTexture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d00/a01757.html">GEU::ShaderProgram</a> *</td>          <td class="paramname"><span class="paramname"><em>shader</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ImGuiWindowFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a819945accff31cec112c5e58e14662b3">TextureLayer</a></td>          <td class="paramname"><span class="paramname"><em>textureLayer</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_a667ade07e40b500c357e808d34c52d8e_cgraph.svg" width="388" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7d33a3d1577b36cf509712b9eff63233" name="a7d33a3d1577b36cf509712b9eff63233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d33a3d1577b36cf509712b9eff63233">&#9670;&#160;</a></span>getColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> GEU::Texture::getColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -205,9 +450,8 @@ Otros miembros heredados</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="affd713e210c1fc5f7199301ccb4cdbf2" name="affd713e210c1fc5f7199301ccb4cdbf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd713e210c1fc5f7199301ccb4cdbf2">&#9670;&#160;</a></span>renderWindow()</h2>
+<a id="adf967005433d1a0c7ecf261fecd7cd61" name="adf967005433d1a0c7ecf261fecd7cd61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf967005433d1a0c7ecf261fecd7cd61">&#9670;&#160;</a></span>getFilename()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +460,7 @@ Otros miembros heredados</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GEU::DebugWindow::renderWindow </td>
+          <td class="memname">std::string GEU::Texture::getFilename </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -224,42 +468,20 @@ Otros miembros heredados</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Renders the window and contents. </p>
-
-<p>Implementa <a class="el" href="../../d4/d01/a01797.html#aac10a338156d41da15c82f6c8ec6fa7c">GEU::I_GUIWindow</a>.</p>
 <div class="dynheader">
-Gráfico de llamadas de esta función:</div>
+Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_affd713e210c1fc5f7199301ccb4cdbf2_cgraph.svg" width="447" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_adf967005433d1a0c7ecf261fecd7cd61_icgraph.svg" width="415" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a1c650f14a0a5210c5625116b5148eef7" name="a1c650f14a0a5210c5625116b5148eef7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c650f14a0a5210c5625116b5148eef7">&#9670;&#160;</a></span>setRenderFBO()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::DebugWindow::setRenderFBO </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d02/a01405.html">FBORender</a> *</td>          <td class="paramname"><span class="paramname"><em>renderFBO</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a50f008357492149b452e7148c1bfc628" name="a50f008357492149b452e7148c1bfc628"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f008357492149b452e7148c1bfc628">&#9670;&#160;</a></span>_renderFBO</h2>
+<a id="afdffe756c66453f952d05806654b085d" name="afdffe756c66453f952d05806654b085d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdffe756c66453f952d05806654b085d">&#9670;&#160;</a></span>getHeight()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,12 +490,417 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d02/a01405.html">FBORender</a>* GEU::DebugWindow::_renderFBO</td>
+          <td class="memname">unsigned GEU::Texture::getHeight </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_afdffe756c66453f952d05806654b085d_icgraph.svg" width="676" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a55d33f02eebb212a4c0765717c24a4bb" name="a55d33f02eebb212a4c0765717c24a4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d33f02eebb212a4c0765717c24a4bb">&#9670;&#160;</a></span>getId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GEU::Texture::getId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_a55d33f02eebb212a4c0765717c24a4bb_icgraph.svg" width="674" height="304"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aeffd29387eacb01022011fb0b1a6d0c4" name="aeffd29387eacb01022011fb0b1a6d0c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeffd29387eacb01022011fb0b1a6d0c4">&#9670;&#160;</a></span>getSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a43182e59794291f6ab00e51b160706c2">vec2</a> GEU::Texture::getSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a166b0d1c38adf38d6479654fbc0ddaaf" name="a166b0d1c38adf38d6479654fbc0ddaaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166b0d1c38adf38d6479654fbc0ddaaf">&#9670;&#160;</a></span>getWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned GEU::Texture::getWidth </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_a166b0d1c38adf38d6479654fbc0ddaaf_icgraph.svg" width="674" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2eb96d3fbcd8f32b1b9f4c4a8c578165" name="a2eb96d3fbcd8f32b1b9f4c4a8c578165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb96d3fbcd8f32b1b9f4c4a8c578165">&#9670;&#160;</a></span>toAssimp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">aiTextureType GEU::Texture::toAssimp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a819945accff31cec112c5e58e14662b3">TextureLayer</a></td>          <td class="paramname"><span class="paramname"><em>layer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d00/a01761_a2eb96d3fbcd8f32b1b9f4c4a8c578165_icgraph.svg" width="398" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de datos miembro</h2>
+<a id="a62b0b8b3181f1e58494d5c9babba02b4" name="a62b0b8b3181f1e58494d5c9babba02b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62b0b8b3181f1e58494d5c9babba02b4">&#9670;&#160;</a></span>_color</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> GEU::Texture::_color</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a491fa42f686ca66e60a86255f77d8324" name="a491fa42f686ca66e60a86255f77d8324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a491fa42f686ca66e60a86255f77d8324">&#9670;&#160;</a></span>_filename</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GEU::Texture::_filename</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2497fed9e3580cd410a6656f0404afd" name="ad2497fed9e3580cd410a6656f0404afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2497fed9e3580cd410a6656f0404afd">&#9670;&#160;</a></span>_height</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned GEU::Texture::_height</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af517d31159e30d42659072e08567fa89" name="af517d31159e30d42659072e08567fa89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af517d31159e30d42659072e08567fa89">&#9670;&#160;</a></span>_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GEU::Texture::_id = UINT32_MAX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64ec84cf26791c250107bc338a522f00" name="a64ec84cf26791c250107bc338a522f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64ec84cf26791c250107bc338a522f00">&#9670;&#160;</a></span>_width</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned GEU::Texture::_width</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d87d4933783a4610c28014674a2d0a0" name="a4d87d4933783a4610c28014674a2d0a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d87d4933783a4610c28014674a2d0a0">&#9670;&#160;</a></span>MAG_FILTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t GEU::Texture::MAG_FILTER = GL_LINEAR</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cdc54384bf8224134a6e119d85ad69d" name="a5cdc54384bf8224134a6e119d85ad69d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cdc54384bf8224134a6e119d85ad69d">&#9670;&#160;</a></span>MIN_FILTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t GEU::Texture::MIN_FILTER = GL_LINEAR_MIPMAP_NEAREST</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb5b8bbab8fd92fb36a9a6133da15b16" name="afb5b8bbab8fd92fb36a9a6133da15b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb5b8bbab8fd92fb36a9a6133da15b16">&#9670;&#160;</a></span>SHADER_VARIABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt; uint16_t, std::string &gt; GEU::Texture::SHADER_VARIABLE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= std::unordered_map&lt;uint16_t, std::string&gt;({</div>
+<div class="line">        {<a class="code hl_enumvalue" href="#a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12">Texture::KAD</a>, <span class="stringliteral">&quot;texKdSampler&quot;</span>},</div>
+<div class="line">        {<a class="code hl_enumvalue" href="#a819945accff31cec112c5e58e14662b3a7d10078dc48eeba0225fc37e066d2bf2">Texture::METALLIC</a>, <span class="stringliteral">&quot;texKsSampler&quot;</span>},</div>
+<div class="line">        {<a class="code hl_enumvalue" href="#a819945accff31cec112c5e58e14662b3aa61b6d7c718a43796e5b2e86a5a08d71">Texture::SEMI_TRANSPARENT</a>, <span class="stringliteral">&quot;texSemiTransparentSampler&quot;</span>},</div>
+<div class="line">        {<a class="code hl_enumvalue" href="#a819945accff31cec112c5e58e14662b3ac7b957fa901c43074e5e49936e2c33d4">Texture::BUMP</a>, <span class="stringliteral">&quot;texBumpSampler&quot;</span>},</div>
+<div class="line">        {<a class="code hl_enumvalue" href="#a819945accff31cec112c5e58e14662b3ade57d77d54929993679447b968b11c7c">Texture::HEIGHT</a>, <span class="stringliteral">&quot;texDisplacementSampler&quot;</span>},</div>
+<div class="line">        {<a class="code hl_enumvalue" href="#a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5">Texture::ROUGHNESS</a>, <span class="stringliteral">&quot;texRoughnessSampler&quot;</span>}</div>
+<div class="line">    })</div>
+<div class="ttc" id="aa01761_html_a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12"><div class="ttname"><a href="#a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12">GEU::Texture::KAD</a></div><div class="ttdeci">@ KAD</div><div class="ttdef"><b>Definition</b> Texture.h:14</div></div>
+<div class="ttc" id="aa01761_html_a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5"><div class="ttname"><a href="#a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5">GEU::Texture::ROUGHNESS</a></div><div class="ttdeci">@ ROUGHNESS</div><div class="ttdef"><b>Definition</b> Texture.h:14</div></div>
+<div class="ttc" id="aa01761_html_a819945accff31cec112c5e58e14662b3a7d10078dc48eeba0225fc37e066d2bf2"><div class="ttname"><a href="#a819945accff31cec112c5e58e14662b3a7d10078dc48eeba0225fc37e066d2bf2">GEU::Texture::METALLIC</a></div><div class="ttdeci">@ METALLIC</div><div class="ttdef"><b>Definition</b> Texture.h:14</div></div>
+<div class="ttc" id="aa01761_html_a819945accff31cec112c5e58e14662b3aa61b6d7c718a43796e5b2e86a5a08d71"><div class="ttname"><a href="#a819945accff31cec112c5e58e14662b3aa61b6d7c718a43796e5b2e86a5a08d71">GEU::Texture::SEMI_TRANSPARENT</a></div><div class="ttdeci">@ SEMI_TRANSPARENT</div><div class="ttdef"><b>Definition</b> Texture.h:14</div></div>
+<div class="ttc" id="aa01761_html_a819945accff31cec112c5e58e14662b3ac7b957fa901c43074e5e49936e2c33d4"><div class="ttname"><a href="#a819945accff31cec112c5e58e14662b3ac7b957fa901c43074e5e49936e2c33d4">GEU::Texture::BUMP</a></div><div class="ttdeci">@ BUMP</div><div class="ttdef"><b>Definition</b> Texture.h:14</div></div>
+<div class="ttc" id="aa01761_html_a819945accff31cec112c5e58e14662b3ade57d77d54929993679447b968b11c7c"><div class="ttname"><a href="#a819945accff31cec112c5e58e14662b3ade57d77d54929993679447b968b11c7c">GEU::Texture::HEIGHT</a></div><div class="ttdeci">@ HEIGHT</div><div class="ttdef"><b>Definition</b> Texture.h:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5277e51f7768a6bfae06c23faa661580" name="a5277e51f7768a6bfae06c23faa661580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5277e51f7768a6bfae06c23faa661580">&#9670;&#160;</a></span>TEXTURE_LAYER_IDS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string GEU::Texture::TEXTURE_LAYER_IDS[<a class="el" href="#a819945accff31cec112c5e58e14662b3a25eb69ef2fbe204a3f322f21b5e573fc">NUM_TEXTURE_TYPES</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">            <span class="stringliteral">&quot;KAD&quot;</span>, <span class="stringliteral">&quot;AO&quot;</span>, <span class="stringliteral">&quot;BUMP&quot;</span>, <span class="stringliteral">&quot;HEIGHT&quot;</span>, <span class="stringliteral">&quot;SEMI_TANSPARENT&quot;</span>, <span class="stringliteral">&quot;BLOOM&quot;</span>, <span class="stringliteral">&quot;ROUGHNESS&quot;</span>, <span class="stringliteral">&quot;METALLIC&quot;</span></div>
+<div class="line">        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a613e048fae8ba6f673ae989d12397e13" name="a613e048fae8ba6f673ae989d12397e13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613e048fae8ba6f673ae989d12397e13">&#9670;&#160;</a></span>WRAP_R</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t GEU::Texture::WRAP_R = GL_MIRRORED_REPEAT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38493cc0daedad8d7f83a2a113c4e768" name="a38493cc0daedad8d7f83a2a113c4e768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38493cc0daedad8d7f83a2a113c4e768">&#9670;&#160;</a></span>WRAP_S</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t GEU::Texture::WRAP_S = GL_MIRRORED_REPEAT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7de8ea1ac0469967a482f9da2cbfe936" name="a7de8ea1ac0469967a482f9da2cbfe936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de8ea1ac0469967a482f9da2cbfe936">&#9670;&#160;</a></span>WRAP_T</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t GEU::Texture::WRAP_T = GL_MIRRORED_REPEAT</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -281,8 +908,8 @@ Gráfico de llamadas de esta función:</div>
 </div>
 </div>
 <hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
-<li>C:/GitHub/GEU/GEU/Source/UI/<a class="el" href="../../db/d04/a00353_source.html">DebugWindow.h</a></li>
-<li>C:/GitHub/GEU/GEU/Source/UI/<a class="el" href="../../db/d00/a00350.html">DebugWindow.cpp</a></li>
+<li>D:/GEU/GEUCore/Source/Graphics/<a class="el" href="../../d6/d02/a00293_source.html">Texture.h</a></li>
+<li>D:/GEU/GEUCore/Source/Graphics/<a class="el" href="../../de/d05/a00290.html">Texture.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

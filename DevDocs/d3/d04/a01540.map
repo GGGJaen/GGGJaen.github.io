@@ -1,5 +1,5 @@
-<map id="GEU::ShaderManager" name="GEU::ShaderManager">
-<area shape="rect" id="Node000001" title=" " alt="" coords="44,80,193,107"/>
-<area shape="rect" id="Node000002" href="$d5/d01/a01945.html" title=" " alt="" coords="5,5,232,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,48,121,80,116,80,116,48"/>
+<map id="GEU::InfoPopup" name="GEU::InfoPopup">
+<area shape="rect" id="Node000001" title="Simple informative popup: shows text and close button." alt="" coords="11,80,126,107"/>
+<area shape="rect" id="Node000002" href="$dc/d07/a01933.html" title="ImGUI popups interface adapter class." alt="" coords="5,5,132,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,48,71,80,66,80,66,48"/>
 </map>

@@ -1,0 +1,23 @@
+<map id="D:/GEU/GEUModules" name="D:/GEU/GEUModules">
+<area shape="rect" id="node1" href="dir_418d93dd5ae949545531ff79e9cb867d.html" title="GEUCore" alt="" coords="543,139,620,165"/>
+<area shape="rect" id="node3" href="dir_74845d0c7df054af4b9b79db7cd256ec.html" title="ComparacionNormales" alt="" coords="160,64,312,91"/>
+<area shape="poly" id="edge1" href="dir_000002_000014.html" alt="" coords="284,89,325,99,528,139,527,144,323,104,282,94"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000002_000014.html" title="2" alt="" coords="523,125,530,141"/>
+<area shape="rect" id="node4" href="dir_f065caaf9d065113af5215fdbbd89576.html" title="Hiperespectral" alt="" coords="336,64,440,91"/>
+<area shape="poly" id="edge2" href="dir_000017_000014.html" alt="" coords="423,89,534,130,532,135,421,94"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000017_000014.html" title="7" alt="" coords="530,116,537,132"/>
+<area shape="rect" id="node5" href="dir_5fb2c17e64555a301af6ca78586d82be.html" title="Multiespectral" alt="" coords="465,64,567,91"/>
+<area shape="poly" id="edge3" href="dir_000023_000014.html" alt="" coords="529,89,562,125,558,129,525,93"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000023_000014.html" title="12" alt="" coords="557,111,571,127"/>
+<area shape="rect" id="node6" href="dir_6b813388d098b9bac74ca692dc805d47.html" title="Reconstruccion" alt="" coords="591,64,702,91"/>
+<area shape="poly" id="edge4" href="dir_000027_000014.html" alt="" coords="637,93,605,129,601,125,633,89"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000027_000014.html" title="11" alt="" coords="604,123,618,139"/>
+<area shape="rect" id="node7" href="dir_5bb7cf41401315822437ca451d212a50.html" title="SegmentacionIndividuos" alt="" coords="727,64,887,91"/>
+<area shape="poly" id="edge5" href="dir_000028_000014.html" alt="" coords="768,94,635,136,634,131,767,89"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000028_000014.html" title="11" alt="" coords="633,133,647,149"/>
+<area shape="rect" id="node8" href="dir_4d52b1dfa60043ee713653880e26ddae.html" title="Termica" alt="" coords="910,64,978,91"/>
+<area shape="poly" id="edge6" href="dir_000038_000014.html" alt="" coords="923,94,900,104,829,123,758,136,635,150,635,145,757,131,828,117,898,99,921,89"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000038_000014.html" title="12" alt="" coords="632,148,646,164"/>
+<area shape="rect" id="clust2" href="dir_c9572b3272fa55f6d8f99fe9a96667e2.html" alt="" coords="27,53,988,101"/>
+<area shape="rect" id="clust1" href="dir_38208f4b93fccd407f22136895be59d3.html" title="GEU" alt="" coords="16,16,999,176"/>
+</map>

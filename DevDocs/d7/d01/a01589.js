@@ -1,10 +1,4 @@
 var a01589 =
 [
-    [ "get8BitRGBColor", "d7/d01/a01589.html#a08369eb10ee0a897e2126bab74bce5ac", null ],
-    [ "getFloatRGBColor", "d7/d01/a01589.html#a77229fb0ec630013ffb6d0141fa94e6e", null ],
-    [ "getRGBVec3", "d7/d01/a01589.html#a46afe38741009cb8a18c1701b174e91f", null ],
-    [ "getRGBVec4", "d7/d01/a01589.html#a869b1c796dc79a8c17f4f2ffd6e6ea02", null ],
-    [ "saveRGB", "d7/d01/a01589.html#a4234196f8be419dba1c3ca4468adaa02", null ],
-    [ "_point", "d7/d01/a01589.html#af41c57aaf5047b731b9a521739ed9be3", null ],
-    [ "_rgb", "d7/d01/a01589.html#afa4647afa6751c2f7ddb9103c2e9cfab", null ]
+    [ "get", "d7/d01/a01589.html#ae6fab37c876ba8d5f8f50c7f5651167a", null ]
 ];

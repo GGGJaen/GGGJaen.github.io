@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>GEU: Lista de los miembros</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -95,17 +94,26 @@ $(function(){initNavTree('d5/d01/a01945.html','../../'); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">GEU::Singleton&lt; T &gt; Lista de los miembros</div></div>
+  <div class="headertitle"><div class="title">GEU::ConfirmPopup Lista de los miembros</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Lista completa de los miembros de <a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a>, incluyendo todos los heredados:</p>
+<p>Lista completa de los miembros de <a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a>, incluyendo todos los heredados:</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a2cfde896a1dea3ec6f4f249f134d451d">_instance</a></td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a47c7e7c2110f4cc59c9ff1f5594c366e">getInstance</a>()</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#af15eb34a2b58195c067792695aed6012">operator=</a>(Singleton)=delete</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#aeb5b66717b653c8465d3bb683af5c4cd">Singleton</a>()=default</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a89521801c0670dab18835ee80c266e31">Singleton</a>(const Singleton &amp;)=delete</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a897d385e1135be8aa478ff2f2c889cce">~Singleton</a>()</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a24248129e326962b52801701e2a0ca5e">_infoTextIdx</a></td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#a42248d36a452d65136446904b80b70bc">_popupID</a></td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#a86b2e3e26be2a0cd2f2ef176f6f21568">_popupTitleIdx</a></td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a221c5dee7862e45eec3393c7d9c171fa">_selectionCallback</a></td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a715009eed77eb8caa0a666c663313b1f">_yesnoButtons</a></td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a3274d4bd538ea25d4c31b1c55790af67">ConfirmPopup</a>(const std::string &amp;id, const LOCALE_STRINGS idx, const LOCALE_STRINGS infoTextIdx, const bool useYesNo, const std::function&lt; void(bool)&gt; &amp;callback)</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#abdcc20870710b60595e8777b9fd796ed">getIdTitle</a>() const</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#a007e39bdd438f261c5410c3a2800b203">getTitle</a>() const</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#abc3cb2b86b17e7613a1866cea0d08c87">I_GUIPopup</a>(const std::string &amp;id, const LOCALE_STRINGS idx)</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#acd132d1f2ccffc1fbc1ea9b2909ddb30">I_GUIPopup</a>()=delete</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#a9ab933ce2480e74d91269b92b0e3e93c">I_GUIPopup</a>(const I_GUIPopup &amp;other)=delete</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#a1a402149fb06626fa50f5b16ae34afbd">isOpen</a>() const</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a356c96e2b60a49682d4a6c41f1a60c38">openPopup</a>() override</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d01/a01945.html#a82f88c00c88912fb0beab3db3dcccdf0">renderPopup</a>(ApplicationState *appState, Scene *scene) override</td><td class="entry"><a class="el" href="../../d5/d01/a01945.html">GEU::ConfirmPopup</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d07/a01933.html#ae9b49e17e92fd6871c053ac99ab05f2a">~I_GUIPopup</a>()=default</td><td class="entry"><a class="el" href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,11 +1,7 @@
 var a01541 =
 [
-    [ "ShaderManager", "d5/d00/a01541.html#a98cc17a77505b20dfe7991183e361e40", null ],
-    [ "~ShaderManager", "d5/d00/a01541.html#ae9d6e38b0fed2faa2a7f57e4419d15cc", null ],
-    [ "clear", "d5/d00/a01541.html#aeb6e52fe9ddd4619ed72e99612fbcdaf", null ],
-    [ "getComputeShader", "d5/d00/a01541.html#ae395ad90096b54ea6d9df0e204d310c7", null ],
-    [ "getRenderingShader", "d5/d00/a01541.html#a467c277ef2f80bb92d7ad1a887e1f8ac", null ],
-    [ "Singleton", "d5/d00/a01541.html#ac14a8b7cbcbd5a98fc75ac3df176d864", null ],
-    [ "_computeShaders", "d5/d00/a01541.html#a43c01e3d70d976dba89ca83042dc42a6", null ],
-    [ "_renderingShaders", "d5/d00/a01541.html#a576adde603608ef792548e7340149b8c", null ]
+    [ "InfoPopup", "d5/d00/a01541.html#ae8ba6109c09b3ad80a0dc7a0bb4922bf", null ],
+    [ "openPopup", "d5/d00/a01541.html#abc3941dfcab838076bffc157f199edfb", null ],
+    [ "renderPopup", "d5/d00/a01541.html#a159ea5e5a4c7240aaa3592082d39e008", null ],
+    [ "_infoText", "d5/d00/a01541.html#a2eaa63bbd33fa4b532991dec310aaadc", null ]
 ];

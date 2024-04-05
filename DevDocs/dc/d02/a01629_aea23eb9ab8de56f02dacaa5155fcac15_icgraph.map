@@ -1,0 +1,13 @@
+<map id="GEU::Model3D::getModelMatrix" name="GEU::Model3D::getModelMatrix">
+<area shape="rect" id="Node000001" title=" " alt="" coords="724,80,930,107"/>
+<area shape="rect" id="Node000002" href="$d3/d00/a02069.html#a8cfce2a37af19646fd0c06ee3fb077ca" title=" " alt="" coords="520,5,668,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="762,78,668,50,669,45,764,73"/>
+<area shape="rect" id="Node000003" href="$da/d06/a02025.html#a232e707ee942a8c3df89dc341e96323a" title=" " alt="" coords="512,72,676,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="709,96,677,96,677,91,709,91"/>
+<area shape="rect" id="Node000006" href="$d7/d03/a01645.html#a3d0a52044599f2686b42aed5b4630095" title=" " alt="" coords="523,139,665,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="764,114,667,142,665,137,762,109"/>
+<area shape="rect" id="Node000004" href="$d0/d07/a02065.html#afafb062e54a135be4bc20d2eaee39862" title=" " alt="" coords="259,72,464,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="496,96,464,96,464,91,496,91"/>
+<area shape="rect" id="Node000005" href="$d0/d07/a02065.html#a30cdb8738563252a05b2da154c3f864d" title="Custom module GUI window contents." alt="" coords="5,72,211,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="243,96,211,96,211,91,243,91"/>
+</map>

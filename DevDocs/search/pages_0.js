@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['a_20geu_20docs_0',['¡Bienvenido a GEU Docs!',['../dd/d00/a04182.html',1,'']]]
+  ['a_20geu_20docs_0',['¡Bienvenido a GEU Docs!',['../index.html',1,'']]]
 ];

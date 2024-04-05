@@ -1,14 +1,9 @@
 var a01633 =
 [
-    [ "Octant", "d6/d06/a01633.html#ae76a22af036e9bed90ebef0d9e0d0e40", null ],
-    [ "~Octant", "d6/d06/a01633.html#aeb7d3de12ebb9c0f26220e10fb401410", null ],
-    [ "child", "d6/d06/a01633.html#a72e051d417bd16a9e28f903d11029b32", null ],
-    [ "end", "d6/d06/a01633.html#a15448cd4a1f17cb9c0683f62657c93dd", null ],
-    [ "extent", "d6/d06/a01633.html#a1ff15b73c886d82fa236fbc7e4599764", null ],
-    [ "isLeaf", "d6/d06/a01633.html#a4b07f2beeba5b1f35477fc789c4e256a", null ],
-    [ "size", "d6/d06/a01633.html#aadf59d9a2c09b54e69185d973b926fc3", null ],
-    [ "start", "d6/d06/a01633.html#a0f34f8bec4588f5370e82852aa561423", null ],
-    [ "x", "d6/d06/a01633.html#a50a06e9f69b089646e8368f325fffa53", null ],
-    [ "y", "d6/d06/a01633.html#a336bd624e305ad1ab33ad37e2be441ef", null ],
-    [ "z", "d6/d06/a01633.html#a391447810a856ef934bdbf6820f7e335", null ]
+    [ "PointCloudAdaptor", "d6/d06/a01633.html#ae9cb82e2b419f70fcfaf60cc61540620", null ],
+    [ "derived", "d6/d06/a01633.html#a632ff577098ae89228ada8bf6ce6d2a8", null ],
+    [ "kdtree_get_bbox", "d6/d06/a01633.html#a3d4981a478f9af509e9b08e209318131", null ],
+    [ "kdtree_get_point_count", "d6/d06/a01633.html#a61e23f7c4d5a038e1552c584593e063f", null ],
+    [ "kdtree_get_pt", "d6/d06/a01633.html#ab994fa90b34733cb301081e898108b24", null ],
+    [ "cloud", "d6/d06/a01633.html#a1731cf496fd997ebe42d49690d0677f4", null ]
 ];

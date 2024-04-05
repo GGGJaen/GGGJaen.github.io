@@ -1,12 +1,17 @@
 var a01493 =
 [
-    [ "MaterialList", "d2/d01/a01493.html#a426d8041365944c54aaa6bf0387951a6", null ],
-    [ "~MaterialList", "d2/d01/a01493.html#adb78da36310e9749d50b1103a43534ad", null ],
-    [ "clear", "d2/d01/a01493.html#aa3414adecf317b1b9f265822cb943964", null ],
-    [ "getBegin", "d2/d01/a01493.html#ad6d2a1664119ab7e1e93caa28f69c170", null ],
-    [ "getEnd", "d2/d01/a01493.html#a046fac4bb0e03659ab2a9e29bb15f490", null ],
-    [ "isMaterialAvailable", "d2/d01/a01493.html#aa2cc4ef7782808bbcb396356b17265c8", null ],
-    [ "saveMaterial", "d2/d01/a01493.html#acc957c934384d13e5ccc65e5f536ad56", null ],
-    [ "_materials", "d2/d01/a01493.html#a24f32e9be5114169ec0d3ae05c2cfcc6", null ],
-    [ "Singleton", "d2/d01/a01493.html#a1b320452c38ae367cabac06eb1301061", null ]
+    [ "DetailsWindow", "d2/d01/a01493.html#ac0fd02060c51c9279c00d97d7b508ee9", null ],
+    [ "makeBasicTextureViewer", "d2/d01/a01493.html#ad015f60d22d7acb74f54f3d2238a92f0", null ],
+    [ "makeBasicTransformControls", "d2/d01/a01493.html#ad35f61717358ebd11631e5b8c5ed9ff9", null ],
+    [ "makeCameraItemInspector", "d2/d01/a01493.html#a241455ad0e5a659831aa86d3182b9551", null ],
+    [ "makeImageItemInspector", "d2/d01/a01493.html#a9f3abbe4333bbd68c079b347898d3f74", null ],
+    [ "makeLightItemInspector", "d2/d01/a01493.html#aafcdb3e0ee9efe93917945b4b67ef977", null ],
+    [ "makeMaterialItemInspector", "d2/d01/a01493.html#addd0dc775ee807e26a5936815ad411b8", null ],
+    [ "makeModelItemInspector", "d2/d01/a01493.html#afef856466732ea159773d087909d0fdf", null ],
+    [ "makePCloudItemInspector", "d2/d01/a01493.html#a9edcfff4507d107037e9f7500a3d6717", null ],
+    [ "renderWindow", "d2/d01/a01493.html#a6666ec761cc5cd8a57220823b8e7daa6", null ],
+    [ "resetShaderInspector", "d2/d01/a01493.html#a9953ff27c2344fe179d9c229628b70da", null ],
+    [ "_shaderInspectorShSel", "d2/d01/a01493.html#adf8eed13cc3907ddd46f289dc9179545", null ],
+    [ "_shaderInspectorSubrutSel", "d2/d01/a01493.html#aab70ef1fb57aa42c343638ad56e6453b", null ],
+    [ "_shaderInspectorUnifSel", "d2/d01/a01493.html#a693f704d288722da573a1ddd95f34b15", null ]
 ];

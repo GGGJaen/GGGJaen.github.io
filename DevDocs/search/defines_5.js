@@ -1,4 +1,11 @@
 var searchData=
 [
-  ['jpg_5fextension_0',['JPG_EXTENSION',['../d4/d05/a00503.html#af67efbc680d4a92edfa7879617cc093d',1,'OpenCVImage.h']]]
+  ['gl_5fgpu_5fmem_5finfo_5fcurrent_5favailable_5fmem_5fnvx_0',['GL_GPU_MEM_INFO_CURRENT_AVAILABLE_MEM_NVX',['../d3/d03/a00341.html#a6742682a27903641a258e686a0db0368',1,'MemoryManager.cpp']]],
+  ['gl_5fgpu_5fmem_5finfo_5ftotal_5favailable_5fmem_5fnvx_1',['GL_GPU_MEM_INFO_TOTAL_AVAILABLE_MEM_NVX',['../d3/d03/a00341.html#ad36bf08b723b4d19079cf67054a28c10',1,'MemoryManager.cpp']]],
+  ['glfw_5fexpose_5fnative_5fwin32_2',['GLFW_EXPOSE_NATIVE_WIN32',['../df/d01/a00335.html#a7226e54815f41685fdc9df544352957e',1,'InputManager.cpp']]],
+  ['glm_5fenable_5fexperimental_3',['GLM_ENABLE_EXPERIMENTAL',['../d2/d07/a00014.html#abd75661fe7969e19439052a5f69ba5d1',1,'GLM_ENABLE_EXPERIMENTAL:&#160;GEUAppPch.h'],['../d9/d00/a00191.html#abd75661fe7969e19439052a5f69ba5d1',1,'GLM_ENABLE_EXPERIMENTAL:&#160;GEUCorePch.h'],['../d4/d06/a00497.html#abd75661fe7969e19439052a5f69ba5d1',1,'GLM_ENABLE_EXPERIMENTAL:&#160;MultiespectralPch.h'],['../dd/d04/a00578.html#abd75661fe7969e19439052a5f69ba5d1',1,'GLM_ENABLE_EXPERIMENTAL:&#160;TermicaPch.h']]],
+  ['glm_5fforce_5fcxx17_4',['GLM_FORCE_CXX17',['../d2/d07/a00014.html#a1f573f40864d14bd19ceb9ed4b92db2e',1,'GLM_FORCE_CXX17:&#160;GEUAppPch.h'],['../d9/d00/a00191.html#a1f573f40864d14bd19ceb9ed4b92db2e',1,'GLM_FORCE_CXX17:&#160;GEUCorePch.h'],['../d4/d06/a00497.html#a1f573f40864d14bd19ceb9ed4b92db2e',1,'GLM_FORCE_CXX17:&#160;MultiespectralPch.h']]],
+  ['glm_5fforce_5finline_5',['GLM_FORCE_INLINE',['../d2/d07/a00014.html#adadede8a3fd573d67851c64c0a2b81df',1,'GLM_FORCE_INLINE:&#160;GEUAppPch.h'],['../d9/d00/a00191.html#adadede8a3fd573d67851c64c0a2b81df',1,'GLM_FORCE_INLINE:&#160;GEUCorePch.h'],['../d4/d06/a00497.html#adadede8a3fd573d67851c64c0a2b81df',1,'GLM_FORCE_INLINE:&#160;MultiespectralPch.h']]],
+  ['glm_5fforce_5fintrinsics_6',['GLM_FORCE_INTRINSICS',['../d2/d07/a00014.html#a460bb0cc67e852b743e171fc86b79262',1,'GLM_FORCE_INTRINSICS:&#160;GEUAppPch.h'],['../d9/d00/a00191.html#a460bb0cc67e852b743e171fc86b79262',1,'GLM_FORCE_INTRINSICS:&#160;GEUCorePch.h'],['../d4/d06/a00497.html#a460bb0cc67e852b743e171fc86b79262',1,'GLM_FORCE_INTRINSICS:&#160;MultiespectralPch.h']]],
+  ['gltf_5fextension_7',['GLTF_EXTENSION',['../d7/d05/a00182.html#a6058eae4be9bac038429e097eda0a99e',1,'TriangleMesh.h']]]
 ];

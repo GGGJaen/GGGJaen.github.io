@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['msh_5fply_5fimplementation_0',['MSH_PLY_IMPLEMENTATION',['../d5/d07/a00461.html#a634b4178cc4f413b6ad76d528e5dde84',1,'FileManager.h']]]
+  ['jpg_5fextension_0',['JPG_EXTENSION',['../d1/d03/a00452.html#af67efbc680d4a92edfa7879617cc093d',1,'OpenCVImage.h']]]
 ];

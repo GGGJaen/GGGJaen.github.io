@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['nassession_2ecpp_0',['NASSession.cpp',['../d5/d07/a00494.html',1,'']]],
-  ['nassession_2eh_1',['NASSession.h',['../d4/d06/a00497.html',1,'']]],
-  ['normalesguiadapter_2ecpp_2',['NormalesGUIAdapter.cpp',['../de/d01/a00203.html',1,'']]],
-  ['normalesguiadapter_2eh_3',['NormalesGUIAdapter.h',['../d5/d01/a00206.html',1,'']]],
-  ['nubes_20de_20puntos_2emd_4',['Nubes de puntos.md',['../d9/d04/a00527.html',1,'']]]
+  ['main_2ecpp_0',['main.cpp',['../d4/d01/a00017.html',1,'']]],
+  ['material_2ecpp_1',['Material.cpp',['../d0/d07/a00239.html',1,'']]],
+  ['material_2eh_2',['Material.h',['../d2/d00/a00242.html',1,'']]],
+  ['materiallist_2ecpp_3',['MaterialList.cpp',['../d6/d02/a00245.html',1,'']]],
+  ['materiallist_2eh_4',['MaterialList.h',['../dd/d07/a00248.html',1,'']]],
+  ['materialswindow_2ecpp_5',['MaterialsWindow.cpp',['../da/d04/a00068.html',1,'']]],
+  ['materialswindow_2eh_6',['MaterialsWindow.h',['../d0/d01/a00071.html',1,'']]],
+  ['memorymanager_2ecpp_7',['MemoryManager.cpp',['../d3/d03/a00341.html',1,'']]],
+  ['memorymanager_2eh_8',['MemoryManager.h',['../d8/d06/a00344.html',1,'']]],
+  ['metadatareader_2ecpp_9',['MetadataReader.cpp',['../dd/d02/a00320.html',1,'']]],
+  ['metadatareader_2eh_10',['MetadataReader.h',['../de/d05/a00323.html',1,'']]],
+  ['model3d_2ecpp_11',['Model3D.cpp',['../dc/d06/a00167.html',1,'']]],
+  ['model3d_2eh_12',['Model3D.h',['../d5/d03/a00170.html',1,'']]],
+  ['modulemanager_2ecpp_13',['ModuleManager.cpp',['../d1/d01/a00092.html',1,'']]],
+  ['modulemanager_2eh_14',['ModuleManager.h',['../d9/d07/a00095.html',1,'']]],
+  ['multiespectralguiadapter_2ecpp_15',['MultiespectralGUIAdapter.cpp',['../d4/d03/a00512.html',1,'']]],
+  ['multiespectralguiadapter_2eh_16',['MultiespectralGUIAdapter.h',['../dc/d01/a00515.html',1,'']]],
+  ['multiespectralpch_2ecpp_17',['MultiespectralPch.cpp',['../d5/d07/a00494.html',1,'']]],
+  ['multiespectralpch_2eh_18',['MultiespectralPch.h',['../d4/d06/a00497.html',1,'']]]
 ];

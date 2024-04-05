@@ -1,0 +1,9 @@
+<map id="GEU::GuiUtilities::beginZonaTable" name="GEU::GuiUtilities::beginZonaTable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="283,72,411,115"/>
+<area shape="rect" id="Node000002" href="$df/d07/a01537.html#ad5e45356898c5dfc51d7ef890f7a5b41" title=" " alt="" coords="28,5,212,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,72,234,63,196,51,197,46,235,57,269,67"/>
+<area shape="rect" id="Node000003" href="$da/d01/a02101.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="5,72,235,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,96,235,96,235,91,267,91"/>
+<area shape="rect" id="Node000004" href="$df/d07/a01537.html#afc8c81955f8b810c699753b511f61031" title=" " alt="" coords="28,139,212,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,119,235,129,197,141,196,135,234,124,267,114"/>
+</map>

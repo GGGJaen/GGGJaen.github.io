@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la clase GEU::ModuleManager</title>
-<link rel="icon" href="../../Logo_Principal.ico" type="image/x-icon" />
+<title>GEU: Referencia de la estructura GEU::TriangleMesh::Component</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,86 +96,49 @@ $(function(){initNavTree('dc/d07/a01649.html','../../'); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
-<a href="#pro-methods">Métodos protegidos</a> &#124;
-<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
 <a href="../../df/d06/a01646.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la clase GEU::ModuleManager</div></div>
+  <div class="headertitle"><div class="title">Referencia de la estructura GEU::TriangleMesh::Component</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Handles module loading and managing during runtime.  
- <a href="#details">Más...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d5/d07/a00224_source.html">ModuleManager.h</a>&gt;</code></p>
-<div class="dynheader">
-Diagrama de herencia de GEU::ModuleManager</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d07/a01648.svg" width="239" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
-<div class="dynheader">
-Diagrama de colaboración de GEU::ModuleManager:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d00/a01647.svg" width="1620" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d7/d05/a00182_source.html">TriangleMesh.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
-<tr class="memitem:a3320f58650e95873c3cda4e558cafcf1" id="r_a3320f58650e95873c3cda4e558cafcf1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3320f58650e95873c3cda4e558cafcf1">~ModuleManager</a> ()</td></tr>
-<tr class="separator:a3320f58650e95873c3cda4e558cafcf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3318f338a04c6af7fb2f333dcecc0fa0" id="r_a3318f338a04c6af7fb2f333dcecc0fa0"><td class="memItemLeft" align="right" valign="top">ModTypesMap::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3318f338a04c6af7fb2f333dcecc0fa0">modulesBegin</a> () const</td></tr>
-<tr class="separator:a3318f338a04c6af7fb2f333dcecc0fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cd56cd726cbc779cf7dbcbe942d356a" id="r_a4cd56cd726cbc779cf7dbcbe942d356a"><td class="memItemLeft" align="right" valign="top">ModTypesMap::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cd56cd726cbc779cf7dbcbe942d356a">modulesEnd</a> () const</td></tr>
-<tr class="separator:a4cd56cd726cbc779cf7dbcbe942d356a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfa8675e3a5c5d510c459df4ac39534a" id="r_abfa8675e3a5c5d510c459df4ac39534a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d04/a00543.html#a3bb0eb2b4ef118902a20171b1a6e40cb">ModuleMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa8675e3a5c5d510c459df4ac39534a">getModules</a> (<a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a> group) const</td></tr>
-<tr class="memdesc:abfa8675e3a5c5d510c459df4ac39534a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve available modules on a type.  <br /></td></tr>
-<tr class="separator:abfa8675e3a5c5d510c459df4ac39534a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac465dc01d198fa2407b3139e3d9837ac" id="r_ac465dc01d198fa2407b3139e3d9837ac"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac465dc01d198fa2407b3139e3d9837ac">getModuleGroupTitle</a> (<a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a> group) const</td></tr>
-<tr class="separator:ac465dc01d198fa2407b3139e3d9837ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a01945"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_a01945')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos heredados de <a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; ModuleManager &gt;</a></td></tr>
-<tr class="memitem:a89521801c0670dab18835ee80c266e31 inherit pub_methods_a01945" id="r_a89521801c0670dab18835ee80c266e31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01945.html#a89521801c0670dab18835ee80c266e31">Singleton</a> (const <a class="el" href="../../d5/d01/a01945.html">Singleton</a> &amp;)=delete</td></tr>
-<tr class="separator:a89521801c0670dab18835ee80c266e31 inherit pub_methods_a01945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af15eb34a2b58195c067792695aed6012 inherit pub_methods_a01945" id="r_af15eb34a2b58195c067792695aed6012"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d01/a01945.html">Singleton</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01945.html#af15eb34a2b58195c067792695aed6012">operator=</a> (<a class="el" href="../../d5/d01/a01945.html">Singleton</a>)=delete</td></tr>
-<tr class="separator:af15eb34a2b58195c067792695aed6012 inherit pub_methods_a01945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a129aaf9b44473207356a2e336d6a5e98" id="r_a129aaf9b44473207356a2e336d6a5e98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129aaf9b44473207356a2e336d6a5e98">Component</a> (<a class="el" href="../../d6/d07/a01781.html">VAO</a> *vao=nullptr)</td></tr>
+<tr class="separator:a129aaf9b44473207356a2e336d6a5e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6bed4f15fb306bd776c0a72605dddd4" id="r_ac6bed4f15fb306bd776c0a72605dddd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6bed4f15fb306bd776c0a72605dddd4">~Component</a> ()</td></tr>
+<tr class="separator:ac6bed4f15fb306bd776c0a72605dddd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Métodos protegidos</h2></td></tr>
-<tr class="memitem:a9b9df20e2ea81acbc88fa8706f1588e2" id="r_a9b9df20e2ea81acbc88fa8706f1588e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b9df20e2ea81acbc88fa8706f1588e2">ModuleManager</a> ()</td></tr>
-<tr class="separator:a9b9df20e2ea81acbc88fa8706f1588e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a212616bf2b2202e3372bd4c6a2cf03fb" id="r_a212616bf2b2202e3372bd4c6a2cf03fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a212616bf2b2202e3372bd4c6a2cf03fb">addMainModules</a> ()</td></tr>
-<tr class="memdesc:a212616bf2b2202e3372bd4c6a2cf03fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds basic modules to <a class="el" href="../../d5/d06/a01773.html" title="ImGUI wrapper and interface manager.">GUI</a>.  <br /></td></tr>
-<tr class="separator:a212616bf2b2202e3372bd4c6a2cf03fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b51b2c9fdfad73a6b3e79cc10ecba91" id="r_a6b51b2c9fdfad73a6b3e79cc10ecba91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b51b2c9fdfad73a6b3e79cc10ecba91">addModuleGroup</a> (<a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a> idx, const std::string &amp;moduleIcon)</td></tr>
-<tr class="separator:a6b51b2c9fdfad73a6b3e79cc10ecba91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a01945"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_a01945')"><img src="../../closed.png" alt="-"/>&#160;Métodos protegidos heredados de <a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; ModuleManager &gt;</a></td></tr>
-<tr class="memitem:aeb5b66717b653c8465d3bb683af5c4cd inherit pro_methods_a01945" id="r_aeb5b66717b653c8465d3bb683af5c4cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01945.html#aeb5b66717b653c8465d3bb683af5c4cd">Singleton</a> ()=default</td></tr>
-<tr class="separator:aeb5b66717b653c8465d3bb683af5c4cd inherit pro_methods_a01945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a897d385e1135be8aa478ff2f2c889cce inherit pro_methods_a01945" id="r_a897d385e1135be8aa478ff2f2c889cce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01945.html#a897d385e1135be8aa478ff2f2c889cce">~Singleton</a> ()</td></tr>
-<tr class="separator:a897d385e1135be8aa478ff2f2c889cce inherit pro_methods_a01945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Atributos privados</h2></td></tr>
-<tr class="memitem:a582107c7e757054d436f390876094e34" id="r_a582107c7e757054d436f390876094e34"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582107c7e757054d436f390876094e34">Singleton</a></td></tr>
-<tr class="separator:a582107c7e757054d436f390876094e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ddb17f4c40afddcad6a60872fc20fc5" id="r_a8ddb17f4c40afddcad6a60872fc20fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d04/a00543.html#a59f4ec5ff8624fd58ed49956deca2496">ModTypesMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ddb17f4c40afddcad6a60872fc20fc5">_modules</a></td></tr>
-<tr class="memdesc:a8ddb17f4c40afddcad6a60872fc20fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loaded and available modules.  <br /></td></tr>
-<tr class="separator:a8ddb17f4c40afddcad6a60872fc20fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2292e015d961b5eba87469b88bb32ea3" id="r_a2292e015d961b5eba87469b88bb32ea3"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2292e015d961b5eba87469b88bb32ea3">_moduleGroups</a></td></tr>
-<tr class="separator:a2292e015d961b5eba87469b88bb32ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Otros miembros heredados</h2></td></tr>
-<tr class="inherit_header pub_static_methods_a01945"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_a01945')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos estáticos heredados de <a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; ModuleManager &gt;</a></td></tr>
-<tr class="memitem:a47c7e7c2110f4cc59c9ff1f5594c366e inherit pub_static_methods_a01945" id="r_a47c7e7c2110f4cc59c9ff1f5594c366e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d07/a01649.html">ModuleManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01945.html#a47c7e7c2110f4cc59c9ff1f5594c366e">getInstance</a> ()</td></tr>
-<tr class="separator:a47c7e7c2110f4cc59c9ff1f5594c366e inherit pub_static_methods_a01945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_static_attribs_a01945"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_a01945')"><img src="../../closed.png" alt="-"/>&#160;Atributos estáticos protegidos heredados de <a class="el" href="../../d5/d01/a01945.html">GEU::Singleton&lt; ModuleManager &gt;</a></td></tr>
-<tr class="memitem:a2cfde896a1dea3ec6f4f249f134d451d inherit pro_static_attribs_a01945" id="r_a2cfde896a1dea3ec6f4f249f134d451d"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="../../dc/d07/a01649.html">ModuleManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01945.html#a2cfde896a1dea3ec6f4f249f134d451d">_instance</a></td></tr>
-<tr class="separator:a2cfde896a1dea3ec6f4f249f134d451d inherit pro_static_attribs_a01945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a22e60d0eeb989af0716b22218a111283" id="r_a22e60d0eeb989af0716b22218a111283"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22e60d0eeb989af0716b22218a111283">_enabled</a></td></tr>
+<tr class="separator:a22e60d0eeb989af0716b22218a111283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ccbffe301cc6f3fc5c708d920e2660e" id="r_a5ccbffe301cc6f3fc5c708d920e2660e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ccbffe301cc6f3fc5c708d920e2660e">_initialized</a></td></tr>
+<tr class="separator:a5ccbffe301cc6f3fc5c708d920e2660e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a722cedd60cf58acadc20e74c52176c69" id="r_a722cedd60cf58acadc20e74c52176c69"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a722cedd60cf58acadc20e74c52176c69">_name</a></td></tr>
+<tr class="separator:a722cedd60cf58acadc20e74c52176c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e68547829e3fb4798b39c8464a0da1f" id="r_a9e68547829e3fb4798b39c8464a0da1f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e68547829e3fb4798b39c8464a0da1f">_baseVertex</a></td></tr>
+<tr class="separator:a9e68547829e3fb4798b39c8464a0da1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d9465c89c7f77eef755fd7452491870" id="r_a9d9465c89c7f77eef755fd7452491870"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d9465c89c7f77eef755fd7452491870">_baseIndex</a></td></tr>
+<tr class="separator:a9d9465c89c7f77eef755fd7452491870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a43ddc360e73b18beec51b730563c3" id="r_ab4a43ddc360e73b18beec51b730563c3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d6/d03/a01789.html">VAO::Vertex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a43ddc360e73b18beec51b730563c3">_vertices</a></td></tr>
+<tr class="separator:ab4a43ddc360e73b18beec51b730563c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d76872ddb35ab857d5216ee8d3fbcb" id="r_ae6d76872ddb35ab857d5216ee8d3fbcb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d76872ddb35ab857d5216ee8d3fbcb">_indices</a></td></tr>
+<tr class="separator:ae6d76872ddb35ab857d5216ee8d3fbcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d023ab4f548a6b67a838d4f1084af8b" id="r_a7d023ab4f548a6b67a838d4f1084af8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d07/a01781.html">VAO</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d023ab4f548a6b67a838d4f1084af8b">_vao</a></td></tr>
+<tr class="separator:a7d023ab4f548a6b67a838d4f1084af8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ad066fa9c1ef8bacbddeeae130e119f" id="r_a4ad066fa9c1ef8bacbddeeae130e119f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d05/a01617.html">AABB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad066fa9c1ef8bacbddeeae130e119f">_aabb</a></td></tr>
+<tr class="separator:a4ad066fa9c1ef8bacbddeeae130e119f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14cd6fc32ba2797592c110d6b94def3" id="r_ae14cd6fc32ba2797592c110d6b94def3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d03/a01717.html">Material</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae14cd6fc32ba2797592c110d6b94def3">_material</a></td></tr>
+<tr class="separator:ae14cd6fc32ba2797592c110d6b94def3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b91952a069379a60625c057e56007f" id="r_ab6b91952a069379a60625c057e56007f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d06/a01721.html">Material::MaterialDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6b91952a069379a60625c057e56007f">_materialDescription</a></td></tr>
+<tr class="separator:ab6b91952a069379a60625c057e56007f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Handles module loading and managing during runtime. </p>
-</div><h2 class="groupheader">Documentación de constructores y destructores</h2>
-<a id="a9b9df20e2ea81acbc88fa8706f1588e2" name="a9b9df20e2ea81acbc88fa8706f1588e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b9df20e2ea81acbc88fa8706f1588e2">&#9670;&#160;</a></span>ModuleManager()</h2>
+<h2 class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a129aaf9b44473207356a2e336d6a5e98" name="a129aaf9b44473207356a2e336d6a5e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a129aaf9b44473207356a2e336d6a5e98">&#9670;&#160;</a></span>Component()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,167 +147,10 @@ Otros miembros heredados</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GEU::ModuleManager::ModuleManager </td>
+          <td class="memname">GEU::TriangleMesh::Component::Component </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d6/d07/a01781.html">VAO</a> *</td>          <td class="paramname"><span class="paramname"><em>vao</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_a9b9df20e2ea81acbc88fa8706f1588e2_cgraph.svg" width="358" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a3320f58650e95873c3cda4e558cafcf1" name="a3320f58650e95873c3cda4e558cafcf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3320f58650e95873c3cda4e558cafcf1">&#9670;&#160;</a></span>~ModuleManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GEU::ModuleManager::~ModuleManager </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="a212616bf2b2202e3372bd4c6a2cf03fb" name="a212616bf2b2202e3372bd4c6a2cf03fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a212616bf2b2202e3372bd4c6a2cf03fb">&#9670;&#160;</a></span>addMainModules()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ModuleManager::addMainModules </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Adds basic modules to <a class="el" href="../../d5/d06/a01773.html" title="ImGUI wrapper and interface manager.">GUI</a>. </p>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_a212616bf2b2202e3372bd4c6a2cf03fb_icgraph.svg" width="358" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a6b51b2c9fdfad73a6b3e79cc10ecba91" name="a6b51b2c9fdfad73a6b3e79cc10ecba91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b51b2c9fdfad73a6b3e79cc10ecba91">&#9670;&#160;</a></span>addModuleGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::ModuleManager::addModuleGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a></td>          <td class="paramname"><span class="paramname"><em>idx</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>moduleIcon</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_a6b51b2c9fdfad73a6b3e79cc10ecba91_icgraph.svg" width="358" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ac465dc01d198fa2407b3139e3d9837ac" name="ac465dc01d198fa2407b3139e3d9837ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac465dc01d198fa2407b3139e3d9837ac">&#9670;&#160;</a></span>getModuleGroupTitle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string GEU::ModuleManager::getModuleGroupTitle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a></td>          <td class="paramname"><span class="paramname"><em>group</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_ac465dc01d198fa2407b3139e3d9837ac_cgraph.svg" width="411" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_ac465dc01d198fa2407b3139e3d9837ac_icgraph.svg" width="332" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="abfa8675e3a5c5d510c459df4ac39534a" name="abfa8675e3a5c5d510c459df4ac39534a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfa8675e3a5c5d510c459df4ac39534a">&#9670;&#160;</a></span>getModules()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d4/d04/a00543.html#a3bb0eb2b4ef118902a20171b1a6e40cb">ModuleMap</a> &amp; GEU::ModuleManager::getModules </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a></td>          <td class="paramname"><span class="paramname"><em>group</em></span></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
   </td>
@@ -355,25 +160,10 @@ Gráfico de llamadas a esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Retrieve available modules on a type. </p>
-<dl class="params"><dt>Parámetros</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">type</td><td>Module type to retrieve </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Devuelve</dt><dd>Map of module names and pointers to implementation </dd></dl>
-<dl class="exception"><dt>Excepciones</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::out_of_range</td><td>if type not found </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
-<a id="a3318f338a04c6af7fb2f333dcecc0fa0" name="a3318f338a04c6af7fb2f333dcecc0fa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3318f338a04c6af7fb2f333dcecc0fa0">&#9670;&#160;</a></span>modulesBegin()</h2>
+<a id="ac6bed4f15fb306bd776c0a72605dddd4" name="ac6bed4f15fb306bd776c0a72605dddd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6bed4f15fb306bd776c0a72605dddd4">&#9670;&#160;</a></span>~Component()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,10 +172,10 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ModTypesMap::const_iterator GEU::ModuleManager::modulesBegin </td>
+          <td class="memname">GEU::TriangleMesh::Component::~Component </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -394,118 +184,166 @@ Gráfico de llamadas a esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Const iterator to modules map begin </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_a3318f338a04c6af7fb2f333dcecc0fa0_icgraph.svg" width="332" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a4cd56cd726cbc779cf7dbcbe942d356a" name="a4cd56cd726cbc779cf7dbcbe942d356a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cd56cd726cbc779cf7dbcbe942d356a">&#9670;&#160;</a></span>modulesEnd()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ModTypesMap::const_iterator GEU::ModuleManager::modulesEnd </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Const iterator to modules map end </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d07/a01649_a4cd56cd726cbc779cf7dbcbe942d356a_icgraph.svg" width="332" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a2292e015d961b5eba87469b88bb32ea3" name="a2292e015d961b5eba87469b88bb32ea3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2292e015d961b5eba87469b88bb32ea3">&#9670;&#160;</a></span>_moduleGroups</h2>
+<a id="a4ad066fa9c1ef8bacbddeeae130e119f" name="a4ad066fa9c1ef8bacbddeeae130e119f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad066fa9c1ef8bacbddeeae130e119f">&#9670;&#160;</a></span>_aabb</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="../../de/d01/a00197.html#a601a7b55b6c3e8ec0bf8451cb7995573">MODULE_INDEX</a>, std::string&gt; GEU::ModuleManager::_moduleGroups</td>
+          <td class="memname"><a class="el" href="../../d6/d05/a01617.html">AABB</a> GEU::TriangleMesh::Component::_aabb</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8ddb17f4c40afddcad6a60872fc20fc5" name="a8ddb17f4c40afddcad6a60872fc20fc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ddb17f4c40afddcad6a60872fc20fc5">&#9670;&#160;</a></span>_modules</h2>
+<a id="a9d9465c89c7f77eef755fd7452491870" name="a9d9465c89c7f77eef755fd7452491870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d9465c89c7f77eef755fd7452491870">&#9670;&#160;</a></span>_baseIndex</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d04/a00543.html#a59f4ec5ff8624fd58ed49956deca2496">ModTypesMap</a> GEU::ModuleManager::_modules</td>
+          <td class="memname">size_t GEU::TriangleMesh::Component::_baseIndex</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Loaded and available modules. </p>
-
-</div>
-</div>
-<a id="a582107c7e757054d436f390876094e34" name="a582107c7e757054d436f390876094e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a582107c7e757054d436f390876094e34">&#9670;&#160;</a></span>Singleton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend GEU::ModuleManager::Singleton</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
-<li>C:/GitHub/GEU/GEU/Source/Modules/<a class="el" href="../../d5/d07/a00224_source.html">ModuleManager.h</a></li>
-<li>C:/GitHub/GEU/GEU/Source/Modules/<a class="el" href="../../dd/d02/a00221.html">ModuleManager.cpp</a></li>
+<a id="a9e68547829e3fb4798b39c8464a0da1f" name="a9e68547829e3fb4798b39c8464a0da1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e68547829e3fb4798b39c8464a0da1f">&#9670;&#160;</a></span>_baseVertex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t GEU::TriangleMesh::Component::_baseVertex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22e60d0eeb989af0716b22218a111283" name="a22e60d0eeb989af0716b22218a111283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e60d0eeb989af0716b22218a111283">&#9670;&#160;</a></span>_enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::TriangleMesh::Component::_enabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6d76872ddb35ab857d5216ee8d3fbcb" name="ae6d76872ddb35ab857d5216ee8d3fbcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d76872ddb35ab857d5216ee8d3fbcb">&#9670;&#160;</a></span>_indices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;uint32_t&gt; GEU::TriangleMesh::Component::_indices</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ccbffe301cc6f3fc5c708d920e2660e" name="a5ccbffe301cc6f3fc5c708d920e2660e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ccbffe301cc6f3fc5c708d920e2660e">&#9670;&#160;</a></span>_initialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::TriangleMesh::Component::_initialized</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae14cd6fc32ba2797592c110d6b94def3" name="ae14cd6fc32ba2797592c110d6b94def3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14cd6fc32ba2797592c110d6b94def3">&#9670;&#160;</a></span>_material</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d03/a01717.html">Material</a>* GEU::TriangleMesh::Component::_material</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6b91952a069379a60625c057e56007f" name="ab6b91952a069379a60625c057e56007f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6b91952a069379a60625c057e56007f">&#9670;&#160;</a></span>_materialDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d06/a01721.html">Material::MaterialDescription</a> GEU::TriangleMesh::Component::_materialDescription</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a722cedd60cf58acadc20e74c52176c69" name="a722cedd60cf58acadc20e74c52176c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a722cedd60cf58acadc20e74c52176c69">&#9670;&#160;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GEU::TriangleMesh::Component::_name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d023ab4f548a6b67a838d4f1084af8b" name="a7d023ab4f548a6b67a838d4f1084af8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d023ab4f548a6b67a838d4f1084af8b">&#9670;&#160;</a></span>_vao</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d07/a01781.html">VAO</a>* GEU::TriangleMesh::Component::_vao</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a43ddc360e73b18beec51b730563c3" name="ab4a43ddc360e73b18beec51b730563c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a43ddc360e73b18beec51b730563c3">&#9670;&#160;</a></span>_vertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d6/d03/a01789.html">VAO::Vertex</a>&gt; GEU::TriangleMesh::Component::_vertices</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
+<li>D:/GEU/GEUCore/Source/DataTypes/<a class="el" href="../../d7/d05/a00182_source.html">TriangleMesh.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

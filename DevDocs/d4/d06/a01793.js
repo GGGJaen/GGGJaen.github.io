@@ -1,14 +1,10 @@
 var a01793 =
 [
-    [ "I_GUIPopup", "d4/d06/a01793.html#add49fa2537b36aba77efde3a844a6eb4", null ],
-    [ "I_GUIPopup", "d4/d06/a01793.html#acd132d1f2ccffc1fbc1ea9b2909ddb30", null ],
-    [ "I_GUIPopup", "d4/d06/a01793.html#a9ab933ce2480e74d91269b92b0e3e93c", null ],
-    [ "~I_GUIPopup", "d4/d06/a01793.html#a08aed4b695f97c2bc1653db8ae911045", null ],
-    [ "getIdTitle", "d4/d06/a01793.html#abdcc20870710b60595e8777b9fd796ed", null ],
-    [ "getTitle", "d4/d06/a01793.html#a007e39bdd438f261c5410c3a2800b203", null ],
-    [ "isOpen", "d4/d06/a01793.html#a1a402149fb06626fa50f5b16ae34afbd", null ],
-    [ "openPopup", "d4/d06/a01793.html#a4251ca5a4cfd44dc5821eab3c01edd69", null ],
-    [ "renderPopup", "d4/d06/a01793.html#a64aab70bb54935e6e91a7e5a8506cc37", null ],
-    [ "_popupID", "d4/d06/a01793.html#a42248d36a452d65136446904b80b70bc", null ],
-    [ "_popupTitleIdx", "d4/d06/a01793.html#a86b2e3e26be2a0cd2f2ef176f6f21568", null ]
+    [ "get8BitRGBColor", "d4/d06/a01793.html#a08369eb10ee0a897e2126bab74bce5ac", null ],
+    [ "getFloatRGBColor", "d4/d06/a01793.html#a77229fb0ec630013ffb6d0141fa94e6e", null ],
+    [ "getRGBVec3", "d4/d06/a01793.html#a46afe38741009cb8a18c1701b174e91f", null ],
+    [ "getRGBVec4", "d4/d06/a01793.html#a869b1c796dc79a8c17f4f2ffd6e6ea02", null ],
+    [ "saveRGB", "d4/d06/a01793.html#a4234196f8be419dba1c3ca4468adaa02", null ],
+    [ "_point", "d4/d06/a01793.html#af41c57aaf5047b731b9a521739ed9be3", null ],
+    [ "_rgb", "d4/d06/a01793.html#afa4647afa6751c2f7ddb9103c2e9cfab", null ]
 ];

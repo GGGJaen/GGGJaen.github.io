@@ -1,0 +1,13 @@
+<map id="GEU::PointCloud::pickMeshletsArea" name="GEU::PointCloud::pickMeshletsArea">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,131,238,157"/>
+<area shape="rect" id="Node000002" href="$d6/d02/a00626.html#a831379f52f30464a7858df166cf74e42" title=" " alt="" coords="286,5,509,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,128,207,94,285,58,302,51,304,56,287,62,210,98,148,132"/>
+<area shape="rect" id="Node000003" href="$df/d06/a01737.html#a32e6f62d221dd01bac85a6e4201d9418" title=" " alt="" coords="297,72,498,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,127,316,100,317,105,188,133"/>
+<area shape="rect" id="Node000004" href="$d2/d00/a01729.html#af5f4307b5eba7c09888765c183a75213" title=" " alt="" coords="312,123,483,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,141,297,141,297,147,238,147"/>
+<area shape="rect" id="Node000005" href="$dd/d00/a01893.html#af2ea72a4bd53eb6f69a5c873e4c22017" title=" " alt="" coords="326,189,469,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="181,155,311,187,310,192,179,161"/>
+<area shape="rect" id="Node000006" href="$d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="310,256,485,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="143,155,205,197,287,242,302,248,300,253,285,246,202,202,140,160"/>
+</map>

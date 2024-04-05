@@ -1,0 +1,14 @@
+<map id="MetadataReader::micasenseReflectanceCalculation" name="MetadataReader::micasenseReflectanceCalculation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,193,99"/>
+<area shape="rect" id="Node000002" href="$d8/d05/a02021.html#ad6e832d101f29ff7ed29344593dd5880" title="[Public static methods]" alt="" coords="251,5,418,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,53,262,34,264,39,188,58"/>
+<area shape="rect" id="Node000003" href="$de/d03/a01873.html#a97ebc513416a67a04a1350e5ddc4e9fb" title=" " alt="" coords="241,56,428,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,75,225,75,225,80,193,80"/>
+<area shape="rect" id="Node000004" href="$d8/d05/a02021.html#a93cc7000e2f6ab3558ce7dc984351beb" title=" " alt="" coords="253,123,416,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,97,264,116,262,121,186,102"/>
+<area shape="rect" id="Node000005" href="$d8/d05/a02021.html#aca2db1ad767ecd0ca9ce59ee2ce9f5e5" title=" " alt="" coords="476,97,614,124"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="416,124,460,118,461,123,416,129"/>
+<area shape="rect" id="Node000006" href="$d8/d05/a02021.html#ae6e4f0bc433f713ddd69dc4825f5eaba" title="[Public methods]" alt="" coords="662,123,860,149"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="416,133,647,133,647,139,416,139"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="615,116,647,120,647,125,614,121"/>
+</map>
