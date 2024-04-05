@@ -1,0 +1,32 @@
+<map id="NormalesGUIAdapter::renderGuiObject" name="NormalesGUIAdapter::renderGuiObject">
+<area shape="rect" id="Node000001" title="Custom module GUI window contents." alt="" coords="5,147,149,189"/>
+<area shape="rect" id="Node000002" href="$d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="197,5,399,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,144,138,101,166,78,195,58,205,53,207,57,198,62,169,82,142,105,99,148"/>
+<area shape="rect" id="Node000003" href="$dc/d02/a02020.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="218,72,378,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,144,196,108,218,101,220,106,198,113,120,148"/>
+<area shape="rect" id="Node000004" href="$d7/d04/a00634.html#a4a4cc2d3f5e9444384aa7e7eb062dbf0" title=" " alt="" coords="234,147,362,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,165,218,165,218,171,149,171"/>
+<area shape="rect" id="Node000005" href="$d7/d02/a02036.html#a5f2b290d502274f01fc3e9bdadfca50e" title=" " alt="" coords="226,237,370,280"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="132,187,231,228,229,233,130,192"/>
+<area shape="rect" id="Node000010" href="$d7/d02/a02036.html#a32cec8b0ea288f27e15946d5a4ea3728" title=" " alt="" coords="226,355,370,397"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="100,188,199,290,259,343,256,347,195,294,96,192"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="256,147,254,137,261,128,276,122,298,120,322,122,336,129,334,133,320,128,298,125,277,127,264,132,259,138,261,146"/>
+<area shape="poly" id="edge10_Node000005_Node000005" title=" " alt="" coords="256,237,254,227,261,218,276,213,298,211,322,213,336,219,334,224,320,218,298,216,277,218,264,223,259,229,261,236"/>
+<area shape="rect" id="Node000006" href="$d6/d07/a01632.html#ab1c9f2d432831bde695e19caf32e3ebd" title=" " alt="" coords="467,144,635,171"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="334,234,386,207,446,180,468,173,470,178,448,185,389,211,337,239"/>
+<area shape="rect" id="Node000007" href="$de/d04/a01640.html#af0b00f0dfca52b32562dd5f82b483933" title=" " alt="" coords="454,195,648,221"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="369,242,465,222,466,228,370,247"/>
+<area shape="rect" id="Node000008" href="$de/d04/a01640.html#a52698b429492303948167bed5da1a0d9" title=" " alt="" coords="459,296,642,339"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="370,273,444,290,443,295,369,278"/>
+<area shape="rect" id="Node000009" href="$de/d04/a01640.html#a432cabc2346500ac9aba0f77df27d503" title="return all the subclouds in this cloud. If there isn&#39;t any subcloud, the vector will be empty." alt="" coords="447,245,654,272"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="370,256,431,256,431,261,370,261"/>
+<area shape="poly" id="edge15_Node000010_Node000008" title=" " alt="" coords="369,357,443,339,444,345,370,362"/>
+<area shape="rect" id="Node000011" href="$da/d02/a01620.html#ae60d0132c0c5d96ddb455024a40b6bde" title=" " alt="" coords="500,363,601,389"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="370,373,485,373,485,379,370,379"/>
+<area shape="rect" id="Node000012" href="$d6/d07/a01632.html#ab5fdc7a938aa8ae8f6697cb4bf3e94b4" title=" " alt="" coords="466,413,636,440"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="370,388,466,407,465,412,369,393"/>
+<area shape="rect" id="Node000014" href="$de/d04/a01640.html#a72ea4942f667757725035e7085d05806" title="Sustituye las normales de los puntos de la nube por los especificados en en el vector." alt="" coords="454,464,648,491"/>
+<area shape="poly" id="edge16_Node000010_Node000014" title=" " alt="" coords="337,395,389,423,448,450,470,457,468,462,446,454,386,428,334,400"/>
+<area shape="rect" id="Node000013" href="$da/d02/a01620.html#ab4dad925a3cb42ad2f00c7d5053369e1" title=" " alt="" coords="702,413,786,440"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="636,424,687,424,687,429,636,429"/>
+</map>

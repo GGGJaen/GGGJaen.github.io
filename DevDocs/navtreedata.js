@@ -26,16 +26,39 @@ var NAVTREE =
 [
   [ "GEU", "index.html", [
     [ "¡Bienvenido a GEU Docs!", "index.html", null ],
-    [ "Generación del proyecto", "dc/d01/a04344.html", null ],
-    [ "Localización", "d0/d00/a04345.html", [
-      [ "Incorporación de un nuevo idioma", "d0/d00/a04345.html#incorporación-de-un-nuevo-idioma", null ],
-      [ "Uso de cadenas localizadas", "d0/d00/a04345.html#uso-de-cadenas-localizadas", null ]
+    [ "Manual de buenas prácticas", "d2/d07/a04347.html", [
+      [ "Para mantener la cordura", "d2/d07/a04347.html#para-mantener-la-cordura", [
+        [ "Evita modificar GEU Core", "d2/d07/a04347.html#evita-modificar-geu-core", null ],
+        [ "Los módulos deben de ser autocontenidos", "d2/d07/a04347.html#los-módulos-deben-de-ser-autocontenidos", null ],
+        [ "Los unit tests son tus amigos", "d2/d07/a04347.html#los-unit-tests-son-tus-amigos", null ],
+        [ "Evita el uso de std::cout a favor del logger", "d2/d07/a04347.html#evita-el-uso-de-stdcout-a-favor-del-logger", null ]
+      ] ],
+      [ "Para mejorar el rendimiento", "d2/d07/a04347.html#para-mejorar-el-rendimiento", [
+        [ "El Profiler es tu mejor arma", "d2/d07/a04347.html#el-profiler-es-tu-mejor-arma", null ],
+        [ "Piensa en una arquitectura que no sea un obstaculo", "d2/d07/a04347.html#piensa-en-una-arquitectura-que-no-sea-un-obstaculo", null ],
+        [ "Usa OpenMP", "d2/d07/a04347.html#usa-openmp", null ],
+        [ "Si nada más funciona", "d2/d07/a04347.html#si-nada-más-funciona", null ]
+      ] ],
+      [ "Para mantener los tiempos de compilación controlados", "d2/d07/a04347.html#para-mantener-los-tiempos-de-compilación-controlados", [
+        [ "Usa forward declaration cuando sea posible", "d2/d07/a04347.html#usa-forward-declaration-cuando-sea-posible", null ],
+        [ "Evita incluir librerías de STL en los headers", "d2/d07/a04347.html#evita-incluir-librerías-de-stl-en-los-headers", null ],
+        [ "Usa los Precompiled Headers", "d2/d07/a04347.html#usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header", null ],
+        [ "Evita el uso de Header only e Inlining", "d2/d07/a04347.html#evita-el-uso-de-header-only-e-inlining", null ],
+        [ "C++ Build Insights también es tu amigo", "d2/d07/a04347.html#c-build-insights-también-es-tu-amigo", null ]
+      ] ],
+      [ "", "d2/d07/a04347.html#blockquote", null ],
+      [ "Lectura recomendada", "d2/d07/a04347.html#lectura-recomendada", null ]
     ] ],
-    [ "Nubes de puntos", "d7/d04/a04346.html", null ],
-    [ "Shaders", "d2/d07/a04347.html", null ],
-    [ "Unit tests", "d2/d06/a04348.html", null ],
-    [ "Uso del Logger", "d6/d07/a04349.html", null ],
-    [ "Lista de tareas pendientes", "dc/d05/a00620.html", null ],
+    [ "Generación del proyecto", "d2/d06/a04348.html", null ],
+    [ "Localización", "d6/d07/a04349.html", [
+      [ "Incorporación de un nuevo idioma", "d6/d07/a04349.html#incorporación-de-un-nuevo-idioma", null ],
+      [ "Uso de cadenas localizadas", "d6/d07/a04349.html#uso-de-cadenas-localizadas", null ]
+    ] ],
+    [ "Nubes de puntos", "dd/d06/a04350.html", null ],
+    [ "Shaders", "dd/d00/a04351.html", null ],
+    [ "Unit tests", "d3/d02/a04352.html", null ],
+    [ "Uso del Logger", "d5/d00/a04353.html", null ],
+    [ "Lista de tareas pendientes", "df/d07/a00623.html", null ],
     [ "Espacios de nombres", "namespaces.html", [
       [ "Lista de espacios de nombres", "namespaces.html", "namespaces_dup" ],
       [ "Miembros del espacio de nombres ", "namespacemembers.html", [
@@ -80,37 +103,38 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/d07/a02065.html#a32f3182b859748ef0a92be0ef222aed9",
-"d1/d05/a02013.html#a9b9206acb8f09c00d94cecd0ee2a1e05",
-"d2/d00/a01729.html#afc222d99c8c520f84acfe560832b692b",
-"d3/d00/a02069.html#a02dd81a979393a3c4bff61613a2ada21",
-"d3/d02/a02041.html#af417418f88e9f3a34c74bc4edaba2f5e",
-"d3/d07/a01985.html#ae4f05fd27cf1f8827ac572563ebfbfe8a38db0c058d15e7a342f4706e228b7a34",
-"d4/d06/a01793.html",
-"d5/d03/a00631.html#ace4bb8c12a9996fe8f1a3b4cb21bff1d",
-"d6/d02/a00485.html",
-"d6/d07/a01781.html#a79e19b08839795d8c9d283ca40fc674c",
-"d7/d06/a00467.html#aa1c905576566866ad4946e544b276032",
-"d8/d04/a02001.html#a89eb046f2cae2330b0a1772baecf2720",
-"d9/d03/a01469.html#aaaae6c696ed9c7218acac1061a2781e4",
-"d9/d05/a01665.html#adafc66f7bd205941a47af8503c084d23",
-"da/d04/a01609.html#aafea169f9ae29e05beb2138e36f0f075",
-"db/d02/a00020_source.html",
-"db/d05/a01637.html#ac42fd10eb6ef9fb6df2b04907027f0e8",
-"db/d06/a02129.html#ad7fbc6f88e320c9e6f92d51c9f07015b",
-"dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a7b0e636604c6e85d6885e992640fbd9c",
-"dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573af82457f6e8f250fa40a43d4edf749354",
-"dc/d06/a01505.html#ae36fe8df3dac7b35f086614b2fdf33fa",
-"dd/d03/a01717.html#a0f80452e044271d2a58deb1dad7cc456",
-"de/d03/a00185.html#a0040403360879cea58a7cf3c62ffe64c",
-"de/d03/a00185.html#a2dacef096308414bfce9959a57726219",
-"de/d03/a00185.html#a5bf6fb3841b34a11787e73d238309d82",
-"de/d03/a00185.html#a889c22eb8db508151bb089ea1a444124",
-"de/d03/a00185.html#ab71140a28a3f960579c12755766bc0b0",
-"de/d03/a00185.html#ae4968c215bb79abb24af94f4b8195ecb",
-"de/d04/a01553.html#aee69ddd4d5021a9711673cc6b5ae12bf",
-"df/d06/a01737.html#adb7d12a8993233df51b4167e0c65f725",
-"df/d07/a01537.html#ac99c561e4f9992845d08a61cab6809bbae86df15507effcf975f84ef3e500c4fb"
+"d0/d06/a01916.html#a558ff0da4c00e34d7273084a7cb9aca4",
+"d1/d06/a01496.html#ac0fd02060c51c9279c00d97d7b508ee9",
+"d2/d03/a01672.html#a8e65bfbca6bfff59a59c36939c0920c9",
+"d3/d03/a02004.html#ab1b1c4c1a01f534d6818312abd4dec8c",
+"d3/d04/a01540.html#ac99c561e4f9992845d08a61cab6809bbae80c54b1773908262b14a15bd032347e",
+"d4/d04/a01952.html",
+"d5/d01/a01988.html#a9e57978d003f7ac36a62fb90522cb9e1",
+"d5/d05/a00374.html#a5713f99e46bebd8d2a1c0659d11877bc",
+"d6/d05/a00161.html",
+"d7/d04/a00634.html#a4ca438ae0623d75ff22b4b17dfd3a820",
+"d7/d07/a01668.html#a45dbb5e3a520ec98dbaffc0ad9212205",
+"d8/d02/a02044.html#aef6ebeee8816dddccbd1e81421522c6f",
+"d9/d05/a00633.html#a3add9205f87d8efffa815d6e8db4864c",
+"da/d04/a00413.html#a2427071b5c9ef2e486cb02ad0166546e",
+"da/d07/a01568.html#ae2b9daf5d916756660d73e22c771820b",
+"dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a04b543e1573c43ff20b44869fe5f3696",
+"dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a83fd7485cfa7bc9fcb123c3a65f67480",
+"dc/d00/a00332_source.html",
+"dc/d03/a01812.html#ac8e7db20898f49e6f839d503f98e1ba2",
+"dd/d00/a01596.html#a6616f54a13f37f3279eb7ccae4aa3e9e",
+"dd/d07/a02096.html#aff59b0158ec7cca56259f22eed2c5b7d",
+"de/d03/a00185.html#a0153725424eb502e7751e0f49e07a794",
+"de/d03/a00185.html#a2f6ec7607827e8b8cf8d14061ec4aab7",
+"de/d03/a00185.html#a5d71746128893c1b2691f676b958abdb",
+"de/d03/a00185.html#a8a7ad7f0f3ccff0e11b5fd65957e35e5",
+"de/d03/a00185.html#ab8928a2b3840dd1dcb5a6b40316b26b0",
+"de/d03/a00185.html#ae5ecb7cc90ce92c665c8089db79e8442",
+"de/d04/a01640.html#a5eb95b0ee2395c017433a76dbfc4a469",
+"de/d05/a01732.html#a652bad317b876187ed792218269770dc",
+"de/d07/a00362.html#aaf03b7f43efe5c51b1b1d07ff99efe03",
+"df/d05/a00416_source.html",
+"globals_r.html"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

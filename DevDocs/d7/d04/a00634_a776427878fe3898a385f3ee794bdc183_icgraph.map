@@ -1,0 +1,16 @@
+<map id="GEU::GuiUtilities::InputInt" name="GEU::GuiUtilities::InputInt">
+<area shape="rect" id="Node000001" title=" " alt="" coords="474,139,602,181"/>
+<area shape="rect" id="Node000002" href="$d1/d06/a01496.html#afef856466732ea159773d087909d0fdf" title="Renders inspector details for 3D model items." alt="" coords="224,5,399,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="506,129,469,94,425,62,398,50,400,45,427,58,473,90,510,125"/>
+<area shape="rect" id="Node000004" href="$d1/d06/a01496.html#a9edcfff4507d107037e9f7500a3d6717" title="Renders inspector details for point cloud items." alt="" coords="221,72,402,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="458,139,425,129,387,118,388,113,427,124,460,134"/>
+<area shape="rect" id="Node000005" href="$d8/d02/a02104.html#afcda560180acc4f5fbd7caeaa40f9018" title="Custom module GUI window contents." alt="" coords="197,139,426,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="458,163,427,163,427,157,458,157"/>
+<area shape="rect" id="Node000006" href="$d0/d06/a01536.html#ac1b98a11d860c6c9fe497bdcaa689d79" title="Renders the popup and its contents." alt="" coords="208,205,415,248"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="460,186,427,196,388,207,387,202,425,191,458,181"/>
+<area shape="rect" id="Node000007" href="$d0/d03/a01508.html#a56f55b34996a68d41418a2df8ea008db" title="Renders the window and contents." alt="" coords="238,272,385,315"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="510,195,473,230,427,262,386,280,384,275,425,258,469,226,506,191"/>
+<area shape="rect" id="Node000003" href="$d1/d06/a01496.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,39,149,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,44,150,52,149,47,208,39"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="205,81,149,73,149,68,206,76"/>
+</map>

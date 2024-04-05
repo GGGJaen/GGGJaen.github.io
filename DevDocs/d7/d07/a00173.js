@@ -1,6 +1,6 @@
 var a00173 =
 [
-    [ "PointCloudAdaptor< Derived >", "d6/d06/a01633.html", "d6/d06/a01633" ],
+    [ "PointCloudAdaptor< Derived >", "dd/d00/a01636.html", "dd/d00/a01636" ],
     [ "compareFunction", "d7/d07/a00173.html#a02c9ad869bc94ba3df2dc2f501b43858", null ],
     [ "expandBits", "d7/d07/a00173.html#aa0746e1ead8dddd6bd61f715f27c74cc", null ],
     [ "morton3D", "d7/d07/a00173.html#ac47d3f95e00400ef77a449b64576fe64", null ],

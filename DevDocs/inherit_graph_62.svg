@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="d6/d01/a02029.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="d1/d01/a02032.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="160.75,-20 0,-20 0,0 160.75,0 160.75,-20"/>
 <text text-anchor="middle" x="80.38" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::Singleton&lt; LocaleStrings &gt;</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="d0/d05/a02017.html" target="_top" xlink:title="Manages localized strings application&#45;wide.">
+<g id="a_Node000001"><a xlink:href="dc/d02/a02020.html" target="_top" xlink:title="Manages localized strings application&#45;wide.">
 <polygon fill="white" stroke="#666666" points="272,-20 196.75,-20 196.75,0 272,0 272,-20"/>
 <text text-anchor="middle" x="234.38" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">LocaleStrings</text>
 </a>

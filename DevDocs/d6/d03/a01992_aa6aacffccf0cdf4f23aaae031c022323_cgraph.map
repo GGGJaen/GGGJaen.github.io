@@ -1,0 +1,5 @@
+<map id="json::kvp_reader::readout" name="json::kvp_reader::readout">
+<area shape="rect" id="Node000001" title="Reads out the key value pair." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="Node000002" href="$d5/d01/a01988.html#ae1cfe678a10a9d0a4b04ad5ff64c43c9" title="Returns the stored value." alt="" coords="220,5,360,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,16,204,16,204,21,172,21"/>
+</map>

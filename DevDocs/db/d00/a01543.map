@@ -1,15 +1,5 @@
-<map id="GEU::ShaderProgram" name="GEU::ShaderProgram">
-<area shape="rect" id="Node000001" title=" " alt="" coords="712,148,860,175"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="180,116,259,143"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,105,282,89,305,84,323,84,364,85,456,83,529,84,600,93,689,116,759,145,757,150,687,121,599,98,528,89,457,88,364,91,323,89,306,90,284,95,252,110"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="371,100,508,159"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="275,127,371,127,371,132,275,132"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="368,183,511,225"/>
-<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="275,145,375,180,374,185,273,150"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,108,131,151"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,127,179,127,179,132,146,132"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="523,134,712,152,711,157,523,140"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="368,249,511,276"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="526,256,606,245,647,236,687,223,732,199,767,173,770,177,735,204,689,228,649,241,607,251,527,262"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="526,201,605,197,688,187,744,173,745,178,689,192,605,202,526,206"/>
+<map id="GEU::InfoPopup" name="GEU::InfoPopup">
+<area shape="rect" id="Node000001" title="Simple informative popup: shows text and close button." alt="" coords="11,80,126,107"/>
+<area shape="rect" id="Node000002" href="$dd/d00/a01936.html" title="ImGUI popups interface adapter class." alt="" coords="5,5,132,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,48,71,80,66,80,66,48"/>
 </map>

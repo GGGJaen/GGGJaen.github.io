@@ -1,0 +1,23 @@
+<map id="json::jobject::parse" name="json::jobject::parse">
+<area shape="rect" id="Node000001" title="Parses a serialized JSON string." alt="" coords="5,97,137,124"/>
+<area shape="rect" id="Node000002" href="$df/d07/a00642.html#a38da988d5211eacc7d4b76da2236e51a" title="Decodes a string in JSON format." alt="" coords="185,5,330,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,94,193,52,195,57,104,99"/>
+<area shape="rect" id="Node000003" href="$da/d01/a02000.html#a24ec98b78f9e603359f71f805a152739" title="Flag for differentiating objects and arrays." alt="" coords="185,72,330,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,99,169,95,170,100,137,104"/>
+<area shape="rect" id="Node000004" href="$df/d07/a00642.html#a2b8591533a42f229d2070223a6c48aa7" title="Parses the first value encountered in a JSON string." alt="" coords="190,123,325,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,117,175,122,174,127,137,122"/>
+<area shape="rect" id="Node000009" href="$df/d07/a00642.html#a0ead22b90b3354cc09a0a21e517e9385" title="(t)rims (l)eading (w)hite (s)pace" alt="" coords="385,211,511,237"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="100,122,186,159,281,187,370,207,369,212,280,192,184,164,98,127"/>
+<area shape="rect" id="Node000005" href="$d5/d01/a01988.html#afefb8447a7db13bc4f6f7dc5f12a22c2" title="Checks if the stored value is valid." alt="" coords="379,8,518,35"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="308,120,328,109,343,93,352,77,360,61,376,45,383,40,386,45,380,49,365,64,356,80,348,96,332,113,311,124"/>
+<area shape="rect" id="Node000006" href="$d5/d01/a01988.html#aa1d0e99cecf438761764c16fa39134d1" title=" " alt="" coords="386,59,511,85"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="299,120,391,88,393,93,300,125"/>
+<area shape="rect" id="Node000008" href="$d5/d01/a01988.html#ae1cfe678a10a9d0a4b04ad5ff64c43c9" title="Returns the stored value." alt="" coords="378,109,518,136"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="325,129,362,126,363,131,326,134"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="284,148,379,196,393,202,391,207,377,201,282,152"/>
+<area shape="rect" id="Node000010" href="$d5/d01/a01988.html#aec12648e76c0f529f892d89d4fabfe4c" title="Checks the value." alt="" coords="387,160,509,187"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="326,147,372,156,371,161,325,152"/>
+<area shape="rect" id="Node000007" href="$db/d02/a00641.html#a41134b9f4ec1ec6b8db4f8027536b762" title=" " alt="" coords="566,109,684,136"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="498,83,562,102,561,107,497,89"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="497,157,561,138,562,143,498,162"/>
+</map>

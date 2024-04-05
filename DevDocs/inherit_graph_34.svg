@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="d9/d07/a01937.html" target="_top" xlink:title="ImGUI window interface adapter class.">
+<g id="a_Node000000"><a xlink:href="d5/d02/a01940.html" target="_top" xlink:title="ImGUI window interface adapter class.">
 <polygon fill="white" stroke="#666666" points="101.5,-191 0,-191 0,-171 101.5,-171 101.5,-191"/>
 <text text-anchor="middle" x="50.75" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::I_GUIWindow</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="de/d03/a01473.html" target="_top" xlink:title="Camera&#45;based axis window: shows world axis relative to camera movements.">
+<g id="a_Node000001"><a xlink:href="d0/d00/a01476.html" target="_top" xlink:title="Camera&#45;based axis window: shows world axis relative to camera movements.">
 <polygon fill="white" stroke="#666666" points="288.5,-374 157.75,-374 157.75,-354 288.5,-354 288.5,-374"/>
 <text text-anchor="middle" x="223.12" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::CameraAxisWindow</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="d8/d07/a01477.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="d1/d00/a01480.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="308.75,-336 137.5,-336 137.5,-304 308.75,-304 308.75,-336"/>
 <text text-anchor="start" x="145.5" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::DatabaseDownloadedManage</text>
 <text text-anchor="middle" x="223.12" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">Window</text>
@@ -57,7 +57,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="d1/d04/a01481.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="d2/d01/a01484.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="302,-286 144.25,-286 144.25,-266 302,-266 302,-286"/>
 <text text-anchor="middle" x="223.12" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::DatabaseNewDatoWindow</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="d2/d04/a01489.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="da/d04/a01492.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="275.75,-248 170.5,-248 170.5,-228 275.75,-228 275.75,-248"/>
 <text text-anchor="middle" x="223.12" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::DebugWindow</text>
 </a>
@@ -93,7 +93,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="d2/d01/a01493.html" target="_top" xlink:title="Inspector selection details window: allow to manipulate scene contents properties.">
+<g id="a_Node000005"><a xlink:href="d1/d06/a01496.html" target="_top" xlink:title="Inspector selection details window: allow to manipulate scene contents properties.">
 <polygon fill="white" stroke="#666666" points="276.88,-210 169.38,-210 169.38,-190 276.88,-190 276.88,-210"/>
 <text text-anchor="middle" x="223.12" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::DetailsWindow</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="db/d06/a01497.html" target="_top" xlink:title="Scene inspector window: lists scene contents.">
+<g id="a_Node000006"><a xlink:href="de/d05/a01500.html" target="_top" xlink:title="Scene inspector window: lists scene contents.">
 <polygon fill="white" stroke="#666666" points="281.75,-172 164.5,-172 164.5,-152 281.75,-152 281.75,-172"/>
 <text text-anchor="middle" x="223.12" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::InspectorWindow</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="db/d04/a01501.html" target="_top" xlink:title="Application materials list window: allow material selection for details window.">
+<g id="a_Node000007"><a xlink:href="dd/d05/a01504.html" target="_top" xlink:title="Application materials list window: allow material selection for details window.">
 <polygon fill="white" stroke="#666666" points="281.75,-134 164.5,-134 164.5,-114 281.75,-114 281.75,-134"/>
 <text text-anchor="middle" x="223.12" y="-120.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::MaterialsWindow</text>
 </a>
@@ -147,7 +147,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="dc/d06/a01505.html" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="d0/d03/a01508.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="278,-96 168.25,-96 168.25,-76 278,-76 278,-96"/>
 <text text-anchor="middle" x="223.12" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::PickingWindow</text>
 </a>
@@ -165,7 +165,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="db/d06/a01509.html" target="_top" xlink:title="Application settings window: handles application&#45;wide parameters and behaviours.">
+<g id="a_Node000009"><a xlink:href="dc/d07/a01512.html" target="_top" xlink:title="Application settings window: handles application&#45;wide parameters and behaviours.">
 <polygon fill="white" stroke="#666666" points="279.88,-58 166.38,-58 166.38,-38 279.88,-38 279.88,-58"/>
 <text text-anchor="middle" x="223.12" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::SettingsWindow</text>
 </a>
@@ -183,7 +183,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="d0/d02/a01513.html" target="_top" xlink:title="Application performance windows: shows graphs and values for current and recent performance.">
+<g id="a_Node000010"><a xlink:href="db/d07/a01516.html" target="_top" xlink:title="Application performance windows: shows graphs and values for current and recent performance.">
 <polygon fill="white" stroke="#666666" points="273.5,-20 172.75,-20 172.75,0 273.5,0 273.5,-20"/>
 <text text-anchor="middle" x="223.12" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::StatsWindow</text>
 </a>

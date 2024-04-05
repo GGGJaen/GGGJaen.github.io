@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="d5/d02/a01977.html" target="_top" xlink:title="Exception used for invalid JSON keys.">
+<g id="a_Node000001"><a xlink:href="d5/d00/a01980.html" target="_top" xlink:title="Exception used for invalid JSON keys.">
 <polygon fill="white" stroke="#666666" points="200.75,-58 113.5,-58 113.5,-38 200.75,-38 200.75,-58"/>
 <text text-anchor="middle" x="157.12" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00">json::invalid_key</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="df/d02/a01981.html" target="_top" xlink:title="Exception used when invalid JSON is encountered.">
+<g id="a_Node000004"><a xlink:href="d0/d00/a01984.html" target="_top" xlink:title="Exception used when invalid JSON is encountered.">
 <polygon fill="white" stroke="#666666" points="476.5,-20 380.25,-20 380.25,0 476.5,0 476.5,-20"/>
 <text text-anchor="middle" x="428.38" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">json::parsing_error</text>
 </a>

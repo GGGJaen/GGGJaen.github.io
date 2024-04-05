@@ -1,0 +1,9 @@
+<map id="GEU::GuiUtilities::ComboItem" name="GEU::GuiUtilities::ComboItem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="264,72,392,115"/>
+<area shape="rect" id="Node000002" href="$d2/d01/a01484.html#ae07f0a25c9ecb584624ce7bf67bc48cb" title="Renders the window and contents." alt="" coords="5,5,216,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,72,182,51,183,46,249,67"/>
+<area shape="rect" id="Node000003" href="$d0/d03/a01508.html#a56f55b34996a68d41418a2df8ea008db" title="Renders the window and contents." alt="" coords="37,72,184,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,96,184,96,184,91,248,91"/>
+<area shape="rect" id="Node000004" href="$dc/d07/a01512.html#a7af9db6d6ad56c4c4fc336251024472f" title="Renders the window and contents." alt="" coords="35,139,186,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,120,183,141,182,136,248,115"/>
+</map>

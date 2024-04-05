@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Unit tests</title>
+<title>GEU: Generación del proyecto</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -94,49 +94,49 @@ $(function(){initNavTree('d2/d06/a04348.html','../../'); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Unit tests</div></div>
+  <div class="headertitle"><div class="title">Generación del proyecto</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>[DEPRECATED]</p>
-<blockquote class="doxtable">
-<p>&zwj;<a class="el" href="../../d0/d01/a00622.html">GEU</a> ha pasado a utilizar Premake5. Ahora mismo no tiene soporte para los tests y cuando lo tenga no se configurarán de la manera aqui descrita. No obstante, se seguirá usando Google Test como framework, por lo que los tests desarrollados seguirán siendo compatibles. </p>
-</blockquote>
-<p><a class="el" href="../../d0/d01/a00622.html">GEU</a> utiliza Google Test como framework de testing. Por tanto, es necesario conocer como escribir un <em>unit test</em> utilizando este framework para escribirlo en <a class="el" href="../../d0/d01/a00622.html">GEU</a>. <a href="https://google.github.io/googletest/primer.html">Aquí</a> se puede ver brevemente como escribirlos.</p>
-<h2><a class="anchor" id="️-previos"></a>
-⏮️ Previos</h2>
-<p>Es necesario tener instalado <a href="https://learn.microsoft.com/es-es/visualstudio/test/how-to-use-google-test-for-cpp?view=vs-2022"><em>Test Adapter para Google Test</em></a> en nuestra instalación de Visual Studio.</p>
-<h2><a class="anchor" id="autotoc_md-instrucciones-2"></a>
-📘 Instrucciones</h2>
-<h3><a class="anchor" id="como-crear-un-_unit-test_"></a>
-Como crear un <em>unit test</em></h3>
-<ol type="1">
-<li>Desde Visual Studio, nos situamos sobre el filtro de <em>Tests</em>, clic derecho → Agregar → Nuevo elemento…</li>
-<li>En el lateral izquierdo seleccionamos la categoría de <em>Prueba</em> y aparecerá <em>Google Test</em>. Lo seleccionamos y cambiamos la ubicación a dentro de la carpeta de <a class="el" href="../../d0/d01/a00622.html">GEU</a>\Source\Tests.</li>
-<li><p class="startli">El fichero comenzará con una plantilla estandar, a la que deberemos añadir un bloque <em>ifdef</em> de la siguiente manera: <br  />
-</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#ifdef TESTING </span></div>
-<div class="line"><span class="preprocessor">  #include &quot;gtest/gtest.h&quot;</span></div>
-<div class="line">  <span class="comment">//Dentro de este bloque se definen los tests.</span></div>
-<div class="line"> </div>
-<div class="line">  TEST(TestCaseName, TestName) {</div>
-<div class="line">    EXPECT_EQ(1, 1);</div>
-<div class="line">    EXPECT_TRUE(<span class="keyword">true</span>);</div>
-<div class="line">  }</div>
-<div class="line"> </div>
+<div class="textblock"><p>    GEU utiliza Premake5 como sistema de configuración de proyecto basado en Lua. Esto facilita la gestión del mismo, haciendo que solo se suban los ficheros del código fuente al repositorio de git, sin provocar conflictos en los ficheros inherentes al proyecto de Visual Studio. Además, nos permite simplificar la inclusión/exclusión de módulos del proyecto, asi como automatizar su generación.</p>
+<h2><a class="anchor" id="️previos"></a>
+⏮️Previos</h2>
+<p>    En principio está todo configurado para poder usarse sin tener conocimientos de Premake5. No obstante, si fuera necesario alguna modificación, es bastante sencillo de utilizar: <a href="https://premake.github.io/docs/">https://premake.github.io/docs/</a>.</p>
+<h2><a class="anchor" id="instrucciones"></a>
+📘Instrucciones</h2>
+<h3><a class="anchor" id="cómo-generar-el-proyecto-para-visual-studio"></a>
+Cómo generar el proyecto para Visual Studio</h3>
+<p>    Primero entramos en la carpeta <em>Project Scripts</em>. Ahí encontraremos un script llamado <em>Setup-Windows.bat</em>. Al ejecutarlo, se llamará a Premake5, el cual se encargará de configurar todo el proyecto. Tras esto, se habrá generado el fichero <em><a class="el" href="../../d2/d04/a00625.html">GEU</a> Engine.sln</em>, la solución del proyecto.</p>
+<h3><a class="anchor" id="cómo-añadir-un-nuevo-módulo"></a>
+Cómo añadir un nuevo módulo</h3>
+<p>    De nuevo, lo primero que debemos hace es entrar en la carpeta <em>Project Scripts</em>. Ahí encontramos un script llamado <em><b>CreateModule.bat</b></em>. Es recomendable ejecutarlo como administrador, pues su función es llamar a un script en powershell, el cual requiere de permisos de ejecución.</p>
+<p>    Si aún ejecutandolo como administrador da problema de permisos, se recomienda seguir las instrucciones del siguiente post: <a href="https://superuser.com/a/106363">How to enable execution of PowerShell scripts? - Super User</a></p>
+<p>    Tras ejecutarlo nos pedirá que introduzcamos el <b>nombre del módulo</b>. Es recomendable pensar bien este nombre, pues cambiarlo después requerirá de bastante más trabajo manual.</p>
+<p>    Una vez introducido el nombre, el script se encargará de crear todas las carpetas y ficheros necesarios. Podemos encontrar la carpeta raiz de módulo generado en <em><b><a class="el" href="../../d2/d04/a00625.html">GEU</a> Modules</b></em>.</p>
+<p>    Por último, debemos añadir el nuevo módulo al <em><b>ModuleManager</b></em> de la aplicación. Para esto, debemos entrar dentro del proyecto <em><a class="el" href="../../d2/d04/a00625.html">GEU</a> App</em> ⇒ <em>UI</em> ⇒ <em>Modules</em> ⇒ <em><a class="el" href="../../d1/d01/a00092.html">ModuleManager.cpp</a></em>. Una vez allí debemos incluir la cabecera de la interfaz del nuevo módulo:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#define _NOMBREMODULO</span></div>
+<div class="line"><span class="comment">//Ponemos el define justo encima para poder desactivar el método comentando dicha línea</span></div>
+<div class="line"><span class="preprocessor">#ifdef _NOMBREMODULO</span></div>
+<div class="line"><span class="comment">//Rodeamos el include con un ifdef para poder desactivarlo fácilmente</span></div>
+<div class="line"><span class="preprocessor">#include &quot;UI/NombreModuloGUIAdapter.h&quot;</span></div>
 <div class="line"><span class="preprocessor">#endif</span></div>
-</div><!-- fragment --></li>
-<li><p class="startli">Por último deberemos desactivar los encabezados precompilados para este fichero. Para hacer esto pulsamos clic derecho sobre el fichero en Visual Studio → Propiedades → C/C++ → Encabezados precompilados → No utilizar encabezados precompilados. <br  />
- Se tiene que tener cuidado de hacer esto en todas las configuraciones (se puede hacer seleccionando en el desplegable <em>Configuración</em>, arriba a la izquierda de la ventana de propiedades, <em>Todas las config.</em> <br  />
-</p>
-<p class="startli"><img src="../../.\Config%20proyecto.png" alt="Config proyecto" class="inline"/></p>
-</li>
-<li><p class="startli">Para probar el test solo tenemos que lanzar el programa utilizando la configuración de <em>Testing:</em> <br  />
-</p>
-<p class="startli"><img src="../../.\Testing.png" alt="18874377" class="inline"/></p>
-<p class="startli">Cabe destacar que esto lanzará todos los test implementados en la plataforma.</p>
-</li>
+</div><!-- fragment --><p>A continuación, se añade al método <em>ModuleManager::addMainModules()</em>:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#ifdef _NOMBREMODULO</span></div>
+<div class="line">    m = <span class="keyword">new</span> NombreModuloGUIAdapter(<span class="stringliteral">&quot;module_nombreModulo&quot;</span>, ICONO_FONT_AWESOME, LOCALE_STRINGS::ID_STRING_MODULO);</div>
+<div class="line">    _modules[SECCION_MODULO].try_emplace(m-&gt;getWindowName(), m);</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+</div><!-- fragment --><p>Cabe destacar dos de los parámetros del constructor de GUIAdapter:</p>
+<ol type="1">
+<li><b>Icono de Font Awesome</b>: Es el icono que tendrá el método en el menú.</li>
+<li><b>ID de <a class="el" href="../../dc/d02/a02020.html" title="Manages localized strings application-wide.">LocaleStrings</a></b>: <a class="el" href="../../dc/d02/a02020.html" title="Manages localized strings application-wide.">LocaleStrings</a> es el sistema de localización de <a class="el" href="../../d2/d04/a00625.html">GEU</a>. El nombre del método, como cualquier otro elemento de la interfaz, debe estar localizado. Para más información, ver <a class="el" href="../../d6/d07/a04349.html">Localización e idiomas</a></li>
 </ol>
-<p>Los test se realizan sin activar el proceso de renderizado. Por tanto, no se podrán probar funcionalidades que dependan de este. </p>
+<h3><a class="anchor" id="cómo-eliminardesactivar-un-módulo"></a>
+Cómo eliminar/desactivar un módulo</h3>
+<p>    El proceso de eliminar y desactivar es el mismo, con la única diferencia de que para desactivar debemos comentar las líneas, no eliminarlas.</p>
+<p>    En primer lugar, accedemos a <em>GEUModules</em> ⇒ <em><b>Build-Modules.lua</b></em>. En dicho fichero, eliminamos/comentamos la linea que incluye el módulo que queramos eliminar/desactivar.</p>
+<p>    Tras esto, debemos acceder a <em>GEUApp</em> ⇒ <em><b>Build-App.lua</b></em>. Aquí debemos buscar la instrucción <em>Links</em>. En su interior se encontrará el nombre del proyecto que queramos eliminar/desactivar. Simplemente debemos borrarlo/comentarlo.</p>
+<h3><a class="anchor" id="cómo-activar-un-módulo-desactivado"></a>
+Cómo activar un módulo desactivado</h3>
+<p>Simplemente debemos seguir las intrucciones descritas en Cómo eliminar/desactivar un módulo pero descomentando en vez de comentando. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

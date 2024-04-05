@@ -1,0 +1,9 @@
+<map id="GEU::GuiUtilities::makeCancelButton" name="GEU::GuiUtilities::makeCancelButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,72,384,115"/>
+<area shape="rect" id="Node000002" href="$dc/d04/a01532.html#aabf3be0d95c567d3b439cdae51edc79e" title="Renders the popup and its contents." alt="" coords="5,5,205,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,71,175,51,177,46,238,66"/>
+<area shape="rect" id="Node000003" href="$d3/d04/a01540.html#a22764a8a53570961466432ac856eb4fc" title="Renders the popup and its contents." alt="" coords="13,72,197,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,96,198,96,198,91,237,91"/>
+<area shape="rect" id="Node000004" href="$d6/d00/a01948.html#a82f88c00c88912fb0beab3db3dcccdf0" title="Renders the popup and its contents." alt="" coords="32,139,178,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,121,177,141,175,135,237,116"/>
+</map>

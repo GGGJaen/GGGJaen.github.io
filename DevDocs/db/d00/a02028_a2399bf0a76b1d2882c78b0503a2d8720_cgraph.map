@@ -1,0 +1,9 @@
+<map id="GEU::pclConversor::updateFromPCLCloud" name="GEU::pclConversor::updateFromPCLCloud">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,154,65"/>
+<area shape="rect" id="Node000002" href="$de/d04/a01640.html#a3810f1918091d26db6f7c634570c8a69" title="Obliga a actualizar los recursos OpenGL de esta nube en la siguiente llamada de dibujado." alt="" coords="202,5,399,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,33,186,29,187,34,154,38"/>
+<area shape="rect" id="Node000003" href="$d3/d02/a01796.html#a4234196f8be419dba1c3ca4468adaa02" title="Packs an RGB color into an unsigned value." alt="" coords="208,56,393,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,50,193,54,192,60,154,55"/>
+<area shape="rect" id="Node000004" href="$d3/d02/a01796.html#a08369eb10ee0a897e2126bab74bce5ac" title=" " alt="" coords="447,48,619,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="393,67,431,67,431,72,393,72"/>
+</map>

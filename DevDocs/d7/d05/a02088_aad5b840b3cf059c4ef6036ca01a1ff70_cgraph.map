@@ -1,0 +1,9 @@
+<map id="ProceduralVoxel::checkPoints" name="ProceduralVoxel::checkPoints">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,202,69"/>
+<area shape="rect" id="Node000002" href="$de/d04/a01640.html#a52698b429492303948167bed5da1a0d9" title=" " alt="" coords="250,5,433,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,41,234,37,235,43,203,47"/>
+<area shape="rect" id="Node000003" href="$d7/d05/a02088.html#ada766c2f0f1c4ad64f871edcfadabc85" title=" " alt="" coords="257,72,426,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,65,242,70,241,76,202,71"/>
+<area shape="rect" id="Node000004" href="$da/d02/a01620.html#a2285b427a6742bd908dbd7e7d4f13fdd" title=" " alt="" coords="481,72,590,99"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="426,83,465,83,465,88,426,88"/>
+</map>

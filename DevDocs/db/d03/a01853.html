@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia de la estructura Database::HistoricoDatos</title>
+<title>GEU: Lista de los miembros</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -68,7 +68,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('db/d03/a01853.html','../../'); initResizable(); });
+$(function(){initNavTree('da/d06/a01856.html','../../'); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,144 +94,16 @@ $(function(){initNavTree('db/d03/a01853.html','../../'); initResizable(); });
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Métodos públicos</a> &#124;
-<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
-<a href="#pub-attribs">Atributos públicos</a> &#124;
-<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
-<a href="../../da/d00/a01850.html">Lista de todos los miembros</a>  </div>
-  <div class="headertitle"><div class="title">Referencia de la estructura Database::HistoricoDatos</div></div>
+  <div class="headertitle"><div class="title">Database::HistoricoDatos Lista de los miembros</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/d05/a00311_source.html">DatabaseConnector.h</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Métodos públicos</h2></td></tr>
-<tr class="memitem:ac75b95c9416b692260b34a1c890679c5" id="r_ac75b95c9416b692260b34a1c890679c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac75b95c9416b692260b34a1c890679c5">operator==</a> (const <a class="el" href="../../db/d03/a01853.html">HistoricoDatos</a> &amp;other) const</td></tr>
-<tr class="separator:ac75b95c9416b692260b34a1c890679c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Métodos públicos estáticos</h2></td></tr>
-<tr class="memitem:a769387e360524c5f21eb6a106b6f23a4" id="r_a769387e360524c5f21eb6a106b6f23a4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d03/a01853.html">HistoricoDatos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769387e360524c5f21eb6a106b6f23a4">fromQuery</a> (oracle::occi::ResultSet *result)</td></tr>
-<tr class="separator:a769387e360524c5f21eb6a106b6f23a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Atributos públicos</h2></td></tr>
-<tr class="memitem:a29ca170e664c6f3e8eae51c17935ca9d" id="r_a29ca170e664c6f3e8eae51c17935ca9d"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ca170e664c6f3e8eae51c17935ca9d">idObjeto</a></td></tr>
-<tr class="separator:a29ca170e664c6f3e8eae51c17935ca9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af59f5e742ba76e41532d100a91d426b4" id="r_af59f5e742ba76e41532d100a91d426b4"><td class="memItemLeft" align="right" valign="top">oracle::occi::Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af59f5e742ba76e41532d100a91d426b4">fecha</a></td></tr>
-<tr class="separator:af59f5e742ba76e41532d100a91d426b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Atributos públicos estáticos</h2></td></tr>
-<tr class="memitem:a1f1c22f496c5439691bebd1d6650a2e8" id="r_a1f1c22f496c5439691bebd1d6650a2e8"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f1c22f496c5439691bebd1d6650a2e8">SELECT_QUERY</a> = &quot;SELECT ID_OBJETO, FECHA FROM HISTORICO_DATOS&quot;</td></tr>
-<tr class="separator:a1f1c22f496c5439691bebd1d6650a2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="a769387e360524c5f21eb6a106b6f23a4" name="a769387e360524c5f21eb6a106b6f23a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a769387e360524c5f21eb6a106b6f23a4">&#9670;&#160;</a></span>fromQuery()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../db/d03/a01853.html">HistoricoDatos</a> Database::HistoricoDatos::fromQuery </td>
-          <td>(</td>
-          <td class="paramtype">oracle::occi::ResultSet *</td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac75b95c9416b692260b34a1c890679c5" name="ac75b95c9416b692260b34a1c890679c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac75b95c9416b692260b34a1c890679c5">&#9670;&#160;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Database::HistoricoDatos::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d03/a01853.html">HistoricoDatos</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="af59f5e742ba76e41532d100a91d426b4" name="af59f5e742ba76e41532d100a91d426b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af59f5e742ba76e41532d100a91d426b4">&#9670;&#160;</a></span>fecha</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">oracle::occi::Date Database::HistoricoDatos::fecha</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a29ca170e664c6f3e8eae51c17935ca9d" name="a29ca170e664c6f3e8eae51c17935ca9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29ca170e664c6f3e8eae51c17935ca9d">&#9670;&#160;</a></span>idObjeto</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned Database::HistoricoDatos::idObjeto</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1f1c22f496c5439691bebd1d6650a2e8" name="a1f1c22f496c5439691bebd1d6650a2e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f1c22f496c5439691bebd1d6650a2e8">&#9670;&#160;</a></span>SELECT_QUERY</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string Database::HistoricoDatos::SELECT_QUERY = &quot;SELECT ID_OBJETO, FECHA FROM HISTORICO_DATOS&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
-<li>D:/GEU/GEUCore/Source/IO/<a class="el" href="../../d1/d05/a00311_source.html">DatabaseConnector.h</a></li>
-</ul>
-</div><!-- contents -->
+<p>Lista completa de los miembros de <a class="el" href="../../da/d06/a01856.html">Database::HistoricoDatos</a>, incluyendo todos los heredados:</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d06/a01856.html#af59f5e742ba76e41532d100a91d426b4">fecha</a></td><td class="entry"><a class="el" href="../../da/d06/a01856.html">Database::HistoricoDatos</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../da/d06/a01856.html#a769387e360524c5f21eb6a106b6f23a4">fromQuery</a>(oracle::occi::ResultSet *result)</td><td class="entry"><a class="el" href="../../da/d06/a01856.html">Database::HistoricoDatos</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d06/a01856.html#a29ca170e664c6f3e8eae51c17935ca9d">idObjeto</a></td><td class="entry"><a class="el" href="../../da/d06/a01856.html">Database::HistoricoDatos</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../da/d06/a01856.html#ac75b95c9416b692260b34a1c890679c5">operator==</a>(const HistoricoDatos &amp;other) const</td><td class="entry"><a class="el" href="../../da/d06/a01856.html">Database::HistoricoDatos</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/d06/a01856.html#a1f1c22f496c5439691bebd1d6650a2e8">SELECT_QUERY</a></td><td class="entry"><a class="el" href="../../da/d06/a01856.html">Database::HistoricoDatos</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->

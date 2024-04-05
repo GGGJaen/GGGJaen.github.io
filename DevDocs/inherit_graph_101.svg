@@ -39,7 +39,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="d3/d07/a01985.html" target="_top" xlink:title="Value reader.">
+<g id="a_Node000002"><a xlink:href="d5/d01/a01988.html" target="_top" xlink:title="Value reader.">
 <polygon fill="white" stroke="#666666" points="292.5,-26 225.5,-26 225.5,-6 292.5,-6 292.5,-26"/>
 <text text-anchor="middle" x="259" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">json::reader</text>
 </a>
@@ -57,7 +57,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="dc/d07/a01989.html" target="_top" xlink:title="Class for reading object key value pairs.">
+<g id="a_Node000003"><a xlink:href="d6/d03/a01992.html" target="_top" xlink:title="Class for reading object key value pairs.">
 <polygon fill="white" stroke="#666666" points="415,-26 328.5,-26 328.5,-6 415,-6 415,-26"/>
 <text text-anchor="middle" x="371.75" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">json::kvp_reader</text>
 </a>

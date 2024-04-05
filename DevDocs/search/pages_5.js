@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['pendientes_0',['Lista de tareas pendientes',['../dc/d05/a00620.html',1,'']]],
-  ['proyecto_1',['Generación del proyecto',['../dc/d01/a04344.html',1,'']]],
-  ['puntos_2',['Nubes de puntos',['../d7/d04/a04346.html',1,'']]]
+  ['manual_20de_20buenas_20prácticas_0',['Manual de buenas prácticas',['../d2/d07/a04347.html',1,'']]]
 ];

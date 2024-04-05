@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del espacio de nombres RandomUtilities</title>
+<title>GEU: Referencia del espacio de nombres json</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -95,373 +95,64 @@ $(function(){initNavTree('dc/d02/a00640.html','../../'); initResizable(); });
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Funciones</a>  </div>
-  <div class="headertitle"><div class="title">Referencia del espacio de nombres RandomUtilities</div></div>
+<a href="#namespaces">Espacios de nombres</a> &#124;
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#typedef-members">typedefs</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del espacio de nombres json</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Set of utilities to retrieve random values.  
+<p>Base namespace for simpleson.  
 <a href="#details">Más...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Funciones</h2></td></tr>
-<tr class="memitem:a80b007af684283157d9c92f94dbbd1f1" id="r_a80b007af684283157d9c92f94dbbd1f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b007af684283157d9c92f94dbbd1f1">getRandomToSphere</a> (float radius, float distanceSquared)</td></tr>
-<tr class="separator:a80b007af684283157d9c92f94dbbd1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf0f50c9dd47572244ddb4f8a1e6d84" id="r_a4cf0f50c9dd47572244ddb4f8a1e6d84"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf0f50c9dd47572244ddb4f8a1e6d84">getUniformRandom</a> ()</td></tr>
-<tr class="separator:a4cf0f50c9dd47572244ddb4f8a1e6d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ac6bc06f0c457f22c548ddefd5f2ce1" id="r_a9ac6bc06f0c457f22c548ddefd5f2ce1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ac6bc06f0c457f22c548ddefd5f2ce1">getUniformRandom</a> (float min, float max)</td></tr>
-<tr class="separator:a9ac6bc06f0c457f22c548ddefd5f2ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af397f39fe9bbef75b3df74e22e3259c2" id="r_af397f39fe9bbef75b3df74e22e3259c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af397f39fe9bbef75b3df74e22e3259c2">getUniformRandomColor</a> ()</td></tr>
-<tr class="memdesc:af397f39fe9bbef75b3df74e22e3259c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a random color in [0, 1] by using getUniformRandom function for each channel.  <br /></td></tr>
-<tr class="separator:af397f39fe9bbef75b3df74e22e3259c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b04b5dd855711c36f031cdf724cd638" id="r_a8b04b5dd855711c36f031cdf724cd638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b04b5dd855711c36f031cdf724cd638">getUniformRandomColor</a> (float min, float max)</td></tr>
-<tr class="memdesc:a8b04b5dd855711c36f031cdf724cd638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a random color by using getUniformRandom function for each channel.  <br /></td></tr>
-<tr class="separator:a8b04b5dd855711c36f031cdf724cd638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae72f8d80fad63ab5f96f8d82428aef46" id="r_ae72f8d80fad63ab5f96f8d82428aef46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae72f8d80fad63ab5f96f8d82428aef46">getUniformRandomCosineDirection</a> ()</td></tr>
-<tr class="separator:ae72f8d80fad63ab5f96f8d82428aef46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50b2eaff14e9f06cdeaafbe93770439b" id="r_a50b2eaff14e9f06cdeaafbe93770439b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b2eaff14e9f06cdeaafbe93770439b">getUniformRandomInHemisphere</a> (const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;normal)</td></tr>
-<tr class="separator:a50b2eaff14e9f06cdeaafbe93770439b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a286284615a053c25fa1a4851a40f89f6" id="r_a286284615a053c25fa1a4851a40f89f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a286284615a053c25fa1a4851a40f89f6">getUniformRandomInt</a> (int min, int max)</td></tr>
-<tr class="separator:a286284615a053c25fa1a4851a40f89f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a4d647eb2304a77c589ccc1638a8556" id="r_a8a4d647eb2304a77c589ccc1638a8556"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a4d647eb2304a77c589ccc1638a8556">getUniformRandomInUnitDisk</a> ()</td></tr>
-<tr class="separator:a8a4d647eb2304a77c589ccc1638a8556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5ac31d6e847903ffdb94c4896f30185" id="r_ab5ac31d6e847903ffdb94c4896f30185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5ac31d6e847903ffdb94c4896f30185">getUniformRandomInUnitSphere</a> ()</td></tr>
-<tr class="separator:ab5ac31d6e847903ffdb94c4896f30185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Espacios de nombres</h2></td></tr>
+<tr class="memitem:db/d02/a00641" id="r_db/d02/a00641"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d02/a00641.html">jtype</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:df/d07/a00642" id="r_df/d07/a00642"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d07/a00642.html">parsing</a></td></tr>
+<tr class="memdesc:df/d07/a00642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace used for JSON parsing functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d00/a01980.html">invalid_key</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception used for invalid JSON keys.  <a href="../../d5/d00/a01980.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d01/a02000.html">jobject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class used for manipulating JSON objects and arrays.  <a href="../../da/d01/a02000.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d03/a01992.html">kvp_reader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for reading object key value pairs.  <a href="../../d6/d03/a01992.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d00/a01984.html">parsing_error</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception used when invalid JSON is encountered.  <a href="../../d0/d00/a01984.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/a01988.html">reader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value reader.  <a href="../../d5/d01/a01988.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+typedefs</h2></td></tr>
+<tr class="memitem:abe2acef74d8536edb83b59cf42f497e5" id="r_abe2acef74d8536edb83b59cf42f497e5"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe2acef74d8536edb83b59cf42f497e5">kvp</a></td></tr>
+<tr class="memdesc:abe2acef74d8536edb83b59cf42f497e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(k)ey (v)alue (p)air  <br /></td></tr>
+<tr class="separator:abe2acef74d8536edb83b59cf42f497e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Set of utilities to retrieve random values. </p>
-<dl class="section author"><dt>Autor</dt><dd>Alfonso L�pez Ruiz. </dd></dl>
-</div><h2 class="groupheader">Documentación de funciones</h2>
-<a id="a80b007af684283157d9c92f94dbbd1f1" name="a80b007af684283157d9c92f94dbbd1f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80b007af684283157d9c92f94dbbd1f1">&#9670;&#160;</a></span>getRandomToSphere()</h2>
+<div class="textblock"><p>Base namespace for simpleson. </p>
+</div><h2 class="groupheader">Documentación de «typedef»</h2>
+<a id="abe2acef74d8536edb83b59cf42f497e5" name="abe2acef74d8536edb83b59cf42f497e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe2acef74d8536edb83b59cf42f497e5">&#9670;&#160;</a></span>kvp</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getRandomToSphere </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>distanceSquared</em></span>&#160;)</td>
+          <td class="memname">typedef std::pair&lt;std::string, std::string&gt; <a class="el" href="#abe2acef74d8536edb83b59cf42f497e5">json::kvp</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Random of length up to distanceSquared. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a80b007af684283157d9c92f94dbbd1f1_cgraph.svg" width="428" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a4cf0f50c9dd47572244ddb4f8a1e6d84" name="a4cf0f50c9dd47572244ddb4f8a1e6d84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cf0f50c9dd47572244ddb4f8a1e6d84">&#9670;&#160;</a></span>getUniformRandom() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float RandomUtilities::getUniformRandom </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>New random value retrieved from a random uniform distribution. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a4cf0f50c9dd47572244ddb4f8a1e6d84_icgraph.svg" width="658" height="520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a9ac6bc06f0c457f22c548ddefd5f2ce1" name="a9ac6bc06f0c457f22c548ddefd5f2ce1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ac6bc06f0c457f22c548ddefd5f2ce1">&#9670;&#160;</a></span>getUniformRandom() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float RandomUtilities::getUniformRandom </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>min</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>New random value retrieved from a random uniform distribution. Note that this value is not in [0, 1]. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a9ac6bc06f0c457f22c548ddefd5f2ce1_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="af397f39fe9bbef75b3df74e22e3259c2" name="af397f39fe9bbef75b3df74e22e3259c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af397f39fe9bbef75b3df74e22e3259c2">&#9670;&#160;</a></span>getUniformRandomColor() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getUniformRandomColor </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Generates a random color in [0, 1] by using getUniformRandom function for each channel. </p>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_af397f39fe9bbef75b3df74e22e3259c2_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a8b04b5dd855711c36f031cdf724cd638" name="a8b04b5dd855711c36f031cdf724cd638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b04b5dd855711c36f031cdf724cd638">&#9670;&#160;</a></span>getUniformRandomColor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getUniformRandomColor </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>min</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generates a random color by using getUniformRandom function for each channel. </p>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a8b04b5dd855711c36f031cdf724cd638_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ae72f8d80fad63ab5f96f8d82428aef46" name="ae72f8d80fad63ab5f96f8d82428aef46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae72f8d80fad63ab5f96f8d82428aef46">&#9670;&#160;</a></span>getUniformRandomCosineDirection()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getUniformRandomCosineDirection </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Random hemisphere vector aligned to Z axis. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_ae72f8d80fad63ab5f96f8d82428aef46_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a50b2eaff14e9f06cdeaafbe93770439b" name="a50b2eaff14e9f06cdeaafbe93770439b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50b2eaff14e9f06cdeaafbe93770439b">&#9670;&#160;</a></span>getUniformRandomInHemisphere()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getUniformRandomInHemisphere </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Random point in unit sphere. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a50b2eaff14e9f06cdeaafbe93770439b_cgraph.svg" width="654" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a286284615a053c25fa1a4851a40f89f6" name="a286284615a053c25fa1a4851a40f89f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a286284615a053c25fa1a4851a40f89f6">&#9670;&#160;</a></span>getUniformRandomInt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int RandomUtilities::getUniformRandomInt </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>min</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>max</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Random single integer value. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a286284615a053c25fa1a4851a40f89f6_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a8a4d647eb2304a77c589ccc1638a8556" name="a8a4d647eb2304a77c589ccc1638a8556"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a4d647eb2304a77c589ccc1638a8556">&#9670;&#160;</a></span>getUniformRandomInUnitDisk()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getUniformRandomInUnitDisk </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Random point in unit disk. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_a8a4d647eb2304a77c589ccc1638a8556_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ab5ac31d6e847903ffdb94c4896f30185" name="ab5ac31d6e847903ffdb94c4896f30185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5ac31d6e847903ffdb94c4896f30185">&#9670;&#160;</a></span>getUniformRandomInUnitSphere()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d07/a00014.html#a3d0ce73e3199de81565fb01632415288">vec3</a> RandomUtilities::getUniformRandomInUnitSphere </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Devuelve</dt><dd>Random point in unit sphere. </dd></dl>
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_ab5ac31d6e847903ffdb94c4896f30185_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Gráfico de llamadas a esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d02/a00640_ab5ac31d6e847903ffdb94c4896f30185_icgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p>(k)ey (v)alue (p)air </p>
 
 </div>
 </div>

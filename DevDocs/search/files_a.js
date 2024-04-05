@@ -13,6 +13,6 @@ var searchData=
   ['locale_5fstrings_2eh_10',['locale_strings.h',['../dc/d00/a00332.html',1,'']]],
   ['localestrings_2ecpp_11',['LocaleStrings.cpp',['../d0/d04/a00443.html',1,'']]],
   ['localestrings_2eh_12',['LocaleStrings.h',['../d3/d07/a00446.html',1,'']]],
-  ['localización_20e_20idiomas_2emd_13',['Localización e idiomas.md',['../d5/d02/a00602.html',1,'']]],
+  ['localización_20e_20idiomas_2emd_13',['Localización e idiomas.md',['../d0/d04/a00605.html',1,'']]],
   ['logo_2epng_14',['Logo.png',['../d7/d06/a00002.html',1,'']]]
 ];

@@ -1,6 +1,6 @@
 var a00368 =
 [
-    [ "ImGuiToast", "d4/d07/a01913.html", "d4/d07/a01913" ],
+    [ "ImGuiToast", "d0/d06/a01916.html", "d0/d06/a01916" ],
     [ "NOTIFY_DEFAULT_DISMISS", "d8/d01/a00368.html#a737f6515f1b238d44fbc822b93e113b9", null ],
     [ "NOTIFY_FADE_IN_OUT_TIME", "d8/d01/a00368.html#a4344c20e64573eab48b5cfcbf76000c8", null ],
     [ "NOTIFY_FORMAT", "d8/d01/a00368.html#ab8119490f89cfe600dad5aa7855a9f5a", null ],

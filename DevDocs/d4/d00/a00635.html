@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Referencia del espacio de nombres FileDialogRegex</title>
+<title>GEU: Referencia del espacio de nombres ChronoUtilities</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -96,79 +96,61 @@ $(function(){initNavTree('d4/d00/a00635.html','../../'); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#enum-members">Enumeraciones</a> &#124;
-<a href="#func-members">Funciones</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Referencia del espacio de nombres FileDialogRegex</div></div>
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del espacio de nombres ChronoUtilities</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Utilities which help us to measure execution time.  
+<a href="#details">M谩s...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumeraciones</h2></td></tr>
-<tr class="memitem:abc72412e188ec7ae765fce8b2cb1d6d8" id="r_abc72412e188ec7ae765fce8b2cb1d6d8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a> { <br />
-&#160;&#160;<a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8a2092da90cf257cc24d406a221783a8c7">POINT_CLOUDS</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8a6fcf99a66c09959e90e17228e290e186">MODELS</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8ab34687a3607271050f02aa9bf90c731a">IMAGES</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8a7a4ebf03a1744e9bf01885d44bc96050">IMAGES_PNG</a>
-, <br />
-&#160;&#160;<a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8af82b0e52f33f04fe2c446fe8895401c2">IMAGES_TIF</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8a61a96ffcb251bb9bf0abf8fec19d0ea8">TEXT</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8acc5b4ede2c32f875c14c854df38f5ea6">GEU_SCENE</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b">HYPERSPECTRAL_HEADER</a>
-, <br />
-&#160;&#160;<a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48">DIRECTORY</a>
-, <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8a8e1bde3c3d303163521522cf1d62f21f">ANY</a>
-<br />
+<tr class="memitem:a1544ecba9d3f889db734f7aed14b5d30" id="r_a1544ecba9d3f889db734f7aed14b5d30"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30">TimeUnit</a> : int { <a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30a2cf68f11666bac0ab63e1a1dfb4fc869">SECONDS</a> = 1000000000
+, <a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30aa5e1be5751491eda26038b2852c837bc">MILLISECONDS</a> = 1000000
+, <a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30af2acbd9b84bf916c65ac504f8563b3bd">MICROSECONDS</a> = 1000
+, <a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30aea0480ff08a21bd851750ae127fa29cd">NANOSECONDS</a> = 1
  }</td></tr>
-<tr class="separator:abc72412e188ec7ae765fce8b2cb1d6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a1544ecba9d3f889db734f7aed14b5d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Units we can use to return the measured time  <a href="#a1544ecba9d3f889db734f7aed14b5d30">M谩s...</a><br /></td></tr>
+<tr class="separator:a1544ecba9d3f889db734f7aed14b5d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Funciones</h2></td></tr>
-<tr class="memitem:acfb88c6321dcf6bf008dce11582baa15" id="r_acfb88c6321dcf6bf008dce11582baa15"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfb88c6321dcf6bf008dce11582baa15">getRegex</a> (<a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a> type)</td></tr>
-<tr class="separator:acfb88c6321dcf6bf008dce11582baa15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2427071b5c9ef2e486cb02ad0166546e" id="r_a2427071b5c9ef2e486cb02ad0166546e"><td class="memItemLeft" align="right" valign="top">static std::map&lt; <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2427071b5c9ef2e486cb02ad0166546e">FILEDIALOG_REGEX</a></td></tr>
-<tr class="separator:a2427071b5c9ef2e486cb02ad0166546e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a187ba409975fee77e13daed043ab94c3" id="r_a187ba409975fee77e13daed043ab94c3"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a187ba409975fee77e13daed043ab94c3">getDuration</a> (<a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30">TimeUnit</a> timeUnit=<a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30aa5e1be5751491eda26038b2852c837bc">ChronoUtilities::MILLISECONDS</a>)</td></tr>
+<tr class="separator:a187ba409975fee77e13daed043ab94c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b741e2bfa3e546f9305747f35b20042" id="r_a9b741e2bfa3e546f9305747f35b20042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b741e2bfa3e546f9305747f35b20042">initChrono</a> ()</td></tr>
+<tr class="memdesc:a9b741e2bfa3e546f9305747f35b20042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the clock so we can execute whatever we want and measure the used time.  <br /></td></tr>
+<tr class="separator:a9b741e2bfa3e546f9305747f35b20042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentaci贸n de enumeraciones</h2>
-<a id="abc72412e188ec7ae765fce8b2cb1d6d8" name="abc72412e188ec7ae765fce8b2cb1d6d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc72412e188ec7ae765fce8b2cb1d6d8">&#9670;&#160;</a></span>FileDialogType</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descripci贸n detallada</h2>
+<div class="textblock"><p>Utilities which help us to measure execution time. </p>
+<dl class="section author"><dt>Autor</dt><dd>Alfonso L髉ez Ruiz. </dd></dl>
+</div><h2 class="groupheader">Documentaci贸n de enumeraciones</h2>
+<a id="a1544ecba9d3f889db734f7aed14b5d30" name="a1544ecba9d3f889db734f7aed14b5d30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1544ecba9d3f889db734f7aed14b5d30">&#9670;&#160;</a></span>TimeUnit</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogRegex::FileDialogType</a></td>
+          <td class="memname">enum <a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30">ChronoUtilities::TimeUnit</a> : int</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>&lt; Units we can use to return the measured time </p>
 <table class="fieldtable">
-<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8a2092da90cf257cc24d406a221783a8c7" name="abc72412e188ec7ae765fce8b2cb1d6d8a2092da90cf257cc24d406a221783a8c7"></a>POINT_CLOUDS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8a6fcf99a66c09959e90e17228e290e186" name="abc72412e188ec7ae765fce8b2cb1d6d8a6fcf99a66c09959e90e17228e290e186"></a>MODELS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8ab34687a3607271050f02aa9bf90c731a" name="abc72412e188ec7ae765fce8b2cb1d6d8ab34687a3607271050f02aa9bf90c731a"></a>IMAGES&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8a7a4ebf03a1744e9bf01885d44bc96050" name="abc72412e188ec7ae765fce8b2cb1d6d8a7a4ebf03a1744e9bf01885d44bc96050"></a>IMAGES_PNG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8af82b0e52f33f04fe2c446fe8895401c2" name="abc72412e188ec7ae765fce8b2cb1d6d8af82b0e52f33f04fe2c446fe8895401c2"></a>IMAGES_TIF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8a61a96ffcb251bb9bf0abf8fec19d0ea8" name="abc72412e188ec7ae765fce8b2cb1d6d8a61a96ffcb251bb9bf0abf8fec19d0ea8"></a>TEXT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8acc5b4ede2c32f875c14c854df38f5ea6" name="abc72412e188ec7ae765fce8b2cb1d6d8acc5b4ede2c32f875c14c854df38f5ea6"></a>GEU_SCENE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b" name="abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b"></a>HYPERSPECTRAL_HEADER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48" name="abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48"></a>DIRECTORY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abc72412e188ec7ae765fce8b2cb1d6d8a8e1bde3c3d303163521522cf1d62f21f" name="abc72412e188ec7ae765fce8b2cb1d6d8a8e1bde3c3d303163521522cf1d62f21f"></a>ANY&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a1544ecba9d3f889db734f7aed14b5d30a2cf68f11666bac0ab63e1a1dfb4fc869" name="a1544ecba9d3f889db734f7aed14b5d30a2cf68f11666bac0ab63e1a1dfb4fc869"></a>SECONDS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1544ecba9d3f889db734f7aed14b5d30aa5e1be5751491eda26038b2852c837bc" name="a1544ecba9d3f889db734f7aed14b5d30aa5e1be5751491eda26038b2852c837bc"></a>MILLISECONDS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1544ecba9d3f889db734f7aed14b5d30af2acbd9b84bf916c65ac504f8563b3bd" name="a1544ecba9d3f889db734f7aed14b5d30af2acbd9b84bf916c65ac504f8563b3bd"></a>MICROSECONDS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1544ecba9d3f889db734f7aed14b5d30aea0480ff08a21bd851750ae127fa29cd" name="a1544ecba9d3f889db734f7aed14b5d30aea0480ff08a21bd851750ae127fa29cd"></a>NANOSECONDS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Documentaci贸n de funciones</h2>
-<a id="acfb88c6321dcf6bf008dce11582baa15" name="acfb88c6321dcf6bf008dce11582baa15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfb88c6321dcf6bf008dce11582baa15">&#9670;&#160;</a></span>getRegex()</h2>
+<a id="a187ba409975fee77e13daed043ab94c3" name="a187ba409975fee77e13daed043ab94c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a187ba409975fee77e13daed043ab94c3">&#9670;&#160;</a></span>getDuration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,9 +159,35 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string FileDialogRegex::getRegex </td>
+          <td class="memname">long long ChronoUtilities::getDuration </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30">TimeUnit</a></td>          <td class="paramname"><span class="paramname"><em>timeUnit</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a1544ecba9d3f889db734f7aed14b5d30aa5e1be5751491eda26038b2852c837bc">ChronoUtilities::MILLISECONDS</a></span></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Measured time in the selected time unit since the clock was started. By default the time unit is milliseconds. </dd></dl>
+
+</div>
+</div>
+<a id="a9b741e2bfa3e546f9305747f35b20042" name="a9b741e2bfa3e546f9305747f35b20042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b741e2bfa3e546f9305747f35b20042">&#9670;&#160;</a></span>initChrono()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChronoUtilities::initChrono </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -190,41 +198,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Starts the clock so we can execute whatever we want and measure the used time. </p>
+<div class="dynheader">
+Gr谩fico de llamadas a esta funci贸n:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d00/a00635_a9b741e2bfa3e546f9305747f35b20042_icgraph.svg" width="439" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-</div>
-<h2 class="groupheader">Documentaci贸n de variables</h2>
-<a id="a2427071b5c9ef2e486cb02ad0166546e" name="a2427071b5c9ef2e486cb02ad0166546e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2427071b5c9ef2e486cb02ad0166546e">&#9670;&#160;</a></span>FILEDIALOG_REGEX</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;<a class="el" href="#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogType</a>, std::string&gt; FileDialogRegex::FILEDIALOG_REGEX</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">            {FileDialogType::POINT_CLOUDS, <span class="stringliteral">&quot;Point cloud(*.ply *.las *.laz){.((ply|PLY)),.((las|LAS)),.((laz|LAZ))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::MODELS, <span class="stringliteral">&quot;3D Model(*.obj){.((obj|OBJ))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::IMAGES, <span class="stringliteral">&quot;Image files(*.png *.tiff *.jpg *.jpeg){.((png|PNG)),.((tiff|TIFF)),.((tif|TIF)),.((jpg|JPG)),.((jpeg|JPEG))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::IMAGES_PNG, <span class="stringliteral">&quot;PNG Images(*.png){.((png|PNG))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::IMAGES_TIF, <span class="stringliteral">&quot;TIF Images(*.tif *.tiff){.((tiff|TIFF)),.((tif|TIF))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::TEXT, <span class="stringliteral">&quot;Text files(*.txt){.((txt|TXT))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::GEU_SCENE, <span class="stringliteral">&quot;GEU scene(*.geu){.((geu|GEU))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::HYPERSPECTRAL_HEADER, <span class="stringliteral">&quot;Hyperspectral header(*.hdr){.((hdr|HDR))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::DIRECTORY, <span class="stringliteral">&quot;&quot;</span>},</div>
-<div class="line">            {FileDialogType::ANY, <span class="stringliteral">&quot;Any file{.*}&quot;</span>}</div>
-<div class="line">    }</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

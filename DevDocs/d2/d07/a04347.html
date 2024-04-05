@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Shaders</title>
+<title>GEU: Manual de buenas prácticas</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -94,27 +94,80 @@ $(function(){initNavTree('d2/d07/a04347.html','../../'); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Shaders</div></div>
+  <div class="headertitle"><div class="title">Manual de buenas prácticas</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>[DEPRECATED]</p>
+<div class="textblock"><p><a class="anchor" id="manual-de-buenas-prácticas"></a></p>
+<h1><a class="anchor" id="para-mantener-la-cordura"></a>
+Para mantener la cordura</h1>
+<h2><a class="anchor" id="evita-modificar-geu-core"></a>
+Evita modificar GEU Core</h2>
+<p>Tanto los módulos, como la aplicación en si dependen de este subproyecto. Por lo tanto, mientras más estable consigamos mantenerlo, mejor. Obviamente esto no quiere decir que no se pueda modificar para añadir nuevas funcionalidades o arreglar las ya existentes. No obstante, si dicha modificación/inclusión se puede hacer en otro lado, mejor.</p>
+<h2><a class="anchor" id="los-módulos-deben-de-ser-autocontenidos"></a>
+Los módulos deben de ser autocontenidos</h2>
+<p>Esto quiere decir que deben poder activarse y desactivarse según convenga, siguiendo las instrucciones descritas en <a class="el" href="../../d5/d02/a00599.html">Generación del proyecto</a>. Esto, además de permitir adaptar la funcionalidad de <a class="el" href="../../d2/d04/a00625.html">GEU</a> al caso de uso que sea necesario, garantiza que si un módulo falla y el core no se ha modificado, el error se encuentra en el propio código del módulo.</p>
+<h2><a class="anchor" id="los-unit-tests-son-tus-amigos"></a>
+Los <em>unit tests</em> son tus amigos</h2>
+<p><a class="el" href="../../d2/d04/a00625.html">GEU</a> incluye soporte para el uso de <a class="el" href="../../d4/d04/a00617.html"><em>Unit tests</em></a> usando el framework <em>Google test</em>. Es muy fácil que cualquier funcionalidad se rompa por cualquier cambio en un sitio completamente distinto. Lo peor es que puede pasar desapercibido bastante tiempo y, creeme, cuando de repente deja de funcionar un método que lleva dos meses sin modificarse, averiguar que es lo que lo ha jodido es una ardua tarea.</p>
+<p>Si somos capaces de mantener una serie de <em>Unit tests</em> que prueben cada funcionalidad de manera automática, la estabilidad y resilencia del programa aumentará significativamente.</p>
+<h2><a class="anchor" id="evita-el-uso-de-stdcout-a-favor-del-logger"></a>
+Evita el uso de <em>std::cout</em> a favor del <em>logger</em></h2>
+<p><a class="el" href="../../d2/d04/a00625.html">GEU</a> se distribuye como una aplicación de ventana. Esto quiere decir que la versión del instalador no tiene acceso a la consola. Por tanto, cualquier cosa que sea interesante tener en caso de que algún usuario detecte un fallo en <a class="el" href="../../d2/d04/a00625.html">GEU</a> debería escribirse con el <a class="el" href="../../dc/d05/a00620.html"><em>logger</em></a>.</p>
+<hr  />
+<h1><a class="anchor" id="para-mejorar-el-rendimiento"></a>
+Para mejorar el rendimiento</h1>
+<h2><a class="anchor" id="el-profiler-es-tu-mejor-arma"></a>
+El <em>Profiler</em> es tu mejor arma</h2>
+<p>La mejor manera de mejorar el rendimiento de algo que va lento es ver porqué va lento. Para esto, el <em><a href="https://learn.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2022">profiler</a></em> te viene perfecto.</p>
+<h2><a class="anchor" id="piensa-en-una-arquitectura-que-no-sea-un-obstaculo"></a>
+Piensa en una arquitectura que no sea un obstaculo</h2>
+<p>Hay veces que las cosas van lentas porque están mal diseñadas. Si ves que algo va lento porque, por como está montado todo, te obliga a hacer un bucle anidado en vez de un bucle simple, cambialo. Seguramente eso te proporcione más mejora que cualquier otra alternativa. Lo mismo se aplica a las estructuras de datos.</p>
+<h2><a class="anchor" id="usa-openmp"></a>
+Usa OpenMP</h2>
+<p>Por lo general permite paralelizar los bucles de manera bastante sencilla. No obstante, hay que tener cuidado, pues empezamos con los problemas inherentes a la concurrencia/paralelización. Si estás escribiendo EEDDs de STL, ni lo intentes.</p>
+<h2><a class="anchor" id="si-nada-más-funciona"></a>
+Si nada más funciona</h2>
+<p>Existen alternativas que permitirán exprimir más el hardware, pero ya te aviso que seguramente no quieras entrar aquí. Aún así, si te atreves o te da curiosidad, aquí tienes una lista de terminos por donde empezar:</p>
+<ul>
+<li>SIMD: Buscalo como concepto y si quieres usarlo, utiliza <a href="https://github.com/xtensor-stack/xsimd">xSIMD</a>.</li>
+<li>CUDA: Seguro que te suena, pero ahí está.</li>
+<li>Compute Shaders: como CUDA pero te hace perder más pelo.</li>
+</ul>
+<p>De esas 3 alternativas, en <a class="el" href="../../d2/d04/a00625.html">GEU</a> solo encontrarás ejemplos de la última y principalmente orientado al rendering.</p>
+<hr  />
+<h1><a class="anchor" id="para-mantener-los-tiempos-de-compilación-controlados"></a>
+Para mantener los tiempos de compilación controlados</h1>
+<h2><a class="anchor" id="usa-forward-declaration-cuando-sea-posible"></a>
+Usa <em>forward declaration</em> cuando sea posible</h2>
+<p>El diseño de C++ hace que sea demasiado fácil arrastrar dependencias cuando se incluyen los <em>Headers</em> si este incluye otros a su vez. Por tanto, es recomendable usar <a href="../../[What are Forward declarations in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/what-are-forward-declarations-in-c/)"><em>forward declaration</em></a> cuando se use cualquier clase. La extensión de Jetbrains, <a href="../../[ReSharper C++: La extensión de Visual Studio para el desarrollo en C++](https://www.jetbrains.com/es-es/resharper-cpp/)">Resharper C++</a>, viene bastante bien para esto (aunque sea de pago, es gratuito para cuenta de estudiantes, que casualidad que tengamos alguna...).</p>
+<p>Quizás algún dia <a href="https://medium.com/@nerudaj/getting-started-with-c-modules-9a2495741ea9">los módulos de C++</a> sean usables...</p>
+<h2><a class="anchor" id="evita-incluir-librerías-de-stl-en-los-headers"></a>
+Evita incluir librerías de STL en los headers</h2>
+<p>Va en relación con el anterior. Si es posible, se debe evitar incluir STL en los headers, ya que son librerías excesivamente pesadas que pueden aumentar bastante el tiempo de compilación si se usan sin control.</p>
+<h2><a class="anchor" id="usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header"></a>
+Usa los <a href="https://en.wikipedia.org/wiki/Precompiled_header">Precompiled Headers</a></h2>
+<p>Pese a que están incluidos en todas las partes del proyecto, en el caso de los módulos, al ser autocontenidos, deben de rellenarse. Los PCH solo se deben de incluir en los ficheros fuente (.cpp) y deben de contener aquellas cabeceras (.h) que se utilicen en multiples ficheros fuente. Por ejemplo, un candidato bastante frecuente suele ser <em><a class="el" href="../../d5/d01/a00176.html">PointCloud.h</a></em>, pues es fácil tener que incluirlo en varias partes de los ficheros fuente.</p>
 <blockquote class="doxtable">
-<p>&zwj;En breve <a class="el" href="../../d0/d01/a00622.html">GEU</a> cambiará el pipeline clásico por uno basado en Compute Shaders, el cual posiblemente cambie el sistema aqui descrito. Por tanto, solo se recomienda añadir nuevos métodos si son indispensables. </p>
+<p>&zwj;Solo debe incluirse si dicha cabecera no se incluye en las otras cabeceras del mismo módulo. Si se incluye, es posible que incluirlo en el pch perjudique más que mejore. Ver <a href="https://www.reddit.com/r/cpp_questions/comments/11d7yvm/what_sort_of_headers_are_good_candidates_to_be/">What sort of headers are good candidates to be pre-compiled?</a> </p>
 </blockquote>
-<p>El proyecto utiliza principalmente dos <a href="https://www.gamedev.net/forums/topic/674891-uber-shader-approach/"><em>uber</em> shaders</a> (uno para las nubes y otro para las mallas de triángulos), donde se implementa toda la funcionalidad requerida para el renderizado. Cada funcionalidad se implementa en forma de subrutina por dos motivos:</p>
-<ol type="1">
-<li>Se habilita la detección desde el código en C++ de las mismas.</li>
-<li>Permite diferentes implementaciones de la misma funcionalidad.</li>
-</ol>
-<h2><a class="anchor" id="autotoc_md-instrucciones"></a>
-📘 Instrucciones</h2>
-<ol type="1">
-<li>Se <a href="https://www.lighthouse3d.com/tutorials/glsl-tutorial/subroutines/">crea la subrutina</a> en el shader. Lo único que debe de respetar es que el nombre del uniform que representa la subrutina tiene que tener el siguiente formato: nombreSubrutina + “Uniform”. Por ejemplo, si la subrutina es LightAttenuation, el uniform se llamará LightAttenuationUniform.</li>
-<li>Nos desplazamos al fichero <em><a class="el" href="../../d3/d06/a00275.html">ShaderEnums.h</a> (Archivos de encabezado -&gt; Core -&gt; Shaders)</em>.</li>
-<li>Se deberá añadir a los enums de subrutinas un nombre identificativo.</li>
-<li>El nombre de la subrutina se debe incluir en <em>SubroutineName,</em> en la etapa correspondiente (VertexShader, Geometry Shader, Fragment Shader o Compute Shader).</li>
-<li>El nombre de cada implementación de la subrutina se debe incluir en <em>SubroutineUniformNames</em>, en la etapa correspondiente (VertexShader, Geometry Shader, Fragment Shader o Compute Shader) y para la subrutina correspondiente. </li>
-</ol>
+<h2><a class="anchor" id="evita-el-uso-de-header-only-e-inlining"></a>
+Evita el uso de <em>Header only</em> e <em>Inlining</em></h2>
+<p>Aumentan bastante el tiempo de compilación cuando simplemente se debe de escribir la implementación en un fichero fuente(.cpp).</p>
+<blockquote class="doxtable">
+<p>&zwj;No aplica cuando se usa el inlining con objetivo de mejorar el rendimiento, pero se debe de comprobar si realmente dicho método es un cuello de botella. </p>
+</blockquote>
+<h2><a class="anchor" id="c-build-insights-también-es-tu-amigo"></a>
+C++ Build Insights también es tu amigo</h2>
+<p>Si ves que los tiempos de compilación se están descontrolando, hacer <em>profiling</em> del proceso de compilación puede ayudar a encontrar el cuello de botella: <a href="https://learn.microsoft.com/es-es/cpp/build-insights/get-started-with-cpp-build-insights?view=msvc-170">Introducción a C++ Build Insights | Microsoft Learn</a></p>
+<blockquote class="doxtable">
+<p>&zwj;A fecha de escritura, Visual Studio tiene un bug que provoca un error al intentar lanzar Build Insights. El fix es sencillo:</p>
+<p>Abrir un terminal como administrador y poner <code>xperf -stop</code> </p>
+</blockquote>
+<h1><a class="anchor" id="blockquote"></a>
+</h1>
+<h1><a class="anchor" id="lectura-recomendada"></a>
+Lectura recomendada</h1>
+<p>Además de lo previamente descrito, dado que por suerte o por desgracia usamos C++, la <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines">guía de buenas prácticas de C++</a> nos viene perfecta. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

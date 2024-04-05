@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -104,22 +104,22 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="contents">
 <a href="../../d9/d06/a00404.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using namespace </span><a class="code hl_namespace" href="../../dc/d01/a00621.html">std</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using namespace </span><a class="code hl_namespace" href="../../d3/d06/a00624.html">std</a>;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">    4</a></span><span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code hl_variable" href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">kBase64Alphabet</a>[] = <span class="stringliteral">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="stringliteral">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="stringliteral">&quot;0123456789+/&quot;</span>;</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d07/a01957.html">Base64</a> {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="../../de/d07/a01960.html">Base64</a> {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#ad234621ec037e09be3e96a1df479d3ad">   10</a></span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d07/a01957.html#ad234621ec037e09be3e96a1df479d3ad">Encode</a>(<span class="keyword">const</span> std::string &amp;in, std::string *out) {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#ad234621ec037e09be3e96a1df479d3ad">   10</a></span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d07/a01960.html#ad234621ec037e09be3e96a1df479d3ad">Encode</a>(<span class="keyword">const</span> std::string &amp;in, std::string *out) {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keywordtype">int</span> i = 0, j = 0;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keywordtype">size_t</span> enc_len = 0;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> a3[3];</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> a4[4];</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        out-&gt;resize(<a class="code hl_function" href="../../d2/d07/a01957.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(in));</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        out-&gt;resize(<a class="code hl_function" href="../../de/d07/a01960.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(in));</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keywordtype">int</span> input_len =(int) in.size();</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        std::string::const_iterator input = in.begin();</div>
@@ -127,7 +127,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordflow">while</span> (input_len--) {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            a3[i++] = *(input++);</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            <span class="keywordflow">if</span> (i == 3) {</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                <a class="code hl_function" href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                <a class="code hl_function" href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                <span class="keywordflow">for</span> (i = 0; i &lt; 4; i++) {</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                    (*out)[enc_len++] = <a class="code hl_variable" href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">kBase64Alphabet</a>[a4[i]];</div>
@@ -142,7 +142,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                a3[j] = <span class="charliteral">&#39;\0&#39;</span>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            }</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <a class="code hl_function" href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <a class="code hl_function" href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordflow">for</span> (j = 0; j &lt; i + 1; j++) {</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                (*out)[enc_len++] = <a class="code hl_variable" href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">kBase64Alphabet</a>[a4[j]];</div>
@@ -158,20 +158,20 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#a9f049988abb9267d85a5c7aaac494fb9">   53</a></span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a9f049988abb9267d85a5c7aaac494fb9">Encode</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *input, <span class="keywordtype">size_t</span> input_length, <span class="keywordtype">char</span> *out, <span class="keyword">const</span> <span class="keywordtype">size_t</span> out_length) {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#a9f049988abb9267d85a5c7aaac494fb9">   53</a></span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d07/a01960.html#a9f049988abb9267d85a5c7aaac494fb9">Encode</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *input, <span class="keywordtype">size_t</span> input_length, <span class="keywordtype">char</span> *out, <span class="keyword">const</span> <span class="keywordtype">size_t</span> out_length) {</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">int</span> i = 0, j = 0;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">char</span> *out_begin = out;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> a3[3];</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> a4[4];</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">size_t</span> encoded_length = <a class="code hl_function" href="../../d2/d07/a01957.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(input_length);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">size_t</span> encoded_length = <a class="code hl_function" href="../../de/d07/a01960.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(input_length);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">if</span> (out_length &lt; encoded_length) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">while</span> (input_length--) {</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            a3[i++] = *input++;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordflow">if</span> (i == 3) {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                <a class="code hl_function" href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                <a class="code hl_function" href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                <span class="keywordflow">for</span> (i = 0; i &lt; 4; i++) {</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                    *out++ = <a class="code hl_variable" href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">kBase64Alphabet</a>[a4[i]];</div>
@@ -186,7 +186,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                a3[j] = <span class="charliteral">&#39;\0&#39;</span>;</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            }</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <a class="code hl_function" href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <a class="code hl_function" href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(a4, a3);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            <span class="keywordflow">for</span> (j = 0; j &lt; i + 1; j++) {</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>                *out++ = <a class="code hl_variable" href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">kBase64Alphabet</a>[a4[j]];</div>
@@ -202,7 +202,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#ae6a7457922b536ccae57467db1f972af">   95</a></span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d07/a01957.html#ae6a7457922b536ccae57467db1f972af">Decode</a>(<span class="keyword">const</span> std::string &amp;in, std::string *out) {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#ae6a7457922b536ccae57467db1f972af">   95</a></span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d07/a01960.html#ae6a7457922b536ccae57467db1f972af">Decode</a>(<span class="keyword">const</span> std::string &amp;in, std::string *out) {</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordtype">int</span> i = 0, j = 0;</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keywordtype">size_t</span> dec_len = 0;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> a3[3];</div>
@@ -211,7 +211,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="keywordtype">int</span> input_len = (int) in.size();</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        std::string::const_iterator input = in.begin();</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        out-&gt;resize(<a class="code hl_function" href="../../d2/d07/a01957.html#a3fe4c327ec3e305b5744d6810dae6b4b">DecodedLength</a>(in));</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        out-&gt;resize(<a class="code hl_function" href="../../de/d07/a01960.html#a3fe4c327ec3e305b5744d6810dae6b4b">DecodedLength</a>(in));</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        <span class="keywordflow">while</span> (input_len--) {</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            <span class="keywordflow">if</span> (*input == <span class="charliteral">&#39;=&#39;</span>) {</div>
@@ -221,10 +221,10 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            a4[i++] = *(input++);</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>            <span class="keywordflow">if</span> (i == 4) {</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>                <span class="keywordflow">for</span> (i = 0; i &lt;4; i++) {</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                    a4[i] = <a class="code hl_function" href="../../d2/d07/a01957.html#a8de014069fccbd2492c3ce2ee1c02691">b64_lookup</a>(a4[i]);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                    a4[i] = <a class="code hl_function" href="../../de/d07/a01960.html#a8de014069fccbd2492c3ce2ee1c02691">b64_lookup</a>(a4[i]);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                }</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                <a class="code hl_function" href="../../d2/d07/a01957.html#abe8ace7d1576ce2fa5da45a6260379fd">a4_to_a3</a>(a3, a4);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                <a class="code hl_function" href="../../de/d07/a01960.html#abe8ace7d1576ce2fa5da45a6260379fd">a4_to_a3</a>(a3, a4);</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++) {</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                    (*out)[dec_len++] = a3[i];</div>
@@ -240,10 +240,10 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>            }</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>            <span class="keywordflow">for</span> (j = 0; j &lt; 4; j++) {</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                a4[j] = <a class="code hl_function" href="../../d2/d07/a01957.html#a8de014069fccbd2492c3ce2ee1c02691">b64_lookup</a>(a4[j]);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>                a4[j] = <a class="code hl_function" href="../../de/d07/a01960.html#a8de014069fccbd2492c3ce2ee1c02691">b64_lookup</a>(a4[j]);</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>            }</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            <a class="code hl_function" href="../../d2/d07/a01957.html#abe8ace7d1576ce2fa5da45a6260379fd">a4_to_a3</a>(a3, a4);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            <a class="code hl_function" href="../../de/d07/a01960.html#abe8ace7d1576ce2fa5da45a6260379fd">a4_to_a3</a>(a3, a4);</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>            <span class="keywordflow">for</span> (j = 0; j &lt; i - 1; j++) {</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>                (*out)[dec_len++] = a3[j];</div>
@@ -305,7 +305,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="comment">    }</span></div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="comment">    */</span></div>
 <div class="foldopen" id="foldopen00196" data-start="{" data-end="}">
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#a3fe4c327ec3e305b5744d6810dae6b4b">  196</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a3fe4c327ec3e305b5744d6810dae6b4b">DecodedLength</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *in, <span class="keyword">const</span> <span class="keywordtype">size_t</span> in_length) {</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#a3fe4c327ec3e305b5744d6810dae6b4b">  196</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d07/a01960.html#a3fe4c327ec3e305b5744d6810dae6b4b">DecodedLength</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *in, <span class="keyword">const</span> <span class="keywordtype">size_t</span> in_length) {</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        <span class="keywordtype">int</span> numEq = 0;</div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *in_end = in + in_length;</div>
@@ -316,7 +316,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 </div>
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
 <div class="foldopen" id="foldopen00205" data-start="{" data-end="}">
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#a014a70bd3481dfe56e7aa2511ca1a0cb">  205</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a014a70bd3481dfe56e7aa2511ca1a0cb">DecodedLength</a>(<span class="keyword">const</span> std::string &amp;in) {</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#a014a70bd3481dfe56e7aa2511ca1a0cb">  205</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d07/a01960.html#a014a70bd3481dfe56e7aa2511ca1a0cb">DecodedLength</a>(<span class="keyword">const</span> std::string &amp;in) {</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        <span class="keywordtype">int</span> numEq = 0;</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>        <span class="keywordtype">int</span> n = (int) in.size();</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
@@ -329,26 +329,26 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 </div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
 <div class="foldopen" id="foldopen00216" data-start="{" data-end="}">
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#a4618a7be591bf82dd7dcf37983a46784">  216</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(<span class="keyword">const</span> <span class="keywordtype">size_t</span> length) {</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#a4618a7be591bf82dd7dcf37983a46784">  216</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d07/a01960.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(<span class="keyword">const</span> <span class="keywordtype">size_t</span> length) {</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        <span class="keywordflow">return</span> (<span class="keywordtype">int</span>) (length + 2 - ((length + 2) % 3)) / 3 * 4;</div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    }</div>
 </div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
 <div class="foldopen" id="foldopen00220" data-start="{" data-end="}">
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#a06a941962d73207cd5a7e241b36036d6">  220</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a06a941962d73207cd5a7e241b36036d6">EncodedLength</a>(<span class="keyword">const</span> std::string &amp;in) {</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(in.length());</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#a06a941962d73207cd5a7e241b36036d6">  220</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d07/a01960.html#a06a941962d73207cd5a7e241b36036d6">EncodedLength</a>(<span class="keyword">const</span> std::string &amp;in) {</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/d07/a01960.html#a4618a7be591bf82dd7dcf37983a46784">EncodedLength</a>(in.length());</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    }</div>
 </div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
 <div class="foldopen" id="foldopen00224" data-start="{" data-end="}">
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#ab97d90737b8e76ce60e87c5a6e3ab1a3">  224</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d07/a01957.html#ab97d90737b8e76ce60e87c5a6e3ab1a3">StripPadding</a>(std::string *in) {</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#ab97d90737b8e76ce60e87c5a6e3ab1a3">  224</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d07/a01960.html#ab97d90737b8e76ce60e87c5a6e3ab1a3">StripPadding</a>(std::string *in) {</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="keywordflow">while</span> (!in-&gt;empty() &amp;&amp; *(in-&gt;rbegin()) == <span class="charliteral">&#39;=&#39;</span>) in-&gt;resize(in-&gt;size() - 1);</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    }</div>
 </div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="keyword">private</span>:</div>
 <div class="foldopen" id="foldopen00229" data-start="{" data-end="}">
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">  229</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a4, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a3) {</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">  229</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">a3_to_a4</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a4, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a3) {</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        a4[0] = (a3[0] &amp; 0xfc) &gt;&gt; 2;</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        a4[1] = ((a3[0] &amp; 0x03) &lt;&lt; 4) + ((a3[1] &amp; 0xf0) &gt;&gt; 4);</div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        a4[2] = ((a3[1] &amp; 0x0f) &lt;&lt; 2) + ((a3[2] &amp; 0xc0) &gt;&gt; 6);</div>
@@ -357,7 +357,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 </div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
 <div class="foldopen" id="foldopen00236" data-start="{" data-end="}">
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#abe8ace7d1576ce2fa5da45a6260379fd">  236</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d07/a01957.html#abe8ace7d1576ce2fa5da45a6260379fd">a4_to_a3</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a3, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a4) {</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#abe8ace7d1576ce2fa5da45a6260379fd">  236</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d07/a01960.html#abe8ace7d1576ce2fa5da45a6260379fd">a4_to_a3</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a3, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * a4) {</div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        a3[0] = (a4[0] &lt;&lt; 2) + ((a4[1] &amp; 0x30) &gt;&gt; 4);</div>
 <div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        a3[1] = ((a4[1] &amp; 0xf) &lt;&lt; 4) + ((a4[2] &amp; 0x3c) &gt;&gt; 2);</div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        a3[2] = ((a4[2] &amp; 0x3) &lt;&lt; 6) + a4[3];</div>
@@ -365,7 +365,7 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 </div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
 <div class="foldopen" id="foldopen00242" data-start="{" data-end="}">
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="../../d2/d07/a01957.html#a8de014069fccbd2492c3ce2ee1c02691">  242</a></span>    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_function" href="../../d2/d07/a01957.html#a8de014069fccbd2492c3ce2ee1c02691">b64_lookup</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> c) {</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="../../de/d07/a01960.html#a8de014069fccbd2492c3ce2ee1c02691">  242</a></span>    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code hl_function" href="../../de/d07/a01960.html#a8de014069fccbd2492c3ce2ee1c02691">b64_lookup</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> c) {</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;Z&#39;</span>) <span class="keywordflow">return</span> c - <span class="charliteral">&#39;A&#39;</span>;</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;z&#39;</span>) <span class="keywordflow">return</span> c - 71;</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;9&#39;</span>) <span class="keywordflow">return</span> c + 4;</div>
@@ -377,18 +377,18 @@ $(function(){initNavTree('d9/d06/a00404_source.html','../../'); initResizable();
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>};</div>
 </div>
 <div class="ttc" id="aa00404_html_aeaf3f12738fa64f3cccbe5b361d4c62d"><div class="ttname"><a href="../../d9/d06/a00404.html#aeaf3f12738fa64f3cccbe5b361d4c62d">kBase64Alphabet</a></div><div class="ttdeci">const char kBase64Alphabet[]</div><div class="ttdef"><b>Definition</b> Base64.h:4</div></div>
-<div class="ttc" id="aa00621_html"><div class="ttname"><a href="../../dc/d01/a00621.html">std</a></div><div class="ttdoc">STL namespace.</div></div>
-<div class="ttc" id="aa01957_html"><div class="ttname"><a href="../../d2/d07/a01957.html">Base64</a></div><div class="ttdef"><b>Definition</b> Base64.h:8</div></div>
-<div class="ttc" id="aa01957_html_a014a70bd3481dfe56e7aa2511ca1a0cb"><div class="ttname"><a href="../../d2/d07/a01957.html#a014a70bd3481dfe56e7aa2511ca1a0cb">Base64::DecodedLength</a></div><div class="ttdeci">static int DecodedLength(const std::string &amp;in)</div><div class="ttdef"><b>Definition</b> Base64.h:205</div></div>
-<div class="ttc" id="aa01957_html_a06a941962d73207cd5a7e241b36036d6"><div class="ttname"><a href="../../d2/d07/a01957.html#a06a941962d73207cd5a7e241b36036d6">Base64::EncodedLength</a></div><div class="ttdeci">static int EncodedLength(const std::string &amp;in)</div><div class="ttdef"><b>Definition</b> Base64.h:220</div></div>
-<div class="ttc" id="aa01957_html_a3fe4c327ec3e305b5744d6810dae6b4b"><div class="ttname"><a href="../../d2/d07/a01957.html#a3fe4c327ec3e305b5744d6810dae6b4b">Base64::DecodedLength</a></div><div class="ttdeci">static int DecodedLength(const char *in, const size_t in_length)</div><div class="ttdef"><b>Definition</b> Base64.h:196</div></div>
-<div class="ttc" id="aa01957_html_a4618a7be591bf82dd7dcf37983a46784"><div class="ttname"><a href="../../d2/d07/a01957.html#a4618a7be591bf82dd7dcf37983a46784">Base64::EncodedLength</a></div><div class="ttdeci">static int EncodedLength(const size_t length)</div><div class="ttdef"><b>Definition</b> Base64.h:216</div></div>
-<div class="ttc" id="aa01957_html_a8de014069fccbd2492c3ce2ee1c02691"><div class="ttname"><a href="../../d2/d07/a01957.html#a8de014069fccbd2492c3ce2ee1c02691">Base64::b64_lookup</a></div><div class="ttdeci">static unsigned char b64_lookup(const unsigned char c)</div><div class="ttdef"><b>Definition</b> Base64.h:242</div></div>
-<div class="ttc" id="aa01957_html_a9f049988abb9267d85a5c7aaac494fb9"><div class="ttname"><a href="../../d2/d07/a01957.html#a9f049988abb9267d85a5c7aaac494fb9">Base64::Encode</a></div><div class="ttdeci">static bool Encode(const char *input, size_t input_length, char *out, const size_t out_length)</div><div class="ttdef"><b>Definition</b> Base64.h:53</div></div>
-<div class="ttc" id="aa01957_html_aadda5892ffa78238b01429c0c79544b2"><div class="ttname"><a href="../../d2/d07/a01957.html#aadda5892ffa78238b01429c0c79544b2">Base64::a3_to_a4</a></div><div class="ttdeci">static void a3_to_a4(unsigned char *a4, unsigned char *a3)</div><div class="ttdef"><b>Definition</b> Base64.h:229</div></div>
-<div class="ttc" id="aa01957_html_ab97d90737b8e76ce60e87c5a6e3ab1a3"><div class="ttname"><a href="../../d2/d07/a01957.html#ab97d90737b8e76ce60e87c5a6e3ab1a3">Base64::StripPadding</a></div><div class="ttdeci">static void StripPadding(std::string *in)</div><div class="ttdef"><b>Definition</b> Base64.h:224</div></div>
-<div class="ttc" id="aa01957_html_abe8ace7d1576ce2fa5da45a6260379fd"><div class="ttname"><a href="../../d2/d07/a01957.html#abe8ace7d1576ce2fa5da45a6260379fd">Base64::a4_to_a3</a></div><div class="ttdeci">static void a4_to_a3(unsigned char *a3, unsigned char *a4)</div><div class="ttdef"><b>Definition</b> Base64.h:236</div></div>
-<div class="ttc" id="aa01957_html_ad234621ec037e09be3e96a1df479d3ad"><div class="ttname"><a href="../../d2/d07/a01957.html#ad234621ec037e09be3e96a1df479d3ad">Base64::Encode</a></div><div class="ttdeci">static bool Encode(const std::string &amp;in, std::string *out)</div><div class="ttdef"><b>Definition</b> Base64.h:10</div></div>
-<div class="ttc" id="aa01957_html_ae6a7457922b536ccae57467db1f972af"><div class="ttname"><a href="../../d2/d07/a01957.html#ae6a7457922b536ccae57467db1f972af">Base64::Decode</a></div><div class="ttdeci">static bool Decode(const std::string &amp;in, std::string *out)</div><div class="ttdef"><b>Definition</b> Base64.h:95</div></div>
+<div class="ttc" id="aa00624_html"><div class="ttname"><a href="../../d3/d06/a00624.html">std</a></div><div class="ttdoc">STL namespace.</div></div>
+<div class="ttc" id="aa01960_html"><div class="ttname"><a href="../../de/d07/a01960.html">Base64</a></div><div class="ttdef"><b>Definition</b> Base64.h:8</div></div>
+<div class="ttc" id="aa01960_html_a014a70bd3481dfe56e7aa2511ca1a0cb"><div class="ttname"><a href="../../de/d07/a01960.html#a014a70bd3481dfe56e7aa2511ca1a0cb">Base64::DecodedLength</a></div><div class="ttdeci">static int DecodedLength(const std::string &amp;in)</div><div class="ttdef"><b>Definition</b> Base64.h:205</div></div>
+<div class="ttc" id="aa01960_html_a06a941962d73207cd5a7e241b36036d6"><div class="ttname"><a href="../../de/d07/a01960.html#a06a941962d73207cd5a7e241b36036d6">Base64::EncodedLength</a></div><div class="ttdeci">static int EncodedLength(const std::string &amp;in)</div><div class="ttdef"><b>Definition</b> Base64.h:220</div></div>
+<div class="ttc" id="aa01960_html_a3fe4c327ec3e305b5744d6810dae6b4b"><div class="ttname"><a href="../../de/d07/a01960.html#a3fe4c327ec3e305b5744d6810dae6b4b">Base64::DecodedLength</a></div><div class="ttdeci">static int DecodedLength(const char *in, const size_t in_length)</div><div class="ttdef"><b>Definition</b> Base64.h:196</div></div>
+<div class="ttc" id="aa01960_html_a4618a7be591bf82dd7dcf37983a46784"><div class="ttname"><a href="../../de/d07/a01960.html#a4618a7be591bf82dd7dcf37983a46784">Base64::EncodedLength</a></div><div class="ttdeci">static int EncodedLength(const size_t length)</div><div class="ttdef"><b>Definition</b> Base64.h:216</div></div>
+<div class="ttc" id="aa01960_html_a8de014069fccbd2492c3ce2ee1c02691"><div class="ttname"><a href="../../de/d07/a01960.html#a8de014069fccbd2492c3ce2ee1c02691">Base64::b64_lookup</a></div><div class="ttdeci">static unsigned char b64_lookup(const unsigned char c)</div><div class="ttdef"><b>Definition</b> Base64.h:242</div></div>
+<div class="ttc" id="aa01960_html_a9f049988abb9267d85a5c7aaac494fb9"><div class="ttname"><a href="../../de/d07/a01960.html#a9f049988abb9267d85a5c7aaac494fb9">Base64::Encode</a></div><div class="ttdeci">static bool Encode(const char *input, size_t input_length, char *out, const size_t out_length)</div><div class="ttdef"><b>Definition</b> Base64.h:53</div></div>
+<div class="ttc" id="aa01960_html_aadda5892ffa78238b01429c0c79544b2"><div class="ttname"><a href="../../de/d07/a01960.html#aadda5892ffa78238b01429c0c79544b2">Base64::a3_to_a4</a></div><div class="ttdeci">static void a3_to_a4(unsigned char *a4, unsigned char *a3)</div><div class="ttdef"><b>Definition</b> Base64.h:229</div></div>
+<div class="ttc" id="aa01960_html_ab97d90737b8e76ce60e87c5a6e3ab1a3"><div class="ttname"><a href="../../de/d07/a01960.html#ab97d90737b8e76ce60e87c5a6e3ab1a3">Base64::StripPadding</a></div><div class="ttdeci">static void StripPadding(std::string *in)</div><div class="ttdef"><b>Definition</b> Base64.h:224</div></div>
+<div class="ttc" id="aa01960_html_abe8ace7d1576ce2fa5da45a6260379fd"><div class="ttname"><a href="../../de/d07/a01960.html#abe8ace7d1576ce2fa5da45a6260379fd">Base64::a4_to_a3</a></div><div class="ttdeci">static void a4_to_a3(unsigned char *a3, unsigned char *a4)</div><div class="ttdef"><b>Definition</b> Base64.h:236</div></div>
+<div class="ttc" id="aa01960_html_ad234621ec037e09be3e96a1df479d3ad"><div class="ttname"><a href="../../de/d07/a01960.html#ad234621ec037e09be3e96a1df479d3ad">Base64::Encode</a></div><div class="ttdeci">static bool Encode(const std::string &amp;in, std::string *out)</div><div class="ttdef"><b>Definition</b> Base64.h:10</div></div>
+<div class="ttc" id="aa01960_html_ae6a7457922b536ccae57467db1f972af"><div class="ttname"><a href="../../de/d07/a01960.html#ae6a7457922b536ccae57467db1f972af">Base64::Decode</a></div><div class="ttdeci">static bool Decode(const std::string &amp;in, std::string *out)</div><div class="ttdef"><b>Definition</b> Base64.h:95</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

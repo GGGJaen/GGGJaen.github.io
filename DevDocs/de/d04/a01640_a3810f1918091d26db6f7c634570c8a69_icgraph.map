@@ -1,0 +1,9 @@
+<map id="GEU::PointCloud::needUpdate" name="GEU::PointCloud::needUpdate">
+<area shape="rect" id="Node000001" title="Obliga a actualizar los recursos OpenGL de esta nube en la siguiente llamada de dibujado." alt="" coords="236,80,433,107"/>
+<area shape="rect" id="Node000002" href="$de/d05/a02072.html#a10eaed81344e07a7594cdfaf8dd35320" title=" " alt="" coords="5,5,188,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,78,175,51,176,46,270,73"/>
+<area shape="rect" id="Node000003" href="$de/d05/a02072.html#a02559507d7f291afc43075aa49bbdbfe" title=" " alt="" coords="6,72,187,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,96,188,96,188,91,220,91"/>
+<area shape="rect" id="Node000004" href="$db/d00/a02028.html#a2399bf0a76b1d2882c78b0503a2d8720" title=" " alt="" coords="22,139,171,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,114,172,142,170,137,268,109"/>
+</map>

@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="da/d04/a01609.html" target="_top" xlink:title="Index&#45;based Octree implementation offering different queries and insertion/removal of points.">
+<g id="a_Node000000"><a xlink:href="d5/d04/a01612.html" target="_top" xlink:title="Index&#45;based Octree implementation offering different queries and insertion/removal of points.">
 <polygon fill="white" stroke="#666666" points="114.25,-32 0,-32 0,0 114.25,0 114.25,-32"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">unibn::Octree&lt; PointT,</text>
 <text text-anchor="middle" x="57.13" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00"> ContainerT &gt;</text>

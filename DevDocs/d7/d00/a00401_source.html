@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -106,28 +106,28 @@ $(function(){initNavTree('d7/d00/a00401_source.html','../../'); initResizable();
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d06/a00383.html">UI/I_GUIPopup.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;queue&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/a00622.html">GEU</a> {</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d2/d04/a00625.html">GEU</a> {</div>
 <div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d9/d07/a01953.html">    6</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d9/d07/a01953.html">PopupSystem</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d6/d01/a02029.html">Singleton</a>&lt;PopupSystem&gt; {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d9/d07/a01953.html#ac5a3536de371167fdf200e8943f8c2b0">    7</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d9/d03/a01469.html">GUI</a>;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d9/d07/a01953.html#a39c2b66135edf1fb85c1601638eba32c">    8</a></span>        std::queue&lt;I_GUIPopup*&gt; <a class="code hl_variable" href="../../d9/d07/a01953.html#a39c2b66135edf1fb85c1601638eba32c">_pendingPopups</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d9/d07/a01953.html#a3d6a7defd435d3696b6bd6e4c0733dd6">    9</a></span>        std::queue&lt;I_GUIPopup*&gt; <a class="code hl_variable" href="../../d9/d07/a01953.html#a3d6a7defd435d3696b6bd6e4c0733dd6">_waitingPopups</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d0/d01/a01956.html">    6</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d0/d01/a01956.html">PopupSystem</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d1/d01/a02032.html">Singleton</a>&lt;PopupSystem&gt; {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d0/d01/a01956.html#ac5a3536de371167fdf200e8943f8c2b0">    7</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d2/d00/a01472.html">GUI</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d0/d01/a01956.html#a39c2b66135edf1fb85c1601638eba32c">    8</a></span>        std::queue&lt;I_GUIPopup*&gt; <a class="code hl_variable" href="../../d0/d01/a01956.html#a39c2b66135edf1fb85c1601638eba32c">_pendingPopups</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d0/d01/a01956.html#a3d6a7defd435d3696b6bd6e4c0733dd6">    9</a></span>        std::queue&lt;I_GUIPopup*&gt; <a class="code hl_variable" href="../../d0/d01/a01956.html#a3d6a7defd435d3696b6bd6e4c0733dd6">_waitingPopups</a>;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d07/a01953.html#ae812e21e62615fd347d33ee0ddb0cc82">addPopup</a>(<a class="code hl_class" href="../../dc/d07/a01933.html">I_GUIPopup</a>* popup);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d01/a01956.html#ae812e21e62615fd347d33ee0ddb0cc82">addPopup</a>(<a class="code hl_class" href="../../dd/d00/a01936.html">I_GUIPopup</a>* popup);</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    };</div>
 </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="ttc" id="aa00383_html"><div class="ttname"><a href="../../da/d06/a00383.html">I_GUIPopup.h</a></div></div>
-<div class="ttc" id="aa00622_html"><div class="ttname"><a href="../../d0/d01/a00622.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
-<div class="ttc" id="aa01469_html"><div class="ttname"><a href="../../d9/d03/a01469.html">GEU::GUI</a></div><div class="ttdoc">ImGUI wrapper and interface manager.</div><div class="ttdef"><b>Definition</b> GUI.h:17</div></div>
-<div class="ttc" id="aa01933_html"><div class="ttname"><a href="../../dc/d07/a01933.html">GEU::I_GUIPopup</a></div><div class="ttdoc">ImGUI popups interface adapter class.</div><div class="ttdef"><b>Definition</b> I_GUIPopup.h:12</div></div>
-<div class="ttc" id="aa01953_html"><div class="ttname"><a href="../../d9/d07/a01953.html">GEU::PopupSystem</a></div><div class="ttdef"><b>Definition</b> PopupSystem.h:6</div></div>
-<div class="ttc" id="aa01953_html_a39c2b66135edf1fb85c1601638eba32c"><div class="ttname"><a href="../../d9/d07/a01953.html#a39c2b66135edf1fb85c1601638eba32c">GEU::PopupSystem::_pendingPopups</a></div><div class="ttdeci">std::queue&lt; I_GUIPopup * &gt; _pendingPopups</div><div class="ttdef"><b>Definition</b> PopupSystem.h:8</div></div>
-<div class="ttc" id="aa01953_html_a3d6a7defd435d3696b6bd6e4c0733dd6"><div class="ttname"><a href="../../d9/d07/a01953.html#a3d6a7defd435d3696b6bd6e4c0733dd6">GEU::PopupSystem::_waitingPopups</a></div><div class="ttdeci">std::queue&lt; I_GUIPopup * &gt; _waitingPopups</div><div class="ttdef"><b>Definition</b> PopupSystem.h:9</div></div>
-<div class="ttc" id="aa01953_html_ae812e21e62615fd347d33ee0ddb0cc82"><div class="ttname"><a href="../../d9/d07/a01953.html#ae812e21e62615fd347d33ee0ddb0cc82">GEU::PopupSystem::addPopup</a></div><div class="ttdeci">static void addPopup(I_GUIPopup *popup)</div><div class="ttdef"><b>Definition</b> PopupSystem.cpp:4</div></div>
-<div class="ttc" id="aa02029_html"><div class="ttname"><a href="../../d6/d01/a02029.html">GEU::Singleton</a></div><div class="ttdef"><b>Definition</b> Singleton.h:4</div></div>
+<div class="ttc" id="aa00625_html"><div class="ttname"><a href="../../d2/d04/a00625.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="aa01472_html"><div class="ttname"><a href="../../d2/d00/a01472.html">GEU::GUI</a></div><div class="ttdoc">ImGUI wrapper and interface manager.</div><div class="ttdef"><b>Definition</b> GUI.h:17</div></div>
+<div class="ttc" id="aa01936_html"><div class="ttname"><a href="../../dd/d00/a01936.html">GEU::I_GUIPopup</a></div><div class="ttdoc">ImGUI popups interface adapter class.</div><div class="ttdef"><b>Definition</b> I_GUIPopup.h:12</div></div>
+<div class="ttc" id="aa01956_html"><div class="ttname"><a href="../../d0/d01/a01956.html">GEU::PopupSystem</a></div><div class="ttdef"><b>Definition</b> PopupSystem.h:6</div></div>
+<div class="ttc" id="aa01956_html_a39c2b66135edf1fb85c1601638eba32c"><div class="ttname"><a href="../../d0/d01/a01956.html#a39c2b66135edf1fb85c1601638eba32c">GEU::PopupSystem::_pendingPopups</a></div><div class="ttdeci">std::queue&lt; I_GUIPopup * &gt; _pendingPopups</div><div class="ttdef"><b>Definition</b> PopupSystem.h:8</div></div>
+<div class="ttc" id="aa01956_html_a3d6a7defd435d3696b6bd6e4c0733dd6"><div class="ttname"><a href="../../d0/d01/a01956.html#a3d6a7defd435d3696b6bd6e4c0733dd6">GEU::PopupSystem::_waitingPopups</a></div><div class="ttdeci">std::queue&lt; I_GUIPopup * &gt; _waitingPopups</div><div class="ttdef"><b>Definition</b> PopupSystem.h:9</div></div>
+<div class="ttc" id="aa01956_html_ae812e21e62615fd347d33ee0ddb0cc82"><div class="ttname"><a href="../../d0/d01/a01956.html#ae812e21e62615fd347d33ee0ddb0cc82">GEU::PopupSystem::addPopup</a></div><div class="ttdeci">static void addPopup(I_GUIPopup *popup)</div><div class="ttdef"><b>Definition</b> PopupSystem.cpp:4</div></div>
+<div class="ttc" id="aa02032_html"><div class="ttname"><a href="../../d1/d01/a02032.html">GEU::Singleton</a></div><div class="ttdef"><b>Definition</b> Singleton.h:4</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,7 +1,7 @@
 var a00362 =
 [
-    [ "IGFD_Selection_Pair", "d9/d05/a01905.html", "d9/d05/a01905" ],
-    [ "IGFD_Selection", "d9/d00/a01909.html", "d9/d00/a01909" ],
+    [ "IGFD_Selection_Pair", "d8/d05/a01908.html", "d8/d05/a01908" ],
+    [ "IGFD_Selection", "df/d00/a01912.html", "df/d00/a01912" ],
     [ "API", "de/d07/a00362.html#ad8ce4efaa307683d3d763b37b4711c53", null ],
     [ "IGFD_C_API", "de/d07/a00362.html#a935cee88d6fffd14c92f5faf22b659f6", null ],
     [ "IMGUIFILEDIALOG_VERSION", "de/d07/a00362.html#ae58593ce908a16556cdbafc5415f5d2c", null ],

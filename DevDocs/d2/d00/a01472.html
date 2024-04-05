@@ -1,0 +1,966 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Referencia de la clase GEU::GUI</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d2/d00/a01472.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-types">Tipos protegidos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="../../d9/d03/a01469.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la clase GEU::GUI<span class="mlabels"><span class="mlabel">final</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>ImGUI wrapper and interface manager.  
+ <a href="#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d6/d03/a00026_source.html">GUI.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de herencia de GEU::GUI</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d05/a01471.svg" width="168" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a827b1bda6802e6feda3522c60a42fed1" id="r_a827b1bda6802e6feda3522c60a42fed1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a827b1bda6802e6feda3522c60a42fed1">~GUI</a> ()</td></tr>
+<tr class="separator:a827b1bda6802e6feda3522c60a42fed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d7053318478ac2b13c3ae4bdaa82a1" id="r_ac1d7053318478ac2b13c3ae4bdaa82a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1d7053318478ac2b13c3ae4bdaa82a1">deleteCurrentScene</a> () const</td></tr>
+<tr class="memdesc:ac1d7053318478ac2b13c3ae4bdaa82a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes currently active scene and resets inspector status.  <br /></td></tr>
+<tr class="separator:ac1d7053318478ac2b13c3ae4bdaa82a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455b1ab303f7874e9d0b5b6da3cced98" id="r_a455b1ab303f7874e9d0b5b6da3cced98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455b1ab303f7874e9d0b5b6da3cced98">initialize</a> (GLFWwindow *window, int openGLMinorVersion, std::optional&lt; std::unique_ptr&lt; <a class="el" href="../../dc/d01/a01764.html">Texture</a> &gt; &gt; logoTexture)</td></tr>
+<tr class="memdesc:a455b1ab303f7874e9d0b5b6da3cced98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts ImGUI context.  <br /></td></tr>
+<tr class="separator:a455b1ab303f7874e9d0b5b6da3cced98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ebc89aa431e3a9e86bb1424b819d47" id="r_af7ebc89aa431e3a9e86bb1424b819d47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7ebc89aa431e3a9e86bb1424b819d47">render</a> ()</td></tr>
+<tr class="memdesc:af7ebc89aa431e3a9e86bb1424b819d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws ImGUI elements.  <br /></td></tr>
+<tr class="separator:af7ebc89aa431e3a9e86bb1424b819d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa349dc16a3b768b18cf94e22aa8b4e95" id="r_aa349dc16a3b768b18cf94e22aa8b4e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa349dc16a3b768b18cf94e22aa8b4e95">pointerPicking</a> (bool ctrlPressed, bool btnPressed, bool btnReleased, bool btnHeld)</td></tr>
+<tr class="separator:aa349dc16a3b768b18cf94e22aa8b4e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c291604f18b399dac7ad8388ce99c2c" id="r_a0c291604f18b399dac7ad8388ce99c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c291604f18b399dac7ad8388ce99c2c">setPickingTarget</a> (<a class="el" href="../../de/d04/a01640.html">PointCloud</a> *target) const</td></tr>
+<tr class="separator:a0c291604f18b399dac7ad8388ce99c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b6b3fd7a0e1413c7e15d5cdab4b871" id="r_ad6b6b3fd7a0e1413c7e15d5cdab4b871"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6b6b3fd7a0e1413c7e15d5cdab4b871">resetPicking</a> () const</td></tr>
+<tr class="separator:ad6b6b3fd7a0e1413c7e15d5cdab4b871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a02032"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_a02032')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos heredados de <a class="el" href="../../d1/d01/a02032.html">GEU::Singleton&lt; GUI &gt;</a></td></tr>
+<tr class="memitem:a89521801c0670dab18835ee80c266e31 inherit pub_methods_a02032" id="r_a89521801c0670dab18835ee80c266e31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/a02032.html#a89521801c0670dab18835ee80c266e31">Singleton</a> (const <a class="el" href="../../d1/d01/a02032.html">Singleton</a> &amp;)=delete</td></tr>
+<tr class="separator:a89521801c0670dab18835ee80c266e31 inherit pub_methods_a02032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15eb34a2b58195c067792695aed6012 inherit pub_methods_a02032" id="r_af15eb34a2b58195c067792695aed6012"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d01/a02032.html">Singleton</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/a02032.html#af15eb34a2b58195c067792695aed6012">operator=</a> (<a class="el" href="../../d1/d01/a02032.html">Singleton</a>)=delete</td></tr>
+<tr class="separator:af15eb34a2b58195c067792695aed6012 inherit pub_methods_a02032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a8dc3b435e68148c79094024ab3e122bc" id="r_a8dc3b435e68148c79094024ab3e122bc"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dc3b435e68148c79094024ab3e122bc">getFrameRate</a> ()</td></tr>
+<tr class="separator:a8dc3b435e68148c79094024ab3e122bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace582d91189b41aec4e089fdc6735de6" id="r_ace582d91189b41aec4e089fdc6735de6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace582d91189b41aec4e089fdc6735de6">isMouseActive</a> ()</td></tr>
+<tr class="separator:ace582d91189b41aec4e089fdc6735de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55827b7b1ac5d854e149a290a45f5f64" id="r_a55827b7b1ac5d854e149a290a45f5f64"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55827b7b1ac5d854e149a290a45f5f64">isKeyboardActive</a> ()</td></tr>
+<tr class="separator:a55827b7b1ac5d854e149a290a45f5f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_a02032"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_a02032')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos estáticos heredados de <a class="el" href="../../d1/d01/a02032.html">GEU::Singleton&lt; GUI &gt;</a></td></tr>
+<tr class="memitem:a47c7e7c2110f4cc59c9ff1f5594c366e inherit pub_static_methods_a02032" id="r_a47c7e7c2110f4cc59c9ff1f5594c366e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d00/a01472.html">GUI</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">getInstance</a> ()</td></tr>
+<tr class="separator:a47c7e7c2110f4cc59c9ff1f5594c366e inherit pub_static_methods_a02032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:ad69b2ea3a00c2bc19054ba619604e7c1" id="r_ad69b2ea3a00c2bc19054ba619604e7c1"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad69b2ea3a00c2bc19054ba619604e7c1">MIN_POPUP_SIZE</a></td></tr>
+<tr class="separator:ad69b2ea3a00c2bc19054ba619604e7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92f0cd921ef8621a5d31268a4846fc2" id="r_ac92f0cd921ef8621a5d31268a4846fc2"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac92f0cd921ef8621a5d31268a4846fc2">MAX_POPUP_SIZE</a></td></tr>
+<tr class="separator:ac92f0cd921ef8621a5d31268a4846fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3384833b06c6cb2895410ecf131fd0d4" id="r_a3384833b06c6cb2895410ecf131fd0d4"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3384833b06c6cb2895410ecf131fd0d4">MIN_WINDOW_SIZE</a></td></tr>
+<tr class="separator:a3384833b06c6cb2895410ecf131fd0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73cc93df1a0c01b23550717615418ad7" id="r_a73cc93df1a0c01b23550717615418ad7"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73cc93df1a0c01b23550717615418ad7">MAX_WINDOW_SIZE</a></td></tr>
+<tr class="separator:a73cc93df1a0c01b23550717615418ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe370c537c9cf1e63330426e181ccb2" id="r_aabe370c537c9cf1e63330426e181ccb2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabe370c537c9cf1e63330426e181ccb2">testProg</a> = 0.0f</td></tr>
+<tr class="separator:aabe370c537c9cf1e63330426e181ccb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:afc7a42769f9a0df428c3eac256a64a24" id="r_afc7a42769f9a0df428c3eac256a64a24"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc7a42769f9a0df428c3eac256a64a24">WINDOW_CLOSE_PENDING</a> = false</td></tr>
+<tr class="separator:afc7a42769f9a0df428c3eac256a64a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Tipos protegidos</h2></td></tr>
+<tr class="memitem:a78ad1555741d137c00b9c5335fbad6cd" id="r_a78ad1555741d137c00b9c5335fbad6cd"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ad1555741d137c00b9c5335fbad6cd">OTHER_WINDOWS</a> { <a class="el" href="#a78ad1555741d137c00b9c5335fbad6cdae0a50e8517bbdb1d571c6abe6832a60d">DATABASE_NEWRAW</a>
+, <a class="el" href="#a78ad1555741d137c00b9c5335fbad6cda728aff49e1edd211138c69a4c9ede566">DATABASE_DOWNLOADED</a>
+, <a class="el" href="#a78ad1555741d137c00b9c5335fbad6cda0a306d511ff52f1ac1a15a5417bcbaf4">POINT_PICKING</a>
+, <a class="el" href="#a78ad1555741d137c00b9c5335fbad6cdae2942a04780e223b215eb8b663cf5353">count</a>
+ }</td></tr>
+<tr class="separator:a78ad1555741d137c00b9c5335fbad6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a25741966b2b13947cc190ade25df565b" id="r_a25741966b2b13947cc190ade25df565b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25741966b2b13947cc190ade25df565b">handleNextPopup</a> ()</td></tr>
+<tr class="memdesc:a25741966b2b13947cc190ade25df565b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders and handles next popup window in queue.  <br /></td></tr>
+<tr class="separator:a25741966b2b13947cc190ade25df565b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c34c519134397a19ca3d9b6ae99658" id="r_a81c34c519134397a19ca3d9b6ae99658"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81c34c519134397a19ca3d9b6ae99658">GUI</a> ()</td></tr>
+<tr class="separator:a81c34c519134397a19ca3d9b6ae99658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a02032"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_a02032')"><img src="../../closed.png" alt="-"/>&#160;Métodos protegidos heredados de <a class="el" href="../../d1/d01/a02032.html">GEU::Singleton&lt; GUI &gt;</a></td></tr>
+<tr class="memitem:aeb5b66717b653c8465d3bb683af5c4cd inherit pro_methods_a02032" id="r_aeb5b66717b653c8465d3bb683af5c4cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/a02032.html#aeb5b66717b653c8465d3bb683af5c4cd">Singleton</a> ()=default</td></tr>
+<tr class="separator:aeb5b66717b653c8465d3bb683af5c4cd inherit pro_methods_a02032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a897d385e1135be8aa478ff2f2c889cce inherit pro_methods_a02032" id="r_a897d385e1135be8aa478ff2f2c889cce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/a02032.html#a897d385e1135be8aa478ff2f2c889cce">~Singleton</a> ()</td></tr>
+<tr class="separator:a897d385e1135be8aa478ff2f2c889cce inherit pro_methods_a02032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Métodos protegidos estáticos</h2></td></tr>
+<tr class="memitem:ad05e6ee6d84e1ee4690dff6e1c3ab851" id="r_ad05e6ee6d84e1ee4690dff6e1c3ab851"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05e6ee6d84e1ee4690dff6e1c3ab851">loadImGUIStyle</a> ()</td></tr>
+<tr class="separator:ad05e6ee6d84e1ee4690dff6e1c3ab851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf14f729f81711cd314ed32635a72f43" id="r_abf14f729f81711cd314ed32635a72f43"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf14f729f81711cd314ed32635a72f43">makeMainDockNode</a> ()</td></tr>
+<tr class="memdesc:abf14f729f81711cd314ed32635a72f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes docking node over main OpenGL rendering viewport.  <br /></td></tr>
+<tr class="separator:abf14f729f81711cd314ed32635a72f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a18c1826212445966092c271126b053a9" id="r_a18c1826212445966092c271126b053a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d05/a01732.html">Renderer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c1826212445966092c271126b053a9">_renderer</a></td></tr>
+<tr class="memdesc:a18c1826212445966092c271126b053a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to main <a class="el" href="../../de/d05/a01732.html">Renderer</a> instance.  <br /></td></tr>
+<tr class="separator:a18c1826212445966092c271126b053a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3836f06083147b333a3038455654d0f2" id="r_a3836f06083147b333a3038455654d0f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d00/a01936.html">I_GUIPopup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3836f06083147b333a3038455654d0f2">_currentPopup</a> = nullptr</td></tr>
+<tr class="memdesc:a3836f06083147b333a3038455654d0f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to currently active popup window.  <br /></td></tr>
+<tr class="separator:a3836f06083147b333a3038455654d0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647148c204e76a634d0e17494ed87610" id="r_a647148c204e76a634d0e17494ed87610"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../d5/d02/a01940.html">I_GUIWindow</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647148c204e76a634d0e17494ed87610">_coreWindows</a></td></tr>
+<tr class="memdesc:a647148c204e76a634d0e17494ed87610"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of main application windows.  <br /></td></tr>
+<tr class="separator:a647148c204e76a634d0e17494ed87610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328ac7be667d25a5f91fd2400500bca8" id="r_a328ac7be667d25a5f91fd2400500bca8"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="#a78ad1555741d137c00b9c5335fbad6cd">OTHER_WINDOWS</a>, <a class="el" href="../../d5/d02/a01940.html">I_GUIWindow</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a328ac7be667d25a5f91fd2400500bca8">_otherWindows</a></td></tr>
+<tr class="separator:a328ac7be667d25a5f91fd2400500bca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaae6c696ed9c7218acac1061a2781e4" id="r_aaaae6c696ed9c7218acac1061a2781e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d03/a01508.html">PickingWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaae6c696ed9c7218acac1061a2781e4">_pickingWindow</a></td></tr>
+<tr class="separator:aaaae6c696ed9c7218acac1061a2781e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726af972410e1f52e9f056cda9c15acf" id="r_a726af972410e1f52e9f056cda9c15acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d01/a01944.html">InterfaceAdapter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a726af972410e1f52e9f056cda9c15acf">_selectedModule</a></td></tr>
+<tr class="memdesc:a726af972410e1f52e9f056cda9c15acf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to currently active functionality module.  <br /></td></tr>
+<tr class="separator:a726af972410e1f52e9f056cda9c15acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a6a5807fac31c18d501e50b4b9b42c" id="r_aa1a6a5807fac31c18d501e50b4b9b42c"><td class="memItemLeft" align="right" valign="top">GLFWwindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1a6a5807fac31c18d501e50b4b9b42c">_glfwWindowHandle</a></td></tr>
+<tr class="separator:aa1a6a5807fac31c18d501e50b4b9b42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849edd27b22ac9f3d8ff8256b28f5379" id="r_a849edd27b22ac9f3d8ff8256b28f5379"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../dc/d01/a01764.html">Texture</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a849edd27b22ac9f3d8ff8256b28f5379">_logo</a></td></tr>
+<tr class="separator:a849edd27b22ac9f3d8ff8256b28f5379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a728ad27a5c00b41b4ddf6697edac2dc3" id="r_a728ad27a5c00b41b4ddf6697edac2dc3"><td class="memItemLeft" align="right" valign="top">friend&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728ad27a5c00b41b4ddf6697edac2dc3">Singleton</a></td></tr>
+<tr class="separator:a728ad27a5c00b41b4ddf6697edac2dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_a02032"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_a02032')"><img src="../../closed.png" alt="-"/>&#160;Atributos estáticos protegidos heredados de <a class="el" href="../../d1/d01/a02032.html">GEU::Singleton&lt; GUI &gt;</a></td></tr>
+<tr class="memitem:a8889fbb1446b7400c1cdce6fe9886aa4 inherit pro_static_attribs_a02032" id="r_a8889fbb1446b7400c1cdce6fe9886aa4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d00/a01472.html">GUI</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/a02032.html#a8889fbb1446b7400c1cdce6fe9886aa4">ptr</a></td></tr>
+<tr class="separator:a8889fbb1446b7400c1cdce6fe9886aa4 inherit pro_static_attribs_a02032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>ImGUI wrapper and interface manager. </p>
+</div><h2 class="groupheader">Documentación de las enumeraciones miembro de la clase</h2>
+<a id="a78ad1555741d137c00b9c5335fbad6cd" name="a78ad1555741d137c00b9c5335fbad6cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78ad1555741d137c00b9c5335fbad6cd">&#9670;&#160;</a></span>OTHER_WINDOWS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a78ad1555741d137c00b9c5335fbad6cd">GEU::GUI::OTHER_WINDOWS</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a78ad1555741d137c00b9c5335fbad6cdae0a50e8517bbdb1d571c6abe6832a60d" name="a78ad1555741d137c00b9c5335fbad6cdae0a50e8517bbdb1d571c6abe6832a60d"></a>DATABASE_NEWRAW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78ad1555741d137c00b9c5335fbad6cda728aff49e1edd211138c69a4c9ede566" name="a78ad1555741d137c00b9c5335fbad6cda728aff49e1edd211138c69a4c9ede566"></a>DATABASE_DOWNLOADED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78ad1555741d137c00b9c5335fbad6cda0a306d511ff52f1ac1a15a5417bcbaf4" name="a78ad1555741d137c00b9c5335fbad6cda0a306d511ff52f1ac1a15a5417bcbaf4"></a>POINT_PICKING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a78ad1555741d137c00b9c5335fbad6cdae2942a04780e223b215eb8b663cf5353" name="a78ad1555741d137c00b9c5335fbad6cdae2942a04780e223b215eb8b663cf5353"></a>count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a81c34c519134397a19ca3d9b6ae99658" name="a81c34c519134397a19ca3d9b6ae99658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81c34c519134397a19ca3d9b6ae99658">&#9670;&#160;</a></span>GUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::GUI::GUI </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a827b1bda6802e6feda3522c60a42fed1" name="a827b1bda6802e6feda3522c60a42fed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827b1bda6802e6feda3522c60a42fed1">&#9670;&#160;</a></span>~GUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEU::GUI::~GUI </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="ac1d7053318478ac2b13c3ae4bdaa82a1" name="ac1d7053318478ac2b13c3ae4bdaa82a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d7053318478ac2b13c3ae4bdaa82a1">&#9670;&#160;</a></span>deleteCurrentScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::deleteCurrentScene </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes currently active scene and resets inspector status. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_ac1d7053318478ac2b13c3ae4bdaa82a1_cgraph.svg" width="426" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_ac1d7053318478ac2b13c3ae4bdaa82a1_icgraph.svg" width="384" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8dc3b435e68148c79094024ab3e122bc" name="a8dc3b435e68148c79094024ab3e122bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc3b435e68148c79094024ab3e122bc">&#9670;&#160;</a></span>getFrameRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t GEU::GUI::getFrameRate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_a8dc3b435e68148c79094024ab3e122bc_icgraph.svg" width="479" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a25741966b2b13947cc190ade25df565b" name="a25741966b2b13947cc190ade25df565b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25741966b2b13947cc190ade25df565b">&#9670;&#160;</a></span>handleNextPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::handleNextPopup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Renders and handles next popup window in queue. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_a25741966b2b13947cc190ade25df565b_cgraph.svg" width="454" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a455b1ab303f7874e9d0b5b6da3cced98" name="a455b1ab303f7874e9d0b5b6da3cced98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455b1ab303f7874e9d0b5b6da3cced98">&#9670;&#160;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::initialize </td>
+          <td>(</td>
+          <td class="paramtype">GLFWwindow *</td>          <td class="paramname"><span class="paramname"><em>window</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>openGLMinorVersion</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::optional&lt; std::unique_ptr&lt; <a class="el" href="../../dc/d01/a01764.html">Texture</a> &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>logoTexture</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Starts ImGUI context. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Main view window </td></tr>
+    <tr><td class="paramname">openGLMinorVersion</td><td></td></tr>
+    <tr><td class="paramname">logoTexture</td><td><a class="el" href="../../dc/d01/a01764.html">Texture</a> pointer to program icon </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_a455b1ab303f7874e9d0b5b6da3cced98_cgraph.svg" width="368" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a55827b7b1ac5d854e149a290a45f5f64" name="a55827b7b1ac5d854e149a290a45f5f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55827b7b1ac5d854e149a290a45f5f64">&#9670;&#160;</a></span>isKeyboardActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool GEU::GUI::isKeyboardActive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace582d91189b41aec4e089fdc6735de6" name="ace582d91189b41aec4e089fdc6735de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace582d91189b41aec4e089fdc6735de6">&#9670;&#160;</a></span>isMouseActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool GEU::GUI::isMouseActive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad05e6ee6d84e1ee4690dff6e1c3ab851" name="ad05e6ee6d84e1ee4690dff6e1c3ab851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05e6ee6d84e1ee4690dff6e1c3ab851">&#9670;&#160;</a></span>loadImGUIStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::loadImGUIStyle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf14f729f81711cd314ed32635a72f43" name="abf14f729f81711cd314ed32635a72f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf14f729f81711cd314ed32635a72f43">&#9670;&#160;</a></span>makeMainDockNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::makeMainDockNode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes docking node over main OpenGL rendering viewport. </p>
+
+</div>
+</div>
+<a id="aa349dc16a3b768b18cf94e22aa8b4e95" name="aa349dc16a3b768b18cf94e22aa8b4e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa349dc16a3b768b18cf94e22aa8b4e95">&#9670;&#160;</a></span>pointerPicking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::pointerPicking </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>ctrlPressed</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>btnPressed</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>btnReleased</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>btnHeld</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_aa349dc16a3b768b18cf94e22aa8b4e95_cgraph.svg" width="372" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af7ebc89aa431e3a9e86bb1424b819d47" name="af7ebc89aa431e3a9e86bb1424b819d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7ebc89aa431e3a9e86bb1424b819d47">&#9670;&#160;</a></span>render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::render </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draws ImGUI elements. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_af7ebc89aa431e3a9e86bb1424b819d47_cgraph.svg" width="1163" height="1867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad6b6b3fd7a0e1413c7e15d5cdab4b871" name="ad6b6b3fd7a0e1413c7e15d5cdab4b871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b6b3fd7a0e1413c7e15d5cdab4b871">&#9670;&#160;</a></span>resetPicking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::resetPicking </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_ad6b6b3fd7a0e1413c7e15d5cdab4b871_cgraph.svg" width="362" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0c291604f18b399dac7ad8388ce99c2c" name="a0c291604f18b399dac7ad8388ce99c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c291604f18b399dac7ad8388ce99c2c">&#9670;&#160;</a></span>setPickingTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GUI::setPickingTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d04/a01640.html">PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d00/a01472_a0c291604f18b399dac7ad8388ce99c2c_icgraph.svg" width="616" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de datos miembro</h2>
+<a id="a647148c204e76a634d0e17494ed87610" name="a647148c204e76a634d0e17494ed87610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647148c204e76a634d0e17494ed87610">&#9670;&#160;</a></span>_coreWindows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="../../d5/d02/a01940.html">I_GUIWindow</a>*&gt; GEU::GUI::_coreWindows</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of main application windows. </p>
+
+</div>
+</div>
+<a id="a3836f06083147b333a3038455654d0f2" name="a3836f06083147b333a3038455654d0f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3836f06083147b333a3038455654d0f2">&#9670;&#160;</a></span>_currentPopup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d00/a01936.html">I_GUIPopup</a>* GEU::GUI::_currentPopup = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to currently active popup window. </p>
+
+</div>
+</div>
+<a id="aa1a6a5807fac31c18d501e50b4b9b42c" name="aa1a6a5807fac31c18d501e50b4b9b42c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a6a5807fac31c18d501e50b4b9b42c">&#9670;&#160;</a></span>_glfwWindowHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLFWwindow* GEU::GUI::_glfwWindowHandle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a849edd27b22ac9f3d8ff8256b28f5379" name="a849edd27b22ac9f3d8ff8256b28f5379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849edd27b22ac9f3d8ff8256b28f5379">&#9670;&#160;</a></span>_logo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../dc/d01/a01764.html">Texture</a>&gt; GEU::GUI::_logo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a328ac7be667d25a5f91fd2400500bca8" name="a328ac7be667d25a5f91fd2400500bca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328ac7be667d25a5f91fd2400500bca8">&#9670;&#160;</a></span>_otherWindows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="#a78ad1555741d137c00b9c5335fbad6cd">OTHER_WINDOWS</a>, <a class="el" href="../../d5/d02/a01940.html">I_GUIWindow</a>*&gt; GEU::GUI::_otherWindows</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaaae6c696ed9c7218acac1061a2781e4" name="aaaae6c696ed9c7218acac1061a2781e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaae6c696ed9c7218acac1061a2781e4">&#9670;&#160;</a></span>_pickingWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d03/a01508.html">PickingWindow</a>* GEU::GUI::_pickingWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18c1826212445966092c271126b053a9" name="a18c1826212445966092c271126b053a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c1826212445966092c271126b053a9">&#9670;&#160;</a></span>_renderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d05/a01732.html">Renderer</a>* GEU::GUI::_renderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to main <a class="el" href="../../de/d05/a01732.html">Renderer</a> instance. </p>
+
+</div>
+</div>
+<a id="a726af972410e1f52e9f056cda9c15acf" name="a726af972410e1f52e9f056cda9c15acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726af972410e1f52e9f056cda9c15acf">&#9670;&#160;</a></span>_selectedModule</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d01/a01944.html">InterfaceAdapter</a>* GEU::GUI::_selectedModule</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to currently active functionality module. </p>
+
+</div>
+</div>
+<a id="ac92f0cd921ef8621a5d31268a4846fc2" name="ac92f0cd921ef8621a5d31268a4846fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac92f0cd921ef8621a5d31268a4846fc2">&#9670;&#160;</a></span>MAX_POPUP_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImVec2 GEU::GUI::MAX_POPUP_SIZE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73cc93df1a0c01b23550717615418ad7" name="a73cc93df1a0c01b23550717615418ad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cc93df1a0c01b23550717615418ad7">&#9670;&#160;</a></span>MAX_WINDOW_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImVec2 GEU::GUI::MAX_WINDOW_SIZE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad69b2ea3a00c2bc19054ba619604e7c1" name="ad69b2ea3a00c2bc19054ba619604e7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69b2ea3a00c2bc19054ba619604e7c1">&#9670;&#160;</a></span>MIN_POPUP_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImVec2 GEU::GUI::MIN_POPUP_SIZE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3384833b06c6cb2895410ecf131fd0d4" name="a3384833b06c6cb2895410ecf131fd0d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3384833b06c6cb2895410ecf131fd0d4">&#9670;&#160;</a></span>MIN_WINDOW_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImVec2 GEU::GUI::MIN_WINDOW_SIZE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a728ad27a5c00b41b4ddf6697edac2dc3" name="a728ad27a5c00b41b4ddf6697edac2dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728ad27a5c00b41b4ddf6697edac2dc3">&#9670;&#160;</a></span>Singleton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend GEU::GUI::Singleton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aabe370c537c9cf1e63330426e181ccb2" name="aabe370c537c9cf1e63330426e181ccb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe370c537c9cf1e63330426e181ccb2">&#9670;&#160;</a></span>testProg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::GUI::testProg = 0.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc7a42769f9a0df428c3eac256a64a24" name="afc7a42769f9a0df428c3eac256a64a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7a42769f9a0df428c3eac256a64a24">&#9670;&#160;</a></span>WINDOW_CLOSE_PENDING</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::GUI::WINDOW_CLOSE_PENDING = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
+<li>D:/GEU/GEUApp/Source/UI/<a class="el" href="../../d6/d03/a00026_source.html">GUI.h</a></li>
+<li>D:/GEU/GEUApp/Source/UI/<a class="el" href="../../d3/d02/a00023.html">GUI.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->

@@ -1,0 +1,11 @@
+<map id="GEU::Camera::lookModel" name="GEU::Camera::lookModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,175,83"/>
+<area shape="rect" id="Node000002" href="$da/d02/a01620.html#ae60d0132c0c5d96ddb455024a40b6bde" title=" " alt="" coords="257,5,359,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,53,242,31,243,36,151,58"/>
+<area shape="rect" id="Node000003" href="$d6/d07/a01632.html#ab5fdc7a938aa8ae8f6697cb4bf3e94b4" title=" " alt="" coords="223,56,393,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,67,207,67,207,72,175,72"/>
+<area shape="rect" id="Node000005" href="$da/d02/a01620.html#aa80c2fc1bbc932572311ba94a8f76530" title=" " alt="" coords="263,107,353,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="151,81,248,103,247,109,150,86"/>
+<area shape="rect" id="Node000004" href="$da/d02/a01620.html#ab4dad925a3cb42ad2f00c7d5053369e1" title=" " alt="" coords="441,56,524,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="393,67,426,67,426,72,393,72"/>
+</map>

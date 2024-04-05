@@ -1,0 +1,5 @@
+<map id="GEU::FileDialogPopup" name="GEU::FileDialogPopup">
+<area shape="rect" id="Node000001" title="ImGUIFileDialog popup wrapper for system file selection." alt="" coords="5,80,157,107"/>
+<area shape="rect" id="Node000002" href="$dd/d00/a01936.html" title="ImGUI popups interface adapter class." alt="" coords="18,5,144,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,48,84,80,78,80,78,48"/>
+</map>

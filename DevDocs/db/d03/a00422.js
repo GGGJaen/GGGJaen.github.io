@@ -1,4 +1,4 @@
 var a00422 =
 [
-    [ "Histogram", "d2/d03/a01961.html", "d2/d03/a01961" ]
+    [ "Histogram", "d6/d00/a01964.html", "d6/d00/a01964" ]
 ];

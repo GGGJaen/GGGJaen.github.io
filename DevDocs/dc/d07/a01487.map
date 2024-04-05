@@ -1,12 +1,5 @@
-<map id="GEU::Material::MaterialDescription" name="GEU::Material::MaterialDescription">
-<area shape="rect" id="Node000001" title=" " alt="" coords="110,279,333,305"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="28,97,108,124"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,139,53,177,54,196,61,213,80,235,104,253,131,266,158,276,156,281,129,271,101,257,77,239,57,216,49,197,47,176,55,138"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="140,188,303,215"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="104,130,201,185,198,190,102,134"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,131,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="71,64,71,97,65,97,65,64"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="224,230,224,278,219,278,219,230"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="328,188,459,215"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="365,226,315,257,259,281,257,276,312,252,362,222"/>
+<map id="GEU::DatabaseQueryDatoPopup" name="GEU::DatabaseQueryDatoPopup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,217,107"/>
+<area shape="rect" id="Node000002" href="$dd/d00/a01936.html" title="ImGUI popups interface adapter class." alt="" coords="48,5,174,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,48,114,80,108,80,108,48"/>
 </map>

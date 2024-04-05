@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['r_0',['R',['../d3/d06/a02093.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae1e1d3d40573127e9ee0480caf1283d6',1,'GEU::ImageTreeSegmentation']]],
-  ['r_5fvegetation_5findex_1',['R_VEGETATION_INDEX',['../db/d05/a01637.html#aa2d9426a3fb7e25cf6910cd6f94bc62daa1f618dc7fd7c606c33329a15ab12e01',1,'GEU::PointCloud']]],
-  ['r_5fvegetationindex_2',['R_VegetationIndex',['../d9/d05/a01665.html#af292c70b27838641ff231dc60eaa9433a5673888297a9878a0bb50e487057bce4',1,'GEU::GPUResources::R_VegetationIndex'],['../d9/d05/a01665.html#adafc66f7bd205941a47af8503c084d23a5673888297a9878a0bb50e487057bce4',1,'GEU::GPUResources::R_VegetationIndex']]],
-  ['readbackdata_3',['ReadBackData',['../d9/d05/a01665.html#af292c70b27838641ff231dc60eaa9433a6a7215a50c1b62d907dd83a8cd640773',1,'GEU::GPUResources::ReadBackData'],['../d9/d05/a01665.html#adafc66f7bd205941a47af8503c084d23a6a7215a50c1b62d907dd83a8cd640773',1,'GEU::GPUResources::ReadBackData']]],
+  ['r_0',['R',['../dd/d07/a02096.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae1e1d3d40573127e9ee0480caf1283d6',1,'GEU::ImageTreeSegmentation']]],
+  ['r_5fvegetation_5findex_1',['R_VEGETATION_INDEX',['../de/d04/a01640.html#aa2d9426a3fb7e25cf6910cd6f94bc62daa1f618dc7fd7c606c33329a15ab12e01',1,'GEU::PointCloud']]],
+  ['r_5fvegetationindex_2',['R_VegetationIndex',['../d7/d07/a01668.html#af292c70b27838641ff231dc60eaa9433a5673888297a9878a0bb50e487057bce4',1,'GEU::GPUResources::R_VegetationIndex'],['../d7/d07/a01668.html#adafc66f7bd205941a47af8503c084d23a5673888297a9878a0bb50e487057bce4',1,'GEU::GPUResources::R_VegetationIndex']]],
+  ['readbackdata_3',['ReadBackData',['../d7/d07/a01668.html#af292c70b27838641ff231dc60eaa9433a6a7215a50c1b62d907dd83a8cd640773',1,'GEU::GPUResources::ReadBackData'],['../d7/d07/a01668.html#adafc66f7bd205941a47af8503c084d23a6a7215a50c1b62d907dd83a8cd640773',1,'GEU::GPUResources::ReadBackData']]],
   ['recompile_5fshaders_4',['RECOMPILE_SHADERS',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573ab768580c6828e6e66d524cebc0ab545e',1,'locale_strings.h']]],
   ['reconstruccion_5fcloud_5fclassification_5',['RECONSTRUCCION_CLOUD_CLASSIFICATION',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573ab977238b00bb85917dc5ef3753d4ae1a',1,'locale_strings.h']]],
   ['reconstruccion_5fmdt_6',['RECONSTRUCCION_MDT',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573abcdb2bda2d8b0ab71b34011660e53282',1,'locale_strings.h']]],
@@ -16,12 +16,12 @@ var searchData=
   ['reconstruccion_5frgb_5fregion_5fsegmentation_5fwarning_13',['RECONSTRUCCION_RGB_REGION_SEGMENTATION_WARNING',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573ae84879c70b04ef94dcb0560c1165ddbb',1,'locale_strings.h']]],
   ['reconstruccion_5fvoxel_5fgrid_5ftabname_14',['RECONSTRUCCION_VOXEL_GRID_TABNAME',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a9515f3bfb6de1294a2d72f2194e7785c',1,'locale_strings.h']]],
   ['reconstruccion_5fvoxel_5fgrid_5fwarning_15',['RECONSTRUCCION_VOXEL_GRID_WARNING',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a6c241a1fac6e1a08a0e8cd9bd3c6fbdc',1,'locale_strings.h']]],
-  ['rejected_16',['REJECTED',['../d3/d07/a01985.html#a94a357909067c4e27413d1ff8446d4f1a997d82f7b54192680fc7d27957976820',1,'json::reader']]],
-  ['reset_17',['RESET',['../dd/d00/a01893.html#a8231d603f3bb1e6f810194a88170d6eca35fa52198037ad424e07ea995f3a647a',1,'GEU::InputManager']]],
+  ['rejected_16',['REJECTED',['../d5/d01/a01988.html#a94a357909067c4e27413d1ff8446d4f1a997d82f7b54192680fc7d27957976820',1,'json::reader']]],
+  ['reset_17',['RESET',['../d9/d03/a01896.html#a8231d603f3bb1e6f810194a88170d6eca35fa52198037ad424e07ea995f3a647a',1,'GEU::InputManager']]],
   ['resources_5fdefault_5fvalue_18',['RESOURCES_DEFAULT_VALUE',['../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a321f2d326a560236864c67787e6e9cf4',1,'locale_strings.h']]],
-  ['rgb_19',['RGB',['../db/d05/a01637.html#af7a7667d954e8ac83eacd81070f367ffaf1f538b06c8033857771139c2b775080',1,'GEU::PointCloud::RGB'],['../d9/d05/a01665.html#af292c70b27838641ff231dc60eaa9433a889574aebacda6bfd3e534e2b49b8028',1,'GEU::GPUResources::RGB'],['../d9/d05/a01665.html#adafc66f7bd205941a47af8503c084d23a889574aebacda6bfd3e534e2b49b8028',1,'GEU::GPUResources::RGB'],['../d3/d06/a02093.html#a7c3206f5b6a9da74ef3533d2ad17faa3a889574aebacda6bfd3e534e2b49b8028',1,'GEU::ImageTreeSegmentation::RGB']]],
-  ['rim_5flight_20',['RIM_LIGHT',['../d2/d04/a01713.html#ac2d668ef9f931f8b789fc203aa943a72ad3d53d1b6c43e45c86a0af702ddc3144',1,'GEU::LightModel']]],
-  ['rio_21',['RIO',['../d3/d00/a02069.html#a18e2cf9f931834e3d06bfce9b38f9f3aa76f25dc51d9bb1ef4ab82431c868a137',1,'GEU::ImageCloudProj']]],
-  ['rotation_22',['ROTATION',['../dd/d00/a01893.html#a8231d603f3bb1e6f810194a88170d6eca7feb0a01ee0cca7c4291baf231a05012',1,'GEU::InputManager']]],
-  ['roughness_23',['ROUGHNESS',['../db/d00/a01761.html#a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5',1,'GEU::Texture']]]
+  ['rgb_19',['RGB',['../de/d04/a01640.html#af7a7667d954e8ac83eacd81070f367ffaf1f538b06c8033857771139c2b775080',1,'GEU::PointCloud::RGB'],['../d7/d07/a01668.html#af292c70b27838641ff231dc60eaa9433a889574aebacda6bfd3e534e2b49b8028',1,'GEU::GPUResources::RGB'],['../d7/d07/a01668.html#adafc66f7bd205941a47af8503c084d23a889574aebacda6bfd3e534e2b49b8028',1,'GEU::GPUResources::RGB'],['../dd/d07/a02096.html#a7c3206f5b6a9da74ef3533d2ad17faa3a889574aebacda6bfd3e534e2b49b8028',1,'GEU::ImageTreeSegmentation::RGB']]],
+  ['rim_5flight_20',['RIM_LIGHT',['../d4/d06/a01716.html#ac2d668ef9f931f8b789fc203aa943a72ad3d53d1b6c43e45c86a0af702ddc3144',1,'GEU::LightModel']]],
+  ['rio_21',['RIO',['../de/d05/a02072.html#a18e2cf9f931834e3d06bfce9b38f9f3aa76f25dc51d9bb1ef4ab82431c868a137',1,'GEU::ImageCloudProj']]],
+  ['rotation_22',['ROTATION',['../d9/d03/a01896.html#a8231d603f3bb1e6f810194a88170d6eca7feb0a01ee0cca7c4291baf231a05012',1,'GEU::InputManager']]],
+  ['roughness_23',['ROUGHNESS',['../dc/d01/a01764.html#a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5',1,'GEU::Texture']]]
 ];

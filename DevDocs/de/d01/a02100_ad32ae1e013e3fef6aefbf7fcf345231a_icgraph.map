@@ -1,0 +1,9 @@
+<map id="GEU::ImageTreeSegmentation::SegmentAABB::projVector" name="GEU::ImageTreeSegmentation::SegmentAABB::projVector">
+<area shape="rect" id="Node000001" title=" " alt="" coords="754,5,952,48"/>
+<area shape="rect" id="Node000002" href="$de/d01/a02100.html#a127fc58846acbedca44a879a31dfc49f" title=" " alt="" coords="509,5,706,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="739,29,707,29,707,24,739,24"/>
+<area shape="rect" id="Node000003" href="$de/d01/a02100.html#a58979826093ced3297dc7410d0b66576" title=" " alt="" coords="260,5,461,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="493,29,462,29,462,24,493,24"/>
+<area shape="rect" id="Node000004" href="$dd/d07/a02096.html#a12f60b8ce42431554974b825b7e99f77" title=" " alt="" coords="5,5,212,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,29,212,29,212,24,244,24"/>
+</map>

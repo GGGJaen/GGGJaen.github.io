@@ -1,0 +1,965 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Referencia de la clase json::reader</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d5/d01/a01988.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos públicos</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-types">Tipos protegidos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="../../d3/d07/a01985.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la clase json::reader</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Value reader.  
+ <a href="#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../de/d00/a00440_source.html">json.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de herencia de json::reader</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d02/a01987.svg" width="136" height="278"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">leyenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Tipos públicos</h2></td></tr>
+<tr class="memitem:a94a357909067c4e27413d1ff8446d4f1" id="r_a94a357909067c4e27413d1ff8446d4f1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a> { <a class="el" href="#a94a357909067c4e27413d1ff8446d4f1afe85f57403bfce51750492b84f8982a6">ACCEPTED</a>
+, <a class="el" href="#a94a357909067c4e27413d1ff8446d4f1a997d82f7b54192680fc7d27957976820">REJECTED</a>
+, <a class="el" href="#a94a357909067c4e27413d1ff8446d4f1a3dd0058b3387eb91b8f3fc1b64653b27">WHITESPACE</a>
+ }</td></tr>
+<tr class="separator:a94a357909067c4e27413d1ff8446d4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a304413feee974df0795b87b3d8b8a5a3" id="r_a304413feee974df0795b87b3d8b8a5a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a304413feee974df0795b87b3d8b8a5a3">reader</a> ()</td></tr>
+<tr class="memdesc:a304413feee974df0795b87b3d8b8a5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reader constructor.  <br /></td></tr>
+<tr class="separator:a304413feee974df0795b87b3d8b8a5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7276384c940335b955a507e0ec0818" id="r_acf7276384c940335b955a507e0ec0818"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf7276384c940335b955a507e0ec0818">clear</a> ()</td></tr>
+<tr class="memdesc:acf7276384c940335b955a507e0ec0818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the reader.  <br /></td></tr>
+<tr class="separator:acf7276384c940335b955a507e0ec0818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d0e99cecf438761764c16fa39134d1" id="r_aa1d0e99cecf438761764c16fa39134d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d0e99cecf438761764c16fa39134d1">push</a> (const char next)</td></tr>
+<tr class="separator:aa1d0e99cecf438761764c16fa39134d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec12648e76c0f529f892d89d4fabfe4c" id="r_aec12648e76c0f529f892d89d4fabfe4c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../db/d02/a00641.html#a39a3ac5b26ad6618ae567eb0c8d67305">jtype::jtype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec12648e76c0f529f892d89d4fabfe4c">type</a> () const</td></tr>
+<tr class="memdesc:aec12648e76c0f529f892d89d4fabfe4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the value.  <br /></td></tr>
+<tr class="separator:aec12648e76c0f529f892d89d4fabfe4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afefb8447a7db13bc4f6f7dc5f12a22c2" id="r_afefb8447a7db13bc4f6f7dc5f12a22c2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afefb8447a7db13bc4f6f7dc5f12a22c2">is_valid</a> () const</td></tr>
+<tr class="memdesc:afefb8447a7db13bc4f6f7dc5f12a22c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the stored value is valid.  <br /></td></tr>
+<tr class="separator:afefb8447a7db13bc4f6f7dc5f12a22c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1cfe678a10a9d0a4b04ad5ff64c43c9" id="r_ae1cfe678a10a9d0a4b04ad5ff64c43c9"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1cfe678a10a9d0a4b04ad5ff64c43c9">readout</a> () const</td></tr>
+<tr class="memdesc:ae1cfe678a10a9d0a4b04ad5ff64c43c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the stored value.  <br /></td></tr>
+<tr class="separator:ae1cfe678a10a9d0a4b04ad5ff64c43c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e6a1ef3b69477b766614659094b723" id="r_aa2e6a1ef3b69477b766614659094b723"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2e6a1ef3b69477b766614659094b723">~reader</a> ()</td></tr>
+<tr class="memdesc:aa2e6a1ef3b69477b766614659094b723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
+<tr class="separator:aa2e6a1ef3b69477b766614659094b723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Tipos protegidos</h2></td></tr>
+<tr class="memitem:ac1152063977800bf677a1f69b95d2e29" id="r_ac1152063977800bf677a1f69b95d2e29"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1152063977800bf677a1f69b95d2e29">string_reader_enum</a> { <br />
+&#160;&#160;<a class="el" href="#ac1152063977800bf677a1f69b95d2e29aac2b6e8e9cfb0fbb1c98f63a3e78e7f6">STRING_EMPTY</a> = 0
+, <a class="el" href="#ac1152063977800bf677a1f69b95d2e29a4a023e79a6512886f678ad6c74cf9a0c">STRING_OPENING_QUOTE</a>
+, <a class="el" href="#ac1152063977800bf677a1f69b95d2e29a363e4cb7648cb444e96bb7d1015d8345">STRING_OPEN</a>
+, <a class="el" href="#ac1152063977800bf677a1f69b95d2e29a9615c8da66485a1439a3b9783d5161a0">STRING_ESCAPED</a>
+, <br />
+&#160;&#160;<a class="el" href="#ac1152063977800bf677a1f69b95d2e29afc48d5c7e139114b55baa99f50e037f2">STRING_CODE_POINT_START</a>
+, <a class="el" href="#ac1152063977800bf677a1f69b95d2e29a46d054df637f8c0a9d314b6635dee12d">STRING_CODE_POINT_1</a>
+, <a class="el" href="#ac1152063977800bf677a1f69b95d2e29ac8b3b15bf160fb0c0ead719239a5c95a">STRING_CODE_POINT_2</a>
+, <a class="el" href="#ac1152063977800bf677a1f69b95d2e29a869807cf7ae8c3dfc2a3f4afa4fbcf0c">STRING_CODE_POINT_3</a>
+, <br />
+&#160;&#160;<a class="el" href="#ac1152063977800bf677a1f69b95d2e29a4cb6ca0e62d5e0efe022055bab97c7b7">STRING_CLOSED</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ac1152063977800bf677a1f69b95d2e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration of the state machine for strings.  <a href="#ac1152063977800bf677a1f69b95d2e29">Más...</a><br /></td></tr>
+<tr class="separator:ac1152063977800bf677a1f69b95d2e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f05fd27cf1f8827ac572563ebfbfe8" id="r_ae4f05fd27cf1f8827ac572563ebfbfe8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8">number_reader_enum</a> { <br />
+&#160;&#160;<a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8a38db0c058d15e7a342f4706e228b7a34">NUMBER_EMPTY</a> = 0
+, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8a959754100ba9cac0ddce881937f8f1fa">NUMBER_OPEN_NEGATIVE</a>
+, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8ac985c7c6701c41e1bfe6b57fbe8d3050">NUMBER_ZERO</a>
+, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8a3bc9df1d81c43715f0236fd32ff29768">NUMBER_INTEGER_DIGITS</a>
+, <br />
+&#160;&#160;<a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8abc913901132c48915ab1aa05a1877217">NUMBER_DECIMAL</a>
+, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8aa19fa9ae18c1b0993a848d2230a5729c">NUMBER_FRACTION_DIGITS</a>
+, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8a4ecfb8b11f251c86be83529f8893e5ea">NUMBER_EXPONENT</a>
+, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8a142deb5dc03ff6dfc239f9a0d9aa789e">NUMBER_EXPONENT_SIGN</a>
+, <br />
+&#160;&#160;<a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8af70d6a54e0ad0ca31f0e8664a68604b9">NUMBER_EXPONENT_DIGITS</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae4f05fd27cf1f8827ac572563ebfbfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a913a70bb51dfad50ed41d6c6673bbb" id="r_a3a913a70bb51dfad50ed41d6c6673bbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbb">array_reader_enum</a> { <br />
+&#160;&#160;<a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbba3245849a102e04a5f2fa0fdbed3cd699">ARRAY_EMPTY</a> = 0
+, <a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbba92a44edb443ff9049ecfadd37f61bb59">ARRAY_OPEN_BRACKET</a>
+, <a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbbab9a7bbd31aad6d29e633c51982fded77">ARRAY_READING_VALUE</a>
+, <a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbba30d68592d890722349b3256840df7da3">ARRAY_AWAITING_NEXT_LINE</a>
+, <br />
+&#160;&#160;<a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbba59b8ce5afd504a32aa2e79e3229b4749">ARRAY_CLOSED</a>
+<br />
+ }</td></tr>
+<tr class="separator:a3a913a70bb51dfad50ed41d6c6673bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe85bb5a8c7692fdbca4f34248f1ba21" id="r_abe85bb5a8c7692fdbca4f34248f1ba21"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21">object_reader_enum</a> { <br />
+&#160;&#160;<a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21a6ec4fcf845191efedfbbe5774f904d5d">OBJECT_EMPTY</a> = 0
+, <a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21a6257730a3db83c56d33f21d86dbe2e3b">OBJECT_OPEN_BRACE</a>
+, <a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21a1c5fda4cffb0cd9423d07044b43ad582">OBJECT_READING_ENTRY</a>
+, <a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21abc1869d7c7786e70f044ba3411cde641">OBJECT_AWAITING_NEXT_LINE</a>
+, <br />
+&#160;&#160;<a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21a03c0b29fdc70f1f36b14188c5c3c09c3">OBJECT_CLOSED</a>
+<br />
+ }</td></tr>
+<tr class="separator:abe85bb5a8c7692fdbca4f34248f1ba21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a3fbcc54a21f9a628c9b84fad8d2a1653" id="r_a3fbcc54a21f9a628c9b84fad8d2a1653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fbcc54a21f9a628c9b84fad8d2a1653">push_string</a> (const char next)</td></tr>
+<tr class="memdesc:a3fbcc54a21f9a628c9b84fad8d2a1653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a character to a string value.  <br /></td></tr>
+<tr class="separator:a3fbcc54a21f9a628c9b84fad8d2a1653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af450c5a8a42a06bf45da073baea796be" id="r_af450c5a8a42a06bf45da073baea796be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af450c5a8a42a06bf45da073baea796be">push_array</a> (const char next)</td></tr>
+<tr class="memdesc:af450c5a8a42a06bf45da073baea796be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a character to an array value.  <br /></td></tr>
+<tr class="separator:af450c5a8a42a06bf45da073baea796be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e57978d003f7ac36a62fb90522cb9e1" id="r_a9e57978d003f7ac36a62fb90522cb9e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e57978d003f7ac36a62fb90522cb9e1">push_object</a> (const char next)</td></tr>
+<tr class="memdesc:a9e57978d003f7ac36a62fb90522cb9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a character to an object value.  <br /></td></tr>
+<tr class="separator:a9e57978d003f7ac36a62fb90522cb9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf121607a9bcbac624e6d2cddf9f87d" id="r_a8bf121607a9bcbac624e6d2cddf9f87d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bf121607a9bcbac624e6d2cddf9f87d">push_number</a> (const char next)</td></tr>
+<tr class="memdesc:a8bf121607a9bcbac624e6d2cddf9f87d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a character to a number value.  <br /></td></tr>
+<tr class="separator:a8bf121607a9bcbac624e6d2cddf9f87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5807cd4b8bda2ccca392bfda0d2f280" id="r_ac5807cd4b8bda2ccca392bfda0d2f280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5807cd4b8bda2ccca392bfda0d2f280">push_boolean</a> (const char next)</td></tr>
+<tr class="memdesc:ac5807cd4b8bda2ccca392bfda0d2f280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a character to a boolean value.  <br /></td></tr>
+<tr class="separator:ac5807cd4b8bda2ccca392bfda0d2f280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217e69ee0a62d59d55b17fcb4e9d0fdb" id="r_a217e69ee0a62d59d55b17fcb4e9d0fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">push_result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a217e69ee0a62d59d55b17fcb4e9d0fdb">push_null</a> (const char next)</td></tr>
+<tr class="memdesc:a217e69ee0a62d59d55b17fcb4e9d0fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a character to a null value.  <br /></td></tr>
+<tr class="separator:a217e69ee0a62d59d55b17fcb4e9d0fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d27d56ffa8f32f2ea8eeb9fb58e8684" id="r_a4d27d56ffa8f32f2ea8eeb9fb58e8684"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4d27d56ffa8f32f2ea8eeb9fb58e8684"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4d27d56ffa8f32f2ea8eeb9fb58e8684">get_state</a> () const</td></tr>
+<tr class="memdesc:a4d27d56ffa8f32f2ea8eeb9fb58e8684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the stored state.  <br /></td></tr>
+<tr class="separator:a4d27d56ffa8f32f2ea8eeb9fb58e8684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a75b8edc6cac10ee6941fdd999ce874" id="r_a5a75b8edc6cac10ee6941fdd999ce874"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5a75b8edc6cac10ee6941fdd999ce874"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a5a75b8edc6cac10ee6941fdd999ce874">set_state</a> (const T state)</td></tr>
+<tr class="memdesc:a5a75b8edc6cac10ee6941fdd999ce874"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the reader state.  <br /></td></tr>
+<tr class="separator:a5a75b8edc6cac10ee6941fdd999ce874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a31cf478374282bbbcfa0e4b725bcd87e" id="r_a31cf478374282bbbcfa0e4b725bcd87e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d01/a01988.html">reader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31cf478374282bbbcfa0e4b725bcd87e">sub_reader</a></td></tr>
+<tr class="memdesc:a31cf478374282bbbcfa0e4b725bcd87e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The subreader used during reading.  <br /></td></tr>
+<tr class="separator:a31cf478374282bbbcfa0e4b725bcd87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a16ca39c3f0712445bd8a4bd0b8877ec2" id="r_a16ca39c3f0712445bd8a4bd0b8877ec2"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16ca39c3f0712445bd8a4bd0b8877ec2">read_state</a></td></tr>
+<tr class="memdesc:a16ca39c3f0712445bd8a4bd0b8877ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for the current state of the reader.  <br /></td></tr>
+<tr class="separator:a16ca39c3f0712445bd8a4bd0b8877ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Value reader. </p>
+</div><h2 class="groupheader">Documentación de las enumeraciones miembro de la clase</h2>
+<a id="a3a913a70bb51dfad50ed41d6c6673bbb" name="a3a913a70bb51dfad50ed41d6c6673bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a913a70bb51dfad50ed41d6c6673bbb">&#9670;&#160;</a></span>array_reader_enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbb">json::reader::array_reader_enum</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a3a913a70bb51dfad50ed41d6c6673bbba3245849a102e04a5f2fa0fdbed3cd699" name="a3a913a70bb51dfad50ed41d6c6673bbba3245849a102e04a5f2fa0fdbed3cd699"></a>ARRAY_EMPTY&#160;</td><td class="fielddoc"><p>No values have been read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3a913a70bb51dfad50ed41d6c6673bbba92a44edb443ff9049ecfadd37f61bb59" name="a3a913a70bb51dfad50ed41d6c6673bbba92a44edb443ff9049ecfadd37f61bb59"></a>ARRAY_OPEN_BRACKET&#160;</td><td class="fielddoc"><p>The array has been opened. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3a913a70bb51dfad50ed41d6c6673bbbab9a7bbd31aad6d29e633c51982fded77" name="a3a913a70bb51dfad50ed41d6c6673bbbab9a7bbd31aad6d29e633c51982fded77"></a>ARRAY_READING_VALUE&#160;</td><td class="fielddoc"><p>An array value is being read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3a913a70bb51dfad50ed41d6c6673bbba30d68592d890722349b3256840df7da3" name="a3a913a70bb51dfad50ed41d6c6673bbba30d68592d890722349b3256840df7da3"></a>ARRAY_AWAITING_NEXT_LINE&#160;</td><td class="fielddoc"><p>An array value has been read and a comma was encountered. Expecting new line. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3a913a70bb51dfad50ed41d6c6673bbba59b8ce5afd504a32aa2e79e3229b4749" name="a3a913a70bb51dfad50ed41d6c6673bbba59b8ce5afd504a32aa2e79e3229b4749"></a>ARRAY_CLOSED&#160;</td><td class="fielddoc"><p>The array has been fully read. Reading should stop. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ae4f05fd27cf1f8827ac572563ebfbfe8" name="ae4f05fd27cf1f8827ac572563ebfbfe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f05fd27cf1f8827ac572563ebfbfe8">&#9670;&#160;</a></span>number_reader_enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8">json::reader::number_reader_enum</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8a38db0c058d15e7a342f4706e228b7a34" name="ae4f05fd27cf1f8827ac572563ebfbfe8a38db0c058d15e7a342f4706e228b7a34"></a>NUMBER_EMPTY&#160;</td><td class="fielddoc"><p>No values have been read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8a959754100ba9cac0ddce881937f8f1fa" name="ae4f05fd27cf1f8827ac572563ebfbfe8a959754100ba9cac0ddce881937f8f1fa"></a>NUMBER_OPEN_NEGATIVE&#160;</td><td class="fielddoc"><p>A negative value has been read as the first character. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8ac985c7c6701c41e1bfe6b57fbe8d3050" name="ae4f05fd27cf1f8827ac572563ebfbfe8ac985c7c6701c41e1bfe6b57fbe8d3050"></a>NUMBER_ZERO&#160;</td><td class="fielddoc"><p>A zero has been read as an integer value. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8a3bc9df1d81c43715f0236fd32ff29768" name="ae4f05fd27cf1f8827ac572563ebfbfe8a3bc9df1d81c43715f0236fd32ff29768"></a>NUMBER_INTEGER_DIGITS&#160;</td><td class="fielddoc"><p>Integer digits were the last values read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8abc913901132c48915ab1aa05a1877217" name="ae4f05fd27cf1f8827ac572563ebfbfe8abc913901132c48915ab1aa05a1877217"></a>NUMBER_DECIMAL&#160;</td><td class="fielddoc"><p>A decimal point was the last value read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8aa19fa9ae18c1b0993a848d2230a5729c" name="ae4f05fd27cf1f8827ac572563ebfbfe8aa19fa9ae18c1b0993a848d2230a5729c"></a>NUMBER_FRACTION_DIGITS&#160;</td><td class="fielddoc"><p>A decimal point and subsequent digits were the last values read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8a4ecfb8b11f251c86be83529f8893e5ea" name="ae4f05fd27cf1f8827ac572563ebfbfe8a4ecfb8b11f251c86be83529f8893e5ea"></a>NUMBER_EXPONENT&#160;</td><td class="fielddoc"><p>An exponent indicator has been read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8a142deb5dc03ff6dfc239f9a0d9aa789e" name="ae4f05fd27cf1f8827ac572563ebfbfe8a142deb5dc03ff6dfc239f9a0d9aa789e"></a>NUMBER_EXPONENT_SIGN&#160;</td><td class="fielddoc"><p>An exponent sign has been read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae4f05fd27cf1f8827ac572563ebfbfe8af70d6a54e0ad0ca31f0e8664a68604b9" name="ae4f05fd27cf1f8827ac572563ebfbfe8af70d6a54e0ad0ca31f0e8664a68604b9"></a>NUMBER_EXPONENT_DIGITS&#160;</td><td class="fielddoc"><p>An exponent indicator and subsequent digits were the last values read. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="abe85bb5a8c7692fdbca4f34248f1ba21" name="abe85bb5a8c7692fdbca4f34248f1ba21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe85bb5a8c7692fdbca4f34248f1ba21">&#9670;&#160;</a></span>object_reader_enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21">json::reader::object_reader_enum</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="abe85bb5a8c7692fdbca4f34248f1ba21a6ec4fcf845191efedfbbe5774f904d5d" name="abe85bb5a8c7692fdbca4f34248f1ba21a6ec4fcf845191efedfbbe5774f904d5d"></a>OBJECT_EMPTY&#160;</td><td class="fielddoc"><p>No values have been read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abe85bb5a8c7692fdbca4f34248f1ba21a6257730a3db83c56d33f21d86dbe2e3b" name="abe85bb5a8c7692fdbca4f34248f1ba21a6257730a3db83c56d33f21d86dbe2e3b"></a>OBJECT_OPEN_BRACE&#160;</td><td class="fielddoc"><p>The object has been opened. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abe85bb5a8c7692fdbca4f34248f1ba21a1c5fda4cffb0cd9423d07044b43ad582" name="abe85bb5a8c7692fdbca4f34248f1ba21a1c5fda4cffb0cd9423d07044b43ad582"></a>OBJECT_READING_ENTRY&#160;</td><td class="fielddoc"><p>An object key value pair is being read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abe85bb5a8c7692fdbca4f34248f1ba21abc1869d7c7786e70f044ba3411cde641" name="abe85bb5a8c7692fdbca4f34248f1ba21abc1869d7c7786e70f044ba3411cde641"></a>OBJECT_AWAITING_NEXT_LINE&#160;</td><td class="fielddoc"><p>An object key value pair has been read and a comma was encountered. Expecting new line. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abe85bb5a8c7692fdbca4f34248f1ba21a03c0b29fdc70f1f36b14188c5c3c09c3" name="abe85bb5a8c7692fdbca4f34248f1ba21a03c0b29fdc70f1f36b14188c5c3c09c3"></a>OBJECT_CLOSED&#160;</td><td class="fielddoc"><p>The object has been fully read. Reading should stop. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a94a357909067c4e27413d1ff8446d4f1" name="a94a357909067c4e27413d1ff8446d4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a357909067c4e27413d1ff8446d4f1">&#9670;&#160;</a></span>push_result</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a94a357909067c4e27413d1ff8446d4f1afe85f57403bfce51750492b84f8982a6" name="a94a357909067c4e27413d1ff8446d4f1afe85f57403bfce51750492b84f8982a6"></a>ACCEPTED&#160;</td><td class="fielddoc"><p>The character was valid. Reading should continue. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a94a357909067c4e27413d1ff8446d4f1a997d82f7b54192680fc7d27957976820" name="a94a357909067c4e27413d1ff8446d4f1a997d82f7b54192680fc7d27957976820"></a>REJECTED&#160;</td><td class="fielddoc"><p>The character was not valid. Reading should stop. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a94a357909067c4e27413d1ff8446d4f1a3dd0058b3387eb91b8f3fc1b64653b27" name="a94a357909067c4e27413d1ff8446d4f1a3dd0058b3387eb91b8f3fc1b64653b27"></a>WHITESPACE&#160;</td><td class="fielddoc"><p>The character was whitespace. Reading should continue but the whtiespace was not stored. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ac1152063977800bf677a1f69b95d2e29" name="ac1152063977800bf677a1f69b95d2e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1152063977800bf677a1f69b95d2e29">&#9670;&#160;</a></span>string_reader_enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ac1152063977800bf677a1f69b95d2e29">json::reader::string_reader_enum</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enumeration of the state machine for strings. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29aac2b6e8e9cfb0fbb1c98f63a3e78e7f6" name="ac1152063977800bf677a1f69b95d2e29aac2b6e8e9cfb0fbb1c98f63a3e78e7f6"></a>STRING_EMPTY&#160;</td><td class="fielddoc"><p>No values have been read. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29a4a023e79a6512886f678ad6c74cf9a0c" name="ac1152063977800bf677a1f69b95d2e29a4a023e79a6512886f678ad6c74cf9a0c"></a>STRING_OPENING_QUOTE&#160;</td><td class="fielddoc"><p>The opening quote has been read. Equivalant to <a class="el" href="#ac1152063977800bf677a1f69b95d2e29a363e4cb7648cb444e96bb7d1015d8345" title="The opening quote has been read and the last character was not an escape character.">STRING_OPEN</a>, but used for debugging the state. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29a363e4cb7648cb444e96bb7d1015d8345" name="ac1152063977800bf677a1f69b95d2e29a363e4cb7648cb444e96bb7d1015d8345"></a>STRING_OPEN&#160;</td><td class="fielddoc"><p>The opening quote has been read and the last character was not an escape character. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29a9615c8da66485a1439a3b9783d5161a0" name="ac1152063977800bf677a1f69b95d2e29a9615c8da66485a1439a3b9783d5161a0"></a>STRING_ESCAPED&#160;</td><td class="fielddoc"><p>The last character was an reverse solidus (), indicating the next character should be a control character. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29afc48d5c7e139114b55baa99f50e037f2" name="ac1152063977800bf677a1f69b95d2e29afc48d5c7e139114b55baa99f50e037f2"></a>STRING_CODE_POINT_START&#160;</td><td class="fielddoc"><p>An encoded unicode character is encountered. Expecting four following hex digits. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29a46d054df637f8c0a9d314b6635dee12d" name="ac1152063977800bf677a1f69b95d2e29a46d054df637f8c0a9d314b6635dee12d"></a>STRING_CODE_POINT_1&#160;</td><td class="fielddoc"><p>An encoded unicode character is encountered. Expecting three following hex digits (one has already been read). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29ac8b3b15bf160fb0c0ead719239a5c95a" name="ac1152063977800bf677a1f69b95d2e29ac8b3b15bf160fb0c0ead719239a5c95a"></a>STRING_CODE_POINT_2&#160;</td><td class="fielddoc"><p>An encoded unicode character is encountered. Expecting two following hex digits (two have already been read). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29a869807cf7ae8c3dfc2a3f4afa4fbcf0c" name="ac1152063977800bf677a1f69b95d2e29a869807cf7ae8c3dfc2a3f4afa4fbcf0c"></a>STRING_CODE_POINT_3&#160;</td><td class="fielddoc"><p>An encoded unicode character is encountered. Expecting one following hex digit (three has already been read). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac1152063977800bf677a1f69b95d2e29a4cb6ca0e62d5e0efe022055bab97c7b7" name="ac1152063977800bf677a1f69b95d2e29a4cb6ca0e62d5e0efe022055bab97c7b7"></a>STRING_CLOSED&#160;</td><td class="fielddoc"><p>The closing quote has been read. Reading should cease. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a304413feee974df0795b87b3d8b8a5a3" name="a304413feee974df0795b87b3d8b8a5a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a304413feee974df0795b87b3d8b8a5a3">&#9670;&#160;</a></span>reader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">json::reader::reader </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reader constructor. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_a304413feee974df0795b87b3d8b8a5a3_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa2e6a1ef3b69477b766614659094b723" name="aa2e6a1ef3b69477b766614659094b723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e6a1ef3b69477b766614659094b723">&#9670;&#160;</a></span>~reader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual json::reader::~reader </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_aa2e6a1ef3b69477b766614659094b723_cgraph.svg" width="326" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="acf7276384c940335b955a507e0ec0818" name="acf7276384c940335b955a507e0ec0818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf7276384c940335b955a507e0ec0818">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void json::reader::clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the reader. </p>
+
+<p>Reimplementado en <a class="el" href="../../d6/d03/a01992.html#a2d58061c2d3cad07eb722eaa110c3589">json::kvp_reader</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_acf7276384c940335b955a507e0ec0818_icgraph.svg" width="526" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4d27d56ffa8f32f2ea8eeb9fb58e8684" name="a4d27d56ffa8f32f2ea8eeb9fb58e8684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d27d56ffa8f32f2ea8eeb9fb58e8684">&#9670;&#160;</a></span>get_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T json::reader::get_state </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the stored state. </p>
+<p>This template is intended for use with <a class="el" href="#ac1152063977800bf677a1f69b95d2e29" title="Enumeration of the state machine for strings.">string_reader_enum</a>, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8">number_reader_enum</a>, <a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbb">array_reader_enum</a>, and <a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21">object_reader_enum</a> </p>
+
+</div>
+</div>
+<a id="afefb8447a7db13bc4f6f7dc5f12a22c2" name="afefb8447a7db13bc4f6f7dc5f12a22c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afefb8447a7db13bc4f6f7dc5f12a22c2">&#9670;&#160;</a></span>is_valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool json::reader::is_valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the stored value is valid. </p>
+<dl class="section return"><dt>Devuelve</dt><dd><code>true</code> if the stored value is valid, <code>false</code> otherwise </dd></dl>
+
+<p>Reimplementado en <a class="el" href="../../d6/d03/a01992.html#a76f7e07c97cd64726d006e8df87be730">json::kvp_reader</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_afefb8447a7db13bc4f6f7dc5f12a22c2_icgraph.svg" width="1698" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa1d0e99cecf438761764c16fa39134d1" name="aa1d0e99cecf438761764c16fa39134d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d0e99cecf438761764c16fa39134d1">&#9670;&#160;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>\ brief Pushes a value to the back of the reader</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">next</td><td>the value to be pushed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><code>ACCEPTED</code> if the value was added to the reader, <code>WHITESPACE</code> if the input was whitespace that was not stored, and <code>REJECTED</code> is the input was invalid for the value type </dd></dl>
+
+<p>Reimplementado en <a class="el" href="../../d6/d03/a01992.html#ad4782367004743f11ce0ba9c1477bd0e">json::kvp_reader</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_aa1d0e99cecf438761764c16fa39134d1_cgraph.svg" width="302" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_aa1d0e99cecf438761764c16fa39134d1_icgraph.svg" width="1700" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af450c5a8a42a06bf45da073baea796be" name="af450c5a8a42a06bf45da073baea796be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af450c5a8a42a06bf45da073baea796be">&#9670;&#160;</a></span>push_array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push_array </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes a character to an array value. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_af450c5a8a42a06bf45da073baea796be_cgraph.svg" width="302" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac5807cd4b8bda2ccca392bfda0d2f280" name="ac5807cd4b8bda2ccca392bfda0d2f280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5807cd4b8bda2ccca392bfda0d2f280">&#9670;&#160;</a></span>push_boolean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push_boolean </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes a character to a boolean value. </p>
+
+</div>
+</div>
+<a id="a217e69ee0a62d59d55b17fcb4e9d0fdb" name="a217e69ee0a62d59d55b17fcb4e9d0fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a217e69ee0a62d59d55b17fcb4e9d0fdb">&#9670;&#160;</a></span>push_null()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push_null </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes a character to a null value. </p>
+
+</div>
+</div>
+<a id="a8bf121607a9bcbac624e6d2cddf9f87d" name="a8bf121607a9bcbac624e6d2cddf9f87d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf121607a9bcbac624e6d2cddf9f87d">&#9670;&#160;</a></span>push_number()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push_number </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes a character to a number value. </p>
+
+</div>
+</div>
+<a id="a9e57978d003f7ac36a62fb90522cb9e1" name="a9e57978d003f7ac36a62fb90522cb9e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e57978d003f7ac36a62fb90522cb9e1">&#9670;&#160;</a></span>push_object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push_object </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes a character to an object value. </p>
+
+</div>
+</div>
+<a id="a3fbcc54a21f9a628c9b84fad8d2a1653" name="a3fbcc54a21f9a628c9b84fad8d2a1653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbcc54a21f9a628c9b84fad8d2a1653">&#9670;&#160;</a></span>push_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a94a357909067c4e27413d1ff8446d4f1">json::reader::push_result</a> json::reader::push_string </td>
+          <td>(</td>
+          <td class="paramtype">const char</td>          <td class="paramname"><span class="paramname"><em>next</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes a character to a string value. </p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_a3fbcc54a21f9a628c9b84fad8d2a1653_cgraph.svg" width="323" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae1cfe678a10a9d0a4b04ad5ff64c43c9" name="ae1cfe678a10a9d0a4b04ad5ff64c43c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1cfe678a10a9d0a4b04ad5ff64c43c9">&#9670;&#160;</a></span>readout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string json::reader::readout </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the stored value. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A string containing the stored value </dd></dl>
+<dl class="section warning"><dt>Atención</dt><dd>This method will return the value regardless of the state of the value, valid or not </dd></dl>
+
+<p>Reimplementado en <a class="el" href="../../d6/d03/a01992.html#aa6aacffccf0cdf4f23aaae031c022323">json::kvp_reader</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_ae1cfe678a10a9d0a4b04ad5ff64c43c9_icgraph.svg" width="1730" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5a75b8edc6cac10ee6941fdd999ce874" name="a5a75b8edc6cac10ee6941fdd999ce874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a75b8edc6cac10ee6941fdd999ce874">&#9670;&#160;</a></span>set_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void json::reader::set_state </td>
+          <td>(</td>
+          <td class="paramtype">const T</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores the reader state. </p>
+<p>This template is intended for use with <a class="el" href="#ac1152063977800bf677a1f69b95d2e29" title="Enumeration of the state machine for strings.">string_reader_enum</a>, <a class="el" href="#ae4f05fd27cf1f8827ac572563ebfbfe8">number_reader_enum</a>, <a class="el" href="#a3a913a70bb51dfad50ed41d6c6673bbb">array_reader_enum</a>, and <a class="el" href="#abe85bb5a8c7692fdbca4f34248f1ba21">object_reader_enum</a> </p>
+
+</div>
+</div>
+<a id="aec12648e76c0f529f892d89d4fabfe4c" name="aec12648e76c0f529f892d89d4fabfe4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec12648e76c0f529f892d89d4fabfe4c">&#9670;&#160;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../db/d02/a00641.html#a39a3ac5b26ad6618ae567eb0c8d67305">jtype::jtype</a> json::reader::type </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks the value. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The type of value stored in the reader, or <code>not_valid</code> if no value is stored </dd></dl>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_aec12648e76c0f529f892d89d4fabfe4c_cgraph.svg" width="299" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d01/a01988_aec12648e76c0f529f892d89d4fabfe4c_icgraph.svg" width="1680" height="863"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de datos miembro</h2>
+<a id="a16ca39c3f0712445bd8a4bd0b8877ec2" name="a16ca39c3f0712445bd8a4bd0b8877ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ca39c3f0712445bd8a4bd0b8877ec2">&#9670;&#160;</a></span>read_state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char json::reader::read_state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Storage for the current state of the reader. </p>
+
+</div>
+</div>
+<a id="a31cf478374282bbbcfa0e4b725bcd87e" name="a31cf478374282bbbcfa0e4b725bcd87e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31cf478374282bbbcfa0e4b725bcd87e">&#9670;&#160;</a></span>sub_reader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d01/a01988.html">reader</a>* json::reader::sub_reader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The subreader used during reading. </p>
+<p>Arrays and objects will use a sub reader to store underlying values </p>
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
+<li>D:/GEU/GEUCore/Source/Utilities/<a class="el" href="../../de/d00/a00440_source.html">json.h</a></li>
+<li>D:/GEU/GEUCore/Source/Utilities/<a class="el" href="../../d4/d00/a00437.html">json.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->

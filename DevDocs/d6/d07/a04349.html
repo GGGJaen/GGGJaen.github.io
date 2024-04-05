@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Uso del Logger</title>
+<title>GEU: Localización</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.9</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
    </div>
   </td>
  </tr>
@@ -94,17 +94,42 @@ $(function(){initNavTree('d6/d07/a04349.html','../../'); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Uso del Logger</div></div>
+  <div class="headertitle"><div class="title">Localización</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>La funcionalidad de <em>log</em> de <a class="el" href="../../d0/d01/a00622.html">GEU</a> viene dada por la librería <a href="https://github.com/gabime/spdlog">spdlog</a>. La configuración inicial se encuentra en <em><a class="el" href="../../d4/d01/a00017.html">main.cpp</a></em>. En el resto de ficheros podemos registrar mensajes de la siguiente manera:</p>
-<ul>
-<li><code>spdlog::info(string)</code> -&gt; para mensajes informativos. Estos aparecerán en el fichero de log pero no en la consola.</li>
-<li><code>spdlog::warn(string)</code> -&gt; para mensajes de advertencia. No son fallos per se, pero se deben de poner cuando se detecten situaciones que pueden ser motivo de fallos posteriores</li>
-<li><code>spdlog::error(string)</code> -&gt; para mensajes de error. No tiene mucho que explicar.</li>
-<li><code>spdlog::critical(string)</code> -&gt; para fallos críticos que obliguen a cerrar la aplicación.</li>
-</ul>
-<p>Para más información sobre las posibilidades del logger, pulse <a href="https://github.com/gabime/spdlog/wiki">aquí</a> </p>
-</div></div><!-- contents -->
+<div class="textblock"><p><a class="anchor" id="localización"></a> Considerando una base amplia de usuarios con cierta diversidad, se implementa un sistema de localización sencillo con el cual incorporar traducciones para las cadenas de texto de la aplicación. Por defecto, quedan incorporados los idiomas: español (es) e inglés (en).</p>
+<h1><a class="anchor" id="incorporación-de-un-nuevo-idioma"></a>
+Incorporación de un nuevo idioma</h1>
+<p>Todas las cadenas de texto que requieren localización se almacenan en el fichero <em>Assets/Lang/GEU_langs.csv</em>. Su estructura es muy simple: una primera línea con los identificadores de cada columna (identificador, idioma 1, idioma 2...), seguida de una entrada por cada cadena. Una vez este documento se encuentra preparado, debe generarse una enumeración de C para que puedan referenciarse los identificadores desde el código.</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">id   </th><th class="markdownTableHeadNone">English   </th><th class="markdownTableHeadNone">Español    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">GENERIC_YES   </td><td class="markdownTableBodyNone">Yes   </td><td class="markdownTableBodyNone">Sí    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">GENERIC_NO   </td><td class="markdownTableBodyNone">No   </td><td class="markdownTableBodyNone">No   </td></tr>
+</table>
+<p>Para ello, junto a <a class="el" href="../../d2/d04/a00625.html">GEU</a> se adjunta una pequeña herramienta propia y un fichero de consola de Windows encargados de generar la cabecera de dicha estructura; únicamente debe ejecutarse el fichero de consola y, si no surge ningún problema, la cabecera será generada junto al resto de ficheros fuente con la estructura <em>LOCALE_STRINGS</em>.</p>
+<h1><a class="anchor" id="uso-de-cadenas-localizadas"></a>
+Uso de cadenas localizadas</h1>
+<p>Además de la estructura con los identificadores, la clase <em><a class="el" href="../../dc/d02/a02020.html" title="Manages localized strings application-wide.">LocaleStrings</a></em> se encarga de leer todas las cadenas e idiomas del documento. Con esto es posible cambiar en tiempo de ejecución el idioma sin necesidad de reiniciar la aplicación, a cambio de un mayor uso de memoria del sistema (generalmente no supondrá un estorbo). Indicando el identificador concreto, la clase permite obtener la cadena localizada según el idioma activo:</p>
+<div class="fragment"><div class="line"><a class="code hl_function" href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;<a class="code hl_function" href="../../dc/d02/a02020.html#a4fb8cad81efcd4de1a351ea2c3cd5727">setLocale</a>(idx_idioma);</div>
+<div class="line"> </div>
+<div class="line"><a class="code hl_function" href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;<a class="code hl_function" href="../../dc/d02/a02020.html#ac66087ac25e72051ea7b5bf3d00dd71f">getString</a>(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573af9f01b5742b12e8cc6cac19a7f1fdfa0">LOCALE_STRINGS::GENERIC_YES</a>);</div>
+<div class="line"><a class="code hl_function" href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;<a class="code hl_function" href="../../dc/d02/a02020.html#ac66087ac25e72051ea7b5bf3d00dd71f">getString</a>(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a2504b17bfaf150e39a692ae892ffe2f2">LOCALE_STRINGS::GENERIC_NO</a>);</div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573a2504b17bfaf150e39a692ae892ffe2f2"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a2504b17bfaf150e39a692ae892ffe2f2">GENERIC_NO</a></div><div class="ttdeci">@ GENERIC_NO</div><div class="ttdef"><b>Definition</b> locale_strings.h:231</div></div>
+<div class="ttc" id="aa00332_html_a601a7b55b6c3e8ec0bf8451cb7995573af9f01b5742b12e8cc6cac19a7f1fdfa0"><div class="ttname"><a href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573af9f01b5742b12e8cc6cac19a7f1fdfa0">GENERIC_YES</a></div><div class="ttdeci">@ GENERIC_YES</div><div class="ttdef"><b>Definition</b> locale_strings.h:248</div></div>
+<div class="ttc" id="aa02020_html_a4fb8cad81efcd4de1a351ea2c3cd5727"><div class="ttname"><a href="../../dc/d02/a02020.html#a4fb8cad81efcd4de1a351ea2c3cd5727">LocaleStrings::setLocale</a></div><div class="ttdeci">void setLocale(int idx)</div><div class="ttdoc">Changes active locale.</div><div class="ttdef"><b>Definition</b> LocaleStrings.cpp:56</div></div>
+<div class="ttc" id="aa02020_html_ac66087ac25e72051ea7b5bf3d00dd71f"><div class="ttname"><a href="../../dc/d02/a02020.html#ac66087ac25e72051ea7b5bf3d00dd71f">LocaleStrings::getString</a></div><div class="ttdeci">std::string getString(const LOCALE_STRINGS id)</div><div class="ttdef"><b>Definition</b> LocaleStrings.cpp:36</div></div>
+<div class="ttc" id="aa02032_html_a47c7e7c2110f4cc59c9ff1f5594c366e"><div class="ttname"><a href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Singleton&lt; LocaleStrings &gt;::getInstance</a></div><div class="ttdeci">static LocaleStrings * getInstance()</div><div class="ttdef"><b>Definition</b> Singleton.h:27</div></div>
+</div><!-- fragment --><p>Cabe destacar el requisito por parte de <a class="el" href="../../d9/d05/a00633.html">ImGui</a> de utilizar cadenas de caracteres de C en lugar de <code>std::string</code>, para lo cual se facilitan diversos métodos en <em>GuiUtilities</em> que generan algunos elementos de interfaz directamente recibiendo el identificador de la cadena:</p>
+<div class="fragment"><div class="line"><span class="comment">// Empleando ImGui</span></div>
+<div class="line"><span class="keywordtype">bool</span> clicked = ImGui::Button(<a class="code hl_function" href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;getString(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573af9f01b5742b12e8cc6cac19a7f1fdfa0">LOCALE_STRINGS::GENERIC_YES</a>).c_str());</div>
+<div class="line"><span class="keywordtype">bool</span> clicked = ImGui::Button(<a class="code hl_function" href="../../d1/d01/a02032.html#a47c7e7c2110f4cc59c9ff1f5594c366e">LocaleStrings::getInstance</a>()-&gt;getString(<a class="code hl_enumvalue" href="../../dc/d00/a00332.html#a601a7b55b6c3e8ec0bf8451cb7995573a2504b17bfaf150e39a692ae892ffe2f2">LOCALE_STRINGS::GENERIC_NO</a>).c_str());</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Empleando GuiUtilites</span></div>
+<div class="line"><span class="keywordtype">bool</span> clicked = GuiUtilities::makeYesButton();</div>
+<div class="line"><span class="keywordtype">bool</span> clicked = GuiUtilities::makeNoButton();</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
