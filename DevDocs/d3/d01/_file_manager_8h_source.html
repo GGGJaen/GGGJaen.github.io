@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUCore/Source/IO/FileManager.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d3/d01/_file_manager_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FileManager.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d3/d01/_file_manager_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d3/d01/_file_manager_8h.html#a634b4178cc4f413b6ad76d528e5dde84">    3</a></span><span class="preprocessor">#define MSH_PLY_IMPLEMENTATION</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/namespace_g_e_u.html">GEU</a> {</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    <span class="keyword">class </span>PointCloud;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../dd/d01/class_g_e_u_1_1_file_manager.html">    8</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../dd/d01/class_g_e_u_1_1_file_manager.html">FileManager</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad9c308882e7e55a84874880c56515c92">loadPly</a>(<span class="keyword">const</span> std::filesystem::path&amp; filePath, <span class="keywordtype">bool</span> useClassification = <span class="keyword">true</span>, <span class="keywordtype">bool</span> optimizeCloud = <span class="keyword">true</span>, <span class="keywordtype">bool</span> asyncOptimize = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aebeb11b59981efb0536a7e57fe284120">loadLas</a>(<span class="keyword">const</span> std::filesystem::path&amp; filePath, <span class="keywordtype">bool</span> useClassification = <span class="keyword">true</span>, <span class="keywordtype">bool</span> optimizeCloud = <span class="keyword">true</span>, <span class="keywordtype">bool</span> asyncOptimize = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a96a82ce9f7c481d435956a8b78aded66">   13</a></span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a96a82ce9f7c481d435956a8b78aded66">saving</a>;</div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a56fe89b01b81bbabdf4c1439bce88b01">   14</a></span>        <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ac15fb0fc44fe4b04916f43807875b084">LASClassificationSize</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">static</span> std::unordered_map&lt;std::string, char&gt; <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a56fe89b01b81bbabdf4c1439bce88b01">LASClassification</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keyword">static</span> std::string <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ab51716fc5bd2ada33d27805c53647e34">LASClassificationStrings</a>[13];</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a> <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#acb231926a3ab3d27c1ece018f614143b">LASClassificationColors</a>[13];</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aa597d3662ebac342cff0d7050997b8cc">   18</a></span>        <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aa597d3662ebac342cff0d7050997b8cc">loadedFiles</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad813783255e5275e6457e5f671861176">   20</a></span>        <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad813783255e5275e6457e5f671861176">_loadProgress</a>, <a class="code hl_variable" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a90d987b8a31ca5f270415eb0f1cf5e17">_saveProgress</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+</div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ab51716fc5bd2ada33d27805c53647e34">   30</a></span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a221f7bdde6217593a27b991bae1cb246">loadPointCloud</a>(<span class="keyword">const</span> std::string&amp; filepath, <span class="keywordtype">bool</span> useClassification = <span class="keyword">true</span>, <span class="keywordtype">bool</span> optimizeCloud = <span class="keyword">true</span>, <span class="keywordtype">bool</span> asyncOptimize = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a7b2c39c28817344dc2416d276b45dd43">loadAllCloudsUnderFolder</a>(<span class="keyword">const</span> std::string&amp; folder);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad604f08d090bb872c17b17b93c04b1c0">loadTriangleMesh</a>(<span class="keyword">const</span> std::string&amp; path);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aeffefc58937066d086f5ee5e86a05ef9">savePointCloud</a>(<span class="keyword">const</span> std::string&amp; filename, <a class="code hl_class" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a>&amp; cloud);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    };</div>
+</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}</div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_ac54e849f8b2339f592307eaf6cdbba77"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a></div><div class="ttdeci">glm::vec4 vec4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:56</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html">GEU::FileManager</a></div><div class="ttdef"><b>Definition</b> FileManager.h:8</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_a221f7bdde6217593a27b991bae1cb246"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a221f7bdde6217593a27b991bae1cb246">GEU::FileManager::loadPointCloud</a></div><div class="ttdeci">static bool loadPointCloud(const std::string &amp;filepath, bool useClassification=true, bool optimizeCloud=true, bool asyncOptimize=true)</div><div class="ttdoc">Carga la nube de puntos especificada.</div><div class="ttdef"><b>Definition</b> FileManager.cpp:441</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_a56fe89b01b81bbabdf4c1439bce88b01"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a56fe89b01b81bbabdf4c1439bce88b01">GEU::FileManager::LASClassification</a></div><div class="ttdeci">static std::unordered_map&lt; std::string, char &gt; LASClassification</div><div class="ttdef"><b>Definition</b> FileManager.h:14</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_a7b2c39c28817344dc2416d276b45dd43"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a7b2c39c28817344dc2416d276b45dd43">GEU::FileManager::loadAllCloudsUnderFolder</a></div><div class="ttdeci">static void loadAllCloudsUnderFolder(const std::string &amp;folder)</div><div class="ttdoc">Carga todas las nubes de puntos en formato PLY que se encuentren en la carpeta especificada.</div><div class="ttdef"><b>Definition</b> FileManager.cpp:460</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_a90d987b8a31ca5f270415eb0f1cf5e17"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a90d987b8a31ca5f270415eb0f1cf5e17">GEU::FileManager::_saveProgress</a></div><div class="ttdeci">static float _saveProgress</div><div class="ttdef"><b>Definition</b> FileManager.h:20</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_a96a82ce9f7c481d435956a8b78aded66"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a96a82ce9f7c481d435956a8b78aded66">GEU::FileManager::saving</a></div><div class="ttdeci">static bool saving</div><div class="ttdef"><b>Definition</b> FileManager.h:13</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_aa597d3662ebac342cff0d7050997b8cc"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aa597d3662ebac342cff0d7050997b8cc">GEU::FileManager::loadedFiles</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; loadedFiles</div><div class="ttdef"><b>Definition</b> FileManager.h:18</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_ab51716fc5bd2ada33d27805c53647e34"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ab51716fc5bd2ada33d27805c53647e34">GEU::FileManager::LASClassificationStrings</a></div><div class="ttdeci">static std::string LASClassificationStrings[13]</div><div class="ttdef"><b>Definition</b> FileManager.h:30</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_ac15fb0fc44fe4b04916f43807875b084"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ac15fb0fc44fe4b04916f43807875b084">GEU::FileManager::LASClassificationSize</a></div><div class="ttdeci">static unsigned LASClassificationSize</div><div class="ttdef"><b>Definition</b> FileManager.h:14</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_acb231926a3ab3d27c1ece018f614143b"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#acb231926a3ab3d27c1ece018f614143b">GEU::FileManager::LASClassificationColors</a></div><div class="ttdeci">static vec4 LASClassificationColors[13]</div><div class="ttdef"><b>Definition</b> FileManager.h:62</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_ad604f08d090bb872c17b17b93c04b1c0"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad604f08d090bb872c17b17b93c04b1c0">GEU::FileManager::loadTriangleMesh</a></div><div class="ttdeci">static void loadTriangleMesh(const std::string &amp;path)</div><div class="ttdoc">Carga la malla de triangulos de la ruta especificada.</div><div class="ttdef"><b>Definition</b> FileManager.cpp:473</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_ad813783255e5275e6457e5f671861176"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad813783255e5275e6457e5f671861176">GEU::FileManager::_loadProgress</a></div><div class="ttdeci">static float _loadProgress</div><div class="ttdef"><b>Definition</b> FileManager.h:20</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_ad9c308882e7e55a84874880c56515c92"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ad9c308882e7e55a84874880c56515c92">GEU::FileManager::loadPly</a></div><div class="ttdeci">static bool loadPly(const std::filesystem::path &amp;filePath, bool useClassification=true, bool optimizeCloud=true, bool asyncOptimize=true)</div><div class="ttdef"><b>Definition</b> FileManager.cpp:87</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_aebeb11b59981efb0536a7e57fe284120"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aebeb11b59981efb0536a7e57fe284120">GEU::FileManager::loadLas</a></div><div class="ttdeci">static bool loadLas(const std::filesystem::path &amp;filePath, bool useClassification=true, bool optimizeCloud=true, bool asyncOptimize=true)</div><div class="ttdef"><b>Definition</b> FileManager.cpp:378</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_file_manager_html_aeffefc58937066d086f5ee5e86a05ef9"><div class="ttname"><a href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aeffefc58937066d086f5ee5e86a05ef9">GEU::FileManager::savePointCloud</a></div><div class="ttdeci">static bool savePointCloud(const std::string &amp;filename, GEU::PointCloud &amp;cloud)</div><div class="ttdef"><b>Definition</b> FileManager.cpp:481</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a></div><div class="ttdef"><b>Definition</b> PointCloud.h:14</div></div>
+<div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Nubes de puntos</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('db/d00/nubes-de-puntos.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Nubes de puntos</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>Este documento explica algunos aspectos de la clase <a class="el" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a>. Esta clase encapsula las utilidades asociadas al manejo de una nube de puntos.</p>
+<h2><a class="anchor" id="autotoc_md-instrucciones"></a>
+📘 Instrucciones</h2>
+<h3><a class="anchor" id="como-cargar-la-nube"></a>
+Como cargar la nube</h3>
+<p>Para cargar la nube utilizaremos el FileManager. Mas concretamente, la función <em>loadPointCloud</em>. Dado que FileManager es una clase estática, la llamada a esta función se realizara de la siguiente manera: <code>FileManager::loadPointCloud(...)</code>. Cabe destacar que actualmente esta función soporta la carga de ficheros PLY, LAS y LAZ.</p>
+<p>En el caso de que queramos cargar todas las nubes que hay en un directorio, podemos usar la función <em>loadAllCloudsUnderFolder(folder)</em>. Ambas funciones están especificadas con Doxygen, por lo que el IDE te puede dar mas información sobre como funcionan exactamente estas funciones.</p>
+<h3><a class="anchor" id="como-obtener-la-nube"></a>
+Como obtener la nube</h3>
+<p>Para obtener la nube se debe utilizar la función <em>getPointCloud</em> de la clase <em>Renderer</em>. Esta pedirá como único parámetro el nombre de la nube. Nos devolverá un puntero a la misma en el caso de que esta exista en la escena activa o <em>nullptr</em> en caso contrario.</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
+<div class="line"><span class="keywordflow">if</span>(cloud){</div>
+<div class="line">  <span class="comment">//Do things</span></div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_g_e_u_1_1_renderer_html_ae941cdb83d15bb05ac73cf19173a1f84"><div class="ttname"><a href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">GEU::Renderer::getPointCloud</a></div><div class="ttdeci">PointCloud * getPointCloud(const std::string &amp;cloudName) const</div><div class="ttdoc">get the cloud with the cloud name specified if it exists in the current active scene.</div><div class="ttdef"><b>Definition</b> Renderer.cpp:493</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_singleton_html_a47c7e7c2110f4cc59c9ff1f5594c366e"><div class="ttname"><a href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Singleton&lt; Renderer &gt;::getInstance</a></div><div class="ttdeci">static Renderer * getInstance()</div><div class="ttdef"><b>Definition</b> Singleton.h:27</div></div>
+</div><!-- fragment --><p>En caso de necesitar una subnube de la nube original podremos localizarla de similar manera:</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
+<div class="line"><span class="keywordflow">if</span>(cloud){</div>
+<div class="line">  <span class="keyword">const</span> auto subcloud = cloud-&gt;<a class="code hl_function" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6">getSubcloud</a>(<span class="stringliteral">&quot;ExampleSubCloud&quot;</span>);</div>
+<div class="line">  <span class="keywordflow">if</span>(subcloud){</div>
+<div class="line">    <span class="comment">//Do things</span></div>
+<div class="line">  }</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_abef36236473bdb44c9cff9d603e006c6"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6">GEU::PointCloud::getSubcloud</a></div><div class="ttdeci">PointCloud * getSubcloud(const std::string &amp;subcloudName) const</div><div class="ttdoc">Look for the specified subcloud and return it if found.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:646</div></div>
+</div><!-- fragment --><h3><a class="anchor" id="como-añadir-puntos"></a>
+Como añadir puntos</h3>
+<p>Se pueden utilizar los métodos <em>addNewPoint</em>, <em>addNewPoints</em> o obtener el vector de puntos mediante <em>getPoints</em> y modificarlo directamente. Todas estas modificaciones se pueden realizar desde hilos distintos al principal, ya que todas las llamadas a OpenGL se encuentran aisladas de estos métodos.</p>
+<p>Si se desea añadir un gran número de puntos, es recomendable usar el método <em>addNewPoints</em> en vez de múltiples llamadas a <em>addNewPoint</em>.</p>
+<h3><a class="anchor" id="como-modificar-los-puntos-de-la-nube"></a>
+Como modificar los puntos de la nube</h3>
+<p>Se pueden obtener los puntos mediante <em>getPoints</em>. Una vez se hayan terminado de modificar, se deberá de llamar al método <em>needUpdate</em> para que se refleje la actualización en el renderizado.</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
+<div class="line"><span class="keywordflow">if</span>(cloud){</div>
+<div class="line">  <span class="keyword">const</span> auto&amp; points = cloud-&gt;getPoints();</div>
+<div class="line">  <span class="comment">//Do things with the points.</span></div>
+<div class="line">  cloud-&gt;<a class="code hl_function" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">needUpdate</a>();</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a3810f1918091d26db6f7c634570c8a69"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">GEU::PointCloud::needUpdate</a></div><div class="ttdeci">void needUpdate()</div><div class="ttdoc">Obliga a actualizar los recursos OpenGL de esta nube en la siguiente llamada de dibujado.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:731</div></div>
+</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->

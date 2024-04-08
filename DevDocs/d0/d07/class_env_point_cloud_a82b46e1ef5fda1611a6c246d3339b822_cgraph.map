@@ -1,0 +1,5 @@
+<map id="EnvPointCloud::updateBoundaries" name="EnvPointCloud::updateBoundaries">
+<area shape="rect" id="Node000001" title="Updates the current Axis&#45;Aligned Bounding&#45;Box." alt="" coords="5,5,223,32"/>
+<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a35ba6843e6eb68dc9450a9e7a2ce02df" title=" " alt="" coords="271,5,474,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,16,255,16,255,21,223,21"/>
+</map>

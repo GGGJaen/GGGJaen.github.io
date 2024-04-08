@@ -1,0 +1,5 @@
+<map id="GEU::Renderer::deleteScene" name="GEU::Renderer::deleteScene">
+<area shape="rect" id="Node000001" title="Deletes active scene. Makes new empty scene if no active scenes left." alt="" coords="177,5,366,32"/>
+<area shape="rect" id="Node000002" href="$de/d06/class_g_e_u_1_1_g_u_i.html#af7ebc89aa431e3a9e86bb1424b819d47" title="Draws ImGUI elements." alt="" coords="5,5,129,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,21,129,21,129,16,161,16"/>
+</map>

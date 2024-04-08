@@ -1,0 +1,11 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,109,57"/>
+<area shape="rect" id="Node000001" href="$db/d03/classjson_1_1invalid__key.html" title="Exception used for invalid JSON keys." alt="" coords="157,5,273,32"/>
+<area shape="poly" id="edge64_Node000000_Node000001" title=" " alt="" coords="124,31,156,25,157,31,124,36"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="161,56,269,83"/>
+<area shape="poly" id="edge65_Node000000_Node000002" title=" " alt="" coords="124,52,161,58,161,63,124,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="321,56,464,83"/>
+<area shape="poly" id="edge66_Node000002_Node000003" title=" " alt="" coords="284,67,321,67,321,72,284,72"/>
+<area shape="rect" id="Node000004" href="$d6/d05/classjson_1_1parsing__error.html" title="Exception used when invalid JSON is encountered." alt="" coords="512,56,641,83"/>
+<area shape="poly" id="edge67_Node000003_Node000004" title=" " alt="" coords="480,67,512,67,512,72,480,72"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="GEU::DatabaseNewVueloPopup::handleDronPopup" name="GEU::DatabaseNewVueloPopup::handleDronPopup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,213,136"/>
+<area shape="rect" id="Node000002" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a52cb29f50d78b4fefd0f7f5e84483046" title=" " alt="" coords="452,5,580,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,90,260,64,351,46,436,33,437,38,352,51,261,69,172,95"/>
+<area shape="rect" id="Node000003" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="628,64,831,107"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="213,107,613,88,613,93,213,112"/>
+<area shape="rect" id="Node000004" href="$d1/d01/class_database_connector.html#a1bc000ca5bfe0d511a32341d2cb6269e" title=" " alt="" coords="261,123,404,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,126,245,130,245,135,213,131"/>
+<area shape="rect" id="Node000005" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4453728eb6a181d72fb1be2d7d26f73d" title=" " alt="" coords="261,189,404,232"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="161,134,268,180,266,185,159,139"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="581,42,636,57,634,62,580,47"/>
+<area shape="rect" id="Node000006" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#aa4e9186189a097316ffd71424d4a7259" title=" " alt="" coords="452,123,580,165"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="392,186,440,169,442,174,394,191"/>
+<area shape="rect" id="Node000007" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a7b24395f0bd0bd368bde0935682746ce" title=" " alt="" coords="452,189,580,232"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="404,208,437,208,437,213,404,213"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="558,186,579,175,681,113,683,118,582,180,561,191"/>
+</map>

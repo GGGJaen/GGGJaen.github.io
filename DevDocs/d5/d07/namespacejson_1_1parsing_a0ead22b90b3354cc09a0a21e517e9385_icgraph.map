@@ -1,0 +1,66 @@
+<map id="json::parsing::tlws" name="json::parsing::tlws">
+<area shape="rect" id="Node000001" title="(t)rims (l)eading (w)hite (s)pace" alt="" coords="1553,501,1679,528"/>
+<area shape="rect" id="Node000002" href="$de/d01/namespacejson_1_1jtype.html#a92effdd221ccd2f93dc25b32a6f627b4" title="Geven a string, determines the type of value the string contains." alt="" coords="1374,296,1500,323"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1602,488,1565,413,1537,372,1503,337,1485,326,1488,321,1506,333,1541,369,1570,410,1607,485"/>
+<area shape="rect" id="Node000003" href="$d5/d07/namespacejson_1_1parsing.html#a2b8591533a42f229d2070223a6c48aa7" title="Parses the first value encountered in a JSON string." alt="" coords="1369,347,1505,373"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1586,493,1452,376,1456,372,1589,489"/>
+<area shape="rect" id="Node000011" href="$d8/d07/classjson_1_1jobject.html#a07e29a2948df56e3eb332fcebe6ab9d5" title="Parses a serialized JSON string." alt="" coords="1188,472,1319,499"/>
+<area shape="poly" id="edge32_Node000001_Node000011" title=" " alt="" coords="1537,511,1319,493,1320,488,1537,506"/>
+<area shape="rect" id="Node000023" href="$d8/d07/classjson_1_1jobject.html#ab785f1c8b2636212e0d49b711fa4fba3" title="Returns a pretty (multi&#45;line indented) serialzed representation of the object or array." alt="" coords="975,784,1108,811"/>
+<area shape="poly" id="edge34_Node000001_Node000023" title=" " alt="" coords="1571,537,1371,630,1139,750,1071,786,1068,781,1137,746,1368,626,1569,532"/>
+<area shape="rect" id="Node000025" href="$d5/d07/namespacejson_1_1parsing.html#a4728315996e44bc74b7c8346b6ae10fe" title="Parses a JSON array." alt="" coords="1186,523,1321,565"/>
+<area shape="poly" id="edge33_Node000001_Node000025" title=" " alt="" coords="1537,524,1322,541,1322,536,1537,518"/>
+<area shape="rect" id="Node000029" href="$d5/d07/namespacejson_1_1parsing.html#a1c987a0b9f5d549f0a425a442ab1156f" title="Reads a set of digits from a string." alt="" coords="1373,640,1501,683"/>
+<area shape="poly" id="edge35_Node000001_Node000029" title=" " alt="" coords="1594,541,1555,581,1506,623,1479,642,1476,637,1503,619,1551,577,1590,537"/>
+<area shape="rect" id="Node000004" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a25eea77b14bf79c980001a6a1edc0d85" title="Returns true if the value is an array." alt="" coords="1190,139,1318,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1371,340,1367,336,1354,318,1346,300,1342,265,1338,230,1332,213,1319,195,1307,184,1310,180,1323,192,1336,211,1343,229,1347,265,1351,299,1358,316,1371,333,1374,336"/>
+<area shape="rect" id="Node000005" href="$d9/d07/classjson_1_1jobject_1_1entry.html#ae9edcaebd41f792abbcaa163e144201e" title="Returns true if the value is a bool." alt="" coords="1190,205,1318,248"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1373,341,1368,337,1351,318,1342,299,1335,281,1319,262,1304,251,1307,246,1323,258,1339,278,1347,297,1355,315,1371,333,1376,337"/>
+<area shape="rect" id="Node000006" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a7a18dc50159cb615e42264e11127c14a" title="Returns true if the value is a null value." alt="" coords="1190,272,1318,315"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1383,343,1314,318,1315,313,1384,338"/>
+<area shape="rect" id="Node000007" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a585915c5f465db5868f4c0ece2f64e80" title="Returns true if the value is a number." alt="" coords="1190,339,1318,381"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="1354,363,1318,363,1318,357,1354,357"/>
+<area shape="rect" id="Node000008" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a8caba8f2564a9725303ef5605c1dccba" title="Returns true if the value is an object." alt="" coords="1190,405,1318,448"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="1384,382,1315,407,1314,402,1383,377"/>
+<area shape="rect" id="Node000009" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a9b1f7f47897a3899049c9f9af6b9e982" title="Returns true if the value is a string." alt="" coords="1190,5,1318,48"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="1369,339,1367,336,1345,301,1336,266,1336,232,1341,198,1346,165,1346,132,1339,97,1319,62,1308,50,1312,47,1323,58,1344,96,1352,131,1351,166,1346,199,1342,232,1342,265,1350,298,1371,333,1373,335"/>
+<area shape="rect" id="Node000010" href="$d9/d07/classjson_1_1jobject_1_1entry.html#aa00d0d0706b18982d04af21ac60a0cf9" title="Returns true if the value is a boolean and set to true." alt="" coords="1190,72,1318,115"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="1370,339,1367,336,1349,309,1341,283,1340,257,1341,232,1343,206,1342,181,1335,155,1319,128,1307,117,1311,113,1323,125,1340,153,1347,180,1349,206,1347,232,1345,257,1346,282,1354,307,1371,333,1374,335"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="1415,386,1374,425,1323,462,1299,474,1297,469,1320,458,1371,420,1411,382"/>
+<area shape="poly" id="edge27_Node000003_Node000025" title=" " alt="" coords="1423,388,1382,449,1354,482,1323,513,1306,524,1303,520,1320,509,1350,479,1378,446,1418,385"/>
+<area shape="rect" id="Node000012" href="$d6/d03/classjson_1_1jobject_1_1const__value.html#ac03ee6e7f26fdcef204eebbe91c2dbed" title="Returns another constant value from this array." alt="" coords="736,201,867,244"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1186,464,1184,462,1164,428,1157,394,1159,360,1165,327,1170,296,1170,265,1160,236,1136,209,1105,189,1070,177,1032,171,994,172,919,184,856,203,854,198,918,179,993,166,1033,166,1071,171,1107,184,1140,205,1165,234,1175,264,1175,296,1170,328,1164,361,1163,393,1169,426,1188,458,1190,461"/>
+<area shape="rect" id="Node000013" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a91afe1e18521515266c501b7ce74bdf3" title="Casts the value as a JSON object." alt="" coords="977,309,1106,352"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="1189,466,1184,462,1166,437,1160,413,1153,389,1136,366,1105,347,1107,343,1140,362,1158,387,1165,411,1171,435,1188,458,1192,462"/>
+<area shape="rect" id="Node000015" href="$db/d02/struct_database_1_1_s_d_o___g_e_o_m_e_t_r_y.html#af4f4cb72cf6ab17b5246c651ccaa9a51" title=" " alt="" coords="945,376,1138,419"/>
+<area shape="poly" id="edge14_Node000011_Node000015" title=" " alt="" coords="1197,468,1185,462,1137,433,1110,422,1112,417,1139,428,1187,458,1199,463"/>
+<area shape="rect" id="Node000021" href="$d6/d03/classjson_1_1jobject_1_1const__value.html#ad5a9c1d6ef378522c5ae730c5f7619f1" title="Returns another constant value from this object." alt="" coords="976,243,1107,285"/>
+<area shape="poly" id="edge20_Node000011_Node000021" title=" " alt="" coords="1187,465,1184,462,1169,441,1162,419,1160,379,1158,339,1151,319,1136,299,1122,288,1106,280,1109,275,1125,284,1140,295,1155,316,1163,337,1165,378,1167,418,1174,438,1188,458,1191,461"/>
+<area shape="rect" id="Node000022" href="$d9/d07/classjson_1_1jobject_1_1entry.html#aed0ba8146d3b175190a73fec57c547dc" title="Casts an array of JSON objects." alt="" coords="963,493,1120,536"/>
+<area shape="poly" id="edge23_Node000011_Node000022" title=" " alt="" coords="1173,499,1121,506,1120,501,1173,494"/>
+<area shape="poly" id="edge24_Node000011_Node000023" title=" " alt="" coords="1190,510,1188,512,1169,542,1161,571,1160,599,1163,628,1166,657,1166,687,1158,717,1140,750,1117,771,1090,786,1087,781,1114,767,1136,746,1153,716,1160,686,1161,657,1158,628,1155,599,1156,570,1164,540,1184,509,1186,506"/>
+<area shape="rect" id="Node000024" href="$d8/d07/classjson_1_1jobject.html#a1049cbcf6dc1ebcd17fa8c3d21af3bd3" title=" " alt="" coords="968,443,1115,469"/>
+<area shape="poly" id="edge26_Node000011_Node000024" title=" " alt="" coords="1172,477,1115,469,1115,463,1173,472"/>
+<area shape="rect" id="Node000014" href="$d9/d07/classjson_1_1jobject_1_1entry.html#a8cbcd041225df788b6558d36f59763f4" title=" " alt="" coords="737,309,866,352"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="962,333,866,333,866,328,962,328"/>
+<area shape="rect" id="Node000016" href="$d7/d05/struct_database_1_1_objeto.html#a23779e9f38a1d1ed6ff784d1e7969953" title=" " alt="" coords="706,384,897,411"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="929,400,897,400,897,395,929,395"/>
+<area shape="rect" id="Node000017" href="$d1/d01/class_database_connector.html#a5ebff79b9221572c5cc1372f375a9644" title=" " alt="" coords="515,376,658,419"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="691,400,658,400,658,395,691,395"/>
+<area shape="rect" id="Node000018" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="238,343,467,385"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="499,388,467,383,468,378,500,382"/>
+<area shape="rect" id="Node000019" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#a66a3af3a767847d263899d0d0e287b78" title=" " alt="" coords="260,409,445,452"/>
+<area shape="poly" id="edge18_Node000017_Node000019" title=" " alt="" coords="500,412,445,420,445,415,499,407"/>
+<area shape="rect" id="Node000020" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#aee96f5bdc802183d992461ccf7af7606" title=" " alt="" coords="5,409,190,452"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="245,433,190,433,190,428,245,428"/>
+<area shape="poly" id="edge21_Node000021_Node000012" title=" " alt="" coords="960,253,867,237,868,231,961,247"/>
+<area shape="poly" id="edge22_Node000021_Node000021" title=" " alt="" coords="1076,229,1063,224,1041,221,1021,223,1009,228,1004,234,1006,242,1001,243,999,233,1006,224,1020,218,1041,216,1064,218,1078,225"/>
+<area shape="poly" id="edge25_Node000023_Node000023" title=" " alt="" coords="1078,771,1065,765,1041,763,1019,765,1007,769,1004,775,1010,782,1005,785,999,775,1003,766,1018,759,1041,757,1067,760,1080,766"/>
+<area shape="poly" id="edge30_Node000025_Node000022" title=" " alt="" coords="1170,535,1120,528,1121,523,1171,530"/>
+<area shape="rect" id="Node000026" href="$df/d03/classjson_1_1jobject_1_1const__proxy.html#a16ced6515b05d5aa304068a4c0eb4a96" title="Returns another constant value from this array." alt="" coords="976,560,1107,603"/>
+<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="1171,561,1108,572,1107,567,1170,556"/>
+<area shape="rect" id="Node000027" href="$d9/d07/classjson_1_1jobject_1_1entry.html#ae00094f2c15fb3c00ca0bad03af0d796" title="Converts a serialized array of numbers to a vector of numbers." alt="" coords="975,627,1108,669"/>
+<area shape="poly" id="edge29_Node000025_Node000027" title=" " alt="" coords="1204,576,1187,586,1164,602,1139,617,1110,630,1108,625,1137,612,1161,598,1185,582,1201,571"/>
+<area shape="rect" id="Node000028" href="$d9/d07/classjson_1_1jobject_1_1entry.html#aacc6e73c8dd5cac11fd7bcff6eb82893" title="Casts an array of strings." alt="" coords="969,693,1114,736"/>
+<area shape="poly" id="edge31_Node000025_Node000028" title=" " alt="" coords="1197,577,1188,586,1172,611,1166,635,1159,659,1140,683,1116,699,1113,694,1136,679,1154,656,1161,633,1167,609,1184,582,1194,573"/>
+</map>

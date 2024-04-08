@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUModules/Reconstruccion/Source/UI/ReconstruccionGUIAdapter.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('db/d06/_reconstruccion_g_u_i_adapter_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ReconstruccionGUIAdapter.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../db/d06/_reconstruccion_g_u_i_adapter_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d0/d00/_interface_adapter_8h.html">UI/InterfaceAdapter.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/namespace_g_e_u.html">GEU</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">class </span>ImageCloudProj;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html">    9</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html">ReconstruccionGUIAdapter</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d8/d00/class_g_e_u_1_1_interface_adapter.html">InterfaceAdapter</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#abca259787056576d978d174e14ede488">   11</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#abca259787056576d978d174e14ede488">_pCloudSelection</a> = -1;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#aadb9f5ba17f6bdbc437cd3ac93c21724">   13</a></span>        std::string <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#aadb9f5ba17f6bdbc437cd3ac93c21724">_structureFilePath</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a9ccf4e6e3ea1e66d6398bcf3745e32d4">   14</a></span>        std::string <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a9ccf4e6e3ea1e66d6398bcf3745e32d4">_vegetationFilePath</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ab890c615bf84960832a9d50010d10618">   15</a></span>        std::string <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ab890c615bf84960832a9d50010d10618">_mdtFilePath</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a81449d19693ffcdcd491a144e8e2c7c5">   16</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a81449d19693ffcdcd491a144e8e2c7c5">_structureFileSelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ae7d2e339e1e6aabd0ad79fc7b159f4fe">   17</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ae7d2e339e1e6aabd0ad79fc7b159f4fe">_vegetationFileSelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a4ac1f1e1ebcf84358ef37ee48798d4a5">   18</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a4ac1f1e1ebcf84358ef37ee48798d4a5">_mdtFileSelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a0ba72a7df77f9c0fb1146374ad516b12">   20</a></span>        std::string <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a0ba72a7df77f9c0fb1146374ad516b12">_cloudFilePath</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ae946825a8ae38c7b4241397e34e68f8f">   21</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ae946825a8ae38c7b4241397e34e68f8f">_cloudFileSelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#af96d1e020251df0500b5b6add28eead1">   22</a></span>        std::string <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#af96d1e020251df0500b5b6add28eead1">_valImgFilePath</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ab155072155cc9b9a4b7daa2620167c94">   23</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ab155072155cc9b9a4b7daa2620167c94">_valImgSelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a79de51538f33b029b6a72562e246f025">   25</a></span>        std::string <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a79de51538f33b029b6a72562e246f025">_valFilePath</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a3ccf138f1f8df4722cf46de26970060f">   26</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a3ccf138f1f8df4722cf46de26970060f">_valFileSelected</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#aa110a64a51169ba4265b80948a2df358">   28</a></span>        <a class="code hl_class" href="../../dc/d01/class_g_e_u_1_1_image_cloud_proj.html">ImageCloudProj</a>* <a class="code hl_variable" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#aa110a64a51169ba4265b80948a2df358">img2cloud</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_function" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ad46dbb19f657b617ff203115a3d07cc1">ReconstruccionGUIAdapter</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">id</span>, <span class="keyword">const</span> std::string&amp; icon, <a class="code hl_enumeration" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_function" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ac9d1c6c91bfd3fafbcd942e016fc9789">~ReconstruccionGUIAdapter</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7">renderGuiObject</a>(<a class="code hl_struct" href="../../d2/d00/struct_g_e_u_1_1_application_state.html">ApplicationState</a>* appState, <a class="code hl_class" href="../../d5/d02/class_g_e_u_1_1_scene.html">Scene</a>* sceneContent) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a4b135beb5bb6ef057d38211fe1c90d2f">clearModuleData</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    };</div>
+</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="ttc" id="a_interface_adapter_8h_html"><div class="ttname"><a href="../../d0/d00/_interface_adapter_8h.html">InterfaceAdapter.h</a></div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_cloud_proj_html"><div class="ttname"><a href="../../dc/d01/class_g_e_u_1_1_image_cloud_proj.html">GEU::ImageCloudProj</a></div><div class="ttdef"><b>Definition</b> ImageCloudProj.h:11</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_interface_adapter_html"><div class="ttname"><a href="../../d8/d00/class_g_e_u_1_1_interface_adapter.html">GEU::InterfaceAdapter</a></div><div class="ttdoc">Adapter pattern for GUI windows and functionality.</div><div class="ttdef"><b>Definition</b> InterfaceAdapter.h:12</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html">GEU::ReconstruccionGUIAdapter</a></div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:9</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a0ba72a7df77f9c0fb1146374ad516b12"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a0ba72a7df77f9c0fb1146374ad516b12">GEU::ReconstruccionGUIAdapter::_cloudFilePath</a></div><div class="ttdeci">std::string _cloudFilePath</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:20</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a2918ca118794a47873dbc1df297d68d7"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7">GEU::ReconstruccionGUIAdapter::renderGuiObject</a></div><div class="ttdeci">void renderGuiObject(ApplicationState *appState, Scene *sceneContent) override</div><div class="ttdoc">Custom module GUI window contents.</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.cpp:25</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a3ccf138f1f8df4722cf46de26970060f"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a3ccf138f1f8df4722cf46de26970060f">GEU::ReconstruccionGUIAdapter::_valFileSelected</a></div><div class="ttdeci">bool _valFileSelected</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:26</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a4ac1f1e1ebcf84358ef37ee48798d4a5"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a4ac1f1e1ebcf84358ef37ee48798d4a5">GEU::ReconstruccionGUIAdapter::_mdtFileSelected</a></div><div class="ttdeci">bool _mdtFileSelected</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:18</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a4b135beb5bb6ef057d38211fe1c90d2f"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a4b135beb5bb6ef057d38211fe1c90d2f">GEU::ReconstruccionGUIAdapter::clearModuleData</a></div><div class="ttdeci">void clearModuleData()</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.cpp:141</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a79de51538f33b029b6a72562e246f025"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a79de51538f33b029b6a72562e246f025">GEU::ReconstruccionGUIAdapter::_valFilePath</a></div><div class="ttdeci">std::string _valFilePath</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:25</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a81449d19693ffcdcd491a144e8e2c7c5"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a81449d19693ffcdcd491a144e8e2c7c5">GEU::ReconstruccionGUIAdapter::_structureFileSelected</a></div><div class="ttdeci">bool _structureFileSelected</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:16</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_a9ccf4e6e3ea1e66d6398bcf3745e32d4"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a9ccf4e6e3ea1e66d6398bcf3745e32d4">GEU::ReconstruccionGUIAdapter::_vegetationFilePath</a></div><div class="ttdeci">std::string _vegetationFilePath</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:14</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_aa110a64a51169ba4265b80948a2df358"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#aa110a64a51169ba4265b80948a2df358">GEU::ReconstruccionGUIAdapter::img2cloud</a></div><div class="ttdeci">ImageCloudProj * img2cloud</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:28</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_aadb9f5ba17f6bdbc437cd3ac93c21724"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#aadb9f5ba17f6bdbc437cd3ac93c21724">GEU::ReconstruccionGUIAdapter::_structureFilePath</a></div><div class="ttdeci">std::string _structureFilePath</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:13</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_ab155072155cc9b9a4b7daa2620167c94"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ab155072155cc9b9a4b7daa2620167c94">GEU::ReconstruccionGUIAdapter::_valImgSelected</a></div><div class="ttdeci">bool _valImgSelected</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:23</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_ab890c615bf84960832a9d50010d10618"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ab890c615bf84960832a9d50010d10618">GEU::ReconstruccionGUIAdapter::_mdtFilePath</a></div><div class="ttdeci">std::string _mdtFilePath</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:15</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_abca259787056576d978d174e14ede488"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#abca259787056576d978d174e14ede488">GEU::ReconstruccionGUIAdapter::_pCloudSelection</a></div><div class="ttdeci">int _pCloudSelection</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:11</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_ac9d1c6c91bfd3fafbcd942e016fc9789"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ac9d1c6c91bfd3fafbcd942e016fc9789">GEU::ReconstruccionGUIAdapter::~ReconstruccionGUIAdapter</a></div><div class="ttdeci">~ReconstruccionGUIAdapter() override</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.cpp:21</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_ad46dbb19f657b617ff203115a3d07cc1"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ad46dbb19f657b617ff203115a3d07cc1">GEU::ReconstruccionGUIAdapter::ReconstruccionGUIAdapter</a></div><div class="ttdeci">ReconstruccionGUIAdapter(const std::string &amp;id, const std::string &amp;icon, LOCALE_STRINGS idx)</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.cpp:10</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_ae7d2e339e1e6aabd0ad79fc7b159f4fe"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ae7d2e339e1e6aabd0ad79fc7b159f4fe">GEU::ReconstruccionGUIAdapter::_vegetationFileSelected</a></div><div class="ttdeci">bool _vegetationFileSelected</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:17</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_ae946825a8ae38c7b4241397e34e68f8f"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#ae946825a8ae38c7b4241397e34e68f8f">GEU::ReconstruccionGUIAdapter::_cloudFileSelected</a></div><div class="ttdeci">bool _cloudFileSelected</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:21</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_reconstruccion_g_u_i_adapter_html_af96d1e020251df0500b5b6add28eead1"><div class="ttname"><a href="../../d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#af96d1e020251df0500b5b6add28eead1">GEU::ReconstruccionGUIAdapter::_valImgFilePath</a></div><div class="ttdeci">std::string _valImgFilePath</div><div class="ttdef"><b>Definition</b> ReconstruccionGUIAdapter.h:22</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_scene_html"><div class="ttname"><a href="../../d5/d02/class_g_e_u_1_1_scene.html">GEU::Scene</a></div><div class="ttdef"><b>Definition</b> Scene.h:18</div></div>
+<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></div><div class="ttdeci">LOCALE_STRINGS</div><div class="ttdef"><b>Definition</b> locale_strings.h:2</div></div>
+<div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_application_state_html"><div class="ttname"><a href="../../d2/d00/struct_g_e_u_1_1_application_state.html">GEU::ApplicationState</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

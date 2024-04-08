@@ -1,0 +1,970 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Referencia del archivo D:/GEU/GEUCore/Source/UI/Addons/FileDialog/ImGuiFileDialog.cpp</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d4/d06/_im_gui_file_dialog_8cpp.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo ImGuiFileDialog.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d06/_g_e_u_core_pch_8h_source.html">GEUCorePch.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d03/_im_gui_file_dialog_8h_source.html">ImGuiFileDialog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d07/_gui_utilities_8h_source.html">UI/GuiUtilities.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a000ba482f34c9fd79a2c2c8aefe4fbe7" id="r_a000ba482f34c9fd79a2c2c8aefe4fbe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../d6/d07/struct_i_g_f_d___selection___pair.html">IGFD_Selection_Pair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a000ba482f34c9fd79a2c2c8aefe4fbe7">IGFD_Selection_Pair_Get</a> (void)</td></tr>
+<tr class="separator:a000ba482f34c9fd79a2c2c8aefe4fbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8359a812e6c8c3b4cc0a230bba742b0a" id="r_a8359a812e6c8c3b4cc0a230bba742b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8359a812e6c8c3b4cc0a230bba742b0a">IGFD_Selection_Pair_DestroyContent</a> (const <a class="el" href="../../d6/d07/struct_i_g_f_d___selection___pair.html">IGFD_Selection_Pair</a> *vSelection_Pair)</td></tr>
+<tr class="separator:a8359a812e6c8c3b4cc0a230bba742b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93684c65140970a02e1a139855159bca" id="r_a93684c65140970a02e1a139855159bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../da/d00/struct_i_g_f_d___selection.html">IGFD_Selection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93684c65140970a02e1a139855159bca">IGFD_Selection_Get</a> (void)</td></tr>
+<tr class="separator:a93684c65140970a02e1a139855159bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94f94046e06366fdbaec07cbe79e980" id="r_ae94f94046e06366fdbaec07cbe79e980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94f94046e06366fdbaec07cbe79e980">IGFD_Selection_DestroyContent</a> (<a class="el" href="../../da/d00/struct_i_g_f_d___selection.html">IGFD_Selection</a> *vSelection)</td></tr>
+<tr class="separator:ae94f94046e06366fdbaec07cbe79e980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530f6a8743d55344fe85f9194e5c2c68" id="r_a530f6a8743d55344fe85f9194e5c2c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a530f6a8743d55344fe85f9194e5c2c68">IGFD_Create</a> (void)</td></tr>
+<tr class="separator:a530f6a8743d55344fe85f9194e5c2c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c40cdae64913f6836b0b438dcd2e19a" id="r_a4c40cdae64913f6836b0b438dcd2e19a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c40cdae64913f6836b0b438dcd2e19a">IGFD_Destroy</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:a4c40cdae64913f6836b0b438dcd2e19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed48272e917521c4e32315257924c12f" id="r_aed48272e917521c4e32315257924c12f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed48272e917521c4e32315257924c12f">IGFD_OpenDialog</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vKey, const char *vTitle, const char *vFilters, const char *vPath, const char *vFileName, const int vCountSelectionMax, void *vUserDatas, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a> flags)</td></tr>
+<tr class="separator:aed48272e917521c4e32315257924c12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3620f44f7748894ed5b4c251f0aa72" id="r_a8f3620f44f7748894ed5b4c251f0aa72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f3620f44f7748894ed5b4c251f0aa72">IGFD_OpenDialog2</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vKey, const char *vTitle, const char *vFilters, const char *vFilePathName, const int vCountSelectionMax, void *vUserDatas, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a> flags)</td></tr>
+<tr class="separator:a8f3620f44f7748894ed5b4c251f0aa72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152d5dfce6030ae00a5fe83899bfc75e" id="r_a152d5dfce6030ae00a5fe83899bfc75e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a152d5dfce6030ae00a5fe83899bfc75e">IGFD_OpenDialogWithPane</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vKey, const char *vTitle, const char *vFilters, const char *vPath, const char *vFileName, <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#ad8c2710f55eaaaffd99bbf3be25c8fd0">IGFD_PaneFun</a> vSidePane, const float vSidePaneWidth, const int vCountSelectionMax, void *vUserDatas, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a> flags)</td></tr>
+<tr class="separator:a152d5dfce6030ae00a5fe83899bfc75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e50837a2575a33c9053652ac2d7714" id="r_a25e50837a2575a33c9053652ac2d7714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e50837a2575a33c9053652ac2d7714">IGFD_OpenDialogWithPane2</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vKey, const char *vTitle, const char *vFilters, const char *vFilePathName, <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#ad8c2710f55eaaaffd99bbf3be25c8fd0">IGFD_PaneFun</a> vSidePane, const float vSidePaneWidth, const int vCountSelectionMax, void *vUserDatas, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a> flags)</td></tr>
+<tr class="separator:a25e50837a2575a33c9053652ac2d7714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8d3661e5128b5557dee6cdabd797c3" id="r_a6c8d3661e5128b5557dee6cdabd797c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c8d3661e5128b5557dee6cdabd797c3">IGFD_DisplayDialog</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vKey, const ImGuiWindowFlags vFlags, const ImVec2 vMinSize, const ImVec2 vMaxSize)</td></tr>
+<tr class="separator:a6c8d3661e5128b5557dee6cdabd797c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9928baa561b64a287b84b146119fb6d" id="r_aa9928baa561b64a287b84b146119fb6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9928baa561b64a287b84b146119fb6d">IGFD_CloseDialog</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:aa9928baa561b64a287b84b146119fb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b5e93b9b08ff9dce6f14681c964798d" id="r_a2b5e93b9b08ff9dce6f14681c964798d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b5e93b9b08ff9dce6f14681c964798d">IGFD_IsOk</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:a2b5e93b9b08ff9dce6f14681c964798d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b48a2e42c1f24f234f6b67a46a16939" id="r_a0b48a2e42c1f24f234f6b67a46a16939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b48a2e42c1f24f234f6b67a46a16939">IGFD_WasKeyOpenedThisFrame</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vKey)</td></tr>
+<tr class="separator:a0b48a2e42c1f24f234f6b67a46a16939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0e25faecfd364d678abc4596bacd5a" id="r_a3c0e25faecfd364d678abc4596bacd5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0e25faecfd364d678abc4596bacd5a">IGFD_WasOpenedThisFrame</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:a3c0e25faecfd364d678abc4596bacd5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e975249ec19b83b26e4613a47d154c" id="r_ab4e975249ec19b83b26e4613a47d154c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4e975249ec19b83b26e4613a47d154c">IGFD_IsKeyOpened</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const char *vCurrentOpenedKey)</td></tr>
+<tr class="separator:ab4e975249ec19b83b26e4613a47d154c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb14fdd42d41d58bb70b326667207d4d" id="r_aeb14fdd42d41d58bb70b326667207d4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb14fdd42d41d58bb70b326667207d4d">IGFD_IsOpened</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:aeb14fdd42d41d58bb70b326667207d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84e6405d85b5155968fbe05cb177d66" id="r_ac84e6405d85b5155968fbe05cb177d66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../da/d00/struct_i_g_f_d___selection.html">IGFD_Selection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac84e6405d85b5155968fbe05cb177d66">IGFD_GetSelection</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd">IGFD_ResultMode</a> vMode)</td></tr>
+<tr class="separator:ac84e6405d85b5155968fbe05cb177d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b88966c8bdd5d6dbccfe6d755f33b27" id="r_a2b88966c8bdd5d6dbccfe6d755f33b27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b88966c8bdd5d6dbccfe6d755f33b27">IGFD_GetFilePathName</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd">IGFD_ResultMode</a> vMode)</td></tr>
+<tr class="separator:a2b88966c8bdd5d6dbccfe6d755f33b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9174fa4baad4c467d8e491580d895524" id="r_a9174fa4baad4c467d8e491580d895524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9174fa4baad4c467d8e491580d895524">IGFD_GetCurrentFileName</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd">IGFD_ResultMode</a> vMode)</td></tr>
+<tr class="separator:a9174fa4baad4c467d8e491580d895524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa37d59a6a33c0d60d9ed4e166c17e0" id="r_a8aa37d59a6a33c0d60d9ed4e166c17e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aa37d59a6a33c0d60d9ed4e166c17e0">IGFD_GetCurrentPath</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:a8aa37d59a6a33c0d60d9ed4e166c17e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e74aeae99a1970bccda6bd26854299" id="r_ac3e74aeae99a1970bccda6bd26854299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3e74aeae99a1970bccda6bd26854299">IGFD_GetCurrentFilter</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:ac3e74aeae99a1970bccda6bd26854299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb1ac5ca9148fc7d77587d81b5f41f72" id="r_aeb1ac5ca9148fc7d77587d81b5f41f72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb1ac5ca9148fc7d77587d81b5f41f72">IGFD_GetUserDatas</a> (const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:aeb1ac5ca9148fc7d77587d81b5f41f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc66e059594538918b8d854272b47698" id="r_afc66e059594538918b8d854272b47698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc66e059594538918b8d854272b47698">IGFD_SetFileStyle</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5">IGFD_FileStyleFlags</a> vFlags, const char *vCriteria, const ImVec4 vColor, const char *vIcon, ImFont *vFont)</td></tr>
+<tr class="separator:afc66e059594538918b8d854272b47698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbcdede2189f627943970b3b2bfd1e2c" id="r_adbcdede2189f627943970b3b2bfd1e2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbcdede2189f627943970b3b2bfd1e2c">IGFD_SetFileStyle2</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5">IGFD_FileStyleFlags</a> vFlags, const char *vCriteria, const float vR, const float vG, const float vB, const float vA, const char *vIcon, ImFont *vFont)</td></tr>
+<tr class="separator:adbcdede2189f627943970b3b2bfd1e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bacd7035310376b5d41976954d1348d" id="r_a0bacd7035310376b5d41976954d1348d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bacd7035310376b5d41976954d1348d">IGFD_GetFileStyle</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5">IGFD_FileStyleFlags</a> vFlags, const char *vCriteria, ImVec4 *vOutColor, char **vOutIconText, ImFont **vOutFont)</td></tr>
+<tr class="separator:a0bacd7035310376b5d41976954d1348d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73898f6a91f51b31dcf527c1b528c12c" id="r_a73898f6a91f51b31dcf527c1b528c12c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73898f6a91f51b31dcf527c1b528c12c">IGFD_ClearFilesStyle</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr)</td></tr>
+<tr class="separator:a73898f6a91f51b31dcf527c1b528c12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b27e71903d7c37a0f657f3ada3de93a" id="r_a8b27e71903d7c37a0f657f3ada3de93a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b27e71903d7c37a0f657f3ada3de93a">SetLocales</a> (<a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *vContextPtr, const int vCategory, const char *vBeginLocale, const char *vEndLocale)</td></tr>
+<tr class="separator:a8b27e71903d7c37a0f657f3ada3de93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de funciones</h2>
+<a id="a73898f6a91f51b31dcf527c1b528c12c" name="a73898f6a91f51b31dcf527c1b528c12c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73898f6a91f51b31dcf527c1b528c12c">&#9670;&#160;</a></span>IGFD_ClearFilesStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_ClearFilesStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9928baa561b64a287b84b146119fb6d" name="aa9928baa561b64a287b84b146119fb6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9928baa561b64a287b84b146119fb6d">&#9670;&#160;</a></span>IGFD_CloseDialog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_CloseDialog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a530f6a8743d55344fe85f9194e5c2c68" name="a530f6a8743d55344fe85f9194e5c2c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a530f6a8743d55344fe85f9194e5c2c68">&#9670;&#160;</a></span>IGFD_Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> * IGFD_Create </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c40cdae64913f6836b0b438dcd2e19a" name="a4c40cdae64913f6836b0b438dcd2e19a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c40cdae64913f6836b0b438dcd2e19a">&#9670;&#160;</a></span>IGFD_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c8d3661e5128b5557dee6cdabd797c3" name="a6c8d3661e5128b5557dee6cdabd797c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8d3661e5128b5557dee6cdabd797c3">&#9670;&#160;</a></span>IGFD_DisplayDialog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_DisplayDialog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImGuiWindowFlags</td>          <td class="paramname"><span class="paramname"><em>vFlags</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2</td>          <td class="paramname"><span class="paramname"><em>vMinSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2</td>          <td class="paramname"><span class="paramname"><em>vMaxSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9174fa4baad4c467d8e491580d895524" name="a9174fa4baad4c467d8e491580d895524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9174fa4baad4c467d8e491580d895524">&#9670;&#160;</a></span>IGFD_GetCurrentFileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char * IGFD_GetCurrentFileName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd">IGFD_ResultMode</a></td>          <td class="paramname"><span class="paramname"><em>vMode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3e74aeae99a1970bccda6bd26854299" name="ac3e74aeae99a1970bccda6bd26854299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e74aeae99a1970bccda6bd26854299">&#9670;&#160;</a></span>IGFD_GetCurrentFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char * IGFD_GetCurrentFilter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8aa37d59a6a33c0d60d9ed4e166c17e0" name="a8aa37d59a6a33c0d60d9ed4e166c17e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aa37d59a6a33c0d60d9ed4e166c17e0">&#9670;&#160;</a></span>IGFD_GetCurrentPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char * IGFD_GetCurrentPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b88966c8bdd5d6dbccfe6d755f33b27" name="a2b88966c8bdd5d6dbccfe6d755f33b27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b88966c8bdd5d6dbccfe6d755f33b27">&#9670;&#160;</a></span>IGFD_GetFilePathName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> char * IGFD_GetFilePathName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd">IGFD_ResultMode</a></td>          <td class="paramname"><span class="paramname"><em>vMode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bacd7035310376b5d41976954d1348d" name="a0bacd7035310376b5d41976954d1348d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bacd7035310376b5d41976954d1348d">&#9670;&#160;</a></span>IGFD_GetFileStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_GetFileStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5">IGFD_FileStyleFlags</a></td>          <td class="paramname"><span class="paramname"><em>vFlags</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vCriteria</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImVec4 *</td>          <td class="paramname"><span class="paramname"><em>vOutColor</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **</td>          <td class="paramname"><span class="paramname"><em>vOutIconText</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImFont **</td>          <td class="paramname"><span class="paramname"><em>vOutFont</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac84e6405d85b5155968fbe05cb177d66" name="ac84e6405d85b5155968fbe05cb177d66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac84e6405d85b5155968fbe05cb177d66">&#9670;&#160;</a></span>IGFD_GetSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../da/d00/struct_i_g_f_d___selection.html">IGFD_Selection</a> IGFD_GetSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aab813b6f531d6523f386da79bbb5d2cd">IGFD_ResultMode</a></td>          <td class="paramname"><span class="paramname"><em>vMode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/_im_gui_file_dialog_8cpp_ac84e6405d85b5155968fbe05cb177d66_cgraph.svg" width="332" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aeb1ac5ca9148fc7d77587d81b5f41f72" name="aeb1ac5ca9148fc7d77587d81b5f41f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb1ac5ca9148fc7d77587d81b5f41f72">&#9670;&#160;</a></span>IGFD_GetUserDatas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void * IGFD_GetUserDatas </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4e975249ec19b83b26e4613a47d154c" name="ab4e975249ec19b83b26e4613a47d154c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e975249ec19b83b26e4613a47d154c">&#9670;&#160;</a></span>IGFD_IsKeyOpened()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_IsKeyOpened </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vCurrentOpenedKey</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b5e93b9b08ff9dce6f14681c964798d" name="a2b5e93b9b08ff9dce6f14681c964798d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b5e93b9b08ff9dce6f14681c964798d">&#9670;&#160;</a></span>IGFD_IsOk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_IsOk </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb14fdd42d41d58bb70b326667207d4d" name="aeb14fdd42d41d58bb70b326667207d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb14fdd42d41d58bb70b326667207d4d">&#9670;&#160;</a></span>IGFD_IsOpened()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_IsOpened </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed48272e917521c4e32315257924c12f" name="aed48272e917521c4e32315257924c12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed48272e917521c4e32315257924c12f">&#9670;&#160;</a></span>IGFD_OpenDialog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_OpenDialog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vTitle</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFilters</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vPath</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFileName</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>vCountSelectionMax</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>vUserDatas</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f3620f44f7748894ed5b4c251f0aa72" name="a8f3620f44f7748894ed5b4c251f0aa72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3620f44f7748894ed5b4c251f0aa72">&#9670;&#160;</a></span>IGFD_OpenDialog2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_OpenDialog2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vTitle</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFilters</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFilePathName</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>vCountSelectionMax</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>vUserDatas</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a152d5dfce6030ae00a5fe83899bfc75e" name="a152d5dfce6030ae00a5fe83899bfc75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a152d5dfce6030ae00a5fe83899bfc75e">&#9670;&#160;</a></span>IGFD_OpenDialogWithPane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_OpenDialogWithPane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vTitle</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFilters</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vPath</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFileName</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#ad8c2710f55eaaaffd99bbf3be25c8fd0">IGFD_PaneFun</a></td>          <td class="paramname"><span class="paramname"><em>vSidePane</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>vSidePaneWidth</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>vCountSelectionMax</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>vUserDatas</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25e50837a2575a33c9053652ac2d7714" name="a25e50837a2575a33c9053652ac2d7714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25e50837a2575a33c9053652ac2d7714">&#9670;&#160;</a></span>IGFD_OpenDialogWithPane2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_OpenDialogWithPane2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vKey</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vTitle</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFilters</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vFilePathName</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#ad8c2710f55eaaaffd99bbf3be25c8fd0">IGFD_PaneFun</a></td>          <td class="paramname"><span class="paramname"><em>vSidePane</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>vSidePaneWidth</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>vCountSelectionMax</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>vUserDatas</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a0d1ec896e282e592423cd9b6b4142138">ImGuiFileDialogFlags</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae94f94046e06366fdbaec07cbe79e980" name="ae94f94046e06366fdbaec07cbe79e980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94f94046e06366fdbaec07cbe79e980">&#9670;&#160;</a></span>IGFD_Selection_DestroyContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_Selection_DestroyContent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d00/struct_i_g_f_d___selection.html">IGFD_Selection</a> *</td>          <td class="paramname"><span class="paramname"><em>vSelection</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/_im_gui_file_dialog_8cpp_ae94f94046e06366fdbaec07cbe79e980_cgraph.svg" width="411" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a93684c65140970a02e1a139855159bca" name="a93684c65140970a02e1a139855159bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93684c65140970a02e1a139855159bca">&#9670;&#160;</a></span>IGFD_Selection_Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../da/d00/struct_i_g_f_d___selection.html">IGFD_Selection</a> IGFD_Selection_Get </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/_im_gui_file_dialog_8cpp_a93684c65140970a02e1a139855159bca_icgraph.svg" width="332" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8359a812e6c8c3b4cc0a230bba742b0a" name="a8359a812e6c8c3b4cc0a230bba742b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8359a812e6c8c3b4cc0a230bba742b0a">&#9670;&#160;</a></span>IGFD_Selection_Pair_DestroyContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_Selection_Pair_DestroyContent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d07/struct_i_g_f_d___selection___pair.html">IGFD_Selection_Pair</a> *</td>          <td class="paramname"><span class="paramname"><em>vSelection_Pair</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/_im_gui_file_dialog_8cpp_a8359a812e6c8c3b4cc0a230bba742b0a_icgraph.svg" width="411" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a000ba482f34c9fd79a2c2c8aefe4fbe7" name="a000ba482f34c9fd79a2c2c8aefe4fbe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a000ba482f34c9fd79a2c2c8aefe4fbe7">&#9670;&#160;</a></span>IGFD_Selection_Pair_Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> <a class="el" href="../../d6/d07/struct_i_g_f_d___selection___pair.html">IGFD_Selection_Pair</a> IGFD_Selection_Pair_Get </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc66e059594538918b8d854272b47698" name="afc66e059594538918b8d854272b47698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc66e059594538918b8d854272b47698">&#9670;&#160;</a></span>IGFD_SetFileStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_SetFileStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5">IGFD_FileStyleFlags</a></td>          <td class="paramname"><span class="paramname"><em>vFlags</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vCriteria</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec4</td>          <td class="paramname"><span class="paramname"><em>vColor</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vIcon</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImFont *</td>          <td class="paramname"><span class="paramname"><em>vFont</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbcdede2189f627943970b3b2bfd1e2c" name="adbcdede2189f627943970b3b2bfd1e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbcdede2189f627943970b3b2bfd1e2c">&#9670;&#160;</a></span>IGFD_SetFileStyle2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void IGFD_SetFileStyle2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#aa7f0b9ab382d1d958dde11fd89d9c6b5">IGFD_FileStyleFlags</a></td>          <td class="paramname"><span class="paramname"><em>vFlags</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vCriteria</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>vR</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>vG</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>vB</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float</td>          <td class="paramname"><span class="paramname"><em>vA</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vIcon</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImFont *</td>          <td class="paramname"><span class="paramname"><em>vFont</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b48a2e42c1f24f234f6b67a46a16939" name="a0b48a2e42c1f24f234f6b67a46a16939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b48a2e42c1f24f234f6b67a46a16939">&#9670;&#160;</a></span>IGFD_WasKeyOpenedThisFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_WasKeyOpenedThisFrame </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vKey</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c0e25faecfd364d678abc4596bacd5a" name="a3c0e25faecfd364d678abc4596bacd5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c0e25faecfd364d678abc4596bacd5a">&#9670;&#160;</a></span>IGFD_WasOpenedThisFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> bool IGFD_WasOpenedThisFrame </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b27e71903d7c37a0f657f3ada3de93a" name="a8b27e71903d7c37a0f657f3ada3de93a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b27e71903d7c37a0f657f3ada3de93a">&#9670;&#160;</a></span>SetLocales()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a935cee88d6fffd14c92f5faf22b659f6">IGFD_C_API</a> void SetLocales </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d03/_im_gui_file_dialog_8h.html#a3c9785c533da15655f9c941c867dfae2">ImGuiFileDialog</a> *</td>          <td class="paramname"><span class="paramname"><em>vContextPtr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>vCategory</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vBeginLocale</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>vEndLocale</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->

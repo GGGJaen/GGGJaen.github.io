@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUCore/Source/DataTypes/TriangleMesh.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('df/d01/_triangle_mesh_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">TriangleMesh.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../df/d01/_triangle_mesh_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;assimp/Importer.hpp&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;assimp/scene.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d0/d06/_model3_d_8h.html">Model3D.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d01/_material_8h.html">Graphics/Material.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d04/_v_a_o_8h.html">Graphics/VAO.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../df/d01/_triangle_mesh_8h.html#a787b75012c92a515d7d4c38532118e44">    8</a></span><span class="preprocessor">#define BINARY_EXTENSION &quot;.bin&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../df/d01/_triangle_mesh_8h.html#a1fde37db7b97119002221a7783072654">    9</a></span><span class="preprocessor">#define FBX_EXTENSION &quot;.fbx&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../df/d01/_triangle_mesh_8h.html#a6058eae4be9bac038429e097eda0a99e">   10</a></span><span class="preprocessor">#define GLTF_EXTENSION &quot;.gltf&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../df/d01/_triangle_mesh_8h.html#a837912b610e87544c2830b768970773b">   11</a></span><span class="preprocessor">#define OBJ_EXTENSION &quot;.obj&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d05/class_texture_list.html">TextureList</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/namespace_g_e_u.html">GEU</a> {</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html">   16</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html">TriangleMesh</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../db/d04/class_g_e_u_1_1_model3_d.html">Model3D</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a7786e2e385d628b59b4b05c76bc2bf3e">   17</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../db/d00/class_g_e_u_1_1_details_window.html">DetailsWindow</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html">   19</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html">Component</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a22e60d0eeb989af0716b22218a111283">   20</a></span>            <span class="keywordtype">bool</span>                            <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a22e60d0eeb989af0716b22218a111283">_enabled</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a5ccbffe301cc6f3fc5c708d920e2660e">   21</a></span>            <span class="keywordtype">bool</span>                            <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a5ccbffe301cc6f3fc5c708d920e2660e">_initialized</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a722cedd60cf58acadc20e74c52176c69">   22</a></span>            std::string                     <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a722cedd60cf58acadc20e74c52176c69">_name</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9d9465c89c7f77eef755fd7452491870">   23</a></span>            <span class="keywordtype">size_t</span>                          <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9e68547829e3fb4798b39c8464a0da1f">_baseVertex</a>, <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9d9465c89c7f77eef755fd7452491870">_baseIndex</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ab4a43ddc360e73b18beec51b730563c3">   24</a></span>            std::vector&lt;VAO::Vertex&gt;        <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ab4a43ddc360e73b18beec51b730563c3">_vertices</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae6d76872ddb35ab857d5216ee8d3fbcb">   25</a></span>            std::vector&lt;uint32_t&gt;               <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae6d76872ddb35ab857d5216ee8d3fbcb">_indices</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a7d023ab4f548a6b67a838d4f1084af8b">   26</a></span>            <a class="code hl_class" href="../../de/d03/class_g_e_u_1_1_v_a_o.html">VAO</a>* <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a7d023ab4f548a6b67a838d4f1084af8b">_vao</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a4ad066fa9c1ef8bacbddeeae130e119f">   27</a></span>            <a class="code hl_class" href="../../dc/d07/class_a_a_b_b.html">AABB</a>                            <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a4ad066fa9c1ef8bacbddeeae130e119f">_aabb</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae14cd6fc32ba2797592c110d6b94def3">   28</a></span>            <a class="code hl_class" href="../../d5/d07/class_g_e_u_1_1_material.html">Material</a>* <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae14cd6fc32ba2797592c110d6b94def3">_material</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ab6b91952a069379a60625c057e56007f">   29</a></span>            <a class="code hl_struct" href="../../db/d00/struct_g_e_u_1_1_material_1_1_material_description.html">Material::MaterialDescription</a>   <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ab6b91952a069379a60625c057e56007f">_materialDescription</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a129aaf9b44473207356a2e336d6a5e98">   31</a></span>            <a class="code hl_function" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a129aaf9b44473207356a2e336d6a5e98">Component</a>(<a class="code hl_class" href="../../de/d03/class_g_e_u_1_1_v_a_o.html">VAO</a>* vao = <span class="keyword">nullptr</span>) { <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a22e60d0eeb989af0716b22218a111283">_enabled</a> = <span class="keyword">true</span>; <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a5ccbffe301cc6f3fc5c708d920e2660e">_initialized</a> = <span class="keyword">false</span>; <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a7d023ab4f548a6b67a838d4f1084af8b">_vao</a> = vao; <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae14cd6fc32ba2797592c110d6b94def3">_material</a> = <span class="keyword">nullptr</span>; <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9e68547829e3fb4798b39c8464a0da1f">_baseVertex</a> = <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9d9465c89c7f77eef755fd7452491870">_baseIndex</a> = 0; }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ac6bed4f15fb306bd776c0a72605dddd4">   32</a></span>            <a class="code hl_function" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ac6bed4f15fb306bd776c0a72605dddd4">~Component</a>() { <span class="keyword">delete</span> <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a7d023ab4f548a6b67a838d4f1084af8b">_vao</a>; <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a7d023ab4f548a6b67a838d4f1084af8b">_vao</a> = <span class="keyword">nullptr</span>; <a class="code hl_variable" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae14cd6fc32ba2797592c110d6b94def3">_material</a> = <span class="keyword">nullptr</span>; }</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        };</div>
+</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a30caa357b908f087ce77ad596b5d4313">   36</a></span>        Assimp::Importer                            <a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a30caa357b908f087ce77ad596b5d4313">_assimpImporter</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#acf560efb192a545b10b07d2a6672f904">   37</a></span>        std::vector&lt;std::unique_ptr&lt;Component&gt;&gt;     <a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#acf560efb192a545b10b07d2a6672f904">_components</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a1e834a362cc76979f92f1d38efd824e8">   38</a></span>        <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a>                                        <a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a1e834a362cc76979f92f1d38efd824e8">_modelAssimpMatrix</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a56dc06dd11f42308a9118422d485c408">   39</a></span>        <span class="keywordtype">size_t</span>                                      <a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a36347739f3344e7f24a47a89d49daefe">_numVertices</a>, <a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a56dc06dd11f42308a9118422d485c408">_numIndices</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#afa8cc93c2ce32d5a70b612698d27caec">   40</a></span>        <span class="keyword">const</span> aiScene* <a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#afa8cc93c2ce32d5a70b612698d27caec">_scene</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#aa5570a8696a3f4105e5177edd1d11d4b">buildVao</a>(<a class="code hl_struct" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html">Component</a>* component);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_class" href="../../dc/d06/class_g_e_u_1_1_texture.html">Texture</a>* <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a4126cd325f31629e86c21a7efed1cd28">getTexture</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; color, <a class="code hl_class" href="../../d2/d05/class_texture_list.html">TextureList</a>* textureList);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_class" href="../../d5/d07/class_g_e_u_1_1_material.html">Material</a>* <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a86793550dce990b78d2fd3fa6109c1cf">loadMaterial</a>(<a class="code hl_struct" href="../../db/d00/struct_g_e_u_1_1_material_1_1_material_description.html">Material::MaterialDescription</a>* description, std::string matName = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0c3f42dc509b0923e5fecfd5fe182a9c">matrixToGLM</a>(<span class="keyword">const</span> aiMatrix3x3&amp; matrix);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0c3f42dc509b0923e5fecfd5fe182a9c">matrixToGLM</a>(<span class="keyword">const</span> aiMatrix4x4&amp; matrix);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_struct" href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html">Component</a>* <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd">processMesh</a>(aiMesh* mesh, <span class="keyword">const</span> aiScene* scene, <span class="keyword">const</span> std::string&amp; folder);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac60937192cee4b7565d5b481aa4ed04f">processNode</a>(<span class="keyword">const</span> aiNode* node, <span class="keyword">const</span> aiScene* scene, <span class="keyword">const</span> std::string&amp; folder);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ada93544a3b7dbbe012fb9648266723cb">readNodeHierarchy</a>(<span class="keywordtype">float</span> animationTimeTicks, <span class="keyword">const</span> aiNode* pNode, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a>&amp; parentTransform);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a45fdd26aedbcd104d2b64ae189521897">TriangleMesh</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a45fdd26aedbcd104d2b64ae189521897">TriangleMesh</a>(<span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0cab55082cda11d09d62b9f5414112bf">   55</a></span>        <span class="keyword">virtual</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0cab55082cda11d09d62b9f5414112bf">~TriangleMesh</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a6b7412ae2e18dc527a051de08de02fda">drawModel</a>(<a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f">dmat4</a> viewProjMatrix) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a6b7412ae2e18dc527a051de08de02fda">drawModel</a>(<a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f">dmat4</a> viewMatrix, <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f">dmat4</a> viewProjMatrix);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095">   59</a></span>        <a class="code hl_class" href="../../dc/d07/class_a_a_b_b.html">AABB</a> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095">getAABB</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d04/class_g_e_u_1_1_model3_d.html#a223a8787dcf17ab91943890692d578ef">_aabb</a>.<a class="code hl_function" href="../../dc/d07/class_a_a_b_b.html#ab4dad925a3cb42ad2f00c7d5053369e1">dot</a>(<a class="code hl_variable" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a1e834a362cc76979f92f1d38efd824e8">_modelAssimpMatrix</a>).<a class="code hl_function" href="../../dc/d07/class_a_a_b_b.html#ab4dad925a3cb42ad2f00c7d5053369e1">dot</a>(<a class="code hl_function" href="../../db/d04/class_g_e_u_1_1_model3_d.html#aea23eb9ab8de56f02dacaa5155fcac15">getModelMatrix</a>()); }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <a class="code hl_class" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html">TriangleMesh</a>* <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ab0e66715d4a5f498f8ba41bb75fbfbc4">loadModelOBJ</a>(<span class="keyword">const</span> std::string&amp; path);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#af3317dd9b6bbec740f6d45d419f28feb">moveGeometryToOrigin</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac6657aea63eb8b47265b06d88dcefb4a">loadBinaryFile</a>(<span class="keyword">const</span> std::string&amp; path) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a67310695358d8ffdde5abe28d79eeec0">saveBinaryFile</a>(<span class="keyword">const</span> std::string&amp; path) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    };</div>
+</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_a2db59f395fe82a7394c6324956c265d8"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a></div><div class="ttdeci">glm::mat4 mat4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:58</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_ac54e849f8b2339f592307eaf6cdbba77"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a></div><div class="ttdeci">glm::vec4 vec4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:56</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_af43d058bbd1a5e67c36930d83a785c9f"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f">dmat4</a></div><div class="ttdeci">glm::dmat4 dmat4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:59</div></div>
+<div class="ttc" id="a_material_8h_html"><div class="ttname"><a href="../../d3/d01/_material_8h.html">Material.h</a></div></div>
+<div class="ttc" id="a_model3_d_8h_html"><div class="ttname"><a href="../../d0/d06/_model3_d_8h.html">Model3D.h</a></div></div>
+<div class="ttc" id="a_v_a_o_8h_html"><div class="ttname"><a href="../../d9/d04/_v_a_o_8h.html">VAO.h</a></div></div>
+<div class="ttc" id="aclass_a_a_b_b_html"><div class="ttname"><a href="../../dc/d07/class_a_a_b_b.html">AABB</a></div><div class="ttdef"><b>Definition</b> AABB.h:6</div></div>
+<div class="ttc" id="aclass_a_a_b_b_html_ab4dad925a3cb42ad2f00c7d5053369e1"><div class="ttname"><a href="../../dc/d07/class_a_a_b_b.html#ab4dad925a3cb42ad2f00c7d5053369e1">AABB::dot</a></div><div class="ttdeci">AABB dot(const mat4 &amp;matrix) const</div><div class="ttdef"><b>Definition</b> AABB.cpp:15</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_details_window_html"><div class="ttname"><a href="../../db/d00/class_g_e_u_1_1_details_window.html">GEU::DetailsWindow</a></div><div class="ttdoc">Inspector selection details window: allow to manipulate scene contents properties.</div><div class="ttdef"><b>Definition</b> DetailsWindow.h:10</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_material_html"><div class="ttname"><a href="../../d5/d07/class_g_e_u_1_1_material.html">GEU::Material</a></div><div class="ttdef"><b>Definition</b> Material.h:9</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_model3_d_html"><div class="ttname"><a href="../../db/d04/class_g_e_u_1_1_model3_d.html">GEU::Model3D</a></div><div class="ttdef"><b>Definition</b> Model3D.h:8</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_model3_d_html_a223a8787dcf17ab91943890692d578ef"><div class="ttname"><a href="../../db/d04/class_g_e_u_1_1_model3_d.html#a223a8787dcf17ab91943890692d578ef">GEU::Model3D::_aabb</a></div><div class="ttdeci">AABB _aabb</div><div class="ttdef"><b>Definition</b> Model3D.h:18</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_model3_d_html_aea23eb9ab8de56f02dacaa5155fcac15"><div class="ttname"><a href="../../db/d04/class_g_e_u_1_1_model3_d.html#aea23eb9ab8de56f02dacaa5155fcac15">GEU::Model3D::getModelMatrix</a></div><div class="ttdeci">dmat4 getModelMatrix() const</div><div class="ttdef"><b>Definition</b> Model3D.cpp:49</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_texture_html"><div class="ttname"><a href="../../dc/d06/class_g_e_u_1_1_texture.html">GEU::Texture</a></div><div class="ttdef"><b>Definition</b> Texture.h:11</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html">GEU::TriangleMesh</a></div><div class="ttdef"><b>Definition</b> TriangleMesh.h:16</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a0c3f42dc509b0923e5fecfd5fe182a9c"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0c3f42dc509b0923e5fecfd5fe182a9c">GEU::TriangleMesh::matrixToGLM</a></div><div class="ttdeci">static mat4 matrixToGLM(const aiMatrix3x3 &amp;matrix)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:147</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a0cab55082cda11d09d62b9f5414112bf"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0cab55082cda11d09d62b9f5414112bf">GEU::TriangleMesh::~TriangleMesh</a></div><div class="ttdeci">virtual ~TriangleMesh()</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a1e834a362cc76979f92f1d38efd824e8"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a1e834a362cc76979f92f1d38efd824e8">GEU::TriangleMesh::_modelAssimpMatrix</a></div><div class="ttdeci">mat4 _modelAssimpMatrix</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:38</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a30caa357b908f087ce77ad596b5d4313"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a30caa357b908f087ce77ad596b5d4313">GEU::TriangleMesh::_assimpImporter</a></div><div class="ttdeci">Assimp::Importer _assimpImporter</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:36</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a36347739f3344e7f24a47a89d49daefe"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a36347739f3344e7f24a47a89d49daefe">GEU::TriangleMesh::_numVertices</a></div><div class="ttdeci">size_t _numVertices</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:39</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a3d0a52044599f2686b42aed5b4630095"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095">GEU::TriangleMesh::getAABB</a></div><div class="ttdeci">AABB getAABB() override</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:59</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a4126cd325f31629e86c21a7efed1cd28"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a4126cd325f31629e86c21a7efed1cd28">GEU::TriangleMesh::getTexture</a></div><div class="ttdeci">Texture * getTexture(const vec4 &amp;color, TextureList *textureList)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:97</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a45fdd26aedbcd104d2b64ae189521897"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a45fdd26aedbcd104d2b64ae189521897">GEU::TriangleMesh::TriangleMesh</a></div><div class="ttdeci">TriangleMesh()</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:15</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a56dc06dd11f42308a9118422d485c408"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a56dc06dd11f42308a9118422d485c408">GEU::TriangleMesh::_numIndices</a></div><div class="ttdeci">size_t _numIndices</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:39</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a67310695358d8ffdde5abe28d79eeec0"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a67310695358d8ffdde5abe28d79eeec0">GEU::TriangleMesh::saveBinaryFile</a></div><div class="ttdeci">void saveBinaryFile(const std::string &amp;path) override</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:258</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a6b7412ae2e18dc527a051de08de02fda"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a6b7412ae2e18dc527a051de08de02fda">GEU::TriangleMesh::drawModel</a></div><div class="ttdeci">void drawModel(dmat4 viewProjMatrix) override</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:47</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_a86793550dce990b78d2fd3fa6109c1cf"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a86793550dce990b78d2fd3fa6109c1cf">GEU::TriangleMesh::loadMaterial</a></div><div class="ttdeci">Material * loadMaterial(Material::MaterialDescription *description, std::string matName=&quot;&quot;)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:108</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_aa5570a8696a3f4105e5177edd1d11d4b"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#aa5570a8696a3f4105e5177edd1d11d4b">GEU::TriangleMesh::buildVao</a></div><div class="ttdeci">void buildVao(Component *component)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:90</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_ab0e66715d4a5f498f8ba41bb75fbfbc4"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ab0e66715d4a5f498f8ba41bb75fbfbc4">GEU::TriangleMesh::loadModelOBJ</a></div><div class="ttdeci">TriangleMesh * loadModelOBJ(const std::string &amp;path)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:25</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_ac3f1b02a743202ee74356c314a7f0ecd"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd">GEU::TriangleMesh::processMesh</a></div><div class="ttdeci">Component * processMesh(aiMesh *mesh, const aiScene *scene, const std::string &amp;folder)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:158</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_ac60937192cee4b7565d5b481aa4ed04f"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac60937192cee4b7565d5b481aa4ed04f">GEU::TriangleMesh::processNode</a></div><div class="ttdeci">void processNode(const aiNode *node, const aiScene *scene, const std::string &amp;folder)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:233</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_ac6657aea63eb8b47265b06d88dcefb4a"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac6657aea63eb8b47265b06d88dcefb4a">GEU::TriangleMesh::loadBinaryFile</a></div><div class="ttdeci">void loadBinaryFile(const std::string &amp;path) override</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:301</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_acf560efb192a545b10b07d2a6672f904"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#acf560efb192a545b10b07d2a6672f904">GEU::TriangleMesh::_components</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; Component &gt; &gt; _components</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:37</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_ada93544a3b7dbbe012fb9648266723cb"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#ada93544a3b7dbbe012fb9648266723cb">GEU::TriangleMesh::readNodeHierarchy</a></div><div class="ttdeci">void readNodeHierarchy(float animationTimeTicks, const aiNode *pNode, const mat4 &amp;parentTransform)</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:245</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_af3317dd9b6bbec740f6d45d419f28feb"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#af3317dd9b6bbec740f6d45d419f28feb">GEU::TriangleMesh::moveGeometryToOrigin</a></div><div class="ttdeci">void moveGeometryToOrigin() override</div><div class="ttdef"><b>Definition</b> TriangleMesh.cpp:82</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_triangle_mesh_html_afa8cc93c2ce32d5a70b612698d27caec"><div class="ttname"><a href="../../d9/d02/class_g_e_u_1_1_triangle_mesh.html#afa8cc93c2ce32d5a70b612698d27caec">GEU::TriangleMesh::_scene</a></div><div class="ttdeci">const aiScene * _scene</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:40</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_v_a_o_html"><div class="ttname"><a href="../../de/d03/class_g_e_u_1_1_v_a_o.html">GEU::VAO</a></div><div class="ttdef"><b>Definition</b> VAO.h:8</div></div>
+<div class="ttc" id="aclass_texture_list_html"><div class="ttname"><a href="../../d2/d05/class_texture_list.html">TextureList</a></div><div class="ttdef"><b>Definition</b> TextureList.h:7</div></div>
+<div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_material_1_1_material_description_html"><div class="ttname"><a href="../../db/d00/struct_g_e_u_1_1_material_1_1_material_description.html">GEU::Material::MaterialDescription</a></div><div class="ttdef"><b>Definition</b> Material.h:14</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html">GEU::TriangleMesh::Component</a></div><div class="ttdef"><b>Definition</b> TriangleMesh.h:19</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a129aaf9b44473207356a2e336d6a5e98"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a129aaf9b44473207356a2e336d6a5e98">GEU::TriangleMesh::Component::Component</a></div><div class="ttdeci">Component(VAO *vao=nullptr)</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:31</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a22e60d0eeb989af0716b22218a111283"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a22e60d0eeb989af0716b22218a111283">GEU::TriangleMesh::Component::_enabled</a></div><div class="ttdeci">bool _enabled</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:20</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a4ad066fa9c1ef8bacbddeeae130e119f"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a4ad066fa9c1ef8bacbddeeae130e119f">GEU::TriangleMesh::Component::_aabb</a></div><div class="ttdeci">AABB _aabb</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:27</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a5ccbffe301cc6f3fc5c708d920e2660e"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a5ccbffe301cc6f3fc5c708d920e2660e">GEU::TriangleMesh::Component::_initialized</a></div><div class="ttdeci">bool _initialized</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:21</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a722cedd60cf58acadc20e74c52176c69"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a722cedd60cf58acadc20e74c52176c69">GEU::TriangleMesh::Component::_name</a></div><div class="ttdeci">std::string _name</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:22</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a7d023ab4f548a6b67a838d4f1084af8b"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a7d023ab4f548a6b67a838d4f1084af8b">GEU::TriangleMesh::Component::_vao</a></div><div class="ttdeci">VAO * _vao</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:26</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a9d9465c89c7f77eef755fd7452491870"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9d9465c89c7f77eef755fd7452491870">GEU::TriangleMesh::Component::_baseIndex</a></div><div class="ttdeci">size_t _baseIndex</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:23</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_a9e68547829e3fb4798b39c8464a0da1f"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a9e68547829e3fb4798b39c8464a0da1f">GEU::TriangleMesh::Component::_baseVertex</a></div><div class="ttdeci">size_t _baseVertex</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:23</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_ab4a43ddc360e73b18beec51b730563c3"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ab4a43ddc360e73b18beec51b730563c3">GEU::TriangleMesh::Component::_vertices</a></div><div class="ttdeci">std::vector&lt; VAO::Vertex &gt; _vertices</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:24</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_ab6b91952a069379a60625c057e56007f"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ab6b91952a069379a60625c057e56007f">GEU::TriangleMesh::Component::_materialDescription</a></div><div class="ttdeci">Material::MaterialDescription _materialDescription</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:29</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_ac6bed4f15fb306bd776c0a72605dddd4"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ac6bed4f15fb306bd776c0a72605dddd4">GEU::TriangleMesh::Component::~Component</a></div><div class="ttdeci">~Component()</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:32</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_ae14cd6fc32ba2797592c110d6b94def3"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae14cd6fc32ba2797592c110d6b94def3">GEU::TriangleMesh::Component::_material</a></div><div class="ttdeci">Material * _material</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:28</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_triangle_mesh_1_1_component_html_ae6d76872ddb35ab857d5216ee8d3fbcb"><div class="ttname"><a href="../../d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae6d76872ddb35ab857d5216ee8d3fbcb">GEU::TriangleMesh::Component::_indices</a></div><div class="ttdeci">std::vector&lt; uint32_t &gt; _indices</div><div class="ttdef"><b>Definition</b> TriangleMesh.h:25</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

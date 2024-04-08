@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['data_0',['data',['../d8/d07/classjson_1_1jobject.html#a6ce18fbccc2b45f9eef9b8b420528149',1,'json::jobject::data'],['../d6/d03/classjson_1_1jobject_1_1const__value.html#a8781c61952afa2d80b75d7622698310a',1,'json::jobject::const_value::data']]],
+  ['data_5f_1',['data_',['../d2/d03/classunibn_1_1_octree.html#aeca636619184cd7319331a5a89fb2f12',1,'unibn::Octree']]],
+  ['databandsnumber_2',['dataBandsNumber',['../d4/d07/class_g_e_u_1_1_point_cloud.html#a7bdfb3491c67de92b3e9d70440e71b33',1,'GEU::PointCloud']]],
+  ['delimiter_3',['DELIMITER',['../da/d01/_thermal_augment_8cpp.html#ae3db6e0dba70d71474807e929837b27a',1,'ThermalAugment.cpp']]],
+  ['deltatime_4',['deltaTime',['../d2/d00/struct_g_e_u_1_1_application_state.html#ab04df66e4175b730759204ae27c87348',1,'GEU::ApplicationState']]],
+  ['descripcion_5',['descripcion',['../d4/d04/struct_database_1_1_dato.html#acd3718a6682a73a32d6a7f08716fc0ad',1,'Database::Dato::descripcion'],['../da/d03/struct_database_1_1_zona.html#adb1fc0a7f11e9010e836d1816a49b31a',1,'Database::Zona::descripcion']]],
+  ['direction_6',['DIRECTION',['../d4/d01/class_g_e_u_1_1_light_properties.html#a210b1b9076b9f1130cdfb1530446f0dc',1,'GEU::LightProperties']]],
+  ['dirty_7',['dirty',['../d5/d02/class_g_e_u_1_1_scene.html#adb7d12a8993233df51b4167e0c65f725',1,'GEU::Scene']]],
+  ['dismisstime_8',['dismissTime',['../d8/d04/class_im_gui_toast.html#afc6e18786a35bccfd12afb2050e68f05',1,'ImGuiToast']]],
+  ['distance_9',['distance',['../dc/d07/struct_projection_1_1_oclusion_data.html#afb39049a6b1518b8e68797d55253cdad',1,'Projection::OclusionData::distance'],['../de/d04/struct_reg.html#a8457e28ae42ec38e4140261b4419b753',1,'Reg::distance']]],
+  ['distance_5fc_10',['DISTANCE_C',['../d4/d01/class_g_e_u_1_1_light_properties.html#a71c7e4c9dfb5311e1ea7a4c94aa3236a',1,'GEU::LightProperties']]],
+  ['distfocal_11',['distFocal',['../d2/d05/struct_database_1_1_sensor.html#a36db372f265ba6df4a3e5a92ed4e3da0',1,'Database::Sensor']]],
+  ['distintivo_12',['distintivo',['../d4/d04/struct_database_1_1_dato.html#a027e287e73e054264da49c765da13f6f',1,'Database::Dato']]],
+  ['distintivos_13',['DISTINTIVOS',['../d4/d04/struct_database_1_1_dato.html#a37ba522ba42c6f686422c3778e4e14c1',1,'Database::Dato']]],
+  ['distortion_14',['distortion',['../de/d04/struct_reg.html#a6218b51b5e7e3851803a9bc3ddbef040',1,'Reg']]],
+  ['double_5fformat_15',['DOUBLE_FORMAT',['../dd/d05/json_8cpp.html#a71ecea60e30aead5c4cdc6c67d76f68e',1,'json.cpp']]],
+  ['downloadinprogress_16',['downloadInProgress',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a476f85e7dd076d92b9a297d479ee8fb9',1,'GEU::NASSession']]],
+  ['duracion_17',['duracion',['../dd/d07/struct_database_1_1_vuelo.html#aa9ca309b0e59def251df3fcdad08945c',1,'Database::Vuelo']]]
+];

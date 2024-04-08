@@ -1,0 +1,9 @@
+<map id="GEU::MultiespectralGUIAdapter::MultiespectralGUIAdapter" name="GEU::MultiespectralGUIAdapter::MultiespectralGUIAdapter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,211,77"/>
+<area shape="rect" id="Node000002" href="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afbf7eda8f85e1d740f99c1da54567df5" title=" " alt="" coords="259,35,464,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,53,243,53,243,59,211,59"/>
+<area shape="rect" id="Node000003" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="512,5,714,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,41,496,38,497,43,465,47"/>
+<area shape="rect" id="Node000004" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="533,72,693,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="465,65,518,72,517,77,464,71"/>
+</map>

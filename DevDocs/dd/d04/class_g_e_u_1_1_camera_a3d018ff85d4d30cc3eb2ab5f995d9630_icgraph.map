@@ -1,0 +1,11 @@
+<map id="GEU::Camera::boom" name="GEU::Camera::boom">
+<area shape="rect" id="Node000001" title=" " alt="" coords="420,47,562,73"/>
+<area shape="rect" id="Node000002" href="$d9/d05/class_g_e_u_1_1_input_manager.html#a9d27150ccccbfe0d72c6e54a053de886" title=" " alt="" coords="215,5,359,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,49,359,41,359,36,405,43"/>
+<area shape="rect" id="Node000004" href="$d9/d05/class_g_e_u_1_1_input_manager.html#a900ad1b7091126235ffafa69c15651cd" title=" " alt="" coords="202,72,372,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="405,77,373,82,372,77,405,71"/>
+<area shape="rect" id="Node000003" href="$d9/d05/class_g_e_u_1_1_input_manager.html#a2445fc0e06eaeb6dbc889088b8ab6c99" title=" " alt="" coords="5,5,154,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,29,154,29,154,24,200,24"/>
+<area shape="rect" id="Node000005" href="$d9/d05/class_g_e_u_1_1_input_manager.html#a361d92766a2cb0f62fcabb1c3b12763a" title=" " alt="" coords="8,72,151,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="186,96,151,96,151,91,186,91"/>
+</map>

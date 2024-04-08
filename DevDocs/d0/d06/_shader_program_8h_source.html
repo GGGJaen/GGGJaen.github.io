@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUCore/Source/Graphics/Shaders/ShaderProgram.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d0/d06/_shader_program_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ShaderProgram.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d0/d06/_shader_program_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/d06/_shader_enums_8h.html">ShaderEnums.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/namespace_g_e_u.html">GEU</a> {</div>
+<div class="foldopen" id="foldopen00005" data-start="{" data-end="};">
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html">    5</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../da/d02/class_g_e_u_1_1_shader_program.html">ShaderProgram</a> {</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1c5d1601d6bf13b532d64a21b3a391b7">    7</a></span>        <span class="keyword">const</span> <span class="keyword">static</span> std::string <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1c5d1601d6bf13b532d64a21b3a391b7">MODULE_HEADER</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ad2898327e7ccf86715758dc7ae9905ac">    8</a></span>        <span class="keyword">const</span> <span class="keyword">static</span> std::string <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ad2898327e7ccf86715758dc7ae9905ac">MODULE_FILE_CHAR_1</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a848960b2588bf23aee9a84b4d6f00cc6">    9</a></span>        <span class="keyword">const</span> <span class="keyword">static</span> std::string <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a848960b2588bf23aee9a84b4d6f00cc6">MODULE_FILE_CHAR_2</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a46014897fe3fd7c5f669749046824ed7">   10</a></span>        <span class="keyword">static</span> std::unordered_map&lt;std::string, std::string&gt; <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a46014897fe3fd7c5f669749046824ed7">_moduleCode</a>;            </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a079999275152dc9f847e4da61c30feb0">   11</a></span>        <span class="keyword">static</span> uint32_t <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a079999275152dc9f847e4da61c30feb0">_activeShaderProgram</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#aef3e34be95dba832dd4d5ebf1d754068">   13</a></span>        std::string <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#aef3e34be95dba832dd4d5ebf1d754068">shaderPath</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1b72bfb2ba92f10eab647097d7716525">   14</a></span>        std::vector&lt;uint32_t&gt; <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1b72bfb2ba92f10eab647097d7716525">_activeSubroutineUniform</a>[<a class="code hl_enumvalue" href="../../de/d03/struct_g_e_u_1_1_shader_enum.html#a84715d853940680430820b21a4189821ae7d93e31d152579a03dbacd709ad23f2">ShaderEnum::COMPUTE_SHADER</a> + 1];         </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a0e4573c4686500ba0b2aaff3f2be7c8f">   15</a></span>        uint32_t                <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a0e4573c4686500ba0b2aaff3f2be7c8f">_handler</a>;                                               </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ab8ebd2744bd645eb46369a63e279bfeb">   16</a></span>        <span class="keywordtype">bool</span>                <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ab8ebd2744bd645eb46369a63e279bfeb">_linked</a>;                                                </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#aa54e95c75a58c2bffaa122786d72776e">   17</a></span>        std::string         <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#aa54e95c75a58c2bffaa122786d72776e">_logString</a>;                                             </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a4437b7188543a1a10919c5ff44228f9e">   18</a></span>        std::unordered_map&lt;std::string, int32_t&gt; <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a4437b7188543a1a10919c5ff44228f9e">uniformLocation</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac04f3475d8763d4abfc64622eb11b7bd">   19</a></span>        std::unordered_map&lt;std::string, int32_t&gt; <a class="code hl_variable" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac04f3475d8763d4abfc64622eb11b7bd">subroutineLocation</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keyword">virtual</span> uint32_t <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a24959cca4f4ad050b6322a7c6618938c">compileShader</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* filename, GLenum shaderType);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a5931b12df51aa9c479a26a4309de3dca">fileExists</a>(<span class="keyword">const</span> std::string&amp; fileName);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ae53f5258eafac745d458427ea20a8edd">includeLibraries</a>(std::string&amp; shaderContent);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a347aed00f3acd70700fbafdff1292e01">loadFileContent</a>(<span class="keyword">const</span> std::string&amp; filename, std::string&amp; content);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a8c8264bb87341e3274e7c7c9abec61b2">showErrorMessage</a>(<span class="keyword">const</span> std::string&amp; variableName);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        int32_t <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a3dc536a1cffb757e7d6e9d874cf58c37">getUniformLocation</a>(<span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        int32_t <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a0a9757aa0e252d182dc325b9baa6a58a">getSubroutineLocation</a>(<span class="keyword">const</span> std::string&amp; subroutine, <span class="keyword">const</span> GLenum&amp; shaderStage);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac1f3848e24c6f8a45439c907adf4f78d">ShaderProgram</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keyword">virtual</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a7c7e1654b41b3e035a4f16be4f2afb54">~ShaderProgram</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ab8904247a107fc8bd1c8b0607ef11d7b">   33</a></span>        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ab8904247a107fc8bd1c8b0607ef11d7b">applyActiveSubroutines</a>() = 0;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a42774ec4dfd334623d5a0cc8d41f40dc">   34</a></span>        <span class="keyword">virtual</span> uint32_t <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a42774ec4dfd334623d5a0cc8d41f40dc">createShaderProgram</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* filename) = 0;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ad80298ca89746aab8abfa91b05c6036f">setSubroutineUniform</a>(<span class="keyword">const</span> uint8_t&amp; shaderType, <span class="keyword">const</span> uint8_t&amp; subroutine, <span class="keyword">const</span> std::string&amp; functionName);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> GLfloat&amp; value);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> int32_t&amp; value);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> uint32_t&amp; value);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a>&amp; value);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a>&amp; value);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#afd1ed4467544c93d5fcad47f68f8754f">uvec2</a>&amp; value);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a2ae0654b8272003bf84d58e1cbd8eb44">ivec2</a>&amp; value);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; value);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; value);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&amp; value, <span class="keywordtype">unsigned</span> <a class="code hl_enumvalue" href="../../d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9aa12565ef5a184c1f0d30d7af73dc9d05">count</a>);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">setUniform</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code hl_typedef" href="../../de/d04/_g_e_u_app_pch_8h.html#a62d8948d9d10d7374b032828f9f5890d">dvec4</a>&amp; value, <span class="keywordtype">unsigned</span> <a class="code hl_enumvalue" href="../../d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9aa12565ef5a184c1f0d30d7af73dc9d05">count</a>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1bc8350ed7e35f0de197870d1f7a7f87">bind</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    };</div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_a2ae0654b8272003bf84d58e1cbd8eb44"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#a2ae0654b8272003bf84d58e1cbd8eb44">ivec2</a></div><div class="ttdeci">glm::ivec2 ivec2</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:72</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_a2db59f395fe82a7394c6324956c265d8"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#a2db59f395fe82a7394c6324956c265d8">mat4</a></div><div class="ttdeci">glm::mat4 mat4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:58</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_a3d0ce73e3199de81565fb01632415288"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a></div><div class="ttdeci">glm::vec3 vec3</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:61</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_a43182e59794291f6ab00e51b160706c2"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></div><div class="ttdeci">glm::vec2 vec2</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:66</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_a62d8948d9d10d7374b032828f9f5890d"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#a62d8948d9d10d7374b032828f9f5890d">dvec4</a></div><div class="ttdeci">glm::dvec4 dvec4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:57</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_ac54e849f8b2339f592307eaf6cdbba77"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a></div><div class="ttdeci">glm::vec4 vec4</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:56</div></div>
+<div class="ttc" id="a_g_e_u_app_pch_8h_html_afd1ed4467544c93d5fcad47f68f8754f"><div class="ttname"><a href="../../de/d04/_g_e_u_app_pch_8h.html#afd1ed4467544c93d5fcad47f68f8754f">uvec2</a></div><div class="ttdeci">glm::uvec2 uvec2</div><div class="ttdef"><b>Definition</b> GEUAppPch.h:68</div></div>
+<div class="ttc" id="a_shader_enums_8h_html"><div class="ttname"><a href="../../df/d06/_shader_enums_8h.html">ShaderEnums.h</a></div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html">GEU::ShaderProgram</a></div><div class="ttdef"><b>Definition</b> ShaderProgram.h:5</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a079999275152dc9f847e4da61c30feb0"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a079999275152dc9f847e4da61c30feb0">GEU::ShaderProgram::_activeShaderProgram</a></div><div class="ttdeci">static uint32_t _activeShaderProgram</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:11</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a0a9757aa0e252d182dc325b9baa6a58a"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a0a9757aa0e252d182dc325b9baa6a58a">GEU::ShaderProgram::getSubroutineLocation</a></div><div class="ttdeci">int32_t getSubroutineLocation(const std::string &amp;subroutine, const GLenum &amp;shaderStage)</div><div class="ttdoc">Look for subroutine location and stores it in subroutineLocation map.</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:258</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a0e4573c4686500ba0b2aaff3f2be7c8f"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a0e4573c4686500ba0b2aaff3f2be7c8f">GEU::ShaderProgram::_handler</a></div><div class="ttdeci">uint32_t _handler</div><div class="ttdoc">Shader program id in GPU.</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:15</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a1b72bfb2ba92f10eab647097d7716525"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1b72bfb2ba92f10eab647097d7716525">GEU::ShaderProgram::_activeSubroutineUniform</a></div><div class="ttdeci">std::vector&lt; uint32_t &gt; _activeSubroutineUniform[ShaderEnum::COMPUTE_SHADER+1]</div><div class="ttdoc">Active uniform for each subroutine for each shader type.</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:14</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a1bc8350ed7e35f0de197870d1f7a7f87"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1bc8350ed7e35f0de197870d1f7a7f87">GEU::ShaderProgram::bind</a></div><div class="ttdeci">void bind() const</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:100</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a1c5d1601d6bf13b532d64a21b3a391b7"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a1c5d1601d6bf13b532d64a21b3a391b7">GEU::ShaderProgram::MODULE_HEADER</a></div><div class="ttdeci">static const std::string MODULE_HEADER</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:7</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a24959cca4f4ad050b6322a7c6618938c"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a24959cca4f4ad050b6322a7c6618938c">GEU::ShaderProgram::compileShader</a></div><div class="ttdeci">virtual uint32_t compileShader(const char *filename, GLenum shaderType)</div><div class="ttdoc">[Protected methods]</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:113</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a347aed00f3acd70700fbafdff1292e01"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a347aed00f3acd70700fbafdff1292e01">GEU::ShaderProgram::loadFileContent</a></div><div class="ttdeci">virtual bool loadFileContent(const std::string &amp;filename, std::string &amp;content)</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:206</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a3dc536a1cffb757e7d6e9d874cf58c37"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a3dc536a1cffb757e7d6e9d874cf58c37">GEU::ShaderProgram::getUniformLocation</a></div><div class="ttdeci">int32_t getUniformLocation(const std::string &amp;name)</div><div class="ttdoc">Look for uniform location and stores it in uniformLocation map.</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:234</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a42774ec4dfd334623d5a0cc8d41f40dc"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a42774ec4dfd334623d5a0cc8d41f40dc">GEU::ShaderProgram::createShaderProgram</a></div><div class="ttdeci">virtual uint32_t createShaderProgram(const char *filename)=0</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a4437b7188543a1a10919c5ff44228f9e"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a4437b7188543a1a10919c5ff44228f9e">GEU::ShaderProgram::uniformLocation</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int32_t &gt; uniformLocation</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:18</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a46014897fe3fd7c5f669749046824ed7"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a46014897fe3fd7c5f669749046824ed7">GEU::ShaderProgram::_moduleCode</a></div><div class="ttdeci">static std::unordered_map&lt; std::string, std::string &gt; _moduleCode</div><div class="ttdoc">Modules that are already loaded.</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:10</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a5931b12df51aa9c479a26a4309de3dca"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a5931b12df51aa9c479a26a4309de3dca">GEU::ShaderProgram::fileExists</a></div><div class="ttdeci">bool fileExists(const std::string &amp;fileName)</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:162</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a7c7e1654b41b3e035a4f16be4f2afb54"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a7c7e1654b41b3e035a4f16be4f2afb54">GEU::ShaderProgram::~ShaderProgram</a></div><div class="ttdeci">virtual ~ShaderProgram()</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:18</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a848960b2588bf23aee9a84b4d6f00cc6"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a848960b2588bf23aee9a84b4d6f00cc6">GEU::ShaderProgram::MODULE_FILE_CHAR_2</a></div><div class="ttdeci">static const std::string MODULE_FILE_CHAR_2</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:9</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_a8c8264bb87341e3274e7c7c9abec61b2"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#a8c8264bb87341e3274e7c7c9abec61b2">GEU::ShaderProgram::showErrorMessage</a></div><div class="ttdeci">bool showErrorMessage(const std::string &amp;variableName)</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:222</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_aa54e95c75a58c2bffaa122786d72776e"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#aa54e95c75a58c2bffaa122786d72776e">GEU::ShaderProgram::_logString</a></div><div class="ttdeci">std::string _logString</div><div class="ttdoc">Error message got from the last operation with the shader.</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:17</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ab8904247a107fc8bd1c8b0607ef11d7b"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ab8904247a107fc8bd1c8b0607ef11d7b">GEU::ShaderProgram::applyActiveSubroutines</a></div><div class="ttdeci">virtual void applyActiveSubroutines()=0</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ab8ebd2744bd645eb46369a63e279bfeb"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ab8ebd2744bd645eb46369a63e279bfeb">GEU::ShaderProgram::_linked</a></div><div class="ttdeci">bool _linked</div><div class="ttdoc">Flag which tell us if the shader has been linked correctly.</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:16</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ac04f3475d8763d4abfc64622eb11b7bd"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac04f3475d8763d4abfc64622eb11b7bd">GEU::ShaderProgram::subroutineLocation</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int32_t &gt; subroutineLocation</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:19</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ac1f3848e24c6f8a45439c907adf4f78d"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac1f3848e24c6f8a45439c907adf4f78d">GEU::ShaderProgram::ShaderProgram</a></div><div class="ttdeci">ShaderProgram()</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:14</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ac2459cb09f1fd2fb8cdf572f3b5a0aa3"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ac2459cb09f1fd2fb8cdf572f3b5a0aa3">GEU::ShaderProgram::setUniform</a></div><div class="ttdeci">void setUniform(const std::string &amp;name, const GLfloat &amp;value)</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:45</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ad2898327e7ccf86715758dc7ae9905ac"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ad2898327e7ccf86715758dc7ae9905ac">GEU::ShaderProgram::MODULE_FILE_CHAR_1</a></div><div class="ttdeci">static const std::string MODULE_FILE_CHAR_1</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:8</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ad80298ca89746aab8abfa91b05c6036f"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ad80298ca89746aab8abfa91b05c6036f">GEU::ShaderProgram::setSubroutineUniform</a></div><div class="ttdeci">void setSubroutineUniform(const uint8_t &amp;shaderType, const uint8_t &amp;subroutine, const std::string &amp;functionName)</div><div class="ttdoc">Select the subroutine function to enable.</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:31</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_ae53f5258eafac745d458427ea20a8edd"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#ae53f5258eafac745d458427ea20a8edd">GEU::ShaderProgram::includeLibraries</a></div><div class="ttdeci">bool includeLibraries(std::string &amp;shaderContent)</div><div class="ttdef"><b>Definition</b> ShaderProgram.cpp:170</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_shader_program_html_aef3e34be95dba832dd4d5ebf1d754068"><div class="ttname"><a href="../../da/d02/class_g_e_u_1_1_shader_program.html#aef3e34be95dba832dd4d5ebf1d754068">GEU::ShaderProgram::shaderPath</a></div><div class="ttdeci">std::string shaderPath</div><div class="ttdef"><b>Definition</b> ShaderProgram.h:13</div></div>
+<div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="anamespace_g_e_u_html_a715dddbf521259f6007a0206ad3582d9aa12565ef5a184c1f0d30d7af73dc9d05"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9aa12565ef5a184c1f0d30d7af73dc9d05">GEU::count</a></div><div class="ttdeci">@ count</div><div class="ttdef"><b>Definition</b> ModuleManager.h:12</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_shader_enum_html_a84715d853940680430820b21a4189821ae7d93e31d152579a03dbacd709ad23f2"><div class="ttname"><a href="../../de/d03/struct_g_e_u_1_1_shader_enum.html#a84715d853940680430820b21a4189821ae7d93e31d152579a03dbacd709ad23f2">GEU::ShaderEnum::COMPUTE_SHADER</a></div><div class="ttdeci">@ COMPUTE_SHADER</div><div class="ttdef"><b>Definition</b> ShaderEnums.h:10</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

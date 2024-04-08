@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUModules/SegmentacionIndividuos/Source/ImageTreeSegmentation.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d7/d02/_image_tree_segmentation_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ImageTreeSegmentation.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d7/d02/_image_tree_segmentation_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;thread&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;glm/geometric.hpp&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;glm/vec2.hpp&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;opencv2/core/mat.hpp&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/namespace_g_e_u.html">GEU</a> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">class </span>Texture;</div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a6383e6bea99441774280d0f434b2e6f0">   12</a></span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html">   13</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html">ImageTreeSegmentation</a> {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#af6d8979535bed040c364556fe5d89b4b">   15</a></span>        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html">TreeSegmentationGUIAdapter</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3">   17</a></span>        <span class="keyword">enum class</span> <a class="code hl_enumeration" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3">SEGMENTATION_INPUT_CHANNEL</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            <a class="code hl_enumvalue" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3a889574aebacda6bfd3e534e2b49b8028">RGB</a>,</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a078e5c3210338b3f74085b217addd8b9">   19</a></span>            <a class="code hl_enumvalue" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae1e1d3d40573127e9ee0480caf1283d6">R</a>,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <a class="code hl_enumvalue" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3adfcf28d0734569a6a693bc8194de62bf">G</a>,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <a class="code hl_enumvalue" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3a9d5ed678fe57bcca610140957afab571">B</a>,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <a class="code hl_enumvalue" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae2942a04780e223b215eb8b663cf5353">count</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        };</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keyword">static</span> std::map&lt;SEGMENTATION_INPUT_CHANNEL, std::string&gt; <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a6383e6bea99441774280d0f434b2e6f0">INPUT_CHANNELS</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">static</span> std::map&lt;unsigned, std::string&gt; <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a078e5c3210338b3f74085b217addd8b9">CONTOUR_APPROX_MODES</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">protected</span>:</div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="};">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html">   38</a></span>        <span class="keyword">struct </span><a class="code hl_struct" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html">SegmentAABB</a> {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#ad32ae1e013e3fef6aefbf7fcf345231a">   41</a></span>            <span class="keyword">static</span> glm::vec2 <a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#ad32ae1e013e3fef6aefbf7fcf345231a">projVector</a>(glm::vec2 a, glm::vec2 b) {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                <span class="keyword">const</span> <span class="keywordtype">float</span> k = glm::dot(a, b) / glm::dot(b, b);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                <span class="keywordflow">return</span> b * k;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            }</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a578bcf343b3b66df1e6e644b9e017c3b">   46</a></span>            <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a578bcf343b3b66df1e6e644b9e017c3b">hypot2Vector</a>(glm::vec2 a, glm::vec2 b) {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                <span class="keywordflow">return</span> glm::dot(a - b, a - b);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            }</div>
+</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">   50</a></span>            <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">distToLine</a>(glm::vec2 vA, glm::vec2 vB, glm::vec2 point) {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                <span class="keyword">const</span> glm::vec2 AC = point - vA;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <span class="keyword">const</span> glm::vec2 AB = vB - vA;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                <span class="keyword">const</span> glm::vec2 D = <a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#ad32ae1e013e3fef6aefbf7fcf345231a">projVector</a>(AC, AB) + vA;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                <span class="keyword">const</span> glm::vec2 AD = D - vA;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>                <span class="keyword">const</span> <span class="keywordtype">float</span> k = std::abs(AB.x) &gt; std::abs(AB.y) ? AD.x / AB.x : AD.y / AB.y;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                <span class="keywordflow">if</span> (k &lt;= 0.0f) {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                    <span class="keywordflow">return</span> std::sqrt(<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a578bcf343b3b66df1e6e644b9e017c3b">hypot2Vector</a>(point, vA));</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                <span class="keywordflow">if</span> (k &gt;= 1.0f) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                    <span class="keywordflow">return</span> std::sqrt(<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a578bcf343b3b66df1e6e644b9e017c3b">hypot2Vector</a>(point, vB));</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                <span class="keywordflow">return</span> std::sqrt(<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a578bcf343b3b66df1e6e644b9e017c3b">hypot2Vector</a>(point, D));</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            }</div>
+</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">   69</a></span>            glm::vec2 <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>, <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a58979826093ced3297dc7410d0b66576">   71</a></span>            <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a58979826093ced3297dc7410d0b66576">checkSphere</a>(glm::vec2 center, <span class="keywordtype">float</span> radius)<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                <span class="comment">//https://stackoverflow.com/a/1079478</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                <span class="keyword">const</span> glm::vec2 size = <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a> - <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                glm::vec2 testingVectorPoint = { <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>.x + size.x, <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>.y };</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">distToLine</a>(<a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>, testingVectorPoint, center) &lt;= radius) {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                testingVectorPoint = { <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>.x, <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>.y + size.y };</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">distToLine</a>(<a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">_min</a>, testingVectorPoint, center) &lt;= radius) {</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                testingVectorPoint = { <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>.x - size.x, <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>.y };</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">distToLine</a>(<a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>, testingVectorPoint, center) &lt;= radius) {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>                }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                testingVectorPoint = { <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>.x, <a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>.y - size.y };</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">distToLine</a>(<a class="code hl_variable" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">_max</a>, testingVectorPoint, center) &lt;= radius) {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                }</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            }</div>
+</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        };</div>
+</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">    #pragma region INPUT_IMAGE</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a744c73e8f8d2ba5095e02b47d329d226">  104</a></span>        <a class="code hl_enumeration" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3">SEGMENTATION_INPUT_CHANNEL</a> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a744c73e8f8d2ba5095e02b47d329d226">_inputChannel</a>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4a03cb2de642794355742e6b222a9fd0">  109</a></span>        std::string <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4a03cb2de642794355742e6b222a9fd0">_inputImagePath</a>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a07521b69228c63ebfb875c5786676b30">  114</a></span>        <a class="code hl_class" href="../../dc/d06/class_g_e_u_1_1_texture.html">Texture</a>* <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a07521b69228c63ebfb875c5786676b30">_inputImageTexture</a>;</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0a9171387d7e410c6d12ecb112873287">  119</a></span>        cv::Mat <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0a9171387d7e410c6d12ecb112873287">_inputImageMat</a>;</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">    #pragma region IMAGE_THRESHOLD</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4cf864827239bf8aaaba195ffd912b6a">  128</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4cf864827239bf8aaaba195ffd912b6a">_thresholdValue</a>;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac57772156e0812d43a92b901a3c0b17a">  133</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac57772156e0812d43a92b901a3c0b17a">_thresholdMax</a>;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac9046ae1ab6003e5f1351348fddd8b81">  138</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac9046ae1ab6003e5f1351348fddd8b81">_invertThreshold</a>;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4c14f017e58695a478ae65aa41997871">  143</a></span>        <a class="code hl_class" href="../../dc/d06/class_g_e_u_1_1_texture.html">Texture</a>* <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4c14f017e58695a478ae65aa41997871">_thresholdedImageTexture</a>;</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0020dd8cc615c29f74e61494886ac225">  148</a></span>        cv::Mat <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0020dd8cc615c29f74e61494886ac225">_thresholdedImageMat</a>;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">    #pragma region CONTOURS</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#af9912ab2f261cf3087cd065a6826fb76">  157</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#af9912ab2f261cf3087cd065a6826fb76">_kernelSize</a>;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a5c30aaf6534edc0990d70c774556fbce">  162</a></span>        std::vector&lt;int&gt; <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a5c30aaf6534edc0990d70c774556fbce">_kernelDilation</a>;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a9cbbef2b02cfb2657323206f2a615b88">  167</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a9cbbef2b02cfb2657323206f2a615b88">_kernelIterations</a>;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a8c8899e66060a0e79cffb29cc4aa9c1a">  172</a></span>        <span class="keywordtype">unsigned</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a8c8899e66060a0e79cffb29cc4aa9c1a">_contourApproxMode</a>;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aaea5a2eed26f14d65b9cd5ac53649722">  177</a></span>        <a class="code hl_class" href="../../dc/d06/class_g_e_u_1_1_texture.html">Texture</a>* <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aaea5a2eed26f14d65b9cd5ac53649722">_dilatedImageTexture</a>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a65543cf9a286da4071c118b032ef36ec">  182</a></span>        cv::Mat <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a65543cf9a286da4071c118b032ef36ec">_dilatedImageMat</a>;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">    #pragma region SEGMENTATION</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a73d9daed97017271fb0e03678f69908a">  191</a></span>        std::thread <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a73d9daed97017271fb0e03678f69908a">_segmentationThread</a>;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#adcbd574573bd5fbe800cbfad6b5ce038">  196</a></span>        <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#adcbd574573bd5fbe800cbfad6b5ce038">_segmentationProgress</a>;</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a97896dae8b00a1c536606faed5db9528">  201</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a97896dae8b00a1c536606faed5db9528">_segmentationActive</a>;</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aff59b0158ec7cca56259f22eed2c5b7d">  203</a></span>        std::vector&lt;SegmentAABB&gt; <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aff59b0158ec7cca56259f22eed2c5b7d">_segmentationResult</a>;</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a41113aace9261ea1a5bfb6418564eb8c">  205</a></span>        glm::vec2 <a class="code hl_variable" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a41113aace9261ea1a5bfb6418564eb8c">_segmentSizeLimits</a>;</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">    #pragma endregion</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4ffb3c99b81b40da01eb214f473ff94e">ImageTreeSegmentation</a>();</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>        <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aa91e8670297a0de7a3747e966766da8a">~ImageTreeSegmentation</a>();</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ab619dfa1405821106da9922087e654b5">setInputPath</a>(<span class="keyword">const</span> std::string&amp; path);</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ad7219705abe6253efc28f79e46d2beef">validateThresholdRange</a>();</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a67d26c7c680cabbbcd6e1780a2982045">validateDilateKernelSize</a>();</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0ccc3b02a8a31aba032f8bab753121c5">validateDilateKernelIterations</a>();</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a34dc2baba94657f3b1e631a4f9a69254">applyThresholding</a>();</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a5db4255736627fd8838786288160b24f">applyDilation</a>();</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a9c6a57ec9177bd291fa8b59a34caccf3">applySegmentation</a>();</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        <a class="code hl_struct" href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html">SegmentAABB</a>* <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a52d642f83571f852473a7350e1b9b279">findPointedSegment</a>(glm::vec2 pointerPos);</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ab2b9d6fa0eaf28c5df890566b563d3c2">removePointedSegment</a>(glm::vec2 pointerPos);</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4030c957d276ce960b54c0317f295d4d">removePointedSegmentsSquare</a>(glm::vec2 min, glm::vec2 max);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a12f60b8ce42431554974b825b7e99f77">removePointedSegmentsCircle</a>(glm::vec2 center, <span class="keywordtype">float</span> radius);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    };</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>}</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+</div>
+</div>
+</div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html">GEU::ImageTreeSegmentation</a></div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:13</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a0020dd8cc615c29f74e61494886ac225"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0020dd8cc615c29f74e61494886ac225">GEU::ImageTreeSegmentation::_thresholdedImageMat</a></div><div class="ttdeci">cv::Mat _thresholdedImageMat</div><div class="ttdoc">Thresholded image as OpenCV matrix.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:148</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a07521b69228c63ebfb875c5786676b30"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a07521b69228c63ebfb875c5786676b30">GEU::ImageTreeSegmentation::_inputImageTexture</a></div><div class="ttdeci">Texture * _inputImageTexture</div><div class="ttdoc">Pointer to input image as OpenGL texture.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:114</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a078e5c3210338b3f74085b217addd8b9"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a078e5c3210338b3f74085b217addd8b9">GEU::ImageTreeSegmentation::CONTOUR_APPROX_MODES</a></div><div class="ttdeci">static std::map&lt; unsigned, std::string &gt; CONTOUR_APPROX_MODES</div><div class="ttdoc">Available contour approximation algorithms.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:19</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a0a9171387d7e410c6d12ecb112873287"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0a9171387d7e410c6d12ecb112873287">GEU::ImageTreeSegmentation::_inputImageMat</a></div><div class="ttdeci">cv::Mat _inputImageMat</div><div class="ttdoc">Input image as OpenCV matrix.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:119</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a0ccc3b02a8a31aba032f8bab753121c5"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a0ccc3b02a8a31aba032f8bab753121c5">GEU::ImageTreeSegmentation::validateDilateKernelIterations</a></div><div class="ttdeci">void validateDilateKernelIterations()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:89</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a12f60b8ce42431554974b825b7e99f77"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a12f60b8ce42431554974b825b7e99f77">GEU::ImageTreeSegmentation::removePointedSegmentsCircle</a></div><div class="ttdeci">void removePointedSegmentsCircle(glm::vec2 center, float radius)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:236</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a34dc2baba94657f3b1e631a4f9a69254"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a34dc2baba94657f3b1e631a4f9a69254">GEU::ImageTreeSegmentation::applyThresholding</a></div><div class="ttdeci">void applyThresholding()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:93</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a4030c957d276ce960b54c0317f295d4d"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4030c957d276ce960b54c0317f295d4d">GEU::ImageTreeSegmentation::removePointedSegmentsSquare</a></div><div class="ttdeci">void removePointedSegmentsSquare(glm::vec2 min, glm::vec2 max)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:225</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a41113aace9261ea1a5bfb6418564eb8c"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a41113aace9261ea1a5bfb6418564eb8c">GEU::ImageTreeSegmentation::_segmentSizeLimits</a></div><div class="ttdeci">glm::vec2 _segmentSizeLimits</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:205</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a4a03cb2de642794355742e6b222a9fd0"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4a03cb2de642794355742e6b222a9fd0">GEU::ImageTreeSegmentation::_inputImagePath</a></div><div class="ttdeci">std::string _inputImagePath</div><div class="ttdoc">Input image for 2D segmentation.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:109</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a4c14f017e58695a478ae65aa41997871"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4c14f017e58695a478ae65aa41997871">GEU::ImageTreeSegmentation::_thresholdedImageTexture</a></div><div class="ttdeci">Texture * _thresholdedImageTexture</div><div class="ttdoc">Pointer to thresholded image as OpenGL texture.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:143</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a4cf864827239bf8aaaba195ffd912b6a"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4cf864827239bf8aaaba195ffd912b6a">GEU::ImageTreeSegmentation::_thresholdValue</a></div><div class="ttdeci">int _thresholdValue</div><div class="ttdoc">Binary thresholding value.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:128</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a4ffb3c99b81b40da01eb214f473ff94e"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a4ffb3c99b81b40da01eb214f473ff94e">GEU::ImageTreeSegmentation::ImageTreeSegmentation</a></div><div class="ttdeci">ImageTreeSegmentation()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:26</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a52d642f83571f852473a7350e1b9b279"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a52d642f83571f852473a7350e1b9b279">GEU::ImageTreeSegmentation::findPointedSegment</a></div><div class="ttdeci">SegmentAABB * findPointedSegment(glm::vec2 pointerPos)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:201</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a5c30aaf6534edc0990d70c774556fbce"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a5c30aaf6534edc0990d70c774556fbce">GEU::ImageTreeSegmentation::_kernelDilation</a></div><div class="ttdeci">std::vector&lt; int &gt; _kernelDilation</div><div class="ttdoc">Kernel for image dilation.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:162</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a5db4255736627fd8838786288160b24f"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a5db4255736627fd8838786288160b24f">GEU::ImageTreeSegmentation::applyDilation</a></div><div class="ttdeci">void applyDilation()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:145</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a6383e6bea99441774280d0f434b2e6f0"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a6383e6bea99441774280d0f434b2e6f0">GEU::ImageTreeSegmentation::INPUT_CHANNELS</a></div><div class="ttdeci">static std::map&lt; SEGMENTATION_INPUT_CHANNEL, std::string &gt; INPUT_CHANNELS</div><div class="ttdoc">Available image color channels as segmentation input.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:12</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a65543cf9a286da4071c118b032ef36ec"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a65543cf9a286da4071c118b032ef36ec">GEU::ImageTreeSegmentation::_dilatedImageMat</a></div><div class="ttdeci">cv::Mat _dilatedImageMat</div><div class="ttdoc">Dilated image as OpenCV matrix.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:182</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a67d26c7c680cabbbcd6e1780a2982045"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a67d26c7c680cabbbcd6e1780a2982045">GEU::ImageTreeSegmentation::validateDilateKernelSize</a></div><div class="ttdeci">void validateDilateKernelSize()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:80</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a73d9daed97017271fb0e03678f69908a"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a73d9daed97017271fb0e03678f69908a">GEU::ImageTreeSegmentation::_segmentationThread</a></div><div class="ttdeci">std::thread _segmentationThread</div><div class="ttdoc">Thread executing segmentation process.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:191</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a744c73e8f8d2ba5095e02b47d329d226"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a744c73e8f8d2ba5095e02b47d329d226">GEU::ImageTreeSegmentation::_inputChannel</a></div><div class="ttdeci">SEGMENTATION_INPUT_CHANNEL _inputChannel</div><div class="ttdoc">Image color channel to use as segmentation input.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:104</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a7c3206f5b6a9da74ef3533d2ad17faa3"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3">GEU::ImageTreeSegmentation::SEGMENTATION_INPUT_CHANNEL</a></div><div class="ttdeci">SEGMENTATION_INPUT_CHANNEL</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:17</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a7c3206f5b6a9da74ef3533d2ad17faa3a889574aebacda6bfd3e534e2b49b8028"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3a889574aebacda6bfd3e534e2b49b8028">GEU::ImageTreeSegmentation::SEGMENTATION_INPUT_CHANNEL::RGB</a></div><div class="ttdeci">@ RGB</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a7c3206f5b6a9da74ef3533d2ad17faa3a9d5ed678fe57bcca610140957afab571"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3a9d5ed678fe57bcca610140957afab571">GEU::ImageTreeSegmentation::SEGMENTATION_INPUT_CHANNEL::B</a></div><div class="ttdeci">@ B</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a7c3206f5b6a9da74ef3533d2ad17faa3adfcf28d0734569a6a693bc8194de62bf"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3adfcf28d0734569a6a693bc8194de62bf">GEU::ImageTreeSegmentation::SEGMENTATION_INPUT_CHANNEL::G</a></div><div class="ttdeci">@ G</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a7c3206f5b6a9da74ef3533d2ad17faa3ae1e1d3d40573127e9ee0480caf1283d6"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae1e1d3d40573127e9ee0480caf1283d6">GEU::ImageTreeSegmentation::SEGMENTATION_INPUT_CHANNEL::R</a></div><div class="ttdeci">@ R</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a7c3206f5b6a9da74ef3533d2ad17faa3ae2942a04780e223b215eb8b663cf5353"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a7c3206f5b6a9da74ef3533d2ad17faa3ae2942a04780e223b215eb8b663cf5353">GEU::ImageTreeSegmentation::SEGMENTATION_INPUT_CHANNEL::count</a></div><div class="ttdeci">@ count</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a8c8899e66060a0e79cffb29cc4aa9c1a"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a8c8899e66060a0e79cffb29cc4aa9c1a">GEU::ImageTreeSegmentation::_contourApproxMode</a></div><div class="ttdeci">unsigned _contourApproxMode</div><div class="ttdoc">Contour approximation algorithm to use.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:172</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a97896dae8b00a1c536606faed5db9528"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a97896dae8b00a1c536606faed5db9528">GEU::ImageTreeSegmentation::_segmentationActive</a></div><div class="ttdeci">bool _segmentationActive</div><div class="ttdoc">Segmentation process currently running?</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:201</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a9c6a57ec9177bd291fa8b59a34caccf3"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a9c6a57ec9177bd291fa8b59a34caccf3">GEU::ImageTreeSegmentation::applySegmentation</a></div><div class="ttdeci">void applySegmentation()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:166</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_a9cbbef2b02cfb2657323206f2a615b88"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a9cbbef2b02cfb2657323206f2a615b88">GEU::ImageTreeSegmentation::_kernelIterations</a></div><div class="ttdeci">int _kernelIterations</div><div class="ttdoc">Image dilation iterations.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:167</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_aa91e8670297a0de7a3747e966766da8a"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aa91e8670297a0de7a3747e966766da8a">GEU::ImageTreeSegmentation::~ImageTreeSegmentation</a></div><div class="ttdeci">~ImageTreeSegmentation()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:43</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_aaea5a2eed26f14d65b9cd5ac53649722"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aaea5a2eed26f14d65b9cd5ac53649722">GEU::ImageTreeSegmentation::_dilatedImageTexture</a></div><div class="ttdeci">Texture * _dilatedImageTexture</div><div class="ttdoc">Pointer to dilated image as OpenGL texture.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:177</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_ab2b9d6fa0eaf28c5df890566b563d3c2"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ab2b9d6fa0eaf28c5df890566b563d3c2">GEU::ImageTreeSegmentation::removePointedSegment</a></div><div class="ttdeci">void removePointedSegment(glm::vec2 pointerPos)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:211</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_ab619dfa1405821106da9922087e654b5"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ab619dfa1405821106da9922087e654b5">GEU::ImageTreeSegmentation::setInputPath</a></div><div class="ttdeci">void setInputPath(const std::string &amp;path)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:52</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_ac57772156e0812d43a92b901a3c0b17a"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac57772156e0812d43a92b901a3c0b17a">GEU::ImageTreeSegmentation::_thresholdMax</a></div><div class="ttdeci">int _thresholdMax</div><div class="ttdoc">Thresholded pixels assigned value.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:133</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_ac9046ae1ab6003e5f1351348fddd8b81"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac9046ae1ab6003e5f1351348fddd8b81">GEU::ImageTreeSegmentation::_invertThreshold</a></div><div class="ttdeci">bool _invertThreshold</div><div class="ttdoc">Invert binary thresholding?</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:138</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_ad7219705abe6253efc28f79e46d2beef"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ad7219705abe6253efc28f79e46d2beef">GEU::ImageTreeSegmentation::validateThresholdRange</a></div><div class="ttdeci">void validateThresholdRange()</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.cpp:75</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_adcbd574573bd5fbe800cbfad6b5ce038"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#adcbd574573bd5fbe800cbfad6b5ce038">GEU::ImageTreeSegmentation::_segmentationProgress</a></div><div class="ttdeci">float _segmentationProgress</div><div class="ttdoc">Segmentation process current progress.</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:196</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_af9912ab2f261cf3087cd065a6826fb76"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#af9912ab2f261cf3087cd065a6826fb76">GEU::ImageTreeSegmentation::_kernelSize</a></div><div class="ttdeci">int _kernelSize</div><div class="ttdoc">Image dilation kernel dimensions (SxS)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:157</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_image_tree_segmentation_html_aff59b0158ec7cca56259f22eed2c5b7d"><div class="ttname"><a href="../../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#aff59b0158ec7cca56259f22eed2c5b7d">GEU::ImageTreeSegmentation::_segmentationResult</a></div><div class="ttdeci">std::vector&lt; SegmentAABB &gt; _segmentationResult</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:203</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_texture_html"><div class="ttname"><a href="../../dc/d06/class_g_e_u_1_1_texture.html">GEU::Texture</a></div><div class="ttdef"><b>Definition</b> Texture.h:11</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_tree_segmentation_g_u_i_adapter_html"><div class="ttname"><a href="../../d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html">GEU::TreeSegmentationGUIAdapter</a></div><div class="ttdef"><b>Definition</b> TreeSegmentationGUIAdapter.h:13</div></div>
+<div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html">GEU::ImageTreeSegmentation::SegmentAABB</a></div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:38</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html_a127fc58846acbedca44a879a31dfc49f"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f">GEU::ImageTreeSegmentation::SegmentAABB::distToLine</a></div><div class="ttdeci">static float distToLine(glm::vec2 vA, glm::vec2 vB, glm::vec2 point)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:50</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html_a578bcf343b3b66df1e6e644b9e017c3b"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a578bcf343b3b66df1e6e644b9e017c3b">GEU::ImageTreeSegmentation::SegmentAABB::hypot2Vector</a></div><div class="ttdeci">static float hypot2Vector(glm::vec2 a, glm::vec2 b)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:46</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html_a58979826093ced3297dc7410d0b66576"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a58979826093ced3297dc7410d0b66576">GEU::ImageTreeSegmentation::SegmentAABB::checkSphere</a></div><div class="ttdeci">bool checkSphere(glm::vec2 center, float radius) const</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:71</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html_a72a4b061666f98f1dcfbd22125ddba89"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a72a4b061666f98f1dcfbd22125ddba89">GEU::ImageTreeSegmentation::SegmentAABB::_max</a></div><div class="ttdeci">glm::vec2 _max</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:69</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html_aca743b445fed845629a2807bac217a67"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#aca743b445fed845629a2807bac217a67">GEU::ImageTreeSegmentation::SegmentAABB::_min</a></div><div class="ttdeci">glm::vec2 _min</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:69</div></div>
+<div class="ttc" id="astruct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b_html_ad32ae1e013e3fef6aefbf7fcf345231a"><div class="ttname"><a href="../../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#ad32ae1e013e3fef6aefbf7fcf345231a">GEU::ImageTreeSegmentation::SegmentAABB::projVector</a></div><div class="ttdeci">static glm::vec2 projVector(glm::vec2 a, glm::vec2 b)</div><div class="ttdef"><b>Definition</b> ImageTreeSegmentation.h:41</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

@@ -1,0 +1,15 @@
+<map id="GEU::ModuleManager::ModuleManager" name="GEU::ModuleManager::ModuleManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,68,155,111"/>
+<area shape="rect" id="Node000002" href="$db/d02/class_g_e_u_1_1_module_manager.html#a212616bf2b2202e3372bd4c6a2cf03fb" title="Adds basic modules to GUI." alt="" coords="203,35,352,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,74,187,69,188,74,155,79"/>
+<area shape="rect" id="Node000007" href="$db/d02/class_g_e_u_1_1_module_manager.html#a6b51b2c9fdfad73a6b3e79cc10ecba91" title=" " alt="" coords="203,101,352,144"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="155,99,188,105,187,110,154,105"/>
+<area shape="rect" id="Node000003" href="$d8/d00/class_g_e_u_1_1_interface_adapter.html#abbe19d1677429a1330eee4713061fcde" title=" " alt="" coords="400,35,551,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="353,53,385,53,385,59,353,59"/>
+<area shape="rect" id="Node000004" href="$d8/d00/class_g_e_u_1_1_interface_adapter.html#aa9d84619ca4efa90cd1116a896e17fc8" title=" " alt="" coords="599,35,751,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="552,53,584,53,584,59,552,59"/>
+<area shape="rect" id="Node000005" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="799,5,1001,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="751,44,783,39,783,45,751,49"/>
+<area shape="rect" id="Node000006" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="820,72,980,99"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="751,63,805,70,804,76,751,68"/>
+</map>

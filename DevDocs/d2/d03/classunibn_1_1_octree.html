@@ -1,0 +1,984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Referencia de la plantilla de la clase unibn::Octree&lt; PointT, ContainerT &gt;</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d2/d03/classunibn_1_1_octree.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="#friends">Amigas</a> &#124;
+<a href="../../d6/d01/classunibn_1_1_octree-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la plantilla de la clase unibn::Octree&lt; PointT, ContainerT &gt;</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Index-based <a class="el" href="../../d2/d03/classunibn_1_1_octree.html" title="Index-based Octree implementation offering different queries and insertion/removal of points.">Octree</a> implementation offering different queries and insertion/removal of points.  
+ <a href="#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../db/d07/_octree_8hpp_source.html">Octree.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a185e5a276a426b2639410ac98865d094" id="r_a185e5a276a426b2639410ac98865d094"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a185e5a276a426b2639410ac98865d094">Octree</a> ()</td></tr>
+<tr class="separator:a185e5a276a426b2639410ac98865d094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd46f54e61b7a14401284ab17a3fd8d" id="r_afbd46f54e61b7a14401284ab17a3fd8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd46f54e61b7a14401284ab17a3fd8d">~Octree</a> ()</td></tr>
+<tr class="separator:afbd46f54e61b7a14401284ab17a3fd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb80a16faaff5b0bbc033f405149a65f" id="r_afb80a16faaff5b0bbc033f405149a65f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb80a16faaff5b0bbc033f405149a65f">initialize</a> (const ContainerT &amp;pts, const <a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a> &amp;params=<a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a>())</td></tr>
+<tr class="memdesc:afb80a16faaff5b0bbc033f405149a65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize octree with all points  <br /></td></tr>
+<tr class="separator:afb80a16faaff5b0bbc033f405149a65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af944b42e91d732658295ca37b678fcaf" id="r_af944b42e91d732658295ca37b678fcaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af944b42e91d732658295ca37b678fcaf">initialize</a> (const ContainerT &amp;pts, const std::vector&lt; uint32_t &gt; &amp;indexes, const <a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a> &amp;params=<a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a>())</td></tr>
+<tr class="memdesc:af944b42e91d732658295ca37b678fcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize octree only from pts that are inside indexes.  <br /></td></tr>
+<tr class="separator:af944b42e91d732658295ca37b678fcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10f78b022e25757ee2a7215f9b001c8" id="r_aa10f78b022e25757ee2a7215f9b001c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10f78b022e25757ee2a7215f9b001c8">clear</a> ()</td></tr>
+<tr class="memdesc:aa10f78b022e25757ee2a7215f9b001c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove all data inside the octree.  <br /></td></tr>
+<tr class="separator:aa10f78b022e25757ee2a7215f9b001c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61d132971077431a0cb78fca6fd6c82" id="r_ad61d132971077431a0cb78fca6fd6c82"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:ad61d132971077431a0cb78fca6fd6c82"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad61d132971077431a0cb78fca6fd6c82">radiusNeighbors</a> (const PointT &amp;query, float radius, std::vector&lt; uint32_t &gt; &amp;resultIndices) const</td></tr>
+<tr class="memdesc:ad61d132971077431a0cb78fca6fd6c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">radius neighbor queries where radius determines the maximal radius of reported indices of points in resultIndices  <br /></td></tr>
+<tr class="separator:ad61d132971077431a0cb78fca6fd6c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd882502d17297f3c596ad1a53b2c655" id="r_abd882502d17297f3c596ad1a53b2c655"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:abd882502d17297f3c596ad1a53b2c655"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abd882502d17297f3c596ad1a53b2c655">radiusNeighbors</a> (const PointT &amp;query, float radius, std::vector&lt; uint32_t &gt; &amp;resultIndices, std::vector&lt; float &gt; &amp;distances) const</td></tr>
+<tr class="memdesc:abd882502d17297f3c596ad1a53b2c655"><td class="mdescLeft">&#160;</td><td class="mdescRight">radius neighbor queries with explicit (squared) distance computation.  <br /></td></tr>
+<tr class="separator:abd882502d17297f3c596ad1a53b2c655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad277be505e9118906a7393181e472a" id="r_a9ad277be505e9118906a7393181e472a"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:a9ad277be505e9118906a7393181e472a"><td class="memTemplItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9ad277be505e9118906a7393181e472a">findNeighbor</a> (const PointT &amp;query, float minDistance=-1) const</td></tr>
+<tr class="memdesc:a9ad277be505e9118906a7393181e472a"><td class="mdescLeft">&#160;</td><td class="mdescRight">nearest neighbor queries. Using minDistance &gt;= 0, we explicitly disallow self-matches.  <br /></td></tr>
+<tr class="separator:a9ad277be505e9118906a7393181e472a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a6706e8853967849872481a6ef2443360" id="r_a6706e8853967849872481a6ef2443360"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6706e8853967849872481a6ef2443360">Octree</a> (<a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a> &amp;)</td></tr>
+<tr class="separator:a6706e8853967849872481a6ef2443360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6265e75a3dc17f4d78b688547726d6f8" id="r_a6265e75a3dc17f4d78b688547726d6f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6265e75a3dc17f4d78b688547726d6f8">operator=</a> (const <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a> &amp;oct)</td></tr>
+<tr class="separator:a6265e75a3dc17f4d78b688547726d6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f10544aa4775629a23f316addb7141" id="r_a78f10544aa4775629a23f316addb7141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f10544aa4775629a23f316addb7141">createOctant</a> (float x, float y, float z, float extent, uint32_t startIdx, uint32_t endIdx, uint32_t size)</td></tr>
+<tr class="memdesc:a78f10544aa4775629a23f316addb7141"><td class="mdescLeft">&#160;</td><td class="mdescRight">creation of an octant using the elements starting at startIdx.  <br /></td></tr>
+<tr class="separator:a78f10544aa4775629a23f316addb7141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf443f0acbdfb610bf478ba4ac0cfba" id="r_a9bf443f0acbdfb610bf478ba4ac0cfba"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:a9bf443f0acbdfb610bf478ba4ac0cfba"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9bf443f0acbdfb610bf478ba4ac0cfba">findNeighbor</a> (const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *octant, const PointT &amp;query, float minDistance, float &amp;maxDistance, int32_t &amp;resultIndex) const</td></tr>
+<tr class="separator:a9bf443f0acbdfb610bf478ba4ac0cfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a76a0ff32520ac63fa1a91ee65ab4a7" id="r_a9a76a0ff32520ac63fa1a91ee65ab4a7"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:a9a76a0ff32520ac63fa1a91ee65ab4a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9a76a0ff32520ac63fa1a91ee65ab4a7">radiusNeighbors</a> (const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *octant, const PointT &amp;query, float radius, float sqrRadius, std::vector&lt; uint32_t &gt; &amp;resultIndices) const</td></tr>
+<tr class="separator:a9a76a0ff32520ac63fa1a91ee65ab4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16f96b0fcf30d8859fa858652caf9d4" id="r_ae16f96b0fcf30d8859fa858652caf9d4"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:ae16f96b0fcf30d8859fa858652caf9d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae16f96b0fcf30d8859fa858652caf9d4">radiusNeighbors</a> (const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *octant, const PointT &amp;query, float radius, float sqrRadius, std::vector&lt; uint32_t &gt; &amp;resultIndices, std::vector&lt; float &gt; &amp;distances) const</td></tr>
+<tr class="separator:ae16f96b0fcf30d8859fa858652caf9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Métodos protegidos estáticos</h2></td></tr>
+<tr class="memitem:aafea169f9ae29e05beb2138e36f0f075" id="r_aafea169f9ae29e05beb2138e36f0f075"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:aafea169f9ae29e05beb2138e36f0f075"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aafea169f9ae29e05beb2138e36f0f075">overlaps</a> (const PointT &amp;query, float radius, float sqRadius, const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *o)</td></tr>
+<tr class="memdesc:aafea169f9ae29e05beb2138e36f0f075"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if search ball S(q,r) overlaps with octant  <br /></td></tr>
+<tr class="separator:aafea169f9ae29e05beb2138e36f0f075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27388eec2470aa1a0cbf208ac158d640" id="r_a27388eec2470aa1a0cbf208ac158d640"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:a27388eec2470aa1a0cbf208ac158d640"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a27388eec2470aa1a0cbf208ac158d640">contains</a> (const PointT &amp;query, float sqRadius, const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *octant)</td></tr>
+<tr class="memdesc:a27388eec2470aa1a0cbf208ac158d640"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if search ball S(q,r) contains octant  <br /></td></tr>
+<tr class="separator:a27388eec2470aa1a0cbf208ac158d640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee6b8d261e959c7fd89c5ffd96c0845" id="r_afee6b8d261e959c7fd89c5ffd96c0845"><td class="memTemplParams" colspan="2">template&lt;typename Distance &gt; </td></tr>
+<tr class="memitem:afee6b8d261e959c7fd89c5ffd96c0845"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afee6b8d261e959c7fd89c5ffd96c0845">inside</a> (const PointT &amp;query, float radius, const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *octant)</td></tr>
+<tr class="memdesc:afee6b8d261e959c7fd89c5ffd96c0845"><td class="mdescLeft">&#160;</td><td class="mdescRight">test if search ball S(q,r) is completely inside octant.  <br /></td></tr>
+<tr class="separator:afee6b8d261e959c7fd89c5ffd96c0845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:ac9ee659f975ad0ce80317156491b61df" id="r_ac9ee659f975ad0ce80317156491b61df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9ee659f975ad0ce80317156491b61df">params_</a></td></tr>
+<tr class="separator:ac9ee659f975ad0ce80317156491b61df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624f08164274b326a0985496a4d36de7" id="r_a624f08164274b326a0985496a4d36de7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a624f08164274b326a0985496a4d36de7">root_</a></td></tr>
+<tr class="separator:a624f08164274b326a0985496a4d36de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca636619184cd7319331a5a89fb2f12" id="r_aeca636619184cd7319331a5a89fb2f12"><td class="memItemLeft" align="right" valign="top">const ContainerT *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeca636619184cd7319331a5a89fb2f12">data_</a></td></tr>
+<tr class="separator:aeca636619184cd7319331a5a89fb2f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f2872104c139f42e5d23367e60f958" id="r_a58f2872104c139f42e5d23367e60f958"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f2872104c139f42e5d23367e60f958">successors_</a></td></tr>
+<tr class="separator:a58f2872104c139f42e5d23367e60f958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Amigas</h2></td></tr>
+<tr class="memitem:a65a9c9370041507a0df25d0d0a29204c" id="r_a65a9c9370041507a0df25d0d0a29204c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65a9c9370041507a0df25d0d0a29204c">::OctreeTest</a></td></tr>
+<tr class="separator:a65a9c9370041507a0df25d0d0a29204c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename PointT, typename ContainerT = std::vector&lt;PointT&gt;&gt;<br />
+class unibn::Octree&lt; PointT, ContainerT &gt;</div><p>Index-based <a class="el" href="../../d2/d03/classunibn_1_1_octree.html" title="Index-based Octree implementation offering different queries and insertion/removal of points.">Octree</a> implementation offering different queries and insertion/removal of points. </p>
+<p>The index-based <a class="el" href="../../d2/d03/classunibn_1_1_octree.html" title="Index-based Octree implementation offering different queries and insertion/removal of points.">Octree</a> uses a successor relation and a startIndex in each <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> to improve runtime performance for radius queries. The efficient storage of the points by relinking list elements bases on the insight that children of an <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> contain disjoint subsets of points inside the <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> and that we can reorganize the points such that we get an continuous single connect list that we can use to store in each octant the start of this list.</p>
+<p>Special about the implementation is that it allows to search for neighbors with arbitrary p-norms, which distinguishes it from most other <a class="el" href="../../d2/d03/classunibn_1_1_octree.html" title="Index-based Octree implementation offering different queries and insertion/removal of points.">Octree</a> implementations.</p>
+<p>We decided to implement the <a class="el" href="../../d2/d03/classunibn_1_1_octree.html" title="Index-based Octree implementation offering different queries and insertion/removal of points.">Octree</a> using a template for points and containers. The container must have an operator[], which allows to access the points, and a size() member function, which allows to get the size of the container. For the points, we used an access trait to access the coordinates inspired by boost.geometry. The implementation already provides a general access trait, which expects to have public member variables x,y,z.</p>
+<p>f you use the implementation or ideas from the corresponding paper in your academic work, it would be nice if you cite the corresponding paper:</p>
+<p>J. Behley, V. Steinhage, A.B. Cremers. Efficient Radius Neighbor Search in Three-dimensional Point Clouds, Proc. of the IEEE International Conference on Robotics and Automation (ICRA), 2015.</p>
+<p>In future, we might add also other neighbor queries and implement the removal and adding of points.</p>
+<dl class="section version"><dt>Versión</dt><dd>0.1-icra</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>behley </dd></dl>
+</div><h2 class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a185e5a276a426b2639410ac98865d094" name="a185e5a276a426b2639410ac98865d094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185e5a276a426b2639410ac98865d094">&#9670;&#160;</a></span>Octree() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::Octree </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbd46f54e61b7a14401284ab17a3fd8d" name="afbd46f54e61b7a14401284ab17a3fd8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd46f54e61b7a14401284ab17a3fd8d">&#9670;&#160;</a></span>~Octree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::~<a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a> </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6706e8853967849872481a6ef2443360" name="a6706e8853967849872481a6ef2443360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6706e8853967849872481a6ef2443360">&#9670;&#160;</a></span>Octree() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::Octree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a>&lt; PointT, ContainerT &gt; &amp;</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="aa10f78b022e25757ee2a7215f9b001c8" name="aa10f78b022e25757ee2a7215f9b001c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10f78b022e25757ee2a7215f9b001c8">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>remove all data inside the octree. </p>
+
+</div>
+</div>
+<a id="a27388eec2470aa1a0cbf208ac158d640" name="a27388eec2470aa1a0cbf208ac158d640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27388eec2470aa1a0cbf208ac158d640">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>sqRadius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *</td>          <td class="paramname"><span class="paramname"><em>octant</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>test if search ball S(q,r) contains octant </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">query</td><td>query point </td></tr>
+    <tr><td class="paramname">sqRadius</td><td>"squared" radius </td></tr>
+    <tr><td class="paramname">octant</td><td>pointer to octant</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true, if search ball overlaps with octant, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a78f10544aa4775629a23f316addb7141" name="a78f10544aa4775629a23f316addb7141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78f10544aa4775629a23f316addb7141">&#9670;&#160;</a></span>createOctant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a>&lt; PointT, ContainerT &gt;::Octant * <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::createOctant </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>z</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>extent</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>startIdx</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>endIdx</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creation of an octant using the elements starting at startIdx. </p>
+<p>The method reorders the index such that all points are correctly linked to successors belonging to the same octant.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x,y,z</td><td>center coordinates of octant </td></tr>
+    <tr><td class="paramname">extent</td><td>extent of octant </td></tr>
+    <tr><td class="paramname">startIdx</td><td>first index of points inside octant </td></tr>
+    <tr><td class="paramname">endIdx</td><td>last index of points inside octant </td></tr>
+    <tr><td class="paramname">size</td><td>number of points in octant</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>octant with children nodes. </dd></dl>
+
+</div>
+</div>
+<a id="a9bf443f0acbdfb610bf478ba4ac0cfba" name="a9bf443f0acbdfb610bf478ba4ac0cfba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf443f0acbdfb610bf478ba4ac0cfba">&#9670;&#160;</a></span>findNeighbor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::findNeighbor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *</td>          <td class="paramname"><span class="paramname"><em>octant</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistance</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>maxDistance</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t &amp;</td>          <td class="paramname"><span class="paramname"><em>resultIndex</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true, if search finished, otherwise false. </dd></dl>
+
+</div>
+</div>
+<a id="a9ad277be505e9118906a7393181e472a" name="a9ad277be505e9118906a7393181e472a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad277be505e9118906a7393181e472a">&#9670;&#160;</a></span>findNeighbor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::findNeighbor </td>
+          <td>(</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minDistance</em><span class="paramdefsep"> = </span><span class="paramdefval">-1</span></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>nearest neighbor queries. Using minDistance &gt;= 0, we explicitly disallow self-matches. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>index of nearest neighbor n with Distance::compute(query, n) &gt; minDistance and otherwise -1. </dd></dl>
+
+</div>
+</div>
+<a id="afb80a16faaff5b0bbc033f405149a65f" name="afb80a16faaff5b0bbc033f405149a65f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb80a16faaff5b0bbc033f405149a65f">&#9670;&#160;</a></span>initialize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::initialize </td>
+          <td>(</td>
+          <td class="paramtype">const ContainerT &amp;</td>          <td class="paramname"><span class="paramname"><em>pts</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a>()</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>initialize octree with all points </p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d03/classunibn_1_1_octree_afb80a16faaff5b0bbc033f405149a65f_icgraph.svg" width="368" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af944b42e91d732658295ca37b678fcaf" name="af944b42e91d732658295ca37b678fcaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af944b42e91d732658295ca37b678fcaf">&#9670;&#160;</a></span>initialize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::initialize </td>
+          <td>(</td>
+          <td class="paramtype">const ContainerT &amp;</td>          <td class="paramname"><span class="paramname"><em>pts</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>indexes</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a>()</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>initialize octree only from pts that are inside indexes. </p>
+
+</div>
+</div>
+<a id="afee6b8d261e959c7fd89c5ffd96c0845" name="afee6b8d261e959c7fd89c5ffd96c0845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee6b8d261e959c7fd89c5ffd96c0845">&#9670;&#160;</a></span>inside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::inside </td>
+          <td>(</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *</td>          <td class="paramname"><span class="paramname"><em>octant</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>test if search ball S(q,r) is completely inside octant. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">query</td><td>query point </td></tr>
+    <tr><td class="paramname">radius</td><td>radius r </td></tr>
+    <tr><td class="paramname">octant</td><td>point to octant.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true, if search ball is completely inside the octant, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a6265e75a3dc17f4d78b688547726d6f8" name="a6265e75a3dc17f4d78b688547726d6f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6265e75a3dc17f4d78b688547726d6f8">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a> &amp; <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">Octree</a>&lt; PointT, ContainerT &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>oct</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafea169f9ae29e05beb2138e36f0f075" name="aafea169f9ae29e05beb2138e36f0f075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafea169f9ae29e05beb2138e36f0f075">&#9670;&#160;</a></span>overlaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::overlaps </td>
+          <td>(</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>sqRadius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *</td>          <td class="paramname"><span class="paramname"><em>o</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>test if search ball S(q,r) overlaps with octant </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">query</td><td>query point </td></tr>
+    <tr><td class="paramname">radius</td><td>"squared" radius </td></tr>
+    <tr><td class="paramname">o</td><td>pointer to octant</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true, if search ball overlaps with octant, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a9a76a0ff32520ac63fa1a91ee65ab4a7" name="a9a76a0ff32520ac63fa1a91ee65ab4a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a76a0ff32520ac63fa1a91ee65ab4a7">&#9670;&#160;</a></span>radiusNeighbors() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::radiusNeighbors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *</td>          <td class="paramname"><span class="paramname"><em>octant</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>sqrRadius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>resultIndices</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae16f96b0fcf30d8859fa858652caf9d4" name="ae16f96b0fcf30d8859fa858652caf9d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae16f96b0fcf30d8859fa858652caf9d4">&#9670;&#160;</a></span>radiusNeighbors() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::radiusNeighbors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a> *</td>          <td class="paramname"><span class="paramname"><em>octant</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>sqrRadius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>resultIndices</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>distances</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad61d132971077431a0cb78fca6fd6c82" name="ad61d132971077431a0cb78fca6fd6c82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad61d132971077431a0cb78fca6fd6c82">&#9670;&#160;</a></span>radiusNeighbors() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::radiusNeighbors </td>
+          <td>(</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>resultIndices</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>radius neighbor queries where radius determines the maximal radius of reported indices of points in resultIndices </p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d03/classunibn_1_1_octree_ad61d132971077431a0cb78fca6fd6c82_icgraph.svg" width="415" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="abd882502d17297f3c596ad1a53b2c655" name="abd882502d17297f3c596ad1a53b2c655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd882502d17297f3c596ad1a53b2c655">&#9670;&#160;</a></span>radiusNeighbors() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT &gt; </div>
+<div class="memtemplate">
+template&lt;typename Distance &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::radiusNeighbors </td>
+          <td>(</td>
+          <td class="paramtype">const PointT &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint32_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>resultIndices</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>distances</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>radius neighbor queries with explicit (squared) distance computation. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de símbolos amigos y relacionados</h2>
+<a id="a65a9c9370041507a0df25d0d0a29204c" name="a65a9c9370041507a0df25d0d0a29204c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a9c9370041507a0df25d0d0a29204c">&#9670;&#160;</a></span>::OctreeTest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class ::OctreeTest</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de datos miembro</h2>
+<a id="aeca636619184cd7319331a5a89fb2f12" name="aeca636619184cd7319331a5a89fb2f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca636619184cd7319331a5a89fb2f12">&#9670;&#160;</a></span>data_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ContainerT* <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::data_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9ee659f975ad0ce80317156491b61df" name="ac9ee659f975ad0ce80317156491b61df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ee659f975ad0ce80317156491b61df">&#9670;&#160;</a></span>params_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d07/structunibn_1_1_octree_params.html">OctreeParams</a> <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::params_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a624f08164274b326a0985496a4d36de7" name="a624f08164274b326a0985496a4d36de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a624f08164274b326a0985496a4d36de7">&#9670;&#160;</a></span>root_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d03/classunibn_1_1_octree_1_1_octant.html">Octant</a>* <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::root_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58f2872104c139f42e5d23367e60f958" name="a58f2872104c139f42e5d23367e60f958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f2872104c139f42e5d23367e60f958">&#9670;&#160;</a></span>successors_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename PointT , typename ContainerT  = std::vector&lt;PointT&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;uint32_t&gt; <a class="el" href="../../d2/d03/classunibn_1_1_octree.html">unibn::Octree</a>&lt; PointT, ContainerT &gt;::successors_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
+<li>D:/GEU/GEUCore/Source/DataStructures/<a class="el" href="../../db/d07/_octree_8hpp_source.html">Octree.hpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->

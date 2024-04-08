@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de cÃ³digo fuente D:/GEU/GEUModules/Multiespectral/Source/Projection.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('dd/d01/_projection_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Projection.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../dd/d01/_projection_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;pcl/point_cloud.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d07/_register_8h.html">Register.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d8/d04/namespacestd.html">std</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">class </span>mutex;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>}</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/d07/class_metadata_reader.html">MetadataReader</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d01/namespace_g_e_u.html">GEU</a> {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">class </span>PointCloud;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">class </span>MultiespectralGUIAdapter;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">using namespace </span><a class="code hl_namespace" href="../../d8/d04/namespacestd.html">std</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">using namespace </span><a class="code hl_namespace" href="../../df/d06/namespacepcl.html">pcl</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d03/class_projection.html">Projection</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">friend</span> <a class="code hl_class" href="../../de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html">GEU::MultiespectralGUIAdapter</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../dc/d07/struct_projection_1_1_oclusion_data.html">   23</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="../../dc/d07/struct_projection_1_1_oclusion_data.html">OclusionData</a> {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a357566352bd549323e4fc0f38b27dde7">   24</a></span>        <span class="keywordtype">int</span> <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a357566352bd549323e4fc0f38b27dde7">pointIndex</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#afb39049a6b1518b8e68797d55253cdad">   25</a></span>        <span class="keywordtype">float</span> <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#afb39049a6b1518b8e68797d55253cdad">distance</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a885eb1818bbe7c5071ea4738323902de">   26</a></span>        <span class="keywordtype">float</span> <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a885eb1818bbe7c5071ea4738323902de">reflectance</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a2cf9eb4e1a1e6ef1e1cd7e20de244189">   28</a></span>        <a class="code hl_function" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a2cf9eb4e1a1e6ef1e1cd7e20de244189">OclusionData</a>() {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a357566352bd549323e4fc0f38b27dde7">pointIndex</a> = 0;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#afb39049a6b1518b8e68797d55253cdad">distance</a> = FLT_MAX;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a885eb1818bbe7c5071ea4738323902de">reflectance</a> = 0;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        }</div>
+</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a8c4617d987532cedddc2d436798ba0d9">   34</a></span>        <a class="code hl_function" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a8c4617d987532cedddc2d436798ba0d9">OclusionData</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">float</span> dist, <span class="keyword">const</span> <span class="keywordtype">float</span> ref) {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a357566352bd549323e4fc0f38b27dde7">pointIndex</a> = index;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#afb39049a6b1518b8e68797d55253cdad">distance</a> = dist;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <a class="code hl_variable" href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a885eb1818bbe7c5071ea4738323902de">reflectance</a> = ref;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        }</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    };</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1">   41</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1">ProjectionType</a> {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_enumvalue" href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1aa80420eef88d11f77532f1b9cb467fa3">Perspective</a>,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_enumvalue" href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1a44d464f3fda9a5457bd9f11e32b86f6f">Fisheye</a></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    };</div>
+</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a164ec329cfbbeba6a3b44285c9442c15">   46</a></span>    vector&lt;string&gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#a164ec329cfbbeba6a3b44285c9442c15">_camerasImagePath</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a79e668b9bff071e8436f98d86ecb46e2">   47</a></span>    vector&lt;glm::mat3&gt;  <a class="code hl_variable" href="../../db/d03/class_projection.html#a79e668b9bff071e8436f98d86ecb46e2">_camerasKMatrix</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a79d9cac313d41bd2751512ba0fe21c5c">   48</a></span>    vector&lt;Eigen::Matrix3f&gt;  <a class="code hl_variable" href="../../db/d03/class_projection.html#a79d9cac313d41bd2751512ba0fe21c5c">_camerasRotationMatrix</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a955a38bc2f4636e0cfd53c7d775c41d7">   49</a></span>    vector&lt;glm::vec3&gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#a955a38bc2f4636e0cfd53c7d775c41d7">_camerasRadialDistortion</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#ab0c456cc6860bf965ff9ee42a59fa32d">   50</a></span>    vector&lt;glm::vec2&gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#ab0c456cc6860bf965ff9ee42a59fa32d">_camerasTagencialDistortion</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">//Matriz de transformación para el caso de ICP</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#aa50d431aebccbba8ca1f30f12feb8e53">   53</a></span>    Eigen::Matrix4f <a class="code hl_variable" href="../../db/d03/class_projection.html#aa50d431aebccbba8ca1f30f12feb8e53">_transformationMatrix</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a3b50e6155aedc86214ce03a54fb159b5">   55</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a3b50e6155aedc86214ce03a54fb159b5">_euler</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a356f4ace8e1066e625ebf7d39f0164f6">   56</a></span>    vector&lt; vector&lt;Eigen::Vector3f&gt; &gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#a356f4ace8e1066e625ebf7d39f0164f6">_vEuler</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a38e1d0c03ed81ce5fed10583463c80fb">   58</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a38e1d0c03ed81ce5fed10583463c80fb">_aligned</a>; <span class="comment">// se chequea si las cámaras multiespectrales ya están alineadas</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a1548e8f0a488f41388cdab6397d705d3">   59</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a1548e8f0a488f41388cdab6397d705d3">_icp</a>; <span class="comment">//se chequea si ya se han alineado las cámaras</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a5b72db07c4844fc18f3f0b9b7fa00c5b">   60</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a5b72db07c4844fc18f3f0b9b7fa00c5b">_mapped</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#acc9dfee4ce891738fc1eec05fd8478e3">   61</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#acc9dfee4ce891738fc1eec05fd8478e3">_viCalculated</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="comment">//Reflectancia máxima y mínima</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a47c003b6ff84859d175b61ed407d71db">   64</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a47c003b6ff84859d175b61ed407d71db">_maxReflectance</a> = -FLT_MAX;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a263b314854c7c2cab0a549cdb255b2e5">   65</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a263b314854c7c2cab0a549cdb255b2e5">_minReflectance</a> = FLT_MAX;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="comment">//Vector punto3D-reflectancia (pixel de la imagen multiespectral)</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#ae2d6a26267ac934c49326065f584cea9">   68</a></span>    vector&lt;Register*&gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#ae2d6a26267ac934c49326065f584cea9">_vRegister</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a616cfab3f3f1eb7138d5796284a3263b">   69</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a616cfab3f3f1eb7138d5796284a3263b">_path</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#abbb01d0108af594c1a34cf962cb9ed48">   70</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#abbb01d0108af594c1a34cf962cb9ed48">_maxNdvi</a>, <a class="code hl_variable" href="../../db/d03/class_projection.html#a2e3af78a05d9ed05dc085066e6a5a388">_minNdvi</a>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a8237d0ea23148823afeb166c562077d2">   71</a></span>    vector&lt;float&gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#a8237d0ea23148823afeb166c562077d2">_vK</a>{ 1,1,1,1,1 };</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="comment">//Vector de puntos proyectados o no</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#ad37c6588745f936c3e2483e305b456c8">   74</a></span>    mutex* <a class="code hl_variable" href="../../db/d03/class_projection.html#ad37c6588745f936c3e2483e305b456c8">_projectedPointsMutex</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a3cb54ce4552508cf40a33514f7a7f792">   75</a></span>    vector&lt;int&gt; <a class="code hl_variable" href="../../db/d03/class_projection.html#a3cb54ce4552508cf40a33514f7a7f792">_projectedPoints</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">//Nube de puntos</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#ae6f899a916cdcf14636ea05572b01116">   78</a></span>    <a class="code hl_class" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a>* <a class="code hl_variable" href="../../db/d03/class_projection.html#ae6f899a916cdcf14636ea05572b01116">_associatedPointCloud</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <a class="code hl_function" href="../../db/d03/class_projection.html#a2b95a14f167b9b394d68eb1edf173929">Projection</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; path);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <a class="code hl_function" href="../../db/d03/class_projection.html#ac0554f994078308f0169a4629a2d1b0a">~Projection</a>();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a1dd9e0e874100e26c00a673c728b5376">addPath</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; image_path);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#aa819aa1c45f4781c8640e5391e4a3384">addMultiRmatrix</a>(<span class="keyword">const</span> Eigen::Matrix3f&amp; m);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a81d1b79977843ba74586bc6502c74597">icpAlignment</a>(<span class="keyword">const</span> PointCloud&lt;PointXYZRGBA&gt;::Ptr&amp; cloud_in, <span class="keyword">const</span> PointCloud&lt;PointXYZRGBA&gt;::Ptr&amp; cloud_out, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; filePath);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a7fb0619ded149484bdc7f2cddd29fdd4">normalizeReflectance</a>(Eigen::MatrixXf reflectance_matrix) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#ab46ebe5cf87462e4bed4b6166b7625b9">vegetationIndexCalculation</a>();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    Eigen::Affine3f <a class="code hl_function" href="../../db/d03/class_projection.html#a03d3c08f71175fe13c5f6ad3678483c0">orientationTransform</a>(PointXYZRGBA camera, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    Eigen::Affine3f <a class="code hl_function" href="../../db/d03/class_projection.html#afa54867a6d692aacd540d830fc15445e">orientationIcpTransform</a>(PointXYZRGBA camera, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    PointCloud&lt;PointXYZRGBA&gt;::Ptr <a class="code hl_function" href="../../db/d03/class_projection.html#a959d6b7f34ae98d3f8811656abf09cb3">orientationCloud</a>(<span class="keyword">const</span> PointCloud&lt;PointXYZRGBA&gt;::Ptr&amp; rgb_cloud, PointXYZRGBA camera, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    PointCloud&lt;PointXYZRGBA&gt;::Ptr <a class="code hl_function" href="../../db/d03/class_projection.html#a63cc11a5ad13e474184711d4df85ad81">orientationIcpCloud</a>(<span class="keyword">const</span> PointCloud&lt;PointXYZRGBA&gt;::Ptr&amp; rgb_cloud, PointXYZRGBA camera, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a523a911b510dd0e19334e89ce02bcf19">project</a>(<a class="code hl_enumeration" href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1">ProjectionType</a> projType, <span class="keyword">const</span> PointCloud&lt;PointXYZRGBA&gt;::Ptr&amp; pclCloud, <span class="keyword">const</span> Eigen::Affine3f&amp; cameraSystemTransform,</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                 <span class="keyword">const</span> <a class="code hl_class" href="../../d7/d07/class_metadata_reader.html">MetadataReader</a>&amp; exif_img, <span class="keywordtype">int</span> id_cam, PointXYZRGBA camera, <span class="keywordtype">int</span> band);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#abe314ac3095b6a36d014f4d097431555">normalizeVi</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d03/class_projection.html#acebe8dede18bb5ec67662ce776077dfa">isMapped</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    vector&lt;int&gt; <a class="code hl_function" href="../../db/d03/class_projection.html#a231560db72af81c4fe1ac9ad0ac2b671">classification</a>(glm::vec2 ndviRange, glm::vec2 rviRange, glm::vec2 grviRange, glm::vec2 ndreRange);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="comment">//Get</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <a class="code hl_class" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a>* <a class="code hl_function" href="../../db/d03/class_projection.html#a5df71896adceb2d22c90e187fb32a6ba">getAssociatedPointCloud</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d03/class_projection.html#af4593efd80ab408a526ca85b298b4909">get_aligned</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d03/class_projection.html#aa1fde32c9fcb7be8ff41874250d163a6">get_icp</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a67d1978e8e05988f84b45075c63894a5">getId</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a9f1653aad3048f7af0666740b13127e3">is_euler</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a88a822ba6ebf4b70936044187568e067">get_path</a>();</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <a class="code hl_class" href="../../dc/d02/class_register.html">Register</a>* <a class="code hl_function" href="../../db/d03/class_projection.html#ac9a0ea32bd84095161d9f8eebf6de729">get_register</a>(<span class="keywordtype">int</span> i) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    vector&lt;Register*&gt; <a class="code hl_function" href="../../db/d03/class_projection.html#a8371a505c06369b66a15bacf99e0eb13">get_v_register</a>();</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a5fff59c0fc720f712baf544fb9cd7650">setVRegister</a>(<span class="keywordtype">int</span> tam);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    vector&lt;Eigen::Matrix3f&gt; <a class="code hl_function" href="../../db/d03/class_projection.html#a9a6de7ad43d44bcb5e5256c8cf04086c">get_multi_rotation_matrix</a>();</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    vector&lt;string&gt; <a class="code hl_function" href="../../db/d03/class_projection.html#aebf63cdca25149c7719a49ad581edde0">get_multi_image_path</a>();</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    Eigen::Matrix4f <a class="code hl_function" href="../../db/d03/class_projection.html#ad9f85455c7ccd0653a8d139b7ca71278">get_transformation_matrix</a>();</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="comment">//Set</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#ab84a50db419bdd40990889599a4712a2">set_euler</a>();</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="../../db/d03/class_projection.html#a01aeea6a74eec6e67c5798d5f31864b8">  128</a></span>    vector&lt; vector&lt;Eigen::Vector3f&gt; &gt; <a class="code hl_function" href="../../db/d03/class_projection.html#a01aeea6a74eec6e67c5798d5f31864b8">get_euler</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a356f4ace8e1066e625ebf7d39f0164f6">_vEuler</a>; }</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#aca1e12a42de7a9acd19aafd1cc157f42">setAssociatedPointCloud</a>(<a class="code hl_class" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a>* pc);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a46dda22c4a175c1767dabf209776bb15">setMapped</a>(<span class="keywordtype">bool</span> _mapping);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a6344893406fc47eac5ea7872328b03de">set_aligned</a>(<span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d03/class_projection.html#a38e1d0c03ed81ce5fed10583463c80fb">_aligned</a>);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a4b7d2eafc5a632b50a1afe882ec77931">set_v_K</a>(<span class="keyword">const</span> std::string&amp; filePath);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/d03/class_projection.html#a88097662ad6d466246c16f9048b0b210">is_v_k</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>};</div>
+</div>
+<div class="ttc" id="a_register_8h_html"><div class="ttname"><a href="../../d9/d07/_register_8h.html">Register.h</a></div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_multiespectral_g_u_i_adapter_html"><div class="ttname"><a href="../../de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html">GEU::MultiespectralGUIAdapter</a></div><div class="ttdef"><b>Definition</b> MultiespectralGUIAdapter.h:10</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a></div><div class="ttdef"><b>Definition</b> PointCloud.h:14</div></div>
+<div class="ttc" id="aclass_metadata_reader_html"><div class="ttname"><a href="../../d7/d07/class_metadata_reader.html">MetadataReader</a></div><div class="ttdef"><b>Definition</b> MetadataReader.h:21</div></div>
+<div class="ttc" id="aclass_projection_html"><div class="ttname"><a href="../../db/d03/class_projection.html">Projection</a></div><div class="ttdef"><b>Definition</b> Projection.h:20</div></div>
+<div class="ttc" id="aclass_projection_html_a01aeea6a74eec6e67c5798d5f31864b8"><div class="ttname"><a href="../../db/d03/class_projection.html#a01aeea6a74eec6e67c5798d5f31864b8">Projection::get_euler</a></div><div class="ttdeci">vector&lt; vector&lt; Eigen::Vector3f &gt; &gt; get_euler()</div><div class="ttdef"><b>Definition</b> Projection.h:128</div></div>
+<div class="ttc" id="aclass_projection_html_a03d3c08f71175fe13c5f6ad3678483c0"><div class="ttname"><a href="../../db/d03/class_projection.html#a03d3c08f71175fe13c5f6ad3678483c0">Projection::orientationTransform</a></div><div class="ttdeci">Eigen::Affine3f orientationTransform(PointXYZRGBA camera, int id)</div><div class="ttdef"><b>Definition</b> Projection.cpp:181</div></div>
+<div class="ttc" id="aclass_projection_html_a1548e8f0a488f41388cdab6397d705d3"><div class="ttname"><a href="../../db/d03/class_projection.html#a1548e8f0a488f41388cdab6397d705d3">Projection::_icp</a></div><div class="ttdeci">bool _icp</div><div class="ttdef"><b>Definition</b> Projection.h:59</div></div>
+<div class="ttc" id="aclass_projection_html_a164ec329cfbbeba6a3b44285c9442c15"><div class="ttname"><a href="../../db/d03/class_projection.html#a164ec329cfbbeba6a3b44285c9442c15">Projection::_camerasImagePath</a></div><div class="ttdeci">vector&lt; string &gt; _camerasImagePath</div><div class="ttdef"><b>Definition</b> Projection.h:46</div></div>
+<div class="ttc" id="aclass_projection_html_a1dd9e0e874100e26c00a673c728b5376"><div class="ttname"><a href="../../db/d03/class_projection.html#a1dd9e0e874100e26c00a673c728b5376">Projection::addPath</a></div><div class="ttdeci">void addPath(const string &amp;image_path)</div><div class="ttdef"><b>Definition</b> Projection.cpp:43</div></div>
+<div class="ttc" id="aclass_projection_html_a231560db72af81c4fe1ac9ad0ac2b671"><div class="ttname"><a href="../../db/d03/class_projection.html#a231560db72af81c4fe1ac9ad0ac2b671">Projection::classification</a></div><div class="ttdeci">vector&lt; int &gt; classification(glm::vec2 ndviRange, glm::vec2 rviRange, glm::vec2 grviRange, glm::vec2 ndreRange)</div><div class="ttdef"><b>Definition</b> Projection.cpp:505</div></div>
+<div class="ttc" id="aclass_projection_html_a263b314854c7c2cab0a549cdb255b2e5"><div class="ttname"><a href="../../db/d03/class_projection.html#a263b314854c7c2cab0a549cdb255b2e5">Projection::_minReflectance</a></div><div class="ttdeci">float _minReflectance</div><div class="ttdef"><b>Definition</b> Projection.h:65</div></div>
+<div class="ttc" id="aclass_projection_html_a2b95a14f167b9b394d68eb1edf173929"><div class="ttname"><a href="../../db/d03/class_projection.html#a2b95a14f167b9b394d68eb1edf173929">Projection::Projection</a></div><div class="ttdeci">Projection(const string &amp;path)</div><div class="ttdef"><b>Definition</b> Projection.cpp:5</div></div>
+<div class="ttc" id="aclass_projection_html_a2e3af78a05d9ed05dc085066e6a5a388"><div class="ttname"><a href="../../db/d03/class_projection.html#a2e3af78a05d9ed05dc085066e6a5a388">Projection::_minNdvi</a></div><div class="ttdeci">int _minNdvi</div><div class="ttdef"><b>Definition</b> Projection.h:70</div></div>
+<div class="ttc" id="aclass_projection_html_a356f4ace8e1066e625ebf7d39f0164f6"><div class="ttname"><a href="../../db/d03/class_projection.html#a356f4ace8e1066e625ebf7d39f0164f6">Projection::_vEuler</a></div><div class="ttdeci">vector&lt; vector&lt; Eigen::Vector3f &gt; &gt; _vEuler</div><div class="ttdef"><b>Definition</b> Projection.h:56</div></div>
+<div class="ttc" id="aclass_projection_html_a38e1d0c03ed81ce5fed10583463c80fb"><div class="ttname"><a href="../../db/d03/class_projection.html#a38e1d0c03ed81ce5fed10583463c80fb">Projection::_aligned</a></div><div class="ttdeci">bool _aligned</div><div class="ttdef"><b>Definition</b> Projection.h:58</div></div>
+<div class="ttc" id="aclass_projection_html_a3b50e6155aedc86214ce03a54fb159b5"><div class="ttname"><a href="../../db/d03/class_projection.html#a3b50e6155aedc86214ce03a54fb159b5">Projection::_euler</a></div><div class="ttdeci">bool _euler</div><div class="ttdef"><b>Definition</b> Projection.h:55</div></div>
+<div class="ttc" id="aclass_projection_html_a3cb54ce4552508cf40a33514f7a7f792"><div class="ttname"><a href="../../db/d03/class_projection.html#a3cb54ce4552508cf40a33514f7a7f792">Projection::_projectedPoints</a></div><div class="ttdeci">vector&lt; int &gt; _projectedPoints</div><div class="ttdef"><b>Definition</b> Projection.h:75</div></div>
+<div class="ttc" id="aclass_projection_html_a46dda22c4a175c1767dabf209776bb15"><div class="ttname"><a href="../../db/d03/class_projection.html#a46dda22c4a175c1767dabf209776bb15">Projection::setMapped</a></div><div class="ttdeci">void setMapped(bool _mapping)</div><div class="ttdef"><b>Definition</b> Projection.cpp:123</div></div>
+<div class="ttc" id="aclass_projection_html_a47c003b6ff84859d175b61ed407d71db"><div class="ttname"><a href="../../db/d03/class_projection.html#a47c003b6ff84859d175b61ed407d71db">Projection::_maxReflectance</a></div><div class="ttdeci">float _maxReflectance</div><div class="ttdef"><b>Definition</b> Projection.h:64</div></div>
+<div class="ttc" id="aclass_projection_html_a4b7d2eafc5a632b50a1afe882ec77931"><div class="ttname"><a href="../../db/d03/class_projection.html#a4b7d2eafc5a632b50a1afe882ec77931">Projection::set_v_K</a></div><div class="ttdeci">void set_v_K(const std::string &amp;filePath)</div><div class="ttdef"><b>Definition</b> Projection.cpp:159</div></div>
+<div class="ttc" id="aclass_projection_html_a523a911b510dd0e19334e89ce02bcf19"><div class="ttname"><a href="../../db/d03/class_projection.html#a523a911b510dd0e19334e89ce02bcf19">Projection::project</a></div><div class="ttdeci">void project(ProjectionType projType, const PointCloud&lt; PointXYZRGBA &gt;::Ptr &amp;pclCloud, const Eigen::Affine3f &amp;cameraSystemTransform, const MetadataReader &amp;exif_img, int id_cam, PointXYZRGBA camera, int band)</div><div class="ttdef"><b>Definition</b> Projection.cpp:298</div></div>
+<div class="ttc" id="aclass_projection_html_a5b72db07c4844fc18f3f0b9b7fa00c5b"><div class="ttname"><a href="../../db/d03/class_projection.html#a5b72db07c4844fc18f3f0b9b7fa00c5b">Projection::_mapped</a></div><div class="ttdeci">bool _mapped</div><div class="ttdef"><b>Definition</b> Projection.h:60</div></div>
+<div class="ttc" id="aclass_projection_html_a5df71896adceb2d22c90e187fb32a6ba"><div class="ttname"><a href="../../db/d03/class_projection.html#a5df71896adceb2d22c90e187fb32a6ba">Projection::getAssociatedPointCloud</a></div><div class="ttdeci">GEU::PointCloud * getAssociatedPointCloud() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:134</div></div>
+<div class="ttc" id="aclass_projection_html_a5fff59c0fc720f712baf544fb9cd7650"><div class="ttname"><a href="../../db/d03/class_projection.html#a5fff59c0fc720f712baf544fb9cd7650">Projection::setVRegister</a></div><div class="ttdeci">void setVRegister(int tam)</div><div class="ttdef"><b>Definition</b> Projection.cpp:526</div></div>
+<div class="ttc" id="aclass_projection_html_a616cfab3f3f1eb7138d5796284a3263b"><div class="ttname"><a href="../../db/d03/class_projection.html#a616cfab3f3f1eb7138d5796284a3263b">Projection::_path</a></div><div class="ttdeci">string _path</div><div class="ttdef"><b>Definition</b> Projection.h:69</div></div>
+<div class="ttc" id="aclass_projection_html_a6344893406fc47eac5ea7872328b03de"><div class="ttname"><a href="../../db/d03/class_projection.html#a6344893406fc47eac5ea7872328b03de">Projection::set_aligned</a></div><div class="ttdeci">void set_aligned(bool _aligned)</div><div class="ttdef"><b>Definition</b> Projection.cpp:126</div></div>
+<div class="ttc" id="aclass_projection_html_a63cc11a5ad13e474184711d4df85ad81"><div class="ttname"><a href="../../db/d03/class_projection.html#a63cc11a5ad13e474184711d4df85ad81">Projection::orientationIcpCloud</a></div><div class="ttdeci">PointCloud&lt; PointXYZRGBA &gt;::Ptr orientationIcpCloud(const PointCloud&lt; PointXYZRGBA &gt;::Ptr &amp;rgb_cloud, PointXYZRGBA camera, int id)</div><div class="ttdef"><b>Definition</b> Projection.cpp:240</div></div>
+<div class="ttc" id="aclass_projection_html_a67d1978e8e05988f84b45075c63894a5"><div class="ttname"><a href="../../db/d03/class_projection.html#a67d1978e8e05988f84b45075c63894a5">Projection::getId</a></div><div class="ttdeci">string getId() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:146</div></div>
+<div class="ttc" id="aclass_projection_html_a72bf5861e2534d3101d56661d701dfe1"><div class="ttname"><a href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1">Projection::ProjectionType</a></div><div class="ttdeci">ProjectionType</div><div class="ttdef"><b>Definition</b> Projection.h:41</div></div>
+<div class="ttc" id="aclass_projection_html_a72bf5861e2534d3101d56661d701dfe1a44d464f3fda9a5457bd9f11e32b86f6f"><div class="ttname"><a href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1a44d464f3fda9a5457bd9f11e32b86f6f">Projection::ProjectionType::Fisheye</a></div><div class="ttdeci">@ Fisheye</div></div>
+<div class="ttc" id="aclass_projection_html_a72bf5861e2534d3101d56661d701dfe1aa80420eef88d11f77532f1b9cb467fa3"><div class="ttname"><a href="../../db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1aa80420eef88d11f77532f1b9cb467fa3">Projection::ProjectionType::Perspective</a></div><div class="ttdeci">@ Perspective</div></div>
+<div class="ttc" id="aclass_projection_html_a79d9cac313d41bd2751512ba0fe21c5c"><div class="ttname"><a href="../../db/d03/class_projection.html#a79d9cac313d41bd2751512ba0fe21c5c">Projection::_camerasRotationMatrix</a></div><div class="ttdeci">vector&lt; Eigen::Matrix3f &gt; _camerasRotationMatrix</div><div class="ttdef"><b>Definition</b> Projection.h:48</div></div>
+<div class="ttc" id="aclass_projection_html_a79e668b9bff071e8436f98d86ecb46e2"><div class="ttname"><a href="../../db/d03/class_projection.html#a79e668b9bff071e8436f98d86ecb46e2">Projection::_camerasKMatrix</a></div><div class="ttdeci">vector&lt; glm::mat3 &gt; _camerasKMatrix</div><div class="ttdef"><b>Definition</b> Projection.h:47</div></div>
+<div class="ttc" id="aclass_projection_html_a7fb0619ded149484bdc7f2cddd29fdd4"><div class="ttname"><a href="../../db/d03/class_projection.html#a7fb0619ded149484bdc7f2cddd29fdd4">Projection::normalizeReflectance</a></div><div class="ttdeci">void normalizeReflectance(Eigen::MatrixXf reflectance_matrix) const</div><div class="ttdef"><b>Definition</b> Projection.cpp:150</div></div>
+<div class="ttc" id="aclass_projection_html_a81d1b79977843ba74586bc6502c74597"><div class="ttname"><a href="../../db/d03/class_projection.html#a81d1b79977843ba74586bc6502c74597">Projection::icpAlignment</a></div><div class="ttdeci">void icpAlignment(const PointCloud&lt; PointXYZRGBA &gt;::Ptr &amp;cloud_in, const PointCloud&lt; PointXYZRGBA &gt;::Ptr &amp;cloud_out, const string &amp;filePath)</div><div class="ttdef"><b>Definition</b> Projection.cpp:49</div></div>
+<div class="ttc" id="aclass_projection_html_a8237d0ea23148823afeb166c562077d2"><div class="ttname"><a href="../../db/d03/class_projection.html#a8237d0ea23148823afeb166c562077d2">Projection::_vK</a></div><div class="ttdeci">vector&lt; float &gt; _vK</div><div class="ttdef"><b>Definition</b> Projection.h:71</div></div>
+<div class="ttc" id="aclass_projection_html_a8371a505c06369b66a15bacf99e0eb13"><div class="ttname"><a href="../../db/d03/class_projection.html#a8371a505c06369b66a15bacf99e0eb13">Projection::get_v_register</a></div><div class="ttdeci">vector&lt; Register * &gt; get_v_register()</div><div class="ttdef"><b>Definition</b> Projection.cpp:25</div></div>
+<div class="ttc" id="aclass_projection_html_a88097662ad6d466246c16f9048b0b210"><div class="ttname"><a href="../../db/d03/class_projection.html#a88097662ad6d466246c16f9048b0b210">Projection::is_v_k</a></div><div class="ttdeci">bool is_v_k() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:177</div></div>
+<div class="ttc" id="aclass_projection_html_a88a822ba6ebf4b70936044187568e067"><div class="ttname"><a href="../../db/d03/class_projection.html#a88a822ba6ebf4b70936044187568e067">Projection::get_path</a></div><div class="ttdeci">string get_path()</div><div class="ttdef"><b>Definition</b> Projection.cpp:84</div></div>
+<div class="ttc" id="aclass_projection_html_a955a38bc2f4636e0cfd53c7d775c41d7"><div class="ttname"><a href="../../db/d03/class_projection.html#a955a38bc2f4636e0cfd53c7d775c41d7">Projection::_camerasRadialDistortion</a></div><div class="ttdeci">vector&lt; glm::vec3 &gt; _camerasRadialDistortion</div><div class="ttdef"><b>Definition</b> Projection.h:49</div></div>
+<div class="ttc" id="aclass_projection_html_a959d6b7f34ae98d3f8811656abf09cb3"><div class="ttname"><a href="../../db/d03/class_projection.html#a959d6b7f34ae98d3f8811656abf09cb3">Projection::orientationCloud</a></div><div class="ttdeci">PointCloud&lt; PointXYZRGBA &gt;::Ptr orientationCloud(const PointCloud&lt; PointXYZRGBA &gt;::Ptr &amp;rgb_cloud, PointXYZRGBA camera, int id)</div><div class="ttdef"><b>Definition</b> Projection.cpp:226</div></div>
+<div class="ttc" id="aclass_projection_html_a9a6de7ad43d44bcb5e5256c8cf04086c"><div class="ttname"><a href="../../db/d03/class_projection.html#a9a6de7ad43d44bcb5e5256c8cf04086c">Projection::get_multi_rotation_matrix</a></div><div class="ttdeci">vector&lt; Eigen::Matrix3f &gt; get_multi_rotation_matrix()</div><div class="ttdef"><b>Definition</b> Projection.cpp:33</div></div>
+<div class="ttc" id="aclass_projection_html_a9f1653aad3048f7af0666740b13127e3"><div class="ttname"><a href="../../db/d03/class_projection.html#a9f1653aad3048f7af0666740b13127e3">Projection::is_euler</a></div><div class="ttdeci">bool is_euler() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:81</div></div>
+<div class="ttc" id="aclass_projection_html_aa1fde32c9fcb7be8ff41874250d163a6"><div class="ttname"><a href="../../db/d03/class_projection.html#aa1fde32c9fcb7be8ff41874250d163a6">Projection::get_icp</a></div><div class="ttdeci">bool get_icp() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:142</div></div>
+<div class="ttc" id="aclass_projection_html_aa50d431aebccbba8ca1f30f12feb8e53"><div class="ttname"><a href="../../db/d03/class_projection.html#aa50d431aebccbba8ca1f30f12feb8e53">Projection::_transformationMatrix</a></div><div class="ttdeci">Eigen::Matrix4f _transformationMatrix</div><div class="ttdef"><b>Definition</b> Projection.h:53</div></div>
+<div class="ttc" id="aclass_projection_html_aa819aa1c45f4781c8640e5391e4a3384"><div class="ttname"><a href="../../db/d03/class_projection.html#aa819aa1c45f4781c8640e5391e4a3384">Projection::addMultiRmatrix</a></div><div class="ttdeci">void addMultiRmatrix(const Eigen::Matrix3f &amp;m)</div><div class="ttdef"><b>Definition</b> Projection.cpp:46</div></div>
+<div class="ttc" id="aclass_projection_html_ab0c456cc6860bf965ff9ee42a59fa32d"><div class="ttname"><a href="../../db/d03/class_projection.html#ab0c456cc6860bf965ff9ee42a59fa32d">Projection::_camerasTagencialDistortion</a></div><div class="ttdeci">vector&lt; glm::vec2 &gt; _camerasTagencialDistortion</div><div class="ttdef"><b>Definition</b> Projection.h:50</div></div>
+<div class="ttc" id="aclass_projection_html_ab46ebe5cf87462e4bed4b6166b7625b9"><div class="ttname"><a href="../../db/d03/class_projection.html#ab46ebe5cf87462e4bed4b6166b7625b9">Projection::vegetationIndexCalculation</a></div><div class="ttdeci">void vegetationIndexCalculation()</div><div class="ttdef"><b>Definition</b> Projection.cpp:420</div></div>
+<div class="ttc" id="aclass_projection_html_ab84a50db419bdd40990889599a4712a2"><div class="ttname"><a href="../../db/d03/class_projection.html#ab84a50db419bdd40990889599a4712a2">Projection::set_euler</a></div><div class="ttdeci">void set_euler()</div><div class="ttdef"><b>Definition</b> Projection.cpp:88</div></div>
+<div class="ttc" id="aclass_projection_html_abbb01d0108af594c1a34cf962cb9ed48"><div class="ttname"><a href="../../db/d03/class_projection.html#abbb01d0108af594c1a34cf962cb9ed48">Projection::_maxNdvi</a></div><div class="ttdeci">int _maxNdvi</div><div class="ttdef"><b>Definition</b> Projection.h:70</div></div>
+<div class="ttc" id="aclass_projection_html_abe314ac3095b6a36d014f4d097431555"><div class="ttname"><a href="../../db/d03/class_projection.html#abe314ac3095b6a36d014f4d097431555">Projection::normalizeVi</a></div><div class="ttdeci">void normalizeVi() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:452</div></div>
+<div class="ttc" id="aclass_projection_html_ac0554f994078308f0169a4629a2d1b0a"><div class="ttname"><a href="../../db/d03/class_projection.html#ac0554f994078308f0169a4629a2d1b0a">Projection::~Projection</a></div><div class="ttdeci">~Projection()</div><div class="ttdef"><b>Definition</b> Projection.cpp:18</div></div>
+<div class="ttc" id="aclass_projection_html_ac9a0ea32bd84095161d9f8eebf6de729"><div class="ttname"><a href="../../db/d03/class_projection.html#ac9a0ea32bd84095161d9f8eebf6de729">Projection::get_register</a></div><div class="ttdeci">Register * get_register(int i) const</div><div class="ttdef"><b>Definition</b> Projection.cpp:29</div></div>
+<div class="ttc" id="aclass_projection_html_aca1e12a42de7a9acd19aafd1cc157f42"><div class="ttname"><a href="../../db/d03/class_projection.html#aca1e12a42de7a9acd19aafd1cc157f42">Projection::setAssociatedPointCloud</a></div><div class="ttdeci">void setAssociatedPointCloud(GEU::PointCloud *pc)</div><div class="ttdef"><b>Definition</b> Projection.cpp:119</div></div>
+<div class="ttc" id="aclass_projection_html_acc9dfee4ce891738fc1eec05fd8478e3"><div class="ttname"><a href="../../db/d03/class_projection.html#acc9dfee4ce891738fc1eec05fd8478e3">Projection::_viCalculated</a></div><div class="ttdeci">bool _viCalculated</div><div class="ttdef"><b>Definition</b> Projection.h:61</div></div>
+<div class="ttc" id="aclass_projection_html_acebe8dede18bb5ec67662ce776077dfa"><div class="ttname"><a href="../../db/d03/class_projection.html#acebe8dede18bb5ec67662ce776077dfa">Projection::isMapped</a></div><div class="ttdeci">bool isMapped() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:130</div></div>
+<div class="ttc" id="aclass_projection_html_ad37c6588745f936c3e2483e305b456c8"><div class="ttname"><a href="../../db/d03/class_projection.html#ad37c6588745f936c3e2483e305b456c8">Projection::_projectedPointsMutex</a></div><div class="ttdeci">mutex * _projectedPointsMutex</div><div class="ttdef"><b>Definition</b> Projection.h:74</div></div>
+<div class="ttc" id="aclass_projection_html_ad9f85455c7ccd0653a8d139b7ca71278"><div class="ttname"><a href="../../db/d03/class_projection.html#ad9f85455c7ccd0653a8d139b7ca71278">Projection::get_transformation_matrix</a></div><div class="ttdeci">Eigen::Matrix4f get_transformation_matrix()</div><div class="ttdef"><b>Definition</b> Projection.cpp:40</div></div>
+<div class="ttc" id="aclass_projection_html_ae2d6a26267ac934c49326065f584cea9"><div class="ttname"><a href="../../db/d03/class_projection.html#ae2d6a26267ac934c49326065f584cea9">Projection::_vRegister</a></div><div class="ttdeci">vector&lt; Register * &gt; _vRegister</div><div class="ttdef"><b>Definition</b> Projection.h:68</div></div>
+<div class="ttc" id="aclass_projection_html_ae6f899a916cdcf14636ea05572b01116"><div class="ttname"><a href="../../db/d03/class_projection.html#ae6f899a916cdcf14636ea05572b01116">Projection::_associatedPointCloud</a></div><div class="ttdeci">GEU::PointCloud * _associatedPointCloud</div><div class="ttdef"><b>Definition</b> Projection.h:78</div></div>
+<div class="ttc" id="aclass_projection_html_aebf63cdca25149c7719a49ad581edde0"><div class="ttname"><a href="../../db/d03/class_projection.html#aebf63cdca25149c7719a49ad581edde0">Projection::get_multi_image_path</a></div><div class="ttdeci">vector&lt; string &gt; get_multi_image_path()</div><div class="ttdef"><b>Definition</b> Projection.cpp:37</div></div>
+<div class="ttc" id="aclass_projection_html_af4593efd80ab408a526ca85b298b4909"><div class="ttname"><a href="../../db/d03/class_projection.html#af4593efd80ab408a526ca85b298b4909">Projection::get_aligned</a></div><div class="ttdeci">bool get_aligned() const</div><div class="ttdef"><b>Definition</b> Projection.cpp:138</div></div>
+<div class="ttc" id="aclass_projection_html_afa54867a6d692aacd540d830fc15445e"><div class="ttname"><a href="../../db/d03/class_projection.html#afa54867a6d692aacd540d830fc15445e">Projection::orientationIcpTransform</a></div><div class="ttdeci">Eigen::Affine3f orientationIcpTransform(PointXYZRGBA camera, int id)</div><div class="ttdef"><b>Definition</b> Projection.cpp:193</div></div>
+<div class="ttc" id="aclass_register_html"><div class="ttname"><a href="../../dc/d02/class_register.html">Register</a></div><div class="ttdef"><b>Definition</b> Register.h:23</div></div>
+<div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
+<div class="ttc" id="anamespacepcl_html"><div class="ttname"><a href="../../df/d06/namespacepcl.html">pcl</a></div><div class="ttdef"><b>Definition</b> PointCloud.h:8</div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="../../d8/d04/namespacestd.html">std</a></div><div class="ttdoc">STL namespace.</div></div>
+<div class="ttc" id="astruct_projection_1_1_oclusion_data_html"><div class="ttname"><a href="../../dc/d07/struct_projection_1_1_oclusion_data.html">Projection::OclusionData</a></div><div class="ttdef"><b>Definition</b> Projection.h:23</div></div>
+<div class="ttc" id="astruct_projection_1_1_oclusion_data_html_a2cf9eb4e1a1e6ef1e1cd7e20de244189"><div class="ttname"><a href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a2cf9eb4e1a1e6ef1e1cd7e20de244189">Projection::OclusionData::OclusionData</a></div><div class="ttdeci">OclusionData()</div><div class="ttdef"><b>Definition</b> Projection.h:28</div></div>
+<div class="ttc" id="astruct_projection_1_1_oclusion_data_html_a357566352bd549323e4fc0f38b27dde7"><div class="ttname"><a href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a357566352bd549323e4fc0f38b27dde7">Projection::OclusionData::pointIndex</a></div><div class="ttdeci">int pointIndex</div><div class="ttdef"><b>Definition</b> Projection.h:24</div></div>
+<div class="ttc" id="astruct_projection_1_1_oclusion_data_html_a885eb1818bbe7c5071ea4738323902de"><div class="ttname"><a href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a885eb1818bbe7c5071ea4738323902de">Projection::OclusionData::reflectance</a></div><div class="ttdeci">float reflectance</div><div class="ttdef"><b>Definition</b> Projection.h:26</div></div>
+<div class="ttc" id="astruct_projection_1_1_oclusion_data_html_a8c4617d987532cedddc2d436798ba0d9"><div class="ttname"><a href="../../dc/d07/struct_projection_1_1_oclusion_data.html#a8c4617d987532cedddc2d436798ba0d9">Projection::OclusionData::OclusionData</a></div><div class="ttdeci">OclusionData(const int index, const float dist, const float ref)</div><div class="ttdef"><b>Definition</b> Projection.h:34</div></div>
+<div class="ttc" id="astruct_projection_1_1_oclusion_data_html_afb39049a6b1518b8e68797d55253cdad"><div class="ttname"><a href="../../dc/d07/struct_projection_1_1_oclusion_data.html#afb39049a6b1518b8e68797d55253cdad">Projection::OclusionData::distance</a></div><div class="ttdeci">float distance</div><div class="ttdef"><b>Definition</b> Projection.h:25</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

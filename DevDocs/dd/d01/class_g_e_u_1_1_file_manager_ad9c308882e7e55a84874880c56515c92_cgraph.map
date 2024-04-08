@@ -1,0 +1,24 @@
+<map id="GEU::FileManager::loadPly" name="GEU::FileManager::loadPly">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,160,185,187"/>
+<area shape="rect" id="Node000002" href="$de/d04/class_g_e_u_1_1_renderer.html#a101eed167bec92e041e4b0e04f6cce58" title="Inserts 3D model to current scene." alt="" coords="247,5,421,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,158,155,101,191,69,231,42,244,36,246,40,234,46,194,73,159,105,109,161"/>
+<area shape="rect" id="Node000003" href="$d8/d02/struct_g_e_u_1_1_v_a_o_1_1_point.html#a08369eb10ee0a897e2126bab74bce5ac" title=" " alt="" coords="248,56,420,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,157,232,108,248,102,250,107,234,113,125,162"/>
+<area shape="rect" id="Node000004" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="233,123,435,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,168,217,165,217,170,186,174"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="147,157,217,147,218,152,148,162"/>
+<area shape="rect" id="Node000005" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="254,189,414,216"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="186,182,239,188,238,194,185,187"/>
+<area shape="rect" id="Node000006" href="$df/d03/namespace_im_gui.html#accd100b531b171ee1a63232f9f5916fc" title=" " alt="" coords="254,240,414,267"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="128,185,234,225,258,233,257,238,232,231,126,190"/>
+<area shape="rect" id="Node000007" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a0c83f102e4f53584cddc1cc06b57aa09" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="251,291,417,333"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="112,185,164,229,198,254,234,276,245,282,243,287,231,281,195,259,161,234,109,189"/>
+<area shape="rect" id="Node000008" href="$dc/d07/class_a_a_b_b.html#ac7df26fada02a660519ce8829eec1bf2" title=" " alt="" coords="483,328,587,355"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="104,186,121,220,149,265,187,309,209,328,234,343,262,354,292,362,355,368,415,364,468,356,469,361,415,370,355,373,292,367,261,359,231,348,206,332,183,313,145,268,117,223,100,188"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="418,321,468,329,467,334,417,327"/>
+<area shape="poly" id="edge11_Node000008_Node000008" title=" " alt="" coords="510,329,505,319,508,310,519,304,535,301,553,304,562,311,559,315,551,309,535,307,520,309,513,313,511,319,514,326"/>
+<area shape="rect" id="Node000009" href="$dc/d07/class_a_a_b_b.html#aa80c2fc1bbc932572311ba94a8f76530" title=" " alt="" coords="635,303,726,329"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="587,330,620,324,621,329,588,335"/>
+<area shape="rect" id="Node000010" href="$dc/d07/class_a_a_b_b.html#a29073914f600f7657f4a44937702a471" title=" " alt="" coords="637,353,724,380"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="588,348,622,354,621,359,587,353"/>
+</map>

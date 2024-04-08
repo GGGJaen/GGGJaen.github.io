@@ -1,0 +1,5 @@
+<map id="GEU::Operators2D::checkRectToRect" name="GEU::Operators2D::checkRectToRect">
+<area shape="rect" id="Node000001" title="Checks if two given rectangles collide." alt="" coords="5,5,206,48"/>
+<area shape="rect" id="Node000002" href="$d0/d01/namespace_g_e_u_1_1_operators2_d.html#a83039f927cdd11ea0e52ebd2fe48711d" title="Projects point into given vector." alt="" coords="254,5,431,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,24,238,24,238,29,206,29"/>
+</map>

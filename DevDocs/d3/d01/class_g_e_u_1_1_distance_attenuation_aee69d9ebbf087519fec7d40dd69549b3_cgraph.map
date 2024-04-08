@@ -1,0 +1,9 @@
+<map id="GEU::DistanceAttenuation::applyAttenuation" name="GEU::DistanceAttenuation::applyAttenuation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,180,115"/>
+<area shape="rect" id="Node000002" href="$d5/d07/class_g_e_u_1_1_material.html#ac2969a9853653155f2fb81856a94456d" title=" " alt="" coords="228,5,422,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,69,233,50,234,55,170,74"/>
+<area shape="rect" id="Node000003" href="$d4/d01/class_g_e_u_1_1_light_properties.html#ad99832bfd3d21881fd43f2aed6b0ef5e" title=" " alt="" coords="253,72,397,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,91,237,91,237,96,180,96"/>
+<area shape="rect" id="Node000004" href="$d5/d07/class_g_e_u_1_1_material.html#abb5aacb1ebce4d9a9c119ea122d921df" title=" " alt="" coords="229,139,421,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,113,255,132,254,137,179,118"/>
+</map>
