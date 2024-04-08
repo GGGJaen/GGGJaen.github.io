@@ -1,7 +1,0 @@
-<map id="ImGuiToast::setButtonLabel" name="ImGuiToast::setButtonLabel">
-<area shape="rect" id="Node000001" title=" " alt="" coords="236,31,418,57"/>
-<area shape="rect" id="Node000002" href="$d0/d06/a01916.html#ac4799fbc85baae11961dc62d9ed449b9" title="Constructor for creating a new ImGuiToast object with a specified type, dismiss time,..." alt="" coords="16,5,177,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,35,177,30,178,25,221,30"/>
-<area shape="rect" id="Node000003" href="$d0/d06/a01916.html#af829bc192a872d4e9ff23f8d4777b830" title="Set the label for the button in the notification." alt="" coords="5,56,188,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,58,189,62,188,57,220,53"/>
-</map>

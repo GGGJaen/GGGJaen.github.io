@@ -1,7 +1,0 @@
-<map id="GEU::GPUResources" name="GEU::GPUResources">
-<area shape="rect" id="Node000001" title=" " alt="" coords="304,63,451,89"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,145,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,44,304,63,303,69,160,49"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,88,145,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,103,303,83,304,89,160,108"/>
-</map>

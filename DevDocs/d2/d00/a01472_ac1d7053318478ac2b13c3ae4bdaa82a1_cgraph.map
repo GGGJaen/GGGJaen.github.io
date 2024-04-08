@@ -1,5 +1,0 @@
-<map id="GEU::GUI::deleteCurrentScene" name="GEU::GUI::deleteCurrentScene">
-<area shape="rect" id="Node000001" title="Deletes currently active scene and resets inspector status." alt="" coords="5,13,207,40"/>
-<area shape="rect" id="Node000002" href="$de/d05/a01500.html#a6b41b7255c51fa9d0dfb542b25627200" title="Resets inspector selection to no item selection." alt="" coords="255,5,420,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,24,239,24,239,29,207,29"/>
-</map>

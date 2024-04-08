@@ -1,7 +1,0 @@
-<map id="GEU::GuiUtilities::Radio" name="GEU::GuiUtilities::Radio">
-<area shape="rect" id="Node000001" title=" " alt="" coords="429,5,557,48"/>
-<area shape="rect" id="Node000002" href="$db/d50/class_g_e_u_1_1_details_window.html#a241455ad0e5a659831aa86d3182b9551" title="Renders inspector details for camera items." alt="" coords="197,5,381,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,29,382,29,382,24,414,24"/>
-<area shape="rect" id="Node000003" href="$db/d50/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,5,149,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,29,149,29,149,24,181,24"/>
-</map>

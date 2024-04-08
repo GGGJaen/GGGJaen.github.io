@@ -1,7 +1,0 @@
-<map id="GEU::Model3D::getModelMatrix" name="GEU::Model3D::getModelMatrix">
-<area shape="rect" id="Node000001" title=" " alt="" coords="202,47,407,73"/>
-<area shape="rect" id="Node000002" href="$dc/d51/class_g_e_u_1_1_image_cloud_proj.html#a866aada3b1653f447d9293e8065ad9df" title=" " alt="" coords="5,5,154,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,46,154,40,155,35,195,41"/>
-<area shape="rect" id="Node000003" href="$d9/d4a/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095" title=" " alt="" coords="8,72,151,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,79,151,85,151,80,195,74"/>
-</map>

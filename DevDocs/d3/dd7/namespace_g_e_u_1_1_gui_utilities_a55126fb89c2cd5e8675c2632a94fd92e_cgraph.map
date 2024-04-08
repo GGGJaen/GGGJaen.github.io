@@ -1,7 +1,0 @@
-<map id="GEU::GuiUtilities::makeCloudSelector" name="GEU::GuiUtilities::makeCloudSelector">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,140,77"/>
-<area shape="rect" id="Node000002" href="$d1/df9/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="188,5,390,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,44,172,40,173,45,141,50"/>
-<area shape="rect" id="Node000003" href="$db/d6c/class_g_e_u_1_1_model3_d.html#ab1c9f2d432831bde695e19caf32e3ebd" title=" " alt="" coords="205,72,373,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,62,189,69,189,74,140,68"/>
-</map>

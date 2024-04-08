@@ -1,9 +1,0 @@
-<map id="GEU::GuiUtilities::InsertToast" name="GEU::GuiUtilities::InsertToast">
-<area shape="rect" id="Node000001" title=" " alt="" coords="282,56,410,99"/>
-<area shape="rect" id="Node000002" href="$d2/d00/a01472.html#af7ebc89aa431e3a9e86bb1424b819d47" title="Draws ImGUI elements." alt="" coords="58,5,181,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,56,233,47,181,34,182,29,234,41,268,51"/>
-<area shape="rect" id="Node000003" href="$d1/d00/a01480.html#a1ce8f4dd45e914ab6fa4580d1c481947" title="Renders the window and contents." alt="" coords="5,56,234,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,80,234,80,234,75,266,75"/>
-<area shape="rect" id="Node000004" href="$d2/d01/a01484.html#a8719af7640d1a32dcd4cdf5d305aa342" title=" " alt="" coords="14,123,225,165"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,103,234,113,196,125,194,120,233,108,266,98"/>
-</map>

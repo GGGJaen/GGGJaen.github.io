@@ -1,7 +1,0 @@
-<map id="GEU::PointCloud::getMeshlets" name="GEU::PointCloud::getMeshlets">
-<area shape="rect" id="Node000001" title=" " alt="" coords="264,31,463,57"/>
-<area shape="rect" id="Node000002" href="$d3/d01/a01657.html#a50e3c4cdff513405829cf6e7f6516203" title=" " alt="" coords="17,5,204,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,35,204,31,205,25,248,30"/>
-<area shape="rect" id="Node000003" href="$d3/d01/a01657.html#a0937f02cc02dd76178df0a6c1309a918" title=" " alt="" coords="5,56,216,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,58,216,61,216,56,248,53"/>
-</map>

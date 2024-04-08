@@ -1,9 +1,0 @@
-<map id="GEU::NASSession::uploadFile" name="GEU::NASSession::uploadFile">
-<area shape="rect" id="Node000001" title="Uploads local file to remote directory." alt="" coords="5,72,204,99"/>
-<area shape="rect" id="Node000002" href="$d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="252,5,454,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,69,244,50,245,55,165,74"/>
-<area shape="rect" id="Node000003" href="$d0/d05/a02017.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="273,72,433,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,83,257,83,257,88,204,88"/>
-<area shape="rect" id="Node000004" href="$dc/d06/a00630.html#accd100b531b171ee1a63232f9f5916fc" title=" " alt="" coords="273,123,433,149"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,97,270,116,269,122,173,102"/>
-</map>

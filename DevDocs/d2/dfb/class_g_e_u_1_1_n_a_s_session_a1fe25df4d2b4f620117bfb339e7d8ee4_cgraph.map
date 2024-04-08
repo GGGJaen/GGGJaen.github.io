@@ -1,7 +1,0 @@
-<map id="GEU::NASSession::getFileInfo" name="GEU::NASSession::getFileInfo">
-<area shape="rect" id="Node000001" title="Get file information from FTP file." alt="" coords="5,43,204,69"/>
-<area shape="rect" id="Node000002" href="$d1/df9/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="252,5,454,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,42,236,38,236,43,204,47"/>
-<area shape="rect" id="Node000003" href="$d2/d0c/class_locale_strings.html#a90f2903c439af79e6af28892f8f9c139" title=" " alt="" coords="273,72,433,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,65,257,71,257,77,204,70"/>
-</map>

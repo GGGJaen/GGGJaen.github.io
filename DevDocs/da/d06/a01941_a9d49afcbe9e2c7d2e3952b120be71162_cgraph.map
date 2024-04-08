@@ -1,9 +1,0 @@
-<map id="GEU::InterfaceAdapter::getIconName" name="GEU::InterfaceAdapter::getIconName">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,157,77"/>
-<area shape="rect" id="Node000002" href="$da/d06/a01941.html#aa9d84619ca4efa90cd1116a896e17fc8" title=" " alt="" coords="205,35,356,77"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,53,189,53,189,59,157,59"/>
-<area shape="rect" id="Node000003" href="$d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="404,5,606,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,44,388,39,389,45,357,49"/>
-<area shape="rect" id="Node000004" href="$d0/d05/a02017.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="425,72,585,99"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="357,63,410,70,409,76,356,68"/>
-</map>

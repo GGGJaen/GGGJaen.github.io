@@ -1,9 +1,0 @@
-<map id="mve::matrixMultiply" name="mve::matrixMultiply">
-<area shape="rect" id="Node000001" title=" " alt="" coords="709,5,843,32"/>
-<area shape="rect" id="Node000002" href="$d2/dce/namespacemve.html#aaea871a522513f48ec029d3c3c1416ce" title=" " alt="" coords="528,5,661,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="694,21,662,21,662,16,694,16"/>
-<area shape="rect" id="Node000003" href="$d2/dce/namespacemve.html#aa1d8ddf64a825b6a6d83190678e075b3" title=" " alt="" coords="278,5,480,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="513,21,481,21,481,16,513,16"/>
-<area shape="rect" id="Node000004" href="$d2/dce/namespacemve.html#a53524bed76f4c9c94833049c4f157f46" title=" " alt="" coords="5,5,230,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="262,21,230,21,230,16,262,16"/>
-</map>

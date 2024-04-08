@@ -1,8 +1,0 @@
-<map id="MetadataReader::MicasenseRadiometricCalibration" name="MetadataReader::MicasenseRadiometricCalibration">
-<area shape="rect" id="Node000001" title=" " alt="" coords="415,21,602,64"/>
-<area shape="rect" id="Node000002" href="$de/d03/a01873.html#ab174c31148099bf46c0d65fd995ae863" title=" " alt="" coords="180,21,367,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="399,45,367,45,367,40,399,40"/>
-<area shape="rect" id="Node000003" href="$d8/d02/a02049.html#a523a911b510dd0e19334e89ce02bcf19" title=" " alt="" coords="5,29,132,56"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="164,45,132,45,132,40,164,40"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="104,16,91,10,68,8,47,10,36,15,33,20,38,27,34,30,28,21,32,11,46,5,69,3,93,5,106,12"/>
-</map>

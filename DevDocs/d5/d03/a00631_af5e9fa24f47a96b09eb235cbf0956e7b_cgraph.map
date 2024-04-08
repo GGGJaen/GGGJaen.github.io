@@ -1,8 +1,0 @@
-<map id="GEU::GuiUtilities::makeConfirmButton" name="GEU::GuiUtilities::makeConfirmButton">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,141,93"/>
-<area shape="rect" id="Node000002" href="$d6/d01/a02029.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="189,5,391,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,55,173,48,174,54,141,61"/>
-<area shape="rect" id="Node000003" href="$d5/d03/a00631.html#a4a4cc2d3f5e9444384aa7e7eb062dbf0" title=" " alt="" coords="226,96,354,139"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,83,211,98,210,103,140,89"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="249,96,247,86,254,77,268,71,290,69,313,72,327,78,325,83,312,77,290,75,269,77,257,81,252,87,254,95"/>
-</map>

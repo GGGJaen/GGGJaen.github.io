@@ -1,7 +1,0 @@
-<map id="GEU::PointCloud::updateFromPCLCloud" name="GEU::PointCloud::updateFromPCLCloud">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,48"/>
-<area shape="rect" id="Node000002" href="$d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a4234196f8be419dba1c3ca4468adaa02" title="Packs an RGB color into an unsigned value." alt="" coords="251,13,436,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,24,235,24,235,29,203,29"/>
-<area shape="rect" id="Node000003" href="$d8/d4a/struct_g_e_u_1_1_v_a_o_1_1_point.html#a08369eb10ee0a897e2126bab74bce5ac" title=" " alt="" coords="484,5,656,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="436,24,469,24,469,29,436,29"/>
-</map>

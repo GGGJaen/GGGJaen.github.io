@@ -1,7 +1,0 @@
-<map id="Database::VueloCamara" name="Database::VueloCamara">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,236,168,263"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="47,97,126,124"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,140,89,235,84,235,84,140"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="24,5,149,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,64,89,97,84,97,84,64"/>
-</map>

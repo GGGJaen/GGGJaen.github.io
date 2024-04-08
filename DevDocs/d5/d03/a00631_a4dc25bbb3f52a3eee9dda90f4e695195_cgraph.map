@@ -1,9 +1,0 @@
-<map id="GEU::GuiUtilities::renderTexture" name="GEU::GuiUtilities::renderTexture">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,134,91"/>
-<area shape="rect" id="Node000002" href="$db/d00/a01761.html#afdffe756c66453f952d05806654b085d" title=" " alt="" coords="182,5,345,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,50,194,34,196,39,135,55"/>
-<area shape="rect" id="Node000003" href="$db/d00/a01761.html#a55d33f02eebb212a4c0765717c24a4bb" title=" " alt="" coords="195,56,332,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,67,180,67,180,72,134,72"/>
-<area shape="rect" id="Node000004" href="$db/d00/a01761.html#a166b0d1c38adf38d6479654fbc0ddaaf" title=" " alt="" coords="183,107,344,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="135,83,196,100,194,105,133,89"/>
-</map>

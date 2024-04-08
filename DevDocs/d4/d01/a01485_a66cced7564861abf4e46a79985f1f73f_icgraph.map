@@ -1,9 +1,0 @@
-<map id="GEU::DatabaseQueryDatoPopup::resetFilters" name="GEU::DatabaseQueryDatoPopup::resetFilters">
-<area shape="rect" id="Node000001" title=" " alt="" coords="265,72,476,115"/>
-<area shape="rect" id="Node000002" href="$d4/d01/a01485.html#a58ae04cd727c75fec951d9d645be94a0" title=" " alt="" coords="5,5,217,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,70,196,51,197,46,270,65"/>
-<area shape="rect" id="Node000003" href="$d4/d01/a01485.html#a62efa9dc885360bcb650c0a45b4f833c" title="Sets up ImGUI to open a popup window." alt="" coords="5,72,217,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,96,217,96,217,91,249,91"/>
-<area shape="rect" id="Node000004" href="$d4/d01/a01485.html#a6b45f3f4957a46091ab0d75b9600a56d" title="Renders the popup and its contents." alt="" coords="5,139,217,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,122,197,141,196,135,269,117"/>
-</map>

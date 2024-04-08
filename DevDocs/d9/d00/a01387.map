@@ -1,8 +1,0 @@
-<map id="GEU::CameraProjection" name="GEU::CameraProjection">
-<area shape="rect" id="Node000001" title=" " alt="" coords="61,5,221,32"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,96,154,139"/>
-<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="127,47,95,97,90,94,122,44"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="32,203,250,245"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,189,174,178,179,158,180,138,173,97,160,61,146,34,151,31,164,58,178,95,185,137,184,159,179,180,174,191"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,151,131,201,126,204,97,154"/>
-</map>

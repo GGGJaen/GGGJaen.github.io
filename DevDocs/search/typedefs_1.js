@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['datoquerycallback_0',['DatoQueryCallback',['../d2/d02/a01488.html#af3cc0c15f281da28104da0bc18218f4e',1,'GEU::DatabaseQueryDatoPopup']]],
-  ['dmat3_1',['dmat3',['../d2/d07/a00014.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;GEUAppPch.h'],['../d7/d06/a00467.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;Typedefs.h'],['../d4/d06/a00497.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;MultiespectralPch.h'],['../dd/d04/a00578.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;TermicaPch.h']]],
-  ['dmat4_2',['dmat4',['../d2/d07/a00014.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;GEUAppPch.h'],['../d7/d06/a00467.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;Typedefs.h'],['../d4/d06/a00497.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;MultiespectralPch.h'],['../dd/d04/a00578.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;TermicaPch.h']]],
-  ['doubleuniformdistribution_3',['DoubleUniformDistribution',['../d5/d07/a00461.html#a9d913c79a9663124467cac0c4277bf20',1,'RandomUtilities.h']]],
-  ['dvec3_4',['dvec3',['../d2/d07/a00014.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;GEUAppPch.h'],['../d7/d06/a00467.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;Typedefs.h'],['../d4/d06/a00497.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;MultiespectralPch.h'],['../dd/d04/a00578.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;TermicaPch.h']]],
-  ['dvec4_5',['dvec4',['../d2/d07/a00014.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;GEUAppPch.h'],['../d7/d06/a00467.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;Typedefs.h'],['../d4/d06/a00497.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;MultiespectralPch.h'],['../dd/d04/a00578.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;TermicaPch.h']]]
-];

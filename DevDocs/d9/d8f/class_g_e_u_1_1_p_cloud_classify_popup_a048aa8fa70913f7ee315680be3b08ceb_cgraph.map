@@ -1,9 +1,0 @@
-<map id="GEU::PCloudClassifyPopup::openPopup" name="GEU::PCloudClassifyPopup::openPopup">
-<area shape="rect" id="Node000001" title="Sets up ImGUI to open a popup window." alt="" coords="5,35,188,77"/>
-<area shape="rect" id="Node000002" href="$df/ddd/class_g_e_u_1_1_i___g_u_i_popup.html#abdcc20870710b60595e8777b9fd796ed" title=" " alt="" coords="236,43,422,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,53,220,53,220,59,188,59"/>
-<area shape="rect" id="Node000003" href="$d1/df9/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="470,5,672,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,42,454,38,455,43,423,47"/>
-<area shape="rect" id="Node000004" href="$d2/d0c/class_locale_strings.html#a90f2903c439af79e6af28892f8f9c139" title=" " alt="" coords="491,72,651,99"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="423,65,476,71,475,76,422,70"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="GEU::ModuleManager::ModuleManager" name="GEU::ModuleManager::ModuleManager">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,155,81"/>
-<area shape="rect" id="Node000002" href="$dc/d07/a01649.html#a212616bf2b2202e3372bd4c6a2cf03fb" title="Adds basic modules to GUI." alt="" coords="203,5,352,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,45,187,39,188,45,155,50"/>
-<area shape="rect" id="Node000003" href="$dc/d07/a01649.html#a6b51b2c9fdfad73a6b3e79cc10ecba91" title=" " alt="" coords="203,72,352,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,70,188,75,187,81,154,75"/>
-</map>

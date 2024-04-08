@@ -1,9 +1,0 @@
-<map id="GEU::TriangleMesh::buildVao" name="GEU::TriangleMesh::buildVao">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,148,65"/>
-<area shape="rect" id="Node000002" href="$d3/d02/a01577.html#acc9b59426ddd62357160eb1ee9ee93b8" title=" " alt="" coords="199,5,359,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,32,183,28,184,33,149,38"/>
-<area shape="rect" id="Node000003" href="$d3/d02/a01577.html#a4ad3ced3eb0c957d053b474130a77e42" title=" " alt="" coords="196,56,362,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,50,180,54,180,60,148,56"/>
-<area shape="rect" id="Node000004" href="$d3/d02/a01577.html#a4d15ba54b897ca6653c5a81aed76df4c" title=" " alt="" coords="410,56,642,83"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="363,67,394,67,394,72,363,72"/>
-</map>

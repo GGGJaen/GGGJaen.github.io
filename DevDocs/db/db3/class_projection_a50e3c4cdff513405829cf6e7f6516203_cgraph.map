@@ -1,7 +1,0 @@
-<map id="Projection::fisheyeProjection" name="Projection::fisheyeProjection">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,192,57"/>
-<area shape="rect" id="Node000002" href="$d9/daa/_projection_8cpp.html#a4d53adcb58a85c263bea47b67c37beb3" title=" " alt="" coords="273,5,406,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,32,257,25,258,30,193,37"/>
-<area shape="rect" id="Node000003" href="$d4/dbf/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0" title=" " alt="" coords="240,56,439,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,51,225,55,224,60,192,56"/>
-</map>

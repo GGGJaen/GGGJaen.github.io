@@ -1,7 +1,0 @@
-<map id="DatabaseConnector::getDatosCrudos" name="DatabaseConnector::getDatosCrudos">
-<area shape="rect" id="Node000001" title="Obtiene un listado de todos los datos crudos de la base de datos." alt="" coords="5,5,149,48"/>
-<area shape="rect" id="Node000002" href="$d5/d01/a01901.html#aeee119a6965ec81ad1bad291f2291453" title=" " alt="" coords="197,5,340,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,24,181,24,181,29,149,29"/>
-<area shape="rect" id="Node000003" href="$d2/d03/a01841.html#a4db5e25377b69d8034530f936c70ae61" title=" " alt="" coords="388,13,567,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="340,24,372,24,372,29,340,29"/>
-</map>

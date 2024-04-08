@@ -1,7 +1,0 @@
-<map id="GEU::TriangleMesh::getAABB" name="GEU::TriangleMesh::getAABB">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,148,65"/>
-<area shape="rect" id="Node000002" href="$db/d05/a01637.html#ab4dad925a3cb42ad2f00c7d5053369e1" title=" " alt="" coords="257,5,340,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,33,241,22,242,28,148,39"/>
-<area shape="rect" id="Node000003" href="$db/d04/a01501.html#aea23eb9ab8de56f02dacaa5155fcac15" title=" " alt="" coords="196,56,401,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,49,181,53,180,58,147,55"/>
-</map>

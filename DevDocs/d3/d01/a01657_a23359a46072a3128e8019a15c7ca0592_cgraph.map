@@ -1,9 +1,0 @@
-<map id="Projection::classification" name="Projection::classification">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,168,61"/>
-<area shape="rect" id="Node000002" href="$d6/d01/a00233.html#ae42617f5c54c5adb29778c753f887ed9" title=" " alt="" coords="265,5,343,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,34,249,23,250,29,168,40"/>
-<area shape="rect" id="Node000003" href="$d3/d01/a01657.html#ab46ebe5cf87462e4bed4b6166b7625b9" title=" " alt="" coords="216,56,392,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,56,201,61,200,66,167,62"/>
-<area shape="rect" id="Node000004" href="$d3/d01/a01657.html#abe314ac3095b6a36d014f4d097431555" title=" " alt="" coords="440,64,595,91"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="392,75,425,75,425,80,392,80"/>
-</map>

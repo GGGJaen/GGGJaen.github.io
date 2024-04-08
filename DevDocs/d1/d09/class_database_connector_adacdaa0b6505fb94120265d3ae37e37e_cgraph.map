@@ -1,7 +1,0 @@
-<map id="DatabaseConnector::queryAsyncDatoCrudo" name="DatabaseConnector::queryAsyncDatoCrudo">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,157,48"/>
-<area shape="rect" id="Node000002" href="$d1/d09/class_database_connector.html#aeee119a6965ec81ad1bad291f2291453" title=" " alt="" coords="205,5,348,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,24,189,24,189,29,157,29"/>
-<area shape="rect" id="Node000003" href="$d4/d34/struct_database_1_1_dato.html#a4db5e25377b69d8034530f936c70ae61" title=" " alt="" coords="396,13,575,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,24,380,24,380,29,348,29"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="GEU::ThermalAugment::augmentCloud" name="GEU::ThermalAugment::augmentCloud">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,161,91"/>
-<area shape="rect" id="Node000002" href="$d6/d05/a01617.html#ae60d0132c0c5d96ddb455024a40b6bde" title=" " alt="" coords="258,5,360,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,49,242,31,243,36,162,54"/>
-<area shape="rect" id="Node000003" href="$d7/d06/a02109.html#ad0139c1cd01f5c17a2ceccb7a44c7d23" title=" " alt="" coords="227,56,391,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,67,211,67,211,72,161,72"/>
-<area shape="rect" id="Node000004" href="$da/d04/a01609.html#ad61d132971077431a0cb78fca6fd6c82" title="radius neighbor queries where radius determines the maximal radius of reported indices of points in r..." alt="" coords="209,107,409,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,84,232,100,231,105,161,89"/>
-</map>

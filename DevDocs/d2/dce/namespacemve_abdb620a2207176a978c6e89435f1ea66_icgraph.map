@@ -1,7 +1,0 @@
-<map id="mve::invertPerm" name="mve::invertPerm">
-<area shape="rect" id="Node000001" title="Compute the inverse p^&#45;1 to a permutation p so that p^&#45;1 * p = id." alt="" coords="229,35,342,61"/>
-<area shape="rect" id="Node000002" href="$d2/dce/namespacemve.html#a6463a98ac82538dc38487a2b1f21aecb" title=" " alt="" coords="33,5,153,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,40,153,30,154,25,214,34"/>
-<area shape="rect" id="Node000003" href="$d2/dce/namespacemve.html#aec2084e07403d2231947e5ee9eb73020" title=" " alt="" coords="5,56,181,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,62,182,67,181,61,213,56"/>
-</map>

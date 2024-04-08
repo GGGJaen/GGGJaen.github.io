@@ -1,9 +1,0 @@
-<map id="GEU::ImageTreeSegmentation::SegmentAABB::checkSphere" name="GEU::ImageTreeSegmentation::SegmentAABB::checkSphere">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,207,81"/>
-<area shape="rect" id="Node000002" href="$dd/d7d/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a60c9e7a64d729769e8884735aa700c22" title=" " alt="" coords="255,39,452,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,57,239,57,239,63,207,63"/>
-<area shape="rect" id="Node000003" href="$dd/d7d/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a40132e2db6db8e2cfb5b4338538fdba0" title=" " alt="" coords="500,5,702,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,44,484,40,485,45,453,49"/>
-<area shape="rect" id="Node000004" href="$dd/d7d/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#ad6da06e04a2761e7c623839d67c5da91" title=" " alt="" coords="503,72,700,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="453,71,487,75,487,81,452,76"/>
-</map>

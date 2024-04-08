@@ -1,7 +1,0 @@
-<map id="GEU::ImageCloudProj::reconstructionCloudMDT" name="GEU::ImageCloudProj::reconstructionCloudMDT">
-<area shape="rect" id="Node000001" title="Reconstruction Cloud MDT." alt="" coords="5,5,177,48"/>
-<area shape="rect" id="Node000002" href="$d7/d01/a01589.html#a4234196f8be419dba1c3ca4468adaa02" title="Packs an RGB color into an unsigned value." alt="" coords="225,13,410,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,24,209,24,209,29,177,29"/>
-<area shape="rect" id="Node000003" href="$d7/d01/a01589.html#a08369eb10ee0a897e2126bab74bce5ac" title=" " alt="" coords="458,5,630,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="410,24,443,24,443,29,410,29"/>
-</map>

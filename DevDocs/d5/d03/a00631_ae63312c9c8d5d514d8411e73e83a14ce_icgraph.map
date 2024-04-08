@@ -1,9 +1,0 @@
-<map id="GEU::GuiUtilities::makeSelectableTextBox" name="GEU::GuiUtilities::makeSelectableTextBox">
-<area shape="rect" id="Node000001" title=" " alt="" coords="283,72,445,115"/>
-<area shape="rect" id="Node000002" href="$d0/d07/a02065.html#a30cdb8738563252a05b2da154c3f864d" title="Custom module GUI window contents." alt="" coords="17,5,223,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,70,200,51,201,46,269,65"/>
-<area shape="rect" id="Node000003" href="$db/d05/a02089.html#a2918ca118794a47873dbc1df297d68d7" title="Custom module GUI window contents." alt="" coords="13,72,227,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,96,227,96,227,91,267,91"/>
-<area shape="rect" id="Node000004" href="$da/d01/a02101.html#afcda560180acc4f5fbd7caeaa40f9018" title="Custom module GUI window contents." alt="" coords="5,139,235,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,122,201,141,200,135,268,117"/>
-</map>
