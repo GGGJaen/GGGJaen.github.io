@@ -1,6 +1,6 @@
 <map id="GEU::VAO::Point::get8BitRGBColor" name="GEU::VAO::Point::get8BitRGBColor">
 <area shape="rect" id="Node000001" title=" " alt="" coords="468,197,640,240"/>
-<area shape="rect" id="Node000002" href="$dd/d01/class_g_e_u_1_1_file_manager.html#ad9c308882e7e55a84874880c56515c92" title=" " alt="" coords="238,129,417,156"/>
+<area shape="rect" id="Node000002" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a385e658fab71674d09ea486a1e3422fa" title=" " alt="" coords="238,129,417,156"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,194,419,171,381,159,383,154,421,165,486,189"/>
 <area shape="rect" id="Node000003" href="$d8/d02/struct_g_e_u_1_1_v_a_o_1_1_point.html#a4234196f8be419dba1c3ca4468adaa02" title="Packs an RGB color into an unsigned value." alt="" coords="235,180,420,207"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="452,210,420,206,421,201,453,205"/>

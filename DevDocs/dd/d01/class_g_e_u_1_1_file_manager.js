@@ -1,8 +1,8 @@
 var class_g_e_u_1_1_file_manager =
 [
     [ "loadAllCloudsUnderFolder", "dd/d01/class_g_e_u_1_1_file_manager.html#a7b2c39c28817344dc2416d276b45dd43", null ],
-    [ "loadLas", "dd/d01/class_g_e_u_1_1_file_manager.html#aebeb11b59981efb0536a7e57fe284120", null ],
-    [ "loadPly", "dd/d01/class_g_e_u_1_1_file_manager.html#ad9c308882e7e55a84874880c56515c92", null ],
+    [ "loadLas", "dd/d01/class_g_e_u_1_1_file_manager.html#a444d5517e693d1dd9b0a230515dcdd69", null ],
+    [ "loadPly", "dd/d01/class_g_e_u_1_1_file_manager.html#a385e658fab71674d09ea486a1e3422fa", null ],
     [ "loadPointCloud", "dd/d01/class_g_e_u_1_1_file_manager.html#a221f7bdde6217593a27b991bae1cb246", null ],
     [ "loadTriangleMesh", "dd/d01/class_g_e_u_1_1_file_manager.html#ad604f08d090bb872c17b17b93c04b1c0", null ],
     [ "savePointCloud", "dd/d01/class_g_e_u_1_1_file_manager.html#aeffefc58937066d086f5ee5e86a05ef9", null ],

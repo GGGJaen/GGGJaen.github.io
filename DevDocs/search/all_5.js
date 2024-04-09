@@ -253,8 +253,8 @@ var searchData=
   ['distintivos_250',['DISTINTIVOS',['../d4/d04/struct_database_1_1_dato.html#a37ba522ba42c6f686422c3778e4e14c1',1,'Database::Dato']]],
   ['distortion_251',['distortion',['../de/d04/struct_reg.html#a6218b51b5e7e3851803a9bc3ddbef040',1,'Reg']]],
   ['disttoline_252',['distToLine',['../dd/d05/struct_g_e_u_1_1_image_tree_segmentation_1_1_segment_a_a_b_b.html#a127fc58846acbedca44a879a31dfc49f',1,'GEU::ImageTreeSegmentation::SegmentAABB']]],
-  ['dmat3_253',['dmat3',['../de/d04/_g_e_u_app_pch_8h.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;GEUAppPch.h'],['../d3/d03/_typedefs_8h.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;Typedefs.h'],['../d2/d03/_multiespectral_pch_8h.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;MultiespectralPch.h'],['../da/d02/_termica_pch_8h.html#a3c91f0a434b18134463c75c4612bdafe',1,'dmat3:&#160;TermicaPch.h']]],
-  ['dmat4_254',['dmat4',['../de/d04/_g_e_u_app_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;GEUAppPch.h'],['../d3/d03/_typedefs_8h.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;Typedefs.h'],['../d2/d03/_multiespectral_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;MultiespectralPch.h'],['../da/d02/_termica_pch_8h.html#af43d058bbd1a5e67c36930d83a785c9f',1,'dmat4:&#160;TermicaPch.h']]],
+  ['dmat3_253',['dmat3',['../d3/d03/_typedefs_8h.html#a3c91f0a434b18134463c75c4612bdafe',1,'Typedefs.h']]],
+  ['dmat4_254',['dmat4',['../d3/d03/_typedefs_8h.html#af43d058bbd1a5e67c36930d83a785c9f',1,'Typedefs.h']]],
   ['do_5fdecimal_5fpoint_255',['do_decimal_point',['../d2/d04/class_database_1_1_s_d_o___g_e_o_m_e_t_r_y_1_1_dot_locale.html#aa4d889ee5ede06801f8f8b4ccba29467',1,'Database::SDO_GEOMETRY::DotLocale']]],
   ['docs_256',['¡Bienvenido a GEU Docs!',['../index.html',1,'']]],
   ['docs_20como_20actualizar_20el_20manual_20de_20desarrollador_20md_20manual_20de_20desarrollador_257',['Manten actualizado el @ref &quot;D:/GEU/Docs/Como actualizar el manual de desarrollador.md&quot; &quot;manual de desarrollador&quot;',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#manten-actualizado-el-manual-de-desarrolladorgeudocscomo-actualizar-el-manual-de-desarrolladormd',1,'']]],
@@ -286,6 +286,6 @@ var searchData=
   ['dron_283',['DRON',['../d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbae86df15507effcf975f84ef3e500c4fb',1,'GEU::DatabaseQueryPopup']]],
   ['dropcallback_284',['dropCallback',['../d9/d05/class_g_e_u_1_1_input_manager.html#adcf40e0dec97cfb01f7382cf7a330926',1,'GEU::InputManager']]],
   ['duracion_285',['duracion',['../dd/d07/struct_database_1_1_vuelo.html#aa9ca309b0e59def251df3fcdad08945c',1,'Database::Vuelo']]],
-  ['dvec3_286',['dvec3',['../de/d04/_g_e_u_app_pch_8h.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;GEUAppPch.h'],['../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;Typedefs.h'],['../d2/d03/_multiespectral_pch_8h.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;MultiespectralPch.h'],['../da/d02/_termica_pch_8h.html#ad46bbf69e5fb580b759599bc05cc94df',1,'dvec3:&#160;TermicaPch.h']]],
-  ['dvec4_287',['dvec4',['../de/d04/_g_e_u_app_pch_8h.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;GEUAppPch.h'],['../d3/d03/_typedefs_8h.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;Typedefs.h'],['../d2/d03/_multiespectral_pch_8h.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;MultiespectralPch.h'],['../da/d02/_termica_pch_8h.html#a62d8948d9d10d7374b032828f9f5890d',1,'dvec4:&#160;TermicaPch.h']]]
+  ['dvec3_286',['dvec3',['../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df',1,'Typedefs.h']]],
+  ['dvec4_287',['dvec4',['../d3/d03/_typedefs_8h.html#a62d8948d9d10d7374b032828f9f5890d',1,'Typedefs.h']]]
 ];

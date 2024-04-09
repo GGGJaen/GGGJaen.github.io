@@ -13,12 +13,13 @@ nav_order: 3
   - [Fusión de datos hiperespectrales](#fusión-de-datos-hiperespectrales)
   - [Visualización](#visualización)
 
-
 # Térmica
+
 En proceso
 {: .label .label-yellow }
 
 # Multiespectral
+
 En proceso
 {: .label .label-yellow }
 
@@ -57,4 +58,3 @@ Después de asignar un rango de bandas, solo resta seleccionar la nube de puntos
 Con la información hiperespectral fusionada a la nube de puntos, es posible visualizar cada banda espectral estableciendo el modo de visualización a *<ins>Hiperespectral</ins>* desde la ventana de *detalles* con la nube seleccionada en el *inspector*. Utilice la barra deslizante para seleccionar la banda visualizada. Recuerde que únicamente contienen información aquellas bandas dentro del rango establecido durante la fusión.
 
 ![Visualización del resultado de la fusión hiperespectral sobre la nube cargada en GEU](../Assets/Images/fusion_hiper_result.png)
-
