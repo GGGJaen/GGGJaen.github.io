@@ -6,7 +6,6 @@ var dir_d6d8f22b6d86cc0f8322458917ada218 =
     [ "DatabaseDownloadedManageWindow.h", "d3/d02/_database_downloaded_manage_window_8h.html", "d3/d02/_database_downloaded_manage_window_8h" ],
     [ "DatabaseNewDatoWindow.cpp", "d3/d02/_database_new_dato_window_8cpp.html", null ],
     [ "DatabaseNewDatoWindow.h", "df/d02/_database_new_dato_window_8h.html", "df/d02/_database_new_dato_window_8h" ],
-    [ "DatabaseQueryDatoPopup.h", "db/d04/_database_query_dato_popup_8h.html", "db/d04/_database_query_dato_popup_8h" ],
     [ "DebugWindow.cpp", "d0/d04/_debug_window_8cpp.html", null ],
     [ "DebugWindow.h", "d7/d00/_debug_window_8h.html", "d7/d00/_debug_window_8h" ],
     [ "DetailsWindow.cpp", "df/d02/_details_window_8cpp.html", null ],

@@ -19,7 +19,7 @@ var searchData=
   ['un_20nuevo_20módulo_16',['Cómo añadir un nuevo módulo',['../de/d01/md__d_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-añadir-un-nuevo-módulo',1,'']]],
   ['un_20obstaculo_17',['Piensa en una arquitectura que no sea un obstaculo',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#piensa-en-una-arquitectura-que-no-sea-un-obstaculo',1,'']]],
   ['una_20arquitectura_20que_20no_20sea_20un_20obstaculo_18',['Piensa en una arquitectura que no sea un obstaculo',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#piensa-en-una-arquitectura-que-no-sea-un-obstaculo',1,'']]],
-  ['una_20nueva_20versión_19',['Cómo desplegar una nueva versión',['../dd/d07/md__d_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html',1,'']]],
+  ['una_20nueva_20versión_19',['Cómo desplegar una nueva versión',['../dd/d01/md__d_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html',1,'']]],
   ['undistort_20',['undistort',['../d0/d00/class_open_c_v_image.html#a93cc7000e2f6ab3558ce7dc984351beb',1,'OpenCVImage']]],
   ['unibn_21',['unibn',['../de/d00/namespaceunibn.html',1,'']]],
   ['unibn_3a_3atraits_22',['traits',['../d2/d04/namespaceunibn_1_1traits.html',1,'unibn']]],

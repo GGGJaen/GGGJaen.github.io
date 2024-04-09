@@ -22,7 +22,7 @@ var searchData=
   ['hiper_5fstats_5fspread_19',['HIPER_STATS_SPREAD',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573afd25494a959bbb236ce2c00d589ef356',1,'locale_strings.h']]],
   ['hiper_5fstats_5fspread_5fstdev_20',['HIPER_STATS_SPREAD_STDEV',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a4644ec199ea66819b1e8ca5919c54dd0',1,'locale_strings.h']]],
   ['hiper_5fstats_5fspread_5fvariance_21',['HIPER_STATS_SPREAD_VARIANCE',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573aab9ac5d9bc199702579ad887937d8152',1,'locale_strings.h']]],
-  ['hyperspectral_22',['HYPERSPECTRAL',['../d4/d07/class_g_e_u_1_1_point_cloud.html#aa2d9426a3fb7e25cf6910cd6f94bc62da1b4ed686f6cb60b00c469e43e97263aa',1,'GEU::PointCloud']]],
-  ['hyperspectral_23',['Hyperspectral',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#adafc66f7bd205941a47af8503c084d23a89b6911ef0bdba6e769df6ecf545ea73',1,'GEU::GPUResources']]],
+  ['hyperspectral_22',['Hyperspectral',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#adafc66f7bd205941a47af8503c084d23a89b6911ef0bdba6e769df6ecf545ea73',1,'GEU::GPUResources']]],
+  ['hyperspectral_23',['HYPERSPECTRAL',['../d4/d07/class_g_e_u_1_1_point_cloud.html#aa2d9426a3fb7e25cf6910cd6f94bc62da1b4ed686f6cb60b00c469e43e97263aa',1,'GEU::PointCloud']]],
   ['hyperspectral_5fheader_24',['HYPERSPECTRAL_HEADER',['../d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b',1,'FileDialogRegex']]]
 ];

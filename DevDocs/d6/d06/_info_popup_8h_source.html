@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
    </div>
   </td>
  </tr>
@@ -139,19 +139,21 @@ $(function(){initNavTree('d6/d06/_info_popup_8h_source.html','../../'); initResi
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">bool</span> closing = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">if</span> (ImGui::BeginPopupModal(getIdTitle().c_str())) {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        ImGui::Text(_infoText.c_str());</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4a4cc2d3f5e9444384aa7e7eb062dbf0">GuiUtilities::makeButton</a>(<span class="stringliteral">&quot;Confirm&quot;</span>)) {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            closing = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            ImGui::CloseCurrentPopup();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        }</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        ImGui::EndPopup();</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">return</span> closing;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    ImGui::SetNextWindowSizeConstraints(ImVec2(300, 93), ImVec2(FLT_MAX, FLT_MAX));</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    ImGui::SetNextWindowSize(ImVec2(300, 93), ImGuiCond_FirstUseEver);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordflow">if</span> (ImGui::BeginPopupModal(getIdTitle().c_str())) {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        ImGui::Text(_infoText.c_str());</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4a9fd6dae16881311edd3998ece123bf">GuiUtilities::Button</a>(<a class="code hl_enumvalue" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573af3cede8bbe0a536523389ac1a63a7244">GENERIC_CONFIRM</a>, _popupID + <span class="stringliteral">&quot;_confirm&quot;</span>)) {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            closing = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            ImGui::CloseCurrentPopup();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        ImGui::EndPopup();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> closing;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
 </div>
 <div class="ttc" id="a_i___g_u_i_popup_8h_html"><div class="ttname"><a href="../../de/d03/_i___g_u_i_popup_8h.html">I_GUIPopup.h</a></div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_i___g_u_i_popup_html"><div class="ttname"><a href="../../df/d05/class_g_e_u_1_1_i___g_u_i_popup.html">GEU::I_GUIPopup</a></div><div class="ttdoc">ImGUI popups interface adapter class.</div><div class="ttdef"><b>Definition</b> I_GUIPopup.h:12</div></div>
@@ -163,7 +165,8 @@ $(function(){initNavTree('d6/d06/_info_popup_8h_source.html','../../'); initResi
 <div class="ttc" id="aclass_g_e_u_1_1_info_popup_html_ae8ba6109c09b3ad80a0dc7a0bb4922bf"><div class="ttname"><a href="../../db/d04/class_g_e_u_1_1_info_popup.html#ae8ba6109c09b3ad80a0dc7a0bb4922bf">GEU::InfoPopup::InfoPopup</a></div><div class="ttdeci">InfoPopup(const std::string &amp;id, const LOCALE_STRINGS idx, const std::string &amp;infoText)</div><div class="ttdef"><b>Definition</b> InfoPopup.h:17</div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_scene_html"><div class="ttname"><a href="../../d5/d02/class_g_e_u_1_1_scene.html">GEU::Scene</a></div><div class="ttdef"><b>Definition</b> Scene.h:18</div></div>
 <div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></div><div class="ttdeci">LOCALE_STRINGS</div><div class="ttdef"><b>Definition</b> locale_strings.h:3</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a4a4cc2d3f5e9444384aa7e7eb062dbf0"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4a4cc2d3f5e9444384aa7e7eb062dbf0">GEU::GuiUtilities::makeButton</a></div><div class="ttdeci">bool makeButton(const std::string &amp;title, const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:999</div></div>
+<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573af3cede8bbe0a536523389ac1a63a7244"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573af3cede8bbe0a536523389ac1a63a7244">GENERIC_CONFIRM</a></div><div class="ttdeci">@ GENERIC_CONFIRM</div><div class="ttdef"><b>Definition</b> locale_strings.h:181</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a4a9fd6dae16881311edd3998ece123bf"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4a9fd6dae16881311edd3998ece123bf">GEU::GuiUtilities::Button</a></div><div class="ttdeci">bool Button(LOCALE_STRINGS label_idx, const std::string &amp;id, const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:108</div></div>
 <div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
 <div class="ttc" id="astruct_g_e_u_1_1_application_state_html"><div class="ttname"><a href="../../d2/d00/struct_g_e_u_1_1_application_state.html">GEU::ApplicationState</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
    </div>
   </td>
  </tr>
@@ -214,16 +214,16 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Valor inicial:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">            {FileDialogType::POINT_CLOUDS, <span class="stringliteral">&quot;Point cloud(*.ply *.las *.laz){.((ply|PLY)),.((las|LAS)),.((laz|LAZ))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::MODELS, <span class="stringliteral">&quot;3D Model(*.obj){.((obj|OBJ))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::IMAGES, <span class="stringliteral">&quot;Image files(*.png *.tiff *.jpg *.jpeg){.((png|PNG)),.((tiff|TIFF)),.((tif|TIF)),.((jpg|JPG)),.((jpeg|JPEG))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::IMAGES_PNG, <span class="stringliteral">&quot;PNG Images(*.png){.((png|PNG))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::IMAGES_TIF, <span class="stringliteral">&quot;TIF Images(*.tif *.tiff){.((tiff|TIFF)),.((tif|TIF))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::TEXT, <span class="stringliteral">&quot;Text files(*.txt){.((txt|TXT))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::GEU_SCENE, <span class="stringliteral">&quot;GEU scene(*.geu){.((geu|GEU))}&quot;</span>},</div>
-<div class="line">            {FileDialogType::HYPERSPECTRAL_HEADER, <span class="stringliteral">&quot;Hyperspectral header(*.hdr){.((hdr|HDR))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::POINT_CLOUDS, <span class="stringliteral">&quot;PLY (*.ply){.((ply|PLY))}, LAS/LAZ (*.las *.laz){.((las|LAS)),.((laz|LAZ))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::MODELS, <span class="stringliteral">&quot;OBJ (*.obj){.((obj|OBJ))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::IMAGES, <span class="stringliteral">&quot;PNG (*.png){.((png|PNG))},JPG/JPEG (*.jpg, *.jpeg){.((jpg|JPG)),.((jpeg|JPEG))},TIF/TIFF (*.tif,*.tiff){.((tiff|TIFF)),.((tif|TIF))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::IMAGES_PNG, <span class="stringliteral">&quot;PNG (*.png){.((png|PNG))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::IMAGES_TIF, <span class="stringliteral">&quot;TIF (*.tif *.tiff){.((tiff|TIFF)),.((tif|TIF))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::TEXT, <span class="stringliteral">&quot;TXT (*.txt){.((txt|TXT))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::GEU_SCENE, <span class="stringliteral">&quot;GEU (*.geu){.((geu|GEU))}&quot;</span>},</div>
+<div class="line">            {FileDialogType::HYPERSPECTRAL_HEADER, <span class="stringliteral">&quot;HDR (*.hdr){.((hdr|HDR))}&quot;</span>},</div>
 <div class="line">            {FileDialogType::DIRECTORY, <span class="stringliteral">&quot;&quot;</span>},</div>
-<div class="line">            {FileDialogType::ANY, <span class="stringliteral">&quot;Any file{.*}&quot;</span>}</div>
+<div class="line">            {FileDialogType::ANY, <span class="stringliteral">&quot;* {.*}&quot;</span>}</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>

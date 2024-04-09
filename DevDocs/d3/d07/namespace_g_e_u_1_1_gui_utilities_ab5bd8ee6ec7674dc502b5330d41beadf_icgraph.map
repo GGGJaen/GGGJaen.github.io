@@ -1,0 +1,56 @@
+<map id="GEU::GuiUtilities::Selectable" name="GEU::GuiUtilities::Selectable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="714,540,843,583"/>
+<area shape="rect" id="Node000002" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#ac492d09cb23da649aa5780ba0fab0898" title=" " alt="" coords="497,5,625,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="771,525,759,419,737,280,723,211,706,148,686,97,664,62,646,48,624,38,626,33,649,43,668,58,691,94,711,146,728,210,742,279,764,418,776,525"/>
+<area shape="rect" id="Node000003" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#ab8331c953a8699e14285357b22a400f1" title=" " alt="" coords="497,72,625,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="770,525,756,432,733,313,702,201,684,158,664,128,646,114,624,105,626,100,649,110,668,125,689,155,707,199,738,312,761,431,775,524"/>
+<area shape="rect" id="Node000004" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a48d98aab42f839345f947f945bdd3da8" title=" " alt="" coords="497,139,625,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="774,525,769,455,752,367,738,321,719,275,695,233,664,195,646,181,624,172,626,167,649,177,668,191,699,230,724,273,743,319,757,366,774,455,779,524"/>
+<area shape="rect" id="Node000005" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4f9aba226510ff3f6ddea45d86ae482d" title=" " alt="" coords="497,205,625,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="770,525,760,469,741,401,710,330,689,298,664,269,646,254,624,244,626,239,648,250,668,265,693,294,715,328,746,399,765,468,776,524"/>
+<area shape="rect" id="Node000009" href="$db/d00/class_g_e_u_1_1_details_window.html#a9edcfff4507d107037e9f7500a3d6717" title="Renders inspector details for point cloud items." alt="" coords="211,264,393,307"/>
+<area shape="poly" id="edge21_Node000001_Node000009" title=" " alt="" coords="770,525,760,475,741,416,710,359,689,334,665,313,634,295,600,281,565,272,529,267,458,265,393,270,393,265,458,259,530,262,566,267,602,276,636,290,668,308,693,330,714,356,745,414,765,474,775,524"/>
+<area shape="rect" id="Node000010" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a2818143a7ae622c5ea5a38722a4940fd" title=" " alt="" coords="497,323,625,365"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="762,527,747,492,726,452,698,413,665,379,646,367,624,359,626,354,648,363,668,375,702,409,730,449,752,489,767,525"/>
+<area shape="rect" id="Node000011" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#aa21888a744303263231d36cb4bee1617" title=" " alt="" coords="497,389,625,432"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="751,529,713,486,665,446,624,428,626,423,668,442,717,482,755,526"/>
+<area shape="rect" id="Node000012" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a15f9ea36c082c71e09e7275ca63bd2e1" title=" " alt="" coords="497,456,625,499"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="707,536,665,520,618,502,620,497,667,515,709,531"/>
+<area shape="rect" id="Node000016" href="$db/d00/class_g_e_u_1_1_details_window.html#a241455ad0e5a659831aa86d3182b9551" title="Renders inspector details for camera items." alt="" coords="210,531,394,573"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="699,562,395,556,395,551,699,557"/>
+<area shape="rect" id="Node000017" href="$db/d00/class_g_e_u_1_1_details_window.html#addd0dc775ee807e26a5936815ad411b8" title=" " alt="" coords="209,597,395,640"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="699,573,395,610,395,605,698,568"/>
+<area shape="rect" id="Node000018" href="$dc/d00/class_g_e_u_1_1_database_query_dato_popup.html#a6b45f3f4957a46091ab0d75b9600a56d" title="Renders the popup and its contents." alt="" coords="455,624,666,667"/>
+<area shape="poly" id="edge22_Node000001_Node000018" title=" " alt="" coords="709,591,667,608,620,626,618,621,665,603,707,586"/>
+<area shape="rect" id="Node000019" href="$da/d01/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74" title="Renders the window and contents." alt="" coords="483,691,639,733"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="755,597,717,640,668,681,640,695,638,690,665,676,713,637,751,593"/>
+<area shape="rect" id="Node000020" href="$df/d00/class_g_e_u_1_1_materials_window.html#a2b35a126224eee09971a3d5874dccbc4" title="Renders the window and contents." alt="" coords="483,757,639,800"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="767,598,752,633,730,673,702,713,668,747,641,763,638,759,665,743,698,710,726,671,747,631,762,596"/>
+<area shape="rect" id="Node000021" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a753245974f3786bbd5c17efd749563d2" title=" " alt="" coords="497,824,625,867"/>
+<area shape="poly" id="edge25_Node000001_Node000021" title=" " alt="" coords="773,599,761,647,741,705,710,763,691,790,668,814,648,828,626,837,624,832,646,823,665,810,687,787,706,761,736,703,756,646,768,598"/>
+<area shape="rect" id="Node000022" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a14b62a436373b094a4e0757e0e1ea719" title=" " alt="" coords="497,891,625,933"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="777,599,769,660,750,735,736,774,718,813,696,849,668,881,648,895,626,904,624,900,646,890,665,877,691,846,714,810,731,772,745,733,764,659,772,598"/>
+<area shape="rect" id="Node000023" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#af110deaeb1ef9b01dd1f833c19a96e84" title=" " alt="" coords="497,957,625,1000"/>
+<area shape="poly" id="edge27_Node000001_Node000023" title=" " alt="" coords="780,598,775,671,760,764,745,813,726,862,701,907,668,947,649,962,627,972,624,967,646,957,664,943,696,904,721,859,740,811,754,763,770,670,775,598"/>
+<area shape="rect" id="Node000024" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#ada99e6f85410dba375f930d65fef9b41" title=" " alt="" coords="497,1024,625,1067"/>
+<area shape="poly" id="edge28_Node000001_Node000024" title=" " alt="" coords="775,598,762,695,739,819,708,936,689,982,668,1014,649,1029,626,1039,624,1034,646,1024,664,1010,684,979,703,934,734,818,756,694,770,597"/>
+<area shape="rect" id="Node000025" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a9e9d1bf63c5c0e2c1eee6a30dc2dc83d" title=" " alt="" coords="497,1091,625,1133"/>
+<area shape="poly" id="edge29_Node000001_Node000025" title=" " alt="" coords="777,598,765,708,743,852,729,924,712,989,692,1043,668,1080,649,1096,627,1106,624,1101,646,1091,664,1077,687,1041,707,987,724,923,738,851,760,708,771,598"/>
+<area shape="rect" id="Node000006" href="$db/d00/class_g_e_u_1_1_details_window.html#aafcdb3e0ee9efe93917945b4b67ef977" title="Renders inspector details for light items." alt="" coords="218,131,386,173"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="481,207,378,177,379,171,482,201"/>
+<area shape="rect" id="Node000008" href="$db/d00/class_g_e_u_1_1_details_window.html#afef856466732ea159773d087909d0fdf" title="Renders inspector details for 3D model items." alt="" coords="215,197,389,240"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="481,227,389,224,390,219,481,222"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="482,247,393,267,392,262,481,242"/>
+<area shape="rect" id="Node000007" href="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,264,149,307"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="208,182,198,188,143,226,100,266,97,262,140,222,195,183,206,178"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="214,247,150,267,148,262,212,242"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="196,288,149,288,149,283,196,283"/>
+<area shape="rect" id="Node000013" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb" title="Renders the window and contents." alt="" coords="197,331,407,373"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="481,461,453,446,438,431,429,416,420,401,405,387,385,376,388,371,409,383,424,398,433,413,442,428,457,442,483,456"/>
+<area shape="rect" id="Node000014" href="$d9/d01/class_g_e_u_1_1_picking_window.html#a56f55b34996a68d41418a2df8ea008db" title="Renders the window and contents." alt="" coords="229,397,375,440"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="481,462,375,438,376,433,482,457"/>
+<area shape="rect" id="Node000015" href="$da/d04/class_g_e_u_1_1_settings_window.html#a7af9db6d6ad56c4c4fc336251024472f" title="Renders the window and contents." alt="" coords="226,464,378,507"/>
+<area shape="poly" id="edge16_Node000012_Node000015" title=" " alt="" coords="481,482,378,486,378,480,481,477"/>
+<area shape="poly" id="edge18_Node000016_Node000007" title=" " alt="" coords="200,524,195,521,171,497,150,469,116,409,94,352,81,308,86,306,99,351,121,407,154,466,175,493,198,517,203,520"/>
+<area shape="poly" id="edge20_Node000017_Node000007" title=" " alt="" coords="198,590,195,587,166,555,142,518,122,478,107,438,87,363,78,307,83,307,92,362,112,436,127,476,146,515,170,551,199,583,202,586"/>
+</map>

@@ -1,6 +1,5 @@
 <map id="GEU::InfoPopup::renderPopup" name="GEU::InfoPopup::renderPopup">
-<area shape="rect" id="Node000001" title="Renders the popup and its contents." alt="" coords="5,37,201,64"/>
-<area shape="rect" id="Node000002" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4a4cc2d3f5e9444384aa7e7eb062dbf0" title=" " alt="" coords="249,29,377,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,48,233,48,233,53,201,53"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="273,29,271,19,278,10,292,5,313,3,335,5,349,11,347,16,334,10,313,8,293,10,281,15,276,21,278,28"/>
+<area shape="rect" id="Node000001" title="Renders the popup and its contents." alt="" coords="5,13,201,40"/>
+<area shape="rect" id="Node000002" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4a9fd6dae16881311edd3998ece123bf" title=" " alt="" coords="249,5,377,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,24,233,24,233,29,201,29"/>
 </map>

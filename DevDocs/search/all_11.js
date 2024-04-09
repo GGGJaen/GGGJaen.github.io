@@ -1,8 +1,8 @@
 var searchData=
 [
   ['p_0',['p',['../d9/d07/structlazperf_point.html#a1ec729b6f7428cf191461656ece600c6',1,'lazperfPoint']]],
-  ['pan_1',['PAN',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca6abc6e5f6c0ff75b8b16731d95832dbe',1,'GEU::InputManager']]],
-  ['pan_2',['pan',['../dd/d04/class_g_e_u_1_1_camera.html#a85cbd1db438eee7b53e63c98910dce6c',1,'GEU::Camera']]],
+  ['pan_1',['pan',['../dd/d04/class_g_e_u_1_1_camera.html#a85cbd1db438eee7b53e63c98910dce6c',1,'GEU::Camera']]],
+  ['pan_2',['PAN',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca6abc6e5f6c0ff75b8b16731d95832dbe',1,'GEU::InputManager']]],
   ['para_20mantener_20la_20cordura_3',['Para mantener la cordura',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#para-mantener-la-cordura',1,'']]],
   ['para_20mantener_20los_20tiempos_20de_20compilación_20controlados_4',['Para mantener los tiempos de compilación controlados',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#para-mantener-los-tiempos-de-compilación-controlados',1,'']]],
   ['para_20mejorar_20el_20rendimiento_5',['Para mejorar el rendimiento',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#para-mejorar-el-rendimiento',1,'']]],
@@ -114,8 +114,8 @@ var searchData=
   ['popupsystem_2eh_111',['PopupSystem.h',['../d6/d00/_popup_system_8h.html',1,'']]],
   ['porque_20somos_20buenos_20compañeros_112',['Porque somos buenos compañeros',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#porque-somos-buenos-compañeros',1,'']]],
   ['posible_113',['Usa &lt;em&gt;forward declaration&lt;/em&gt; cuando sea posible',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#usa-forward-declaration-cuando-sea-posible',1,'']]],
-  ['position_114',['position',['../dd/d03/struct_im_gradient_mark.html#a13b24e39c0e41c76d90517a1be1da995',1,'ImGradientMark']]],
-  ['position_115',['Position',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#af292c70b27838641ff231dc60eaa9433a52f5e0bc3859bc5f5e25130b6c7e8881',1,'GEU::GPUResources::Position'],['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#adafc66f7bd205941a47af8503c084d23a52f5e0bc3859bc5f5e25130b6c7e8881',1,'GEU::GPUResources::Position']]],
+  ['position_114',['Position',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#af292c70b27838641ff231dc60eaa9433a52f5e0bc3859bc5f5e25130b6c7e8881',1,'GEU::GPUResources::Position'],['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#adafc66f7bd205941a47af8503c084d23a52f5e0bc3859bc5f5e25130b6c7e8881',1,'GEU::GPUResources::Position']]],
+  ['position_115',['position',['../dd/d03/struct_im_gradient_mark.html#a13b24e39c0e41c76d90517a1be1da995',1,'ImGradientMark']]],
   ['position_116',['POSITION',['../d4/d01/class_g_e_u_1_1_light_properties.html#ad78d24ff7022d13a2e8cda1246d32b64',1,'GEU::LightProperties']]],
   ['prácticas_117',['Manual de buenas prácticas',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html',1,'']]],
   ['precompiled_20headers_20a_118',['Usa los &lt;a href=&quot;https://en.wikipedia.org/wiki/Precompiled_header&quot; &gt;Precompiled Headers&lt;/a&gt;',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header',1,'']]],

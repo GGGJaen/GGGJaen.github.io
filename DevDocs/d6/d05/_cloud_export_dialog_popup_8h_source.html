@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
    </div>
   </td>
  </tr>
@@ -146,7 +146,7 @@ $(function(){initNavTree('d6/d05/_cloud_export_dialog_popup_8h_source.html','../
 <div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d7/d06/class_g_e_u_1_1_cloud_export_dialog_popup.html#a94f5033a54d5191aaf3983be4c694819">   60</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d7/d06/class_g_e_u_1_1_cloud_export_dialog_popup.html#a94f5033a54d5191aaf3983be4c694819">GEU::CloudExportDialogPopup::renderPopup</a>(<a class="code hl_struct" href="../../d2/d00/struct_g_e_u_1_1_application_state.html">ApplicationState</a>* appState, <a class="code hl_class" href="../../d5/d02/class_g_e_u_1_1_scene.html">Scene</a>* scene) {</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">if</span> (ImGuiFileDialog::Instance()-&gt;Display(_popupID, 32 | ImGuiWindowFlags_NoDocking)) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">if</span> (ImGuiFileDialog::Instance()-&gt;Display(_popupID, ImGuiWindowFlags_NoDocking | ImGuiWindowFlags_NoCollapse, ImVec2(500, 250), ImVec2(FLT_MAX, FLT_MAX))) {</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">if</span> (ImGuiFileDialog::Instance()-&gt;IsOk()) {</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            std::string fileDialogSelection = ImGuiFileDialog::Instance()-&gt;GetCurrentFileName();</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            fileDialogSelection = fileDialogSelection.substr(0, fileDialogSelection.find_last_of(<span class="charliteral">&#39;.&#39;</span>));</div>

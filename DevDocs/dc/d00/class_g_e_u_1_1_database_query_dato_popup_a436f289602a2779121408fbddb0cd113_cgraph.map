@@ -1,0 +1,11 @@
+<map id="GEU::DatabaseQueryDatoPopup::handleConfirmPopup" name="GEU::DatabaseQueryDatoPopup::handleConfirmPopup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,217,77"/>
+<area shape="rect" id="Node000002" href="$d3/d04/class_g_e_u_1_1_confirm_popup.html#a356c96e2b60a49682d4a6c41f1a60c38" title="Sets up ImGUI to open a popup window." alt="" coords="265,35,411,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,53,249,53,249,59,217,59"/>
+<area shape="rect" id="Node000003" href="$df/d05/class_g_e_u_1_1_i___g_u_i_popup.html#abdcc20870710b60595e8777b9fd796ed" title=" " alt="" coords="459,43,645,69"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,53,443,53,443,59,411,59"/>
+<area shape="rect" id="Node000004" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="693,5,896,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="645,42,677,38,678,43,646,47"/>
+<area shape="rect" id="Node000005" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="714,72,875,99"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="646,65,699,71,698,76,645,70"/>
+</map>

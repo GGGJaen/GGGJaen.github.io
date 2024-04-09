@@ -1,23 +1,25 @@
 <map id="GEU::GuiUtilities::Button" name="GEU::GuiUtilities::Button">
-<area shape="rect" id="Node000001" title=" " alt="" coords="474,272,602,315"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="474,305,602,348"/>
 <area shape="rect" id="Node000002" href="$db/d00/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="212,5,411,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,257,514,212,493,160,464,107,445,83,424,62,408,51,411,46,428,58,449,79,468,104,498,157,519,211,532,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="529,290,518,239,498,177,468,115,448,87,424,62,408,51,411,46,428,58,452,83,472,112,503,175,523,237,534,289"/>
 <area shape="rect" id="Node000003" href="$db/d00/class_g_e_u_1_1_details_window.html#afef856466732ea159773d087909d0fdf" title="Renders inspector details for 3D model items." alt="" coords="224,72,399,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="520,259,482,192,456,158,424,129,397,114,400,109,428,125,460,154,487,189,524,256"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="524,291,509,253,488,209,460,166,424,129,397,113,400,108,428,125,464,162,493,206,514,251,529,290"/>
 <area shape="rect" id="Node000005" href="$db/d00/class_g_e_u_1_1_details_window.html#a9edcfff4507d107037e9f7500a3d6717" title="Renders inspector details for point cloud items." alt="" coords="221,139,402,181"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="506,263,469,227,425,196,400,184,403,179,427,191,473,223,510,259"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="514,293,476,242,452,217,425,196,401,183,403,178,427,191,455,213,480,239,518,290"/>
 <area shape="rect" id="Node000006" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#afcda560180acc4f5fbd7caeaa40f9018" title="Custom module GUI window contents." alt="" coords="197,205,426,248"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="458,272,425,263,387,251,388,246,427,257,460,267"/>
-<area shape="rect" id="Node000007" href="$dc/d00/class_g_e_u_1_1_database_query_dato_popup.html#a6b45f3f4957a46091ab0d75b9600a56d" title="Renders the popup and its contents." alt="" coords="206,272,417,315"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="459,296,418,296,418,291,459,291"/>
-<area shape="rect" id="Node000008" href="$db/d06/class_g_e_u_1_1_database_new_vuelo_popup.html#ac1b98a11d860c6c9fe497bdcaa689d79" title="Renders the popup and its contents." alt="" coords="208,339,415,381"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="460,319,427,329,388,341,387,335,425,324,458,314"/>
-<area shape="rect" id="Node000009" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb" title="Renders the window and contents." alt="" coords="206,405,417,448"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="510,328,473,363,427,396,403,407,400,402,425,391,469,359,506,324"/>
-<area shape="rect" id="Node000010" href="$d9/d01/class_g_e_u_1_1_picking_window.html#a56f55b34996a68d41418a2df8ea008db" title="Renders the window and contents." alt="" coords="238,472,385,515"/>
-<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="524,330,487,398,460,432,428,462,386,483,384,478,424,458,456,429,482,395,520,328"/>
-<area shape="rect" id="Node000011" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#a6ea01dc83a34747f5390085fda4e8980" title=" " alt="" coords="206,539,417,581"/>
-<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="532,331,519,376,498,429,468,483,449,507,428,529,411,540,408,536,424,525,445,504,464,480,493,427,514,374,527,329"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="492,299,425,262,395,251,397,246,427,258,494,295"/>
+<area shape="rect" id="Node000007" href="$db/d06/class_g_e_u_1_1_database_new_vuelo_popup.html#ac1b98a11d860c6c9fe497bdcaa689d79" title="Renders the popup and its contents." alt="" coords="208,272,415,315"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="459,318,415,311,416,306,459,312"/>
+<area shape="rect" id="Node000008" href="$dc/d00/class_g_e_u_1_1_database_query_dato_popup.html#a6b45f3f4957a46091ab0d75b9600a56d" title="Renders the popup and its contents." alt="" coords="206,339,417,381"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="459,341,418,347,417,342,458,336"/>
+<area shape="rect" id="Node000009" href="$db/d04/class_g_e_u_1_1_info_popup.html#a159ea5e5a4c7240aaa3592082d39e008" title="Renders the popup and its contents." alt="" coords="214,405,409,432"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="496,359,463,379,427,396,391,407,390,402,425,391,460,374,493,354"/>
+<area shape="rect" id="Node000010" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb" title="Renders the window and contents." alt="" coords="206,456,417,499"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="515,362,477,406,453,428,427,446,405,458,402,453,425,442,450,424,473,402,511,359"/>
+<area shape="rect" id="Node000011" href="$d9/d01/class_g_e_u_1_1_picking_window.html#a56f55b34996a68d41418a2df8ea008db" title="Renders the window and contents." alt="" coords="238,523,385,565"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="527,364,512,399,490,439,462,479,428,513,408,525,386,534,384,529,405,520,424,509,458,475,486,436,507,397,522,361"/>
+<area shape="rect" id="Node000012" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#a6ea01dc83a34747f5390085fda4e8980" title=" " alt="" coords="206,589,417,632"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="533,364,521,413,501,471,470,529,451,556,428,579,411,591,408,587,424,575,447,552,466,526,496,468,516,411,528,363"/>
 <area shape="rect" id="Node000004" href="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,105,149,148"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="209,111,150,119,149,114,208,105"/>
 <area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="205,148,149,139,149,134,206,142"/>

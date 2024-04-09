@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
    </div>
   </td>
  </tr>
@@ -144,27 +144,29 @@ $(function(){initNavTree('d0/d01/_confirm_popup_8h_source.html','../../'); initR
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">bool</span> closing = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">bool</span> selection = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">if</span> (ImGui::BeginPopupModal(getIdTitle().c_str())) {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a7b24395f0bd0bd368bde0935682746ce">GuiUtilities::makeLocText</a>(_infoTextIdx, <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">if</span> (_yesnoButtons ? <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#afc5e6623a13133c49738b38d29e2d7bd">GuiUtilities::makeYesButton</a>() : <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#af5e9fa24f47a96b09eb235cbf0956e7b">GuiUtilities::makeConfirmButton</a>()) {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            selection = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            closing = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            ImGui::CloseCurrentPopup();</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        ImGui::SameLine();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">if</span> (_yesnoButtons ? <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a275a16f7f31031ade260bdd899b53109">GuiUtilities::makeNoButton</a>() : <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a1c14068c48b831ee9b2f4300deb80e13">GuiUtilities::makeCancelButton</a>()) {</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            closing = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            ImGui::CloseCurrentPopup();</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        ImGui::EndPopup();</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordflow">if</span> (closing) {</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        _selectionCallback(selection);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">return</span> closing;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    ImGui::SetNextWindowSizeConstraints(ImVec2(300, 93), ImVec2(FLT_MAX, FLT_MAX));</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    ImGui::SetNextWindowSize(ImVec2(300, 93), ImGuiCond_FirstUseEver);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordflow">if</span> (ImGui::BeginPopupModal(getIdTitle().c_str())) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a7b24395f0bd0bd368bde0935682746ce">GuiUtilities::makeLocText</a>(_infoTextIdx, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">if</span> (_yesnoButtons ? <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#afc5e6623a13133c49738b38d29e2d7bd">GuiUtilities::makeYesButton</a>() : <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#af5e9fa24f47a96b09eb235cbf0956e7b">GuiUtilities::makeConfirmButton</a>()) {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            selection = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            closing = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            ImGui::CloseCurrentPopup();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        }</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        ImGui::SameLine();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordflow">if</span> (_yesnoButtons ? <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a275a16f7f31031ade260bdd899b53109">GuiUtilities::makeNoButton</a>() : <a class="code hl_function" href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a1c14068c48b831ee9b2f4300deb80e13">GuiUtilities::makeCancelButton</a>()) {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            closing = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            ImGui::CloseCurrentPopup();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        ImGui::EndPopup();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordflow">if</span> (closing) {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        _selectionCallback(selection);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">return</span> closing;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>};</div>
 </div>
 <div class="ttc" id="a_gui_utilities_8h_html"><div class="ttname"><a href="../../d4/d07/_gui_utilities_8h.html">GuiUtilities.h</a></div></div>
 <div class="ttc" id="a_i___g_u_i_popup_8h_html"><div class="ttname"><a href="../../de/d03/_i___g_u_i_popup_8h.html">I_GUIPopup.h</a></div></div>
@@ -179,11 +181,11 @@ $(function(){initNavTree('d0/d01/_confirm_popup_8h_source.html','../../'); initR
 <div class="ttc" id="aclass_g_e_u_1_1_i___g_u_i_popup_html_abdcc20870710b60595e8777b9fd796ed"><div class="ttname"><a href="../../df/d05/class_g_e_u_1_1_i___g_u_i_popup.html#abdcc20870710b60595e8777b9fd796ed">GEU::I_GUIPopup::getIdTitle</a></div><div class="ttdeci">std::string getIdTitle() const</div><div class="ttdef"><b>Definition</b> I_GUIPopup.h:50</div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_scene_html"><div class="ttname"><a href="../../d5/d02/class_g_e_u_1_1_scene.html">GEU::Scene</a></div><div class="ttdef"><b>Definition</b> Scene.h:18</div></div>
 <div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></div><div class="ttdeci">LOCALE_STRINGS</div><div class="ttdef"><b>Definition</b> locale_strings.h:3</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a1c14068c48b831ee9b2f4300deb80e13"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a1c14068c48b831ee9b2f4300deb80e13">GEU::GuiUtilities::makeCancelButton</a></div><div class="ttdeci">bool makeCancelButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1057</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a275a16f7f31031ade260bdd899b53109"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a275a16f7f31031ade260bdd899b53109">GEU::GuiUtilities::makeNoButton</a></div><div class="ttdeci">bool makeNoButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1035</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a7b24395f0bd0bd368bde0935682746ce"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a7b24395f0bd0bd368bde0935682746ce">GEU::GuiUtilities::makeLocText</a></div><div class="ttdeci">void makeLocText(LOCALE_STRINGS idx, const bool &amp;wrap=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1068</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_af5e9fa24f47a96b09eb235cbf0956e7b"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#af5e9fa24f47a96b09eb235cbf0956e7b">GEU::GuiUtilities::makeConfirmButton</a></div><div class="ttdeci">bool makeConfirmButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1046</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_afc5e6623a13133c49738b38d29e2d7bd"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#afc5e6623a13133c49738b38d29e2d7bd">GEU::GuiUtilities::makeYesButton</a></div><div class="ttdeci">bool makeYesButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1024</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a1c14068c48b831ee9b2f4300deb80e13"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a1c14068c48b831ee9b2f4300deb80e13">GEU::GuiUtilities::makeCancelButton</a></div><div class="ttdeci">bool makeCancelButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1137</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a275a16f7f31031ade260bdd899b53109"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a275a16f7f31031ade260bdd899b53109">GEU::GuiUtilities::makeNoButton</a></div><div class="ttdeci">bool makeNoButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1115</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_a7b24395f0bd0bd368bde0935682746ce"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a7b24395f0bd0bd368bde0935682746ce">GEU::GuiUtilities::makeLocText</a></div><div class="ttdeci">void makeLocText(LOCALE_STRINGS idx, const bool &amp;wrap=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1148</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_af5e9fa24f47a96b09eb235cbf0956e7b"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#af5e9fa24f47a96b09eb235cbf0956e7b">GEU::GuiUtilities::makeConfirmButton</a></div><div class="ttdeci">bool makeConfirmButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1126</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_gui_utilities_html_afc5e6623a13133c49738b38d29e2d7bd"><div class="ttname"><a href="../../d3/d07/namespace_g_e_u_1_1_gui_utilities.html#afc5e6623a13133c49738b38d29e2d7bd">GEU::GuiUtilities::makeYesButton</a></div><div class="ttdeci">bool makeYesButton(const bool &amp;disabled=false)</div><div class="ttdef"><b>Definition</b> GuiUtilities.cpp:1104</div></div>
 <div class="ttc" id="anamespace_g_e_u_html"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html">GEU</a></div><div class="ttdef"><b>Definition</b> Application.h:3</div></div>
 <div class="ttc" id="astruct_g_e_u_1_1_application_state_html"><div class="ttname"><a href="../../d2/d00/struct_g_e_u_1_1_application_state.html">GEU::ApplicationState</a></div><div class="ttdef"><b>Definition</b> ApplicationState.h:5</div></div>
 </div><!-- fragment --></div><!-- contents -->

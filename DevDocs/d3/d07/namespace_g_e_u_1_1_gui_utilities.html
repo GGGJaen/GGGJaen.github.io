@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.2.10</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
    </div>
   </td>
  </tr>
@@ -121,8 +121,12 @@ Funciones</h2></td></tr>
 <tr class="separator:a3862f21ed065a1285ceaa4fd5b1e9544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f688b15f8d061db79b4d38ca62ac3d7" id="r_a4f688b15f8d061db79b4d38ca62ac3d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f688b15f8d061db79b4d38ca62ac3d7">MenuItem</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const std::string &amp;icon, const std::string &amp;id, bool *selected, const bool &amp;disabled=false)</td></tr>
 <tr class="separator:a4f688b15f8d061db79b4d38ca62ac3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ca438ae0623d75ff22b4b17dfd3a820" id="r_a4ca438ae0623d75ff22b4b17dfd3a820"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ca438ae0623d75ff22b4b17dfd3a820">Text</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const bool &amp;alignToPaddingV=true, const bool &amp;wrap=false)</td></tr>
-<tr class="separator:a4ca438ae0623d75ff22b4b17dfd3a820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a49056660c5a9246a94564afbb676a" id="r_a76a49056660c5a9246a94564afbb676a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76a49056660c5a9246a94564afbb676a">Text</a> (const char *str, const bool &amp;useAltColor=false, const bool &amp;alignToPaddingV=true, const bool &amp;wrap=false)</td></tr>
+<tr class="separator:a76a49056660c5a9246a94564afbb676a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cf9a357e3d3efdf090870858c95cc9" id="r_a85cf9a357e3d3efdf090870858c95cc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85cf9a357e3d3efdf090870858c95cc9">Text</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const bool &amp;useAltColor=false, const bool &amp;alignToPaddingV=true, const bool &amp;wrap=false)</td></tr>
+<tr class="separator:a85cf9a357e3d3efdf090870858c95cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba074d8a25f0fce6637a7513d59c2f1" id="r_afba074d8a25f0fce6637a7513d59c2f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba074d8a25f0fce6637a7513d59c2f1">Text</a> (const std::string &amp;str, const bool &amp;useAltColor=false, const bool &amp;alignToPaddingV=true, const bool &amp;wrap=false)</td></tr>
+<tr class="separator:afba074d8a25f0fce6637a7513d59c2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4d14264e67621c5997464e18c781ea0" id="r_ae4d14264e67621c5997464e18c781ea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4d14264e67621c5997464e18c781ea0">SeparatorText</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx)</td></tr>
 <tr class="separator:ae4d14264e67621c5997464e18c781ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45648c2d9672ec5d0539ae9577e0b02b" id="r_a45648c2d9672ec5d0539ae9577e0b02b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45648c2d9672ec5d0539ae9577e0b02b">DatabaseQueryText</a> ()</td></tr>
@@ -137,12 +141,12 @@ Funciones</h2></td></tr>
 <tr class="separator:a1c0c133ef20e15d8c876a458d45a90e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a585313268b47781a215221f9eacdb007" id="r_a585313268b47781a215221f9eacdb007"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a585313268b47781a215221f9eacdb007">Radio</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const std::string &amp;id, int value, const bool &amp;in_table=false, const bool &amp;disabled=false)</td></tr>
 <tr class="separator:a585313268b47781a215221f9eacdb007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bd8ee6ec7674dc502b5330d41beadf" id="r_ab5bd8ee6ec7674dc502b5330d41beadf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bd8ee6ec7674dc502b5330d41beadf">Selectable</a> (const char *label, const std::string &amp;id, const bool &amp;selected, ImGuiSelectableFlags flags=0, const ImVec2 &amp;item_size=ImVec2(0, 0))</td></tr>
+<tr class="separator:ab5bd8ee6ec7674dc502b5330d41beadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e9d1bf63c5c0e2c1eee6a30dc2dc83d" id="r_a9e9d1bf63c5c0e2c1eee6a30dc2dc83d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9d1bf63c5c0e2c1eee6a30dc2dc83d">Selectable</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const std::string &amp;id, const bool &amp;selected, ImGuiSelectableFlags flags=0)</td></tr>
 <tr class="separator:a9e9d1bf63c5c0e2c1eee6a30dc2dc83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af110deaeb1ef9b01dd1f833c19a96e84" id="r_af110deaeb1ef9b01dd1f833c19a96e84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af110deaeb1ef9b01dd1f833c19a96e84">Selectable</a> (const std::string &amp;label, const std::string &amp;id, const bool &amp;selected, ImGuiSelectableFlags flags=0)</td></tr>
 <tr class="separator:af110deaeb1ef9b01dd1f833c19a96e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab36a7c831f8c7018d750bd01b606f170" id="r_ab36a7c831f8c7018d750bd01b606f170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab36a7c831f8c7018d750bd01b606f170">Selectable</a> (const char *label, const std::string &amp;id, const bool &amp;selected, ImGuiSelectableFlags flags=0)</td></tr>
-<tr class="separator:ab36a7c831f8c7018d750bd01b606f170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada99e6f85410dba375f930d65fef9b41" id="r_ada99e6f85410dba375f930d65fef9b41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada99e6f85410dba375f930d65fef9b41">Selectable</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const std::string &amp;icon, const std::string &amp;id, const bool &amp;selected, ImGuiSelectableFlags flags=0)</td></tr>
 <tr class="separator:ada99e6f85410dba375f930d65fef9b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14b62a436373b094a4e0757e0e1ea719" id="r_a14b62a436373b094a4e0757e0e1ea719"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14b62a436373b094a4e0757e0e1ea719">Selectable</a> (const std::string &amp;label, const std::string &amp;icon, const std::string &amp;id, const bool &amp;selected, ImGuiSelectableFlags flags=0)</td></tr>
@@ -227,6 +231,10 @@ Funciones</h2></td></tr>
 <tr class="separator:a07478080a1cca1c901f7d0f20ecc307b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d270e10057bb4a04b130a9e20301e2" id="r_a93d270e10057bb4a04b130a9e20301e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93d270e10057bb4a04b130a9e20301e2">NextItemFillColumn</a> ()</td></tr>
 <tr class="separator:a93d270e10057bb4a04b130a9e20301e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1a014e3f28af3016b31a518ded4e3f" id="r_aac1a014e3f28af3016b31a518ded4e3f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac1a014e3f28af3016b31a518ded4e3f">GetTableRowHeight</a> ()</td></tr>
+<tr class="separator:aac1a014e3f28af3016b31a518ded4e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a610fa3185cc60e03f6c3c99e7aa2d9" id="r_a7a610fa3185cc60e03f6c3c99e7aa2d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a610fa3185cc60e03f6c3c99e7aa2d9">CalcWidgetWidth</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx)</td></tr>
+<tr class="separator:a7a610fa3185cc60e03f6c3c99e7aa2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad52a01b7d6532dd69d80b573513902b7" id="r_ad52a01b7d6532dd69d80b573513902b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad52a01b7d6532dd69d80b573513902b7">NextTableItemCenter</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx)</td></tr>
 <tr class="separator:ad52a01b7d6532dd69d80b573513902b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40a766f4b8d640943eadd1735f02128e" id="r_a40a766f4b8d640943eadd1735f02128e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a766f4b8d640943eadd1735f02128e">NextTableItemRight</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx)</td></tr>
@@ -237,18 +245,18 @@ Funciones</h2></td></tr>
 <tr class="separator:a74376bf351ec40f14cc9c734e1956c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94965eb0ce2f4e1e5ee22fd33bf4574" id="r_af94965eb0ce2f4e1e5ee22fd33bf4574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af94965eb0ce2f4e1e5ee22fd33bf4574">BeginTableZona</a> (const std::string &amp;id, const <a class="el" href="../../da/d03/struct_database_1_1_zona.html">Database::Zona</a> *zona)</td></tr>
 <tr class="separator:af94965eb0ce2f4e1e5ee22fd33bf4574"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a898f23d8d8898e232322a9bb417c9fcf" id="r_a898f23d8d8898e232322a9bb417c9fcf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a898f23d8d8898e232322a9bb417c9fcf">BeginTableZona</a> (const std::string &amp;id, const std::vector&lt; <a class="el" href="../../da/d03/struct_database_1_1_zona.html">Database::Zona</a> &gt; &amp;zonas, bool selectable)</td></tr>
-<tr class="separator:a898f23d8d8898e232322a9bb417c9fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d98aab42f839345f947f945bdd3da8" id="r_a48d98aab42f839345f947f945bdd3da8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d98aab42f839345f947f945bdd3da8">BeginTableZona</a> (const std::string &amp;id, const std::vector&lt; <a class="el" href="../../da/d03/struct_database_1_1_zona.html">Database::Zona</a> &gt; &amp;zonas, bool selectable, size_t current_sel, float table_height)</td></tr>
+<tr class="separator:a48d98aab42f839345f947f945bdd3da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19a864db5dec589998f84e7ad39922e3" id="r_a19a864db5dec589998f84e7ad39922e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19a864db5dec589998f84e7ad39922e3">BeginTableVuelo</a> (const std::string &amp;id, const <a class="el" href="../../dd/d07/struct_database_1_1_vuelo.html">Database::Vuelo</a> *vuelo)</td></tr>
 <tr class="separator:a19a864db5dec589998f84e7ad39922e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52cb29f50d78b4fefd0f7f5e84483046" id="r_a52cb29f50d78b4fefd0f7f5e84483046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52cb29f50d78b4fefd0f7f5e84483046">BeginTableDron</a> (const std::string &amp;id, const <a class="el" href="../../d5/d00/struct_database_1_1_dron.html">Database::Dron</a> *dron)</td></tr>
 <tr class="separator:a52cb29f50d78b4fefd0f7f5e84483046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98eb165198408c65ee88f5f422d149d5" id="r_a98eb165198408c65ee88f5f422d149d5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98eb165198408c65ee88f5f422d149d5">BeginTableDron</a> (const std::string &amp;id, const std::vector&lt; <a class="el" href="../../d5/d00/struct_database_1_1_dron.html">Database::Dron</a> &gt; &amp;drones, bool selectable)</td></tr>
-<tr class="separator:a98eb165198408c65ee88f5f422d149d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8331c953a8699e14285357b22a400f1" id="r_ab8331c953a8699e14285357b22a400f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8331c953a8699e14285357b22a400f1">BeginTableDron</a> (const std::string &amp;id, const std::vector&lt; <a class="el" href="../../d5/d00/struct_database_1_1_dron.html">Database::Dron</a> &gt; &amp;drones, bool selectable, size_t current_sel, float table_height)</td></tr>
+<tr class="separator:ab8331c953a8699e14285357b22a400f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada3ff320fe0e01b53fb7543b923b45a8" id="r_ada3ff320fe0e01b53fb7543b923b45a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada3ff320fe0e01b53fb7543b923b45a8">BeginTableDato</a> (const std::string &amp;id, const <a class="el" href="../../d4/d04/struct_database_1_1_dato.html">Database::Dato</a> *dato)</td></tr>
 <tr class="separator:ada3ff320fe0e01b53fb7543b923b45a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ca7291f56549a97cbf585e0ea56a76" id="r_ab7ca7291f56549a97cbf585e0ea56a76"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ca7291f56549a97cbf585e0ea56a76">BeginTableDato</a> (const std::string &amp;id, const std::vector&lt; <a class="el" href="../../d4/d04/struct_database_1_1_dato.html">Database::Dato</a> &gt; &amp;datos, bool selectable, size_t current_sel)</td></tr>
-<tr class="separator:ab7ca7291f56549a97cbf585e0ea56a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac492d09cb23da649aa5780ba0fab0898" id="r_ac492d09cb23da649aa5780ba0fab0898"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac492d09cb23da649aa5780ba0fab0898">BeginTableDato</a> (const std::string &amp;id, const std::vector&lt; <a class="el" href="../../d4/d04/struct_database_1_1_dato.html">Database::Dato</a> &gt; &amp;datos, bool selectable, size_t current_sel, float table_height)</td></tr>
+<tr class="separator:ac492d09cb23da649aa5780ba0fab0898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84bb8e77631e925660765d1e2e9104c2" id="r_a84bb8e77631e925660765d1e2e9104c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84bb8e77631e925660765d1e2e9104c2">InsertToast</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const <a class="el" href="../../d5/d05/_im_gui_notify_8hpp.html#a4cdcf75a8d07649afb11cce056352533">ImGuiToastType</a> &amp;type, const int &amp;duration=5000)</td></tr>
 <tr class="separator:a84bb8e77631e925660765d1e2e9104c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae19de031d1878518f739c269fde6a4ae" id="r_ae19de031d1878518f739c269fde6a4ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae19de031d1878518f739c269fde6a4ae">InsertToast</a> (<a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> label_idx, const <a class="el" href="../../d5/d05/_im_gui_notify_8hpp.html#a4cdcf75a8d07649afb11cce056352533">ImGuiToastType</a> &amp;type, float &amp;progress)</td></tr>
@@ -609,14 +617,14 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
-<a id="ab7ca7291f56549a97cbf585e0ea56a76" name="ab7ca7291f56549a97cbf585e0ea56a76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7ca7291f56549a97cbf585e0ea56a76">&#9670;&#160;</a></span>BeginTableDato() <span class="overload">[2/2]</span></h2>
+<a id="ac492d09cb23da649aa5780ba0fab0898" name="ac492d09cb23da649aa5780ba0fab0898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac492d09cb23da649aa5780ba0fab0898">&#9670;&#160;</a></span>BeginTableDato() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t GEU::GuiUtilities::BeginTableDato </td>
+          <td class="memname">int GEU::GuiUtilities::BeginTableDato </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
         </tr>
@@ -633,14 +641,19 @@ Gráfico de llamadas a esta función:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>current_sel</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>current_sel</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>table_height</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_ab7ca7291f56549a97cbf585e0ea56a76_cgraph.svg" width="390" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_ac492d09cb23da649aa5780ba0fab0898_cgraph.svg" width="390" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -676,14 +689,14 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
-<a id="a98eb165198408c65ee88f5f422d149d5" name="a98eb165198408c65ee88f5f422d149d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98eb165198408c65ee88f5f422d149d5">&#9670;&#160;</a></span>BeginTableDron() <span class="overload">[2/2]</span></h2>
+<a id="ab8331c953a8699e14285357b22a400f1" name="ab8331c953a8699e14285357b22a400f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8331c953a8699e14285357b22a400f1">&#9670;&#160;</a></span>BeginTableDron() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t GEU::GuiUtilities::BeginTableDron </td>
+          <td class="memname">int GEU::GuiUtilities::BeginTableDron </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
         </tr>
@@ -695,14 +708,24 @@ Gráfico de llamadas a esta función:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selectable</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selectable</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>current_sel</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>table_height</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a98eb165198408c65ee88f5f422d149d5_cgraph.svg" width="390" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_ab8331c953a8699e14285357b22a400f1_cgraph.svg" width="390" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -759,7 +782,7 @@ Gráfico de llamadas a esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_af94965eb0ce2f4e1e5ee22fd33bf4574_cgraph.svg" width="390" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_af94965eb0ce2f4e1e5ee22fd33bf4574_cgraph.svg" width="390" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
@@ -769,14 +792,14 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
-<a id="a898f23d8d8898e232322a9bb417c9fcf" name="a898f23d8d8898e232322a9bb417c9fcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898f23d8d8898e232322a9bb417c9fcf">&#9670;&#160;</a></span>BeginTableZona() <span class="overload">[2/2]</span></h2>
+<a id="a48d98aab42f839345f947f945bdd3da8" name="a48d98aab42f839345f947f945bdd3da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d98aab42f839345f947f945bdd3da8">&#9670;&#160;</a></span>BeginTableZona() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t GEU::GuiUtilities::BeginTableZona </td>
+          <td class="memname">int GEU::GuiUtilities::BeginTableZona </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
         </tr>
@@ -788,14 +811,24 @@ Gráfico de llamadas a esta función:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selectable</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selectable</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>current_sel</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>table_height</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a898f23d8d8898e232322a9bb417c9fcf_cgraph.svg" width="390" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a48d98aab42f839345f947f945bdd3da8_cgraph.svg" width="390" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -924,7 +957,7 @@ Gráfico de llamadas a esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4a9fd6dae16881311edd3998ece123bf_icgraph.svg" width="608" height="587"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4a9fd6dae16881311edd3998ece123bf_icgraph.svg" width="608" height="638"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -948,6 +981,23 @@ Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_aca2c75691a6162a3ee60274a84118740_icgraph.svg" width="655" height="587"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a7a610fa3185cc60e03f6c3c99e7aa2d9" name="a7a610fa3185cc60e03f6c3c99e7aa2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a610fa3185cc60e03f6c3c99e7aa2d9">&#9670;&#160;</a></span>CalcWidgetWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::GuiUtilities::CalcWidgetWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>label_idx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1192,7 +1242,7 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4f9aba226510ff3f6ddea45d86ae482d_cgraph.svg" width="340" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4f9aba226510ff3f6ddea45d86ae482d_cgraph.svg" width="340" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
@@ -1230,6 +1280,11 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a2818143a7ae622c5ea5a38722a4940fd_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1261,6 +1316,11 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_aa21888a744303263231d36cb4bee1617_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1292,6 +1352,11 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a15f9ea36c082c71e09e7275ca63bd2e1_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
@@ -1800,6 +1865,28 @@ Gráfico de llamadas de esta función:</div>
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a56329e5b47720fb317fb9b36709bece1_icgraph.svg" width="578" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aac1a014e3f28af3016b31a518ded4e3f" name="aac1a014e3f28af3016b31a518ded4e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1a014e3f28af3016b31a518ded4e3f">&#9670;&#160;</a></span>GetTableRowHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEU::GuiUtilities::GetTableRowHeight </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_aac1a014e3f28af3016b31a518ded4e3f_icgraph.svg" width="402" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2619,7 +2706,7 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4a4cc2d3f5e9444384aa7e7eb062dbf0_icgraph.svg" width="679" height="1124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4a4cc2d3f5e9444384aa7e7eb062dbf0_icgraph.svg" width="679" height="1120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -3520,11 +3607,16 @@ Gráfico de llamadas de esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a753245974f3786bbd5c17efd749563d2_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
-<a id="ab36a7c831f8c7018d750bd01b606f170" name="ab36a7c831f8c7018d750bd01b606f170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab36a7c831f8c7018d750bd01b606f170">&#9670;&#160;</a></span>Selectable() <span class="overload">[2/6]</span></h2>
+<a id="ab5bd8ee6ec7674dc502b5330d41beadf" name="ab5bd8ee6ec7674dc502b5330d41beadf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bd8ee6ec7674dc502b5330d41beadf">&#9670;&#160;</a></span>Selectable() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3547,10 +3639,20 @@ Gráfico de llamadas de esta función:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ImGuiSelectableFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em><span class="paramdefsep"> = </span><span class="paramdefval">0</span></span>&#160;)</td>
+          <td class="paramtype">ImGuiSelectableFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>item_size</em><span class="paramdefsep"> = </span><span class="paramdefval">ImVec2(0,0)</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_ab5bd8ee6ec7674dc502b5330d41beadf_icgraph.svg" width="848" height="1139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -3587,6 +3689,11 @@ Gráfico de llamadas de esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a14b62a436373b094a4e0757e0e1ea719_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -3618,6 +3725,11 @@ Gráfico de llamadas de esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_af110deaeb1ef9b01dd1f833c19a96e84_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -3654,6 +3766,11 @@ Gráfico de llamadas de esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_ada99e6f85410dba375f930d65fef9b41_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -3686,9 +3803,9 @@ Gráfico de llamadas de esta función:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Gráfico de llamadas a esta función:</div>
+Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a9e9d1bf63c5c0e2c1eee6a30dc2dc83d_icgraph.svg" width="564" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a9e9d1bf63c5c0e2c1eee6a30dc2dc83d_cgraph.svg" width="316" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -4244,8 +4361,8 @@ Gráfico de llamadas de esta función:</div>
 
 </div>
 </div>
-<a id="a4ca438ae0623d75ff22b4b17dfd3a820" name="a4ca438ae0623d75ff22b4b17dfd3a820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ca438ae0623d75ff22b4b17dfd3a820">&#9670;&#160;</a></span>Text()</h2>
+<a id="a76a49056660c5a9246a94564afbb676a" name="a76a49056660c5a9246a94564afbb676a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a49056660c5a9246a94564afbb676a">&#9670;&#160;</a></span>Text() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4253,7 +4370,12 @@ Gráfico de llamadas de esta función:</div>
         <tr>
           <td class="memname">void GEU::GuiUtilities::Text </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>label_idx</em>, </span></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>useAltColor</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4270,7 +4392,79 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a4ca438ae0623d75ff22b4b17dfd3a820_icgraph.svg" width="891" height="2432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a76a49056660c5a9246a94564afbb676a_icgraph.svg" width="874" height="2650"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="afba074d8a25f0fce6637a7513d59c2f1" name="afba074d8a25f0fce6637a7513d59c2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afba074d8a25f0fce6637a7513d59c2f1">&#9670;&#160;</a></span>Text() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GuiUtilities::Text </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>useAltColor</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>alignToPaddingV</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>wrap</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_afba074d8a25f0fce6637a7513d59c2f1_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a85cf9a357e3d3efdf090870858c95cc9" name="a85cf9a357e3d3efdf090870858c95cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85cf9a357e3d3efdf090870858c95cc9">&#9670;&#160;</a></span>Text() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::GuiUtilities::Text </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>label_idx</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>useAltColor</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>alignToPaddingV</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool &amp;</td>          <td class="paramname"><span class="paramname"><em>wrap</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/namespace_g_e_u_1_1_gui_utilities_a85cf9a357e3d3efdf090870858c95cc9_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
