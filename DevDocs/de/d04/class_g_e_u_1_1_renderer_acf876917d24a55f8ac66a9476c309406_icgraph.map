@@ -1,13 +1,11 @@
 <map id="GEU::Renderer::getAppState" name="GEU::Renderer::getAppState">
-<area shape="rect" id="Node000001" title=" " alt="" coords="580,35,770,61"/>
-<area shape="rect" id="Node000002" href="$da/d03/class_auto_updater.html#ace78c32abf470219b575b901d02caa68" title=" " alt="" coords="356,5,523,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="564,37,523,32,524,26,565,32"/>
-<area shape="rect" id="Node000005" href="$db/d00/class_g_e_u_1_1_details_window.html#addd0dc775ee807e26a5936815ad411b8" title=" " alt="" coords="347,56,532,99"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="565,64,533,68,532,63,564,59"/>
-<area shape="rect" id="Node000003" href="$da/d03/class_auto_updater.html#addbef684fb89817493a5bbc81c8ef36a" title=" " alt="" coords="103,5,299,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,21,299,21,299,16,341,16"/>
-<area shape="rect" id="Node000004" href="$df/d02/main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
-<area shape="rect" id="Node000006" href="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="129,56,273,99"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="331,80,273,80,273,75,331,75"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="441,35,630,61"/>
+<area shape="rect" id="Node000002" href="$da/d03/class_auto_updater.html#addbef684fb89817493a5bbc81c8ef36a" title="Check for updates in the NAS server." alt="" coords="197,5,393,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,37,393,33,394,28,426,32"/>
+<area shape="rect" id="Node000004" href="$db/d00/class_g_e_u_1_1_details_window.html#addd0dc775ee807e26a5936815ad411b8" title=" " alt="" coords="202,56,388,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="426,64,388,69,388,63,425,59"/>
+<area shape="rect" id="Node000003" href="$df/d02/main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="52,5,102,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,21,102,21,102,16,181,16"/>
+<area shape="rect" id="Node000005" href="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,56,149,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="186,80,149,80,149,75,186,75"/>
 </map>

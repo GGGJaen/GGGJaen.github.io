@@ -116,6 +116,7 @@ Métodos públicos</h2></td></tr>
 <tr class="memitem:aaae020aa50e70c0ba9583d36514e4bb6" id="r_aaae020aa50e70c0ba9583d36514e4bb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae020aa50e70c0ba9583d36514e4bb6">setCurrentVersion</a> (const std::string &amp;<a class="el" href="../../df/d02/main_8cpp.html#af1d08f0ffe4249dcec4b475b2a0d8b9f">version</a>)</td></tr>
 <tr class="separator:aaae020aa50e70c0ba9583d36514e4bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addbef684fb89817493a5bbc81c8ef36a" id="r_addbef684fb89817493a5bbc81c8ef36a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addbef684fb89817493a5bbc81c8ef36a">checkForUpdate</a> () const</td></tr>
+<tr class="memdesc:addbef684fb89817493a5bbc81c8ef36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for updates in the NAS server.  <br /></td></tr>
 <tr class="separator:addbef684fb89817493a5bbc81c8ef36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_g_e_u_1_1_singleton"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_g_e_u_1_1_singleton')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos heredados de <a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html">GEU::Singleton&lt; AutoUpdater &gt;</a></td></tr>
 <tr class="memitem:a89521801c0670dab18835ee80c266e31 inherit pub_methods_class_g_e_u_1_1_singleton" id="r_a89521801c0670dab18835ee80c266e31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a89521801c0670dab18835ee80c266e31">Singleton</a> (const <a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html">Singleton</a> &amp;)=delete</td></tr>
@@ -127,8 +128,9 @@ Métodos públicos</h2></td></tr>
 Métodos privados</h2></td></tr>
 <tr class="memitem:aecadfd2da8c4b72943bc319cfb4541d4" id="r_aecadfd2da8c4b72943bc319cfb4541d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecadfd2da8c4b72943bc319cfb4541d4">AutoUpdater</a> ()=default</td></tr>
 <tr class="separator:aecadfd2da8c4b72943bc319cfb4541d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace78c32abf470219b575b901d02caa68" id="r_ace78c32abf470219b575b901d02caa68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace78c32abf470219b575b901d02caa68">autoUpdate</a> (const std::string &amp;newVersion) const</td></tr>
-<tr class="separator:ace78c32abf470219b575b901d02caa68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e4266bfedd43d517ef032ee81b3e26" id="r_aa0e4266bfedd43d517ef032ee81b3e26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e4266bfedd43d517ef032ee81b3e26">autoUpdate</a> (const std::string &amp;newVersion, const std::string &amp;exePath) const</td></tr>
+<tr class="memdesc:aa0e4266bfedd43d517ef032ee81b3e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download the new version and replace the current executable.  <br /></td></tr>
+<tr class="separator:aa0e4266bfedd43d517ef032ee81b3e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Atributos privados</h2></td></tr>
@@ -136,7 +138,7 @@ Atributos privados</h2></td></tr>
 <tr class="separator:a26d5b30d500eb285876eb47bdb67b274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6da91fd6dfb04b91752808096bda18" id="r_a9b6da91fd6dfb04b91752808096bda18"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b6da91fd6dfb04b91752808096bda18">_currentVersion</a></td></tr>
 <tr class="separator:a9b6da91fd6dfb04b91752808096bda18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a069f0f2bf7209869fe89298826931b2a" id="r_a069f0f2bf7209869fe89298826931b2a"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069f0f2bf7209869fe89298826931b2a">_patchFileRemotePath</a> =&quot;GEU/patch.txt&quot;</td></tr>
+<tr class="memitem:a069f0f2bf7209869fe89298826931b2a" id="r_a069f0f2bf7209869fe89298826931b2a"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069f0f2bf7209869fe89298826931b2a">_patchFileRemotePath</a> =&quot;GEU/PatchFileV2.txt&quot;</td></tr>
 <tr class="separator:a069f0f2bf7209869fe89298826931b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3edce71fa584cd5636519817e0d1caf3" id="r_a3edce71fa584cd5636519817e0d1caf3"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3edce71fa584cd5636519817e0d1caf3">_GEURemotePath</a> = &quot;GEU/GEU&quot;</td></tr>
 <tr class="separator:a3edce71fa584cd5636519817e0d1caf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,8 +184,8 @@ Otros miembros heredados</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="ace78c32abf470219b575b901d02caa68" name="ace78c32abf470219b575b901d02caa68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace78c32abf470219b575b901d02caa68">&#9670;&#160;</a></span>autoUpdate()</h2>
+<a id="aa0e4266bfedd43d517ef032ee81b3e26" name="aa0e4266bfedd43d517ef032ee81b3e26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e4266bfedd43d517ef032ee81b3e26">&#9670;&#160;</a></span>autoUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,8 +196,12 @@ Otros miembros heredados</h2></td></tr>
         <tr>
           <td class="memname">void AutoUpdater::autoUpdate </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>newVersion</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>newVersion</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>exePath</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -204,15 +210,24 @@ Otros miembros heredados</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Download the new version and replace the current executable. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newVersion</td><td>The new version to download </td></tr>
+    <tr><td class="paramname">exePath</td><td>The path to the executable </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/class_auto_updater_ace78c32abf470219b575b901d02caa68_cgraph.svg" width="424" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/class_auto_updater_aa0e4266bfedd43d517ef032ee81b3e26_cgraph.svg" width="424" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/class_auto_updater_ace78c32abf470219b575b901d02caa68_icgraph.svg" width="520" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/class_auto_updater_aa0e4266bfedd43d517ef032ee81b3e26_icgraph.svg" width="520" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -231,10 +246,12 @@ Gráfico de llamadas a esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check for updates in the NAS server. </p>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/class_auto_updater_addbef684fb89817493a5bbc81c8ef36a_cgraph.svg" width="714" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d03/class_auto_updater_addbef684fb89817493a5bbc81c8ef36a_cgraph.svg" width="714" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
@@ -321,7 +338,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string AutoUpdater::_patchFileRemotePath =&quot;GEU/patch.txt&quot;</td>
+          <td class="memname">const std::string AutoUpdater::_patchFileRemotePath =&quot;GEU/PatchFileV2.txt&quot;</td>
         </tr>
       </table>
   </td>

@@ -135,7 +135,7 @@ Los <em>unit tests</em> son tus amigos</h2>
 <p>Si somos capaces de mantener una serie de <em>Unit tests</em> que prueben cada funcionalidad de manera automática, la estabilidad y resilencia del programa aumentará significativamente.</p>
 <h2><a class="anchor" id="evita-el-uso-de-stdcout-a-favor-del-logger"></a>
 Evita el uso de <em>std::cout</em> a favor del <em>logger</em></h2>
-<p>    GEU se distribuye como una aplicación de ventana. Esto quiere decir que la versión del instalador no tiene acceso a la consola. Por tanto, cualquier cosa que sea interesante tener en caso de que algún usuario detecte un fallo en <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> debería escribirse con el <a class="el" href="../../d3/d02/_uso_01del_01_logger_8md.html"><em>logger</em></a>.</p>
+<p>    GEU se distribuye como una aplicación de ventana. Esto quiere decir que la versión del instalador no tiene acceso a la consola. Por tanto, cualquier cosa que sea interesante tener en caso de que algún usuario detecte un fallo en <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> debería escribirse con el <a class="el" href="../../d3/d00/md__d_1_2_g_e_u_2_docs_2_uso_01del_01_logger.html"><em>logger</em></a>.</p>
 <h2><a class="anchor" id="manten-los-cambios-experimentales-aislados-hasta-que-sean-estables"></a>
 Manten los cambios experimentales aislados hasta que sean estables</h2>
 <p>    Por ejemplo, un nuevo módulo o cambios en el core deberán permanecer en su rama hasta que se garantice que sean estables y que, en el caso de ser una sustitución, no "rompa" ninguna de las funcionalidades previas de la aplicación. Además, antes de hacer merge a <em>develop</em> se deberá hacer un merge de <em>develop</em> a la rama con la que estemos trabajando, donde se solucionarán posibles conflictos y se comprobará que todo funciona. Una vez hecho esto, se podrá fusionar con <em>develop</em>.</p>
@@ -150,10 +150,10 @@ Reporta los bugs que encuentres</h2>
 Para mejorar el rendimiento</h1>
 <h2><a class="anchor" id="el-profiler-es-tu-mejor-arma"></a>
 El <em>Profiler</em> es tu mejor arma</h2>
-<p>La mejor manera de mejorar el rendimiento de algo que va lento es ver porqué va lento. Para esto, el <em><a href="https://learn.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2022">profiler</a></em> te viene perfecto.</p>
+<p>La mejor manera de mejorar el rendimiento de algo que va lento es ver porqué va lento. Para esto, el <em><a href="https://learn.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2022">profiler</a></em> viene perfecto.</p>
 <h2><a class="anchor" id="piensa-en-una-arquitectura-que-no-sea-un-obstaculo"></a>
 Piensa en una arquitectura que no sea un obstaculo</h2>
-<p>Hay veces que las cosas van lentas porque están mal diseñadas. Si ves que algo va lento porque, por como está montado todo, te obliga a hacer un bucle anidado en vez de un bucle simple, cambialo. Seguramente eso te proporcione más mejora que cualquier otra alternativa. Lo mismo se aplica a las estructuras de datos.</p>
+<p>Hay veces que las cosas van lentas porque están mal diseñadas. Si ves que algo va lento porque, por como está montado todo, obliga a hacer un bucle anidado en vez de un bucle simple, cambialo. Seguramente eso proporcione más mejora que cualquier otra alternativa. Lo mismo se aplica a las estructuras de datos.</p>
 <p>El <em>Data Oriented Design</em> es un paradigma que facilita crear arquitecturas con excelente rendimiento. Lecturas recomendadas en este tema:</p>
 <ul>
 <li><a href="https://code.tutsplus.com/what-is-data-oriented-game-engine-design--cms-21052a">What is Data-Oriented Game Engine Design? | Envato Tuts+</a></li>
@@ -164,7 +164,7 @@ Usa OpenMP</h2>
 <p>Por lo general permite paralelizar los bucles de manera bastante sencilla. No obstante, hay que tener cuidado, pues empezamos con los problemas inherentes a la concurrencia/paralelización. Si estás escribiendo EEDDs de STL, ni lo intentes.</p>
 <h2><a class="anchor" id="si-nada-más-funciona"></a>
 Si nada más funciona</h2>
-<p>Existen alternativas que permitirán exprimir más el hardware, pero ya te aviso que seguramente no quieras entrar aquí. Aún así, si te atreves o te da curiosidad, aquí tienes una lista de terminos por donde empezar:</p>
+<p>Existen alternativas que permitirán exprimir más el hardware, pero ya aviso que seguramente no quieras entrar aquí. Aún así, si te atreves o te da curiosidad, aquí tienes una lista de terminos por donde empezar:</p>
 <ul>
 <li>SIMD: Buscalo como concepto y si quieres usarlo, utiliza <a href="https://github.com/xtensor-stack/xsimd">xSIMD</a>.</li>
 <li>CUDA: Seguro que te suena, pero ahí está.</li>
@@ -176,14 +176,14 @@ Si nada más funciona</h2>
 Para mantener los tiempos de compilación controlados</h1>
 <h2><a class="anchor" id="usa-forward-declaration-cuando-sea-posible"></a>
 Usa <em>forward declaration</em> cuando sea posible</h2>
-<p>El diseño de C++ hace que sea demasiado fácil arrastrar dependencias cuando se incluyen <em>Headers</em> si este incluye otros a su vez. Por tanto, es recomendable usar <a href="../../[What are Forward declarations in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/what-are-forward-declarations-in-c/)"><em>forward declaration</em></a> cuando se use cualquier clase en el fichero cabecera. La extensión de Jetbrains, <a href="../../[ReSharper C++: La extensión de Visual Studio para el desarrollo en C++](https://www.jetbrains.com/es-es/resharper-cpp/)">Resharper C++</a>, viene bastante bien para esto (aunque sea de pago, es gratuito para cuenta de estudiantes, que casualidad que tengamos alguna...).</p>
+<p>El diseño de C++ hace que sea demasiado fácil arrastrar dependencias cuando se incluyen <em>Headers</em> si este incluye otros a su vez. Por tanto, es recomendable usar <a href="../../[What are Forward declarations in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/what-are-forward-declarations-in-c/)"><em>forward declaration</em></a> cuando se use cualquier clase en el fichero cabecera. La extensión de Jetbrains, <a href="../../[ReSharper C++: La extensión de Visual Studio para el desarrollo en C++](https://www.jetbrains.com/es-es/resharper-cpp/)">Resharper C++</a>, viene muy bien para esto (aunque sea de pago, es gratuito para cuenta de estudiantes, que casualidad que tengamos alguna...).</p>
 <p>Quizás algún dia <a href="https://medium.com/@nerudaj/getting-started-with-c-modules-9a2495741ea9">los módulos de C++</a> sean usables...</p>
 <h2><a class="anchor" id="evita-incluir-librerías-de-stl-en-los-headers"></a>
 Evita incluir librerías de STL en los headers</h2>
 <p>Va en relación con el anterior. Si es posible, se debe evitar incluir STL en los headers, ya que son librerías excesivamente pesadas que pueden aumentar bastante el tiempo de compilación si se usan sin control.</p>
 <h2><a class="anchor" id="usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header"></a>
 Usa los <a href="https://en.wikipedia.org/wiki/Precompiled_header">Precompiled Headers</a></h2>
-<p>Pese a que están incluidos en todas las partes del proyecto, en el caso de los módulos, al ser autocontenidos, deben de rellenarse. Los PCH solo se deben de incluir en los ficheros fuente (.cpp) y deben de contener aquellas cabeceras (.h) que se utilicen en multiples ficheros fuente. Por ejemplo, un candidato bastante frecuente suele ser <em><a class="el" href="../../dc/d05/_point_cloud_8h.html">PointCloud.h</a></em>, pues es fácil tener que incluirlo en varias partes de los ficheros fuente.</p>
+<p>Pese a que están incluidos en todas las partes del proyecto, en el caso de los módulos, al ser autocontenidos, deben de rellenarse. Los PCH solo se deben de incluir en los ficheros fuente (.cpp) y deben de contener aquellas cabeceras (.h) que se utilicen en multiples ficheros fuente. Por ejemplo, un candidato frecuente suele ser <em><a class="el" href="../../dc/d05/_point_cloud_8h.html">PointCloud.h</a></em>, pues es fácil tener que incluirlo en varias partes de los ficheros fuente.</p>
 <blockquote class="doxtable">
 <p>&zwj;Solo debe incluirse si dicha cabecera no se incluye en las otras cabeceras del mismo módulo. Si se incluye, es posible que incluirlo en el pch perjudique más que mejore. Ver <a href="https://www.reddit.com/r/cpp_questions/comments/11d7yvm/what_sort_of_headers_are_good_candidates_to_be/">What sort of headers are good candidates to be pre-compiled?</a> </p>
 </blockquote>

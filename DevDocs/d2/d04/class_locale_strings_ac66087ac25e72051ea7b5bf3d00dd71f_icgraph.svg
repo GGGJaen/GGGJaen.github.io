@@ -944,7 +944,7 @@
 <!-- Node29 -->
 <g id="Node000029" class="node">
 <title>Node29</title>
-<g id="a_Node000029"><a xlink:href="../../da/d03/class_auto_updater.html#addbef684fb89817493a5bbc81c8ef36a" target="_top" xlink:title=" ">
+<g id="a_Node000029"><a xlink:href="../../da/d03/class_auto_updater.html#addbef684fb89817493a5bbc81c8ef36a" target="_top" xlink:title="Check for updates in the NAS server.">
 <polygon fill="#fff0f0" stroke="red" points="281.38,-802 134.12,-802 134.12,-782 281.38,-782 281.38,-802"/>
 <text text-anchor="middle" x="207.75" y="-788.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoUpdater::checkForUpdate</text>
 </a>

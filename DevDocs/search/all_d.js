@@ -70,7 +70,7 @@ var searchData=
   ['lockrange_67',['lockRange',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a95cc251e7b48609ccbc82cb4af67acab',1,'GEU::GPUResources']]],
   ['loclabelid_68',['LocLabelId',['../d5/d00/_gui_utilities_8cpp.html#aa78b4e2c7328ffe245809fe73190c3b1',1,'GuiUtilities.cpp']]],
   ['locstring_69',['LocString',['../d5/d00/_gui_utilities_8cpp.html#a58f664861fe04f7c098c364dadbbb3da',1,'GuiUtilities.cpp']]],
-  ['logger_70',['Uso del Logger',['../d8/d01/uso-del-logger.html',1,'']]],
+  ['logger_70',['Uso del Logger',['../d3/d00/md__d_1_2_g_e_u_2_docs_2_uso_01del_01_logger.html',1,'']]],
   ['logger_20em_71',['Evita el uso de &lt;em&gt;std::cout&lt;/em&gt; a favor del &lt;em&gt;logger&lt;/em&gt;',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#evita-el-uso-de-stdcout-a-favor-del-logger',1,'']]],
   ['login_72',['logIn',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6',1,'GEU::NASSession']]],
   ['login_5fdelay_73',['LOGIN_DELAY',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a780bb8be7fcb5685b34fb02859f9ff66',1,'GEU::NASSession']]],
