@@ -1,0 +1,13 @@
+<map id="GEU::PointCloud::pickPointsArea" name="GEU::PointCloud::pickPointsArea">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,222,165"/>
+<area shape="rect" id="Node000002" href="$d0/d01/namespace_g_e_u_1_1_operators2_d.html#a831379f52f30464a7858df166cf74e42" title=" " alt="" coords="270,5,493,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,136,192,98,269,58,284,51,286,56,271,62,195,102,136,140"/>
+<area shape="rect" id="Node000003" href="$d0/d01/namespace_g_e_u_1_1_operators2_d.html#aaf3dacd9dfcce47766ba3ce825b01625" title="Checks if given point is inside given rectangle." alt="" coords="280,72,483,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,135,266,116,267,121,179,141"/>
+<area shape="rect" id="Node000004" href="$d5/d02/class_g_e_u_1_1_scene.html#a32e6f62d221dd01bac85a6e4201d9418" title=" " alt="" coords="281,139,482,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,149,265,149,265,155,222,155"/>
+<area shape="rect" id="Node000005" href="$de/d04/class_g_e_u_1_1_renderer.html#af5f4307b5eba7c09888765c183a75213" title=" " alt="" coords="296,189,467,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="179,163,282,186,281,191,177,169"/>
+<area shape="rect" id="Node000006" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="294,256,469,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="136,164,195,202,271,242,286,248,284,253,269,246,192,206,133,168"/>
+</map>

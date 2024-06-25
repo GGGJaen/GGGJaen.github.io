@@ -1398,5 +1398,6 @@ var searchData=
   ['imgui_5fdefine_5fmath_5foperators_1395',['IMGUI_DEFINE_MATH_OPERATORS',['../de/d04/_g_e_u_app_pch_8h.html#adf4d73301961430d50d7edd96f92ce38',1,'IMGUI_DEFINE_MATH_OPERATORS:&#160;GEUAppPch.h'],['../d4/d06/_g_e_u_core_pch_8h.html#adf4d73301961430d50d7edd96f92ce38',1,'IMGUI_DEFINE_MATH_OPERATORS:&#160;GEUCorePch.h'],['../db/d06/_hyper_g_u_i_adapter_8h.html#adf4d73301961430d50d7edd96f92ce38',1,'IMGUI_DEFINE_MATH_OPERATORS:&#160;HyperGUIAdapter.h'],['../db/d01/_tree_segmentation_g_u_i_adapter_8h.html#adf4d73301961430d50d7edd96f92ce38',1,'IMGUI_DEFINE_MATH_OPERATORS:&#160;TreeSegmentationGUIAdapter.h']]],
   ['imgui_5fimpl_5fopengl_5floader_5fcustom_1396',['IMGUI_IMPL_OPENGL_LOADER_CUSTOM',['../de/d04/_g_e_u_app_pch_8h.html#a317207eebea33113219bf988a74ca38e',1,'IMGUI_IMPL_OPENGL_LOADER_CUSTOM:&#160;GEUAppPch.h'],['../d4/d06/_g_e_u_core_pch_8h.html#a317207eebea33113219bf988a74ca38e',1,'IMGUI_IMPL_OPENGL_LOADER_CUSTOM:&#160;GEUCorePch.h']]],
   ['imguifiledialog_5fversion_1397',['IMGUIFILEDIALOG_VERSION',['../de/d03/_im_gui_file_dialog_8h.html#ae58593ce908a16556cdbafc5415f5d2c',1,'ImGuiFileDialog.h']]],
-  ['is_5fdigit_1398',['IS_DIGIT',['../dd/d05/json_8cpp.html#aec8f9b5bb0c07ba981baefacd365002e',1,'json.cpp']]]
+  ['is_5fdigit_1398',['IS_DIGIT',['../dd/d05/json_8cpp.html#aec8f9b5bb0c07ba981baefacd365002e',1,'json.cpp']]],
+  ['itemseparation_1399',['ItemSeparation',['../d5/d00/_gui_utilities_8cpp.html#a17f26ffb49670d1a02a9933866485b04',1,'GuiUtilities.cpp']]]
 ];

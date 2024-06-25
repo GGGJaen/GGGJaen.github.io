@@ -14,7 +14,8 @@ var searchData=
   ['tipos_11',['TIPOS',['../d4/d04/struct_database_1_1_dato.html#a0fc00c41ed8e3973a00f77aaa4c46805',1,'Database::Dato::TIPOS'],['../d7/d05/struct_database_1_1_objeto.html#aee3db944477a0a07adeb36c42193957a',1,'Database::Objeto::TIPOS']]],
   ['tipos_5fformatos_12',['TIPOS_FORMATOS',['../d4/d04/struct_database_1_1_dato.html#a312ed82be6806844fa434fab5adb30f6',1,'Database::Dato']]],
   ['title_13',['title',['../d8/d04/class_im_gui_toast.html#abaf64dc0269dba1025c1421b2e68c5bc',1,'ImGuiToast']]],
-  ['totalusedmemory_14',['totalUsedMemory',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a3eddd63a67c8782ef562095613e1e3e4',1,'GEU::GPUResources']]],
-  ['trackedmodel_15',['trackedModel',['../dd/d04/class_g_e_u_1_1_camera.html#af202672423a43240fab6057cdbae62c1',1,'GEU::Camera']]],
-  ['type_16',['type',['../d8/d04/class_im_gui_toast.html#a94cb91df679248308746dde31f7aee0e',1,'ImGuiToast::type'],['../df/d07/structjson_1_1parsing_1_1parse__results.html#a4d6ae81fc41392813f64202785ff3a20',1,'json::parsing::parse_results::type']]]
+  ['todo_5fchar_14',['todo_char',['../d1/d06/class_progress_bar.html#a7e57835b96d50c66c6d544d8157e47dd',1,'ProgressBar']]],
+  ['totalusedmemory_15',['totalUsedMemory',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a3eddd63a67c8782ef562095613e1e3e4',1,'GEU::GPUResources']]],
+  ['trackedmodel_16',['trackedModel',['../dd/d04/class_g_e_u_1_1_camera.html#af202672423a43240fab6057cdbae62c1',1,'GEU::Camera']]],
+  ['type_17',['type',['../d8/d04/class_im_gui_toast.html#a94cb91df679248308746dde31f7aee0e',1,'ImGuiToast::type'],['../df/d07/structjson_1_1parsing_1_1parse__results.html#a4d6ae81fc41392813f64202785ff3a20',1,'json::parsing::parse_results::type']]]
 ];

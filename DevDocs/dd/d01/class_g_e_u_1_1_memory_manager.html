@@ -96,7 +96,9 @@ $(function(){initNavTree('dd/d01/class_g_e_u_1_1_memory_manager.html','../../');
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
 <a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
 <a href="#pri-static-attribs">Atributos estáticos privados</a> &#124;
 <a href="../../d6/d00/class_g_e_u_1_1_memory_manager-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle"><div class="title">Referencia de la clase GEU::MemoryManager</div></div>
@@ -105,6 +107,11 @@ $(function(){initNavTree('dd/d01/class_g_e_u_1_1_memory_manager.html','../../');
 
 <p><code>#include &lt;<a class="el" href="../../d5/d07/_memory_manager_8h_source.html">MemoryManager.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/struct_g_e_u_1_1_memory_manager_1_1_load_meshlet_task.html">LoadMeshletTask</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Métodos públicos estáticos</h2></td></tr>
 <tr class="memitem:a0dd0a497b52354417492d92872583169" id="r_a0dd0a497b52354417492d92872583169"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dd0a497b52354417492d92872583169">updateCurrentRamUsage</a> ()</td></tr>
@@ -117,19 +124,36 @@ Métodos públicos estáticos</h2></td></tr>
 <tr class="separator:a737931154a7d65a38cb69fd591958318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae084a9f9c1ddfcc7c9a3919c6018941e" id="r_ae084a9f9c1ddfcc7c9a3919c6018941e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae084a9f9c1ddfcc7c9a3919c6018941e">mustFreeMemory</a> ()</td></tr>
 <tr class="separator:ae084a9f9c1ddfcc7c9a3919c6018941e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02383aff23870e1b7c15068a4f77f0d6" id="r_a02383aff23870e1b7c15068a4f77f0d6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02383aff23870e1b7c15068a4f77f0d6">generateLoadTask</a> (<a class="el" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">PointCloud</a> *pc)</td></tr>
+<tr class="separator:a02383aff23870e1b7c15068a4f77f0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06552163609004fa3278317722061829" id="r_a06552163609004fa3278317722061829"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06552163609004fa3278317722061829">spawnLoadThreads</a> ()</td></tr>
+<tr class="separator:a06552163609004fa3278317722061829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed8b3a5df08d88f92275cdb43086d89" id="r_aeed8b3a5df08d88f92275cdb43086d89"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeed8b3a5df08d88f92275cdb43086d89">shutdownLoadThreads</a> ()</td></tr>
+<tr class="separator:aeed8b3a5df08d88f92275cdb43086d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a8a992ef5af4a235fcc3653531ce72807" id="r_a8a992ef5af4a235fcc3653531ce72807"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a992ef5af4a235fcc3653531ce72807">_numThreads</a> = 8</td></tr>
+<tr class="separator:a8a992ef5af4a235fcc3653531ce72807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Atributos estáticos privados</h2></td></tr>
-<tr class="memitem:a3d28d6fa8fbfb20db613d22394ee19a8" id="r_a3d28d6fa8fbfb20db613d22394ee19a8"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d28d6fa8fbfb20db613d22394ee19a8">_limit</a> = 0.7f</td></tr>
+<tr class="memitem:ae8b1bd9a9bfb665762a97dafcc78b672" id="r_ae8b1bd9a9bfb665762a97dafcc78b672"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8b1bd9a9bfb665762a97dafcc78b672">keepRunning</a> = false</td></tr>
+<tr class="separator:ae8b1bd9a9bfb665762a97dafcc78b672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d28d6fa8fbfb20db613d22394ee19a8" id="r_a3d28d6fa8fbfb20db613d22394ee19a8"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d28d6fa8fbfb20db613d22394ee19a8">_limit</a> = 0.85f</td></tr>
 <tr class="separator:a3d28d6fa8fbfb20db613d22394ee19a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8ce6341276fc7e9ed4f50dbe893c76f" id="r_ad8ce6341276fc7e9ed4f50dbe893c76f"><td class="memItemLeft" align="right" valign="top">static unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ce6341276fc7e9ed4f50dbe893c76f">_currentRamUsage</a> = 0</td></tr>
-<tr class="separator:ad8ce6341276fc7e9ed4f50dbe893c76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac044ea8a08411787e1565163c6ba98c8" id="r_ac044ea8a08411787e1565163c6ba98c8"><td class="memItemLeft" align="right" valign="top">static unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac044ea8a08411787e1565163c6ba98c8">_maxRam</a> = 0</td></tr>
-<tr class="separator:ac044ea8a08411787e1565163c6ba98c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14aad1c2d93486d49a2bb4b7cfc1076d" id="r_a14aad1c2d93486d49a2bb4b7cfc1076d"><td class="memItemLeft" align="right" valign="top">static unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14aad1c2d93486d49a2bb4b7cfc1076d">_currentVramUsage</a> = 0</td></tr>
-<tr class="separator:a14aad1c2d93486d49a2bb4b7cfc1076d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a276f3ebcca50921c1edefadb7583354f" id="r_a276f3ebcca50921c1edefadb7583354f"><td class="memItemLeft" align="right" valign="top">static unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a276f3ebcca50921c1edefadb7583354f">_maxVram</a> = 0</td></tr>
-<tr class="separator:a276f3ebcca50921c1edefadb7583354f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1caaff930cf2b7cb95b8cf68a19f7442" id="r_a1caaff930cf2b7cb95b8cf68a19f7442"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1caaff930cf2b7cb95b8cf68a19f7442">_currentRamUsage</a> = 0</td></tr>
+<tr class="separator:a1caaff930cf2b7cb95b8cf68a19f7442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5191bf400090f46001bb9c691d249c2" id="r_ad5191bf400090f46001bb9c691d249c2"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5191bf400090f46001bb9c691d249c2">_maxRam</a> = 0</td></tr>
+<tr class="separator:ad5191bf400090f46001bb9c691d249c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b53c6a14783d9ee786e93c49475a3d5" id="r_a3b53c6a14783d9ee786e93c49475a3d5"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b53c6a14783d9ee786e93c49475a3d5">_currentVramUsage</a> = 0</td></tr>
+<tr class="separator:a3b53c6a14783d9ee786e93c49475a3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffc8fef700978b1d47be2e079d71dda" id="r_aeffc8fef700978b1d47be2e079d71dda"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeffc8fef700978b1d47be2e079d71dda">_maxVram</a> = 0</td></tr>
+<tr class="separator:aeffc8fef700978b1d47be2e079d71dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a137af9b4e568b754c7509b0371bd96dd" id="r_a137af9b4e568b754c7509b0371bd96dd"><td class="memItemLeft" align="right" valign="top">static moodycamel::ConcurrentQueue&lt; <a class="el" href="../../d8/d06/struct_g_e_u_1_1_memory_manager_1_1_load_meshlet_task.html">LoadMeshletTask</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a137af9b4e568b754c7509b0371bd96dd">_loadTasks</a></td></tr>
+<tr class="separator:a137af9b4e568b754c7509b0371bd96dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100a8e9d479a7d9b74fdec4c92db5583" id="r_a100a8e9d479a7d9b74fdec4c92db5583"><td class="memItemLeft" align="right" valign="top">static std::array&lt; std::thread, <a class="el" href="#a8a992ef5af4a235fcc3653531ce72807">_numThreads</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a100a8e9d479a7d9b74fdec4c92db5583">_loadThreads</a></td></tr>
+<tr class="separator:a100a8e9d479a7d9b74fdec4c92db5583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
 <a id="ad81cc3ae2f758896a7e7ac206a204553" name="ad81cc3ae2f758896a7e7ac206a204553"></a>
@@ -198,6 +222,36 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
+<a id="a02383aff23870e1b7c15068a4f77f0d6" name="a02383aff23870e1b7c15068a4f77f0d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02383aff23870e1b7c15068a4f77f0d6">&#9670;&#160;</a></span>generateLoadTask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::MemoryManager::generateLoadTask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pc</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d01/class_g_e_u_1_1_memory_manager_a02383aff23870e1b7c15068a4f77f0d6_icgraph.svg" width="464" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ae084a9f9c1ddfcc7c9a3919c6018941e" name="ae084a9f9c1ddfcc7c9a3919c6018941e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae084a9f9c1ddfcc7c9a3919c6018941e">&#9670;&#160;</a></span>mustFreeMemory()</h2>
 
@@ -220,6 +274,66 @@ Gráfico de llamadas a esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeed8b3a5df08d88f92275cdb43086d89" name="aeed8b3a5df08d88f92275cdb43086d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeed8b3a5df08d88f92275cdb43086d89">&#9670;&#160;</a></span>shutdownLoadThreads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::MemoryManager::shutdownLoadThreads </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d01/class_g_e_u_1_1_memory_manager_aeed8b3a5df08d88f92275cdb43086d89_icgraph.svg" width="388" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a06552163609004fa3278317722061829" name="a06552163609004fa3278317722061829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06552163609004fa3278317722061829">&#9670;&#160;</a></span>spawnLoadThreads()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::MemoryManager::spawnLoadThreads </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d01/class_g_e_u_1_1_memory_manager_a06552163609004fa3278317722061829_icgraph.svg" width="263" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -254,8 +368,8 @@ Gráfico de llamadas a esta función:</div>
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="ad8ce6341276fc7e9ed4f50dbe893c76f" name="ad8ce6341276fc7e9ed4f50dbe893c76f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8ce6341276fc7e9ed4f50dbe893c76f">&#9670;&#160;</a></span>_currentRamUsage</h2>
+<a id="a1caaff930cf2b7cb95b8cf68a19f7442" name="a1caaff930cf2b7cb95b8cf68a19f7442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caaff930cf2b7cb95b8cf68a19f7442">&#9670;&#160;</a></span>_currentRamUsage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +378,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long long GEU::MemoryManager::_currentRamUsage = 0</td>
+          <td class="memname">uint64_t GEU::MemoryManager::_currentRamUsage = 0</td>
         </tr>
       </table>
   </td>
@@ -276,8 +390,8 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
-<a id="a14aad1c2d93486d49a2bb4b7cfc1076d" name="a14aad1c2d93486d49a2bb4b7cfc1076d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14aad1c2d93486d49a2bb4b7cfc1076d">&#9670;&#160;</a></span>_currentVramUsage</h2>
+<a id="a3b53c6a14783d9ee786e93c49475a3d5" name="a3b53c6a14783d9ee786e93c49475a3d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b53c6a14783d9ee786e93c49475a3d5">&#9670;&#160;</a></span>_currentVramUsage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +400,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long long GEU::MemoryManager::_currentVramUsage = 0</td>
+          <td class="memname">uint64_t GEU::MemoryManager::_currentVramUsage = 0</td>
         </tr>
       </table>
   </td>
@@ -308,7 +422,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float GEU::MemoryManager::_limit = 0.7f</td>
+          <td class="memname">constexpr float GEU::MemoryManager::_limit = 0.85f</td>
         </tr>
       </table>
   </td>
@@ -320,8 +434,8 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
-<a id="ac044ea8a08411787e1565163c6ba98c8" name="ac044ea8a08411787e1565163c6ba98c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac044ea8a08411787e1565163c6ba98c8">&#9670;&#160;</a></span>_maxRam</h2>
+<a id="a137af9b4e568b754c7509b0371bd96dd" name="a137af9b4e568b754c7509b0371bd96dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a137af9b4e568b754c7509b0371bd96dd">&#9670;&#160;</a></span>_loadTasks</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,7 +444,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long long GEU::MemoryManager::_maxRam = 0</td>
+          <td class="memname">moodycamel::ConcurrentQueue&lt;<a class="el" href="../../d8/d06/struct_g_e_u_1_1_memory_manager_1_1_load_meshlet_task.html">LoadMeshletTask</a>&gt; GEU::MemoryManager::_loadTasks</td>
         </tr>
       </table>
   </td>
@@ -342,8 +456,8 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
-<a id="a276f3ebcca50921c1edefadb7583354f" name="a276f3ebcca50921c1edefadb7583354f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a276f3ebcca50921c1edefadb7583354f">&#9670;&#160;</a></span>_maxVram</h2>
+<a id="a100a8e9d479a7d9b74fdec4c92db5583" name="a100a8e9d479a7d9b74fdec4c92db5583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a100a8e9d479a7d9b74fdec4c92db5583">&#9670;&#160;</a></span>_loadThreads</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,7 +466,95 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long long GEU::MemoryManager::_maxVram = 0</td>
+          <td class="memname">std::array&lt;std::thread, <a class="el" href="#a8a992ef5af4a235fcc3653531ce72807">_numThreads</a>&gt; GEU::MemoryManager::_loadThreads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5191bf400090f46001bb9c691d249c2" name="ad5191bf400090f46001bb9c691d249c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5191bf400090f46001bb9c691d249c2">&#9670;&#160;</a></span>_maxRam</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t GEU::MemoryManager::_maxRam = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeffc8fef700978b1d47be2e079d71dda" name="aeffc8fef700978b1d47be2e079d71dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeffc8fef700978b1d47be2e079d71dda">&#9670;&#160;</a></span>_maxVram</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t GEU::MemoryManager::_maxVram = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a992ef5af4a235fcc3653531ce72807" name="a8a992ef5af4a235fcc3653531ce72807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a992ef5af4a235fcc3653531ce72807">&#9670;&#160;</a></span>_numThreads</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t GEU::MemoryManager::_numThreads = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8b1bd9a9bfb665762a97dafcc78b672" name="ae8b1bd9a9bfb665762a97dafcc78b672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b1bd9a9bfb665762a97dafcc78b672">&#9670;&#160;</a></span>keepRunning</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::MemoryManager::keepRunning = false</td>
         </tr>
       </table>
   </td>

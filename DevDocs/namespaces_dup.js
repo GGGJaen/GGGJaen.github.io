@@ -29,7 +29,7 @@ var namespaces_dup =
         [ "DIRECTORY", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48", null ],
         [ "ANY", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a8e1bde3c3d303163521522cf1d62f21f", null ]
       ] ],
-      [ "getRegex", "d4/d01/namespace_file_dialog_regex.html#acfb88c6321dcf6bf008dce11582baa15", null ],
+      [ "getRegex", "d4/d01/namespace_file_dialog_regex.html#a7ac54365782112cc42c0a73a480845fe", null ],
       [ "FILEDIALOG_REGEX", "d4/d01/namespace_file_dialog_regex.html#a2427071b5c9ef2e486cb02ad0166546e", null ]
     ] ],
     [ "FileManagement", "d2/d05/namespace_file_management.html", [
@@ -40,7 +40,7 @@ var namespaces_dup =
     ] ],
     [ "GEU", "d0/d01/namespace_g_e_u.html", "d0/d01/namespace_g_e_u" ],
     [ "ImGui", "df/d03/namespace_im_gui.html", [
-      [ "DateChooser", "df/d03/namespace_im_gui.html#aefd878b805c4319701726466e38af25f", null ],
+      [ "DateChooser", "df/d03/namespace_im_gui.html#ab1cfdde853c2682d74a3a3528ac09494", null ],
       [ "DrawGradientBar", "df/d03/namespace_im_gui.html#abfe978df1447fa5bdfa023e53f9aff26", null ],
       [ "DrawGradientMarks", "df/d03/namespace_im_gui.html#aa0d27807ad0fd2ee092de14e2ccba2f7", null ],
       [ "GetCurrentDate", "df/d03/namespace_im_gui.html#a4305042c283d89a8db95b69c245dd4cd", null ],
@@ -49,11 +49,11 @@ var namespaces_dup =
       [ "GradientEditor", "df/d03/namespace_im_gui.html#a3add9205f87d8efffa815d6e8db4864c", null ],
       [ "InsertNotification", "df/d03/namespace_im_gui.html#accd100b531b171ee1a63232f9f5916fc", null ],
       [ "RecalculateDateDependentFields", "df/d03/namespace_im_gui.html#ab5acf061aabc3ecd45051883508c8274", null ],
-      [ "RemoveNotification", "df/d03/namespace_im_gui.html#ab753b79282e23ce81bb5f1181243fe96", null ],
+      [ "RemoveNotification", "df/d03/namespace_im_gui.html#aa04ce2e41fffdab888e8f9a4d1b021a2", null ],
       [ "RenderNotifications", "df/d03/namespace_im_gui.html#a36d5ff63c5b5b8648d3061c4036c7a1b", null ],
       [ "SetDateToday", "df/d03/namespace_im_gui.html#af78d973501106369733558714ffe5251", null ],
       [ "SetDateZero", "df/d03/namespace_im_gui.html#a2e1a8de2257ea0ff78e0d9cb9ce3b156", null ],
-      [ "TestDateChooser", "df/d03/namespace_im_gui.html#a57706e45b4e0b51aa4e1f93795061ce3", null ],
+      [ "TestDateChooser", "df/d03/namespace_im_gui.html#a46434d4ee87edfa265f2dd0f762d54be", null ],
       [ "notifications", "df/d03/namespace_im_gui.html#a4a65bd660399c73487d6dce729f4ad8e", null ]
     ] ],
     [ "json", "d1/d02/namespacejson.html", "d1/d02/namespacejson" ],

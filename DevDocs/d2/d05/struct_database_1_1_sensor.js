@@ -1,6 +1,6 @@
 var struct_database_1_1_sensor =
 [
-    [ "fromQuery", "d2/d05/struct_database_1_1_sensor.html#a7ebe6720bf618743d5ae9196a888e1e0", null ],
+    [ "fromQuery", "d2/d05/struct_database_1_1_sensor.html#a04683965b3f1e0475d8a8f5200fa37ad", null ],
     [ "caracteristicas", "d2/d05/struct_database_1_1_sensor.html#a899c444c177af77f694c9a75f29003c7", null ],
     [ "distFocal", "d2/d05/struct_database_1_1_sensor.html#a36db372f265ba6df4a3e5a92ed4e3da0", null ],
     [ "espectro", "d2/d05/struct_database_1_1_sensor.html#af82431b9280fdcfb52250282d0c672d6", null ],

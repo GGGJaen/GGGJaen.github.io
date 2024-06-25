@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../d4/d04/struct_database_1_1_dato.html#a4db5e25377b69d8034530f936c70ae61" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../d4/d04/struct_database_1_1_dato.html#a0f2988d9391fc8ff97764d5e5883d6a8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="278,-26 143.5,-26 143.5,-6 278,-6 278,-26"/>
 <text text-anchor="middle" x="210.75" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Dato::fromQuery</text>
 </a>

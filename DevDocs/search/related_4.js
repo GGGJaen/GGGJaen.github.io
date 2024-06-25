@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['materiallist_0',['MaterialList',['../d5/d07/class_g_e_u_1_1_material.html#a664e204762f0ede656db90abe8e2608b',1,'GEU::Material']]],
-  ['materialswindow_1',['MaterialsWindow',['../da/d01/class_g_e_u_1_1_inspector_window.html#ad33b6815222d6fdeddc7eb5674b19eb6',1,'GEU::InspectorWindow']]]
+  ['gui_0',['GUI',['../d9/d01/class_g_e_u_1_1_picking_window.html#ac5a3536de371167fdf200e8943f8c2b0',1,'GEU::PickingWindow::GUI'],['../d9/d03/class_g_e_u_1_1_popup_system.html#ac5a3536de371167fdf200e8943f8c2b0',1,'GEU::PopupSystem::GUI']]]
 ];

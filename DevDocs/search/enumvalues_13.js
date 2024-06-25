@@ -1,28 +1,4 @@
 var searchData=
 [
-  ['validation_5fby_5fclass_0',['VALIDATION_BY_CLASS',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a42a51ce9fd3bafdab7ab664f4cc933e4',1,'locale_strings.h']]],
-  ['validation_5fby_5fmean_1',['VALIDATION_BY_MEAN',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a780ba353745c035eecf46b077f3cb8be',1,'locale_strings.h']]],
-  ['validation_5ftabname_2',['VALIDATION_TABNAME',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a45a406139b290af8c8d1e8cc5f5409da',1,'locale_strings.h']]],
-  ['vbo_5fcolor_5frgb_3',['VBO_COLOR_RGB',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a2f2498ed1ea4e85f2e2eb236e8132b08',1,'GEU::VAO']]],
-  ['vbo_5fgr_5fvegetation_5findex_4',['VBO_GR_VEGETATION_INDEX',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a3579112a5d44dcd59a165b70344d9da4',1,'GEU::VAO']]],
-  ['vbo_5fhyperspectral_5',['VBO_HYPERSPECTRAL',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181ab1bab6a2867556b4f00ecf3a5cd60d18',1,'GEU::VAO']]],
-  ['vbo_5flidar_5fintensity_6',['VBO_LIDAR_INTENSITY',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181aa26898013d42795cdfdf9fe7c1f7183f',1,'GEU::VAO']]],
-  ['vbo_5fmultispectral_7',['VBO_MULTISPECTRAL',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181ae8916f72922bc49db29e8562fd7afcfa',1,'GEU::VAO']]],
-  ['vbo_5fnd_5fvegetation_5findex_8',['VBO_ND_VEGETATION_INDEX',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181ac4871ec3eb50fbc175d375f73d2987e1',1,'GEU::VAO']]],
-  ['vbo_5fndre_5fvegetation_5findex_9',['VBO_NDRE_VEGETATION_INDEX',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a0c9c3c26ceeed8a8b617ee7948fe0f29',1,'GEU::VAO']]],
-  ['vbo_5fnormal_10',['VBO_NORMAL',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a655af7b96c6cec4a7e26bbafc7ef0d0c',1,'GEU::VAO']]],
-  ['vbo_5fposition_11',['VBO_POSITION',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a711c30c9f36b71234cd186445ec6622d',1,'GEU::VAO']]],
-  ['vbo_5fr_5fvegetation_5findex_12',['VBO_R_VEGETATION_INDEX',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a3a1de45868a01aa163dd688622ac0bce',1,'GEU::VAO']]],
-  ['vbo_5fscan_5fangle_13',['VBO_SCAN_ANGLE',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a44ed62b073d5ac6305efbe84401463e3',1,'GEU::VAO']]],
-  ['vbo_5ftangent_14',['VBO_TANGENT',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a4b1fb9ac8ddf04315679636b41fac5a4',1,'GEU::VAO']]],
-  ['vbo_5ftext_5fcoord_15',['VBO_TEXT_COORD',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a77547d6c24ea531500b2b6fa4288056a',1,'GEU::VAO']]],
-  ['vbo_5fthermal_16',['VBO_THERMAL',['../de/d03/class_g_e_u_1_1_v_a_o.html#a8cd9b0397d44a374863801574c68a181a26b5afb40dc3e77370cd92b58cf8ced3',1,'GEU::VAO']]],
-  ['vegetacion_17',['VEGETACION',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a28b5c947b9b966ed41e3eaddeb013685aad4c2ce7f4ffba009e4d11d31bc22a0f',1,'GEU::ImageCloudProj']]],
-  ['vegetacion_5fbaja_18',['VEGETACION_BAJA',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a18e2cf9f931834e3d06bfce9b38f9f3aab43edbb0d9188ceb1840b084312779d9',1,'GEU::ImageCloudProj']]],
-  ['vegetation_5fmask_19',['VEGETATION_MASK',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a2f4537f554a58d367e32cc8b285f5241',1,'locale_strings.h']]],
-  ['vertex_5fcolor_5fsource_20',['VERTEX_COLOR_SOURCE',['../de/d03/struct_g_e_u_1_1_shader_enum.html#a55862a2e6e9c52df2287f230f41558d8a2b236c76980b6506f3064bdf772328aa',1,'GEU::ShaderEnum']]],
-  ['vertex_5fshader_21',['VERTEX_SHADER',['../de/d03/struct_g_e_u_1_1_shader_enum.html#a84715d853940680430820b21a4189821acb00deb5276ce45592c0d228e0136d08',1,'GEU::ShaderEnum']]],
-  ['voxelgrid_5fsceneitem_22',['VOXELGRID_SCENEITEM',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ab41b7338658e82c389267db63cd094bf',1,'locale_strings.h']]],
-  ['voxelgrid_5fsceneitem_5fgenerate_23',['VOXELGRID_SCENEITEM_GENERATE',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ac15412c9d2835a979b1555f839176772',1,'locale_strings.h']]],
-  ['vuelos_24',['VUELOS',['../d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbaa94416f50d571021d928b366525de528',1,'GEU::DatabaseQueryPopup']]]
+  ['uploadbuffer_0',['UploadBuffer',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#af292c70b27838641ff231dc60eaa9433a13861f3edc9d247e442033251eacd982',1,'GEU::GPUResources::UploadBuffer'],['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#adafc66f7bd205941a47af8503c084d23a13861f3edc9d247e442033251eacd982',1,'GEU::GPUResources::UploadBuffer']]]
 ];

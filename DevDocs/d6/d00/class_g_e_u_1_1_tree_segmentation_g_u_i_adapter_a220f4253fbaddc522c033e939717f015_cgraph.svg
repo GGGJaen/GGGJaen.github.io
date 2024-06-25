@@ -437,7 +437,7 @@
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="../../d7/d05/struct_database_1_1_objeto.html#a23779e9f38a1d1ed6ff784d1e7969953" target="_top" xlink:title=" ">
+<g id="a_Node000018"><a xlink:href="../../d7/d05/struct_database_1_1_objeto.html#ab2287b23f42be342984274bffb67cd6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="512.62,-124 369.88,-124 369.88,-104 512.62,-104 512.62,-124"/>
 <text text-anchor="middle" x="441.25" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Objeto::fromQuery</text>
 </a>

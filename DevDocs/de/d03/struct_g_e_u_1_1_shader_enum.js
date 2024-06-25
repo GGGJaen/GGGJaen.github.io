@@ -1,5 +1,9 @@
 var struct_g_e_u_1_1_shader_enum =
 [
+    [ "ComputeSubroutines", "de/d03/struct_g_e_u_1_1_shader_enum.html#a8ebe01c4b624b1d4b4f0ef122de6a149", [
+      [ "GET_COLOR", "de/d03/struct_g_e_u_1_1_shader_enum.html#a8ebe01c4b624b1d4b4f0ef122de6a149a58a2f4a12ddd5cbc572f382e1edc98e2", null ],
+      [ "NUM_COMPUTE_SUBROUTINES", "de/d03/struct_g_e_u_1_1_shader_enum.html#a8ebe01c4b624b1d4b4f0ef122de6a149a85ae1634dd88f3ed08b1359a655597b8", null ]
+    ] ],
     [ "FragmentSubroutines", "de/d03/struct_g_e_u_1_1_shader_enum.html#a5c269897394be2cae824570d05bf63c7", [
       [ "LIGHTING", "de/d03/struct_g_e_u_1_1_shader_enum.html#a5c269897394be2cae824570d05bf63c7a249adb549791a26146ec0f36bbec2bf5", null ],
       [ "LIGHT_ATTENUATION", "de/d03/struct_g_e_u_1_1_shader_enum.html#a5c269897394be2cae824570d05bf63c7a6c811af4f84611cb60a85d1c30a44f5a", null ],

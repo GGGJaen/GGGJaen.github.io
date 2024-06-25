@@ -29,6 +29,7 @@ var menudata={children:[
 {text:"Lista de espacios de nombres",url:"namespaces.html"},
 {text:"Miembros del espacio de nombres ",url:"namespacemembers.html",children:[
 {text:"Todos",url:"namespacemembers.html",children:[
+{text:"a",url:"namespacemembers.html#index_a"},
 {text:"b",url:"namespacemembers.html#index_b"},
 {text:"c",url:"namespacemembers.html#index_c"},
 {text:"d",url:"namespacemembers.html#index_d"},
@@ -231,6 +232,7 @@ var menudata={children:[
 {text:"i",url:"globals_func.html#index_i"},
 {text:"m",url:"globals_func.html#index_m"},
 {text:"p",url:"globals_func.html#index_p"},
+{text:"r",url:"globals_func.html#index_r"},
 {text:"s",url:"globals_func.html#index_s"},
 {text:"t",url:"globals_func.html#index_t"}]},
 {text:"Variables",url:"globals_vars.html"},

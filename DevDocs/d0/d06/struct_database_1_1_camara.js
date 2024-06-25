@@ -1,6 +1,6 @@
 var struct_database_1_1_camara =
 [
-    [ "fromQuery", "d0/d06/struct_database_1_1_camara.html#ab311e99750eaca32ef1537ef1e16876a", null ],
+    [ "fromQuery", "d0/d06/struct_database_1_1_camara.html#ad865dbe6475ff76ab9aaadb621932761", null ],
     [ "operator==", "d0/d06/struct_database_1_1_camara.html#a3791c9316157caf403b21b1e019bb00e", null ],
     [ "fabricante", "d0/d06/struct_database_1_1_camara.html#aa46c25765431cd0bfab42348324dd85b", null ],
     [ "idSensor", "d0/d06/struct_database_1_1_camara.html#a7a2e3dfca22b4659c07059cefb711798", null ],

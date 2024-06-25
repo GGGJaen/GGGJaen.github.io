@@ -59,7 +59,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d5/d00/struct_database_1_1_finca.html#a12d9ef226bb2acab7174108a5f7d054c" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d5/d00/struct_database_1_1_finca.html#a8c93de2bbfadf56bffbe41322c24a7fe" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="482.25,-26 344,-26 344,-6 482.25,-6 482.25,-26"/>
 <text text-anchor="middle" x="413.12" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Finca::fromQuery</text>
 </a>

@@ -39,7 +39,7 @@ var _im_gui_notify_8hpp =
       [ "COUNT", "d5/d05/_im_gui_notify_8hpp.html#a4cdcf75a8d07649afb11cce056352533a4905ac9d6a22bdfc1ae096094ce6248d", null ]
     ] ],
     [ "InsertNotification", "d5/d05/_im_gui_notify_8hpp.html#accd100b531b171ee1a63232f9f5916fc", null ],
-    [ "RemoveNotification", "d5/d05/_im_gui_notify_8hpp.html#ab753b79282e23ce81bb5f1181243fe96", null ],
+    [ "RemoveNotification", "d5/d05/_im_gui_notify_8hpp.html#aa04ce2e41fffdab888e8f9a4d1b021a2", null ],
     [ "RenderNotifications", "d5/d05/_im_gui_notify_8hpp.html#a36d5ff63c5b5b8648d3061c4036c7a1b", null ],
     [ "notifications", "d5/d05/_im_gui_notify_8hpp.html#a4a65bd660399c73487d6dce729f4ad8e", null ],
     [ "NOTIFY_DEFAULT_TOAST_FLAGS", "d5/d05/_im_gui_notify_8hpp.html#a60f59ee0c667a3b57dd07aae810cb3e4", null ]

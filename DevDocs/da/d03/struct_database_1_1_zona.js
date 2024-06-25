@@ -1,6 +1,6 @@
 var struct_database_1_1_zona =
 [
-    [ "fromQuery", "da/d03/struct_database_1_1_zona.html#a4300badc9d2aa42bc623c65c79cf6c86", null ],
+    [ "fromQuery", "da/d03/struct_database_1_1_zona.html#a534b6e266ee92254a993010a11b1abba", null ],
     [ "operator==", "da/d03/struct_database_1_1_zona.html#a2cb325c2395c408d56b84c8da91509bb", null ],
     [ "codMunicipio", "da/d03/struct_database_1_1_zona.html#a7ac6381419ea530de5546445c70d9c2a", null ],
     [ "descripcion", "da/d03/struct_database_1_1_zona.html#adb1fc0a7f11e9010e836d1816a49b31a", null ],

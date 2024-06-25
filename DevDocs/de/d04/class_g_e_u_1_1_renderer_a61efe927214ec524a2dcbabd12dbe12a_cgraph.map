@@ -1,0 +1,9 @@
+<map id="GEU::Renderer::generateCompactInfo" name="GEU::Renderer::generateCompactInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,245,107"/>
+<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a83dca7dea682b5ffec3521e20f8926eb" title=" " alt="" coords="293,5,485,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,77,286,50,287,55,182,82"/>
+<area shape="rect" id="Node000003" href="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a1589b3fea56264c818c48d8cac81ec5a" title=" " alt="" coords="305,72,473,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,91,290,91,290,96,245,96"/>
+<area shape="rect" id="Node000004" href="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#ada2e6b86c54fb930ddbeae8e235ef59c" title=" " alt="" coords="311,139,467,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,105,297,134,295,139,180,110"/>
+</map>

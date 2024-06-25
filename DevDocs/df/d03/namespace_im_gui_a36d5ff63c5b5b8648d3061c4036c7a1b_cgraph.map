@@ -22,7 +22,7 @@
 <area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="107,335,156,390,191,421,230,447,247,455,245,460,227,452,188,425,152,393,103,338"/>
 <area shape="rect" id="Node000015" href="$d8/d04/class_im_gui_toast.html#a2b618b6461ad38ac00da87de8d0e2474" title=" " alt="" coords="234,512,426,539"/>
 <area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="103,335,120,369,148,413,185,459,230,498,239,503,236,507,227,502,181,463,144,416,116,371,98,337"/>
-<area shape="rect" id="Node000016" href="$df/d03/namespace_im_gui.html#ab753b79282e23ce81bb5f1181243fe96" title="Removes a notification from the list of notifications." alt="" coords="243,563,417,589"/>
+<area shape="rect" id="Node000016" href="$df/d03/namespace_im_gui.html#aa04ce2e41fffdab888e8f9a4d1b021a2" title="Removes a notification from the list of notifications." alt="" coords="243,563,417,589"/>
 <area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="101,336,115,378,141,436,180,497,203,525,230,549,237,553,234,558,227,553,200,528,175,500,137,438,111,380,96,337"/>
 <area shape="rect" id="Node000017" href="$d8/d04/class_im_gui_toast.html#a7ece0f110aea2c83184196490e93c7d2" title="Set the ImGui window flags for the notification." alt="" coords="234,613,426,640"/>
 <area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="99,336,111,386,135,457,152,496,174,534,200,569,230,599,236,603,233,608,227,603,196,573,169,537,147,498,130,459,106,387,94,337"/>

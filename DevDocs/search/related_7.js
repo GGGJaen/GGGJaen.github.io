@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['scene_0',['Scene',['../dd/d04/class_g_e_u_1_1_camera.html#a032858ae1fe02d2d1170981c2af2d67c',1,'GEU::Camera']]],
-  ['singleton_1',['Singleton',['../d7/d06/class_g_e_u_1_1_shader_manager.html#ac14a8b7cbcbd5a98fc75ac3df176d864',1,'GEU::ShaderManager::Singleton'],['../d1/d01/class_database_connector.html#ac14a8b7cbcbd5a98fc75ac3df176d864',1,'DatabaseConnector::Singleton'],['../d2/d04/class_locale_strings.html#ac14a8b7cbcbd5a98fc75ac3df176d864',1,'LocaleStrings::Singleton']]]
+  ['reconstruccionguiadapter_0',['ReconstruccionGUIAdapter',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a439be7fb34a6fabb453eedbc5770b6f7',1,'GEU::ImageCloudProj::ReconstruccionGUIAdapter'],['../dd/d03/class_g_e_u_1_1_procedural_generator.html#a439be7fb34a6fabb453eedbc5770b6f7',1,'GEU::ProceduralGenerator::ReconstruccionGUIAdapter']]],
+  ['renderer_1',['Renderer',['../db/d04/class_g_e_u_1_1_model3_d.html#a70538530bc36e033e360880ef311df61',1,'GEU::Model3D::Renderer'],['../d4/d07/class_g_e_u_1_1_point_cloud.html#a70538530bc36e033e360880ef311df61',1,'GEU::PointCloud::Renderer']]]
 ];

@@ -1,5 +1,5 @@
 <map id="GEU::Operators2D::checkPointInRect" name="GEU::Operators2D::checkPointInRect">
-<area shape="rect" id="Node000001" title="Checks if given point is inside given rectangle." alt="" coords="233,5,436,48"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a10b08b5ce392cffc57c1eababc48af8c" title=" " alt="" coords="5,13,185,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,29,185,29,185,24,217,24"/>
+<area shape="rect" id="Node000001" title="Checks if given point is inside given rectangle." alt="" coords="270,5,473,48"/>
+<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a8e3aa0296b8395cda7e4feaba6cd211b" title=" " alt="" coords="5,13,222,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,29,222,29,222,24,254,24"/>
 </map>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['data_0',['data',['../d8/d07/classjson_1_1jobject.html#a6ce18fbccc2b45f9eef9b8b420528149',1,'json::jobject::data'],['../d6/d03/classjson_1_1jobject_1_1const__value.html#a8781c61952afa2d80b75d7622698310a',1,'json::jobject::const_value::data']]],
   ['data_5f_1',['data_',['../d2/d03/classunibn_1_1_octree.html#aeca636619184cd7319331a5a89fb2f12',1,'unibn::Octree']]],
-  ['databandsnumber_2',['dataBandsNumber',['../d4/d07/class_g_e_u_1_1_point_cloud.html#a7bdfb3491c67de92b3e9d70440e71b33',1,'GEU::PointCloud']]],
+  ['datasize_2',['dataSize',['../d3/d01/struct_g_e_u_1_1_mapped_memory.html#a5c9c628c3fca6241f03cc66b7e297c74',1,'GEU::MappedMemory']]],
   ['delimiter_3',['DELIMITER',['../da/d01/_thermal_augment_8cpp.html#ae3db6e0dba70d71474807e929837b27a',1,'ThermalAugment.cpp']]],
   ['deltatime_4',['deltaTime',['../d2/d00/struct_g_e_u_1_1_application_state.html#ab04df66e4175b730759204ae27c87348',1,'GEU::ApplicationState']]],
   ['descripcion_5',['descripcion',['../d4/d04/struct_database_1_1_dato.html#acd3718a6682a73a32d6a7f08716fc0ad',1,'Database::Dato::descripcion'],['../da/d03/struct_database_1_1_zona.html#adb1fc0a7f11e9010e836d1816a49b31a',1,'Database::Zona::descripcion']]],
@@ -15,7 +15,9 @@ var searchData=
   ['distintivo_12',['distintivo',['../d4/d04/struct_database_1_1_dato.html#a027e287e73e054264da49c765da13f6f',1,'Database::Dato']]],
   ['distintivos_13',['DISTINTIVOS',['../d4/d04/struct_database_1_1_dato.html#a37ba522ba42c6f686422c3778e4e14c1',1,'Database::Dato']]],
   ['distortion_14',['distortion',['../de/d04/struct_reg.html#a6218b51b5e7e3851803a9bc3ddbef040',1,'Reg']]],
-  ['double_5fformat_15',['DOUBLE_FORMAT',['../dd/d05/json_8cpp.html#a71ecea60e30aead5c4cdc6c67d76f68e',1,'json.cpp']]],
-  ['downloadinprogress_16',['downloadInProgress',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a476f85e7dd076d92b9a297d479ee8fb9',1,'GEU::NASSession']]],
-  ['duracion_17',['duracion',['../dd/d07/struct_database_1_1_vuelo.html#aa9ca309b0e59def251df3fcdad08945c',1,'Database::Vuelo']]]
+  ['do_5fshow_5fbar_15',['do_show_bar',['../d1/d06/class_progress_bar.html#abfb4954fb173ff00215df2444bb39cce',1,'ProgressBar']]],
+  ['done_5fchar_16',['done_char',['../d1/d06/class_progress_bar.html#ac0675fd9e9664f1e81842c4c700c1a69',1,'ProgressBar']]],
+  ['double_5fformat_17',['DOUBLE_FORMAT',['../dd/d05/json_8cpp.html#a71ecea60e30aead5c4cdc6c67d76f68e',1,'json.cpp']]],
+  ['downloadinprogress_18',['downloadInProgress',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a476f85e7dd076d92b9a297d479ee8fb9',1,'GEU::NASSession']]],
+  ['duracion_19',['duracion',['../dd/d07/struct_database_1_1_vuelo.html#aa9ca309b0e59def251df3fcdad08945c',1,'Database::Vuelo']]]
 ];

@@ -1,25 +1,23 @@
 <map id="GEU::GuiUtilities::makeLocSepText" name="GEU::GuiUtilities::makeLocSepText">
-<area shape="rect" id="Node000001" title=" " alt="" coords="283,339,411,381"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="283,305,411,348"/>
 <area shape="rect" id="Node000002" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#adb90287e5ae55991c17a08e912aff67c" title=" " alt="" coords="28,5,212,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,323,331,266,312,195,298,159,280,124,259,91,233,62,211,47,214,43,236,58,263,88,285,121,303,157,317,194,336,265,345,323"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,290,327,239,307,177,276,115,256,87,233,62,211,47,214,43,236,58,261,83,281,112,312,175,332,237,343,289"/>
 <area shape="rect" id="Node000003" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#a83023007463bdd6e6a4b40c55146b825" title=" " alt="" coords="28,72,212,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="335,324,323,279,302,226,273,174,254,150,233,129,211,115,214,110,236,125,258,146,277,171,307,224,328,277,341,322"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="332,291,318,253,297,209,269,166,233,129,211,115,214,111,236,125,273,162,302,206,323,251,337,290"/>
 <area shape="rect" id="Node000004" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#a1946c8c9ce8e263ceda1d7cc6da23e9e" title=" " alt="" coords="28,139,212,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,325,291,259,265,225,233,195,211,183,214,178,236,191,269,221,296,256,333,323"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="323,293,285,242,261,217,233,196,211,184,214,179,236,191,264,213,289,239,327,290"/>
 <area shape="rect" id="Node000005" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#aee96f5bdc802183d992461ccf7af7606" title=" " alt="" coords="28,205,212,248"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="315,329,278,294,233,262,209,251,211,246,236,258,281,290,319,325"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="301,299,234,262,204,251,205,246,236,258,303,295"/>
 <area shape="rect" id="Node000006" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="5,272,235,315"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="267,339,234,329,196,318,197,313,235,324,269,334"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="267,318,235,313,236,308,268,312"/>
 <area shape="rect" id="Node000007" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a7e53f2d5e62b2c5fd15e718d87751c7a" title="Draw Input tab to load an image and apply segmentation." alt="" coords="5,339,235,381"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="267,363,235,363,235,357,267,357"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="268,341,236,346,235,340,267,336"/>
 <area shape="rect" id="Node000008" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#ae0fe85f5025e377a59d1f0112a98449e" title="Draw Manage tab to handle current image segmentation status." alt="" coords="5,405,235,448"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="269,386,235,396,197,407,196,402,234,391,267,381"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="303,359,236,396,205,407,204,402,234,391,301,354"/>
 <area shape="rect" id="Node000009" href="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d" title="Custom module GUI window contents." alt="" coords="17,472,223,515"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="319,395,281,430,236,462,211,474,209,469,233,458,278,426,315,391"/>
-<area shape="rect" id="Node000010" href="$d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#a2d0ac3a4a73bd1a00f99bc0575951c9c" title="Custom module GUI window contents." alt="" coords="41,539,199,581"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="333,397,296,464,269,499,236,529,201,547,198,542,233,524,265,495,291,461,328,395"/>
-<area shape="rect" id="Node000011" href="$d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7" title="Custom module GUI window contents." alt="" coords="13,605,227,648"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="341,398,328,443,307,496,277,549,258,574,236,595,219,607,216,603,233,591,254,570,273,546,302,494,323,441,335,396"/>
-<area shape="rect" id="Node000012" href="$d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a1509f8f0d21826efa7cc133bbd190931" title="Custom module GUI window contents." alt="" coords="35,672,205,715"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="345,397,336,455,317,526,303,563,285,599,263,632,236,662,207,681,204,676,233,658,259,629,280,596,298,561,312,525,331,454,340,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="327,363,289,414,264,440,236,462,214,474,212,469,233,458,261,436,285,411,323,360"/>
+<area shape="rect" id="Node000010" href="$d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7" title="Custom module GUI window contents." alt="" coords="13,539,227,581"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="337,364,323,402,302,447,273,491,236,529,218,540,215,536,233,525,269,488,297,444,318,400,332,362"/>
+<area shape="rect" id="Node000011" href="$d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a1509f8f0d21826efa7cc133bbd190931" title="Custom module GUI window contents." alt="" coords="35,605,205,648"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="343,364,332,416,312,478,281,541,261,570,236,595,207,613,204,609,233,591,256,566,276,538,307,476,327,414,338,363"/>
 </map>

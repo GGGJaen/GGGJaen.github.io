@@ -1,5 +1,7 @@
 <map id="GEU::Operators2D::projectPoint01" name="GEU::Operators2D::projectPoint01">
-<area shape="rect" id="Node000001" title="Projects point into given vector." alt="" coords="254,5,431,48"/>
-<area shape="rect" id="Node000002" href="$d0/d01/namespace_g_e_u_1_1_operators2_d.html#ae528218480d6d3cd22cd7cec24962c14" title="Checks if two given rectangles collide." alt="" coords="5,5,206,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,29,206,29,206,24,238,24"/>
+<area shape="rect" id="Node000001" title="Projects point into given vector." alt="" coords="460,5,637,48"/>
+<area shape="rect" id="Node000002" href="$d0/d01/namespace_g_e_u_1_1_operators2_d.html#ae528218480d6d3cd22cd7cec24962c14" title="Checks if two given rectangles collide." alt="" coords="212,5,412,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,29,413,29,413,24,444,24"/>
+<area shape="rect" id="Node000003" href="$d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#a2d0ac3a4a73bd1a00f99bc0575951c9c" title="Custom module GUI window contents." alt="" coords="5,5,164,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="196,29,164,29,164,24,196,24"/>
 </map>

@@ -106,15 +106,15 @@ $(function(){initNavTree('df/d04/_operators3_d_8h_source.html','../../'); initRe
 <a href="../../df/d04/_operators3_d_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="foldopen" id="foldopen00003" data-start="{" data-end="}">
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html">    3</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html">GEU::Operators3D</a></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">checkRayAABB</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; hitPos);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>}</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html">    3</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html">GEU::Operators3D</a> {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">checkRayAABB</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; hitPos);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#afbbf1de4b5457d1743c7d68c5307b600">pointToLineDistance</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> point, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> lineA, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> lineB);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
 </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">   17</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; hitPos)</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">   18</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> min, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> max, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayOrig, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> rayDir, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&amp; hitPos) {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">enum</span> {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        NUMDIM = 3,</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        RIGHT = 0,</div>
@@ -135,52 +135,71 @@ $(function(){initNavTree('df/d04/_operators3_d_8h_source.html','../../'); initRe
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            quadrant[i] = LEFT;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            candidatePlane[i] = min[i];</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            inside = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        }</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rayOrig[i] &gt; max[i]) {</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            quadrant[i] = RIGHT;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            candidatePlane[i] = max[i];</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            inside = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            quadrant[i] = MIDDLE;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">/* Ray rayOrig inside bounding box */</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">if</span> (inside) {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        hitPos = rayOrig;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">/* Calculate T distances to candidate planes */</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">if</span> (quadrant[i] != MIDDLE &amp;&amp; rayDir[i] != 0.)</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            maxT[i] = (candidatePlane[i] - rayOrig[i]) / rayDir[i];</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            maxT[i] = -1.;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="comment">/* Get largest of the maxT&#39;s for final choice of intersection */</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">int</span> whichPlane = 0;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordflow">for</span> (i = 1; i &lt; 3; i++)</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">if</span> (maxT[whichPlane] &lt; maxT[i])</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            whichPlane = i;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">/* Check final candidate actually inside box */</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">if</span> (maxT[whichPlane] &lt; 0.) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordflow">if</span> (whichPlane != i) {</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            hitPos[i] = rayOrig[i] + maxT[whichPlane] * rayDir[i];</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordflow">if</span> (hitPos[i] &lt; min[i] || hitPos[i] &gt; max[i])</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        }</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            hitPos[i] = candidatePlane[i];</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        }</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;                <span class="comment">/* ray hits box */</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rayOrig[i] &gt; max[i]) {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            quadrant[i] = RIGHT;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            candidatePlane[i] = max[i];</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            inside = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            quadrant[i] = MIDDLE;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="comment">/* Ray rayOrig inside bounding box */</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">if</span> (inside) {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            hitPos = rayOrig;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="comment">/* Calculate T distances to candidate planes */</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            <span class="keywordflow">if</span> (quadrant[i] != MIDDLE &amp;&amp; rayDir[i] != 0.)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                maxT[i] = (candidatePlane[i] - rayOrig[i]) / rayDir[i];</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>                maxT[i] = -1.;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="comment">/* Get largest of the maxT&#39;s for final choice of intersection */</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">int</span> whichPlane = 0;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">for</span> (i = 1; i &lt; 3; i++)</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordflow">if</span> (maxT[whichPlane] &lt; maxT[i])</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                whichPlane = i;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="comment">/* Check final candidate actually inside box */</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordflow">if</span> (maxT[whichPlane] &lt; 0.) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordflow">for</span> (i = 0; i &lt; 3; i++)</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <span class="keywordflow">if</span> (whichPlane != i) {</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                hitPos[i] = rayOrig[i] + maxT[whichPlane] * rayDir[i];</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                <span class="keywordflow">if</span> (hitPos[i] &lt; min[i] || hitPos[i] &gt; max[i])</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                hitPos[i] = candidatePlane[i];</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            }</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;                <span class="comment">/* ray hits box */</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
+</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="foldopen" id="foldopen00080" data-start="{" data-end="}">
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#afbbf1de4b5457d1743c7d68c5307b600">   80</a></span><span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code hl_function" href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#afbbf1de4b5457d1743c7d68c5307b600">GEU::Operators3D::pointToLineDistance</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> point, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> lineA, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> lineB) {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> d = (lineB - lineA) / distance(lineB, lineA);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> v = point - lineA;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">double</span> t = dot(v, d);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> linePoint = lineA + d * t;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordflow">return</span> distance(linePoint, point);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="comment">    double computeDistance(vec3 A, vec3 B, vec3 C) {</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="comment">        vec3 d = (C - B) / C.distance(B);</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="comment">        vec3 v = A - B;</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="comment">        double t = v.dot(d);</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="comment">        vec3 P = B + t * d;</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="comment">        return P.distance(A);</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="comment">    }</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
 </div>
 <div class="ttc" id="a_typedefs_8h_html_a3d0ce73e3199de81565fb01632415288"><div class="ttname"><a href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a></div><div class="ttdeci">glm::vec3 vec3</div><div class="ttdef"><b>Definition</b> Typedefs.h:14</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_operators3_d_html"><div class="ttname"><a href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html">GEU::Operators3D</a></div><div class="ttdef"><b>Definition</b> Operators3D.h:4</div></div>
-<div class="ttc" id="anamespace_g_e_u_1_1_operators3_d_html_a0a99a48e076892312a722187ee14028d"><div class="ttname"><a href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a></div><div class="ttdeci">bool checkRayAABB(vec3 min, vec3 max, vec3 rayOrig, vec3 rayDir, vec3 &amp;hitPos)</div><div class="ttdoc">Check intersection between AABB and ray. Adapted from https://github.com/erich666/GraphicsGems/blob/m...</div><div class="ttdef"><b>Definition</b> Operators3D.h:17</div></div>
+<div class="ttc" id="a_typedefs_8h_html_ad46bbf69e5fb580b759599bc05cc94df"><div class="ttname"><a href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a></div><div class="ttdeci">glm::dvec3 dvec3</div><div class="ttdef"><b>Definition</b> Typedefs.h:15</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_operators3_d_html"><div class="ttname"><a href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html">GEU::Operators3D</a></div><div class="ttdef"><b>Definition</b> Operators3D.h:3</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_operators3_d_html_a0a99a48e076892312a722187ee14028d"><div class="ttname"><a href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#a0a99a48e076892312a722187ee14028d">GEU::Operators3D::checkRayAABB</a></div><div class="ttdeci">bool checkRayAABB(vec3 min, vec3 max, vec3 rayOrig, vec3 rayDir, vec3 &amp;hitPos)</div><div class="ttdoc">Check intersection between AABB and ray. Adapted from https://github.com/erich666/GraphicsGems/blob/m...</div><div class="ttdef"><b>Definition</b> Operators3D.h:18</div></div>
+<div class="ttc" id="anamespace_g_e_u_1_1_operators3_d_html_afbbf1de4b5457d1743c7d68c5307b600"><div class="ttname"><a href="../../da/d02/namespace_g_e_u_1_1_operators3_d.html#afbbf1de4b5457d1743c7d68c5307b600">GEU::Operators3D::pointToLineDistance</a></div><div class="ttdeci">double pointToLineDistance(dvec3 point, dvec3 lineA, dvec3 lineB)</div><div class="ttdef"><b>Definition</b> Operators3D.h:80</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,6 +1,6 @@
 <map id="ProceduralVoxel::checkPoints" name="ProceduralVoxel::checkPoints">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,43,202,69"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a52698b429492303948167bed5da1a0d9" title=" " alt="" coords="250,5,433,48"/>
+<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#adfe68d38eadddf88006ccc5789d5a497" title=" " alt="" coords="250,5,433,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,41,234,37,235,43,203,47"/>
 <area shape="rect" id="Node000003" href="$dd/d00/class_procedural_voxel.html#ada766c2f0f1c4ad64f871edcfadabc85" title=" " alt="" coords="257,72,426,99"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,65,242,70,241,76,202,71"/>

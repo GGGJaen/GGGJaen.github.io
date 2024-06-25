@@ -54,5 +54,6 @@ var class_g_e_u_1_1_camera =
     [ "_backupCamera", "dd/d04/class_g_e_u_1_1_camera.html#a13953d0a1d64d05229503106f1e3f505", null ],
     [ "_name", "dd/d04/class_g_e_u_1_1_camera.html#a638870e8ea606c00d6d481d391ab9e73", null ],
     [ "_properties", "dd/d04/class_g_e_u_1_1_camera.html#a0908de243adb965bbd96be18c94032ed", null ],
+    [ "changed", "dd/d04/class_g_e_u_1_1_camera.html#aaa9b8852d6c3aa74eb1965829e2dfe08", null ],
     [ "trackedModel", "dd/d04/class_g_e_u_1_1_camera.html#af202672423a43240fab6057cdbae62c1", null ]
 ];

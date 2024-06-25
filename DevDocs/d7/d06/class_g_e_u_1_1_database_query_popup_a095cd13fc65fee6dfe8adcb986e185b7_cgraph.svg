@@ -78,7 +78,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d4/d04/struct_database_1_1_dato.html#a4db5e25377b69d8034530f936c70ae61" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d4/d04/struct_database_1_1_dato.html#a0f2988d9391fc8ff97764d5e5883d6a8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="480.75,-76 346.25,-76 346.25,-56 480.75,-56 480.75,-76"/>
 <text text-anchor="middle" x="413.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Dato::fromQuery</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../dd/d07/struct_database_1_1_vuelo.html#af2b86fd4bbe70ce92931ba82c3f0974b" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="../../dd/d07/struct_database_1_1_vuelo.html#a20525a1e0dd0ffd37beda367aa49bf95" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="483,-26 344,-26 344,-6 483,-6 483,-26"/>
 <text text-anchor="middle" x="413.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Vuelo::fromQuery</text>
 </a>

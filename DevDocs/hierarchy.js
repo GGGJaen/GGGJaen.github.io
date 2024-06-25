@@ -15,6 +15,8 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "GEU::BufferLock", "dc/d01/struct_g_e_u_1_1_buffer_lock.html", null ],
+    [ "GEU::BufferRange", "d2/d02/struct_g_e_u_1_1_buffer_range.html", null ],
     [ "Database::Camara", "d0/d06/struct_database_1_1_camara.html", null ],
     [ "GEU::Camera", "dd/d04/class_g_e_u_1_1_camera.html", null ],
     [ "GEU::CameraProjection", "d2/d00/class_g_e_u_1_1_camera_projection.html", [
@@ -26,6 +28,7 @@ var hierarchy =
     [ "TextureList::ColorEqual", "d3/d04/struct_texture_list_1_1_color_equal.html", null ],
     [ "TextureList::ColorHash", "d4/d05/struct_texture_list_1_1_color_hash.html", null ],
     [ "GEU::GuiUtilities::Colors", "d6/d02/struct_g_e_u_1_1_gui_utilities_1_1_colors.html", null ],
+    [ "GEU::PointCloud::CompactInfo", "dc/d01/struct_g_e_u_1_1_point_cloud_1_1_compact_info.html", null ],
     [ "GEU::TriangleMesh::Component", "d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html", null ],
     [ "GEU::DatabaseDownloadedFiles", "d5/d01/struct_g_e_u_1_1_database_downloaded_files.html", null ],
     [ "Database::Dato", "d4/d04/struct_database_1_1_dato.html", null ],
@@ -48,6 +51,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "GEU::FileManager", "dd/d01/class_g_e_u_1_1_file_manager.html", null ],
+    [ "efsw::FileWatchListener", null, [
+      [ "GEU::Renderer", "de/d04/class_g_e_u_1_1_renderer.html", null ]
+    ] ],
     [ "Database::Finca", "d5/d00/struct_database_1_1_finca.html", null ],
     [ "GEU::Framebuffer", "da/d06/class_g_e_u_1_1_framebuffer.html", [
       [ "GEU::FBORender", "d1/d03/class_g_e_u_1_1_f_b_o_render.html", null ],
@@ -58,6 +64,7 @@ var hierarchy =
     [ "Histogram", "d5/d03/class_histogram.html", null ],
     [ "Database::HistoricoDatos", "d6/d04/struct_database_1_1_historico_datos.html", null ],
     [ "GEU::Hypercube", "d3/d05/class_g_e_u_1_1_hypercube.html", null ],
+    [ "GEU::HyperspectralData", "dd/d02/struct_g_e_u_1_1_hyperspectral_data.html", null ],
     [ "GEU::HyperGUIAdapter::HyperStats", "df/d04/struct_g_e_u_1_1_hyper_g_u_i_adapter_1_1_hyper_stats.html", null ],
     [ "GEU::I_GUIPopup", "df/d05/class_g_e_u_1_1_i___g_u_i_popup.html", [
       [ "GEU::CloudExportDialogPopup", "d7/d06/class_g_e_u_1_1_cloud_export_dialog_popup.html", null ],
@@ -65,6 +72,7 @@ var hierarchy =
       [ "GEU::ConfirmPopup", "d3/d04/class_g_e_u_1_1_confirm_popup.html", null ],
       [ "GEU::DatabaseNewRawPopup", "d2/d00/class_g_e_u_1_1_database_new_raw_popup.html", null ],
       [ "GEU::DatabaseNewVueloPopup", "db/d06/class_g_e_u_1_1_database_new_vuelo_popup.html", null ],
+      [ "GEU::DatabaseNewZonaPopup", "df/d01/class_g_e_u_1_1_database_new_zona_popup.html", null ],
       [ "GEU::DatabaseQueryDatoPopup", "dc/d00/class_g_e_u_1_1_database_query_dato_popup.html", null ],
       [ "GEU::DatabaseQueryPopup", "d7/d06/class_g_e_u_1_1_database_query_popup.html", null ],
       [ "GEU::DatabaseQueryPopup", "d7/d06/class_g_e_u_1_1_database_query_popup.html", null ],
@@ -94,6 +102,7 @@ var hierarchy =
     [ "ImGradientMark", "dd/d03/struct_im_gradient_mark.html", null ],
     [ "ImGuiToast", "d8/d04/class_im_gui_toast.html", null ],
     [ "GEU::InterfaceAdapter", "d8/d00/class_g_e_u_1_1_interface_adapter.html", [
+      [ "GEU::Analisis_HyperGUIAdapter", "d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html", null ],
       [ "GEU::HyperGUIAdapter", "d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html", null ],
       [ "GEU::MultiespectralGUIAdapter", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html", null ],
       [ "GEU::ReconstruccionGUIAdapter", "d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html", null ],
@@ -104,7 +113,8 @@ var hierarchy =
     [ "json::jobject", "d8/d07/classjson_1_1jobject.html", null ],
     [ "unibn::L1Distance< PointT >", "d8/d01/structunibn_1_1_l1_distance.html", null ],
     [ "unibn::L2Distance< PointT >", "de/d05/structunibn_1_1_l2_distance.html", null ],
-    [ "lazperfPoint", "d9/d07/structlazperf_point.html", null ],
+    [ "lazperfPoint10", "d1/d02/structlazperf_point10.html", null ],
+    [ "lazperfPoint14", "db/d05/structlazperf_point14.html", null ],
     [ "GEU::Light", "db/d03/class_g_e_u_1_1_light.html", null ],
     [ "GEU::LightAttenuation", "d6/d06/class_g_e_u_1_1_light_attenuation.html", [
       [ "GEU::BasicAttenuation", "d0/d02/class_g_e_u_1_1_basic_attenuation.html", null ],
@@ -119,6 +129,8 @@ var hierarchy =
       [ "GEU::SpotLight", "df/d07/class_g_e_u_1_1_spot_light.html", null ]
     ] ],
     [ "GEU::LightProperties", "d4/d01/class_g_e_u_1_1_light_properties.html", null ],
+    [ "GEU::MemoryManager::LoadMeshletTask", "d8/d06/struct_g_e_u_1_1_memory_manager_1_1_load_meshlet_task.html", null ],
+    [ "GEU::MappedMemory", "d3/d01/struct_g_e_u_1_1_mapped_memory.html", null ],
     [ "GEU::Material", "d5/d07/class_g_e_u_1_1_material.html", null ],
     [ "GEU::Material::MaterialDescription", "db/d00/struct_g_e_u_1_1_material_1_1_material_description.html", null ],
     [ "unibn::MaxDistance< PointT >", "d8/d06/structunibn_1_1_max_distance.html", null ],
@@ -129,6 +141,12 @@ var hierarchy =
       [ "GEU::LinesModel", "d2/d00/class_g_e_u_1_1_lines_model.html", null ],
       [ "GEU::PointCloud", "d4/d07/class_g_e_u_1_1_point_cloud.html", null ],
       [ "GEU::TriangleMesh", "d9/d02/class_g_e_u_1_1_triangle_mesh.html", null ]
+    ] ],
+    [ "GEU::MouseButtonListener", "d5/d00/class_g_e_u_1_1_mouse_button_listener.html", [
+      [ "GEU::PickingWindow", "d9/d01/class_g_e_u_1_1_picking_window.html", null ]
+    ] ],
+    [ "GEU::MouseMoveListener", "d7/d00/class_g_e_u_1_1_mouse_move_listener.html", [
+      [ "GEU::PickingWindow", "d9/d01/class_g_e_u_1_1_picking_window.html", null ]
     ] ],
     [ "Database::Municipio", "d4/d07/struct_database_1_1_municipio.html", null ],
     [ "GEU::NASSession::NASFile", "d4/d04/struct_g_e_u_1_1_n_a_s_session_1_1_n_a_s_file.html", null ],
@@ -145,10 +163,13 @@ var hierarchy =
     [ "GEU::GuiUtilities::Parameters", "d0/d05/struct_g_e_u_1_1_gui_utilities_1_1_parameters.html", null ],
     [ "json::parsing::parse_results", "df/d07/structjson_1_1parsing_1_1parse__results.html", null ],
     [ "GEU::pclConversor", "d0/d01/class_g_e_u_1_1pcl_conversor.html", null ],
+    [ "GEU::PickingWindow::PickingResult", "d3/d07/struct_g_e_u_1_1_picking_window_1_1_picking_result.html", null ],
     [ "GEU::VAO::Point", "d8/d02/struct_g_e_u_1_1_v_a_o_1_1_point.html", null ],
     [ "PointCloudAdaptor< Derived >", "d3/d03/struct_point_cloud_adaptor.html", null ],
+    [ "GEU::Renderer::PointWithOffset", "da/d01/struct_g_e_u_1_1_renderer_1_1_point_with_offset.html", null ],
     [ "GEU::ProceduralGenerator", "dd/d03/class_g_e_u_1_1_procedural_generator.html", null ],
     [ "ProceduralVoxel", "dd/d00/class_procedural_voxel.html", null ],
+    [ "ProgressBar", "d1/d06/class_progress_bar.html", null ],
     [ "Projection", "db/d03/class_projection.html", null ],
     [ "Database::Provincia", "d2/d00/struct_database_1_1_provincia.html", null ],
     [ "Rectangle2D", "d0/d00/class_rectangle2_d.html", null ],
@@ -212,10 +233,18 @@ var hierarchy =
     [ "GEU::Texture", "dc/d06/class_g_e_u_1_1_texture.html", null ],
     [ "GEU::ThermalAugment", "d3/d00/class_g_e_u_1_1_thermal_augment.html", null ],
     [ "GEU::ThermalAugment::ThermalCameraParams", "dd/d01/struct_g_e_u_1_1_thermal_augment_1_1_thermal_camera_params.html", null ],
+    [ "GEU::ThermalData", "d4/d02/struct_g_e_u_1_1_thermal_data.html", null ],
     [ "GEU::ThermalAugment::ThermalImageParams", "dc/d02/struct_g_e_u_1_1_thermal_augment_1_1_thermal_image_params.html", null ],
+    [ "GEU::PointCloud::u32Bits", "d7/d03/union_g_e_u_1_1_point_cloud_1_1u32_bits.html", null ],
     [ "GEU::VAO", "de/d03/class_g_e_u_1_1_v_a_o.html", null ],
     [ "GEU::VAO::VBOSlot_definition", "db/d03/struct_g_e_u_1_1_v_a_o_1_1_v_b_o_slot__definition.html", null ],
     [ "GEU::ImageCloudProj::Vec3Hash", "d1/d01/struct_g_e_u_1_1_image_cloud_proj_1_1_vec3_hash.html", null ],
+    [ "GEU::VegetationIndex", "d2/d04/class_g_e_u_1_1_vegetation_index.html", [
+      [ "GEU::CalculatorMSAVI", "d7/d00/class_g_e_u_1_1_calculator_m_s_a_v_i.html", null ],
+      [ "GEU::CalculatorNDVI", "db/d03/class_g_e_u_1_1_calculator_n_d_v_i.html", null ],
+      [ "GEU::CalculatorRGB", "d1/d07/class_g_e_u_1_1_calculator_r_g_b.html", null ],
+      [ "GEU::CalculatorTVI", "d1/d04/class_g_e_u_1_1_calculator_t_v_i.html", null ]
+    ] ],
     [ "GEU::VAO::Vertex", "df/d06/struct_g_e_u_1_1_v_a_o_1_1_vertex.html", null ],
     [ "Database::Vuelo", "dd/d07/struct_database_1_1_vuelo.html", null ],
     [ "Database::VueloCamara", "db/d05/struct_database_1_1_vuelo_camara.html", null ],

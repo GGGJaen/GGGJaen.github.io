@@ -30,7 +30,7 @@
 <area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="68,880,77,837,97,777,128,713,150,683,175,658,209,633,246,612,324,581,403,562,474,552,475,557,404,567,326,586,248,616,212,637,178,662,154,687,133,716,102,779,83,839,73,881"/>
 <area shape="rect" id="Node000014" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a84bb8e77631e925660765d1e2e9104c2" title=" " alt="" coords="231,1208,360,1250"/>
 <area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="72,908,77,961,94,1038,107,1080,126,1122,149,1160,178,1194,196,1207,217,1216,215,1220,194,1211,175,1198,145,1163,121,1124,102,1082,89,1040,72,962,66,908"/>
-<area shape="rect" id="Node000016" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a221f7bdde6217593a27b991bae1cb246" title="Carga la nube de puntos especificada." alt="" coords="200,1274,391,1317"/>
+<area shape="rect" id="Node000016" href="$dd/d01/class_g_e_u_1_1_file_manager.html#ab0c90929ed79e4421e1486d3abfb2e9c" title="Carga la nube de puntos especificada." alt="" coords="200,1274,391,1317"/>
 <area shape="poly" id="edge23_Node000001_Node000016" title=" " alt="" coords="71,908,73,971,86,1066,99,1118,118,1170,144,1218,179,1260,189,1269,185,1273,175,1264,140,1221,113,1172,94,1120,80,1067,67,972,65,908"/>
 <area shape="rect" id="Node000017" href="$de/d04/class_g_e_u_1_1_renderer.html#a629d1302c9b248de0616f65dc005f8d6" title=" " alt="" coords="206,1341,385,1368"/>
 <area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="72,908,84,994,105,1121,120,1186,137,1246,157,1295,179,1327,194,1338,191,1343,175,1331,152,1297,132,1248,115,1187,100,1122,78,994,67,909"/>
@@ -95,7 +95,7 @@
 <area shape="poly" id="edge55_Node000029_Node000040" title=" " alt="" coords="377,696,415,708,439,720,463,733,484,740,482,745,461,738,437,725,413,713,375,702"/>
 <area shape="rect" id="Node000041" href="$d8/d04/class_im_gui_toast.html#a2b618b6461ad38ac00da87de8d0e2474" title=" " alt="" coords="469,798,660,825"/>
 <area shape="poly" id="edge56_Node000029_Node000041" title=" " alt="" coords="384,693,416,708,433,727,441,747,448,766,464,784,471,789,468,793,460,788,443,769,436,749,428,730,412,712,382,698"/>
-<area shape="rect" id="Node000042" href="$df/d03/namespace_im_gui.html#ab753b79282e23ce81bb5f1181243fe96" title="Removes a notification from the list of notifications." alt="" coords="478,849,651,876"/>
+<area shape="rect" id="Node000042" href="$df/d03/namespace_im_gui.html#aa04ce2e41fffdab888e8f9a4d1b021a2" title="Removes a notification from the list of notifications." alt="" coords="478,849,651,876"/>
 <area shape="poly" id="edge57_Node000029_Node000042" title=" " alt="" coords="385,691,416,708,430,724,437,740,441,773,445,805,451,820,464,835,468,839,465,843,460,839,447,823,439,807,436,774,432,742,425,727,412,712,382,696"/>
 <area shape="rect" id="Node000043" href="$d8/d04/class_im_gui_toast.html#a7ece0f110aea2c83184196490e93c7d2" title="Set the ImGui window flags for the notification." alt="" coords="469,900,660,926"/>
 <area shape="poly" id="edge58_Node000029_Node000043" title=" " alt="" coords="385,690,416,708,433,730,441,753,443,776,441,799,441,843,448,865,464,886,467,889,463,892,460,889,443,867,436,844,436,799,437,776,436,754,428,733,412,712,382,695"/>

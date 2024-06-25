@@ -1,6 +1,6 @@
 var struct_database_1_1_finca =
 [
-    [ "fromQuery", "d5/d00/struct_database_1_1_finca.html#a12d9ef226bb2acab7174108a5f7d054c", null ],
+    [ "fromQuery", "d5/d00/struct_database_1_1_finca.html#a8c93de2bbfadf56bffbe41322c24a7fe", null ],
     [ "operator==", "d5/d00/struct_database_1_1_finca.html#af389845709cca809733adb8b7e7fee7a", null ],
     [ "area", "d5/d00/struct_database_1_1_finca.html#a89411768be48a065140dbb978fcde340", null ],
     [ "codMunicipio", "d5/d00/struct_database_1_1_finca.html#aed0e84fc56efabd5404511358869aa3f", null ],

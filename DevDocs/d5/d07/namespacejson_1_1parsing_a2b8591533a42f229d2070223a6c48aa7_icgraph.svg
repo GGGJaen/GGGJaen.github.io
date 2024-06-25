@@ -340,7 +340,7 @@
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="../../d7/d05/struct_database_1_1_objeto.html#a23779e9f38a1d1ed6ff784d1e7969953" target="_top" xlink:title=" ">
+<g id="a_Node000014"><a xlink:href="../../d7/d05/struct_database_1_1_objeto.html#ab2287b23f42be342984274bffb67cd6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="668.5,-320 525.75,-320 525.75,-300 668.5,-300 668.5,-320"/>
 <text text-anchor="middle" x="597.12" y="-306.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Objeto::fromQuery</text>
 </a>
@@ -470,7 +470,7 @@
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="../../df/d03/classjson_1_1jobject_1_1const__proxy.html#a16ced6515b05d5aa304068a4c0eb4a96" target="_top" xlink:title="Returns another constant value from this array.">
+<g id="a_Node000024"><a xlink:href="../../df/d03/classjson_1_1jobject_1_1const__proxy.html#a1fc1733206799bf6a2fb43902609d104" target="_top" xlink:title="Returns another constant value from this array.">
 <polygon fill="white" stroke="#666666" points="826.25,-132 727.75,-132 727.75,-100 826.25,-100 826.25,-132"/>
 <text text-anchor="start" x="735.75" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">json::jobject::const</text>
 <text text-anchor="middle" x="777" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">_proxy::array</text>

@@ -66,7 +66,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a52698b429492303948167bed5da1a0d9" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#adfe68d38eadddf88006ccc5789d5a497" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="290,-70 152.5,-70 152.5,-38 290,-38 290,-70"/>
 <text text-anchor="start" x="160.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::PointCloud::getPoints</text>
 <text text-anchor="middle" x="221.25" y="-44.5" font-family="Helvetica,sans-Serif" font-size="10.00">Position</text>

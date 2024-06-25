@@ -126,6 +126,14 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a208ca5b902362e32cc5c20fa9e481b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5699aaef121685c9ab8cabdac40455b1" id="r_a5699aaef121685c9ab8cabdac40455b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5699aaef121685c9ab8cabdac40455b1">suscribeScreenshot</a> (<a class="el" href="../../d9/d03/class_g_e_u_1_1_screenshot_listener.html">ScreenshotListener</a> *listener)</td></tr>
 <tr class="separator:a5699aaef121685c9ab8cabdac40455b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44277b845d209a2a741598cf19badfc" id="r_ae44277b845d209a2a741598cf19badfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae44277b845d209a2a741598cf19badfc">suscribeMouseButton</a> (<a class="el" href="../../d5/d00/class_g_e_u_1_1_mouse_button_listener.html">MouseButtonListener</a> *listener)</td></tr>
+<tr class="separator:ae44277b845d209a2a741598cf19badfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef70b84828c70f6cdd62c967293df42" id="r_adef70b84828c70f6cdd62c967293df42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef70b84828c70f6cdd62c967293df42">unsuscribeMouseButton</a> (const <a class="el" href="../../d5/d00/class_g_e_u_1_1_mouse_button_listener.html">MouseButtonListener</a> *listener)</td></tr>
+<tr class="separator:adef70b84828c70f6cdd62c967293df42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7458046b064729ef2179be6bf5018bdd" id="r_a7458046b064729ef2179be6bf5018bdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7458046b064729ef2179be6bf5018bdd">suscribeMouseMove</a> (<a class="el" href="../../d7/d00/class_g_e_u_1_1_mouse_move_listener.html">MouseMoveListener</a> *listener)</td></tr>
+<tr class="separator:a7458046b064729ef2179be6bf5018bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88183cf687ef9e63adcfaf33c99cbc66" id="r_a88183cf687ef9e63adcfaf33c99cbc66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88183cf687ef9e63adcfaf33c99cbc66">unsuscribeMouseMove</a> (const <a class="el" href="../../d7/d00/class_g_e_u_1_1_mouse_move_listener.html">MouseMoveListener</a> *listener)</td></tr>
+<tr class="separator:a88183cf687ef9e63adcfaf33c99cbc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_g_e_u_1_1_singleton"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_g_e_u_1_1_singleton')"><img src="../../closed.png" alt="-"/>&#160;Métodos públicos heredados de <a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html">GEU::Singleton&lt; InputManager &gt;</a></td></tr>
 <tr class="memitem:a89521801c0670dab18835ee80c266e31 inherit pub_methods_class_g_e_u_1_1_singleton" id="r_a89521801c0670dab18835ee80c266e31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a89521801c0670dab18835ee80c266e31">Singleton</a> (const <a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html">Singleton</a> &amp;)=delete</td></tr>
 <tr class="separator:a89521801c0670dab18835ee80c266e31 inherit pub_methods_class_g_e_u_1_1_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,7 +171,8 @@ Tipos privados</h2></td></tr>
 , <a class="el" href="#a8231d603f3bb1e6f810194a88170d6ecac8e280535f1c3f80a175c402560057ef">ZOOM</a>
 , <a class="el" href="#a8231d603f3bb1e6f810194a88170d6eca7feb0a01ee0cca7c4291baf231a05012">ROTATION</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8231d603f3bb1e6f810194a88170d6ecacc78038f9b441a2f7f9cb3eaadb7aa9f">NUM_EVENTS</a>
+&#160;&#160;<a class="el" href="#a8231d603f3bb1e6f810194a88170d6ecae8fd8bd33540694b47e66e280c8c82ff">zoomOutAnim</a>
+, <a class="el" href="#a8231d603f3bb1e6f810194a88170d6ecacc78038f9b441a2f7f9cb3eaadb7aa9f">NUM_EVENTS</a>
 <br />
  }</td></tr>
 <tr class="separator:a8231d603f3bb1e6f810194a88170d6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,6 +235,10 @@ Atributos privados</h2></td></tr>
 <tr class="separator:a710a22c964655831eb1d8ed22d1ecb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc0bf348ccade47a0c14292e7d16c145" id="r_acc0bf348ccade47a0c14292e7d16c145"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/d03/class_g_e_u_1_1_screenshot_listener.html">ScreenshotListener</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc0bf348ccade47a0c14292e7d16c145">_screenshotListeners</a></td></tr>
 <tr class="separator:acc0bf348ccade47a0c14292e7d16c145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d7820d0c0b3c2cad9a108f106a52fc" id="r_ad2d7820d0c0b3c2cad9a108f106a52fc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d5/d00/class_g_e_u_1_1_mouse_button_listener.html">MouseButtonListener</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2d7820d0c0b3c2cad9a108f106a52fc">_mouseButtonListeners</a></td></tr>
+<tr class="separator:ad2d7820d0c0b3c2cad9a108f106a52fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a873e621f87e4cd8d7c7ffc1e2762ed" id="r_a3a873e621f87e4cd8d7c7ffc1e2762ed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d00/class_g_e_u_1_1_mouse_move_listener.html">MouseMoveListener</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a873e621f87e4cd8d7c7ffc1e2762ed">_mouseDragListeners</a></td></tr>
+<tr class="separator:a3a873e621f87e4cd8d7c7ffc1e2762ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Atributos estáticos privados</h2></td></tr>
@@ -278,6 +291,7 @@ Otros miembros heredados</h2></td></tr>
 <tr><td class="fieldname"><a id="a8231d603f3bb1e6f810194a88170d6eca4f118ba3103b560e2f827e94e0ab891d" name="a8231d603f3bb1e6f810194a88170d6eca4f118ba3103b560e2f827e94e0ab891d"></a>TRUCK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8231d603f3bb1e6f810194a88170d6ecac8e280535f1c3f80a175c402560057ef" name="a8231d603f3bb1e6f810194a88170d6ecac8e280535f1c3f80a175c402560057ef"></a>ZOOM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8231d603f3bb1e6f810194a88170d6eca7feb0a01ee0cca7c4291baf231a05012" name="a8231d603f3bb1e6f810194a88170d6eca7feb0a01ee0cca7c4291baf231a05012"></a>ROTATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8231d603f3bb1e6f810194a88170d6ecae8fd8bd33540694b47e66e280c8c82ff" name="a8231d603f3bb1e6f810194a88170d6ecae8fd8bd33540694b47e66e280c8c82ff"></a>zoomOutAnim&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8231d603f3bb1e6f810194a88170d6ecacc78038f9b441a2f7f9cb3eaadb7aa9f" name="a8231d603f3bb1e6f810194a88170d6ecacc78038f9b441a2f7f9cb3eaadb7aa9f"></a>NUM_EVENTS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -440,11 +454,6 @@ Gráfico de llamadas de esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a35bf07cbdab7e781dbca0406d39a17b5_cgraph.svg" width="420" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -473,7 +482,7 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_af2ea72a4bd53eb6f69a5c873e4c22017_icgraph.svg" width="634" height="659"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_af2ea72a4bd53eb6f69a5c873e4c22017_icgraph.svg" width="600" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -544,7 +553,7 @@ Gráfico de llamadas a esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a361d92766a2cb0f62fcabb1c3b12763a_cgraph.svg" width="628" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a361d92766a2cb0f62fcabb1c3b12763a_cgraph.svg" width="627" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -585,11 +594,6 @@ Gráfico de llamadas de esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Gráfico de llamadas de esta función:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a0f6311a90ec63e45f0fcedce4be28f94_cgraph.svg" width="408" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -700,7 +704,7 @@ Gráfico de llamadas a esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a900ad1b7091126235ffafa69c15651cd_cgraph.svg" width="410" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a900ad1b7091126235ffafa69c15651cd_cgraph.svg" width="430" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
@@ -778,7 +782,51 @@ Gráfico de llamadas a esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a09535d529715adc8b6bf26ed92bdd60a_cgraph.svg" width="404" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a09535d529715adc8b6bf26ed92bdd60a_cgraph.svg" width="383" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae44277b845d209a2a741598cf19badfc" name="ae44277b845d209a2a741598cf19badfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44277b845d209a2a741598cf19badfc">&#9670;&#160;</a></span>suscribeMouseButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::InputManager::suscribeMouseButton </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d00/class_g_e_u_1_1_mouse_button_listener.html">MouseButtonListener</a> *</td>          <td class="paramname"><span class="paramname"><em>listener</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_ae44277b845d209a2a741598cf19badfc_icgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7458046b064729ef2179be6bf5018bdd" name="a7458046b064729ef2179be6bf5018bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7458046b064729ef2179be6bf5018bdd">&#9670;&#160;</a></span>suscribeMouseMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::InputManager::suscribeMouseMove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d00/class_g_e_u_1_1_mouse_move_listener.html">MouseMoveListener</a> *</td>          <td class="paramname"><span class="paramname"><em>listener</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a7458046b064729ef2179be6bf5018bdd_icgraph.svg" width="348" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -827,6 +875,50 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
+<a id="adef70b84828c70f6cdd62c967293df42" name="adef70b84828c70f6cdd62c967293df42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef70b84828c70f6cdd62c967293df42">&#9670;&#160;</a></span>unsuscribeMouseButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::InputManager::unsuscribeMouseButton </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d00/class_g_e_u_1_1_mouse_button_listener.html">MouseButtonListener</a> *</td>          <td class="paramname"><span class="paramname"><em>listener</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_adef70b84828c70f6cdd62c967293df42_icgraph.svg" width="367" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a88183cf687ef9e63adcfaf33c99cbc66" name="a88183cf687ef9e63adcfaf33c99cbc66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88183cf687ef9e63adcfaf33c99cbc66">&#9670;&#160;</a></span>unsuscribeMouseMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::InputManager::unsuscribeMouseMove </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d00/class_g_e_u_1_1_mouse_move_listener.html">MouseMoveListener</a> *</td>          <td class="paramname"><span class="paramname"><em>listener</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a88183cf687ef9e63adcfaf33c99cbc66_icgraph.svg" width="359" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a41558df6c8f7192c52e9d5e7c095ad13" name="a41558df6c8f7192c52e9d5e7c095ad13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a41558df6c8f7192c52e9d5e7c095ad13">&#9670;&#160;</a></span>windowRefreshCallback()</h2>
 
@@ -852,7 +944,7 @@ Gráfico de llamadas a esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a41558df6c8f7192c52e9d5e7c095ad13_cgraph.svg" width="594" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d05/class_g_e_u_1_1_input_manager_a41558df6c8f7192c52e9d5e7c095ad13_cgraph.svg" width="594" height="304"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -979,6 +1071,50 @@ Gráfico de llamadas de esta función:</div>
       <table class="memname">
         <tr>
           <td class="memname">bool GEU::InputManager::_leftClickPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2d7820d0c0b3c2cad9a108f106a52fc" name="ad2d7820d0c0b3c2cad9a108f106a52fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d7820d0c0b3c2cad9a108f106a52fc">&#9670;&#160;</a></span>_mouseButtonListeners</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d5/d00/class_g_e_u_1_1_mouse_button_listener.html">MouseButtonListener</a>*&gt; GEU::InputManager::_mouseButtonListeners</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a873e621f87e4cd8d7c7ffc1e2762ed" name="a3a873e621f87e4cd8d7c7ffc1e2762ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a873e621f87e4cd8d7c7ffc1e2762ed">&#9670;&#160;</a></span>_mouseDragListeners</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d7/d00/class_g_e_u_1_1_mouse_move_listener.html">MouseMoveListener</a>*&gt; GEU::InputManager::_mouseDragListeners</td>
         </tr>
       </table>
   </td>

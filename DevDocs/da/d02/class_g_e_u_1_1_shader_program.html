@@ -118,8 +118,8 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:ac1f3848e24c6f8a45439c907adf4f78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c7e1654b41b3e035a4f16be4f2afb54" id="r_a7c7e1654b41b3e035a4f16be4f2afb54"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c7e1654b41b3e035a4f16be4f2afb54">~ShaderProgram</a> ()</td></tr>
 <tr class="separator:a7c7e1654b41b3e035a4f16be4f2afb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8904247a107fc8bd1c8b0607ef11d7b" id="r_ab8904247a107fc8bd1c8b0607ef11d7b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8904247a107fc8bd1c8b0607ef11d7b">applyActiveSubroutines</a> ()=0</td></tr>
-<tr class="separator:ab8904247a107fc8bd1c8b0607ef11d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4293cc97ec71d9dd5578f7e58ee1e91c" id="r_a4293cc97ec71d9dd5578f7e58ee1e91c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4293cc97ec71d9dd5578f7e58ee1e91c">applyActiveSubroutines</a> () const =0</td></tr>
+<tr class="separator:a4293cc97ec71d9dd5578f7e58ee1e91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42774ec4dfd334623d5a0cc8d41f40dc" id="r_a42774ec4dfd334623d5a0cc8d41f40dc"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42774ec4dfd334623d5a0cc8d41f40dc">createShaderProgram</a> (const char *filename)=0</td></tr>
 <tr class="separator:a42774ec4dfd334623d5a0cc8d41f40dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad80298ca89746aab8abfa91b05c6036f" id="r_ad80298ca89746aab8abfa91b05c6036f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad80298ca89746aab8abfa91b05c6036f">setSubroutineUniform</a> (const uint8_t &amp;shaderType, const uint8_t &amp;subroutine, const std::string &amp;functionName)</td></tr>
@@ -249,8 +249,8 @@ Atributos estáticos protegidos</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="ab8904247a107fc8bd1c8b0607ef11d7b" name="ab8904247a107fc8bd1c8b0607ef11d7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8904247a107fc8bd1c8b0607ef11d7b">&#9670;&#160;</a></span>applyActiveSubroutines()</h2>
+<a id="a4293cc97ec71d9dd5578f7e58ee1e91c" name="a4293cc97ec71d9dd5578f7e58ee1e91c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4293cc97ec71d9dd5578f7e58ee1e91c">&#9670;&#160;</a></span>applyActiveSubroutines()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,7 +262,7 @@ Atributos estáticos protegidos</h2></td></tr>
           <td class="memname">virtual void GEU::ShaderProgram::applyActiveSubroutines </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -272,7 +272,7 @@ Atributos estáticos protegidos</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implementado en <a class="el" href="../../d1/d07/class_g_e_u_1_1_compute_shader.html#a0e37dbbcdd9a84e1543f1fda81dc9874">GEU::ComputeShader</a> y <a class="el" href="../../d0/d07/class_g_e_u_1_1_rendering_shader.html#a7f133c9cd6c82e5e8eecb672708f2d16">GEU::RenderingShader</a>.</p>
+<p>Implementado en <a class="el" href="../../d1/d07/class_g_e_u_1_1_compute_shader.html#a15056241aff9ada43789fba8d997c933">GEU::ComputeShader</a> y <a class="el" href="../../d0/d07/class_g_e_u_1_1_rendering_shader.html#ac8b73c9f8f74badaf486cc21310cdb76">GEU::RenderingShader</a>.</p>
 
 </div>
 </div>
@@ -293,7 +293,7 @@ Atributos estáticos protegidos</h2></td></tr>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d02/class_g_e_u_1_1_shader_program_a1bc8350ed7e35f0de197870d1f7a7f87_icgraph.svg" width="400" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d02/class_g_e_u_1_1_shader_program_a1bc8350ed7e35f0de197870d1f7a7f87_icgraph.svg" width="400" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

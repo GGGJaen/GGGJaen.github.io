@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a385e658fab71674d09ea486a1e3422fa" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../dd/d01/class_g_e_u_1_1_file_manager.html#aa3240f6c651a6e4f7a0ba2a2f8e69067" target="_top" xlink:title="Carga un fichero PLY.">
 <polygon fill="white" stroke="#666666" points="308.75,-189 174.25,-189 174.25,-169 308.75,-169 308.75,-189"/>
 <text text-anchor="middle" x="241.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::FileManager::loadPly</text>
 </a>
@@ -57,7 +57,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a1a270d2f19a07085ce98eca86d30869a" target="_top" xlink:title="Sustituye el vector actual del color indicado por el nuevo.">
+<g id="a_Node000010"><a xlink:href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a4ee1b818252d49ada5daa04192f728de" target="_top" xlink:title="Sustituye el vector actual del color indicado por el nuevo.">
 <polygon fill="white" stroke="#666666" points="307.62,-113 175.38,-113 175.38,-93 307.62,-93 307.62,-113"/>
 <text text-anchor="middle" x="241.5" y="-99.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::PointCloud::setColor</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a555018876cbe1c71475f0e940491878f" target="_top" xlink:title="Sustituye el vector actual del color indicado por el nuevo.">
+<g id="a_Node000011"><a xlink:href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a12f6f32b5e72ee2da663b84a0a833089" target="_top" xlink:title="Sustituye el vector actual del color indicado por el nuevo.">
 <polygon fill="white" stroke="#666666" points="307.62,-75 175.38,-75 175.38,-55 307.62,-55 307.62,-75"/>
 <text text-anchor="middle" x="241.5" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::PointCloud::setColor</text>
 </a>
@@ -169,7 +169,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../dd/d03/class_g_e_u_1_1_procedural_generator.html#a0b38aef5c1b02e9cdf3cff49bd708297" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../dd/d03/class_g_e_u_1_1_procedural_generator.html#ab8f82fb76364670dd7e6dc7b32535694" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="134.5,-82 1.5,-82 1.5,-50 134.5,-50 134.5,-82"/>
 <text text-anchor="start" x="9.5" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::ProceduralGenerator</text>
 <text text-anchor="middle" x="68" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::RegionRGBSegmentation</text>

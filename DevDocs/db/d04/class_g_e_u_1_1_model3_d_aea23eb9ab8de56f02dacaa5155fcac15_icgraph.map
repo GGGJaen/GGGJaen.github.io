@@ -1,11 +1,13 @@
 <map id="GEU::Model3D::getModelMatrix" name="GEU::Model3D::getModelMatrix">
-<area shape="rect" id="Node000001" title=" " alt="" coords="724,80,930,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="724,113,930,140"/>
 <area shape="rect" id="Node000002" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a8cfce2a37af19646fd0c06ee3fb077ca" title=" " alt="" coords="520,5,668,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="762,78,668,50,669,45,764,73"/>
-<area shape="rect" id="Node000003" href="$d0/d01/class_g_e_u_1_1pcl_conversor.html#a232e707ee942a8c3df89dc341e96323a" title=" " alt="" coords="512,72,676,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="709,96,677,96,677,91,709,91"/>
-<area shape="rect" id="Node000006" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095" title=" " alt="" coords="523,139,665,181"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="764,114,667,142,665,137,762,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="781,109,675,62,648,51,650,46,677,58,783,104"/>
+<area shape="rect" id="Node000003" href="$d0/d01/class_g_e_u_1_1pcl_conversor.html#adc2f8b28918ebe56bfdc1bc9cad8b16f" title=" " alt="" coords="512,72,676,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="714,113,677,108,677,102,714,108"/>
+<area shape="rect" id="Node000006" href="$d9/d01/class_g_e_u_1_1_picking_window.html#ae36fe8df3dac7b35f086614b2fdf33fa" title=" " alt="" coords="521,139,667,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="714,145,668,152,667,147,714,140"/>
+<area shape="rect" id="Node000007" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#a3d0a52044599f2686b42aed5b4630095" title=" " alt="" coords="523,205,665,248"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="783,149,677,196,650,207,648,202,675,191,781,144"/>
 <area shape="rect" id="Node000004" href="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afafb062e54a135be4bc20d2eaee39862" title=" " alt="" coords="259,72,464,115"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="496,96,464,96,464,91,496,91"/>
 <area shape="rect" id="Node000005" href="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d" title="Custom module GUI window contents." alt="" coords="5,72,211,115"/>

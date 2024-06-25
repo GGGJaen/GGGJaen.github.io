@@ -10,7 +10,7 @@ var class_g_e_u_1_1_procedural_generator =
     [ "getGridGenerated", "dd/d03/class_g_e_u_1_1_procedural_generator.html#aadcf4337f540eb19b689e832dd9da2c0", null ],
     [ "getProgress", "dd/d03/class_g_e_u_1_1_procedural_generator.html#a1b5663cbd0bb4602b9b649e0602f1624", null ],
     [ "meanNeightbourHeightColor", "dd/d03/class_g_e_u_1_1_procedural_generator.html#af2346ee5d1d7a1f6cde811e119966ca3", null ],
-    [ "RegionRGBSegmentation", "dd/d03/class_g_e_u_1_1_procedural_generator.html#a0b38aef5c1b02e9cdf3cff49bd708297", null ],
+    [ "RegionRGBSegmentation", "dd/d03/class_g_e_u_1_1_procedural_generator.html#ab8f82fb76364670dd7e6dc7b32535694", null ],
     [ "setGridGenerated", "dd/d03/class_g_e_u_1_1_procedural_generator.html#a539aa8b3d911c52a05e7b644402d77db", null ],
     [ "subdivideCloud", "dd/d03/class_g_e_u_1_1_procedural_generator.html#ab8413581fb4ba7ab9709a72bca03ce64", null ],
     [ "ReconstruccionGUIAdapter", "dd/d03/class_g_e_u_1_1_procedural_generator.html#a439be7fb34a6fabb453eedbc5770b6f7", null ],

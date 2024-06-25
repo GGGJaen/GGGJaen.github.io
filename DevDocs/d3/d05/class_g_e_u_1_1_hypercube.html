@@ -119,14 +119,16 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a97c7702bc6534ddd0e40ea59a5d54c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab565ba9be94a50cb592c550b6beefab3" id="r_ab565ba9be94a50cb592c550b6beefab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab565ba9be94a50cb592c550b6beefab3">fillCubeBand</a> (uint16_t band, std::vector&lt; float &gt; &amp;bandData) const</td></tr>
 <tr class="separator:ab565ba9be94a50cb592c550b6beefab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b844e8bd558e44778d3cd6f0da54a53" id="r_a0b844e8bd558e44778d3cd6f0da54a53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b844e8bd558e44778d3cd6f0da54a53">geoToPixel</a> (double geoX, double geoY, int &amp;pX, int &amp;pY) const</td></tr>
-<tr class="separator:a0b844e8bd558e44778d3cd6f0da54a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010309d71bd68a2f7858b173335b803e" id="r_a010309d71bd68a2f7858b173335b803e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a010309d71bd68a2f7858b173335b803e">geoToPixel</a> (double geoX, double geoY, double &amp;pX, double &amp;pY) const</td></tr>
+<tr class="separator:a010309d71bd68a2f7858b173335b803e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e1923679500e3ed2a995185923068a9" id="r_a3e1923679500e3ed2a995185923068a9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e1923679500e3ed2a995185923068a9">flattenIndex</a> (uint16_t x, uint16_t y) const</td></tr>
 <tr class="separator:a3e1923679500e3ed2a995185923068a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37499138ea9a2aae26d8438d54486358" id="r_a37499138ea9a2aae26d8438d54486358"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37499138ea9a2aae26d8438d54486358">flattenIndex</a> (uint16_t x, uint16_t y, uint16_t z) const</td></tr>
 <tr class="separator:a37499138ea9a2aae26d8438d54486358"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc0e160ebae3399f860bb553158a01c" id="r_adbc0e160ebae3399f860bb553158a01c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbc0e160ebae3399f860bb553158a01c">getPixelBandsFloat</a> (uint16_t x, uint16_t y) const</td></tr>
 <tr class="separator:adbc0e160ebae3399f860bb553158a01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad865ef01b8aab02a0a5ec82fa346f6c3" id="r_ad865ef01b8aab02a0a5ec82fa346f6c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad865ef01b8aab02a0a5ec82fa346f6c3">flushGDALCache</a> () const</td></tr>
+<tr class="separator:ad865ef01b8aab02a0a5ec82fa346f6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd8646ae8363b06e5183760e45a3913" id="r_a2cd8646ae8363b06e5183760e45a3913"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cd8646ae8363b06e5183760e45a3913">width</a> () const</td></tr>
 <tr class="separator:a2cd8646ae8363b06e5183760e45a3913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b7ee1d1bdce6ce0f8b6f4b9192e542" id="r_ae8b7ee1d1bdce6ce0f8b6f4b9192e542"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8b7ee1d1bdce6ce0f8b6f4b9192e542">height</a> () const</td></tr>
@@ -135,6 +137,12 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:a33d7e3257e0e809207585f12b8b940e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58a38216ec49e32cb1698ae311ae774a" id="r_a58a38216ec49e32cb1698ae311ae774a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a38216ec49e32cb1698ae311ae774a">getName</a> ()</td></tr>
 <tr class="separator:a58a38216ec49e32cb1698ae311ae774a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c68db6144a086bab4e2fffc0151bb6c" id="r_a5c68db6144a086bab4e2fffc0151bb6c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c68db6144a086bab4e2fffc0151bb6c">isLoaded</a> () const</td></tr>
+<tr class="separator:a5c68db6144a086bab4e2fffc0151bb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd2e23e752993bbb083aa51c1184792" id="r_a1bd2e23e752993bbb083aa51c1184792"><td class="memItemLeft" align="right" valign="top">OGRCoordinateTransformation *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd2e23e752993bbb083aa51c1184792">cloneGeoTransform</a> () const</td></tr>
+<tr class="separator:a1bd2e23e752993bbb083aa51c1184792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a088c1524c7eae8c8b338f837573824d4" id="r_a088c1524c7eae8c8b338f837573824d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088c1524c7eae8c8b338f837573824d4">getGeoTransformValues</a> (double *geoTrf) const</td></tr>
+<tr class="separator:a088c1524c7eae8c8b338f837573824d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Atributos privados</h2></td></tr>
@@ -222,6 +230,31 @@ Atributos privados</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="a1bd2e23e752993bbb083aa51c1184792" name="a1bd2e23e752993bbb083aa51c1184792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bd2e23e752993bbb083aa51c1184792">&#9670;&#160;</a></span>cloneGeoTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OGRCoordinateTransformation * GEU::Hypercube::cloneGeoTransform </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a33d7e3257e0e809207585f12b8b940e9" name="a33d7e3257e0e809207585f12b8b940e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33d7e3257e0e809207585f12b8b940e9">&#9670;&#160;</a></span>depth()</h2>
 
@@ -315,8 +348,25 @@ Atributos privados</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b844e8bd558e44778d3cd6f0da54a53" name="a0b844e8bd558e44778d3cd6f0da54a53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b844e8bd558e44778d3cd6f0da54a53">&#9670;&#160;</a></span>geoToPixel()</h2>
+<a id="ad865ef01b8aab02a0a5ec82fa346f6c3" name="ad865ef01b8aab02a0a5ec82fa346f6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad865ef01b8aab02a0a5ec82fa346f6c3">&#9670;&#160;</a></span>flushGDALCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::Hypercube::flushGDALCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a010309d71bd68a2f7858b173335b803e" name="a010309d71bd68a2f7858b173335b803e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010309d71bd68a2f7858b173335b803e">&#9670;&#160;</a></span>geoToPixel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,14 +384,39 @@ Atributos privados</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>pX</em>, </span></td>
+          <td class="paramtype">double &amp;</td>          <td class="paramname"><span class="paramname"><em>pX</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>pY</em></span>&#160;) const</td>
+          <td class="paramtype">double &amp;</td>          <td class="paramname"><span class="paramname"><em>pY</em></span>&#160;) const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a088c1524c7eae8c8b338f837573824d4" name="a088c1524c7eae8c8b338f837573824d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a088c1524c7eae8c8b338f837573824d4">&#9670;&#160;</a></span>getGeoTransformValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEU::Hypercube::getGeoTransformValues </td>
+          <td>(</td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>geoTrf</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -403,6 +478,31 @@ Atributos privados</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">uint16_t GEU::Hypercube::height </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c68db6144a086bab4e2fffc0151bb6c" name="a5c68db6144a086bab4e2fffc0151bb6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c68db6144a086bab4e2fffc0151bb6c">&#9670;&#160;</a></span>isLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::Hypercube::isLoaded </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td> const</td>
@@ -640,8 +740,8 @@ Atributos privados</h2></td></tr>
 </div>
 </div>
 <hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
-<li>D:/GEU/GEUModules/Hiperespectral/Source/<a class="el" href="../../d7/d05/_hypercube_8h_source.html">Hypercube.h</a></li>
-<li>D:/GEU/GEUModules/Hiperespectral/Source/<a class="el" href="../../d0/d07/_hypercube_8cpp.html">Hypercube.cpp</a></li>
+<li>D:/GEU/GEUCore/Source/DataTypes/<a class="el" href="../../d7/d05/_hypercube_8h_source.html">Hypercube.h</a></li>
+<li>D:/GEU/GEUCore/Source/DataTypes/<a class="el" href="../../d0/d07/_hypercube_8cpp.html">Hypercube.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

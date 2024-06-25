@@ -75,6 +75,29 @@ var NAVTREE =
         [ "Cómo activar un módulo desactivado", "de/d01/md__d_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-activar-un-módulo-desactivado", null ]
       ] ]
     ] ],
+    [ "Índices de vegetación y análisis hiperespectral", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html", [
+      [ "Un poco de teoría", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#un-poco-de-teoría", [
+        [ "Región visible", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#región-visible", null ],
+        [ "Región NIR", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#región-nir", null ],
+        [ "Red Edge", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#red-edge", null ]
+      ] ],
+      [ "Analisis_HyperGUIAdapter", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#analisis_hyperguiadapter", [
+        [ "NDVI + NDRE", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#ndvi--ndre", null ],
+        [ "TVI", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#tvi", [
+          [ "Cargar el hipercubo", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#cargar-el-hipercubo", null ],
+          [ "Leer metadatos", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#leer-metadatos", null ],
+          [ "Leer bandas", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#leer-bandas", null ],
+          [ "Recorrer la imagen pixel a pixel.", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#autotoc_md1-recorrer-la-imagen-pixel-a-pixel", null ],
+          [ "Calcular TVI", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#autotoc_md2-calcular-tvi", null ],
+          [ "Normalizar valores", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#autotoc_md3-normalizar-valores", null ]
+        ] ],
+        [ "MSAVI", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#msavi", null ],
+        [ "Output", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#output", [
+          [ "CSV", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#csv", null ],
+          [ "JPEG", "d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#jpeg", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Localización", "d6/d01/md__d_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html", [
       [ "Incorporación de un nuevo idioma", "d6/d01/md__d_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#incorporación-de-un-nuevo-idioma", null ],
       [ "Uso de cadenas localizadas", "d6/d01/md__d_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas", null ]
@@ -133,38 +156,40 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d01/class_database_connector.html#abe629f9878750399489d6c42a92303fc",
-"d2/d00/class_g_e_u_1_1_database_new_raw_popup.html#a058743aa989ed945783ec4277592c114",
-"d2/d03/class_g_e_u_1_1_n_a_s_session.html",
-"d2/d07/classjson_1_1reader.html#a304413feee974df0795b87b3d8b8a5a3",
-"d3/d05/class_g_e_u_1_1_hypercube.html#a37499138ea9a2aae26d8438d54486358",
-"d4/d01/class_g_e_u_1_1_light_properties.html#ad4b674b446160aee4562468f521811a5",
-"d4/d07/_gui_utilities_8h.html#a61e13de22fcd4360ee940efb13a4e96f",
-"d4/d07/class_g_e_u_1_1_point_cloud.html#ae93bdbd3e8d172ecea5dd9abbc3668cb",
-"d5/d01/_icons_font_awesome6_8h.html#a14a4f15010b9e2431dd2c6b3efca45dc",
-"d5/d01/_icons_font_awesome6_8h.html#a421e936611cb7faaec5dfdae4654bba4",
-"d5/d01/_icons_font_awesome6_8h.html#a700d5cab21b23ffd687bea6cfad210fc",
-"d5/d01/_icons_font_awesome6_8h.html#a9c854e9475b76dae4cc972406c518586",
-"d5/d01/_icons_font_awesome6_8h.html#aca1c692abd07905b29f16cdeff9709dd",
-"d5/d01/_icons_font_awesome6_8h.html#af875a10d803f5d8f13694c402aa488f7",
-"d5/d07/class_g_e_u_1_1_material.html#ad156e095dc135650803b91605c3c051e",
-"d7/d02/_database_connector_8h_source.html",
-"d7/d06/class_g_e_u_1_1_database_query_popup.html#ab112c1bdac2e67f6b58bea1a0c17c2b8",
-"d8/d01/class_g_e_u_1_1_image.html#a63715706340028bbb6ba3d304aa4331d",
-"d9/d01/class_g_e_u_1_1_picking_window.html#ae43b5746c4ebd7a599c6dd9ec18f86ff",
-"d9/d07/class_g_e_u_1_1_camera_projection_1_1_camera_properties.html#acc9ef4337a133d2df49a9ce69f4c4e3d",
-"da/d02/class_g_e_u_1_1_shader_program.html#af679698c65ddcb5403495031ef6b6dbc",
-"db/d03/class_g_e_u_1_1_light.html#a8e65bfbca6bfff59a59c36939c0920c9",
-"dc/d00/_shader_manager_8h.html",
-"dc/d02/struct_g_e_u_1_1_thermal_augment_1_1_thermal_image_params.html#ab16dfb2b83f39d5e871d22beaed781b6",
-"dd/d01/class_g_e_u_1_1_memory_manager.html#a3d28d6fa8fbfb20db613d22394ee19a8",
-"dd/d07/struct_database_1_1_vuelo.html#a51e778b9e9455e49ef6a4c7281d52f51",
+"d1/d01/class_database_connector.html#a1bc000ca5bfe0d511a32341d2cb6269e",
+"d1/d06/class_progress_bar.html#a12cbb67dfe8386cabd42db988bf8c60c",
+"d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a1589b3fea56264c818c48d8cac81ec5a",
+"d2/d04/class_g_e_u_1_1_vegetation_index.html#a395588fdf220ddb6681111f76da0ac2d",
+"d3/d00/_camera_axis_window_8cpp.html",
+"d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a4dc25bbb3f52a3eee9dda90f4e695195",
+"d4/d01/class_g_e_u_1_1_light_properties.html#ad6b2cde8a5d2212ab488f572a37b7c2e",
+"d4/d07/_gui_utilities_8h.html#a52cb29f50d78b4fefd0f7f5e84483046",
+"d4/d07/class_g_e_u_1_1_point_cloud.html#add958587322ada7fe41aa36de8f327f4",
+"d5/d01/_icons_font_awesome6_8h.html#a0ec1230f8e7be741fe27164b447ce236",
+"d5/d01/_icons_font_awesome6_8h.html#a3db352079b01a0e770afd89502ef285e",
+"d5/d01/_icons_font_awesome6_8h.html#a6aa93f82cc80428c63dcd676d09abaa9",
+"d5/d01/_icons_font_awesome6_8h.html#a998a6af039c0131c8dc7935086dfbdd7",
+"d5/d01/_icons_font_awesome6_8h.html#ac5e304c726399f571b935d2db4850ed1",
+"d5/d01/_icons_font_awesome6_8h.html#af50712aa81869aabed6add9c4b49880b",
+"d5/d07/class_g_e_u_1_1_material.html#a7786e2e385d628b59b4b05c76bc2bf3e",
+"d7/d00/class_g_e_u_1_1_calculator_m_s_a_v_i.html#a0a5dd1c5256b5e660803b05659d35691",
+"d7/d06/class_g_e_u_1_1_database_query_popup.html#a4e52d1642cc1929b98b35fc802e60bfa",
+"d7/d07/namespace_c_u_r_l_wrapper.html#a3585b90ea77ef1dac9d94a88de43a9c2",
+"d8/d07/classjson_1_1jobject.html#ab785f1c8b2636212e0d49b711fa4fba3",
+"d9/d05/class_g_e_u_1_1_input_manager.html#a7639203734a2042d404524d1b6cd8714",
+"da/d01/_thermal_augment_8cpp.html#a7c807c8245f65ea985a6bf15cb8ce3e9",
+"da/d06/class_g_e_u_1_1_framebuffer.html#a6e150e847b3fde32487d8ab4213299eb",
+"db/d03/struct_g_e_u_1_1_v_a_o_1_1_v_b_o_slot__definition.html",
+"dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a02559507d7f291afc43075aa49bbdbfe",
+"dc/d06/class_g_e_u_1_1_texture.html",
+"dd/d02/struct_g_e_u_1_1_hyperspectral_data.html#a13d391c036eb162b83c4babf225f028f",
+"dd/d07/struct_database_1_1_vuelo.html#a821c9c3660702e20fb00d1b698683558",
 "de/d03/_im_gui_file_dialog_8h.html#ae28249270048d8083dbd4e41600e9541",
-"de/d04/class_g_e_u_1_1_renderer.html#ac96b562eda756b0f331f82a098fdf60d",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a413468c612b3bd1e759ba67316fdeb00",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573abeb80f5fe2d6fb8cf96bb90b23f6c11a",
-"df/d05/class_g_e_u_1_1_i___g_u_i_popup.html#ae9b49e17e92fd6871c053ac99ab05f2a",
-"globals_type.html"
+"de/d04/class_g_e_u_1_1_renderer.html#a7d3cf546fafbed1fe2977e007fc15f84",
+"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a274f18091607c97944b5d5ea13bc1044",
+"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573aa868143af831231e0c6b925f852ac20f",
+"df/d02/class_g_e_u_1_1_windows_comm_call.html",
+"functions_n.html"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

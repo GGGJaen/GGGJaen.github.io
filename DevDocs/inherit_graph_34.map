@@ -1,23 +1,3 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$dc/d03/class_g_e_u_1_1_i___g_u_i_window.html" title="ImGUI window interface adapter class." alt="" coords="5,249,141,276"/>
-<area shape="rect" id="Node000001" href="$d5/d00/class_g_e_u_1_1_camera_axis_window.html" title="Camera&#45;based axis window: shows world axis relative to camera movements." alt="" coords="216,5,390,32"/>
-<area shape="poly" id="edge15_Node000000_Node000001" title=" " alt="" coords="78,233,92,190,113,138,145,86,164,62,187,42,214,27,217,32,190,46,168,66,149,89,118,141,97,192,83,235"/>
-<area shape="rect" id="Node000002" href="$d6/d04/class_g_e_u_1_1_database_downloaded_manage_window.html" title=" " alt="" coords="189,56,417,99"/>
-<area shape="poly" id="edge16_Node000000_Node000002" title=" " alt="" coords="85,234,125,171,154,137,187,108,207,97,210,102,190,113,157,141,130,174,90,237"/>
-<area shape="rect" id="Node000003" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html" title=" " alt="" coords="198,123,408,149"/>
-<area shape="poly" id="edge17_Node000000_Node000003" title=" " alt="" coords="94,236,134,196,160,176,187,159,216,147,218,152,190,164,163,180,138,200,97,240"/>
-<area shape="rect" id="Node000004" href="$dc/d07/class_g_e_u_1_1_debug_window.html" title=" " alt="" coords="233,173,373,200"/>
-<area shape="poly" id="edge18_Node000000_Node000004" title=" " alt="" coords="114,240,188,209,232,197,233,203,190,215,116,245"/>
-<area shape="rect" id="Node000005" href="$db/d00/class_g_e_u_1_1_details_window.html" title="Inspector selection details window: allow to manipulate scene contents properties." alt="" coords="231,224,375,251"/>
-<area shape="poly" id="edge19_Node000000_Node000005" title=" " alt="" coords="156,251,230,243,231,248,157,256"/>
-<area shape="rect" id="Node000006" href="$da/d01/class_g_e_u_1_1_inspector_window.html" title="Scene inspector window: lists scene contents." alt="" coords="225,275,381,301"/>
-<area shape="poly" id="edge20_Node000000_Node000006" title=" " alt="" coords="157,269,225,277,224,282,156,274"/>
-<area shape="rect" id="Node000007" href="$df/d00/class_g_e_u_1_1_materials_window.html" title="Application materials list window: allow material selection for details window." alt="" coords="225,325,381,352"/>
-<area shape="poly" id="edge21_Node000000_Node000007" title=" " alt="" coords="116,280,190,311,230,322,229,327,188,316,114,285"/>
-<area shape="rect" id="Node000008" href="$d9/d01/class_g_e_u_1_1_picking_window.html" title=" " alt="" coords="230,376,376,403"/>
-<area shape="poly" id="edge22_Node000000_Node000008" title=" " alt="" coords="97,286,138,325,163,345,190,362,230,376,228,381,188,366,160,350,134,329,94,290"/>
-<area shape="rect" id="Node000009" href="$da/d04/class_g_e_u_1_1_settings_window.html" title="Application settings window: handles application&#45;wide parameters and behaviours." alt="" coords="227,427,379,453"/>
-<area shape="poly" id="edge23_Node000000_Node000009" title=" " alt="" coords="90,289,129,352,157,385,190,412,228,429,226,434,187,417,153,389,125,355,85,292"/>
-<area shape="rect" id="Node000010" href="$d0/d07/class_g_e_u_1_1_stats_window.html" title="Application performance windows: shows graphs and values for current and recent performance." alt="" coords="236,477,370,504"/>
-<area shape="poly" id="edge24_Node000000_Node000010" title=" " alt="" coords="85,290,99,330,120,377,151,424,169,445,190,463,212,475,236,483,235,488,210,480,187,468,166,449,147,427,116,379,94,332,80,292"/>
+<area shape="rect" id="Node000000" href="$d3/d05/class_g_e_u_1_1_hypercube.html" title=" " alt="" coords="5,5,125,32"/>
 </map>

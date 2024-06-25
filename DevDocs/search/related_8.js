@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['thermalenvironment_0',['ThermalEnvironment',['../d0/d07/class_env_point_cloud.html#a1c1faef7fc6caf261e9f5ddf8a88b7f0',1,'EnvPointCloud']]],
-  ['thermalguiadapter_1',['ThermalGUIAdapter',['../d3/d00/class_g_e_u_1_1_thermal_augment.html#a5a0a096d8ce55e1db6c270487c48c4c9',1,'GEU::ThermalAugment']]],
-  ['treesegmentationguiadapter_2',['TreeSegmentationGUIAdapter',['../d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#af6d8979535bed040c364556fe5d89b4b',1,'GEU::ImageTreeSegmentation']]]
+  ['scene_0',['Scene',['../dd/d04/class_g_e_u_1_1_camera.html#a032858ae1fe02d2d1170981c2af2d67c',1,'GEU::Camera']]],
+  ['singleton_1',['Singleton',['../d7/d06/class_g_e_u_1_1_shader_manager.html#ac14a8b7cbcbd5a98fc75ac3df176d864',1,'GEU::ShaderManager::Singleton'],['../d1/d01/class_database_connector.html#ac14a8b7cbcbd5a98fc75ac3df176d864',1,'DatabaseConnector::Singleton'],['../d2/d04/class_locale_strings.html#ac14a8b7cbcbd5a98fc75ac3df176d864',1,'LocaleStrings::Singleton']]]
 ];

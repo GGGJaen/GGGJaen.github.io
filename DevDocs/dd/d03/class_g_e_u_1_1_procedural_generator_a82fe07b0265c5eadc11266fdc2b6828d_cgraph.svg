@@ -58,7 +58,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d8/d04/class_im_gui_toast.html#ad407856d2c8fda249ac82e3cb2cb4c86" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d8/d04/class_im_gui_toast.html#af34c66201193f2aa7d728005399f35d8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="303.5,-20 184.75,-20 184.75,0 303.5,0 303.5,-20"/>
 <text text-anchor="middle" x="244.12" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImGuiToast::setContent</text>
 </a>

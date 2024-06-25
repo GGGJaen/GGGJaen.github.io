@@ -1,0 +1,7 @@
+<map id="GEU::PointCloud::getAttribute" name="GEU::PointCloud::getAttribute">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,201,69"/>
+<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#add4c3c702ba87bf04a364154adc25523" title=" " alt="" coords="270,5,442,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,42,255,36,255,41,201,47"/>
+<area shape="rect" id="Node000003" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#af01315dec45a1f2cfb2a1714f5e13640" title="Cambia a la banda especificada del atributo indicado." alt="" coords="249,72,463,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,65,233,68,233,74,201,70"/>
+</map>

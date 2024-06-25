@@ -299,7 +299,7 @@
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="../../dd/d01/class_g_e_u_1_1_file_manager.html#a221f7bdde6217593a27b991bae1cb246" target="_top" xlink:title="Carga la nube de puntos especificada.">
+<g id="a_Node000016"><a xlink:href="../../dd/d01/class_g_e_u_1_1_file_manager.html#ab0c90929ed79e4421e1486d3abfb2e9c" target="_top" xlink:title="Carga la nube de puntos especificada.">
 <polygon fill="white" stroke="#666666" points="288.88,-440 146.12,-440 146.12,-408 288.88,-408 288.88,-440"/>
 <text text-anchor="start" x="154.12" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::FileManager::loadPoint</text>
 <text text-anchor="middle" x="217.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">Cloud</text>
@@ -891,7 +891,7 @@
 <!-- Node42 -->
 <g id="Node000042" class="node">
 <title>Node42</title>
-<g id="a_Node000042"><a xlink:href="../../df/d03/namespace_im_gui.html#ab753b79282e23ce81bb5f1181243fe96" target="_top" xlink:title="Removes a notification from the list of notifications.">
+<g id="a_Node000042"><a xlink:href="../../df/d03/namespace_im_gui.html#aa04ce2e41fffdab888e8f9a4d1b021a2" target="_top" xlink:title="Removes a notification from the list of notifications.">
 <polygon fill="white" stroke="#666666" points="484.5,-759 354.5,-759 354.5,-739 484.5,-739 484.5,-759"/>
 <text text-anchor="middle" x="419.5" y="-745.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImGui::RemoveNotification</text>
 </a>

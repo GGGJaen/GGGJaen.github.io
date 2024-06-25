@@ -19,7 +19,6 @@ var class_g_e_u_1_1_material =
     [ "MaterialList", "d5/d07/class_g_e_u_1_1_material.html#a664e204762f0ede656db90abe8e2608b", null ],
     [ "_activeSubroutine", "d5/d07/class_g_e_u_1_1_material.html#a32b3171a7c60318746263910112defc4", null ],
     [ "_associatedShader", "d5/d07/class_g_e_u_1_1_material.html#aa382c01615f7b585175d96dc659b2ed2", null ],
-    [ "_band", "d5/d07/class_g_e_u_1_1_material.html#aa0b94caf0b941486bc51f6e8dc813c1b", null ],
     [ "_displacementFactor", "d5/d07/class_g_e_u_1_1_material.html#a1c20a229b8d1919fc5b81672b6620894", null ],
     [ "_enabledSubroutines", "d5/d07/class_g_e_u_1_1_material.html#afecb821fe69c7af4a9bc8205195efd86", null ],
     [ "_name", "d5/d07/class_g_e_u_1_1_material.html#ac48a52a8b314e3973abc72328f381214", null ],

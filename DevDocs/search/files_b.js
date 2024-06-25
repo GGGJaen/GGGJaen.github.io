@@ -18,5 +18,7 @@ var searchData=
   ['multiespectralguiadapter_2ecpp_15',['MultiespectralGUIAdapter.cpp',['../d8/d00/_multiespectral_g_u_i_adapter_8cpp.html',1,'']]],
   ['multiespectralguiadapter_2eh_16',['MultiespectralGUIAdapter.h',['../d8/d04/_multiespectral_g_u_i_adapter_8h.html',1,'']]],
   ['multiespectralpch_2ecpp_17',['MultiespectralPch.cpp',['../de/d02/_multiespectral_pch_8cpp.html',1,'']]],
-  ['multiespectralpch_2eh_18',['MultiespectralPch.h',['../d2/d03/_multiespectral_pch_8h.html',1,'']]]
+  ['multiespectralpch_2eh_18',['MultiespectralPch.h',['../d2/d03/_multiespectral_pch_8h.html',1,'']]],
+  ['multispectraldata_2ecpp_19',['MultispectralData.cpp',['../d3/d01/_multispectral_data_8cpp.html',1,'']]],
+  ['multispectraldata_2eh_20',['MultispectralData.h',['../d1/d05/_multispectral_data_8h.html',1,'']]]
 ];

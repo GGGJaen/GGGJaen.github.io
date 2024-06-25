@@ -12,7 +12,7 @@ var class_g_e_u_1_1_multiespectral_g_u_i_adapter =
     [ "previewVegetationIndex", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a3979fa9ce0e1e8172b74b1bcfa172e29", null ],
     [ "renderGuiObject", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d", null ],
     [ "resetValues", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afbf7eda8f85e1d740f99c1da54567df5", null ],
-    [ "segmentation", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a32f3182b859748ef0a92be0ef222aed9", null ],
+    [ "segmentation", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab650976eaeb0570f205b73158d5aaa47", null ],
     [ "setCameraFile", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#aae196576073535f02bc9985c60ba4b23", null ],
     [ "setImgDirectory", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ab90fbe1e37af16557c264ed1c7eddb38", null ],
     [ "_cameraMaker", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#abe785cccba44d5a41b50c57e0e28f654", null ],

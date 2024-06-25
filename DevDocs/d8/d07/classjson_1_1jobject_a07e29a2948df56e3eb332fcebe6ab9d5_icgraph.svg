@@ -170,7 +170,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../d7/d05/struct_database_1_1_objeto.html#a23779e9f38a1d1ed6ff784d1e7969953" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="../../d7/d05/struct_database_1_1_objeto.html#ab2287b23f42be342984274bffb67cd6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="668.5,-170 525.75,-170 525.75,-150 668.5,-150 668.5,-170"/>
 <text text-anchor="middle" x="597.12" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Objeto::fromQuery</text>
 </a>

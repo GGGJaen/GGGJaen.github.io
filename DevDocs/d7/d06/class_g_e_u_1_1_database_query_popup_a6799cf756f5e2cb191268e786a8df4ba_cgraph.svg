@@ -59,7 +59,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../df/d03/namespace_im_gui.html#aefd878b805c4319701726466e38af25f" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../df/d03/namespace_im_gui.html#ab1cfdde853c2682d74a3a3528ac09494" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="295.25,-364 191.5,-364 191.5,-344 295.25,-344 295.25,-364"/>
 <text text-anchor="middle" x="243.38" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImGui::DateChooser</text>
 </a>
@@ -365,7 +365,7 @@
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="../../dd/d07/struct_database_1_1_vuelo.html#af2b86fd4bbe70ce92931ba82c3f0974b" target="_top" xlink:title=" ">
+<g id="a_Node000017"><a xlink:href="../../dd/d07/struct_database_1_1_vuelo.html#a20525a1e0dd0ffd37beda367aa49bf95" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="695.12,-26 556.12,-26 556.12,-6 695.12,-6 695.12,-26"/>
 <text text-anchor="middle" x="625.62" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Database::Vuelo::fromQuery</text>
 </a>

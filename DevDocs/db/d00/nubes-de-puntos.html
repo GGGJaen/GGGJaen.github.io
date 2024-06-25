@@ -112,7 +112,7 @@ Como obtener la nube</h3>
 <div class="line"><span class="keywordflow">if</span>(cloud){</div>
 <div class="line">  <span class="comment">//Do things</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_renderer_html_ae941cdb83d15bb05ac73cf19173a1f84"><div class="ttname"><a href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">GEU::Renderer::getPointCloud</a></div><div class="ttdeci">PointCloud * getPointCloud(const std::string &amp;cloudName) const</div><div class="ttdoc">get the cloud with the cloud name specified if it exists in the current active scene.</div><div class="ttdef"><b>Definition</b> Renderer.cpp:493</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_renderer_html_ae941cdb83d15bb05ac73cf19173a1f84"><div class="ttname"><a href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">GEU::Renderer::getPointCloud</a></div><div class="ttdeci">PointCloud * getPointCloud(const std::string &amp;cloudName) const</div><div class="ttdoc">get the cloud with the cloud name specified if it exists in the current active scene.</div><div class="ttdef"><b>Definition</b> Renderer.cpp:759</div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_singleton_html_a47c7e7c2110f4cc59c9ff1f5594c366e"><div class="ttname"><a href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Singleton&lt; Renderer &gt;::getInstance</a></div><div class="ttdeci">static Renderer * getInstance()</div><div class="ttdef"><b>Definition</b> Singleton.h:27</div></div>
 </div><!-- fragment --><p>En caso de necesitar una subnube de la nube original podremos localizarla de similar manera:</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
@@ -122,7 +122,7 @@ Como obtener la nube</h3>
 <div class="line">    <span class="comment">//Do things</span></div>
 <div class="line">  }</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_abef36236473bdb44c9cff9d603e006c6"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6">GEU::PointCloud::getSubcloud</a></div><div class="ttdeci">PointCloud * getSubcloud(const std::string &amp;subcloudName) const</div><div class="ttdoc">Look for the specified subcloud and return it if found.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:646</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_abef36236473bdb44c9cff9d603e006c6"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6">GEU::PointCloud::getSubcloud</a></div><div class="ttdeci">PointCloud * getSubcloud(const std::string &amp;subcloudName) const</div><div class="ttdoc">Look for the specified subcloud and return it if found.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:619</div></div>
 </div><!-- fragment --><h3><a class="anchor" id="como-añadir-puntos"></a>
 Como añadir puntos</h3>
 <p>Se pueden utilizar los métodos <em>addNewPoint</em>, <em>addNewPoints</em> o obtener el vector de puntos mediante <em>getPoints</em> y modificarlo directamente. Todas estas modificaciones se pueden realizar desde hilos distintos al principal, ya que todas las llamadas a OpenGL se encuentran aisladas de estos métodos.</p>
@@ -136,7 +136,7 @@ Como modificar los puntos de la nube</h3>
 <div class="line">  <span class="comment">//Do things with the points.</span></div>
 <div class="line">  cloud-&gt;<a class="code hl_function" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">needUpdate</a>();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a3810f1918091d26db6f7c634570c8a69"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">GEU::PointCloud::needUpdate</a></div><div class="ttdeci">void needUpdate()</div><div class="ttdoc">Obliga a actualizar los recursos OpenGL de esta nube en la siguiente llamada de dibujado.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:731</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a3810f1918091d26db6f7c634570c8a69"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">GEU::PointCloud::needUpdate</a></div><div class="ttdeci">void needUpdate()</div><div class="ttdoc">Obliga a actualizar los recursos OpenGL de esta nube en la siguiente llamada de dibujado.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:746</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

@@ -1,3 +1,13 @@
 <map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$dd/d01/class_g_e_u_1_1_memory_manager.html" title=" " alt="" coords="5,5,160,32"/>
+<area shape="rect" id="Node000000" href="$d4/d04/class_g_e_u_1_1_light_model.html" title=" " alt="" coords="5,107,126,133"/>
+<area shape="rect" id="Node000001" href="$d5/d01/class_g_e_u_1_1_ambient_light.html" title=" " alt="" coords="180,5,314,32"/>
+<area shape="poly" id="edge42_Node000000_Node000001" title=" " alt="" coords="93,94,130,68,172,42,199,30,201,35,175,46,133,72,97,99"/>
+<area shape="rect" id="Node000002" href="$df/d03/class_g_e_u_1_1_directional_light.html" title=" " alt="" coords="174,56,320,83"/>
+<area shape="poly" id="edge43_Node000000_Node000002" title=" " alt="" coords="130,99,196,81,197,86,131,104"/>
+<area shape="rect" id="Node000003" href="$d0/d02/class_g_e_u_1_1_point_light.html" title=" " alt="" coords="189,107,305,133"/>
+<area shape="poly" id="edge44_Node000000_Node000003" title=" " alt="" coords="141,117,189,117,189,123,141,123"/>
+<area shape="rect" id="Node000004" href="$d8/d03/class_g_e_u_1_1_rim_light.html" title=" " alt="" coords="193,157,301,184"/>
+<area shape="poly" id="edge45_Node000000_Node000004" title=" " alt="" coords="131,136,197,154,196,159,130,141"/>
+<area shape="rect" id="Node000005" href="$df/d07/class_g_e_u_1_1_spot_light.html" title=" " alt="" coords="191,208,303,235"/>
+<area shape="poly" id="edge46_Node000000_Node000005" title=" " alt="" coords="97,141,133,168,175,194,201,205,199,210,172,198,130,172,93,146"/>
 </map>

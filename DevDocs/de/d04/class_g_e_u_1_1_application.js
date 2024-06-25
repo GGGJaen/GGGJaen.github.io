@@ -8,5 +8,6 @@ var class_g_e_u_1_1_application =
     [ "_gui", "de/d04/class_g_e_u_1_1_application.html#a8ad31e1ddfde7c44b263e9e2ecfc6984", null ],
     [ "_renderer", "de/d04/class_g_e_u_1_1_application.html#a0507f3046d139df8e4b117fb5ca1b8a6", null ],
     [ "_title", "de/d04/class_g_e_u_1_1_application.html#a0e6b0aa76f087d586b8e0c2b12384fe9", null ],
-    [ "_window", "de/d04/class_g_e_u_1_1_application.html#ad2ca94c1a1a6990e18d4d81d3c477756", null ]
+    [ "_window", "de/d04/class_g_e_u_1_1_application.html#ad2ca94c1a1a6990e18d4d81d3c477756", null ],
+    [ "initialized", "de/d04/class_g_e_u_1_1_application.html#a10d21037d95eafd637c57dd21490f37f", null ]
 ];

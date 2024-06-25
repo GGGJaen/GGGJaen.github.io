@@ -1,36 +1,36 @@
 <map id="AABB::min" name="AABB::min">
-<area shape="rect" id="Node000001" title=" " alt="" coords="736,297,823,324"/>
-<area shape="rect" id="Node000002" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a8cfce2a37af19646fd0c06ee3fb077ca" title=" " alt="" coords="500,5,648,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="773,282,767,234,752,175,726,114,708,86,687,62,668,49,647,40,649,35,671,44,690,58,712,83,731,112,757,173,772,233,779,281"/>
-<area shape="rect" id="Node000003" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a1931d245c0168a9e7866bc8dd7904a07" title=" " alt="" coords="497,72,651,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="768,283,757,249,740,210,717,170,687,135,650,114,653,109,690,131,721,167,745,207,762,247,774,282"/>
-<area shape="rect" id="Node000004" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5e5a6ec203139618f54a6479cc12dd56" title=" " alt="" coords="235,291,411,333"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="766,284,754,257,737,228,715,201,687,180,627,154,601,149,575,147,523,157,460,180,421,202,387,233,360,264,340,292,335,289,356,261,383,229,418,198,458,175,521,152,575,142,601,143,629,149,690,175,719,197,742,225,759,255,771,282"/>
-<area shape="rect" id="Node000005" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5fb6272591570506c14b2e194a9b3805" title="Initialize the voxel grid." alt="" coords="486,189,662,232"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="750,290,721,267,687,246,661,235,663,230,690,242,724,263,754,285"/>
-<area shape="rect" id="Node000006" href="$dd/d00/class_procedural_voxel.html#a9aaf6de90f83739a93fa50ba8758c593" title=" " alt="" coords="460,256,687,299"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="721,304,687,298,688,293,722,299"/>
-<area shape="rect" id="Node000007" href="$dd/d00/class_procedural_voxel.html#a1d4e756ee058170262222d52628f850b" title=" " alt="" coords="491,323,657,365"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="722,323,658,333,657,328,721,317"/>
-<area shape="rect" id="Node000008" href="$db/d00/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="474,389,673,432"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="754,336,724,359,690,380,663,391,661,386,687,375,721,354,750,332"/>
-<area shape="rect" id="Node000009" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="459,456,688,499"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="769,339,739,393,716,422,690,446,670,458,668,453,687,442,712,418,734,391,764,337"/>
-<area shape="rect" id="Node000010" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#ab8413581fb4ba7ab9709a72bca03ce64" title="Assign each point of the PointCloud to the corresponding voxel in the voxel grid and computes the cor..." alt="" coords="486,523,662,565"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="776,340,766,379,749,425,725,472,690,513,663,529,661,525,687,509,720,469,745,423,761,377,771,339"/>
-<area shape="rect" id="Node000011" href="$dc/d07/class_a_a_b_b.html#ac7df26fada02a660519ce8829eec1bf2" title=" " alt="" coords="522,613,626,640"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="779,340,772,390,757,453,730,520,712,551,690,579,661,602,627,617,625,612,658,597,686,575,708,548,726,517,751,452,766,389,773,339"/>
-<area shape="poly" id="edge11_Node000011_Node000004" title=" " alt="" coords="506,610,480,597,457,579,424,533,388,464,331,335,335,333,393,462,428,530,461,575,483,592,508,605"/>
-<area shape="poly" id="edge18_Node000011_Node000011" title=" " alt="" coords="609,600,597,594,574,592,552,594,541,599,538,604,543,611,539,614,532,605,537,595,551,589,574,587,598,589,611,596"/>
-<area shape="rect" id="Node000012" href="$d9/d01/class_g_e_u_1_1_picking_window.html#a898e5f19fa3ef08a325e02d15e15532f" title=" " alt="" coords="250,517,396,560"/>
-<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="518,610,385,563,387,558,520,605"/>
-<area shape="rect" id="Node000013" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a385e658fab71674d09ea486a1e3422fa" title=" " alt="" coords="6,621,186,648"/>
-<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="506,626,380,623,235,625,186,628,186,623,235,620,380,618,506,621"/>
-<area shape="rect" id="Node000014" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd" title=" " alt="" coords="252,635,394,677"/>
-<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="506,637,395,650,394,645,505,632"/>
-<area shape="rect" id="Node000015" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a0c83f102e4f53584cddc1cc06b57aa09" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="240,701,406,744"/>
-<area shape="poly" id="edge15_Node000011_Node000015" title=" " alt="" coords="523,649,412,692,382,703,380,698,410,687,521,644"/>
-<area shape="poly" id="edge17_Node000015_Node000013" title=" " alt="" coords="249,698,234,692,131,651,133,646,236,687,251,693"/>
-<area shape="rect" id="Node000016" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a444d5517e693d1dd9b0a230515dcdd69" title=" " alt="" coords="5,709,187,736"/>
-<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="224,725,187,725,187,720,224,720"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="527,323,613,349"/>
+<area shape="rect" id="Node000002" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a8cfce2a37af19646fd0c06ee3fb077ca" title=" " alt="" coords="290,5,439,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="565,307,560,255,546,189,535,154,520,121,501,89,477,62,459,49,438,39,440,35,462,44,481,58,505,86,524,118,540,152,551,188,565,254,571,307"/>
+<area shape="rect" id="Node000003" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a1931d245c0168a9e7866bc8dd7904a07" title=" " alt="" coords="287,72,442,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="561,309,551,270,535,223,511,176,477,135,460,123,441,113,443,108,463,118,481,131,515,173,540,221,556,268,566,307"/>
+<area shape="rect" id="Node000004" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5e5a6ec203139618f54a6479cc12dd56" title=" " alt="" coords="15,131,192,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="559,309,548,277,532,241,508,207,477,180,444,162,409,149,333,135,259,133,192,138,192,133,259,128,334,130,410,144,446,157,481,175,512,203,536,239,553,275,564,307"/>
+<area shape="rect" id="Node000005" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5fb6272591570506c14b2e194a9b3805" title="Initialize the voxel grid." alt="" coords="276,315,453,357"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="511,339,453,339,453,333,511,333"/>
+<area shape="rect" id="Node000006" href="$dd/d00/class_procedural_voxel.html#a9aaf6de90f83739a93fa50ba8758c593" title=" " alt="" coords="251,381,478,424"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="520,358,480,372,444,383,442,378,478,367,518,353"/>
+<area shape="rect" id="Node000007" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a2b9f0f4717f67aef7726684a3a7c5747" title=" " alt="" coords="275,189,454,216"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="551,311,521,268,501,248,478,230,453,219,456,214,480,226,504,244,525,265,556,307"/>
+<area shape="rect" id="Node000009" href="$dd/d00/class_procedural_voxel.html#a1d4e756ee058170262222d52628f850b" title=" " alt="" coords="281,448,448,491"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="554,364,523,402,480,438,449,453,447,449,478,434,519,398,550,360"/>
+<area shape="rect" id="Node000010" href="$db/d00/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="265,515,464,557"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="564,365,552,397,535,435,511,472,481,505,463,516,460,512,477,501,507,469,530,432,547,395,559,363"/>
+<area shape="rect" id="Node000011" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="250,581,479,624"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="568,366,561,411,545,466,519,522,502,548,481,571,465,583,462,579,477,567,498,545,515,520,540,464,555,409,563,365"/>
+<area shape="rect" id="Node000012" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#ab8413581fb4ba7ab9709a72bca03ce64" title="Assign each point of the PointCloud to the corresponding voxel in the voxel grid and computes the cor..." alt="" coords="276,648,453,691"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="571,365,567,422,554,495,543,534,527,572,507,607,481,638,455,656,452,651,477,634,502,604,522,569,538,532,549,494,562,422,566,365"/>
+<area shape="rect" id="Node000013" href="$dc/d07/class_a_a_b_b.html#ac7df26fada02a660519ce8829eec1bf2" title=" " alt="" coords="312,264,417,291"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="520,319,478,305,416,290,417,285,480,300,522,314"/>
+<area shape="rect" id="Node000008" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a7bcb4c4a764ee9419f0d924477566f60" title=" " alt="" coords="5,197,202,240"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="259,212,202,215,202,210,259,206"/>
+<area shape="poly" id="edge13_Node000013_Node000004" title=" " alt="" coords="307,260,248,230,224,208,200,188,177,176,180,172,203,183,228,204,251,226,310,255"/>
+<area shape="poly" id="edge16_Node000013_Node000008" title=" " alt="" coords="297,265,201,243,202,238,298,260"/>
+<area shape="poly" id="edge18_Node000013_Node000013" title=" " alt="" coords="400,251,387,245,364,243,343,245,331,249,328,255,334,262,329,265,323,255,327,246,342,239,364,237,389,240,402,246"/>
+<area shape="rect" id="Node000014" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a0460cce021c79455138706756f443901" title="Carga un fichero LAS/LAZ." alt="" coords="13,264,194,291"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="297,280,194,280,194,275,297,275"/>
+<area shape="rect" id="Node000015" href="$dd/d01/class_g_e_u_1_1_file_manager.html#aa3240f6c651a6e4f7a0ba2a2f8e69067" title="Carga un fichero PLY." alt="" coords="14,315,193,341"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="298,293,176,317,175,311,297,288"/>
+<area shape="rect" id="Node000016" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd" title=" " alt="" coords="32,365,175,408"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="298,288,274,295,251,305,236,317,228,329,218,342,203,356,176,369,174,365,200,351,214,339,223,326,233,313,248,300,272,290,296,283"/>
 </map>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../db/d00/class_g_e_u_1_1_details_window.html#afef856466732ea159773d087909d0fdf" target="_top" xlink:title="Renders inspector details for 3D model items.">
+<g id="a_Node000002"><a xlink:href="../../db/d00/class_g_e_u_1_1_details_window.html#a5846380c6e133a053b1143f6d464dd70" target="_top" xlink:title="Renders inspector details for 3D model items.">
 <polygon fill="white" stroke="#666666" points="274.25,-82 143.5,-82 143.5,-50 274.25,-50 274.25,-82"/>
 <text text-anchor="start" x="151.5" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::DetailsWindow</text>
 <text text-anchor="middle" x="208.88" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::makeModelItemInspector</text>

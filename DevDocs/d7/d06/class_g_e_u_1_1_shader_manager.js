@@ -3,6 +3,8 @@ var class_g_e_u_1_1_shader_manager =
     [ "ShaderManager", "d7/d06/class_g_e_u_1_1_shader_manager.html#a98cc17a77505b20dfe7991183e361e40", null ],
     [ "~ShaderManager", "d7/d06/class_g_e_u_1_1_shader_manager.html#ae9d6e38b0fed2faa2a7f57e4419d15cc", null ],
     [ "clear", "d7/d06/class_g_e_u_1_1_shader_manager.html#aeb6e52fe9ddd4619ed72e99612fbcdaf", null ],
+    [ "clearComputeShaders", "d7/d06/class_g_e_u_1_1_shader_manager.html#a5327968368117697b55fea2b6b97eae1", null ],
+    [ "clearRenderShaders", "d7/d06/class_g_e_u_1_1_shader_manager.html#a3f7ed9bd4869a3f09673f39bc147e355", null ],
     [ "getComputeShader", "d7/d06/class_g_e_u_1_1_shader_manager.html#ae395ad90096b54ea6d9df0e204d310c7", null ],
     [ "getRenderingShader", "d7/d06/class_g_e_u_1_1_shader_manager.html#a467c277ef2f80bb92d7ad1a887e1f8ac", null ],
     [ "Singleton", "d7/d06/class_g_e_u_1_1_shader_manager.html#ac14a8b7cbcbd5a98fc75ac3df176d864", null ],

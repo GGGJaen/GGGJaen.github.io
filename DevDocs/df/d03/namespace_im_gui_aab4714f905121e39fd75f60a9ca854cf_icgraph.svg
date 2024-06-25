@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d03/namespace_im_gui.html#aefd878b805c4319701726466e38af25f" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d03/namespace_im_gui.html#ab1cfdde853c2682d74a3a3528ac09494" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="472.5,-99 368.75,-99 368.75,-79 472.5,-79 472.5,-99"/>
 <text text-anchor="middle" x="420.62" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImGui::DateChooser</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../df/d03/namespace_im_gui.html#a57706e45b4e0b51aa4e1f93795061ce3" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../df/d03/namespace_im_gui.html#a46434d4ee87edfa265f2dd0f762d54be" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="324.88,-55 202.38,-55 202.38,-35 324.88,-35 324.88,-55"/>
 <text text-anchor="middle" x="263.62" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImGui::TestDateChooser</text>
 </a>
