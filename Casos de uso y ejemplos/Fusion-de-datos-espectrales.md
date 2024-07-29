@@ -26,8 +26,6 @@ Para realizar la fusión entre una nube de puntos, obtenida mediante SfM o LiDAR
 
 {: .important}
 
-> Importante
-> 
 > Es necesario tener instalado Pix4D, además de saber realizar el procesamiento SfM con el mismo.
 
 En primer lugar, debemos generar una nube de puntos SfM utilizando las imágenes multiespectrales. De este proceso, se generarán varios ficheros: la nube de puntos y varios ficheros de metadatos. Si bien la nube de puntos generada puede ser de interés y resulta conveniente guardarla, dedido principalmente a la lentitud del proceso SfM, lo que realmente se necesita son los ficheros de metadatos. Más concretamente, aquel que contiene los parámetros optimizados de la cámara y el que contiene el offset aplicado a la nube. Normalmente tienen el siguiente formato:
@@ -36,7 +34,7 @@ En primer lugar, debemos generar una nube de puntos SfM utilizando las imágenes
 > 
 > NombreNube_offset.xyz
 
-   {: .note}
+{: .note}
 
 > A tener en cuenta
 > 
