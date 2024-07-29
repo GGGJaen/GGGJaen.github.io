@@ -20,8 +20,92 @@ En proceso
 
 # Multiespectral
 
-En proceso
-{: .label .label-yellow }
+## Prerequisitos
+
+Para realizar la fusión entre una nube de puntos, obtenida mediante SfM o LiDAR, y datos multiespectrales en forma de imágenes obtenidas mediante cámaras requerimos de ciertos pasos previos imposibles de realizar en GEU. 
+
+{: .important}
+
+> Importante
+> 
+> Es necesario tener instalado Pix4D, además de saber realizar el procesamiento SfM con el mismo.
+
+En primer lugar, debemos generar una nube de puntos SfM utilizando las imágenes multiespectrales. De este proceso, se generarán varios ficheros: la nube de puntos y varios ficheros de metadatos. Si bien la nube de puntos generada puede ser de interés y resulta conveniente guardarla, dedido principalmente a la lentitud del proceso SfM, lo que realmente se necesita son los ficheros de metadatos. Más concretamente, aquel que contiene los parámetros optimizados de la cámara y el que contiene el offset aplicado a la nube. Normalmente tienen el siguiente formato:
+
+> NombreNube_calibrated_camera_parameters.txt
+> 
+> NombreNube_offset.xyz
+
+   {: .note}
+
+> A tener en cuenta
+> 
+> En caso de estar generando los datos para subirlos a la base de datos, dichos ficheros se debe de incluir como "Additional Data".
+
+El fichero de parámetros de la cámara contiene información sobre la posición y rotación de cada una de las imágenes multiespectral, por lo que resulta esencial para realizar la fusión.
+
+El fichero de offset nos indica que translacción se ha realizado sobre la nube multiespectral generada para ponerla en las coordenadas actuales y, por tanto, es necesaria deshacer para el proceso de fusión. Si bien este fichero es prácticamente esencial, se puede calcular a partir del fichero de offset de la nube RGB y un proceso de alineamiento manual + ICP con Cloud Compare. No obstante, este proceso puede llevar a errores dificil de detectar, además de requerir bastante más esfuerzo por parte del usuario, por lo que se desaconseja su uso.
+
+## Fusión de datos multiespectrales
+
+De manera similar al resto de fusiones, la manera de acceder al módulo de fusión multiespectral es através del menú de fusión, situado en la barra superior de la aplicación: **Fusión -> Multiespectral**. Se abrirá una ventana como esta:
+![multi-window.png](../Assets/Images/multi-window.png)
+
+Nada más abrirla solo se podrán seleccionar los campos esenciales para realizar el proceso de fusión. Conforme se rellenen dichos campos, aparecerán el resto de campos opcionales. 
+
+En primer lugar, debemos seleccionar el directorio donde se encuentran las imágenes multiespectrales. En dicho directorio solo se deben de encontrar las imágenes multiespectrales y nada más. Una vez lo seleccionemos, el módulo lo analizará detectando todas las imágenes presentes, así como el fabricante y el modelo de cámara utilizado. En caso de que se intente fusionar imágenes de un modelo no soportado, se informará al usuario convenientemente. 
+
+![multi-select-directory.png](../Assets/Images/multi-select-directory.png "Interfaz tras seleccionar el directorio de imágenes")
+
+En segundo lugar, debemos seleccionar el fichero de parámetros SfM pulsando el botón *Abrir fichero de cámaras*. Tras abrirlo, al igual que con la selección del directorio de imágenes, se analizará y se informará de cualquier situación anómala detectada.
+
+![multi-select-camera.png](../Assets/Images/multi-select-camera.png "Interfaz tras seleccionar el fichero de cámaras. Se puede ver una advertencia debido a que el nº de cámaras no coincide con el nº de imágenes.")
+
+Tras esto, solo queda seleccionar la nube. Esta se deberá encontrar cargada en GEU para poder ser seleccionada. 
+
+
+
+En este punto se podrá iniciar el proceso de fusión. No obstante, existen tres ficheros adicionales opcionales que se pueden incluir:
+
+- Offset: Fichero que indica la translación a aplicar para alinear las nubes. En un caso típico, se seleccionará esta opción frente a la transformación ICP. Debe de ser un fichero tipo XYZ. También se da la opción de introducir los valores a mano.
+
+- Transformación ICP: Solo necesario en caso de haber tenido que alinear la nube RGB y Multiespectral a mano. Su formato es el siguiente:
+  
+  ```
+  0.999212 -0.019634 0.034462 -71.906822
+  0.022034 0.997254 -0.070687 -6.331425
+  -0.032980 0.071391 0.996899 -1.942858
+  0.000000 0.000000 0.000000 1.000000
+  *
+  1.000000 0.000000 0.000000 0.000000
+  0.000000 1.000000 0.000000 0.000000
+  0.000000 0.000000 1.000000 0.000000
+  0.000000 0.000000 0.000000 1.000000
+  ```
+  
+  Donde una de las matrices es el alineamiento manual y la otra el resultado del alineamiento ICP. En ambos casos, será la nube multiespectral la que se desplace.
+
+- Calibración de cada banda: Factor de calibración de cada banda multiespectral. Sigue el siguiente formato:
+  
+  ```
+  1.0
+  1.0
+  1.0
+  1.0
+  1.0
+  ```
+
+
+
+Una vez se pulse el botón de *Mapeo 3D*, dará comienzo el mismo, bloqueandose todos los campos de la interfaz y apareciendo una barra de progreso que nos informará del mismo. El tiempo de cómputo dependerá tanto del tamaño de la nube y de las imágenes utilizadas como del número de las mismas.
+
+![multi-mapping.png](../Assets/Images/multi-mapping.png)
+
+## Visualización
+
+Una vez realizada la fusión, es posible visualizar cada banda espectral estableciendo el modo de visualización a *Multiespectral* desde la ventana de *detalles* con la nube seleccionada en el *inspector*. Se puede cambiar la banda a visualizar mediante el slider que aparece justo debajo del selector de modo. 
+
+
 
 # Hiperespectral
 
