@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['randomnumbergenerator_0',['RandomNumberGenerator',['../d6/d05/_random_utilities_8h.html#ad81845836de5b6537b5457e07a41773c',1,'RandomUtilities.h']]]
+  ['queryselectioncallback_0',['QuerySelectionCallback',['../d7/d06/class_g_e_u_1_1_database_query_popup.html#ac346c412706e4d64c5f9db5577ce78bb',1,'GEU::DatabaseQueryPopup::QuerySelectionCallback'],['../d7/d06/class_g_e_u_1_1_database_query_popup.html#ac346c412706e4d64c5f9db5577ce78bb',1,'GEU::DatabaseQueryPopup::QuerySelectionCallback']]]
 ];

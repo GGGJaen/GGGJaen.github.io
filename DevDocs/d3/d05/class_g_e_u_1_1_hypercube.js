@@ -13,6 +13,7 @@ var class_g_e_u_1_1_hypercube =
     [ "getGeoTransformValues", "d3/d05/class_g_e_u_1_1_hypercube.html#a088c1524c7eae8c8b338f837573824d4", null ],
     [ "getName", "d3/d05/class_g_e_u_1_1_hypercube.html#a58a38216ec49e32cb1698ae311ae774a", null ],
     [ "getPixelBandsFloat", "d3/d05/class_g_e_u_1_1_hypercube.html#adbc0e160ebae3399f860bb553158a01c", null ],
+    [ "getPixelBandsU32", "d3/d05/class_g_e_u_1_1_hypercube.html#a89704840349752bf9d353df1b60caa87", null ],
     [ "height", "d3/d05/class_g_e_u_1_1_hypercube.html#ae8b7ee1d1bdce6ce0f8b6f4b9192e542", null ],
     [ "isLoaded", "d3/d05/class_g_e_u_1_1_hypercube.html#a5c68db6144a086bab4e2fffc0151bb6c", null ],
     [ "operator=", "d3/d05/class_g_e_u_1_1_hypercube.html#a6e355deade3fba06a27817508b24d1b8", null ],

@@ -1,0 +1,9 @@
+<map id="PinHoleImg" name="PinHoleImg">
+<area shape="rect" id="Node000001" title=" " alt="" coords="45,80,133,107"/>
+<area shape="rect" id="Node000003" href="$d1/d00/class_d_j_i_img.html" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="73,121,47,156,43,153,68,118"/>
+<area shape="rect" id="Node000004" href="$d6/d01/class_micasense_img.html" title=" " alt="" coords="90,155,195,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,118,135,153,131,156,105,121"/>
+<area shape="rect" id="Node000002" href="$d2/d00/class_multispectral_img.html" title=" " alt="" coords="31,5,147,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,48,92,80,86,80,86,48"/>
+</map>

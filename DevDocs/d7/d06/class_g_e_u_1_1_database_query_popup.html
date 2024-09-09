@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -192,8 +192,8 @@ Métodos públicos</h2></td></tr>
 <tr class="memitem:a22764a8a53570961466432ac856eb4fc" id="r_a22764a8a53570961466432ac856eb4fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22764a8a53570961466432ac856eb4fc">renderPopup</a> (<a class="el" href="../../d2/d00/struct_g_e_u_1_1_application_state.html">ApplicationState</a> *appState, <a class="el" href="../../d5/d02/class_g_e_u_1_1_scene.html">Scene</a> *scene) override</td></tr>
 <tr class="memdesc:a22764a8a53570961466432ac856eb4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the popup and its contents.  <br /></td></tr>
 <tr class="separator:a22764a8a53570961466432ac856eb4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cf99167e20e9d5384eff43f86c0c926" id="r_a0cf99167e20e9d5384eff43f86c0c926"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cf99167e20e9d5384eff43f86c0c926">DatabaseQueryPopup</a> (const std::string &amp;id, const <a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx, <a class="el" href="#ac346c412706e4d64c5f9db5577ce78bb">QuerySelectionCallback</a> callback, const <a class="el" href="#ac99c561e4f9992845d08a61cab6809bb">DB_TABLES</a> table=DB_TABLES::DATO, const bool changeTables=true, <a class="el" href="../../da/d03/struct_database_1_1_zona.html">Database::Zona</a> *filtroZona=nullptr)</td></tr>
-<tr class="separator:a0cf99167e20e9d5384eff43f86c0c926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2712fe3821cb434be3d279a1bb613f" id="r_acc2712fe3821cb434be3d279a1bb613f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2712fe3821cb434be3d279a1bb613f">DatabaseQueryPopup</a> (const std::string &amp;id, <a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a> idx, <a class="el" href="#ac346c412706e4d64c5f9db5577ce78bb">QuerySelectionCallback</a> callback, <a class="el" href="#ac99c561e4f9992845d08a61cab6809bb">DB_TABLES</a> table=DB_TABLES::DATO, bool changeTables=true, <a class="el" href="../../da/d03/struct_database_1_1_zona.html">Database::Zona</a> *filtroZona=nullptr)</td></tr>
+<tr class="separator:acc2712fe3821cb434be3d279a1bb613f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6bdaefc8ff872d486302806ce05a183" id="r_ab6bdaefc8ff872d486302806ce05a183"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6bdaefc8ff872d486302806ce05a183">~DatabaseQueryPopup</a> () override</td></tr>
 <tr class="separator:ab6bdaefc8ff872d486302806ce05a183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bf1663eb8ab84b093bb487b62ae6130" id="r_a3bf1663eb8ab84b093bb487b62ae6130"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bf1663eb8ab84b093bb487b62ae6130">openPopup</a> () override</td></tr>
@@ -598,8 +598,8 @@ Gráfico de llamadas de esta función:</div>
 
 </div>
 </div>
-<a id="a0cf99167e20e9d5384eff43f86c0c926" name="a0cf99167e20e9d5384eff43f86c0c926"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cf99167e20e9d5384eff43f86c0c926">&#9670;&#160;</a></span>DatabaseQueryPopup() <span class="overload">[2/2]</span></h2>
+<a id="acc2712fe3821cb434be3d279a1bb613f" name="acc2712fe3821cb434be3d279a1bb613f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc2712fe3821cb434be3d279a1bb613f">&#9670;&#160;</a></span>DatabaseQueryPopup() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,7 +612,7 @@ Gráfico de llamadas de esta función:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>idx</em>, </span></td>
+          <td class="paramtype"><a class="el" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573">LOCALE_STRINGS</a></td>          <td class="paramname"><span class="paramname"><em>idx</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -622,12 +622,12 @@ Gráfico de llamadas de esta función:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ac99c561e4f9992845d08a61cab6809bb">DB_TABLES</a></td>          <td class="paramname"><span class="paramname"><em>table</em><span class="paramdefsep"> = </span><span class="paramdefval">DB_TABLES::DATO</span>, </span></td>
+          <td class="paramtype"><a class="el" href="#ac99c561e4f9992845d08a61cab6809bb">DB_TABLES</a></td>          <td class="paramname"><span class="paramname"><em>table</em><span class="paramdefsep"> = </span><span class="paramdefval">DB_TABLES::DATO</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>changeTables</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </span></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>changeTables</em><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -2,7 +2,9 @@ var namespace_g_e_u =
 [
     [ "GuiUtilities", "d3/d07/namespace_g_e_u_1_1_gui_utilities.html", "d3/d07/namespace_g_e_u_1_1_gui_utilities" ],
     [ "Operators2D", "d0/d01/namespace_g_e_u_1_1_operators2_d.html", [
+      [ "checkAABBinAABB", "d0/d01/namespace_g_e_u_1_1_operators2_d.html#a22bfbe2fe2ca0f7bd70b247769772eae", null ],
       [ "checkAABBoxToAABBox", "d0/d01/namespace_g_e_u_1_1_operators2_d.html#a831379f52f30464a7858df166cf74e42", null ],
+      [ "checkAABBToAABBAnyAxisIntersect", "d0/d01/namespace_g_e_u_1_1_operators2_d.html#a1054f39bfb9be167d51e6b91f2b8e1f4", null ],
       [ "checkPointInRect", "d0/d01/namespace_g_e_u_1_1_operators2_d.html#aaf3dacd9dfcce47766ba3ce825b01625", null ],
       [ "checkRectToRect", "d0/d01/namespace_g_e_u_1_1_operators2_d.html#ae528218480d6d3cd22cd7cec24962c14", null ],
       [ "projectPoint01", "d0/d01/namespace_g_e_u_1_1_operators2_d.html#a83039f927cdd11ea0e52ebd2fe48711d", null ],
@@ -99,6 +101,7 @@ var namespace_g_e_u =
     [ "ShaderManager", "d7/d06/class_g_e_u_1_1_shader_manager.html", "d7/d06/class_g_e_u_1_1_shader_manager" ],
     [ "ShaderProgram", "da/d02/class_g_e_u_1_1_shader_program.html", "da/d02/class_g_e_u_1_1_shader_program" ],
     [ "Singleton", "d1/d01/class_g_e_u_1_1_singleton.html", "d1/d01/class_g_e_u_1_1_singleton" ],
+    [ "SpectralAnalysisGUIAdapter", "d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html", "d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter" ],
     [ "SpotLight", "df/d07/class_g_e_u_1_1_spot_light.html", "df/d07/class_g_e_u_1_1_spot_light" ],
     [ "StatsWindow", "d0/d07/class_g_e_u_1_1_stats_window.html", "d0/d07/class_g_e_u_1_1_stats_window" ],
     [ "Texture", "dc/d06/class_g_e_u_1_1_texture.html", "dc/d06/class_g_e_u_1_1_texture" ],
@@ -134,5 +137,7 @@ var namespace_g_e_u =
       [ "FUSION", "d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9a7c9724d84f5f1d2aa33749c644a99785", null ],
       [ "EXPERIMENTAL", "d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9ad82bb89e1191e51c17267653f95526b2", null ],
       [ "count", "d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9aa12565ef5a184c1f0d30d7af73dc9d05", null ]
-    ] ]
+    ] ],
+    [ "PICKINGDATA_ME_DRAGDROP_ID", "d0/d01/namespace_g_e_u.html#a6a1187513836c3dc6f800e1d037de8f4", null ],
+    [ "PICKINGDATA_PT_DRAGDROP_ID", "d0/d01/namespace_g_e_u.html#a1b4b53074b1996566f56710501f8480b", null ]
 ];

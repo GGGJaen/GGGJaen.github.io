@@ -9,5 +9,6 @@ var searchData=
   ['validationforinstance_6',['validationForInstance',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a3904002fa53d0ae8abc402e6a4ad9802',1,'GEU::ImageCloudProj']]],
   ['vao_7',['VAO',['../de/d03/class_g_e_u_1_1_v_a_o.html#a7a2c3924d11cd9067fa7a00c7439ddc7',1,'GEU::VAO']]],
   ['vegetationindex_8',['VegetationIndex',['../d2/d04/class_g_e_u_1_1_vegetation_index.html#a2f36b9041cbfb47254b19a6b589d7cf7',1,'GEU::VegetationIndex::VegetationIndex()'],['../d2/d04/class_g_e_u_1_1_vegetation_index.html#adbb7cbad39f405b4ea79708cda00ed76',1,'GEU::VegetationIndex::VegetationIndex(std::string hyperFilePath, std::atomic&lt; float &gt; *progress)']]],
-  ['vegetationindexcalculation_9',['vegetationIndexCalculation',['../db/d03/class_projection.html#ab46ebe5cf87462e4bed4b6166b7625b9',1,'Projection']]]
+  ['vignettingcorrection_9',['vignettingCorrection',['../d1/d00/class_d_j_i_img.html#aa7e0adfe4ea04c3eefb33c04f6e7da1a',1,'DJIImg']]],
+  ['vignettingcorrectionperpixel_10',['vignettingCorrectionPerPixel',['../d1/d00/class_d_j_i_img.html#a7346d2ac1254111f223796b8213717ae',1,'DJIImg']]]
 ];

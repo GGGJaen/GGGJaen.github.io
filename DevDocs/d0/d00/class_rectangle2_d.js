@@ -7,6 +7,7 @@ var class_rectangle2_d =
       [ "TOP_LEFT", "d0/d00/class_rectangle2_d.html#ac953af1bf10f9990735420fbd91b48d5ada6f33129ff54ae7b7b1b69e8a06b36f", null ]
     ] ],
     [ "Rectangle2D", "d0/d00/class_rectangle2_d.html#af53aab66f7e2554422a0119641fd9a43", null ],
+    [ "Rectangle2D", "d0/d00/class_rectangle2_d.html#a5920aefb9df35fe46fa5cf1931a9e9db", null ],
     [ "Rectangle2D", "d0/d00/class_rectangle2_d.html#abfae36e0878cfcf33be4eb86c8afa5be", null ],
     [ "Rectangle2D", "d0/d00/class_rectangle2_d.html#a7ef162dc33291cd75ecf700e347796c9", null ],
     [ "~Rectangle2D", "d0/d00/class_rectangle2_d.html#a314e668a7694502e5140290bf162254d", null ],

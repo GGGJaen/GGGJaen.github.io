@@ -7,6 +7,6 @@ var searchData=
   ['estructuras_4',['estructuras',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a91400f6e2faf981a83e7a5e994ab7a8f',1,'GEU::ImageCloudProj']]],
   ['exponent_5fs_5',['EXPONENT_S',['../d4/d01/class_g_e_u_1_1_light_properties.html#a62268d6fbf671a953a875a12c6a9ecd4',1,'GEU::LightProperties']]],
   ['exponent_5fse_6',['EXPONENT_SE',['../d4/d01/class_g_e_u_1_1_light_properties.html#a0e66d476de4f2b81be1985225b1814e6',1,'GEU::LightProperties']]],
-  ['exposure_5ftime_7',['exposure_time',['../d7/d07/class_metadata_reader.html#a01e765b2d742640793c2382014b8502f',1,'MetadataReader']]],
+  ['exposuretime_7',['exposureTime',['../d2/d00/class_multispectral_img.html#a7b3719c3838523d4f8e67771f587e884',1,'MultispectralImg']]],
   ['extent_8',['extent',['../da/d03/classunibn_1_1_octree_1_1_octant.html#a1ff15b73c886d82fa236fbc7e4599764',1,'unibn::Octree::Octant']]]
 ];

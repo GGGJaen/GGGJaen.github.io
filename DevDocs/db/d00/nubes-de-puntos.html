@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -108,35 +108,54 @@ Como cargar la nube</h3>
 <h3><a class="anchor" id="como-obtener-la-nube"></a>
 Como obtener la nube</h3>
 <p>Para obtener la nube se debe utilizar la función <em>getPointCloud</em> de la clase <em>Renderer</em>. Esta pedirá como único parámetro el nombre de la nube. Nos devolverá un puntero a la misma en el caso de que esta exista en la escena activa o <em>nullptr</em> en caso contrario.</p>
-<div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
 <div class="line"><span class="keywordflow">if</span>(cloud){</div>
 <div class="line">  <span class="comment">//Do things</span></div>
 <div class="line">}</div>
 <div class="ttc" id="aclass_g_e_u_1_1_renderer_html_ae941cdb83d15bb05ac73cf19173a1f84"><div class="ttname"><a href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">GEU::Renderer::getPointCloud</a></div><div class="ttdeci">PointCloud * getPointCloud(const std::string &amp;cloudName) const</div><div class="ttdoc">get the cloud with the cloud name specified if it exists in the current active scene.</div><div class="ttdef"><b>Definition</b> Renderer.cpp:759</div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_singleton_html_a47c7e7c2110f4cc59c9ff1f5594c366e"><div class="ttname"><a href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Singleton&lt; Renderer &gt;::getInstance</a></div><div class="ttdeci">static Renderer * getInstance()</div><div class="ttdef"><b>Definition</b> Singleton.h:27</div></div>
-</div><!-- fragment --><p>En caso de necesitar una subnube de la nube original podremos localizarla de similar manera:</p>
-<div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
-<div class="line"><span class="keywordflow">if</span>(cloud){</div>
-<div class="line">  <span class="keyword">const</span> auto subcloud = cloud-&gt;<a class="code hl_function" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6">getSubcloud</a>(<span class="stringliteral">&quot;ExampleSubCloud&quot;</span>);</div>
-<div class="line">  <span class="keywordflow">if</span>(subcloud){</div>
+</div><!-- fragment --><h3><a class="anchor" id="como-acceder-a-la-información-de-la-nube"></a>
+Como acceder a la información de la nube</h3>
+<p>Antes de nada es importante entender que información caracteriza un punto. En primer lugar tenemos su posición, el único dato que resulta esencial. Por otro lado tenemos lo que denominamos atributo, que no es más que información adicional de cada punto como, por ejemplo, el color RGB, temperatura, reflectancia espectral...</p>
+<p>Actualmente, en el renderizado, solo se puede visualizar un atributo al mismo tiempo, siendo posible cambiar entre los atributos disponibles. En caso de atributos con múltiples bandas, como el caso de la multiespectral, solo se podrá visualizar una banda al mismo tiempo.</p>
+<p>Otro aspecto a tener en cuenta es que <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> utiliza un sistema de geometría virtualizada. Esto quiere decir que la nube puede visualizarse sin necesidad de que la misma esté completamente cargada en memoria. Por tanto, es posible que los datos que se requieran no esten cargados y se carguen en el momento de la solicitud.</p>
+<p>Existen 3 maneras distintas de interactuar con la información de la nube:</p>
+<ul>
+<li><p class="startli">Los métodos <em>Have</em>: devuelven si la nube tiene información de determinado atributo y/o banda.</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
+<div class="line"><span class="keywordflow">if</span>(cloud.have&lt;Attribute::Multispectral&gt;()){</div>
 <div class="line">    <span class="comment">//Do things</span></div>
-<div class="line">  }</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_abef36236473bdb44c9cff9d603e006c6"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#abef36236473bdb44c9cff9d603e006c6">GEU::PointCloud::getSubcloud</a></div><div class="ttdeci">PointCloud * getSubcloud(const std::string &amp;subcloudName) const</div><div class="ttdoc">Look for the specified subcloud and return it if found.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:619</div></div>
-</div><!-- fragment --><h3><a class="anchor" id="como-añadir-puntos"></a>
-Como añadir puntos</h3>
-<p>Se pueden utilizar los métodos <em>addNewPoint</em>, <em>addNewPoints</em> o obtener el vector de puntos mediante <em>getPoints</em> y modificarlo directamente. Todas estas modificaciones se pueden realizar desde hilos distintos al principal, ya que todas las llamadas a OpenGL se encuentran aisladas de estos métodos.</p>
-<p>Si se desea añadir un gran número de puntos, es recomendable usar el método <em>addNewPoints</em> en vez de múltiples llamadas a <em>addNewPoint</em>.</p>
-<h3><a class="anchor" id="como-modificar-los-puntos-de-la-nube"></a>
-Como modificar los puntos de la nube</h3>
-<p>Se pueden obtener los puntos mediante <em>getPoints</em>. Una vez se hayan terminado de modificar, se deberá de llamar al método <em>needUpdate</em> para que se refleje la actualización en el renderizado.</p>
-<div class="fragment"><div class="line"><span class="keyword">const</span> auto cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
-<div class="line"><span class="keywordflow">if</span>(cloud){</div>
-<div class="line">  <span class="keyword">const</span> auto&amp; points = cloud-&gt;getPoints();</div>
-<div class="line">  <span class="comment">//Do things with the points.</span></div>
-<div class="line">  cloud-&gt;<a class="code hl_function" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">needUpdate</a>();</div>
+</div><!-- fragment --></li>
+<li><p class="startli">Los métodos <em>get</em>: devuelven una copia de los datos recien cargados de disco. Se debe de tener en cuenta que el método no comprueba si hay suficiente memoria para cargar todos los datos, dejando la responsabilidad de esto en quien use la función.</p>
+<div class="fragment"></div><!-- fragment --><p> cpp const auto cloud = <a class="el" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance()</a>-&gt;getPointCloud("ExamplePointCloud"); std::vector&lt;vec3&gt; positions = cloud.getPointsPosition() if(cloud.have&lt;Attribute::RGB&gt;()){ //Obtenemos el color de cada uno de los puntos std::vector&lt;u32Bits&gt; color = cloud.getAttribute&lt;Attribute::RGB&gt;(0, cloud.getNumberOfPoints(), 0 } </p><div class="fragment"></div><!-- fragment --></li>
+<li><p class="startli">Los métodos <em>request</em>: permiten interactuar con el sistema de memoria virtual utilizado para el rendering. Se recomienda su uso en el caso de querer hacer los métodos compatibles con nubes de gran tamaño. Estos métodos no devuelven los datos en sí, siendo necesario acceder a los meshlets (<em>getMeshlets</em>) para obtenerlos. Cabe destacar que, una vez terminemos de utilizar estos métodos, debemos llamar a <em>returnControlToRenderer</em> para permitir que el sistema de renderizado pueda volver a utilizar el sistema de memoria virtual.</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> cloud = <a class="code hl_function" href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Renderer::getInstance</a>()-&gt;<a class="code hl_function" href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">getPointCloud</a>(<span class="stringliteral">&quot;ExamplePointCloud&quot;</span>);</div>
+<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span>&amp; meshlets = cloud.<a class="code hl_function" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0">getMeshlets</a>();</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;meshlets.size(); ++i){</div>
+<div class="line">    <span class="keywordflow">if</span>(isVisible(meshlets[i])){</div>
+<div class="line">        <span class="comment">//Si el meshlet está visible, solicitamos sus datos</span></div>
+<div class="line">        cloud.requestMeshletData(i, cloud.getMeshletSize());</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">//En este punto no es recomendable hacer nada con los datos, pues seguramente no estén cargados.</span></div>
+<div class="line">        <span class="comment">//Resulta más eficiente determinar que datos se van a necesitar, cargarlos y más tarde utilizarlos</span></div>
+<div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a3810f1918091d26db6f7c634570c8a69"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a3810f1918091d26db6f7c634570c8a69">GEU::PointCloud::needUpdate</a></div><div class="ttdeci">void needUpdate()</div><div class="ttdoc">Obliga a actualizar los recursos OpenGL de esta nube en la siguiente llamada de dibujado.</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:746</div></div>
-</div><!-- fragment --> </div></div><!-- contents -->
+<div class="line"> </div>
+<div class="line"><span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;meshlets.size(); ++i){</div>
+<div class="line">    <span class="comment">//De igual manera, podemos descargar datos, liberando memoria.</span></div>
+<div class="line">    cloud.unloadMeshletData(i);</div>
+<div class="line">}</div>
+<div class="line"><span class="comment">//Devolvemos el control al renderer</span></div>
+<div class="line">cloud.returnControlToRenderer();</div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a00a0faeacb66351453a63b2577a9cbc0"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0">GEU::PointCloud::getMeshlets</a></div><div class="ttdeci">const std::vector&lt; Meshlet &gt; &amp; getMeshlets()</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:654</div></div>
+</div><!-- fragment --></li>
+</ul>
+<h3><a class="anchor" id="como-modificar-la-nube"></a>
+Como modificar la nube</h3>
+<p><a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> está pensado para trabajar con nubes estáticas, por lo que no es recomendable modificar continuamente la nube, pues requiere de un precomputo para hacer funcionar el sistema de virtualización.</p>
+<p>No obstante, para modificar la nube se pone a disposición funciones como <em>addPoints</em> o <em>setPoints</em>. Cabe destacar que tras añadir los datos que sean necesarios, se debe llamar a la función <em>SpatialOrdering</em> con sus parámetros por defecto para regenerar los <em>meshlets</em> y permitir que se renderice la nube. </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

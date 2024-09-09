@@ -1,8 +1,8 @@
 <map id="GEU::PointCloud::getNumberOfPoints" name="GEU::PointCloud::getNumberOfPoints">
 <area shape="rect" id="Node000001" title=" " alt="" coords="703,117,895,160"/>
-<area shape="rect" id="Node000002" href="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afafb062e54a135be4bc20d2eaee39862" title=" " alt="" coords="450,5,655,48"/>
+<area shape="rect" id="Node000002" href="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a7b73a6f101cc9e18dadb15797dcdf8f9" title=" " alt="" coords="450,5,655,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="748,111,654,62,625,51,627,46,656,58,751,107"/>
-<area shape="rect" id="Node000004" href="$db/d03/class_projection.html#a523a911b510dd0e19334e89ce02bcf19" title=" " alt="" coords="490,96,616,123"/>
+<area shape="rect" id="Node000004" href="$db/d03/class_projection.html#a584d57729038ca4bc1087ec575c750c5" title=" " alt="" coords="490,96,616,123"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="687,128,616,119,617,114,688,123"/>
 <area shape="rect" id="Node000005" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a484fe62f28ca22a853facc52b75a297e" title=" " alt="" coords="479,147,627,189"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="688,155,627,162,627,157,688,149"/>

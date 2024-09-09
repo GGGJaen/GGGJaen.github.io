@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -119,31 +119,21 @@ Métodos públicos</h2></td></tr>
 <tr class="separator:ae7c0696d5ac4b0ab65bcf1aa79828334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7566214f60522ec6d0dc10982ba5f603" id="r_a7566214f60522ec6d0dc10982ba5f603"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7566214f60522ec6d0dc10982ba5f603">Register</a> ()=default</td></tr>
 <tr class="separator:a7566214f60522ec6d0dc10982ba5f603"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7b2cea7548d2f60d86da755554fcd42" id="r_ae7b2cea7548d2f60d86da755554fcd42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7b2cea7548d2f60d86da755554fcd42">Register</a> (float _reflectance, int band)</td></tr>
-<tr class="separator:ae7b2cea7548d2f60d86da755554fcd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5be2e005a34b5b377eeea2fa7e3d59a" id="r_ae5be2e005a34b5b377eeea2fa7e3d59a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5be2e005a34b5b377eeea2fa7e3d59a">Register</a> (float reflectance, int band)</td></tr>
+<tr class="separator:ae5be2e005a34b5b377eeea2fa7e3d59a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27490bda19cd4bd6ca09b48a795fc060" id="r_a27490bda19cd4bd6ca09b48a795fc060"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27490bda19cd4bd6ca09b48a795fc060">~Register</a> ()</td></tr>
 <tr class="separator:a27490bda19cd4bd6ca09b48a795fc060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75320448b8931fbfd3c3ee590d751817" id="r_a75320448b8931fbfd3c3ee590d751817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75320448b8931fbfd3c3ee590d751817">add_registration</a> (float _reflectance, int band)</td></tr>
-<tr class="separator:a75320448b8931fbfd3c3ee590d751817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00e5f75921c1a397eec208850ae3f0b5" id="r_a00e5f75921c1a397eec208850ae3f0b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e5f75921c1a397eec208850ae3f0b5">clear_registration</a> (int band, float reflectance)</td></tr>
-<tr class="separator:a00e5f75921c1a397eec208850ae3f0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a238266116d0baae0eaad13d255d0d2e2" id="r_a238266116d0baae0eaad13d255d0d2e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a238266116d0baae0eaad13d255d0d2e2">addRegistration</a> (int band, float reflectance)</td></tr>
+<tr class="separator:a238266116d0baae0eaad13d255d0d2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b2e2b6e35e7f30be6da336abca3d00" id="r_a78b2e2b6e35e7f30be6da336abca3d00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78b2e2b6e35e7f30be6da336abca3d00">clearRegistration</a> (int band, float reflectance)</td></tr>
+<tr class="separator:a78b2e2b6e35e7f30be6da336abca3d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Atributos públicos</h2></td></tr>
-<tr class="memitem:a4a1daab54e0606e255e1c37d88e40748" id="r_a4a1daab54e0606e255e1c37d88e40748"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a1daab54e0606e255e1c37d88e40748">avgPerBand</a> [5] { 0,0,0,0, 0 }</td></tr>
-<tr class="separator:a4a1daab54e0606e255e1c37d88e40748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a242346d4edc24162d5720198fb10169b" id="r_a242346d4edc24162d5720198fb10169b"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a242346d4edc24162d5720198fb10169b">samplesPerBand</a> [5] { 0,0,0,0, 0 }</td></tr>
-<tr class="separator:a242346d4edc24162d5720198fb10169b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a464f428b44550dcf9c4a497c1a635825" id="r_a464f428b44550dcf9c4a497c1a635825"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464f428b44550dcf9c4a497c1a635825">category</a> = 2</td></tr>
-<tr class="separator:a464f428b44550dcf9c4a497c1a635825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a468aed871b9da68b97347c313ff9f38f" id="r_a468aed871b9da68b97347c313ff9f38f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a468aed871b9da68b97347c313ff9f38f">ndvi_value</a> = 0</td></tr>
-<tr class="separator:a468aed871b9da68b97347c313ff9f38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57d7cb09e141834712d6c915cd5c9735" id="r_a57d7cb09e141834712d6c915cd5c9735"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57d7cb09e141834712d6c915cd5c9735">rvi_value</a> = 0</td></tr>
-<tr class="separator:a57d7cb09e141834712d6c915cd5c9735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c54316f1be1fe51d4cf4fe65c10cf72" id="r_a0c54316f1be1fe51d4cf4fe65c10cf72"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c54316f1be1fe51d4cf4fe65c10cf72">grvi_value</a> = 0</td></tr>
-<tr class="separator:a0c54316f1be1fe51d4cf4fe65c10cf72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afde21cdc5d2034527b49c1f8843aa083" id="r_afde21cdc5d2034527b49c1f8843aa083"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afde21cdc5d2034527b49c1f8843aa083">ndre_value</a> = 0</td></tr>
-<tr class="separator:afde21cdc5d2034527b49c1f8843aa083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae367130f8592da80706bb42d922ea8f" id="r_aae367130f8592da80706bb42d922ea8f"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae367130f8592da80706bb42d922ea8f">sumPerBand</a> [5] { 0,0,0,0, 0 }</td></tr>
+<tr class="separator:aae367130f8592da80706bb42d922ea8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab396b7a810c3c4f87213c056fbe3e142" id="r_ab396b7a810c3c4f87213c056fbe3e142"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; <a class="el" href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab396b7a810c3c4f87213c056fbe3e142">samplesPerBand</a> [5] { 0,0,0,0, 0 }</td></tr>
+<tr class="separator:ab396b7a810c3c4f87213c056fbe3e142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de constructores y destructores</h2>
 <a id="a7566214f60522ec6d0dc10982ba5f603" name="a7566214f60522ec6d0dc10982ba5f603"></a>
@@ -171,8 +161,8 @@ Atributos públicos</h2></td></tr>
 
 </div>
 </div>
-<a id="ae7b2cea7548d2f60d86da755554fcd42" name="ae7b2cea7548d2f60d86da755554fcd42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7b2cea7548d2f60d86da755554fcd42">&#9670;&#160;</a></span>Register() <span class="overload">[2/2]</span></h2>
+<a id="ae5be2e005a34b5b377eeea2fa7e3d59a" name="ae5be2e005a34b5b377eeea2fa7e3d59a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5be2e005a34b5b377eeea2fa7e3d59a">&#9670;&#160;</a></span>Register() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +170,7 @@ Atributos públicos</h2></td></tr>
         <tr>
           <td class="memname">Register::Register </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>_reflectance</em>, </span></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>reflectance</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -218,35 +208,35 @@ Atributos públicos</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
-<a id="a75320448b8931fbfd3c3ee590d751817" name="a75320448b8931fbfd3c3ee590d751817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75320448b8931fbfd3c3ee590d751817">&#9670;&#160;</a></span>add_registration()</h2>
+<a id="a238266116d0baae0eaad13d255d0d2e2" name="a238266116d0baae0eaad13d255d0d2e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a238266116d0baae0eaad13d255d0d2e2">&#9670;&#160;</a></span>addRegistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Register::add_registration </td>
+          <td class="memname">void Register::addRegistration </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>_reflectance</em>, </span></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>band</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>band</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>reflectance</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a00e5f75921c1a397eec208850ae3f0b5" name="a00e5f75921c1a397eec208850ae3f0b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00e5f75921c1a397eec208850ae3f0b5">&#9670;&#160;</a></span>clear_registration()</h2>
+<a id="a78b2e2b6e35e7f30be6da336abca3d00" name="a78b2e2b6e35e7f30be6da336abca3d00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b2e2b6e35e7f30be6da336abca3d00">&#9670;&#160;</a></span>clearRegistration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Register::clear_registration </td>
+          <td class="memname">void Register::clearRegistration </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>band</em>, </span></td>
         </tr>
@@ -346,98 +336,28 @@ Atributos públicos</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
-<a id="a4a1daab54e0606e255e1c37d88e40748" name="a4a1daab54e0606e255e1c37d88e40748"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a1daab54e0606e255e1c37d88e40748">&#9670;&#160;</a></span>avgPerBand</h2>
+<a id="ab396b7a810c3c4f87213c056fbe3e142" name="ab396b7a810c3c4f87213c056fbe3e142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab396b7a810c3c4f87213c056fbe3e142">&#9670;&#160;</a></span>samplesPerBand</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;float&gt; Register::avgPerBand[5] { 0,0,0,0, 0 }</td>
+          <td class="memname">std::atomic&lt;<a class="el" href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&gt; Register::samplesPerBand[5] { 0,0,0,0, 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a464f428b44550dcf9c4a497c1a635825" name="a464f428b44550dcf9c4a497c1a635825"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a464f428b44550dcf9c4a497c1a635825">&#9670;&#160;</a></span>category</h2>
+<a id="aae367130f8592da80706bb42d922ea8f" name="aae367130f8592da80706bb42d922ea8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae367130f8592da80706bb42d922ea8f">&#9670;&#160;</a></span>sumPerBand</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Register::category = 2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0c54316f1be1fe51d4cf4fe65c10cf72" name="a0c54316f1be1fe51d4cf4fe65c10cf72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c54316f1be1fe51d4cf4fe65c10cf72">&#9670;&#160;</a></span>grvi_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Register::grvi_value = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afde21cdc5d2034527b49c1f8843aa083" name="afde21cdc5d2034527b49c1f8843aa083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afde21cdc5d2034527b49c1f8843aa083">&#9670;&#160;</a></span>ndre_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Register::ndre_value = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a468aed871b9da68b97347c313ff9f38f" name="a468aed871b9da68b97347c313ff9f38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a468aed871b9da68b97347c313ff9f38f">&#9670;&#160;</a></span>ndvi_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Register::ndvi_value = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a57d7cb09e141834712d6c915cd5c9735" name="a57d7cb09e141834712d6c915cd5c9735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57d7cb09e141834712d6c915cd5c9735">&#9670;&#160;</a></span>rvi_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Register::rvi_value = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a242346d4edc24162d5720198fb10169b" name="a242346d4edc24162d5720198fb10169b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a242346d4edc24162d5720198fb10169b">&#9670;&#160;</a></span>samplesPerBand</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::atomic&lt;int&gt; Register::samplesPerBand[5] { 0,0,0,0, 0 }</td>
+          <td class="memname">std::atomic&lt;double&gt; Register::sumPerBand[5] { 0,0,0,0, 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">

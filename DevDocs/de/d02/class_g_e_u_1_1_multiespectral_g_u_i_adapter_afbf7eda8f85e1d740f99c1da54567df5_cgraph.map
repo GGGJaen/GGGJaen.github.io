@@ -1,7 +1,9 @@
 <map id="GEU::MultiespectralGUIAdapter::resetValues" name="GEU::MultiespectralGUIAdapter::resetValues">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,35,211,77"/>
-<area shape="rect" id="Node000002" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="259,5,461,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,41,243,38,244,43,211,47"/>
-<area shape="rect" id="Node000003" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="280,72,440,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,65,265,72,264,77,211,71"/>
+<area shape="rect" id="Node000002" href="$d2/d04/class_locale_strings.html#aeba34d49ba4e51b6ac27c91a73f66a2f" title=" " alt="" coords="259,43,422,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,53,243,53,243,59,211,59"/>
+<area shape="rect" id="Node000003" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="470,5,672,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,43,454,39,455,44,422,48"/>
+<area shape="rect" id="Node000004" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="491,72,651,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="422,64,476,71,475,76,422,69"/>
 </map>

@@ -15,6 +15,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "BasicMetadata", "db/d07/struct_basic_metadata.html", null ],
     [ "GEU::BufferLock", "dc/d01/struct_g_e_u_1_1_buffer_lock.html", null ],
     [ "GEU::BufferRange", "d2/d02/struct_g_e_u_1_1_buffer_range.html", null ],
     [ "Database::Camara", "d0/d06/struct_database_1_1_camara.html", null ],
@@ -65,7 +66,6 @@ var hierarchy =
     [ "Database::HistoricoDatos", "d6/d04/struct_database_1_1_historico_datos.html", null ],
     [ "GEU::Hypercube", "d3/d05/class_g_e_u_1_1_hypercube.html", null ],
     [ "GEU::HyperspectralData", "dd/d02/struct_g_e_u_1_1_hyperspectral_data.html", null ],
-    [ "GEU::HyperGUIAdapter::HyperStats", "df/d04/struct_g_e_u_1_1_hyper_g_u_i_adapter_1_1_hyper_stats.html", null ],
     [ "GEU::I_GUIPopup", "df/d05/class_g_e_u_1_1_i___g_u_i_popup.html", [
       [ "GEU::CloudExportDialogPopup", "d7/d06/class_g_e_u_1_1_cloud_export_dialog_popup.html", null ],
       [ "GEU::ConfirmClosePopup", "dd/d00/class_g_e_u_1_1_confirm_close_popup.html", null ],
@@ -96,6 +96,7 @@ var hierarchy =
     [ "IGFD_Selection_Pair", "d6/d07/struct_i_g_f_d___selection___pair.html", null ],
     [ "GEU::Image", "d8/d01/class_g_e_u_1_1_image.html", null ],
     [ "GEU::ImageCloudProj", "dc/d01/class_g_e_u_1_1_image_cloud_proj.html", null ],
+    [ "ImageProcessor", "de/d05/class_image_processor.html", null ],
     [ "GEU::GuiUtilities::ImageTooltipDrawArea", "d9/d02/struct_g_e_u_1_1_gui_utilities_1_1_image_tooltip_draw_area.html", null ],
     [ "GEU::ImageTreeSegmentation", "d1/d02/class_g_e_u_1_1_image_tree_segmentation.html", null ],
     [ "ImGradient", "df/d07/class_im_gradient.html", null ],
@@ -106,6 +107,7 @@ var hierarchy =
       [ "GEU::HyperGUIAdapter", "d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html", null ],
       [ "GEU::MultiespectralGUIAdapter", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html", null ],
       [ "GEU::ReconstruccionGUIAdapter", "d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html", null ],
+      [ "GEU::SpectralAnalysisGUIAdapter", "d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html", null ],
       [ "GEU::ThermalGUIAdapter", "d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html", null ],
       [ "GEU::TreeSegmentationGUIAdapter", "d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html", null ],
       [ "NormalesGUIAdapter", "d4/d07/class_normales_g_u_i_adapter.html", null ]
@@ -136,7 +138,6 @@ var hierarchy =
     [ "unibn::MaxDistance< PointT >", "d8/d06/structunibn_1_1_max_distance.html", null ],
     [ "GEU::MemoryManager", "dd/d01/class_g_e_u_1_1_memory_manager.html", null ],
     [ "GEU::PointCloud::Meshlet", "dd/d07/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html", null ],
-    [ "MetadataReader", "d7/d07/class_metadata_reader.html", null ],
     [ "GEU::Model3D", "db/d04/class_g_e_u_1_1_model3_d.html", [
       [ "GEU::LinesModel", "d2/d00/class_g_e_u_1_1_lines_model.html", null ],
       [ "GEU::PointCloud", "d4/d07/class_g_e_u_1_1_point_cloud.html", null ],
@@ -147,6 +148,13 @@ var hierarchy =
     ] ],
     [ "GEU::MouseMoveListener", "d7/d00/class_g_e_u_1_1_mouse_move_listener.html", [
       [ "GEU::PickingWindow", "d9/d01/class_g_e_u_1_1_picking_window.html", null ]
+    ] ],
+    [ "MultispectralImg", "d2/d00/class_multispectral_img.html", [
+      [ "ParrotImg", "d7/d07/class_parrot_img.html", null ],
+      [ "PinHoleImg", "dc/d03/class_pin_hole_img.html", [
+        [ "DJIImg", "d1/d00/class_d_j_i_img.html", null ],
+        [ "MicasenseImg", "d6/d01/class_micasense_img.html", null ]
+      ] ]
     ] ],
     [ "Database::Municipio", "d4/d07/struct_database_1_1_municipio.html", null ],
     [ "GEU::NASSession::NASFile", "d4/d04/struct_g_e_u_1_1_n_a_s_session_1_1_n_a_s_file.html", null ],
@@ -173,7 +181,6 @@ var hierarchy =
     [ "Projection", "db/d03/class_projection.html", null ],
     [ "Database::Provincia", "d2/d00/struct_database_1_1_provincia.html", null ],
     [ "Rectangle2D", "d0/d00/class_rectangle2_d.html", null ],
-    [ "Reg", "de/d04/struct_reg.html", null ],
     [ "Register", "dc/d02/class_register.html", null ],
     [ "Database::RelacionDato", "df/d04/struct_database_1_1_relacion_dato.html", null ],
     [ "GEU::Texture::RenderTextureRequirements", "da/d02/struct_g_e_u_1_1_texture_1_1_render_texture_requirements.html", null ],

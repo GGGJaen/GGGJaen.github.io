@@ -1,0 +1,6 @@
+<map id="GEU::Operators2D::checkAABBinAABB" name="GEU::Operators2D::checkAABBinAABB">
+<area shape="rect" id="Node000001" title="Checks if boxA is inside boxB." alt="" coords="180,29,435,56"/>
+<area shape="rect" id="Node000002" href="$db/d03/class_projection.html#a584d57729038ca4bc1087ec575c750c5" title=" " alt="" coords="5,29,132,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,45,132,45,132,40,164,40"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="110,17,96,10,68,8,43,10,30,15,26,20,33,27,28,31,21,21,26,11,42,5,69,3,97,5,112,12"/>
+</map>

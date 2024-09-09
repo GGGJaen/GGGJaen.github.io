@@ -9,6 +9,6 @@ var searchData=
   ['del_20logger_6',['Uso del Logger',['../d3/d00/md__d_1_2_g_e_u_2_docs_2_uso_01del_01_logger.html',1,'']]],
   ['del_20proyecto_7',['Generación del proyecto',['../de/d01/md__d_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html',1,'']]],
   ['desarrollador_8',['Cómo actualizar el manual de desarrollador',['../dc/d05/md__d_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01desarrollador.html',1,'']]],
-  ['desplegar_20una_20nueva_20versión_9',['Cómo desplegar una nueva versión',['../dd/d01/md__d_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html',1,'']]],
+  ['desplegar_20una_20nueva_20versión_9',['Cómo desplegar una nueva versión',['../dd/d07/md__d_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html',1,'']]],
   ['docs_10',['¡Bienvenido a GEU Docs!',['../index.html',1,'']]]
 ];

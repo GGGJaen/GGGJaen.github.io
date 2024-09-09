@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -99,7 +99,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>c&#160;:&#160;<a class="el" href="d1/d02/structlazperf_point10.html#a83259a593599db889aeefa2ee22c6f8b">lazperfPoint10</a>, <a class="el" href="db/d05/structlazperf_point14.html#a488ab05138aa309529f0050ebdddf96e">lazperfPoint14</a></li>
-<li>C&#160;:&#160;<a class="el" href="d7/d07/class_metadata_reader.html#a27930f4200c0a57492f478fe50966a91">MetadataReader</a></li>
+<li>C&#160;:&#160;<a class="el" href="d7/d07/class_parrot_img.html#aa4428b0a9bc2a2626982cd4bad9e9336">ParrotImg</a></li>
 <li>C1&#160;:&#160;<a class="el" href="d4/d01/class_g_e_u_1_1_light_properties.html#a1f8caf8093459b5957fc9592c677fc19">GEU::LightProperties</a></li>
 <li>C2&#160;:&#160;<a class="el" href="d4/d01/class_g_e_u_1_1_light_properties.html#a90cf764ff1694c54e8dc5ff13e73405a">GEU::LightProperties</a></li>
 <li>C3&#160;:&#160;<a class="el" href="d4/d01/class_g_e_u_1_1_light_properties.html#a3f9d3fd20aee0393da8e7ff822c18128">GEU::LightProperties</a></li>
@@ -114,6 +114,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>CALIBRATED_IMAGE_POSITION&#160;:&#160;<a class="el" href="dc/d00/struct_env_path.html#a765cc1f84e23977a8fea899e6da61d65">EnvPath</a></li>
 <li>CALIBRATED_INTERNAL_PARAMETERS&#160;:&#160;<a class="el" href="dc/d00/struct_env_path.html#a6a2b83619209854bfa56573908cef0d8">EnvPath</a></li>
 <li>CALIBRATED_PIX4D_INTERNAL_PARAMETERS&#160;:&#160;<a class="el" href="dc/d00/struct_env_path.html#a00ede31c99f00590fcf8a3fca53f5ed0">EnvPath</a></li>
+<li>calibratedReflectance&#160;:&#160;<a class="el" href="d2/d00/class_multispectral_img.html#a4f3add910f2994f9dfecfd2cef75973f">MultispectralImg</a></li>
 <li>CAMARA&#160;:&#160;<a class="el" href="d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bba3479e5073c2aa5d8a6fc7f5f83382b76">GEU::DatabaseQueryPopup</a></li>
 <li>Camera()&#160;:&#160;<a class="el" href="dd/d04/class_g_e_u_1_1_camera.html#a2a8592751732ddca437dd741447bf4d6">GEU::Camera</a></li>
 <li>CAMERA_FOLDER&#160;:&#160;<a class="el" href="dc/d00/struct_env_path.html#a0d7d718e1dd45468615fb72e8a40eb04">EnvPath</a></li>
@@ -124,7 +125,6 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>carga&#160;:&#160;<a class="el" href="d5/d00/struct_database_1_1_dron.html#ae7f1b24e8394bd0e4a67cd3c0fb7929d">Database::Dron</a></li>
 <li>CASA&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a18e2cf9f931834e3d06bfce9b38f9f3aa704ef0b0381af5ffc587e3d68b375f22">GEU::ImageCloudProj</a></li>
 <li>categoria&#160;:&#160;<a class="el" href="d5/d00/struct_database_1_1_dron.html#ae639e5cb176efc091eb7c22faab0e2b3">Database::Dron</a></li>
-<li>category&#160;:&#160;<a class="el" href="dc/d02/class_register.html#a464f428b44550dcf9c4a497c1a635825">Register</a></li>
 <li>center()&#160;:&#160;<a class="el" href="dc/d07/class_a_a_b_b.html#ae60d0132c0c5d96ddb455024a40b6bde">AABB</a></li>
 <li>Ch0&#160;:&#160;<a class="el" href="d2/d05/structstr__irradiance_list.html#a43bec99eb2fb69827aef9e665c8e9412">str_irradianceList</a></li>
 <li>Ch1&#160;:&#160;<a class="el" href="d2/d05/structstr__irradiance_list.html#a412b1fb4b42e3a51275c2cbc0a25a737">str_irradianceList</a></li>
@@ -139,15 +139,14 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>chiSquareDistance()&#160;:&#160;<a class="el" href="d5/d03/class_histogram.html#af578bbdfaac1cd4d7e903114fafef930">Histogram</a></li>
 <li>CLASE&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a28b5c947b9b966ed41e3eaddeb013685">GEU::ImageCloudProj</a></li>
 <li>clasificacion&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#adbe979402cc8ec757fdf8ba6d8677862">GEU::ImageCloudProj</a></li>
-<li>classification()&#160;:&#160;<a class="el" href="db/d03/class_projection.html#a231560db72af81c4fe1ac9ad0ac2b671">Projection</a></li>
 <li>ClassifyCallback&#160;:&#160;<a class="el" href="d9/d07/class_g_e_u_1_1_p_cloud_classify_popup.html#a5b6196c206f613b0fa7c210be2ca09de">GEU::PCloudClassifyPopup</a></li>
 <li>classifyGroundTruth()&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a6205379d7cd99b2ec3774a73dc83fe0c">GEU::ImageCloudProj</a></li>
 <li>cleanup()&#160;:&#160;<a class="el" href="d3/d01/struct_g_e_u_1_1_mapped_memory.html#aceb8e1ced25d94419cd1dbec8e46d9d9">GEU::MappedMemory</a>, <a class="el" href="d3/d00/class_g_e_u_1_1_thermal_augment.html#a5744648f0d918b565c8c479809d0c676">GEU::ThermalAugment</a></li>
 <li>clear()&#160;:&#160;<a class="el" href="dd/d02/struct_g_e_u_1_1_hyperspectral_data.html#ae73c238c598c3e9c2789c2144d192bd1">GEU::HyperspectralData</a>, <a class="el" href="d8/d05/class_g_e_u_1_1_material_list.html#aa3414adecf317b1b9f265822cb943964">GEU::MaterialList</a>, <a class="el" href="d7/d06/class_g_e_u_1_1_shader_manager.html#aeb6e52fe9ddd4619ed72e99612fbcdaf">GEU::ShaderManager</a>, <a class="el" href="d8/d07/classjson_1_1jobject.html#a572a77e9659b2a3f73b576ee3fb4dcfb">json::jobject</a>, <a class="el" href="de/d00/classjson_1_1jobject_1_1proxy.html#ac85ed20ea6c7bcbee1bc5deb05f81e34">json::jobject::proxy</a>, <a class="el" href="df/d07/classjson_1_1kvp__reader.html#a2d58061c2d3cad07eb722eaa110c3589">json::kvp_reader</a>, <a class="el" href="d2/d07/classjson_1_1reader.html#acf7276384c940335b955a507e0ec0818">json::reader</a>, <a class="el" href="d2/d03/classunibn_1_1_octree.html#aa10f78b022e25757ee2a7215f9b001c8">unibn::Octree&lt; PointT, ContainerT &gt;</a></li>
-<li>clear_registration()&#160;:&#160;<a class="el" href="dc/d02/class_register.html#a00e5f75921c1a397eec208850ae3f0b5">Register</a></li>
 <li>clearComputeShaders()&#160;:&#160;<a class="el" href="d7/d06/class_g_e_u_1_1_shader_manager.html#a5327968368117697b55fea2b6b97eae1">GEU::ShaderManager</a></li>
 <li>clearData()&#160;:&#160;<a class="el" href="d4/d07/class_g_e_u_1_1_point_cloud.html#af05762ea64b560bc5547fcfcc1f67c5a">GEU::PointCloud</a></li>
 <li>clearModuleData()&#160;:&#160;<a class="el" href="de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a2a1ff5b55341b8813942313a524d62d5">GEU::MultiespectralGUIAdapter</a>, <a class="el" href="d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a4b135beb5bb6ef057d38211fe1c90d2f">GEU::ReconstruccionGUIAdapter</a></li>
+<li>clearRegistration()&#160;:&#160;<a class="el" href="dc/d02/class_register.html#a78b2e2b6e35e7f30be6da336abca3d00">Register</a></li>
 <li>clearRenderShaders()&#160;:&#160;<a class="el" href="d7/d06/class_g_e_u_1_1_shader_manager.html#a3f7ed9bd4869a3f09673f39bc147e355">GEU::ShaderManager</a></li>
 <li>clearResource()&#160;:&#160;<a class="el" href="d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#ac68e27aa4ccefc5c42bc6a5186a5b292">GEU::GPUResources</a></li>
 <li>clearResources()&#160;:&#160;<a class="el" href="d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a18c1afd138520510cedf3a5a7709b31b">GEU::GPUResources</a></li>
@@ -168,7 +167,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>colores&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#aa085aaef4aeb4516da69cd64ebd6e730">GEU::ImageCloudProj</a></li>
 <li>colorRegularMeshByClass()&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a10eaed81344e07a7594cdfaf8dd35320">GEU::ImageCloudProj</a></li>
 <li>colorRegularMeshByMean()&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a02559507d7f291afc43075aa49bbdbfe">GEU::ImageCloudProj</a></li>
-<li>cols&#160;:&#160;<a class="el" href="d7/d07/class_metadata_reader.html#a4c9918bc86a6e74c33a1db28236343c1">MetadataReader</a></li>
+<li>cols&#160;:&#160;<a class="el" href="d2/d00/class_multispectral_img.html#aed67c2c41aa927092d836f465cd5d7ae">MultispectralImg</a></li>
 <li>compareRasters()&#160;:&#160;<a class="el" href="dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a50053abf8153350b563d06d390254608">GEU::ImageCloudProj</a></li>
 <li>compileShader()&#160;:&#160;<a class="el" href="da/d02/class_g_e_u_1_1_shader_program.html#a24959cca4f4ad050b6322a7c6618938c">GEU::ShaderProgram</a></li>
 <li>Component()&#160;:&#160;<a class="el" href="d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#a129aaf9b44473207356a2e336d6a5e98">GEU::TriangleMesh::Component</a></li>
@@ -183,12 +182,15 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>computeFovY()&#160;:&#160;<a class="el" href="d9/d07/class_g_e_u_1_1_camera_projection_1_1_camera_properties.html#a353f8d3c307fbb3a30b140ca599bf580">GEU::CameraProjection::CameraProperties</a></li>
 <li>computeHeight()&#160;:&#160;<a class="el" href="dd/d00/class_procedural_voxel.html#a3be1e09302a6d5c64c74edbde63925f8">ProceduralVoxel</a></li>
 <li>computeHeightAndColor()&#160;:&#160;<a class="el" href="dd/d03/class_g_e_u_1_1_procedural_generator.html#aec5b6447ae21b29dfd4141fffb4a260a">GEU::ProceduralGenerator</a></li>
+<li>computeICPOrientationMatrix()&#160;:&#160;<a class="el" href="db/d03/class_projection.html#a39adc428224221d7c62b7c16dd0a952c">Projection</a></li>
 <li>computeMeshletSize()&#160;:&#160;<a class="el" href="d4/d07/class_g_e_u_1_1_point_cloud.html#a5c964a54a4bf0a3c7fc9b7b03c2397a4">GEU::PointCloud</a></li>
 <li>computeMetrics()&#160;:&#160;<a class="el" href="d4/d07/class_g_e_u_1_1_point_cloud.html#ab400c6d230faea8137b64336eac94a97">GEU::PointCloud</a></li>
 <li>computeNURBS()&#160;:&#160;<a class="el" href="dd/d03/class_g_e_u_1_1_procedural_generator.html#a5e5a6ec203139618f54a6479cc12dd56">GEU::ProceduralGenerator</a></li>
+<li>computeOrientationMatrix()&#160;:&#160;<a class="el" href="db/d03/class_projection.html#ab0b2ec6e971b7b3bd5852ff06f7fe08a">Projection</a></li>
 <li>computePixarAttenuationCoefficients()&#160;:&#160;<a class="el" href="d4/d01/class_g_e_u_1_1_light_properties.html#a82bed9592c905de8807077ab5f735ed1">GEU::LightProperties</a></li>
 <li>computeProjectionMatrices()&#160;:&#160;<a class="el" href="d9/d07/class_g_e_u_1_1_camera_projection_1_1_camera_properties.html#ad87950166ef7898d00b9607b132c28df">GEU::CameraProjection::CameraProperties</a></li>
 <li>computeQuartiles()&#160;:&#160;<a class="el" href="d0/d07/class_env_point_cloud.html#ad6f65578c127b1f37b2a0139f30911c5">EnvPointCloud</a></li>
+<li>computeReflectance()&#160;:&#160;<a class="el" href="d1/d00/class_d_j_i_img.html#a3bd1d9e3ae5e0bfab3c2d3c27f8a5cac">DJIImg</a>, <a class="el" href="d6/d01/class_micasense_img.html#a9f0f487cf7c5cde55cb3311a564b211e">MicasenseImg</a>, <a class="el" href="d2/d00/class_multispectral_img.html#a23b6416eefbd7b1c431f3d65786d4766">MultispectralImg</a>, <a class="el" href="d7/d07/class_parrot_img.html#a073e2bc1aa3e97280d5bd5e725c241f1">ParrotImg</a></li>
 <li>ComputeSubroutines&#160;:&#160;<a class="el" href="de/d03/struct_g_e_u_1_1_shader_enum.html#a8ebe01c4b624b1d4b4f0ef122de6a149">GEU::ShaderEnum</a></li>
 <li>computeViewMatrices()&#160;:&#160;<a class="el" href="d9/d07/class_g_e_u_1_1_camera_projection_1_1_camera_properties.html#a5a1bb30772217ec7eb3a45e0af453920">GEU::CameraProjection::CameraProperties</a></li>
 <li>computeViewMatrix()&#160;:&#160;<a class="el" href="d9/d07/class_g_e_u_1_1_camera_projection_1_1_camera_properties.html#ac5134bdaf1b60fb4b555f470b06a043d">GEU::CameraProjection::CameraProperties</a></li>
@@ -201,7 +203,7 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>CONTOUR_APPROX_MODES&#160;:&#160;<a class="el" href="d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#a078e5c3210338b3f74085b217addd8b9">GEU::ImageTreeSegmentation</a></li>
 <li>CONTROLLED_DISTANCE&#160;:&#160;<a class="el" href="d6/d06/class_g_e_u_1_1_light_attenuation.html#ac6c693d974ee09f472c9af9514cdd55fa660c0671289476cbbab5f1a612ad0a1b">GEU::LightAttenuation</a></li>
 <li>convertToGrayscale()&#160;:&#160;<a class="el" href="d0/d00/class_open_c_v_image.html#a9557b5818a906019f1f2e33695cd6345">OpenCVImage</a></li>
-<li>convertToPCLPointCloud()&#160;:&#160;<a class="el" href="d0/d01/class_g_e_u_1_1pcl_conversor.html#adc2f8b28918ebe56bfdc1bc9cad8b16f">GEU::pclConversor</a></li>
+<li>convertToRGBPCLPointCloud()&#160;:&#160;<a class="el" href="d0/d01/class_g_e_u_1_1pcl_conversor.html#a6253923a8a327a9835a3df5324c12fe2">GEU::pclConversor</a></li>
 <li>copyCameraAttributes()&#160;:&#160;<a class="el" href="dd/d04/class_g_e_u_1_1_camera.html#a81a89f42ab4740be712d134c088681a2">GEU::Camera</a></li>
 <li>copyPoints&#160;:&#160;<a class="el" href="dc/d07/structunibn_1_1_octree_params.html#a4ec8fbfa122ba2ba062ddc511db74944">unibn::OctreeParams</a></li>
 <li>corners()&#160;:&#160;<a class="el" href="dc/d07/class_a_a_b_b.html#a632754709822b0fe57a6e2498950311d">AABB</a></li>
@@ -217,9 +219,9 @@ $(function(){initNavTree('functions_c.html',''); initResizable(); });
 <li>currentFrameTime&#160;:&#160;<a class="el" href="d2/d00/struct_g_e_u_1_1_application_state.html#a8628b998951f1ba12cee7a4e065304e6">GEU::ApplicationState</a></li>
 <li>currentRamUsage()&#160;:&#160;<a class="el" href="dd/d01/class_g_e_u_1_1_memory_manager.html#ad81cc3ae2f758896a7e7ac206a204553">GEU::MemoryManager</a></li>
 <li>currentVramUsage()&#160;:&#160;<a class="el" href="dd/d01/class_g_e_u_1_1_memory_manager.html#a737931154a7d65a38cb69fd591958318">GEU::MemoryManager</a></li>
-<li>cv_img&#160;:&#160;<a class="el" href="d7/d07/class_metadata_reader.html#a05bb262f761c81d6bcc12488f7c276d4">MetadataReader</a></li>
-<li>cx&#160;:&#160;<a class="el" href="d7/d07/class_metadata_reader.html#aa75f275ed453f41dc701ed3a2d7bf444">MetadataReader</a></li>
-<li>cy&#160;:&#160;<a class="el" href="d7/d07/class_metadata_reader.html#a1df91e6b6bcde4b138893bfaa859eb4a">MetadataReader</a></li>
+<li>cvImg&#160;:&#160;<a class="el" href="d2/d00/class_multispectral_img.html#a0f3f0855062be0f3a902a26592baf933">MultispectralImg</a></li>
+<li>cx&#160;:&#160;<a class="el" href="d2/d00/class_multispectral_img.html#abdac34ec3843053d29c8cb522189ffb5">MultispectralImg</a></li>
+<li>cy&#160;:&#160;<a class="el" href="d2/d00/class_multispectral_img.html#a5c3e967830907ab0fa1522a7442ff965">MultispectralImg</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

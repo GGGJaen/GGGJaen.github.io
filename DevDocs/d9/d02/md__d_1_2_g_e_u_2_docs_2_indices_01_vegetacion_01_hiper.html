@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -103,25 +103,35 @@ $(function(){initNavTree('d9/d02/md__d_1_2_g_e_u_2_docs_2_indices_01_vegetacion_
 <li>NDVI</li>
 <li>TVI</li>
 <li>MSAVI</li>
-<li><p class="startli">Generación de RGB a partir de la hiper</p>
-<p class="startli">Para facilitar su implementación y la posible adición de nuevos índices, se ha seguido el <b>patrón estrategia</b> como se muestra en el siguiente diagrama. <img src="../../img/UML.png" alt="UML Diagram" title="Diagrama de clases" class="inline"/></p>
-</li>
+<li>Generación de RGB a partir de la hiper</li>
 </ul>
+<p>Para facilitar su implementación y la posible adición de nuevos índices, se ha seguido el <b>patrón estrategia</b> como se muestra en el siguiente diagrama.</p>
+<p><img src="../../img/UML.png" alt="UML Diagram" title="Diagrama de clases" class="inline"/></p>
 <p>El objetivo de implementar dicho patrón es simplificar el código, y facilitar la realización de los cálculos una vez el usuario ha seleccionado un tipo de índice desde la interfaz gráfica. La clase <code>VegetationIndex</code> actúa como interfaz estableciendo las operaciones necesarias para dichos cálculos y establece los atributos comunes para las clases específicas. Clases como <code>CalculatorNDVI</code> y <code>ClaculatorTVI</code> implementan dichas operaciones, la más importante es <code>calculateVegetationIndex()</code> que es donde se definen los cálculos para cada índice de vegetación.</p>
 <h1><a class="anchor" id="un-poco-de-teoría"></a>
 Un poco de teoría</h1>
 <h2><a class="anchor" id="región-visible"></a>
 Región visible</h2>
-<p>La parte visible del espectro de <b>reflectancia (0,40 μm - 0,70 μm)</b> de la vegetación está controlada por los pigmentos de los cloroplastos de las hojas verdes que residen en la hoja exterior o de empalizada, los pigmentos clorofílicos - clorofila-a y clorofila-b. Un pigmento es cualquier sustancia que absorbe la luz. El color del pigmento viene determinado por las longitudes de onda reflejadas. Los pigmentos blancos/colores claros reflejan toda o casi toda la energía que incide sobre ellos. Los pigmentos negros absorben todas las longitudes de onda que inciden sobre ellos. <b>La clorofila</b> es el principal absorbente de radiación en la región visible y <b>su absorción es dominante en el rojo visible 0,6 - 0,7 μm</b> - longitudes de onda rojas; se denomina pigmento verde y es común a todas las células fotosintéticas. Otros pigmentos de las hojas también tienen un impacto importante en la parte visible del espectro. El caroteno (pigmento amarillo a rojo anaranjado responsable del color de algunas flores, frutos y hojas sin clorofila) y la xantofila (responsable del color de las hojas en otoño) tienen una fuerte absorción en los 0,35 - 0,5 μm, longitudes de onda azules. <img src="../../img/visible.jpg" alt="Visible" title="Longitudes de onda del espectro visible" class="inline"/></p>
+<p>La parte visible del espectro de <b>reflectancia (0,40 μm - 0,70 μm)</b> de la vegetación está controlada por los pigmentos de los cloroplastos de las hojas verdes que residen en la hoja exterior, los pigmentos clorofílicos. Un pigmento es cualquier sustancia que absorbe la luz. El color del pigmento viene determinado por las longitudes de onda reflejadas. Los pigmentos blancos/colores claros reflejan toda o casi toda la energía que incide sobre ellos. Los pigmentos negros absorben todas las longitudes de onda que inciden sobre ellos. <b>La clorofila</b> es el principal absorbente de radiación en la región visible y <b>su absorción es dominante en el rojo visible 0,6 - 0,7 μm</b> (longitudes de onda rojas) se denomina pigmento verde y es común a todas las células fotosintéticas.</p>
+<p><img src="../../img/visible.jpg" alt="Visible" title="Longitudes de onda del espectro visible" class="inline"/></p>
 <h2><a class="anchor" id="región-nir"></a>
 Región NIR</h2>
-<p>Las propiedades ópticas en el dominio espectral del <b>infrarrojo cercano (0,701 - 1,3 μm)</b> se explican por la estructura de las hojas. Las células esponjosas del mesófilo situadas en el interior o el envés de las hojas reflejan la luz NIR, gran parte de la cual emerge en forma de fuertes rayos de reflexión. La intensidad de la reflectancia NIR suele ser mayor que la de la mayoría de los materiales inorgánicos, por lo que <b>la vegetación aparece brillante en las longitudes de onda NIR</b>.</p>
+<p>Las propiedades ópticas en el dominio espectral del <b>infrarrojo cercano (0,701 - 1,3 μm)</b> se explican por la estructura de las hojas. Las células esponjosas del mesófilo situadas en el interior de las hojas reflejan la luz NIR, gran parte de la cual emerge en forma de fuertes rayos de reflexión. La intensidad de la reflectancia NIR suele ser mayor que la de la mayoría de los materiales inorgánicos, por lo que <b>la vegetación aparece brillante en las longitudes de onda NIR</b>. </p>
 <h2><a class="anchor" id="red-edge"></a>
 Red Edge</h2>
-<p>El borde rojo es una región en la zona de transición rojo-NIR del espectro de reflectancia de la vegetación y marca el límite entre la absorción por la clorofila en la región roja visible y la dispersión debida a la estructura interna de la hoja en la región NIR. Esta zona de transición está en la base de varios índices de vegetación como el NDVI, que es la <b>diferencia normalizada</b> entre la reflectancia en <b>el rojo visible (0,6μm) y la reflectancia NIR (0,8μm)</b>. También la posición del borde rojo (REP) se utiliza para estimar el contenido de clorofila de las hojas o sobre un dosel.</p>
+<p>El "borde rojo" es una región en la zona de transición rojo-NIR del espectro de reflectancia de la vegetación y marca el límite entre la absorción por la clorofila en la región roja visible y la dispersión debida a la estructura interna de la hoja en la región NIR. Esta zona de transición está en la base de varios índices de vegetación como el NDVI, que es la <b>diferencia normalizada</b> entre la reflectancia en <b>el rojo visible (0,6μm) y la reflectancia NIR (0,8μm)</b>.</p>
 <p><img src="../../img/red_edge.jpg" alt="Red Edge" title="Longitudes de onda del espectro visible" class="inline"/></p>
-<p>Esta combinación de fuerte absorción en el rojo visible y fuerte reflectancia en el NIR es muy específica de la vegetación y nos permite distinguir la vegetación del suelo desnudo . Los cálculos del NDVI para un píxel dado siempre pueden dar como resultado un número que oscila entre -1 y +1; sin embargo, para las superficies naturales los valores del NDVI se encuentran dentro del intervalo de 0 a +1. Un NDVI próximo a <b>0 corresponde a la ausencia de vegetación</b>, mientras que un NDVI próximo a <b>1 (0,8 - 0,9) indica la mayor densidad</b> posible de hojas verdes. El NDVI puede calcularse en la parte superior de la atmósfera (TOA) o en la superficie, es decir, utilizando reflectancias corregidas atmosféricamente para las bandas NIR y roja. <img src="../../img/ndvi.JPG" alt="NDVI" title="Ecuuación NDVI" class="inline"/></p>
-<p><img src="../../img/ndre.JPG" alt="NDRE" title="Ecuuación NDRE" class="inline"/></p>
+<p>Esta combinación de fuerte absorción en el rojo visible y fuerte reflectancia en el NIR es muy específica de la vegetación y nos permite distinguir la vegetación del suelo desnudo. Los cálculos del NDVI para un píxel dado siempre pueden dar como resultado un número que oscila entre -1 y +1; sin embargo, para las superficies naturales los valores del NDVI se encuentran dentro del intervalo de 0 a +1. Un NDVI próximo a <b>0 corresponde a la ausencia de vegetación</b>, mientras que un NDVI próximo a <b>1 (0,8 - 0,9) indica la mayor densidad</b> posible de hojas verdes.</p>
+<p>$$ NDVI = (ρ_{NIR}-ρ_{RED})/(ρ_{NIR}+ρ_{RED}) $$</p><ul>
+<li>$ρ_{NIR} $ : Valor máximo en NIR <br  />
+</li>
+<li>$ρ_{RED} $ : Valor mínimo en RED</li>
+</ul>
+<p>$$ NDRE = (ρ_{NIR}-ρ_{RedEdge})/(ρ_{NIR}+ρ_{RedEdge}) $$</p><ul>
+<li>$ρ_{NIR} $ : Valor máximo en NIR <br  />
+</li>
+<li>$ρ_{RedEdge} $ : Punto medio entre $ρ_{NIR}$ y $ρ_{RED}$</li>
+</ul>
 <h1><a class="anchor" id="analisis_hyperguiadapter"></a>
 Analisis_HyperGUIAdapter</h1>
 <p>Esta clase es donde se realiza el proceso general de carga de hipercubo, lectura de datos y análisis.</p>
@@ -148,15 +158,15 @@ Analisis_HyperGUIAdapter</h1>
 </div><!-- fragment --><h3><a class="anchor" id="cargar-el-hipercubo"></a>
 Cargar el hipercubo</h3>
 <p>Esta función se encarga de crear una instancia de la clase <code>Hypercube</code>. Esta clase internamente trabaja con GDAL para procesar imágenes de este tipo. Esta instancia nos servirá más adelante para extraer los datos de todos las bandas de todas los píxeles.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span>  loadHypercube(<span class="keyword">const</span>  std::string&amp; fileAndPath) {  </div>
-<div class="line"> </div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span>  loadHypercube(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; fileAndPath) </div>
+<div class="line">{   </div>
 <div class="line">    <span class="keywordflow">if</span> (_activeHypercube) <span class="keyword">delete</span> _activeHypercube;  </div>
 <div class="line">    _activeHypercube = <span class="keyword">new</span> Hypercube();  </div>
 <div class="line">    _activeHypercube-&gt;softLoadCube(fileAndPath); <span class="comment">// Carga usando GDAL  </span></div>
-<div class="line"> </div>
+<div class="line">    </div>
 <div class="line">    _hyperBandMin = 0;  </div>
 <div class="line">    _hyperBandMax = _activeHypercube-&gt;depth();  </div>
-<div class="line"> </div>
+<div class="line">    </div>
 <div class="line">    analizeHyperCube();  </div>
 <div class="line">}</div>
 </div><!-- fragment --><h3><a class="anchor" id="leer-metadatos"></a>
@@ -164,25 +174,20 @@ Leer metadatos</h3>
 <pre class="fragment">GEU::Analisis_HyperGUIAdapter::readMetaData()
 </pre><p> Esta función es bastante sencilla, simplemente se lee un archivo de texto para obtener los parámetros del hipercubo. Lo más importante de esta función es la creación de un vector donde se guarda las longitudes de onda correspondientes a cada banda: </p><pre class="fragment">float waveLength = _waveLengths[indexBand];
 </pre> <blockquote class="doxtable">
-<p>&zwj; <b>Disclaimer</b>: Esta función está pensada para leer datos en una estructura concreta. Si en un futuro, el archivo de cabecera cambia, habrá que adaptar este método. </p>
+<p>&zwj; <b>Disclaimer</b>: Esta función está pensada para leer datos en una estructura concreta. Si en un futuro el archivo de cabecera cambia, habrá que adaptar este método. </p>
 </blockquote>
 <h3><a class="anchor" id="leer-bandas"></a>
 Leer bandas</h3>
 <pre class="fragment">std::vector&lt;std::vector&lt;float&gt;*&gt; _data;
 </pre><p> Existe un atributo que es una matriz de punteros a los datos de las bandas. Esta matriz almacena para cada banda (b), los valores que toman todos los píxeles. Dicha estructura de datos se crea en el método <code>readBands()</code>.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#aae3ed717c32254a2bc69203e4a47b5e6">GEU::Analisis_HyperGUIAdapter::readBands</a>() {  </div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> b = 0; b &lt; <a class="code hl_variable" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#a9efd6f760cf1ab6aefee023a1336c37a">_nBands</a>; b++) {  </div>
-<div class="line">        <a class="code hl_variable" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#a89b1eb417b396c33676727722c2afbd0">_data</a>.push_back(<span class="keyword">new</span>  std::vector&lt;float&gt;);  </div>
-<div class="line">        <a class="code hl_variable" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#aa836fbe2ff7602cd0902f9abcf9d460c">_activeHypercube</a>-&gt;<a class="code hl_function" href="../../d3/d05/class_g_e_u_1_1_hypercube.html#ab565ba9be94a50cb592c550b6beefab3">fillCubeBand</a>(b, *<a class="code hl_variable" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#a89b1eb417b396c33676727722c2afbd0">_data</a>[b]);  </div>
-<div class="line">        <a class="code hl_variable" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#acfcd038eacb7473435c1544f8975fa14">progress</a> += 0.2f / <a class="code hl_variable" href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#a9efd6f760cf1ab6aefee023a1336c37a">_nBands</a>;  </div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> readBands() </div>
+<div class="line">{  </div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> b = 0; b &lt; _nBands; b++) {  </div>
+<div class="line">        _data.push_back(<span class="keyword">new</span>  std::vector&lt;float&gt;);  </div>
+<div class="line">        _activeHypercube-&gt;fillCubeBand(b, *_data[b]);  </div>
+<div class="line">        progress += 0.2f / _nBands;  </div>
 <div class="line">    }  </div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_analisis___hyper_g_u_i_adapter_html_a89b1eb417b396c33676727722c2afbd0"><div class="ttname"><a href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#a89b1eb417b396c33676727722c2afbd0">GEU::Analisis_HyperGUIAdapter::_data</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; float &gt; * &gt; _data</div><div class="ttdef"><b>Definition</b> Analisis_HyperGUIAdapter.h:33</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_analisis___hyper_g_u_i_adapter_html_a9efd6f760cf1ab6aefee023a1336c37a"><div class="ttname"><a href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#a9efd6f760cf1ab6aefee023a1336c37a">GEU::Analisis_HyperGUIAdapter::_nBands</a></div><div class="ttdeci">int _nBands</div><div class="ttdef"><b>Definition</b> Analisis_HyperGUIAdapter.h:29</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_analisis___hyper_g_u_i_adapter_html_aa836fbe2ff7602cd0902f9abcf9d460c"><div class="ttname"><a href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#aa836fbe2ff7602cd0902f9abcf9d460c">GEU::Analisis_HyperGUIAdapter::_activeHypercube</a></div><div class="ttdeci">Hypercube * _activeHypercube</div><div class="ttdef"><b>Definition</b> Analisis_HyperGUIAdapter.h:24</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_analisis___hyper_g_u_i_adapter_html_aae3ed717c32254a2bc69203e4a47b5e6"><div class="ttname"><a href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#aae3ed717c32254a2bc69203e4a47b5e6">GEU::Analisis_HyperGUIAdapter::readBands</a></div><div class="ttdeci">void readBands()</div><div class="ttdef"><b>Definition</b> Analisis_HyperGUIAdapter.cpp:182</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_analisis___hyper_g_u_i_adapter_html_acfcd038eacb7473435c1544f8975fa14"><div class="ttname"><a href="../../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html#acfcd038eacb7473435c1544f8975fa14">GEU::Analisis_HyperGUIAdapter::progress</a></div><div class="ttdeci">std::atomic&lt; float &gt; progress</div><div class="ttdef"><b>Definition</b> Analisis_HyperGUIAdapter.h:39</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_hypercube_html_ab565ba9be94a50cb592c550b6beefab3"><div class="ttname"><a href="../../d3/d05/class_g_e_u_1_1_hypercube.html#ab565ba9be94a50cb592c550b6beefab3">GEU::Hypercube::fillCubeBand</a></div><div class="ttdeci">void fillCubeBand(uint16_t band, std::vector&lt; float &gt; &amp;bandData) const</div><div class="ttdef"><b>Definition</b> Hypercube.cpp:37</div></div>
 </div><!-- fragment --><p>Debido a esto se ocupa mucho espacio en memoria durante todo el proceso, ya que se carga los datos de todas las bandas en memoria. Pero de esta manera se evita tener que estar obteniendo la información de las bandas constantemente, se gana rapidez al hacer simplemente un acceso directo cuando se quiera obtener un valor de un píxel en una banda concreta: </p><pre class="fragment">float value = (*_data[b])[indexPixel];
 </pre> <h2><a class="anchor" id="ndvi--ndre"></a>
 NDVI + NDRE</h2>
@@ -213,24 +218,24 @@ NDVI + NDRE</h2>
 <div class="line">}</div>
 </div><!-- fragment --><p>Por cada pixel se recorre las bandas correspondientes al rojo, para buscar su <b>valor mínimo</b>, y se recorre las bandas NIR para buscar su <b>valor máximo</b>.</p>
 <div class="fragment"><div class="line"><span class="comment">// 4. Buscar el minimo valor en Red  </span></div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> b = _red_ini; b &lt;= _red_fin; b++) {<span class="comment">//por cada banda del la franja Red</span></div>
-<div class="line">        valueRed = (*_data[0][b])[indexPixel];  </div>
-<div class="line">        <span class="keywordflow">if</span> (valueRed &lt; minRed) {  </div>
-<div class="line">            minRed = valueRed;  </div>
-<div class="line">            minRed_i = b;  </div>
-<div class="line">        }  </div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> b = _red_ini; b &lt;= _red_fin; b++) {<span class="comment">//por cada banda del la franja Red</span></div>
+<div class="line">    valueRed = (*_data[0][b])[indexPixel];  </div>
+<div class="line">    <span class="keywordflow">if</span> (valueRed &lt; minRed) {  </div>
+<div class="line">        minRed = valueRed;  </div>
+<div class="line">        minRed_i = b;  </div>
 <div class="line">    }  </div>
-<div class="line">    _vegetation[x][y].push_back(minRed); <span class="comment">// Guardamos el valor mínimo encontrado  </span></div>
-<div class="line"> </div>
+<div class="line">}  </div>
+<div class="line">_vegetation[x][y].push_back(minRed); <span class="comment">// Guardamos el valor mínimo encontrado  </span></div>
+<div class="line">    </div>
 <div class="line"><span class="comment">// 5. Buscar el maximo en NIR  </span></div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> b = _nir_ini; b &lt;= _nir_fin; b++) {  </div>
-<div class="line">        valueNIR = (*_data[0][b])[indexPixel];  </div>
-<div class="line">        <span class="keywordflow">if</span> (valueNIR &gt; maxNIR) {  </div>
-<div class="line">            maxNIR = valueNIR;  </div>
-<div class="line">            maxNIR_i = b;  </div>
-<div class="line">        }  </div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> b = _nir_ini; b &lt;= _nir_fin; b++) {  </div>
+<div class="line">    valueNIR = (*_data[0][b])[indexPixel];  </div>
+<div class="line">    <span class="keywordflow">if</span> (valueNIR &gt; maxNIR) {  </div>
+<div class="line">        maxNIR = valueNIR;  </div>
+<div class="line">        maxNIR_i = b;  </div>
 <div class="line">    }  </div>
-<div class="line">    _vegetation[x][y].push_back(maxNIR);<span class="comment">// Guardamos el valor maximo encontrado</span></div>
+<div class="line">}  </div>
+<div class="line">_vegetation[x][y].push_back(maxNIR);<span class="comment">// Guardamos el valor maximo encontrado</span></div>
 </div><!-- fragment --><p>Finalmente se calcula el NDVI y el NDRE para ese pixel.</p>
 <div class="fragment"><div class="line"><span class="comment">// 6. Calcular NDVI  </span></div>
 <div class="line">_vegetation[x][y].push_back(NDVI(maxNIR, minRed));  </div>
@@ -242,31 +247,31 @@ NDVI + NDRE</h2>
 </div><!-- fragment --><p>El resultado es una matriz <code>_vegetation</code> en la que por cada píxel <code>(x,y)</code> se almacena su valores: red, NIR, NDVI y NDRE.</p>
 <h2><a class="anchor" id="tvi"></a>
 TVI</h2>
-<p>Para calcular este índice tan solo hay que aplicar la fórmula que se da a continuación: <img src="../../img/TVI.JPG" alt="TVI" title="Ecuuación TVI" class="inline"/> El código de manera resumida es:</p>
+<p>Para calcular este índice tan solo hay que aplicar la fórmula que se da a continuación: $$ TVI = 0.5 * (120*(R_{750}-R_{550})-200*(R_{670}-R_{550})) $$</p>
+<ul>
+<li>$R_{750}$ : Reflectacia en la longitud de onda 750nm</li>
+<li>$R_{670}$ : Reflectacia en la longitud de onda 670nm</li>
+<li>$R_{550}$ : Reflectacia en la longitud de onda 550nm</li>
+</ul>
+<p>El código se resume en 3 pasos, cada uno con su correspondiente función:</p>
 <h3><a class="anchor" id="autotoc_md1-recorrer-la-imagen-pixel-a-pixel"></a>
 1. Recorrer la imagen pixel a pixel.</h3>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d04/class_g_e_u_1_1_calculator_t_v_i.html#a2b6057466b7be33551da273cce7a661d">GEU::CalculatorTVI::calculateVegetationIndex</a>() {</div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; <a class="code hl_variable" href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a7e254829f53347965269e2c4133b20c9">_width</a>; x++) {</div>
-<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; <a class="code hl_variable" href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a41f5adea8cfd917578f63ee7c3a69719">_height</a>; y++) {</div>
-<div class="line">            indexPixel = <a class="code hl_variable" href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a0312710c2924d2d4f0d5744704ef2ff2">_activeHypercube</a>-&gt;<a class="code hl_function" href="../../d3/d05/class_g_e_u_1_1_hypercube.html#a3e1923679500e3ed2a995185923068a9">flattenIndex</a>(x, y);</div>
-<div class="line">            <span class="keywordtype">float</span> tvi = <a class="code hl_enumvalue" href="../../d0/d01/namespace_g_e_u.html#ab94cfd7fec0c6195700d67543bcee06ba39b5cc19f7bfeb03fba476e337f728bb">TVI</a>(indexPixel);</div>
-<div class="line">            <a class="code hl_variable" href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a7d59b6d387b7c0c127e74aa888f380c2">_vegetation</a>[x][y].push_back(tvi);            </div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> calculateVegetationIndex() </div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; _width; x++) {</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; _height; y++) {</div>
+<div class="line">            indexPixel = _activeHypercube-&gt;flattenIndex(x, y);</div>
+<div class="line">            <span class="keywordtype">float</span> tvi = TVI(indexPixel);</div>
+<div class="line">            _vegetation[x][y].push_back(tvi);           </div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line">    <a class="code hl_function" href="../../d1/d04/class_g_e_u_1_1_calculator_t_v_i.html#a8660527575da0ae270f0a07b84b74040">normaliceTVI</a>();</div>
+<div class="line">    normaliceTVI();</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_calculator_t_v_i_html_a2b6057466b7be33551da273cce7a661d"><div class="ttname"><a href="../../d1/d04/class_g_e_u_1_1_calculator_t_v_i.html#a2b6057466b7be33551da273cce7a661d">GEU::CalculatorTVI::calculateVegetationIndex</a></div><div class="ttdeci">void calculateVegetationIndex()</div><div class="ttdef"><b>Definition</b> CalculatorTVI.cpp:19</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_calculator_t_v_i_html_a8660527575da0ae270f0a07b84b74040"><div class="ttname"><a href="../../d1/d04/class_g_e_u_1_1_calculator_t_v_i.html#a8660527575da0ae270f0a07b84b74040">GEU::CalculatorTVI::normaliceTVI</a></div><div class="ttdeci">void normaliceTVI()</div><div class="ttdef"><b>Definition</b> CalculatorTVI.cpp:142</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_hypercube_html_a3e1923679500e3ed2a995185923068a9"><div class="ttname"><a href="../../d3/d05/class_g_e_u_1_1_hypercube.html#a3e1923679500e3ed2a995185923068a9">GEU::Hypercube::flattenIndex</a></div><div class="ttdeci">uint32_t flattenIndex(uint16_t x, uint16_t y) const</div><div class="ttdef"><b>Definition</b> Hypercube.cpp:45</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_vegetation_index_html_a0312710c2924d2d4f0d5744704ef2ff2"><div class="ttname"><a href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a0312710c2924d2d4f0d5744704ef2ff2">GEU::VegetationIndex::_activeHypercube</a></div><div class="ttdeci">Hypercube * _activeHypercube</div><div class="ttdef"><b>Definition</b> VegetationIndex.h:11</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_vegetation_index_html_a41f5adea8cfd917578f63ee7c3a69719"><div class="ttname"><a href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a41f5adea8cfd917578f63ee7c3a69719">GEU::VegetationIndex::_height</a></div><div class="ttdeci">float _height</div><div class="ttdef"><b>Definition</b> VegetationIndex.h:13</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_vegetation_index_html_a7d59b6d387b7c0c127e74aa888f380c2"><div class="ttname"><a href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a7d59b6d387b7c0c127e74aa888f380c2">GEU::VegetationIndex::_vegetation</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; std::vector&lt; float &gt; &gt; &gt; _vegetation</div><div class="ttdef"><b>Definition</b> VegetationIndex.h:18</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_vegetation_index_html_a7e254829f53347965269e2c4133b20c9"><div class="ttname"><a href="../../d2/d04/class_g_e_u_1_1_vegetation_index.html#a7e254829f53347965269e2c4133b20c9">GEU::VegetationIndex::_width</a></div><div class="ttdeci">float _width</div><div class="ttdef"><b>Definition</b> VegetationIndex.h:13</div></div>
-<div class="ttc" id="anamespace_g_e_u_html_ab94cfd7fec0c6195700d67543bcee06ba39b5cc19f7bfeb03fba476e337f728bb"><div class="ttname"><a href="../../d0/d01/namespace_g_e_u.html#ab94cfd7fec0c6195700d67543bcee06ba39b5cc19f7bfeb03fba476e337f728bb">GEU::TVI</a></div><div class="ttdeci">@ TVI</div><div class="ttdef"><b>Definition</b> Analisis_HyperGUIAdapter.h:13</div></div>
 </div><!-- fragment --><h3><a class="anchor" id="autotoc_md2-calcular-tvi"></a>
 2. Calcular TVI</h3>
 <p>Hay que emplear la radiación del pixel en las bandas con longitudes de onda: 750nm, 670nm y 550nm.</p>
-<div class="fragment"><div class="line">TVI(<span class="keywordtype">int</span> indexPixel) {</div>
+<div class="fragment"><div class="line"><span class="keywordtype">float</span> TVI(<span class="keywordtype">int</span> indexPixel) </div>
+<div class="line">{</div>
 <div class="line">    <span class="keywordtype">float</span> R750 = (*_data[0][B750])[indexPixel];</div>
 <div class="line">    <span class="keywordtype">float</span> R670 = (*_data[0][B670])[indexPixel];</div>
 <div class="line">    <span class="keywordtype">float</span> R550 = (*_data[0][B550])[indexPixel];</div>
@@ -282,7 +287,8 @@ TVI</h2>
 <div class="line">}</div>
 </div><!-- fragment --><h3><a class="anchor" id="autotoc_md3-normalizar-valores"></a>
 3. Normalizar valores</h3>
-<div class="fragment"><div class="line">normaliceTVI() {</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> normaliceTVI() </div>
+<div class="line">{</div>
 <div class="line">    <span class="keywordtype">float</span> tvi;</div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; _width; x++) {</div>
 <div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; _height; y++) {</div>
@@ -295,10 +301,16 @@ TVI</h2>
 </div><!-- fragment --><h2><a class="anchor" id="msavi"></a>
 MSAVI</h2>
 <p>Esta clase es prácticamente igual a TVI, solo cambia el segundo método ya que hay que aplicar otra fórmula diferente para calcular el índice de vegetación.</p>
-<p><img src="../../img/MSAVI.JPG" alt="MSAVI" title="Ecuuación MSAVI" class="inline"/></p>
-<div class="fragment"><div class="line">MSAVI(<span class="keywordtype">int</span> indexPixel){</div>
+<p>$$ MSAVI = 0.5 * (2 * R_{800}+1-[(2 * R_{800}+1)^2-8*(R_{800}-R_{670})]^{0.5}) $$</p>
+<ul>
+<li>$R_{800}$ : Reflectacia en la longitud de onda 750nm</li>
+<li>$R_{670}$ : Reflectacia en la longitud de onda 670nm</li>
+</ul>
+<div class="fragment"><div class="line"><span class="keywordtype">float</span> MSAVI(<span class="keywordtype">int</span> indexPixel)</div>
+<div class="line">{</div>
 <div class="line">    <span class="keywordtype">float</span> R800 = (*_data[0][B800])[indexPixel];</div>
 <div class="line">    <span class="keywordtype">float</span> R670 = (*_data[0][B670])[indexPixel];</div>
+<div class="line">    </div>
 <div class="line">    <span class="keywordtype">float</span> valueMSAVI = 0.5 * (2 * R800 + 1 - std::sqrt((2 * R800 + 1) * (2 * R800 + 1) - 8 * (R800 - R670)) );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> (valueMSAVI &lt; 0) { valueMSAVI = 0; }</div>

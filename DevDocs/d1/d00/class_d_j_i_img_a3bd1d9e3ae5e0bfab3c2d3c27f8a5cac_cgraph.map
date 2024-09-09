@@ -1,0 +1,9 @@
+<map id="DJIImg::computeReflectance" name="DJIImg::computeReflectance">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,192,57"/>
+<area shape="rect" id="Node000002" href="$d1/d00/class_d_j_i_img.html#a6fb28f55a13c624f6e00d1e986687e65" title=" " alt="" coords="261,5,400,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,31,245,25,245,31,192,36"/>
+<area shape="rect" id="Node000003" href="$d1/d00/class_d_j_i_img.html#aa7e0adfe4ea04c3eefb33c04f6e7da1a" title=" " alt="" coords="240,56,421,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,52,224,55,224,60,191,57"/>
+<area shape="rect" id="Node000004" href="$d1/d00/class_d_j_i_img.html#a7346d2ac1254111f223796b8213717ae" title=" " alt="" coords="469,48,650,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="421,67,454,67,454,72,421,72"/>
+</map>

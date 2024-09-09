@@ -11,7 +11,6 @@ var searchData=
   ['keeprunning_8',['keepRunning',['../dd/d01/class_g_e_u_1_1_memory_manager.html#ae8b1bd9a9bfb665762a97dafcc78b672',1,'GEU::MemoryManager']]],
   ['key_9',['key',['../db/d03/classjson_1_1invalid__key.html#ae5584183ef9a0068af5229f2e6ba8032',1,'json::invalid_key::key'],['../df/d03/classjson_1_1jobject_1_1const__proxy.html#a9ca6b9e5e046c7e66eb7064eb7dc223a',1,'json::jobject::const_proxy::key']]],
   ['keycallback_10',['keyCallback',['../d9/d05/class_g_e_u_1_1_input_manager.html#a361d92766a2cb0f62fcabb1c3b12763a',1,'GEU::InputManager']]],
-  ['kurtosis_11',['kurtosis',['../df/d04/struct_g_e_u_1_1_hyper_g_u_i_adapter_1_1_hyper_stats.html#afc7793d12df0c67f073df3caf85540bd',1,'GEU::HyperGUIAdapter::HyperStats']]],
-  ['kvp_12',['kvp',['../d1/d02/namespacejson.html#abe2acef74d8536edb83b59cf42f497e5',1,'json']]],
-  ['kvp_5freader_13',['kvp_reader',['../df/d07/classjson_1_1kvp__reader.html',1,'json::kvp_reader'],['../df/d07/classjson_1_1kvp__reader.html#aa1821f2475b6e288478f347da748435c',1,'json::kvp_reader::kvp_reader()']]]
+  ['kvp_11',['kvp',['../d1/d02/namespacejson.html#abe2acef74d8536edb83b59cf42f497e5',1,'json']]],
+  ['kvp_5freader_12',['kvp_reader',['../df/d07/classjson_1_1kvp__reader.html',1,'json::kvp_reader'],['../df/d07/classjson_1_1kvp__reader.html#aa1821f2475b6e288478f347da748435c',1,'json::kvp_reader::kvp_reader()']]]
 ];

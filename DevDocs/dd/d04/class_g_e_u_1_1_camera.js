@@ -20,6 +20,7 @@ var class_g_e_u_1_1_camera =
     [ "getZnear", "dd/d04/class_g_e_u_1_1_camera.html#a2247527c9ddc68270b122ad8f4cc88de", null ],
     [ "lookModel", "dd/d04/class_g_e_u_1_1_camera.html#a40576296046dd7cbeb67cfcd7bdbcba8", null ],
     [ "lookPosition", "dd/d04/class_g_e_u_1_1_camera.html#a9179a5b14d3a728bbec48b0582aa520a", null ],
+    [ "makeViewRay", "dd/d04/class_g_e_u_1_1_camera.html#ac98255a6ead579eb7adceb21df2e030e", null ],
     [ "operator=", "dd/d04/class_g_e_u_1_1_camera.html#a08354234a521fcc460091030601919bc", null ],
     [ "orbitXZ", "dd/d04/class_g_e_u_1_1_camera.html#aeb635da2341a0665bcc77e3a6a18dfa3", null ],
     [ "orbitY", "dd/d04/class_g_e_u_1_1_camera.html#adcb84236ed659a0a01ff9d146c10af8a", null ],

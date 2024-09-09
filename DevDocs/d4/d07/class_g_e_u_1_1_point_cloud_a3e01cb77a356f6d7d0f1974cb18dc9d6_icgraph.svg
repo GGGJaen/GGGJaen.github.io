@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afafb062e54a135be4bc20d2eaee39862" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a7b73a6f101cc9e18dadb15797dcdf8f9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="487.5,-188 333.5,-188 333.5,-156 487.5,-156 487.5,-188"/>
 <text text-anchor="start" x="341.5" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">GEU::MultiespectralGUIAdapter</text>
 <text text-anchor="middle" x="410.5" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">::mapping</text>
@@ -40,7 +40,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../db/d03/class_projection.html#a523a911b510dd0e19334e89ce02bcf19" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../db/d03/class_projection.html#a584d57729038ca4bc1087ec575c750c5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="457.88,-120 363.12,-120 363.12,-100 457.88,-100 457.88,-120"/>
 <text text-anchor="middle" x="410.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">Projection::project</text>
 </a>

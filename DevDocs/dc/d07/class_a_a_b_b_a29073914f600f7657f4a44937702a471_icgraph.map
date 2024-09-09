@@ -4,8 +4,8 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="565,307,560,255,546,189,535,154,520,121,501,89,477,62,459,49,438,39,440,35,462,44,481,58,505,86,524,118,540,152,551,188,565,254,571,307"/>
 <area shape="rect" id="Node000003" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a1931d245c0168a9e7866bc8dd7904a07" title=" " alt="" coords="287,72,442,115"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="561,309,551,270,535,223,511,176,477,135,460,123,441,113,443,108,463,118,481,131,515,173,540,221,556,268,566,307"/>
-<area shape="rect" id="Node000004" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5e5a6ec203139618f54a6479cc12dd56" title=" " alt="" coords="15,131,192,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="559,309,548,277,532,241,508,207,477,180,444,162,409,149,333,135,259,133,192,138,192,133,259,128,334,130,410,144,446,157,481,175,512,203,536,239,553,275,564,307"/>
+<area shape="rect" id="Node000004" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5e5a6ec203139618f54a6479cc12dd56" title=" " alt="" coords="15,119,192,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="559,309,548,277,531,242,508,207,478,180,457,170,428,162,354,150,271,144,192,142,192,137,271,139,354,145,429,156,458,165,480,175,512,204,536,239,553,275,564,307"/>
 <area shape="rect" id="Node000005" href="$dd/d03/class_g_e_u_1_1_procedural_generator.html#a5fb6272591570506c14b2e194a9b3805" title="Initialize the voxel grid." alt="" coords="276,315,453,357"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="511,339,453,339,453,333,511,333"/>
 <area shape="rect" id="Node000006" href="$dd/d00/class_procedural_voxel.html#a9aaf6de90f83739a93fa50ba8758c593" title=" " alt="" coords="251,381,478,424"/>
@@ -22,15 +22,17 @@
 <area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="571,365,567,422,554,495,543,534,527,572,507,607,481,638,455,656,452,651,477,634,502,604,522,569,538,532,549,494,562,422,566,365"/>
 <area shape="rect" id="Node000013" href="$dc/d07/class_a_a_b_b.html#ac7df26fada02a660519ce8829eec1bf2" title=" " alt="" coords="312,264,417,291"/>
 <area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="520,319,478,305,416,290,417,285,480,300,522,314"/>
-<area shape="rect" id="Node000008" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a7bcb4c4a764ee9419f0d924477566f60" title=" " alt="" coords="5,197,202,240"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="259,212,202,215,202,210,259,206"/>
-<area shape="poly" id="edge13_Node000013_Node000004" title=" " alt="" coords="307,260,248,230,224,208,200,188,177,176,180,172,203,183,228,204,251,226,310,255"/>
-<area shape="poly" id="edge16_Node000013_Node000008" title=" " alt="" coords="297,265,201,243,202,238,298,260"/>
-<area shape="poly" id="edge18_Node000013_Node000013" title=" " alt="" coords="400,251,387,245,364,243,343,245,331,249,328,255,334,262,329,265,323,255,327,246,342,239,364,237,389,240,402,246"/>
-<area shape="rect" id="Node000014" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a0460cce021c79455138706756f443901" title="Carga un fichero LAS/LAZ." alt="" coords="13,264,194,291"/>
-<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="297,280,194,280,194,275,297,275"/>
-<area shape="rect" id="Node000015" href="$dd/d01/class_g_e_u_1_1_file_manager.html#aa3240f6c651a6e4f7a0ba2a2f8e69067" title="Carga un fichero PLY." alt="" coords="14,315,193,341"/>
-<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="298,293,176,317,175,311,297,288"/>
-<area shape="rect" id="Node000016" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd" title=" " alt="" coords="32,365,175,408"/>
-<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="298,288,274,295,251,305,236,317,228,329,218,342,203,356,176,369,174,365,200,351,214,339,223,326,233,313,248,300,272,290,296,283"/>
+<area shape="rect" id="Node000008" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a7bcb4c4a764ee9419f0d924477566f60" title=" " alt="" coords="5,185,202,228"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="259,207,202,208,202,202,259,202"/>
+<area shape="poly" id="edge13_Node000013_Node000004" title=" " alt="" coords="304,260,275,247,248,230,233,216,224,202,215,189,200,176,180,164,182,160,203,171,219,185,228,199,237,212,251,226,278,242,306,256"/>
+<area shape="poly" id="edge16_Node000013_Node000008" title=" " alt="" coords="297,262,184,231,185,226,298,257"/>
+<area shape="poly" id="edge19_Node000013_Node000013" title=" " alt="" coords="400,251,387,245,364,243,343,245,331,249,328,255,334,262,329,265,323,255,327,246,342,239,364,237,389,240,402,246"/>
+<area shape="rect" id="Node000014" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a0460cce021c79455138706756f443901" title="Carga un fichero LAS/LAZ." alt="" coords="13,385,194,412"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="298,286,273,293,251,305,236,321,228,339,220,358,203,375,181,387,179,382,200,371,216,355,223,337,231,318,248,301,271,288,296,281"/>
+<area shape="rect" id="Node000015" href="$dd/d01/class_g_e_u_1_1_file_manager.html#aa3240f6c651a6e4f7a0ba2a2f8e69067" title="Carga un fichero PLY." alt="" coords="14,436,193,463"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="298,284,273,291,251,305,239,319,232,333,228,363,224,395,217,411,203,426,186,438,183,433,200,422,212,408,219,393,223,363,227,331,235,316,248,301,271,287,296,278"/>
+<area shape="rect" id="Node000016" href="$d9/d01/class_g_e_u_1_1_picking_window.html#aa79adb8858d14ebc644f9d7ff70e4610" title=" " alt="" coords="30,252,177,295"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="297,279,177,277,177,272,297,274"/>
+<area shape="rect" id="Node000017" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#ac3f1b02a743202ee74356c314a7f0ecd" title=" " alt="" coords="32,319,175,361"/>
+<area shape="poly" id="edge18_Node000013_Node000017" title=" " alt="" coords="298,294,250,305,176,324,174,319,249,300,296,289"/>
 </map>

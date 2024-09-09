@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -100,21 +100,21 @@ $(function(){initNavTree('d8/d00/shaders.html','../../'); initResizable(); });
 <div class="contents">
 <div class="textblock"><p>[DEPRECATED]</p>
 <blockquote class="doxtable">
-<p>&zwj;En breve <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> cambiará el pipeline clásico por uno basado en Compute Shaders, el cual posiblemente cambie el sistema aqui descrito. Por tanto, solo se recomienda añadir nuevos métodos si son indispensables. </p>
+<p>&zwj;Recientemente <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> ha cambiado su renderizado basado en shaders clásicos a uno basado en Compute Shaders. Por tanto, si se desea modificar el rendering, se deberá de hacer mediante dichos shaders, ignorando el sistema aquí descrito. </p>
 </blockquote>
-<p>El proyecto utiliza principalmente dos <a href="https://www.gamedev.net/forums/topic/674891-uber-shader-approach/"><em>uber</em> shaders</a> (uno para las nubes y otro para las mallas de triángulos), donde se implementa toda la funcionalidad requerida para el renderizado. Cada funcionalidad se implementa en forma de subrutina por dos motivos:</p>
+<p><strike>El proyecto utiliza principalmente dos <a href="https://www.gamedev.net/forums/topic/674891-uber-shader-approach/"><em>uber</em> shaders</a> (uno para las nubes y otro para las mallas de triángulos), donde se implementa toda la funcionalidad requerida para el renderizado. Cada funcionalidad se implementa en forma de subrutina por dos motivos:</strike></p>
 <ol type="1">
-<li>Se habilita la detección desde el código en C++ de las mismas.</li>
-<li>Permite diferentes implementaciones de la misma funcionalidad.</li>
+<li><strike>Se habilita la detección desde el código en C++ de las mismas.</strike></li>
+<li><strike>Permite diferentes implementaciones de la misma funcionalidad.</strike></li>
 </ol>
 <h2><a class="anchor" id="autotoc_md-instrucciones"></a>
 📘 Instrucciones</h2>
 <ol type="1">
-<li>Se <a href="https://www.lighthouse3d.com/tutorials/glsl-tutorial/subroutines/">crea la subrutina</a> en el shader. Lo único que debe de respetar es que el nombre del uniform que representa la subrutina tiene que tener el siguiente formato: nombreSubrutina + “Uniform”. Por ejemplo, si la subrutina es LightAttenuation, el uniform se llamará LightAttenuationUniform.</li>
-<li>Nos desplazamos al fichero <em><a class="el" href="../../df/d06/_shader_enums_8h.html">ShaderEnums.h</a> (Archivos de encabezado -&gt; Core -&gt; Shaders)</em>.</li>
-<li>Se deberá añadir a los enums de subrutinas un nombre identificativo.</li>
-<li>El nombre de la subrutina se debe incluir en <em>SubroutineName,</em> en la etapa correspondiente (VertexShader, Geometry Shader, Fragment Shader o Compute Shader).</li>
-<li>El nombre de cada implementación de la subrutina se debe incluir en <em>SubroutineUniformNames</em>, en la etapa correspondiente (VertexShader, Geometry Shader, Fragment Shader o Compute Shader) y para la subrutina correspondiente. </li>
+<li><strike>Se <a href="https://www.lighthouse3d.com/tutorials/glsl-tutorial/subroutines/">crea la subrutina</a> en el shader. Lo único que debe de respetar es que el nombre del uniform que representa la subrutina tiene que tener el siguiente formato: nombreSubrutina + “Uniform”. Por ejemplo, si la subrutina es LightAttenuation, el uniform se llamará LightAttenuationUniform.</strike></li>
+<li><strike>Nos desplazamos al fichero <em><a class="el" href="../../df/d06/_shader_enums_8h.html">ShaderEnums.h</a> (Archivos de encabezado -&gt; Core -&gt; Shaders)</em>.</strike></li>
+<li><strike>Se deberá añadir a los enums de subrutinas un nombre identificativo.</strike></li>
+<li><strike>El nombre de la subrutina se debe incluir en <em>SubroutineName,</em> en la etapa correspondiente (VertexShader, Geometry Shader, Fragment Shader o Compute Shader).</strike></li>
+<li><strike>El nombre de cada implementación de la subrutina se debe incluir en <em>SubroutineUniformNames</em>, en la etapa correspondiente (VertexShader, Geometry Shader, Fragment Shader o Compute Shader) y para la subrutina correspondiente.</strike> </li>
 </ol>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

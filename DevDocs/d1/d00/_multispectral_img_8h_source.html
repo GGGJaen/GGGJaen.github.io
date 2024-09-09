@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GEU: Archivo de código fuente D:/GEU/GEUCore/Source/IO/Metadata/MultispectralImg.h</title>
+<link rel="icon" href="../../Logo.ico" type="image/x-icon" />
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('d1/d00/_multispectral_img_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MultispectralImg.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d1/d00/_multispectral_img_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &lt;opencv2/core.hpp&gt;</span></div>
+<div class="foldopen" id="foldopen00003" data-start="{" data-end="};">
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html">    3</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d00/class_multispectral_img.html">MultispectralImg</a> {</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#af504e9a165deb2afe16c6801c0c3a1fc">    5</a></span>    std::string <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#af504e9a165deb2afe16c6801c0c3a1fc">_band</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a0f3f0855062be0f3a902a26592baf933">    6</a></span>    cv::Mat <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a0f3f0855062be0f3a902a26592baf933">cvImg</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a4f3add910f2994f9dfecfd2cef75973f">    7</a></span>    std::vector&lt;std::vector&lt;float&gt;&gt; <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a4f3add910f2994f9dfecfd2cef75973f">calibratedReflectance</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="comment">//Common attributes</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#aedda30f10db0ff2f1202b3f4ba0fe51e">   10</a></span>    <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#aedda30f10db0ff2f1202b3f4ba0fe51e">rows</a> = 0;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#aed67c2c41aa927092d836f465cd5d7ae">   11</a></span>    <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#aed67c2c41aa927092d836f465cd5d7ae">cols</a> = 0;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#abdac34ec3843053d29c8cb522189ffb5">   12</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#abdac34ec3843053d29c8cb522189ffb5">cx</a> = 0.0f;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a5c3e967830907ab0fa1522a7442ff965">   13</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a5c3e967830907ab0fa1522a7442ff965">cy</a> = 0.0f;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a095d11d2ef41c00b948472a0641dda7d">   14</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a095d11d2ef41c00b948472a0641dda7d">fx</a> = 0.0f;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a4aca7f18a71e69db00c8b58cb55e619f">   15</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a4aca7f18a71e69db00c8b58cb55e619f">fy</a> = 0.0f;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a7b3719c3838523d4f8e67771f587e884">   16</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a7b3719c3838523d4f8e67771f587e884">exposureTime</a> = 0.0f;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a6f3af6616c1211a7857e6db882a285fd">   17</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../d2/d00/class_multispectral_img.html#a6f3af6616c1211a7857e6db882a285fd">fNumber</a> = 0.0f;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a8e5d1bbbf67b824c4123b046994c1135">   19</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="../../d2/d00/class_multispectral_img.html#a8e5d1bbbf67b824c4123b046994c1135">~MultispectralImg</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#ad2bf7e3451d94ab6e29cfdd6a9d6f927">   20</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">float</span> <a class="code hl_function" href="../../d2/d00/class_multispectral_img.html#ad2bf7e3451d94ab6e29cfdd6a9d6f927">getReflectance</a>(<a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> px, <a class="code hl_typedef" href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> py) = 0;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d2/d00/class_multispectral_img.html#a23b6416eefbd7b1c431f3d65786d4766">   21</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d00/class_multispectral_img.html#a23b6416eefbd7b1c431f3d65786d4766">computeReflectance</a>(<span class="keywordtype">float</span> k) = 0;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+</div>
+<div class="ttc" id="a_typedefs_8h_html_ace9d960e74685e2cd84b36132dbbf8aa"><div class="ttname"><a href="../../d3/d03/_typedefs_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a></div><div class="ttdeci">uint16_t u16</div><div class="ttdef"><b>Definition</b> Typedefs.h:40</div></div>
+<div class="ttc" id="aclass_multispectral_img_html"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html">MultispectralImg</a></div><div class="ttdef"><b>Definition</b> MultispectralImg.h:3</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a095d11d2ef41c00b948472a0641dda7d"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a095d11d2ef41c00b948472a0641dda7d">MultispectralImg::fx</a></div><div class="ttdeci">float fx</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:14</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a0f3f0855062be0f3a902a26592baf933"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a0f3f0855062be0f3a902a26592baf933">MultispectralImg::cvImg</a></div><div class="ttdeci">cv::Mat cvImg</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:6</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a23b6416eefbd7b1c431f3d65786d4766"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a23b6416eefbd7b1c431f3d65786d4766">MultispectralImg::computeReflectance</a></div><div class="ttdeci">virtual void computeReflectance(float k)=0</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a4aca7f18a71e69db00c8b58cb55e619f"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a4aca7f18a71e69db00c8b58cb55e619f">MultispectralImg::fy</a></div><div class="ttdeci">float fy</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:15</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a4f3add910f2994f9dfecfd2cef75973f"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a4f3add910f2994f9dfecfd2cef75973f">MultispectralImg::calibratedReflectance</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; float &gt; &gt; calibratedReflectance</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:7</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a5c3e967830907ab0fa1522a7442ff965"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a5c3e967830907ab0fa1522a7442ff965">MultispectralImg::cy</a></div><div class="ttdeci">float cy</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:13</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a6f3af6616c1211a7857e6db882a285fd"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a6f3af6616c1211a7857e6db882a285fd">MultispectralImg::fNumber</a></div><div class="ttdeci">float fNumber</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:17</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a7b3719c3838523d4f8e67771f587e884"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a7b3719c3838523d4f8e67771f587e884">MultispectralImg::exposureTime</a></div><div class="ttdeci">float exposureTime</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:16</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_a8e5d1bbbf67b824c4123b046994c1135"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#a8e5d1bbbf67b824c4123b046994c1135">MultispectralImg::~MultispectralImg</a></div><div class="ttdeci">virtual ~MultispectralImg()=default</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_abdac34ec3843053d29c8cb522189ffb5"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#abdac34ec3843053d29c8cb522189ffb5">MultispectralImg::cx</a></div><div class="ttdeci">float cx</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:12</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_ad2bf7e3451d94ab6e29cfdd6a9d6f927"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#ad2bf7e3451d94ab6e29cfdd6a9d6f927">MultispectralImg::getReflectance</a></div><div class="ttdeci">virtual float getReflectance(u16 px, u16 py)=0</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_aed67c2c41aa927092d836f465cd5d7ae"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#aed67c2c41aa927092d836f465cd5d7ae">MultispectralImg::cols</a></div><div class="ttdeci">u16 cols</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:11</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_aedda30f10db0ff2f1202b3f4ba0fe51e"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#aedda30f10db0ff2f1202b3f4ba0fe51e">MultispectralImg::rows</a></div><div class="ttdeci">u16 rows</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:10</div></div>
+<div class="ttc" id="aclass_multispectral_img_html_af504e9a165deb2afe16c6801c0c3a1fc"><div class="ttname"><a href="../../d2/d00/class_multispectral_img.html#af504e9a165deb2afe16c6801c0c3a1fc">MultispectralImg::_band</a></div><div class="ttdeci">std::string _band</div><div class="ttdef"><b>Definition</b> MultispectralImg.h:5</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->

@@ -58,10 +58,10 @@ var _im_gui_file_dialog_8h =
     [ "IGFD_IsKeyOpened", "de/d03/_im_gui_file_dialog_8h.html#ab4e975249ec19b83b26e4613a47d154c", null ],
     [ "IGFD_IsOk", "de/d03/_im_gui_file_dialog_8h.html#a2b5e93b9b08ff9dce6f14681c964798d", null ],
     [ "IGFD_IsOpened", "de/d03/_im_gui_file_dialog_8h.html#aeb14fdd42d41d58bb70b326667207d4d", null ],
-    [ "IGFD_OpenDialog", "de/d03/_im_gui_file_dialog_8h.html#a793c905cf3454b052cab967227d2f0f7", null ],
-    [ "IGFD_OpenDialog2", "de/d03/_im_gui_file_dialog_8h.html#aecb696cffafde4661e67fff9450d6066", null ],
-    [ "IGFD_OpenDialogWithPane", "de/d03/_im_gui_file_dialog_8h.html#aaf03b7f43efe5c51b1b1d07ff99efe03", null ],
-    [ "IGFD_OpenDialogWithPane2", "de/d03/_im_gui_file_dialog_8h.html#acc9369c7306d083ec73750c79c9c5dd4", null ],
+    [ "IGFD_OpenDialog", "de/d03/_im_gui_file_dialog_8h.html#a6bed549b7a0f307d12435a3ee97da0ad", null ],
+    [ "IGFD_OpenDialog2", "de/d03/_im_gui_file_dialog_8h.html#a919c044f1e74b4e389ccb695c571c01c", null ],
+    [ "IGFD_OpenDialogWithPane", "de/d03/_im_gui_file_dialog_8h.html#a84733665b4cdb6ba7b79f0af1a0440eb", null ],
+    [ "IGFD_OpenDialogWithPane2", "de/d03/_im_gui_file_dialog_8h.html#a7c8d96ee6b4a0fa4b641703cc3cb8596", null ],
     [ "IGFD_Selection_DestroyContent", "de/d03/_im_gui_file_dialog_8h.html#ae94f94046e06366fdbaec07cbe79e980", null ],
     [ "IGFD_Selection_Get", "de/d03/_im_gui_file_dialog_8h.html#a5d9b25b225a3b4ed928f0049d19bc889", null ],
     [ "IGFD_Selection_Pair_DestroyContent", "de/d03/_im_gui_file_dialog_8h.html#a8359a812e6c8c3b4cc0a230bba742b0a", null ],
@@ -70,5 +70,5 @@ var _im_gui_file_dialog_8h =
     [ "IGFD_SetFileStyle2", "de/d03/_im_gui_file_dialog_8h.html#a38f71bc245f40499c9dab6f1904a9643", null ],
     [ "IGFD_WasKeyOpenedThisFrame", "de/d03/_im_gui_file_dialog_8h.html#a0b48a2e42c1f24f234f6b67a46a16939", null ],
     [ "IGFD_WasOpenedThisFrame", "de/d03/_im_gui_file_dialog_8h.html#a3c0e25faecfd364d678abc4596bacd5a", null ],
-    [ "SetLocales", "de/d03/_im_gui_file_dialog_8h.html#a8b27e71903d7c37a0f657f3ada3de93a", null ]
+    [ "SetLocales", "de/d03/_im_gui_file_dialog_8h.html#a75716de756021fad6c5e9489cae21aed", null ]
 ];

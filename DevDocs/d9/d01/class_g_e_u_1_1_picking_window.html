@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -177,8 +177,6 @@ Métodos protegidos</h2></td></tr>
 <tr class="separator:aa79adb8858d14ebc644f9d7ff70e4610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4598c75b063cc7198e8512d7b2c5acb1" id="r_a4598c75b063cc7198e8512d7b2c5acb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4598c75b063cc7198e8512d7b2c5acb1">mouseMoveEvent</a> (float x, float y) override</td></tr>
 <tr class="separator:a4598c75b063cc7198e8512d7b2c5acb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e7c0cc8adad0761cf4b07506acd963a" id="r_a0e7c0cc8adad0761cf4b07506acd963a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e7c0cc8adad0761cf4b07506acd963a">renderPickComparison</a> ()</td></tr>
-<tr class="separator:a0e7c0cc8adad0761cf4b07506acd963a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Atributos protegidos</h2></td></tr>
@@ -194,39 +192,25 @@ Atributos protegidos</h2></td></tr>
 <tr class="separator:aa20044b791199cd681eace364ff75988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ca46cce9a4d305b40a134143f6fead9" id="r_a4ca46cce9a4d305b40a134143f6fead9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ca46cce9a4d305b40a134143f6fead9">_firstClicked</a></td></tr>
 <tr class="separator:a4ca46cce9a4d305b40a134143f6fead9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae43b5746c4ebd7a599c6dd9ec18f86ff" id="r_ae43b5746c4ebd7a599c6dd9ec18f86ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae43b5746c4ebd7a599c6dd9ec18f86ff">_showSelectionRect</a></td></tr>
-<tr class="separator:ae43b5746c4ebd7a599c6dd9ec18f86ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac0d4898993c257a32379b1d112b525" id="r_aaac0d4898993c257a32379b1d112b525"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaac0d4898993c257a32379b1d112b525">_selectionRectBegin</a></td></tr>
-<tr class="separator:aaac0d4898993c257a32379b1d112b525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ece4e1259ca73c05a4b0f1ef69097a2" id="r_a9ece4e1259ca73c05a4b0f1ef69097a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ece4e1259ca73c05a4b0f1ef69097a2">_viewResultIdx</a></td></tr>
+<tr class="separator:a9ece4e1259ca73c05a4b0f1ef69097a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a3cef196a76ca455e68f42f65a30607" id="r_a7a3cef196a76ca455e68f42f65a30607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3cef196a76ca455e68f42f65a30607">_pickingTargetCloud</a></td></tr>
 <tr class="memdesc:a7a3cef196a76ca455e68f42f65a30607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point cloud used to check picking.  <br /></td></tr>
 <tr class="separator:a7a3cef196a76ca455e68f42f65a30607"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2062fb09b2c1b8a620de5c1240d95b" id="r_aae2062fb09b2c1b8a620de5c1240d95b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae2062fb09b2c1b8a620de5c1240d95b">_pickedIdx</a></td></tr>
-<tr class="memdesc:aae2062fb09b2c1b8a620de5c1240d95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Picking result indexes.  <br /></td></tr>
-<tr class="separator:aae2062fb09b2c1b8a620de5c1240d95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21b64782737ab1835ad2c19742a19fb2" id="r_a21b64782737ab1835ad2c19742a19fb2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../dc/d07/class_a_a_b_b.html">AABB</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21b64782737ab1835ad2c19742a19fb2">_pickedAreas</a></td></tr>
-<tr class="memdesc:a21b64782737ab1835ad2c19742a19fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Picking result 3D AABBoxes.  <br /></td></tr>
-<tr class="separator:a21b64782737ab1835ad2c19742a19fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3279376450835759b9fbe7f20ec70570" id="r_a3279376450835759b9fbe7f20ec70570"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3279376450835759b9fbe7f20ec70570">_drawPickingResultGizmos</a></td></tr>
+<tr class="separator:a3279376450835759b9fbe7f20ec70570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3300639d64f972774a6c6e91e7f6ea" id="r_a7d3300639d64f972774a6c6e91e7f6ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3300639d64f972774a6c6e91e7f6ea">_drawPickingDebugGizmos</a></td></tr>
+<tr class="separator:a7d3300639d64f972774a6c6e91e7f6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5187b59ba1e186a23dc921ee59f6085" id="r_ab5187b59ba1e186a23dc921ee59f6085"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5187b59ba1e186a23dc921ee59f6085">_pickingGizmosThickness</a></td></tr>
 <tr class="memdesc:ab5187b59ba1e186a23dc921ee59f6085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Picking result 2D gizmo thickness.  <br /></td></tr>
 <tr class="separator:ab5187b59ba1e186a23dc921ee59f6085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ab6b21a0d81aa6e99e77c46e7d9309" id="r_a47ab6b21a0d81aa6e99e77c46e7d9309"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d03/_typedefs_8h.html#ac54e849f8b2339f592307eaf6cdbba77">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ab6b21a0d81aa6e99e77c46e7d9309">_pickingGizmosColor</a></td></tr>
 <tr class="memdesc:a47ab6b21a0d81aa6e99e77c46e7d9309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Picking result 2D gizmo color.  <br /></td></tr>
 <tr class="separator:a47ab6b21a0d81aa6e99e77c46e7d9309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735f8c8ffa93b6b2891a7a79ccfd325a" id="r_a735f8c8ffa93b6b2891a7a79ccfd325a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735f8c8ffa93b6b2891a7a79ccfd325a">_pickingStatsType</a></td></tr>
-<tr class="separator:a735f8c8ffa93b6b2891a7a79ccfd325a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa3719a9a326f307a3aa992e55fa6c65" id="r_aaa3719a9a326f307a3aa992e55fa6c65"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa3719a9a326f307a3aa992e55fa6c65">_pickingRepeatDelayMS</a></td></tr>
-<tr class="separator:aaa3719a9a326f307a3aa992e55fa6c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348fad1a1e85a4cd26e0762e6caace65" id="r_a348fad1a1e85a4cd26e0762e6caace65"><td class="memItemLeft" align="right" valign="top">std::chrono::steady_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a348fad1a1e85a4cd26e0762e6caace65">_pickingRepeatLastEnd</a></td></tr>
-<tr class="separator:a348fad1a1e85a4cd26e0762e6caace65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1032bf2a75fcfa6eedd2e32984672b54" id="r_a1032bf2a75fcfa6eedd2e32984672b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1032bf2a75fcfa6eedd2e32984672b54">_pickingPointResult</a></td></tr>
-<tr class="separator:a1032bf2a75fcfa6eedd2e32984672b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca" id="r_a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca">_pickingRayCenter</a></td></tr>
-<tr class="separator:a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a124fb6e11a544d83d18319e4318ca70a" id="r_a124fb6e11a544d83d18319e4318ca70a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a124fb6e11a544d83d18319e4318ca70a">_pickingRayDir</a></td></tr>
-<tr class="separator:a124fb6e11a544d83d18319e4318ca70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ed3661c3583d908738322112586b4a9" id="r_a2ed3661c3583d908738322112586b4a9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ed3661c3583d908738322112586b4a9">_pickingNearPoints</a></td></tr>
-<tr class="separator:a2ed3661c3583d908738322112586b4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701e906b2ccb5b8c98ba3a1a8c0e52c5" id="r_a701e906b2ccb5b8c98ba3a1a8c0e52c5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a701e906b2ccb5b8c98ba3a1a8c0e52c5">_pickingCompareA</a></td></tr>
+<tr class="separator:a701e906b2ccb5b8c98ba3a1a8c0e52c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39770c62c756472d649b756e2ae0fc4" id="r_ae39770c62c756472d649b756e2ae0fc4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae39770c62c756472d649b756e2ae0fc4">_pickingCompareB</a></td></tr>
+<tr class="separator:ae39770c62c756472d649b756e2ae0fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_g_e_u_1_1_i___g_u_i_window"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_g_e_u_1_1_i___g_u_i_window')"><img src="../../closed.png" alt="-"/>&#160;Atributos protegidos heredados de <a class="el" href="../../dc/d03/class_g_e_u_1_1_i___g_u_i_window.html">GEU::I_GUIWindow</a></td></tr>
 <tr class="memitem:a1eecb6ffeef9fe5d82f3913da2b112dd inherit pro_attribs_class_g_e_u_1_1_i___g_u_i_window" id="r_a1eecb6ffeef9fe5d82f3913da2b112dd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d03/class_g_e_u_1_1_i___g_u_i_window.html#a1eecb6ffeef9fe5d82f3913da2b112dd">_windowID</a></td></tr>
 <tr class="memdesc:a1eecb6ffeef9fe5d82f3913da2b112dd inherit pro_attribs_class_g_e_u_1_1_i___g_u_i_window"><td class="mdescLeft">&#160;</td><td class="mdescRight">ImGUI window ID.  <br /></td></tr>
@@ -376,7 +360,7 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_ae36fe8df3dac7b35f086614b2fdf33fa_cgraph.svg" width="411" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_ae36fe8df3dac7b35f086614b2fdf33fa_cgraph.svg" width="411" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -442,7 +426,7 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_aa79adb8858d14ebc644f9d7ff70e4610_cgraph.svg" width="348" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_aa79adb8858d14ebc644f9d7ff70e4610_cgraph.svg" width="544" height="338"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -483,31 +467,6 @@ Gráfico de llamadas de esta función:</div>
 
 </div>
 </div>
-<a id="a0e7c0cc8adad0761cf4b07506acd963a" name="a0e7c0cc8adad0761cf4b07506acd963a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e7c0cc8adad0761cf4b07506acd963a">&#9670;&#160;</a></span>renderPickComparison()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GEU::PickingWindow::renderPickComparison </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a56f55b34996a68d41418a2df8ea008db" name="a56f55b34996a68d41418a2df8ea008db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56f55b34996a68d41418a2df8ea008db">&#9670;&#160;</a></span>renderWindow()</h2>
 
@@ -537,7 +496,7 @@ Gráfico de llamadas de esta función:</div>
 <div class="dynheader">
 Gráfico de llamadas de esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_a56f55b34996a68d41418a2df8ea008db_cgraph.svg" width="610" height="387"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_a56f55b34996a68d41418a2df8ea008db_cgraph.svg" width="582" height="811"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -556,6 +515,11 @@ Gráfico de llamadas de esta función:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d01/class_g_e_u_1_1_picking_window_a68d06c7f59e73da0e86399b6796bad01_cgraph.svg" width="348" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -600,6 +564,50 @@ Gráfico de llamadas de esta función:</div>
 </div>
 </div>
 <h2 class="groupheader">Documentación de datos miembro</h2>
+<a id="a7d3300639d64f972774a6c6e91e7f6ea" name="a7d3300639d64f972774a6c6e91e7f6ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3300639d64f972774a6c6e91e7f6ea">&#9670;&#160;</a></span>_drawPickingDebugGizmos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::PickingWindow::_drawPickingDebugGizmos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3279376450835759b9fbe7f20ec70570" name="a3279376450835759b9fbe7f20ec70570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3279376450835759b9fbe7f20ec70570">&#9670;&#160;</a></span>_drawPickingResultGizmos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::PickingWindow::_drawPickingResultGizmos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ca46cce9a4d305b40a134143f6fead9" name="a4ca46cce9a4d305b40a134143f6fead9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ca46cce9a4d305b40a134143f6fead9">&#9670;&#160;</a></span>_firstClicked</h2>
 
@@ -644,8 +652,8 @@ Gráfico de llamadas de esta función:</div>
 
 </div>
 </div>
-<a id="a21b64782737ab1835ad2c19742a19fb2" name="a21b64782737ab1835ad2c19742a19fb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21b64782737ab1835ad2c19742a19fb2">&#9670;&#160;</a></span>_pickedAreas</h2>
+<a id="a701e906b2ccb5b8c98ba3a1a8c0e52c5" name="a701e906b2ccb5b8c98ba3a1a8c0e52c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a701e906b2ccb5b8c98ba3a1a8c0e52c5">&#9670;&#160;</a></span>_pickingCompareA</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -654,7 +662,7 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../dc/d07/class_a_a_b_b.html">AABB</a>&gt; GEU::PickingWindow::_pickedAreas</td>
+          <td class="memname">size_t GEU::PickingWindow::_pickingCompareA</td>
         </tr>
       </table>
   </td>
@@ -664,12 +672,10 @@ Gráfico de llamadas de esta función:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Picking result 3D AABBoxes. </p>
-
 </div>
 </div>
-<a id="aae2062fb09b2c1b8a620de5c1240d95b" name="aae2062fb09b2c1b8a620de5c1240d95b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae2062fb09b2c1b8a620de5c1240d95b">&#9670;&#160;</a></span>_pickedIdx</h2>
+<a id="ae39770c62c756472d649b756e2ae0fc4" name="ae39770c62c756472d649b756e2ae0fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39770c62c756472d649b756e2ae0fc4">&#9670;&#160;</a></span>_pickingCompareB</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -678,7 +684,7 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; GEU::PickingWindow::_pickedIdx</td>
+          <td class="memname">size_t GEU::PickingWindow::_pickingCompareB</td>
         </tr>
       </table>
   </td>
@@ -687,8 +693,6 @@ Gráfico de llamadas de esta función:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Picking result indexes. </p>
 
 </div>
 </div>
@@ -784,138 +788,6 @@ Gráfico de llamadas de esta función:</div>
 
 </div>
 </div>
-<a id="a2ed3661c3583d908738322112586b4a9" name="a2ed3661c3583d908738322112586b4a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ed3661c3583d908738322112586b4a9">&#9670;&#160;</a></span>_pickingNearPoints</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;int&gt; GEU::PickingWindow::_pickingNearPoints</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1032bf2a75fcfa6eedd2e32984672b54" name="a1032bf2a75fcfa6eedd2e32984672b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1032bf2a75fcfa6eedd2e32984672b54">&#9670;&#160;</a></span>_pickingPointResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d03/_typedefs_8h.html#a3d0ce73e3199de81565fb01632415288">vec3</a> GEU::PickingWindow::_pickingPointResult</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca" name="a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f30ccdcb7e1d2d6ac0c3d8fcc53bcca">&#9670;&#160;</a></span>_pickingRayCenter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> GEU::PickingWindow::_pickingRayCenter</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a124fb6e11a544d83d18319e4318ca70a" name="a124fb6e11a544d83d18319e4318ca70a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a124fb6e11a544d83d18319e4318ca70a">&#9670;&#160;</a></span>_pickingRayDir</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d03/_typedefs_8h.html#ad46bbf69e5fb580b759599bc05cc94df">dvec3</a> GEU::PickingWindow::_pickingRayDir</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaa3719a9a326f307a3aa992e55fa6c65" name="aaa3719a9a326f307a3aa992e55fa6c65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa3719a9a326f307a3aa992e55fa6c65">&#9670;&#160;</a></span>_pickingRepeatDelayMS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned GEU::PickingWindow::_pickingRepeatDelayMS</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a348fad1a1e85a4cd26e0762e6caace65" name="a348fad1a1e85a4cd26e0762e6caace65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a348fad1a1e85a4cd26e0762e6caace65">&#9670;&#160;</a></span>_pickingRepeatLastEnd</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::chrono::steady_clock::time_point GEU::PickingWindow::_pickingRepeatLastEnd</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa20044b791199cd681eace364ff75988" name="aa20044b791199cd681eace364ff75988"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa20044b791199cd681eace364ff75988">&#9670;&#160;</a></span>_pickingSecondPos</h2>
 
@@ -927,28 +799,6 @@ Gráfico de llamadas de esta función:</div>
       <table class="memname">
         <tr>
           <td class="memname">ImVec2 GEU::PickingWindow::_pickingSecondPos</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a735f8c8ffa93b6b2891a7a79ccfd325a" name="a735f8c8ffa93b6b2891a7a79ccfd325a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a735f8c8ffa93b6b2891a7a79ccfd325a">&#9670;&#160;</a></span>_pickingStatsType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int GEU::PickingWindow::_pickingStatsType</td>
         </tr>
       </table>
   </td>
@@ -984,8 +834,8 @@ Gráfico de llamadas de esta función:</div>
 
 </div>
 </div>
-<a id="aaac0d4898993c257a32379b1d112b525" name="aaac0d4898993c257a32379b1d112b525"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaac0d4898993c257a32379b1d112b525">&#9670;&#160;</a></span>_selectionRectBegin</h2>
+<a id="a9ece4e1259ca73c05a4b0f1ef69097a2" name="a9ece4e1259ca73c05a4b0f1ef69097a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ece4e1259ca73c05a4b0f1ef69097a2">&#9670;&#160;</a></span>_viewResultIdx</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -994,29 +844,7 @@ Gráfico de llamadas de esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ImVec2 GEU::PickingWindow::_selectionRectBegin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae43b5746c4ebd7a599c6dd9ec18f86ff" name="ae43b5746c4ebd7a599c6dd9ec18f86ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae43b5746c4ebd7a599c6dd9ec18f86ff">&#9670;&#160;</a></span>_showSelectionRect</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool GEU::PickingWindow::_showSelectionRect</td>
+          <td class="memname">int GEU::PickingWindow::_viewResultIdx</td>
         </tr>
       </table>
   </td>
@@ -1053,14 +881,14 @@ Gráfico de llamadas de esta función:</div>
 <div class="line">            {<a class="code hl_enumvalue" href="#a641e6159c8f351fa9b8fd6672bf274b9a4e0d96773e775d420d71c11454ae5122">FocusMeshlet</a>, <a class="code hl_enumvalue" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a7a3008ac6d706d7dcb843a6c2281459e">PICKING_FOCUSMESHLET</a>},</div>
 <div class="line">            {<a class="code hl_enumvalue" href="#a641e6159c8f351fa9b8fd6672bf274b9a74bb327d2479bc267fbfd62a0fc135b6">AreaMeshlet</a>, <a class="code hl_enumvalue" href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a273a42d2768288b5f36227d50dd566f1">PICKING_AREAMESHLET</a>}</div>
 <div class="line">        }</div>
-<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9a4e0d96773e775d420d71c11454ae5122"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9a4e0d96773e775d420d71c11454ae5122">GEU::PickingWindow::FocusMeshlet</a></div><div class="ttdeci">@ FocusMeshlet</div><div class="ttdef"><b>Definition</b> PickingWindow.h:31</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9a72956a593b44284616bc542f1afe1b4b"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9a72956a593b44284616bc542f1afe1b4b">GEU::PickingWindow::AreaPoint</a></div><div class="ttdeci">@ AreaPoint</div><div class="ttdef"><b>Definition</b> PickingWindow.h:30</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9a74bb327d2479bc267fbfd62a0fc135b6"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9a74bb327d2479bc267fbfd62a0fc135b6">GEU::PickingWindow::AreaMeshlet</a></div><div class="ttdeci">@ AreaMeshlet</div><div class="ttdef"><b>Definition</b> PickingWindow.h:32</div></div>
-<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9adace806bed2a7656ce529ff80a492fda"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9adace806bed2a7656ce529ff80a492fda">GEU::PickingWindow::SinglePoint</a></div><div class="ttdeci">@ SinglePoint</div><div class="ttdef"><b>Definition</b> PickingWindow.h:29</div></div>
-<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573a273a42d2768288b5f36227d50dd566f1"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a273a42d2768288b5f36227d50dd566f1">PICKING_AREAMESHLET</a></div><div class="ttdeci">@ PICKING_AREAMESHLET</div><div class="ttdef"><b>Definition</b> locale_strings.h:365</div></div>
-<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573a590a4cae6c8c7da18828185b93cf4c0e"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a590a4cae6c8c7da18828185b93cf4c0e">PICKING_SINGLEPOINT</a></div><div class="ttdeci">@ PICKING_SINGLEPOINT</div><div class="ttdef"><b>Definition</b> locale_strings.h:359</div></div>
-<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573a7a3008ac6d706d7dcb843a6c2281459e"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a7a3008ac6d706d7dcb843a6c2281459e">PICKING_FOCUSMESHLET</a></div><div class="ttdeci">@ PICKING_FOCUSMESHLET</div><div class="ttdef"><b>Definition</b> locale_strings.h:363</div></div>
-<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573ae16fb692197c56d37ae89b5102277937"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ae16fb692197c56d37ae89b5102277937">PICKING_AREAPOINT</a></div><div class="ttdeci">@ PICKING_AREAPOINT</div><div class="ttdef"><b>Definition</b> locale_strings.h:361</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9a4e0d96773e775d420d71c11454ae5122"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9a4e0d96773e775d420d71c11454ae5122">GEU::PickingWindow::FocusMeshlet</a></div><div class="ttdeci">@ FocusMeshlet</div><div class="ttdef"><b>Definition</b> PickingWindow.h:43</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9a72956a593b44284616bc542f1afe1b4b"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9a72956a593b44284616bc542f1afe1b4b">GEU::PickingWindow::AreaPoint</a></div><div class="ttdeci">@ AreaPoint</div><div class="ttdef"><b>Definition</b> PickingWindow.h:42</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9a74bb327d2479bc267fbfd62a0fc135b6"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9a74bb327d2479bc267fbfd62a0fc135b6">GEU::PickingWindow::AreaMeshlet</a></div><div class="ttdeci">@ AreaMeshlet</div><div class="ttdef"><b>Definition</b> PickingWindow.h:44</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_picking_window_html_a641e6159c8f351fa9b8fd6672bf274b9adace806bed2a7656ce529ff80a492fda"><div class="ttname"><a href="#a641e6159c8f351fa9b8fd6672bf274b9adace806bed2a7656ce529ff80a492fda">GEU::PickingWindow::SinglePoint</a></div><div class="ttdeci">@ SinglePoint</div><div class="ttdef"><b>Definition</b> PickingWindow.h:41</div></div>
+<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573a273a42d2768288b5f36227d50dd566f1"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a273a42d2768288b5f36227d50dd566f1">PICKING_AREAMESHLET</a></div><div class="ttdeci">@ PICKING_AREAMESHLET</div><div class="ttdef"><b>Definition</b> locale_strings.h:375</div></div>
+<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573a590a4cae6c8c7da18828185b93cf4c0e"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a590a4cae6c8c7da18828185b93cf4c0e">PICKING_SINGLEPOINT</a></div><div class="ttdeci">@ PICKING_SINGLEPOINT</div><div class="ttdef"><b>Definition</b> locale_strings.h:368</div></div>
+<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573a7a3008ac6d706d7dcb843a6c2281459e"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a7a3008ac6d706d7dcb843a6c2281459e">PICKING_FOCUSMESHLET</a></div><div class="ttdeci">@ PICKING_FOCUSMESHLET</div><div class="ttdef"><b>Definition</b> locale_strings.h:373</div></div>
+<div class="ttc" id="alocale__strings_8h_html_a601a7b55b6c3e8ec0bf8451cb7995573ae16fb692197c56d37ae89b5102277937"><div class="ttname"><a href="../../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ae16fb692197c56d37ae89b5102277937">PICKING_AREAPOINT</a></div><div class="ttdeci">@ PICKING_AREAPOINT</div><div class="ttdef"><b>Definition</b> locale_strings.h:370</div></div>
 </div><!-- fragment -->
 </div>
 </div>

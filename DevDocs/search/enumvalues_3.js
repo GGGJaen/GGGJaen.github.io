@@ -156,8 +156,9 @@ var searchData=
   ['digital_5fterrain_5fmodel_153',['DIGITAL_TERRAIN_MODEL',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a4683f3ef77798afb5945777f1ae30bd4',1,'locale_strings.h']]],
   ['directional_5flight_154',['DIRECTIONAL_LIGHT',['../d4/d04/class_g_e_u_1_1_light_model.html#ac2d668ef9f931f8b789fc203aa943a72a64260d604c9e8b28ddb9e22b1684fcef',1,'GEU::LightModel']]],
   ['directory_155',['DIRECTORY',['../d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48',1,'FileDialogRegex']]],
-  ['dolly_156',['DOLLY',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca6256dd13b8abeadd40d57c28889815c2',1,'GEU::InputManager']]],
-  ['dolly_5fspeed_5fup_157',['DOLLY_SPEED_UP',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca9b9024b00f218787b28cea26947faf44',1,'GEU::InputManager']]],
-  ['draw_5fnormals_158',['DRAW_NORMALS',['../de/d03/struct_g_e_u_1_1_shader_enum.html#a11ceb761ed8a57fbe5affd891960d2efa248db752b4142ee5517dcac3c200ed75',1,'GEU::ShaderEnum']]],
-  ['dron_159',['DRON',['../d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbae86df15507effcf975f84ef3e500c4fb',1,'GEU::DatabaseQueryPopup']]]
+  ['dji_156',['DJI',['../de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a961b5cd6a2e5a257d70641d540588f20a153d951385c5fdca0deb46430d4c73e2',1,'GEU::MultiespectralGUIAdapter']]],
+  ['dolly_157',['DOLLY',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca6256dd13b8abeadd40d57c28889815c2',1,'GEU::InputManager']]],
+  ['dolly_5fspeed_5fup_158',['DOLLY_SPEED_UP',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca9b9024b00f218787b28cea26947faf44',1,'GEU::InputManager']]],
+  ['draw_5fnormals_159',['DRAW_NORMALS',['../de/d03/struct_g_e_u_1_1_shader_enum.html#a11ceb761ed8a57fbe5affd891960d2efa248db752b4142ee5517dcac3c200ed75',1,'GEU::ShaderEnum']]],
+  ['dron_160',['DRON',['../d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbae86df15507effcf975f84ef3e500c4fb',1,'GEU::DatabaseQueryPopup']]]
 ];

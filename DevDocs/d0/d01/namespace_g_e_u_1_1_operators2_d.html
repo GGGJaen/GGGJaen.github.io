@@ -31,7 +31,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../Logo.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">GEU<span id="projectnumber">&#160;0.3.0</span>
+   <div id="projectname">GEU<span id="projectnumber">&#160;0.4.0</span>
    </div>
   </td>
  </tr>
@@ -117,8 +117,69 @@ Funciones</h2></td></tr>
 <tr class="separator:ae528218480d6d3cd22cd7cec24962c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a831379f52f30464a7858df166cf74e42" id="r_a831379f52f30464a7858df166cf74e42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831379f52f30464a7858df166cf74e42">checkAABBoxToAABBox</a> (<a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxAmin, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxAmax, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxBmin, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxBmax)</td></tr>
 <tr class="separator:a831379f52f30464a7858df166cf74e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1054f39bfb9be167d51e6b91f2b8e1f4" id="r_a1054f39bfb9be167d51e6b91f2b8e1f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1054f39bfb9be167d51e6b91f2b8e1f4">checkAABBToAABBAnyAxisIntersect</a> (<a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxAmin, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxAmax, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxBmin, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxBmax)</td></tr>
+<tr class="separator:a1054f39bfb9be167d51e6b91f2b8e1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22bfbe2fe2ca0f7bd70b247769772eae" id="r_a22bfbe2fe2ca0f7bd70b247769772eae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22bfbe2fe2ca0f7bd70b247769772eae">checkAABBinAABB</a> (<a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxAmin, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxAmax, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxBmin, <a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a> boxBmax)</td></tr>
+<tr class="memdesc:a22bfbe2fe2ca0f7bd70b247769772eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if boxA is inside boxB.  <br /></td></tr>
+<tr class="separator:a22bfbe2fe2ca0f7bd70b247769772eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de funciones</h2>
+<a id="a22bfbe2fe2ca0f7bd70b247769772eae" name="a22bfbe2fe2ca0f7bd70b247769772eae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22bfbe2fe2ca0f7bd70b247769772eae">&#9670;&#160;</a></span>checkAABBinAABB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::Operators2D::checkAABBinAABB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxAmin</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxAmax</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxBmin</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxBmax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if boxA is inside boxB. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boxAmin</td><td></td></tr>
+    <tr><td class="paramname">boxAmax</td><td></td></tr>
+    <tr><td class="paramname">boxBmin</td><td></td></tr>
+    <tr><td class="paramname">boxBmax</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d01/namespace_g_e_u_1_1_operators2_d_a22bfbe2fe2ca0f7bd70b247769772eae_icgraph.svg" width="440" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a831379f52f30464a7858df166cf74e42" name="a831379f52f30464a7858df166cf74e42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a831379f52f30464a7858df166cf74e42">&#9670;&#160;</a></span>checkAABBoxToAABBox()</h2>
 
@@ -158,8 +219,47 @@ Funciones</h2></td></tr>
 <div class="dynheader">
 Gráfico de llamadas a esta función:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d01/namespace_g_e_u_1_1_operators2_d_a831379f52f30464a7858df166cf74e42_icgraph.svg" width="515" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d01/namespace_g_e_u_1_1_operators2_d_a831379f52f30464a7858df166cf74e42_icgraph.svg" width="515" height="163"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a1054f39bfb9be167d51e6b91f2b8e1f4" name="a1054f39bfb9be167d51e6b91f2b8e1f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1054f39bfb9be167d51e6b91f2b8e1f4">&#9670;&#160;</a></span>checkAABBToAABBAnyAxisIntersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEU::Operators2D::checkAABBToAABBAnyAxisIntersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxAmin</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxAmax</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxBmin</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2">vec2</a></td>          <td class="paramname"><span class="paramname"><em>boxBmax</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

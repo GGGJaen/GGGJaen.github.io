@@ -1,7 +1,10 @@
 <map id="GEU::Operators2D::checkAABBoxToAABBox" name="GEU::Operators2D::checkAABBoxToAABBox">
-<area shape="rect" id="Node000001" title=" " alt="" coords="286,23,509,65"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="286,48,509,91"/>
 <area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#aa595ee7b83a5c9a5a6ff848c60bd6dee" title=" " alt="" coords="5,5,238,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,35,238,32,238,27,270,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,49,198,35,199,30,271,43"/>
 <area shape="rect" id="Node000003" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a8e3aa0296b8395cda7e4feaba6cd211b" title=" " alt="" coords="13,56,230,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,58,230,62,230,57,270,53"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,72,230,72,230,67,270,67"/>
+<area shape="rect" id="Node000004" href="$db/d03/class_projection.html#a584d57729038ca4bc1087ec575c750c5" title=" " alt="" coords="58,131,185,157"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="301,98,175,133,173,127,300,93"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="170,119,154,112,121,109,92,111,76,116,73,121,80,128,76,132,67,122,73,112,91,106,122,104,155,107,172,114"/>
 </map>

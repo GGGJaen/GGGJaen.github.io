@@ -13,6 +13,10 @@ var searchData=
   ['shaderprogram_2eh_10',['ShaderProgram.h',['../d0/d06/_shader_program_8h.html',1,'']]],
   ['shaders_2emd_11',['Shaders.md',['../d4/d03/_shaders_8md.html',1,'']]],
   ['singleton_2eh_12',['Singleton.h',['../de/d04/_singleton_8h.html',1,'']]],
-  ['statswindow_2ecpp_13',['StatsWindow.cpp',['../d5/d05/_stats_window_8cpp.html',1,'']]],
-  ['statswindow_2eh_14',['StatsWindow.h',['../d5/d06/_stats_window_8h.html',1,'']]]
+  ['spectralanalysisguiadapter_2ecpp_13',['SpectralAnalysisGUIAdapter.cpp',['../dd/d07/_spectral_analysis_g_u_i_adapter_8cpp.html',1,'']]],
+  ['spectralanalysisguiadapter_2eh_14',['SpectralAnalysisGUIAdapter.h',['../db/d07/_spectral_analysis_g_u_i_adapter_8h.html',1,'']]],
+  ['spectralanalysispch_2ecpp_15',['SpectralAnalysisPch.cpp',['../d4/d05/_spectral_analysis_pch_8cpp.html',1,'']]],
+  ['spectralanalysispch_2eh_16',['SpectralAnalysisPch.h',['../d0/d00/_spectral_analysis_pch_8h.html',1,'']]],
+  ['statswindow_2ecpp_17',['StatsWindow.cpp',['../d5/d05/_stats_window_8cpp.html',1,'']]],
+  ['statswindow_2eh_18',['StatsWindow.h',['../d5/d06/_stats_window_8h.html',1,'']]]
 ];

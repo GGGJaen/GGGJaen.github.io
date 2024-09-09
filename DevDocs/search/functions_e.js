@@ -35,9 +35,5 @@ var searchData=
   ['operator_5b_5d_32',['operator[]',['../d3/d01/struct_g_e_u_1_1_mapped_memory.html#ad8c4836395597a44617dfd6cc024c536',1,'GEU::MappedMemory::operator[]()'],['../d8/d07/classjson_1_1jobject.html#afd7ab486b2a39778f4e8fe071afa8171',1,'json::jobject::operator[](const std::string key)'],['../d8/d07/classjson_1_1jobject.html#a2c9164e293d1506788bca1f0e9b13e90',1,'json::jobject::operator[](const std::string key) const']]],
   ['orbitxz_33',['orbitXZ',['../dd/d04/class_g_e_u_1_1_camera.html#aeb635da2341a0665bcc77e3a6a18dfa3',1,'GEU::Camera']]],
   ['orbity_34',['orbitY',['../dd/d04/class_g_e_u_1_1_camera.html#adcb84236ed659a0a01ff9d146c10af8a',1,'GEU::Camera']]],
-  ['orientationcloud_35',['orientationCloud',['../db/d03/class_projection.html#a959d6b7f34ae98d3f8811656abf09cb3',1,'Projection']]],
-  ['orientationicpcloud_36',['orientationIcpCloud',['../db/d03/class_projection.html#a63cc11a5ad13e474184711d4df85ad81',1,'Projection']]],
-  ['orientationicptransform_37',['orientationIcpTransform',['../db/d03/class_projection.html#afa54867a6d692aacd540d830fc15445e',1,'Projection']]],
-  ['orientationtransform_38',['orientationTransform',['../db/d03/class_projection.html#a03d3c08f71175fe13c5f6ad3678483c0',1,'Projection']]],
-  ['overlaps_39',['overlaps',['../d2/d03/classunibn_1_1_octree.html#aafea169f9ae29e05beb2138e36f0f075',1,'unibn::Octree::overlaps()'],['../d2/d02/struct_g_e_u_1_1_buffer_range.html#aafb94ec924a31cb4b9f33ac3eb0ab2c4',1,'GEU::BufferRange::overlaps()']]]
+  ['overlaps_35',['overlaps',['../d2/d03/classunibn_1_1_octree.html#aafea169f9ae29e05beb2138e36f0f075',1,'unibn::Octree::overlaps()'],['../d2/d02/struct_g_e_u_1_1_buffer_range.html#aafb94ec924a31cb4b9f33ac3eb0ab2c4',1,'GEU::BufferRange::overlaps()']]]
 ];

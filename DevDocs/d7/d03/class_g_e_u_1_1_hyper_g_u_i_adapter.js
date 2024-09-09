@@ -1,6 +1,5 @@
 var class_g_e_u_1_1_hyper_g_u_i_adapter =
 [
-    [ "HyperStats", "df/d04/struct_g_e_u_1_1_hyper_g_u_i_adapter_1_1_hyper_stats.html", "df/d04/struct_g_e_u_1_1_hyper_g_u_i_adapter_1_1_hyper_stats" ],
     [ "HyperGUIAdapter", "d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#a18d6883a41311422fc36e04638bbf06c", null ],
     [ "~HyperGUIAdapter", "d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#a1e6dd21a46c59542778afd522ed95ded", null ],
     [ "generateLayerTexture", "d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#aa41aaca6d09e14d2e579147b874482ca", null ],

@@ -7,6 +7,7 @@ var class_locale_strings =
     [ "getLocale", "d2/d04/class_locale_strings.html#abfab4edb477178e0cf0b9f1dce10f30d", null ],
     [ "getLocales", "d2/d04/class_locale_strings.html#af6d33586ffd4ba771303a4e30076506e", null ],
     [ "getString", "d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f", null ],
+    [ "GetString", "d2/d04/class_locale_strings.html#aeba34d49ba4e51b6ac27c91a73f66a2f", null ],
     [ "initLocales", "d2/d04/class_locale_strings.html#abb6ce89ab7b47b2097ba9bc37ca3884a", null ],
     [ "setLocale", "d2/d04/class_locale_strings.html#a4fb8cad81efcd4de1a351ea2c3cd5727", null ],
     [ "Singleton", "d2/d04/class_locale_strings.html#ac14a8b7cbcbd5a98fc75ac3df176d864", null ],
