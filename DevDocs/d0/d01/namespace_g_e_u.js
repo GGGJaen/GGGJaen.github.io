@@ -79,6 +79,7 @@ var namespace_g_e_u =
     [ "MouseMoveListener", "d7/d00/class_g_e_u_1_1_mouse_move_listener.html", "d7/d00/class_g_e_u_1_1_mouse_move_listener" ],
     [ "MultiespectralGUIAdapter", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter" ],
     [ "NASSession", "d2/d03/class_g_e_u_1_1_n_a_s_session.html", "d2/d03/class_g_e_u_1_1_n_a_s_session" ],
+    [ "Olivo", "d4/d05/struct_g_e_u_1_1_olivo.html", "d4/d05/struct_g_e_u_1_1_olivo" ],
     [ "OrthographicProjection", "d2/d03/class_g_e_u_1_1_orthographic_projection.html", "d2/d03/class_g_e_u_1_1_orthographic_projection" ],
     [ "pclConversor", "d0/d01/class_g_e_u_1_1pcl_conversor.html", "d0/d01/class_g_e_u_1_1pcl_conversor" ],
     [ "PCloudClassifyPopup", "d9/d07/class_g_e_u_1_1_p_cloud_classify_popup.html", "d9/d07/class_g_e_u_1_1_p_cloud_classify_popup" ],
@@ -108,6 +109,7 @@ var namespace_g_e_u =
     [ "ThermalAugment", "d3/d00/class_g_e_u_1_1_thermal_augment.html", "d3/d00/class_g_e_u_1_1_thermal_augment" ],
     [ "ThermalData", "d4/d02/struct_g_e_u_1_1_thermal_data.html", "d4/d02/struct_g_e_u_1_1_thermal_data" ],
     [ "ThermalGUIAdapter", "d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html", "d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter" ],
+    [ "TreeDetectionGUIAdapter", "d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html", "d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter" ],
     [ "TreeSegmentationGUIAdapter", "d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html", "d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter" ],
     [ "TriangleMesh", "d9/d02/class_g_e_u_1_1_triangle_mesh.html", "d9/d02/class_g_e_u_1_1_triangle_mesh" ],
     [ "VAO", "de/d03/class_g_e_u_1_1_v_a_o.html", "de/d03/class_g_e_u_1_1_v_a_o" ],
@@ -125,6 +127,7 @@ var namespace_g_e_u =
       [ "RVI", "d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aa20c46b42a8a47a4bf02d57a8b31e91ee", null ],
       [ "GRVI", "d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aa0b3a35936545df7043cf04205c0695cf", null ],
       [ "NDRE", "d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aac28674dfbcb2c1fc61c735177bb64681", null ],
+      [ "SAVI", "d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aaada07431d423c815ee8f4f3f86419e83", null ],
       [ "NumAttributes", "d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aa3ecf3a7639f7c9b85c77affeaa8f4bf2", null ]
     ] ],
     [ "INPUT_VEGETATION_INDEX", "d0/d01/namespace_g_e_u.html#ab94cfd7fec0c6195700d67543bcee06b", [
@@ -137,6 +140,14 @@ var namespace_g_e_u =
       [ "FUSION", "d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9a7c9724d84f5f1d2aa33749c644a99785", null ],
       [ "EXPERIMENTAL", "d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9ad82bb89e1191e51c17267653f95526b2", null ],
       [ "count", "d0/d01/namespace_g_e_u.html#a715dddbf521259f6007a0206ad3582d9aa12565ef5a184c1f0d30d7af73dc9d05", null ]
+    ] ],
+    [ "vegetationIndex", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76", [
+      [ "NDVI", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76a5da36abf7fd3615d514765beb9103bce", null ],
+      [ "RVI", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76a4985587d3906a012a2312fc507645360", null ],
+      [ "GRVI", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76a98d3a42f4f06ba6fb5a371b55a28737b", null ],
+      [ "NDRE", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76ac56307ad024690b42361ed9b4291a897", null ],
+      [ "SAVI", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76a5e1993ca9629600b88241fc201ca6f31", null ],
+      [ "NUM_VEGETATION_INDEX", "d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76ac2e6a0b0fe5626a3ceaf9e0432bf4b51", null ]
     ] ],
     [ "PICKINGDATA_ME_DRAGDROP_ID", "d0/d01/namespace_g_e_u.html#a6a1187513836c3dc6f800e1d037de8f4", null ],
     [ "PICKINGDATA_PT_DRAGDROP_ID", "d0/d01/namespace_g_e_u.html#a1b4b53074b1996566f56710501f8480b", null ]

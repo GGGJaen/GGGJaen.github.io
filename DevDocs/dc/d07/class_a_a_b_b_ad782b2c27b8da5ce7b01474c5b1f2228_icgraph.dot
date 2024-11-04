@@ -1,0 +1,17 @@
+digraph "AABB::extent"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="AABB::extent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GEU::DetailsWindow\l::makeBasicTransformControls",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d00/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9",tooltip="Makes and handles basic enabled and POS/ROT/SCL edit controls."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GEU::TreeDetectionGUIAdapter\l::rasterization",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a1b08b72ce466aad86b3046b6d61ebf25",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GEU::ImageCloudProj\l::validation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a9113b9f785ba6dd50b0af47a3a5a1ecb",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="GEU::ReconstruccionGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7",tooltip="Custom module GUI window contents."];
+}

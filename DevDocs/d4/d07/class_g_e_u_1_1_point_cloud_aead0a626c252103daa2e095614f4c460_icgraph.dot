@@ -1,0 +1,17 @@
+digraph "GEU::PointCloud::setData"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GEU::PointCloud::setData",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Sustituye el vector de datos especificado por el nuevo."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GEU::MultiespectralGUIAdapter\l::mapping",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a7b73a6f101cc9e18dadb15797dcdf8f9",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GEU::MultiespectralGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a30cdb8738563252a05b2da154c3f864d",tooltip="Custom module GUI window contents."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GEU::TreeDetectionGUIAdapter\l::vegetationIndexCalculation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a98b5574e7ddb97e0b3e658df932746c2",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="GEU::TreeDetectionGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#aad85feb2429451bc4e566d9339f6d0dc",tooltip="Custom module GUI window contents."];
+}

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>GEU: Nubes de puntos</title>
 <link rel="icon" href="../../Logo.ico" type="image/x-icon" />
@@ -12,9 +12,9 @@
 <script type="text/javascript" src="../../dynsections.js"></script>
 <script type="text/javascript" src="../../clipboard.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="../../resize.js"></script>
 <script type="text/javascript" src="../../navtreedata.js"></script>
 <script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../resize.js"></script>
 <script type="text/javascript" src="../../cookie.js"></script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
@@ -39,10 +39,15 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Generado por Doxygen 1.10.0 -->
+<!-- Generado por Doxygen 1.12.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
 /* @license-end */
 </script>
 <script type="text/javascript" src="../../menudata.js"></script>
@@ -50,7 +55,7 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('../../',true,false,'search.php','Buscar');
+  initMenu('../../',true,false,'search.php','Buscar',true);
   $(function() { init_search(); });
 });
 /* @license-end */
@@ -69,7 +74,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('db/d00/nubes-de-puntos.html','../../'); initResizable(); });
+$(function(){initNavTree('db/d00/nubes-de-puntos.html','../../'); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -99,7 +104,7 @@ $(function(){initNavTree('db/d00/nubes-de-puntos.html','../../'); initResizable(
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Este documento explica algunos aspectos de la clase <a class="el" href="../../d4/d07/class_g_e_u_1_1_point_cloud.html">GEU::PointCloud</a>. Esta clase encapsula las utilidades asociadas al manejo de una nube de puntos.</p>
-<h2><a class="anchor" id="autotoc_md-instrucciones-1"></a>
+<h2><a class="anchor" id="autotoc_md-instrucciones-2"></a>
 📘 Instrucciones</h2>
 <h3><a class="anchor" id="como-cargar-la-nube"></a>
 Como cargar la nube</h3>
@@ -112,7 +117,7 @@ Como obtener la nube</h3>
 <div class="line"><span class="keywordflow">if</span>(cloud){</div>
 <div class="line">  <span class="comment">//Do things</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_g_e_u_1_1_renderer_html_ae941cdb83d15bb05ac73cf19173a1f84"><div class="ttname"><a href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">GEU::Renderer::getPointCloud</a></div><div class="ttdeci">PointCloud * getPointCloud(const std::string &amp;cloudName) const</div><div class="ttdoc">get the cloud with the cloud name specified if it exists in the current active scene.</div><div class="ttdef"><b>Definition</b> Renderer.cpp:759</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_renderer_html_ae941cdb83d15bb05ac73cf19173a1f84"><div class="ttname"><a href="../../de/d04/class_g_e_u_1_1_renderer.html#ae941cdb83d15bb05ac73cf19173a1f84">GEU::Renderer::getPointCloud</a></div><div class="ttdeci">PointCloud * getPointCloud(const std::string &amp;cloudName) const</div><div class="ttdoc">get the cloud with the cloud name specified if it exists in the current active scene.</div><div class="ttdef"><b>Definition</b> Renderer.cpp:794</div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_singleton_html_a47c7e7c2110f4cc59c9ff1f5594c366e"><div class="ttname"><a href="../../d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e">GEU::Singleton&lt; Renderer &gt;::getInstance</a></div><div class="ttdeci">static Renderer * getInstance()</div><div class="ttdef"><b>Definition</b> Singleton.h:27</div></div>
 </div><!-- fragment --><h3><a class="anchor" id="como-acceder-a-la-información-de-la-nube"></a>
 Como acceder a la información de la nube</h3>
@@ -149,7 +154,7 @@ Como acceder a la información de la nube</h3>
 <div class="line">}</div>
 <div class="line"><span class="comment">//Devolvemos el control al renderer</span></div>
 <div class="line">cloud.returnControlToRenderer();</div>
-<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a00a0faeacb66351453a63b2577a9cbc0"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0">GEU::PointCloud::getMeshlets</a></div><div class="ttdeci">const std::vector&lt; Meshlet &gt; &amp; getMeshlets()</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:654</div></div>
+<div class="ttc" id="aclass_g_e_u_1_1_point_cloud_html_a00a0faeacb66351453a63b2577a9cbc0"><div class="ttname"><a href="../../d4/d07/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0">GEU::PointCloud::getMeshlets</a></div><div class="ttdeci">const std::vector&lt; Meshlet &gt; &amp; getMeshlets()</div><div class="ttdef"><b>Definition</b> PointCloud.cpp:705</div></div>
 </div><!-- fragment --></li>
 </ul>
 <h3><a class="anchor" id="como-modificar-la-nube"></a>
@@ -159,3 +164,4 @@ Como modificar la nube</h3>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+

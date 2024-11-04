@@ -1,7 +1,7 @@
 var class_projection =
 [
     [ "OclusionData", "dc/d07/struct_projection_1_1_oclusion_data.html", "dc/d07/struct_projection_1_1_oclusion_data" ],
-    [ "OclusionMatrix", "db/d03/class_projection.html#abf204e2ac13d7501bad47cef000cd8b7", null ],
+    [ "OclusionMatrix", "db/d03/class_projection.html#a5866b19b88bc080cf3b1e06625d93d28", null ],
     [ "ProjectionType", "db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1", [
       [ "Pinhole", "db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1a7d1cdfb9791af070cb401cd584adaf9d", null ],
       [ "Fisheye", "db/d03/class_projection.html#a72bf5861e2534d3101d56661d701dfe1a44d464f3fda9a5457bd9f11e32b86f6f", null ]
@@ -28,9 +28,7 @@ var class_projection =
     [ "_camerasRotationMatrix", "db/d03/class_projection.html#a121557b80f77db1d748d90faa1cc285e", null ],
     [ "_camerasTagencialDistortion", "db/d03/class_projection.html#ab0c456cc6860bf965ff9ee42a59fa32d", null ],
     [ "_icpAlignment", "db/d03/class_projection.html#a546521d34f3f47d10cb3e9ecbbf10489", null ],
-    [ "_maxNdvi", "db/d03/class_projection.html#abbb01d0108af594c1a34cf962cb9ed48", null ],
     [ "_maxReflectance", "db/d03/class_projection.html#a47c003b6ff84859d175b61ed407d71db", null ],
-    [ "_minNdvi", "db/d03/class_projection.html#a2e3af78a05d9ed05dc085066e6a5a388", null ],
     [ "_minReflectance", "db/d03/class_projection.html#a263b314854c7c2cab0a549cdb255b2e5", null ],
     [ "_occlusionMatrixPerThread", "db/d03/class_projection.html#a4678c08b7c77ff509069d1b7754f44d2", null ],
     [ "_projectedPoints", "db/d03/class_projection.html#a35d400d94342ef9f3a2bd4e8d1cdfe35", null ],

@@ -37,6 +37,5 @@ var class_g_e_u_1_1_multiespectral_g_u_i_adapter =
     [ "_progressMsg", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a250a4b5c6aa460e1b5b78adb303e737e", null ],
     [ "_progressMsgMutex", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#abb30e59ad92db78ded79f310b187d17f", null ],
     [ "_projection", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#a0f6e36be4b2190ec2589a1f71c42800e", null ],
-    [ "_projectionDone", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afb135f149796e5b6a2900123856ca82e", null ],
-    [ "_vegetationIndexComputed", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#aafe05324eafb7e9b2885dbdf9c0eb354", null ]
+    [ "_projectionDone", "de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#afb135f149796e5b6a2900123856ca82e", null ]
 ];

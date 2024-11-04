@@ -9,6 +9,7 @@ var struct_database_1_1_dato =
     [ "fechaVuelo", "d4/d04/struct_database_1_1_dato.html#a874f6a6d8c060be371b54eca74df8a43", null ],
     [ "nombre", "d4/d04/struct_database_1_1_dato.html#a17ee9c21e9da3240ce179d38b6ea8d72", null ],
     [ "procesado", "d4/d04/struct_database_1_1_dato.html#afce0a060ac4103efe783a18c3a0cf1d5", null ],
+    [ "provinciaCodProvincia", "d4/d04/struct_database_1_1_dato.html#a914e7dca6a15acfd027d5ee19f833887", null ],
     [ "rutaNAS", "d4/d04/struct_database_1_1_dato.html#a2b8dd1d4ebcca7d37b8ce9a0fbd586ea", null ],
     [ "SELECT_QUERY", "d4/d04/struct_database_1_1_dato.html#af51f6133cf7655dd3ee5b03a15b1192a", null ],
     [ "software", "d4/d04/struct_database_1_1_dato.html#a010b1d68ae7e198cb707464e585a49ea", null ],

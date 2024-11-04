@@ -1,7 +1,7 @@
 var searchData=
 [
   ['kad_0',['KAD',['../dc/d06/class_g_e_u_1_1_texture.html#a819945accff31cec112c5e58e14662b3a1fcc0b9a2405ca4b634b5de645800b12',1,'GEU::Texture']]],
-  ['kanban_1',['Utiliza el tablero Kanban',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#utiliza-el-tablero-kanban',1,'']]],
+  ['kanban_1',['Utiliza el tablero Kanban',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#utiliza-el-tablero-kanban',1,'']]],
   ['kbase64alphabet_2',['kBase64Alphabet',['../d2/d00/_base64_8h.html#aeaf3f12738fa64f3cccbe5b361d4c62d',1,'Base64.h']]],
   ['kdtree_3',['kDTree',['../d4/d07/class_g_e_u_1_1_point_cloud.html#abec6938876069b7ff3e7bc9ced138954a3be3068c4c40ecef1b8e2181f599c1b1',1,'GEU::PointCloud']]],
   ['kdtree_5fget_5fbbox_4',['kdtree_get_bbox',['../d3/d03/struct_point_cloud_adaptor.html#a3d4981a478f9af509e9b08e209318131',1,'PointCloudAdaptor']]],

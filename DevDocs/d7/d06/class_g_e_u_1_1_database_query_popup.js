@@ -1,7 +1,6 @@
 var class_g_e_u_1_1_database_query_popup =
 [
-    [ "QuerySelectionCallback", "d7/d06/class_g_e_u_1_1_database_query_popup.html#ac346c412706e4d64c5f9db5577ce78bb", null ],
-    [ "QuerySelectionCallback", "d7/d06/class_g_e_u_1_1_database_query_popup.html#ac346c412706e4d64c5f9db5577ce78bb", null ],
+    [ "QuerySelectionCallback", "d7/d06/class_g_e_u_1_1_database_query_popup.html#aa297a42bcfa77adad8e0ee952d60044f", null ],
     [ "DB_TABLES", "d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bb", [
       [ "DATO", "d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbae80c54b1773908262b14a15bd032347e", null ],
       [ "VUELOS", "d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbaa94416f50d571021d928b366525de528", null ],

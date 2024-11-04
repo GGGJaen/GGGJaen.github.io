@@ -2,6 +2,7 @@ var dir_70e1bd6aad29eaa9efcef7cf630be9eb =
 [
     [ "Analisis_Hyper", "dir_a6871284801cd8e0d42b8cd7d010316e.html", "dir_a6871284801cd8e0d42b8cd7d010316e" ],
     [ "ComparacionNormales", "dir_0129ba3f32007c239cd60995d242a57e.html", "dir_0129ba3f32007c239cd60995d242a57e" ],
+    [ "DeteccionIndividuos", "dir_9b3704e47943695a24c4d7690939f59d.html", "dir_9b3704e47943695a24c4d7690939f59d" ],
     [ "Hiperespectral", "dir_86b37628ca0b061e7a196be0ad48b8b4.html", "dir_86b37628ca0b061e7a196be0ad48b8b4" ],
     [ "Multiespectral", "dir_604952758cc987df994525f86194e033.html", "dir_604952758cc987df994525f86194e033" ],
     [ "Reconstruccion", "dir_ab3852577ff19ca34a462b36a64867c4.html", "dir_ab3852577ff19ca34a462b36a64867c4" ],

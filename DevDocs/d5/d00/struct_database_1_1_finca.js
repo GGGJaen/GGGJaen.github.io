@@ -8,5 +8,6 @@ var struct_database_1_1_finca =
     [ "poligono", "d5/d00/struct_database_1_1_finca.html#aca475d5e266be3cce64062b13b19a6f5", null ],
     [ "recinto", "d5/d00/struct_database_1_1_finca.html#a708a58220c4cbed76f39a785f5884925", null ],
     [ "SELECT_QUERY", "d5/d00/struct_database_1_1_finca.html#a94fc66c0c4b5171961ce1766b0282279", null ],
-    [ "zona", "d5/d00/struct_database_1_1_finca.html#a45be05ee7a9e87593edee01e67e97868", null ]
+    [ "zonaCodProvincia", "d5/d00/struct_database_1_1_finca.html#abe14f3be549a6bb11f2c878910dfc10b", null ],
+    [ "zonaUbicacion", "d5/d00/struct_database_1_1_finca.html#a1211ab38600ff218237b4c16cbeeb748", null ]
 ];

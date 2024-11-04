@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>GEU: Referencia de la estructura Database::Dato</title>
 <link rel="icon" href="../../Logo.ico" type="image/x-icon" />
@@ -12,9 +12,9 @@
 <script type="text/javascript" src="../../dynsections.js"></script>
 <script type="text/javascript" src="../../clipboard.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="../../resize.js"></script>
 <script type="text/javascript" src="../../navtreedata.js"></script>
 <script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../resize.js"></script>
 <script type="text/javascript" src="../../cookie.js"></script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
@@ -39,10 +39,15 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Generado por Doxygen 1.10.0 -->
+<!-- Generado por Doxygen 1.12.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
 /* @license-end */
 </script>
 <script type="text/javascript" src="../../menudata.js"></script>
@@ -50,7 +55,7 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('../../',true,false,'search.php','Buscar');
+  initMenu('../../',true,false,'search.php','Buscar',true);
   $(function() { init_search(); });
 });
 /* @license-end */
@@ -69,7 +74,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('d4/d04/struct_database_1_1_dato.html','../../'); initResizable(); });
+$(function(){initNavTree('d4/d04/struct_database_1_1_dato.html','../../'); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -139,10 +144,12 @@ Atributos públicos</h2></td></tr>
 <tr class="separator:a268142f819f896de6162b06c31c918df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a9f861ff50f8b21429b40a278d17767" id="r_a8a9f861ff50f8b21429b40a278d17767"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a9f861ff50f8b21429b40a278d17767">codMunicipio</a></td></tr>
 <tr class="separator:a8a9f861ff50f8b21429b40a278d17767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a914e7dca6a15acfd027d5ee19f833887" id="r_a914e7dca6a15acfd027d5ee19f833887"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a914e7dca6a15acfd027d5ee19f833887">provinciaCodProvincia</a></td></tr>
+<tr class="separator:a914e7dca6a15acfd027d5ee19f833887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Atributos públicos estáticos</h2></td></tr>
-<tr class="memitem:af51f6133cf7655dd3ee5b03a15b1192a" id="r_af51f6133cf7655dd3ee5b03a15b1192a"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51f6133cf7655dd3ee5b03a15b1192a">SELECT_QUERY</a> = &quot;SELECT NOMBRE, RUTA_URL, TIPO, SOFTWARE, DESCRIPCION, DISTINTIVO, PROCESADO, VUELOS_FECHA, ZONA_UBICACION, MUNICIPIO_CODIGO FROM DATO&quot;</td></tr>
+<tr class="memitem:af51f6133cf7655dd3ee5b03a15b1192a" id="r_af51f6133cf7655dd3ee5b03a15b1192a"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51f6133cf7655dd3ee5b03a15b1192a">SELECT_QUERY</a> = &quot;SELECT NOMBRE, RUTA_URL, TIPO, SOFTWARE, DESCRIPCION, DISTINTIVO, PROCESADO, VUELOS_FECHA, ZONA_UBICACION, MUNICIPIO_CODIGO, PROVINCIA_CODIGO_PROVINCIA FROM DATO&quot;</td></tr>
 <tr class="separator:af51f6133cf7655dd3ee5b03a15b1192a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ba522ba42c6f686422c3778e4e14c1" id="r_a37ba522ba42c6f686422c3778e4e14c1"><td class="memItemLeft" align="right" valign="top">static const std::array&lt; std::string, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37ba522ba42c6f686422c3778e4e14c1">DISTINTIVOS</a> = { &quot;Olivar&quot;, &quot;Bosque&quot;, &quot;Castillo&quot;, &quot;Puente&quot; }</td></tr>
 <tr class="separator:a37ba522ba42c6f686422c3778e4e14c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,6 +321,20 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
+<a id="a914e7dca6a15acfd027d5ee19f833887" name="a914e7dca6a15acfd027d5ee19f833887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a914e7dca6a15acfd027d5ee19f833887">&#9670;&#160;</a></span>provinciaCodProvincia</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Database::Dato::provinciaCodProvincia</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2b8dd1d4ebcca7d37b8ce9a0fbd586ea" name="a2b8dd1d4ebcca7d37b8ce9a0fbd586ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b8dd1d4ebcca7d37b8ce9a0fbd586ea">&#9670;&#160;</a></span>rutaNAS</h2>
 
@@ -338,7 +359,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string Database::Dato::SELECT_QUERY = &quot;SELECT NOMBRE, RUTA_URL, TIPO, SOFTWARE, DESCRIPCION, DISTINTIVO, PROCESADO, VUELOS_FECHA, ZONA_UBICACION, MUNICIPIO_CODIGO FROM DATO&quot;</td>
+          <td class="memname">const std::string Database::Dato::SELECT_QUERY = &quot;SELECT NOMBRE, RUTA_URL, TIPO, SOFTWARE, DESCRIPCION, DISTINTIVO, PROCESADO, VUELOS_FECHA, ZONA_UBICACION, MUNICIPIO_CODIGO, PROVINCIA_CODIGO_PROVINCIA FROM DATO&quot;</td>
         </tr>
       </table>
   </td>
@@ -410,7 +431,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::array&lt;<a class="el" href="../../d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogRegex::FileDialogType</a>, 8&gt; Database::Dato::TIPOS_FORMATOS</td>
+          <td class="memname">std::array&lt;<a class="el" href="../../d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8">FileDialogRegex::FileDialogType</a>, 8&gt; Database::Dato::TIPOS_FORMATOS</td>
         </tr>
       </table>
   </td>
@@ -452,7 +473,8 @@ Gráfico de llamadas a esta función:</div>
 </div>
 </div>
 <hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
-<li>D:/GEU/GEUCore/Source/IO/<a class="el" href="../../d7/d02/_database_connector_8h_source.html">DatabaseConnector.h</a></li>
+<li>C:/GEU/GEUCore/Source/IO/<a class="el" href="../../d7/d02/_database_connector_8h_source.html">DatabaseConnector.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+

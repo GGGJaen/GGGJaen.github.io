@@ -109,6 +109,7 @@ var hierarchy =
       [ "GEU::ReconstruccionGUIAdapter", "d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html", null ],
       [ "GEU::SpectralAnalysisGUIAdapter", "d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html", null ],
       [ "GEU::ThermalGUIAdapter", "d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html", null ],
+      [ "GEU::TreeDetectionGUIAdapter", "d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html", null ],
       [ "GEU::TreeSegmentationGUIAdapter", "d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html", null ],
       [ "NormalesGUIAdapter", "d4/d07/class_normales_g_u_i_adapter.html", null ]
     ] ],
@@ -136,6 +137,7 @@ var hierarchy =
     [ "GEU::Material", "d5/d07/class_g_e_u_1_1_material.html", null ],
     [ "GEU::Material::MaterialDescription", "db/d00/struct_g_e_u_1_1_material_1_1_material_description.html", null ],
     [ "unibn::MaxDistance< PointT >", "d8/d06/structunibn_1_1_max_distance.html", null ],
+    [ "GEU::PointCloud::Meanlet", "d0/d07/struct_g_e_u_1_1_point_cloud_1_1_meanlet.html", null ],
     [ "GEU::MemoryManager", "dd/d01/class_g_e_u_1_1_memory_manager.html", null ],
     [ "GEU::PointCloud::Meshlet", "dd/d07/struct_g_e_u_1_1_point_cloud_1_1_meshlet.html", null ],
     [ "GEU::Model3D", "db/d04/class_g_e_u_1_1_model3_d.html", [
@@ -167,6 +169,7 @@ var hierarchy =
     [ "unibn::Octree< PointT, ContainerT >", "d2/d03/classunibn_1_1_octree.html", null ],
     [ "unibn::Octree< glm::vec3 >", "d2/d03/classunibn_1_1_octree.html", null ],
     [ "unibn::OctreeParams", "dc/d07/structunibn_1_1_octree_params.html", null ],
+    [ "GEU::Olivo", "d4/d05/struct_g_e_u_1_1_olivo.html", null ],
     [ "OpenCVImage", "d0/d00/class_open_c_v_image.html", null ],
     [ "GEU::GuiUtilities::Parameters", "d0/d05/struct_g_e_u_1_1_gui_utilities_1_1_parameters.html", null ],
     [ "json::parsing::parse_results", "df/d07/structjson_1_1parsing_1_1parse__results.html", null ],
@@ -236,6 +239,7 @@ var hierarchy =
     [ "GEU::Singleton< TextureList >", "d1/d01/class_g_e_u_1_1_singleton.html", [
       [ "TextureList", "d2/d05/class_texture_list.html", null ]
     ] ],
+    [ "GEU::PointCloud::Meanlet::StatData", "de/d01/struct_g_e_u_1_1_point_cloud_1_1_meanlet_1_1_stat_data.html", null ],
     [ "str_irradianceList", "d2/d05/structstr__irradiance_list.html", null ],
     [ "GEU::Texture", "dc/d06/class_g_e_u_1_1_texture.html", null ],
     [ "GEU::ThermalAugment", "d3/d00/class_g_e_u_1_1_thermal_augment.html", null ],

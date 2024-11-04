@@ -24,6 +24,7 @@ var searchData=
   ['singleton_3c_20texturelist_20_3e_21',['Singleton&lt; TextureList &gt;',['../d1/d01/class_g_e_u_1_1_singleton.html',1,'GEU']]],
   ['spectralanalysisguiadapter_22',['SpectralAnalysisGUIAdapter',['../d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html',1,'GEU']]],
   ['spotlight_23',['SpotLight',['../df/d07/class_g_e_u_1_1_spot_light.html',1,'GEU']]],
-  ['statswindow_24',['StatsWindow',['../d0/d07/class_g_e_u_1_1_stats_window.html',1,'GEU']]],
-  ['str_5firradiancelist_25',['str_irradianceList',['../d2/d05/structstr__irradiance_list.html',1,'']]]
+  ['statdata_24',['StatData',['../de/d01/struct_g_e_u_1_1_point_cloud_1_1_meanlet_1_1_stat_data.html',1,'GEU::PointCloud::Meanlet']]],
+  ['statswindow_25',['StatsWindow',['../d0/d07/class_g_e_u_1_1_stats_window.html',1,'GEU']]],
+  ['str_5firradiancelist_26',['str_irradianceList',['../d2/d05/structstr__irradiance_list.html',1,'']]]
 ];

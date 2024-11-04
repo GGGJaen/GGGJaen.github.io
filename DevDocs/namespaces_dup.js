@@ -25,6 +25,7 @@ var namespaces_dup =
         [ "IMAGES_PNG", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a7a4ebf03a1744e9bf01885d44bc96050", null ],
         [ "IMAGES_TIF", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8af82b0e52f33f04fe2c446fe8895401c2", null ],
         [ "TEXT", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a61a96ffcb251bb9bf0abf8fec19d0ea8", null ],
+        [ "SHAPEFILE", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a9aa36aadb759e2253c4706c762c59959", null ],
         [ "XYZ", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8ae65075d550f9b5bf9992fa1d71a131be", null ],
         [ "GEU_SCENE", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8acc5b4ede2c32f875c14c854df38f5ea6", null ],
         [ "HYPERSPECTRAL_HEADER", "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b", null ],

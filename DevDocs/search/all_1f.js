@@ -60,8 +60,9 @@ var searchData=
   ['_7etexture_57',['~Texture',['../dc/d06/class_g_e_u_1_1_texture.html#afd3b1defbc606c8b99faa39152017ccb',1,'GEU::Texture']]],
   ['_7etexturelist_58',['~TextureList',['../d2/d05/class_texture_list.html#a11871c1708ae579b3cd39cb8a8cc1d88',1,'TextureList']]],
   ['_7ethermalguiadapter_59',['~ThermalGUIAdapter',['../d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a78d2e2a13f3df0e45afa679a3ef0cad5',1,'GEU::ThermalGUIAdapter']]],
-  ['_7etreesegmentationguiadapter_60',['~TreeSegmentationGUIAdapter',['../d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a76eb92e6542f4665a6c800432172c7f8',1,'GEU::TreeSegmentationGUIAdapter']]],
-  ['_7etrianglemesh_61',['~TriangleMesh',['../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0cab55082cda11d09d62b9f5414112bf',1,'GEU::TriangleMesh']]],
-  ['_7evao_62',['~VAO',['../de/d03/class_g_e_u_1_1_v_a_o.html#a7f61d7669a1f8db36d00744a426bdcfa',1,'GEU::VAO']]],
-  ['_7evegetationindex_63',['~VegetationIndex',['../d2/d04/class_g_e_u_1_1_vegetation_index.html#aed7770bae99c7a7678568cfee40dee73',1,'GEU::VegetationIndex']]]
+  ['_7etreedetectionguiadapter_60',['~TreeDetectionGUIAdapter',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a47a2bd96b5dcecbcc606125551af97a7',1,'GEU::TreeDetectionGUIAdapter']]],
+  ['_7etreesegmentationguiadapter_61',['~TreeSegmentationGUIAdapter',['../d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a76eb92e6542f4665a6c800432172c7f8',1,'GEU::TreeSegmentationGUIAdapter']]],
+  ['_7etrianglemesh_62',['~TriangleMesh',['../d9/d02/class_g_e_u_1_1_triangle_mesh.html#a0cab55082cda11d09d62b9f5414112bf',1,'GEU::TriangleMesh']]],
+  ['_7evao_63',['~VAO',['../de/d03/class_g_e_u_1_1_v_a_o.html#a7f61d7669a1f8db36d00744a426bdcfa',1,'GEU::VAO']]],
+  ['_7evegetationindex_64',['~VegetationIndex',['../d2/d04/class_g_e_u_1_1_vegetation_index.html#aed7770bae99c7a7678568cfee40dee73',1,'GEU::VegetationIndex']]]
 ];

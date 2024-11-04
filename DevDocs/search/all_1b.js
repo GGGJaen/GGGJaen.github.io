@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['wait_0',['wait',['../d3/d01/struct_g_e_u_1_1_mapped_memory.html#a9869750a2727beb6c14a75b5eca74637',1,'GEU::MappedMemory']]],
-  ['wait_1',['Wait',['../d5/d05/_im_gui_notify_8hpp.html#a7e8c8e48442f2051c2b86424b353401da0f68101772bd5397ef8eb1b632798652',1,'ImGuiNotify.hpp']]],
+  ['wait_0',['Wait',['../d5/d05/_im_gui_notify_8hpp.html#a7e8c8e48442f2051c2b86424b353401da0f68101772bd5397ef8eb1b632798652',1,'ImGuiNotify.hpp']]],
+  ['wait_1',['wait',['../d3/d01/struct_g_e_u_1_1_mapped_memory.html#a9869750a2727beb6c14a75b5eca74637',1,'GEU::MappedMemory']]],
   ['waitforlockedrange_2',['waitForLockedRange',['../d3/d01/struct_g_e_u_1_1_mapped_memory.html#a2bc3d084cbebc2ad6b0e28397d41cafe',1,'GEU::MappedMemory::waitForLockedRange()'],['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#ada2e6b86c54fb930ddbeae8e235ef59c',1,'GEU::GPUResources::waitForLockedRange()']]],
   ['warn_5ftext_5fcolor_3',['WARN_TEXT_COLOR',['../d6/d02/struct_g_e_u_1_1_gui_utilities_1_1_colors.html#ae426ded57d259ca80181751d5ce2ac19',1,'GEU::GuiUtilities::Colors']]],
   ['warning_4',['Warning',['../d5/d05/_im_gui_notify_8hpp.html#a4cdcf75a8d07649afb11cce056352533a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'ImGuiNotify.hpp']]],
   ['what_5',['what',['../db/d03/classjson_1_1invalid__key.html#af13fb51e88a82e340e181c189c222f04',1,'json::invalid_key']]],
   ['whitespace_6',['WHITESPACE',['../d2/d07/classjson_1_1reader.html#a94a357909067c4e27413d1ff8446d4f1a3dd0058b3387eb91b8f3fc1b64653b27',1,'json::reader']]],
   ['width_7',['width',['../d3/d05/class_g_e_u_1_1_hypercube.html#a2cd8646ae8363b06e5183760e45a3913',1,'GEU::Hypercube']]],
-  ['wiki_20precompiled_5fheader_20precompiled_20headers_20a_8',['Usa los &lt;a href=&quot;https://en.wikipedia.org/wiki/Precompiled_header&quot; &gt;Precompiled Headers&lt;/a&gt;',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header',1,'']]],
-  ['wikipedia_20org_20wiki_20precompiled_5fheader_20precompiled_20headers_20a_9',['Usa los &lt;a href=&quot;https://en.wikipedia.org/wiki/Precompiled_header&quot; &gt;Precompiled Headers&lt;/a&gt;',['../d6/d03/md__d_1_2_g_e_u_2_docs_2_buenas_01practicas.html#usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header',1,'']]],
+  ['wiki_20precompiled_5fheader_20precompiled_20headers_20a_8',['Usa los &lt;a href=&quot;https://en.wikipedia.org/wiki/Precompiled_header&quot; &gt;Precompiled Headers&lt;/a&gt;',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header',1,'']]],
+  ['wikipedia_20org_20wiki_20precompiled_5fheader_20precompiled_20headers_20a_9',['Usa los &lt;a href=&quot;https://en.wikipedia.org/wiki/Precompiled_header&quot; &gt;Precompiled Headers&lt;/a&gt;',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#usa-los-precompiled-headershttpsenwikipediaorgwikiprecompiled_header',1,'']]],
   ['window_5fcameragizmo_10',['WINDOW_CAMERAGIZMO',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a4c6bff52dcac8eab4289ec173d4a3b54',1,'locale_strings.h']]],
   ['window_5fclose_5fpending_11',['WINDOW_CLOSE_PENDING',['../de/d06/class_g_e_u_1_1_g_u_i.html#afc7a42769f9a0df428c3eac256a64a24',1,'GEU::GUI']]],
   ['window_5fdetails_12',['WINDOW_DETAILS',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a9c59b25f9374e0c78152f322e6e2ed88',1,'locale_strings.h']]],
@@ -30,5 +30,6 @@ var searchData=
   ['writefn_27',['writeFn',['../da/d04/class_g_e_u_1_1_settings_window.html#ab715922065c19d5071d9f67f1ec5bfb4',1,'GEU::SettingsWindow']]],
   ['writegpudata_28',['writeGPUData',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a9c2f21388e73823fefa495fd8c275284',1,'GEU::GPUResources']]],
   ['writegpumappeddata_29',['writeGPUMappedData',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#ae8c6da48c65236a366b1d4d05e1586b0',1,'GEU::GPUResources']]],
-  ['writelightarray_30',['writeLightArray',['../d5/d02/class_g_e_u_1_1_scene.html#a523aac564146b4d3bb893b4eb9aba280',1,'GEU::Scene']]]
+  ['writelightarray_30',['writeLightArray',['../d5/d02/class_g_e_u_1_1_scene.html#a523aac564146b4d3bb893b4eb9aba280',1,'GEU::Scene']]],
+  ['writetiff_31',['writeTiff',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a7e42b015e29b15a8d1614691777b6a50',1,'GEU::TreeDetectionGUIAdapter']]]
 ];

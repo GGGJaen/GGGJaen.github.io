@@ -1,0 +1,16 @@
+digraph "C:/GEU/GEUCore"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_a85d0d78e2eb84ff9365cb4c4d12fb89 {
+    graph [ bgcolor="#ebfef5", pencolor="grey25", label="GEU", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_a85d0d78e2eb84ff9365cb4c4d12fb89.html",tooltip=""]
+  subgraph clusterdir_27e7292ccf631aad9354b9464cb90a84 {
+    graph [ bgcolor="#ebfef5", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""]
+    dir_27e7292ccf631aad9354b9464cb90a84 [shape=plaintext, label="GEUCore"];
+  dir_d4107ff65a26812a8e80cf49f43b787d [label="Source", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_d4107ff65a26812a8e80cf49f43b787d.html",tooltip=""];
+  }
+  }
+}

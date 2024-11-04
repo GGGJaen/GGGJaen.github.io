@@ -9,8 +9,10 @@ var struct_database_1_1_objeto =
     [ "codMunicipio", "d7/d05/struct_database_1_1_objeto.html#abf8c462247d5ae989069cdb12db40251", null ],
     [ "id", "d7/d05/struct_database_1_1_objeto.html#aa8cd84554fa513dd6a94d5bb7af9392a", null ],
     [ "polEnvolvente", "d7/d05/struct_database_1_1_objeto.html#ab468181fa4ae1c0e9322908ec935db34", null ],
+    [ "puntoMedio", "d7/d05/struct_database_1_1_objeto.html#a7410068e47c7724ab4c9ba7c8dec7262", null ],
     [ "SELECT_QUERY", "d7/d05/struct_database_1_1_objeto.html#a4d28be2967a5f1d59b8a15a26215365f", null ],
     [ "tipo", "d7/d05/struct_database_1_1_objeto.html#ada1453ff2aaa194f76610428602b5ee4", null ],
     [ "TIPOS", "d7/d05/struct_database_1_1_objeto.html#aee3db944477a0a07adeb36c42193957a", null ],
-    [ "ubicacion", "d7/d05/struct_database_1_1_objeto.html#accf50b4a4ed30ef282e5f4ac38e1c82f", null ]
+    [ "ubicacion", "d7/d05/struct_database_1_1_objeto.html#accf50b4a4ed30ef282e5f4ac38e1c82f", null ],
+    [ "zonaCodProvincia", "d7/d05/struct_database_1_1_objeto.html#aa17a621f00b56ce2fd83571843c8647a", null ]
 ];

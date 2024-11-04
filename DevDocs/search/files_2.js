@@ -21,8 +21,7 @@ var searchData=
   ['como_20desplegar_20una_20nueva_20versión_2emd_18',['Como desplegar una nueva versión.md',['../da/d03/_como_01desplegar_01una_01nueva_01versió_8md.html',1,'']]],
   ['computeshader_2ecpp_19',['ComputeShader.cpp',['../d6/d00/_compute_shader_8cpp.html',1,'']]],
   ['computeshader_2eh_20',['ComputeShader.h',['../d0/d03/_compute_shader_8h.html',1,'']]],
-  ['config_20proyecto_2epng_21',['Config proyecto.png',['../da/d05/_config_01proyecto_8png.html',1,'']]],
-  ['confirmclosepopup_2eh_22',['ConfirmClosePopup.h',['../da/d03/_confirm_close_popup_8h.html',1,'']]],
-  ['confirmpopup_2eh_23',['ConfirmPopup.h',['../d0/d01/_confirm_popup_8h.html',1,'']]],
-  ['curlwrapper_2eh_24',['CURLWrapper.h',['../d6/d00/_c_u_r_l_wrapper_8h.html',1,'']]]
+  ['confirmclosepopup_2eh_21',['ConfirmClosePopup.h',['../da/d03/_confirm_close_popup_8h.html',1,'']]],
+  ['confirmpopup_2eh_22',['ConfirmPopup.h',['../d0/d01/_confirm_popup_8h.html',1,'']]],
+  ['curlwrapper_2eh_23',['CURLWrapper.h',['../d6/d00/_c_u_r_l_wrapper_8h.html',1,'']]]
 ];

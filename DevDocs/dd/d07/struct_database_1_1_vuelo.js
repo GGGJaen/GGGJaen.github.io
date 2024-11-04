@@ -17,5 +17,6 @@ var struct_database_1_1_vuelo =
     [ "solapeLong", "dd/d07/struct_database_1_1_vuelo.html#ac8e7db20898f49e6f839d503f98e1ba2", null ],
     [ "solapeTran", "dd/d07/struct_database_1_1_vuelo.html#ab2fe46407d31b47f48cfad3d78f7e336", null ],
     [ "ubicacion", "dd/d07/struct_database_1_1_vuelo.html#a3c4c4c8628be181f6f4db733c1441734", null ],
-    [ "velocidad", "dd/d07/struct_database_1_1_vuelo.html#a3b29d80940153933c99d991278c21aa3", null ]
+    [ "velocidad", "dd/d07/struct_database_1_1_vuelo.html#a3b29d80940153933c99d991278c21aa3", null ],
+    [ "zonaCodProvincia", "dd/d07/struct_database_1_1_vuelo.html#ae79a1ffda16242058889fc96ae80f99c", null ]
 ];

@@ -1,0 +1,30 @@
+digraph "GEU::Model3D::getName"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GEU::Model3D::getName",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GEU::ImageCloudProj\l::colorRegularMeshByClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a10eaed81344e07a7594cdfaf8dd35320",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GEU::ImageCloudProj\l::colorRegularMeshByMean",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a02559507d7f291afc43075aa49bbdbfe",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GEU::GuiUtilities::\lComboPointCloud",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a209aa4146958e58cba0dde1a862fe007",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="GEU::HyperGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#a2d0ac3a4a73bd1a00f99bc0575951c9c",tooltip="Custom module GUI window contents."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="GEU::SpectralAnalysisGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a32508f5a1377ace9941d1e8d57ec78ba",tooltip="Custom module GUI window contents."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="GEU::TreeDetectionGUIAdapter\l::generateTiff",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#ae891ed0720d8824d2ebb066214353806",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="GEU::GuiUtilities::\lmakeCloudSelector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a55126fb89c2cd5e8675c2632a94fd92e",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="GEU::TreeSegmentationGUIAdapter\l::makeSegmentDatabaseGUI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a220f4253fbaddc522c033e939717f015",tooltip="Draw Export to Database tab to handle remote conection and upload."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="NormalesGUIAdapter\l::normalComparison",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d07/class_normales_g_u_i_adapter.html#a5f2b290d502274f01fc3e9bdadfca50e",tooltip=" "];
+  Node10 -> Node10 [id="edge10_Node000010_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="NormalesGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d07/class_normales_g_u_i_adapter.html#ad27c678722407ed6f3d2bb41ccc2b640",tooltip="Custom module GUI window contents."];
+}

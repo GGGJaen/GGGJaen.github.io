@@ -1,13 +1,14 @@
 var class_g_e_u_1_1_model3_d =
 [
-    [ "Model3D", "db/d04/class_g_e_u_1_1_model3_d.html#a616ae8d752a50f61af1b0d0394aeb0d0", null ],
-    [ "Model3D", "db/d04/class_g_e_u_1_1_model3_d.html#a1a0ba29ccfc50a0ff34a0c136814276b", null ],
+    [ "Model3D", "db/d04/class_g_e_u_1_1_model3_d.html#a9a14396bdf9d4ee98ab29845b2afdc6d", null ],
+    [ "Model3D", "db/d04/class_g_e_u_1_1_model3_d.html#ae6414852a864c6f1421bc4566dd4df6b", null ],
     [ "drawModel", "db/d04/class_g_e_u_1_1_model3_d.html#aa9da3f57dddd4a5bbcb57606bc528b95", null ],
     [ "getAABB", "db/d04/class_g_e_u_1_1_model3_d.html#ab5fdc7a938aa8ae8f6697cb4bf3e94b4", null ],
     [ "getMaterial", "db/d04/class_g_e_u_1_1_model3_d.html#ab29eb8552f0dcd49af319cb04017a2bd", null ],
     [ "getModelMatrix", "db/d04/class_g_e_u_1_1_model3_d.html#aea23eb9ab8de56f02dacaa5155fcac15", null ],
     [ "getMVPMatrix", "db/d04/class_g_e_u_1_1_model3_d.html#a5cbf894ae65e5bed512bd2a6ce6311c3", null ],
     [ "getName", "db/d04/class_g_e_u_1_1_model3_d.html#ab1c9f2d432831bde695e19caf32e3ebd", null ],
+    [ "getOffset", "db/d04/class_g_e_u_1_1_model3_d.html#a0ba86eb673cbc5af6059e2be3d89f96a", null ],
     [ "getPosition", "db/d04/class_g_e_u_1_1_model3_d.html#ae76d08282b16c24b6ae2a3cf9387727c", null ],
     [ "loadBinaryFile", "db/d04/class_g_e_u_1_1_model3_d.html#a52dd958e5a1b5b16ffa73d6e404c6dac", null ],
     [ "move", "db/d04/class_g_e_u_1_1_model3_d.html#aed4c481e8735da9f47d5e0273ee7e801", null ],
@@ -17,6 +18,7 @@ var class_g_e_u_1_1_model3_d =
     [ "scale", "db/d04/class_g_e_u_1_1_model3_d.html#a902c025b3445b714c7a231b5db62a9f8", null ],
     [ "setAABB", "db/d04/class_g_e_u_1_1_model3_d.html#af37eb76038abc7b471bea334cc414d8d", null ],
     [ "setEnable", "db/d04/class_g_e_u_1_1_model3_d.html#a957b905aa60f107a28f3ad9eb36a272e", null ],
+    [ "setOffset", "db/d04/class_g_e_u_1_1_model3_d.html#ae1a6e8fc1d20bf495e3ee0c4d36fa7a6", null ],
     [ "setPosition", "db/d04/class_g_e_u_1_1_model3_d.html#af7493eea28693fd480d046dca3f3cd7e", null ],
     [ "setRotation", "db/d04/class_g_e_u_1_1_model3_d.html#a38514d6a8165a6e6681072531263cd8b", null ],
     [ "setScale", "db/d04/class_g_e_u_1_1_model3_d.html#ab8b85a6a980e34a7de1013825206349b", null ],
@@ -26,6 +28,7 @@ var class_g_e_u_1_1_model3_d =
     [ "_enabled", "db/d04/class_g_e_u_1_1_model3_d.html#a6d54d98f7abd69ac5060ab27538d92a4", null ],
     [ "_material", "db/d04/class_g_e_u_1_1_model3_d.html#ade1c76113627949fc18b4b72a31c6cc8", null ],
     [ "_name", "db/d04/class_g_e_u_1_1_model3_d.html#ab7b729843ba0b2832d1258a1eb53accc", null ],
+    [ "_offset", "db/d04/class_g_e_u_1_1_model3_d.html#a26cbdf0eaed22cb4f4342bfdb97e52d0", null ],
     [ "_pos", "db/d04/class_g_e_u_1_1_model3_d.html#ad791a64d16ca108475e1665ed18065c1", null ],
     [ "_rot", "db/d04/class_g_e_u_1_1_model3_d.html#a0f56d9cd5132d54e85cd075c4761d68a", null ],
     [ "_scale", "db/d04/class_g_e_u_1_1_model3_d.html#a73d01289249e8a53133abe2652959ed4", null ]

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>GEU: Referencia de la estructura Database::Vuelo</title>
 <link rel="icon" href="../../Logo.ico" type="image/x-icon" />
@@ -12,9 +12,9 @@
 <script type="text/javascript" src="../../dynsections.js"></script>
 <script type="text/javascript" src="../../clipboard.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="../../resize.js"></script>
 <script type="text/javascript" src="../../navtreedata.js"></script>
 <script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../resize.js"></script>
 <script type="text/javascript" src="../../cookie.js"></script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
@@ -39,10 +39,15 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Generado por Doxygen 1.10.0 -->
+<!-- Generado por Doxygen 1.12.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
 /* @license-end */
 </script>
 <script type="text/javascript" src="../../menudata.js"></script>
@@ -50,7 +55,7 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('../../',true,false,'search.php','Buscar');
+  initMenu('../../',true,false,'search.php','Buscar',true);
   $(function() { init_search(); });
 });
 /* @license-end */
@@ -69,7 +74,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('dd/d07/struct_database_1_1_vuelo.html','../../'); initResizable(); });
+$(function(){initNavTree('dd/d07/struct_database_1_1_vuelo.html','../../'); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -125,6 +130,8 @@ Atributos públicos</h2></td></tr>
 <tr class="separator:a3c4c4c8628be181f6f4db733c1441734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dedf8f4011b4bc22aa2017b10154e9b" id="r_a6dedf8f4011b4bc22aa2017b10154e9b"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dedf8f4011b4bc22aa2017b10154e9b">codMunicipio</a></td></tr>
 <tr class="separator:a6dedf8f4011b4bc22aa2017b10154e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae79a1ffda16242058889fc96ae80f99c" id="r_ae79a1ffda16242058889fc96ae80f99c"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae79a1ffda16242058889fc96ae80f99c">zonaCodProvincia</a></td></tr>
+<tr class="separator:ae79a1ffda16242058889fc96ae80f99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f5335ba4bfb78b91c7e37528b45e7fc" id="r_a5f5335ba4bfb78b91c7e37528b45e7fc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f5335ba4bfb78b91c7e37528b45e7fc">horaInicio</a></td></tr>
 <tr class="separator:a5f5335ba4bfb78b91c7e37528b45e7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1983b517248af8a6c48b851b779c1b90" id="r_a1983b517248af8a6c48b851b779c1b90"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1983b517248af8a6c48b851b779c1b90">horaFin</a></td></tr>
@@ -152,7 +159,7 @@ Atributos públicos</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Atributos públicos estáticos</h2></td></tr>
-<tr class="memitem:a963acde49ed1801c94a6b3d588cae4e4" id="r_a963acde49ed1801c94a6b3d588cae4e4"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963acde49ed1801c94a6b3d588cae4e4">SELECT_QUERY</a> = &quot;SELECT FECHA, ZONA_UBICACION, ZONA_MUNICIPIO_CODIGO, HORA_INICIO, HORA_FIN, DURACION, ALTITUD, SOLAPE, VELOCIDAD, SOLAPE_LONGITUDINAL, SOLAPE_TRANSVERSAL, INCIDENCIAS, ATERRIZAJES, PERSONAL_EMAIL, DRON_ID_DRON FROM VUELOS&quot;</td></tr>
+<tr class="memitem:a963acde49ed1801c94a6b3d588cae4e4" id="r_a963acde49ed1801c94a6b3d588cae4e4"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963acde49ed1801c94a6b3d588cae4e4">SELECT_QUERY</a> = &quot;SELECT FECHA, ZONA_UBICACION, ZONA_MUNICIPIO_CODIGO, ZONA_CODIGO_PROVINCIA, HORA_INICIO, HORA_FIN, DURACION, ALTITUD, SOLAPE, VELOCIDAD, SOLAPE_LONGITUDINAL, SOLAPE_TRANSVERSAL, INCIDENCIAS, ATERRIZAJES, PERSONAL_EMAIL, DRON_ID_DRON FROM VUELOS&quot;</td></tr>
 <tr class="separator:a963acde49ed1801c94a6b3d588cae4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentación de funciones miembro</h2>
@@ -362,7 +369,7 @@ Gráfico de llamadas a esta función:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string Database::Vuelo::SELECT_QUERY = &quot;SELECT FECHA, ZONA_UBICACION, ZONA_MUNICIPIO_CODIGO, HORA_INICIO, HORA_FIN, DURACION, ALTITUD, SOLAPE, VELOCIDAD, SOLAPE_LONGITUDINAL, SOLAPE_TRANSVERSAL, INCIDENCIAS, ATERRIZAJES, PERSONAL_EMAIL, DRON_ID_DRON FROM VUELOS&quot;</td>
+          <td class="memname">const std::string Database::Vuelo::SELECT_QUERY = &quot;SELECT FECHA, ZONA_UBICACION, ZONA_MUNICIPIO_CODIGO, ZONA_CODIGO_PROVINCIA, HORA_INICIO, HORA_FIN, DURACION, ALTITUD, SOLAPE, VELOCIDAD, SOLAPE_LONGITUDINAL, SOLAPE_TRANSVERSAL, INCIDENCIAS, ATERRIZAJES, PERSONAL_EMAIL, DRON_ID_DRON FROM VUELOS&quot;</td>
         </tr>
       </table>
   </td>
@@ -444,8 +451,23 @@ Gráfico de llamadas a esta función:</div>
 
 </div>
 </div>
+<a id="ae79a1ffda16242058889fc96ae80f99c" name="ae79a1ffda16242058889fc96ae80f99c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae79a1ffda16242058889fc96ae80f99c">&#9670;&#160;</a></span>zonaCodProvincia</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned Database::Vuelo::zonaCodProvincia</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>La documentación de esta estructura está generada del siguiente archivo:<ul>
-<li>D:/GEU/GEUCore/Source/IO/<a class="el" href="../../d7/d02/_database_connector_8h_source.html">DatabaseConnector.h</a></li>
+<li>C:/GEU/GEUCore/Source/IO/<a class="el" href="../../d7/d02/_database_connector_8h_source.html">DatabaseConnector.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+

@@ -1,0 +1,25 @@
+digraph "C:/GEU/GEUApp/Source"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_bd246592b309cf81b2bdfbcd10ccc68f {
+    graph [ bgcolor="#ebfef5", pencolor="grey50", label="GEUApp", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_bd246592b309cf81b2bdfbcd10ccc68f.html",tooltip=""]
+  subgraph clusterdir_f2ac7c6e4501a428e303b82d0f866b72 {
+    graph [ bgcolor="#ebfef5", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_f2ac7c6e4501a428e303b82d0f866b72.html",tooltip=""]
+    dir_f2ac7c6e4501a428e303b82d0f866b72 [shape=plaintext, label="Source"];
+  dir_201d0ca4247bd2216c2f0ac04b8cedca [label="UI", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_201d0ca4247bd2216c2f0ac04b8cedca.html",tooltip=""];
+  dir_a4a9045fd8fa6453f35040935e332d0b [label="Utilities", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_a4a9045fd8fa6453f35040935e332d0b.html",tooltip=""];
+  }
+  }
+  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
+  dir_70e1bd6aad29eaa9efcef7cf630be9eb [label="GEUModules", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_70e1bd6aad29eaa9efcef7cf630be9eb.html",tooltip=""];
+  dir_f2ac7c6e4501a428e303b82d0f866b72->dir_201d0ca4247bd2216c2f0ac04b8cedca [headlabel="19", labeldistance=1.5 headhref="dir_000033_000046.html" href="dir_000033_000046.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_f2ac7c6e4501a428e303b82d0f866b72->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="78", labeldistance=1.5 headhref="dir_000033_000015.html" href="dir_000033_000015.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_f2ac7c6e4501a428e303b82d0f866b72->dir_a4a9045fd8fa6453f35040935e332d0b [headlabel="1", labeldistance=1.5 headhref="dir_000033_000056.html" href="dir_000033_000056.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_201d0ca4247bd2216c2f0ac04b8cedca->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="61", labeldistance=1.5 headhref="dir_000046_000015.html" href="dir_000046_000015.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_201d0ca4247bd2216c2f0ac04b8cedca->dir_70e1bd6aad29eaa9efcef7cf630be9eb [headlabel="6", labeldistance=1.5 headhref="dir_000046_000016.html" href="dir_000046_000016.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_a4a9045fd8fa6453f35040935e332d0b->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="3", labeldistance=1.5 headhref="dir_000056_000015.html" href="dir_000056_000015.html" color="steelblue1" fontcolor="steelblue1"];
+}

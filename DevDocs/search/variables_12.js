@@ -17,5 +17,7 @@ var searchData=
   ['todo_5fchar_14',['todo_char',['../d1/d06/class_progress_bar.html#a7e57835b96d50c66c6d544d8157e47dd',1,'ProgressBar']]],
   ['totalusedmemory_15',['totalUsedMemory',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a3eddd63a67c8782ef562095613e1e3e4',1,'GEU::GPUResources']]],
   ['trackedmodel_16',['trackedModel',['../dd/d04/class_g_e_u_1_1_camera.html#af202672423a43240fab6057cdbae62c1',1,'GEU::Camera']]],
-  ['type_17',['type',['../d8/d04/class_im_gui_toast.html#a94cb91df679248308746dde31f7aee0e',1,'ImGuiToast::type'],['../df/d07/structjson_1_1parsing_1_1parse__results.html#a4d6ae81fc41392813f64202785ff3a20',1,'json::parsing::parse_results::type']]]
+  ['treeeedd_17',['treeEEDD',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a8e8ccd9b6cd1a2023f4afd57f28edc15',1,'GEU::TreeDetectionGUIAdapter']]],
+  ['trees_18',['trees',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a767023b2be4e3824f1769bff88f75fcc',1,'GEU::TreeDetectionGUIAdapter']]],
+  ['type_19',['type',['../d8/d04/class_im_gui_toast.html#a94cb91df679248308746dde31f7aee0e',1,'ImGuiToast::type'],['../df/d07/structjson_1_1parsing_1_1parse__results.html#a4d6ae81fc41392813f64202785ff3a20',1,'json::parsing::parse_results::type']]]
 ];

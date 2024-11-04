@@ -1,0 +1,19 @@
+digraph "GEU::GPUResources::clearResource"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GEU::GPUResources::\lclearResource",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GEU::GPUResources::\lclearResources",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a18c1afd138520510cedf3a5a7709b31b",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GEU::GPUResources::\l~GPUResources",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#aca2e5597a6ab11f5349e160c508077cf",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GEU::GPUResources::\lreserveGPUMemory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#add637910eeb07649f3331aa3d5933129",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="GEU::GPUResources::\lreserveGPUMappedMemory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a76d889f58616d9d70d6c523cc642fc0e",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="GEU::GPUResources::\luploadToGPU",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#ab7dc4af355df812aaddbc32ff6678026",tooltip=" "];
+}
