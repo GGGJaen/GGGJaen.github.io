@@ -106,7 +106,7 @@ $(function(){initNavTree('d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalaci�
 <div class="textblock"><p><a class="anchor" id="instalación-de-geu-para-desarrolladores"></a></p>
 <p><a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> se desarrolla en el IDE Visual Studio Community bajo el lenguaje de C++. Para su instalación debido al gran número de dependencias y pasos concretos que hay que hacer para su correcto funcionamiento se ha desarrollado la siguiente guia.</p>
 <p>En el apartado de <b>Generación del proyecto</b> podemos encontrar también como se construye el proyecto así el como trabajar con el sistema de módulos de <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a>.</p>
-<h1><a class="anchor" id="instrucciones"></a>
+<h1><a class="anchor" id="instrucciones-1"></a>
 📘Instrucciones</h1>
 <h2><a class="anchor" id="herramientas-iniciales-a-instalar"></a>
 Herramientas iniciales a instalar</h2>
@@ -115,15 +115,10 @@ Herramientas iniciales a instalar</h2>
 <p>Por último será necesaria la instalación de <a href="https://learn.microsoft.com/es-es/vcpkg/get_started/get-started-msbuild?pivots=shell-cmd">VCPKG</a> para la gestión e instalación de dependencias del proyecto, en esta parte bastará con el clonado del repositorio tal y como índica el paso 1. Debe clonarse en la unidad <b>C:/</b></p>
 <h2><a class="anchor" id="primeros-pasos"></a>
 Primeros pasos</h2>
-<ol type="1">
-<li>En primer lugar desde la carpeta donde se clono VCPKG abrimos una CMD y ejecutamos los siguientes comandos: <b>bootstrap-vcpkg.bat</b> <b>vcpkg.exe integrate install</b></li>
-<li>En segundo lugar clonamos el repositorio de <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> desde Github Desktop en la unidad <b>C:/</b>. Para poder clonarlo alguien debe haberte dado permisos previamente.</li>
-<li>Una vez clonado el repositorio iremos a la carpeta <b>Project Scripts</b> y ejecutaremos el script <b>Setup-Windows.bat</b>. Una vez se ejecute este script se generará un fichero .sln con el que podremos abrir el proyecto en Visual Studio.</li>
-</ol>
+<p>1.En primer lugar desde la carpeta donde se clono VCPKG abrimos una CMD y ejecutamos los siguientes comandos: <b>bootstrap-vcpkg.bat</b> <b>vcpkg.exe integrate install</b></p>
+<p>2.En segundo lugar clonamos el repositorio de <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> desde Github Desktop en la unidad <b>C:/</b>. Para poder clonarlo alguien debe haberte dado permisos previamente. 3.Una vez clonado el repositorio iremos a la carpeta <b>Project Scripts</b> y ejecutaremos el script <b>Setup-Windows.bat</b>. Una vez se ejecute este script se generará un fichero .sln con el que podremos abrir el proyecto en Visual Studio.</p>
 <p><b>AVISO</b>: La rama main es la versión estable publicada, la rama develop es la que se encuentra en desarrollo actualmente y finalmente para cada módulo cada cual deberá crearse su propia rama para trabajar y una vez tenga el módulo desarrollado testeado sin fallos podrá hacer merge sobre la rama develop.</p>
-<ol type="1">
-<li>Cuando ya tengamos el proyecto abierto en Visual Studio deberemos proceder con la compilación del mismo (<b>se recomienda hacerlo en la rama develop</b>), durante esta compilación se instalaran todas las dependencias mediante vcpkg. La compilación la primera vez puede llegar a tardar varias horas (no vale preocuparse si ves que el tiempo pasa y no haces nada🤕🤕)</li>
-</ol>
+<p>4.Cuando ya tengamos el proyecto abierto en Visual Studio deberemos proceder con la compilación del mismo (<b>se recomienda hacerlo en la rama develop</b>), durante esta compilación se instalaran todas las dependencias mediante vcpkg. La compilación la primera vez puede llegar a tardar varias horas (no vale preocuparse si ves que el tiempo pasa y no haces nada🤕🤕)</p>
 <h2><a class="anchor" id="aspectos-adicionales-a-considerar"></a>
 Aspectos adicionales a considerar</h2>
 <ul>
