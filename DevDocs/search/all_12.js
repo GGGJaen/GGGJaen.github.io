@@ -38,7 +38,7 @@ var searchData=
   ['notifications_35',['notifications',['../df/d03/namespace_im_gui.html#a4a65bd660399c73487d6dce729f4ad8e',1,'ImGui']]],
   ['nube_36',['nube',['../db/d00/nubes-de-puntos.html#como-acceder-a-la-información-de-la-nube',1,'Como acceder a la información de la nube'],['../db/d00/nubes-de-puntos.html#como-cargar-la-nube',1,'Como cargar la nube'],['../db/d00/nubes-de-puntos.html#como-modificar-la-nube',1,'Como modificar la nube'],['../db/d00/nubes-de-puntos.html#como-obtener-la-nube',1,'Como obtener la nube']]],
   ['nubes_20de_20puntos_37',['Nubes de puntos',['../db/d00/nubes-de-puntos.html',1,'']]],
-  ['nueva_20versión_38',['Cómo desplegar una nueva versión',['../d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html',1,'']]],
+  ['nueva_20versión_38',['Cómo desplegar una nueva versión',['../d5/d03/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióuario.html',1,'']]],
   ['nuevo_20idioma_20o_20término_39',['Incorporación de un nuevo idioma o término',['../d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#incorporación-de-un-nuevo-idioma-o-término',1,'']]],
   ['nuevo_20módulo_40',['Cómo añadir un nuevo módulo',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-añadir-un-nuevo-módulo',1,'']]],
   ['num_5fclases_41',['NUM_CLASES',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a28b5c947b9b966ed41e3eaddeb013685a106a1ad003b69e2d4f0dce0aa826e761',1,'GEU::ImageCloudProj']]],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GEU: Unit tests</title>
+<title>GEU: Cómo desplegar una nueva versión</title>
 <link rel="icon" href="../../Logo.ico" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -74,7 +74,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html','../../'); initResizable(true); });
+$(function(){initNavTree('d5/d03/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióuario.html','../../'); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -100,29 +100,39 @@ $(function(){initNavTree('d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html','..
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Unit tests</div></div>
+  <div class="headertitle"><div class="title">Cómo desplegar una nueva versión</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="unit-tests"></a></p>
-<p><a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> utiliza Google Test como framework de testing. Por tanto, es necesario conocer como escribir un <em>unit test</em> utilizando este framework para escribirlo en <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a>. <a href="https://google.github.io/googletest/primer.html">Aquí</a> se puede ver brevemente como escribirlos.</p>
-<h1><a class="anchor" id="autotoc_md-instrucciones-1"></a>
-📘 Instrucciones</h1>
-<h2><a class="anchor" id="cómo-crear-un-_unit-test_"></a>
-Cómo crear un <em>unit test</em></h2>
-<p>Añadimos un fichero fuente que contenga el código del test en <em>GEUTests/Source</em>. Se recomienda añadirlo a un directorio que describa que parte de la aplicación está probando.</p>
-<p>Esta es una plantilla base para cualquier unit test:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;GEUTestsPch.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;gtest/gtest.h&quot;</span></div>
-<div class="line"><span class="comment">//Dentro de este bloque se definen los tests.</span></div>
-<div class="line">TEST(TestCaseName, TestName) {</div>
-<div class="line"> EXPECT_EQ(1, 1);</div>
-<div class="line"> EXPECT_TRUE(<span class="keyword">true</span>);</div>
-<div class="line">}</div>
-</div><!-- fragment --><p>Cabe destacar que si queremos probar un módulo que no estuviera previamente añadido, se debe de añadir el nombre de dicho proyecto a la instrucción <em>Links</em> en el script de <a class="el" href="../../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html">generación del proyecto</a> <em>Build-Tests.lua</em> en el directorio <em>GEUTests</em>.</p>
-<h2><a class="anchor" id="cómo-lanzar-los-unit-test"></a>
-Cómo lanzar los <em>Unit test</em></h2>
-<p>En la carpeta <em>Project Scripts</em> encontraremos un script llamado <em>SetupTests.bat</em>. Al ejecutarlo, se generará la solución para el testing. Cuando se compile y se ejecute dicha solución, se lanzarán todos los tests.</p>
-<p>Si se quiere ejecutar tests de manera independiente, se recomienda la utilización de la extensión <a href="https://www.jetbrains.com/es-es/resharper-cpp/">Resharper C++</a>. </p>
+<div class="textblock"><p><a class="anchor" id="cómo-desplegar-una-nueva-versión"></a></p>
+<h1><a class="anchor" id="en-github"></a>
+En GitHub</h1>
+<p>    Lo primero que debemos hacer es fusionar los cambios de <em>develop</em> a <em>main</em>. Tras esto, creamos un tag con dicho commit. Esto nos permitirá volver a dicha versión con facilidad, además de permitirnos ver los cambios que ha habido entre versiones. El nombre del tag deberá ser la versión en el formato: <a href="https://semver.org/">vMajor.Minor.Patch</a></p>
+<h1><a class="anchor" id="en-el-instalador"></a>
+En el instalador</h1>
+<p>    Para actualizar el instalador debemos seguir los siguientes pasos:</p>
+<ol type="1">
+<li>Descargar <a href="https://jrsoftware.org/isdl.php#stable">Inno Setup</a>.</li>
+<li>Compilar <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> en la configuración <em>Dist</em>.</li>
+<li>Actualizar los <em>DLLs</em> de la carpeta <em>Installer/Dependencies</em>.</li>
+<li>Abrir el script <em>innoInstaller.iss</em> con Inno Setup.</li>
+<li>Cambiar la versión de <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> en el script y ejecutar.</li>
+<li>Si todo va bien, se debería de haber generado el instalador en la carpeta <em>Installer</em>.</li>
+<li>Probamos a instalarlo y vemos si todo funciona bien.</li>
+<li>Lo actualizamos en la web sobreescribiendo el instalador en el respositorio de la web y haciendo commit y push.</li>
+</ol>
+<h1><a class="anchor" id="en-el-autoupdater"></a>
+En el AutoUpdater</h1>
+<p>    Para que se pueda actualizar <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> con el autoupdater, debemos seguir los siguientes pasos:</p>
+<ol type="1">
+<li>Compilar <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> en la configuración <em>Dist</em>.</li>
+<li>Crear una carpeta con el .exe generado en el paso 1, renombrado a <em>GEU.exe</em> y todas los <em>DLLs</em> actualizados o añadidos desde la última versión. También debe de incluirse todos los assets modificados (shaders, csv de localización...) siguiendo la estructura de ficheros establecida. El nombre de la carpeta debe ser <em>GEU-Version</em> (GEU-0.2.9 por ejemplo).</li>
+<li>Accedemos al <a href="http://150.214.178.230:5000/#/signin">NAS</a>.</li>
+<li>Nos movemos al directorio raiz del usuario <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a>.</li>
+<li>Subimos la carpeta creada en el paso 2.</li>
+<li>Descargamos el fichero <em>PatchFileV2.txt</em>.</li>
+<li>Añadimos la nueva versión al final del fichero. Especial atención a guardarlo con un final de linea de Unix (LF). Si se guarda con el final de linea de Windows (CR LF), no funcionará.</li>
+<li>Subimos el fichero modificado. </li>
+</ol>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

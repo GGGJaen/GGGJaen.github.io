@@ -22,10 +22,6 @@ var NAVTREEINDEX3 =
 "d3/d00/class_g_e_u_1_1_thermal_augment.html#aec83808a60cd39bfde3d2f391ad04aea":[15,0,1,93,23],
 "d3/d00/class_g_e_u_1_1_thermal_augment.html#af8e78c0bf1c94db8e72182c3fe3171e6":[15,0,1,93,22],
 "d3/d00/class_g_e_u_1_1_thermal_augment.html#af91c8c9d065406c68163f58e26963466":[15,0,1,93,10],
-"d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html":[4],
-"d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-el-autoupdater":[4,2],
-"d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-el-instalador":[4,1],
-"d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-github":[4,0],
 "d3/d01/class_g_e_u_1_1_distance_attenuation.html":[15,0,1,30],
 "d3/d01/class_g_e_u_1_1_distance_attenuation.html#aee69d9ebbf087519fec7d40dd69549b3":[15,0,1,30,0],
 "d3/d01/struct_g_e_u_1_1_mapped_memory.html":[15,0,1,55],
@@ -177,7 +173,7 @@ var NAVTREEINDEX3 =
 "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#tvi":[9,1,1],
 "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#un-poco-de-teoría":[9,0],
 "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html":[12],
-"d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones":[12,0],
+"d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones-1":[12,0],
 "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-crear-un-_unit-test_":[12,0,0],
 "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-lanzar-los-unit-test":[12,0,1],
 "d3/d07/struct_g_e_u_1_1_gui_utilities_1_1_drag_drop_i_ds.html":[15,0,1,0,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX3 =
 "d4/d01/class_g_e_u_1_1_light_properties.html#a8ac0191c8b44dc7878d7f11ce8ace8df":[15,0,1,53,13],
 "d4/d01/class_g_e_u_1_1_light_properties.html#a9056fae7b369a7067c7cd7c9d3733dbc":[15,0,1,53,60],
 "d4/d01/class_g_e_u_1_1_light_properties.html#a90cf764ff1694c54e8dc5ff13e73405a":[15,0,1,53,50],
-"d4/d01/class_g_e_u_1_1_light_properties.html#a9651e3709d82e84ac752156c2ca5a0d9":[15,0,1,53,8]
+"d4/d01/class_g_e_u_1_1_light_properties.html#a9651e3709d82e84ac752156c2ca5a0d9":[15,0,1,53,8],
+"d4/d01/class_g_e_u_1_1_light_properties.html#a9f4f35ca2b1cdeda15519da2f1d7cd89":[15,0,1,53,14],
+"d4/d01/class_g_e_u_1_1_light_properties.html#aa03f3c2e94578723488f1d3d7f9f6e66":[15,0,1,53,12],
+"d4/d01/class_g_e_u_1_1_light_properties.html#aa668ebf2507a92f512c31d5716ec2693":[15,0,1,53,3],
+"d4/d01/class_g_e_u_1_1_light_properties.html#aa8c8460c09fa49c32891855e68fd3716":[15,0,1,53,63]
 };
