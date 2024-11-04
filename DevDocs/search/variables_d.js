@@ -8,6 +8,5 @@ var searchData=
   ['nombre_5',['nombre',['../d4/d04/struct_database_1_1_dato.html#a17ee9c21e9da3240ce179d38b6ea8d72',1,'Database::Dato::nombre'],['../d4/d07/struct_database_1_1_municipio.html#a7111b3fdd5298d96d82e32d1f9045aad',1,'Database::Municipio::nombre']]],
   ['nombreprovincia_6',['nombreProvincia',['../d2/d00/struct_database_1_1_provincia.html#a419f4b165bdeab30475d9ea9c11cf44e',1,'Database::Provincia']]],
   ['notifications_7',['notifications',['../df/d03/namespace_im_gui.html#a4a65bd660399c73487d6dce729f4ad8e',1,'ImGui']]],
-  ['notify_5fdefault_5ftoast_5fflags_8',['NOTIFY_DEFAULT_TOAST_FLAGS',['../d5/d05/_im_gui_notify_8hpp.html#a60f59ee0c667a3b57dd07aae810cb3e4',1,'ImGuiNotify.hpp']]],
-  ['numvoxeles_9',['numVoxeles',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#af6e56da7d826c93cd857460892489ca6',1,'GEU::TreeDetectionGUIAdapter']]]
+  ['numvoxeles_8',['numVoxeles',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#af6e56da7d826c93cd857460892489ca6',1,'GEU::TreeDetectionGUIAdapter']]]
 ];

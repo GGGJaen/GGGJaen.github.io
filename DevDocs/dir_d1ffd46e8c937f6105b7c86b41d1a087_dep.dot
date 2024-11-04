@@ -9,6 +9,4 @@ digraph "C:/GEU/GEUModules/Reconstruccion/Source/UI"
     graph [ bgcolor="#ebfef5", pencolor="grey50", label="Source", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_e0f6bb79a60990e7385239c965311f8f.html",tooltip=""]
   dir_d1ffd46e8c937f6105b7c86b41d1a087 [label="UI", fillcolor="#ebfef5", color="grey25", style="filled,bold", URL="dir_d1ffd46e8c937f6105b7c86b41d1a087.html",tooltip=""];
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_d1ffd46e8c937f6105b7c86b41d1a087->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="5", labeldistance=1.5 headhref="dir_000052_000015.html" href="dir_000052_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

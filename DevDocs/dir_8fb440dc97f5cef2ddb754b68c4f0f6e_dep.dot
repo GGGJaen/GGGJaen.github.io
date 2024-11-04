@@ -13,7 +13,4 @@ digraph "C:/GEU/GEUApp/Source/UI/Popups"
   dir_7ebe51995f7399446042c538301557a1 [label="Database", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_7ebe51995f7399446042c538301557a1.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_8fb440dc97f5cef2ddb754b68c4f0f6e->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="11", labeldistance=1.5 headhref="dir_000028_000015.html" href="dir_000028_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_7ebe51995f7399446042c538301557a1->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="6", labeldistance=1.5 headhref="dir_000004_000015.html" href="dir_000004_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

@@ -24,6 +24,4 @@ digraph "GEU::TreeDetectionGUIAdapter::aislarSuelo"
   Node9 [id="Node000009",label="ChronoUtilities::getDuration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d06/namespace_chrono_utilities.html#a187ba409975fee77e13daed043ab94c3",tooltip=" "];
   Node8 -> Node10 [id="edge9_Node000008_Node000010",color="steelblue1",style="solid",tooltip=" "];
   Node10 [id="Node000010",label="ChronoUtilities::initChrono",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d06/namespace_chrono_utilities.html#a9b741e2bfa3e546f9305747f35b20042",tooltip="Starts the clock so we can execute whatever we want and measure the used time."];
-  Node8 -> Node11 [id="edge10_Node000008_Node000011",color="steelblue1",style="solid",tooltip=" "];
-  Node11 [id="Node000011",label="reorder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d00/_point_cloud_8cpp.html#ac3dbd2278bf4d10997ddf1c88fe9677c",tooltip=" "];
 }

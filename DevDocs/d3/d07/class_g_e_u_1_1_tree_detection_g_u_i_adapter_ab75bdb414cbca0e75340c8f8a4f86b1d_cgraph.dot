@@ -32,6 +32,4 @@ digraph "GEU::TreeDetectionGUIAdapter::markVegetation"
   Node13 [id="Node000013",label="ChronoUtilities::getDuration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d06/namespace_chrono_utilities.html#a187ba409975fee77e13daed043ab94c3",tooltip=" "];
   Node12 -> Node14 [id="edge13_Node000012_Node000014",color="steelblue1",style="solid",tooltip=" "];
   Node14 [id="Node000014",label="ChronoUtilities::initChrono",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d06/namespace_chrono_utilities.html#a9b741e2bfa3e546f9305747f35b20042",tooltip="Starts the clock so we can execute whatever we want and measure the used time."];
-  Node12 -> Node15 [id="edge14_Node000012_Node000015",color="steelblue1",style="solid",tooltip=" "];
-  Node15 [id="Node000015",label="reorder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d00/_point_cloud_8cpp.html#ac3dbd2278bf4d10997ddf1c88fe9677c",tooltip=" "];
 }

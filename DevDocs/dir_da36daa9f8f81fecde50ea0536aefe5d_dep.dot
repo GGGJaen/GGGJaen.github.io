@@ -9,6 +9,4 @@ digraph "C:/GEU/GEUModules/Hiperespectral/Source/UI"
     graph [ bgcolor="#ebfef5", pencolor="grey50", label="Source", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_b2362aae70a725ff0291881d3649a4ce.html",tooltip=""]
   dir_da36daa9f8f81fecde50ea0536aefe5d [label="UI", fillcolor="#ebfef5", color="grey25", style="filled,bold", URL="dir_da36daa9f8f81fecde50ea0536aefe5d.html",tooltip=""];
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_da36daa9f8f81fecde50ea0536aefe5d->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="10", labeldistance=1.5 headhref="dir_000050_000015.html" href="dir_000050_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

@@ -13,7 +13,4 @@ digraph "C:/GEU/GEUModules/Analisis_Hyper/Source"
   dir_b29422bf44db3357178e6d99c0303cef [label="UI", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_b29422bf44db3357178e6d99c0303cef.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_28350a1616721b2cd84f287cf242c23b->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="12", labeldistance=1.5 headhref="dir_000035_000015.html" href="dir_000035_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_b29422bf44db3357178e6d99c0303cef->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="6", labeldistance=1.5 headhref="dir_000048_000015.html" href="dir_000048_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

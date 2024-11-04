@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queryselectioncallback_0',['QuerySelectionCallback',['../d7/d06/class_g_e_u_1_1_database_query_popup.html#aa297a42bcfa77adad8e0ee952d60044f',1,'GEU::DatabaseQueryPopup']]]
+  ['strings_5fmap_0',['STRINGS_MAP',['../d2/d04/class_locale_strings.html#acba0a716ef589f635c88c0315b10ef9a',1,'LocaleStrings']]]
 ];

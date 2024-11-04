@@ -13,6 +13,4 @@ digraph "C:/GEU/GEUModules/Hiperespectral"
   dir_b2362aae70a725ff0291881d3649a4ce [label="Source", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_b2362aae70a725ff0291881d3649a4ce.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_b2362aae70a725ff0291881d3649a4ce->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="11", labeldistance=1.5 headhref="dir_000038_000015.html" href="dir_000038_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

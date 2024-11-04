@@ -13,6 +13,4 @@ digraph "C:/GEU/GEUModules/SegmentacionIndividuos"
   dir_8e6161e8534bd045af52f4042b52fc5e [label="Source", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_8e6161e8534bd045af52f4042b52fc5e.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_8e6161e8534bd045af52f4042b52fc5e->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="11", labeldistance=1.5 headhref="dir_000041_000015.html" href="dir_000041_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

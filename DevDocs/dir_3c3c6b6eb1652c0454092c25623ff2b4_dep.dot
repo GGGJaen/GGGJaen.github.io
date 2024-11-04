@@ -7,19 +7,10 @@ digraph "C:/GEU/GEUCore/Source/IO"
   compound=true
   subgraph clusterdir_d4107ff65a26812a8e80cf49f43b787d {
     graph [ bgcolor="#ebfef5", pencolor="grey50", label="Source", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_d4107ff65a26812a8e80cf49f43b787d.html",tooltip=""]
-  dir_2e45d1cfd81b932e70cd071fc9b76dab [label="UI", fillcolor="#98fdce", color="red", style="filled", URL="dir_2e45d1cfd81b932e70cd071fc9b76dab.html",tooltip=""];
-  dir_809c4f716c50d1269b0b29ab8c19935a [label="Graphics", fillcolor="#98fdce", color="red", style="filled", URL="dir_809c4f716c50d1269b0b29ab8c19935a.html",tooltip=""];
-  dir_8956d8d5ac8f7fdad37e7ec3ce752fa0 [label="DataTypes", fillcolor="#98fdce", color="red", style="filled", URL="dir_8956d8d5ac8f7fdad37e7ec3ce752fa0.html",tooltip=""];
-  dir_ba98d1c57f2db257d685d96c8633f8b6 [label="Utilities", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_ba98d1c57f2db257d685d96c8633f8b6.html",tooltip=""];
   subgraph clusterdir_3c3c6b6eb1652c0454092c25623ff2b4 {
     graph [ bgcolor="#ebfef5", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_3c3c6b6eb1652c0454092c25623ff2b4.html",tooltip=""]
     dir_3c3c6b6eb1652c0454092c25623ff2b4 [shape=plaintext, label="IO"];
   dir_27da1043000b55fe704521afb4d7105b [label="Metadata", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_27da1043000b55fe704521afb4d7105b.html",tooltip=""];
   }
   }
-  dir_3c3c6b6eb1652c0454092c25623ff2b4->dir_2e45d1cfd81b932e70cd071fc9b76dab [headlabel="1", labeldistance=1.5 headhref="dir_000020_000047.html" href="dir_000020_000047.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_3c3c6b6eb1652c0454092c25623ff2b4->dir_809c4f716c50d1269b0b29ab8c19935a [headlabel="1", labeldistance=1.5 headhref="dir_000020_000017.html" href="dir_000020_000017.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_3c3c6b6eb1652c0454092c25623ff2b4->dir_8956d8d5ac8f7fdad37e7ec3ce752fa0 [headlabel="1", labeldistance=1.5 headhref="dir_000020_000006.html" href="dir_000020_000006.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_3c3c6b6eb1652c0454092c25623ff2b4->dir_ba98d1c57f2db257d685d96c8633f8b6 [headlabel="7", labeldistance=1.5 headhref="dir_000020_000057.html" href="dir_000020_000057.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_27da1043000b55fe704521afb4d7105b->dir_ba98d1c57f2db257d685d96c8633f8b6 [headlabel="2", labeldistance=1.5 headhref="dir_000024_000057.html" href="dir_000024_000057.html" color="steelblue1" fontcolor="steelblue1"];
 }

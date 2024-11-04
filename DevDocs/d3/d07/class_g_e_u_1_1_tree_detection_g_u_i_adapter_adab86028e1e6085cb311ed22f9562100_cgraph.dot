@@ -43,6 +43,4 @@ digraph "GEU::TreeDetectionGUIAdapter::spatialClustering"
   Node18 [id="Node000018",label="ChronoUtilities::getDuration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d06/namespace_chrono_utilities.html#a187ba409975fee77e13daed043ab94c3",tooltip=" "];
   Node17 -> Node19 [id="edge19_Node000017_Node000019",color="steelblue1",style="solid",tooltip=" "];
   Node19 [id="Node000019",label="ChronoUtilities::initChrono",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d06/namespace_chrono_utilities.html#a9b741e2bfa3e546f9305747f35b20042",tooltip="Starts the clock so we can execute whatever we want and measure the used time."];
-  Node17 -> Node20 [id="edge20_Node000017_Node000020",color="steelblue1",style="solid",tooltip=" "];
-  Node20 [id="Node000020",label="reorder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d00/_point_cloud_8cpp.html#ac3dbd2278bf4d10997ddf1c88fe9677c",tooltip=" "];
 }

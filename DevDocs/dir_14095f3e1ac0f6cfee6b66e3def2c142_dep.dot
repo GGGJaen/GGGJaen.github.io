@@ -13,6 +13,4 @@ digraph "C:/GEU/GEUModules/Termica"
   dir_efaf062761e86293cc4ef08338c5d68d [label="Source", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_efaf062761e86293cc4ef08338c5d68d.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_efaf062761e86293cc4ef08338c5d68d->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="13", labeldistance=1.5 headhref="dir_000043_000015.html" href="dir_000043_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

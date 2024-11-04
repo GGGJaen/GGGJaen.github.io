@@ -12,6 +12,5 @@ var searchData=
   ['lightsensorirradiance_9',['lightSensorIrradiance',['../d1/d00/class_d_j_i_img.html#a66f11fb747bbd019fdbc18b4b8154c74',1,'DJIImg']]],
   ['loadedfiles_10',['loadedFiles',['../dd/d01/class_g_e_u_1_1_file_manager.html#aa597d3662ebac342cff0d7050997b8cc',1,'GEU::FileManager']]],
   ['login_5fdelay_11',['LOGIN_DELAY',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a780bb8be7fcb5685b34fb02859f9ff66',1,'GEU::NASSession']]],
-  ['long_5fformat_12',['LONG_FORMAT',['../dd/d05/json_8cpp.html#aff9a23392923b9ef232cae9f20b38174',1,'json.cpp']]],
-  ['longitud_13',['longitud',['../da/d03/struct_database_1_1_zona.html#a1a5d97d81df9eca3aeb333b972006936',1,'Database::Zona']]]
+  ['longitud_12',['longitud',['../da/d03/struct_database_1_1_zona.html#a1a5d97d81df9eca3aeb333b972006936',1,'Database::Zona']]]
 ];

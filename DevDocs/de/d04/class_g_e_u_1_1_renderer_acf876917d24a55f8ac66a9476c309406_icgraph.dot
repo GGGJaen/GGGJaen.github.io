@@ -1,0 +1,15 @@
+digraph "GEU::Renderer::getAppState"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GEU::Renderer::getAppState",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AutoUpdater::checkForUpdate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d03/class_auto_updater.html#addbef684fb89817493a5bbc81c8ef36a",tooltip="Check for updates in the NAS server."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GEU::DetailsWindow\l::makeMaterialItemInspector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d00/class_g_e_u_1_1_details_window.html#addd0dc775ee807e26a5936815ad411b8",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GEU::DetailsWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6",tooltip="Renders the window and contents."];
+}

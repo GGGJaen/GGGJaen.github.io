@@ -103,12 +103,12 @@ $(function(){initNavTree('d7/d02/_database_connector_8h_source.html','../../'); 
   <div class="headertitle"><div class="title">DatabaseConnector.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/d02/_database_connector_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;occi.h&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;future&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d01/_file_dialog_regex_8hpp.html">Utilities/FileDialogRegex.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d4/d05/json_8h.html">Utilities/json.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/d04/_singleton_8h.html">Utilities/Singleton.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;Utilities/FileDialogRegex.hpp&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;Utilities/json.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Utilities/Singleton.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;locale&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using namespace </span>oracle::occi;</div>
@@ -666,8 +666,6 @@ $(function(){initNavTree('d7/d02/_database_connector_8h_source.html','../../'); 
 <div class="line"><a id="l00505" name="l00505"></a><span class="lineno">  505</span>    <a class="code hl_struct" href="../../da/d03/struct_database_1_1_zona.html">Database::Zona</a> <a class="code hl_function" href="../../d1/d01/class_database_connector.html#ae8cee0dc5c4be4cd1ee03404f00df01e">queryNearestZona</a>(<span class="keywordtype">double</span> utmX, <span class="keywordtype">double</span> utmY, <span class="keywordtype">unsigned</span> oracleUtmZone) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00506" name="l00506"></a><span class="lineno">  506</span>};</div>
 </div>
-<div class="ttc" id="a_file_dialog_regex_8hpp_html"><div class="ttname"><a href="../../d7/d01/_file_dialog_regex_8hpp.html">FileDialogRegex.hpp</a></div></div>
-<div class="ttc" id="a_singleton_8h_html"><div class="ttname"><a href="../../de/d04/_singleton_8h.html">Singleton.h</a></div></div>
 <div class="ttc" id="aclass_database_1_1_s_d_o___g_e_o_m_e_t_r_y_1_1_dot_locale_html"><div class="ttname"><a href="../../d2/d04/class_database_1_1_s_d_o___g_e_o_m_e_t_r_y_1_1_dot_locale.html">Database::SDO_GEOMETRY::DotLocale</a></div><div class="ttdef"><b>Definition</b> DatabaseConnector.h:333</div></div>
 <div class="ttc" id="aclass_database_1_1_s_d_o___g_e_o_m_e_t_r_y_1_1_dot_locale_html_aa4d889ee5ede06801f8f8b4ccba29467"><div class="ttname"><a href="../../d2/d04/class_database_1_1_s_d_o___g_e_o_m_e_t_r_y_1_1_dot_locale.html#aa4d889ee5ede06801f8f8b4ccba29467">Database::SDO_GEOMETRY::DotLocale::do_decimal_point</a></div><div class="ttdeci">char do_decimal_point() const override</div><div class="ttdef"><b>Definition</b> DatabaseConnector.h:336</div></div>
 <div class="ttc" id="aclass_database_connector_html"><div class="ttname"><a href="../../d1/d01/class_database_connector.html">DatabaseConnector</a></div><div class="ttdef"><b>Definition</b> DatabaseConnector.h:407</div></div>
@@ -716,7 +714,6 @@ $(function(){initNavTree('d7/d02/_database_connector_8h_source.html','../../'); 
 <div class="ttc" id="aclass_database_connector_html_af48507d47d876f6b094c6847aafa0e9d"><div class="ttname"><a href="../../d1/d01/class_database_connector.html#af48507d47d876f6b094c6847aafa0e9d">DatabaseConnector::getZonasAsync</a></div><div class="ttdeci">std::future&lt; std::vector&lt; Database::Zona &gt; &gt; getZonasAsync() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:526</div></div>
 <div class="ttc" id="aclass_database_connector_html_afbe1575aa327bcd68b3de1f7bbfa6fd5"><div class="ttname"><a href="../../d1/d01/class_database_connector.html#afbe1575aa327bcd68b3de1f7bbfa6fd5">DatabaseConnector::getConnectionString</a></div><div class="ttdeci">std::string getConnectionString() const</div><div class="ttdef"><b>Definition</b> DatabaseConnector.cpp:96</div></div>
 <div class="ttc" id="aclass_g_e_u_1_1_singleton_html"><div class="ttname"><a href="../../d1/d01/class_g_e_u_1_1_singleton.html">GEU::Singleton</a></div><div class="ttdef"><b>Definition</b> Singleton.h:4</div></div>
-<div class="ttc" id="ajson_8h_html"><div class="ttname"><a href="../../d4/d05/json_8h.html">json.h</a></div><div class="ttdoc">Simpleson header file.</div></div>
 <div class="ttc" id="anamespace_database_html"><div class="ttname"><a href="../../d0/d06/namespace_database.html">Database</a></div><div class="ttdef"><b>Definition</b> DatabaseConnector.h:11</div></div>
 <div class="ttc" id="anamespace_file_dialog_regex_html_abc72412e188ec7ae765fce8b2cb1d6d8a2092da90cf257cc24d406a221783a8c7"><div class="ttname"><a href="../../d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a2092da90cf257cc24d406a221783a8c7">FileDialogRegex::FileDialogType::POINT_CLOUDS</a></div><div class="ttdeci">@ POINT_CLOUDS</div></div>
 <div class="ttc" id="anamespace_file_dialog_regex_html_abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48"><div class="ttname"><a href="../../d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8a28766b4be065d0c806c2e9c9d914af48">FileDialogRegex::FileDialogType::DIRECTORY</a></div><div class="ttdeci">@ DIRECTORY</div></div>

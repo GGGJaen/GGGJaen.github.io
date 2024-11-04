@@ -13,7 +13,4 @@ digraph "C:/GEU/GEUModules/Multiespectral/Source"
   dir_ecbeb298d6879eac3a2ad6424766b34a [label="UI", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_ecbeb298d6879eac3a2ad6424766b34a.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_2c3e0fc6ccb9542d1168e0a66d936d59->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="17", labeldistance=1.5 headhref="dir_000039_000015.html" href="dir_000039_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_ecbeb298d6879eac3a2ad6424766b34a->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="8", labeldistance=1.5 headhref="dir_000051_000015.html" href="dir_000051_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

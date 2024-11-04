@@ -14,9 +14,4 @@ digraph "C:/GEU/GEUCore/Source/UI/Addons"
   dir_c8d0c79563d4ed4375a60b5b2f78d4a6 [label="FileDialog", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_c8d0c79563d4ed4375a60b5b2f78d4a6.html",tooltip=""];
   }
   }
-  dir_63772b185c678f1e53c3e3ae39f2acc3 [label="Fonts", fillcolor="#ebfef5", color="grey50", style="filled", URL="dir_63772b185c678f1e53c3e3ae39f2acc3.html",tooltip=""];
-  dir_ba98d1c57f2db257d685d96c8633f8b6 [label="Utilities", fillcolor="#ebfef5", color="grey50", style="filled", URL="dir_ba98d1c57f2db257d685d96c8633f8b6.html",tooltip=""];
-  dir_ed28fcff23d26531979feec0f8d8af01->dir_63772b185c678f1e53c3e3ae39f2acc3 [headlabel="1", labeldistance=1.5 headhref="dir_000000_000011.html" href="dir_000000_000011.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_ed28fcff23d26531979feec0f8d8af01->dir_ba98d1c57f2db257d685d96c8633f8b6 [headlabel="2", labeldistance=1.5 headhref="dir_000000_000057.html" href="dir_000000_000057.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_3e720b917651abd4c1609414c1b33e9f->dir_ba98d1c57f2db257d685d96c8633f8b6 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000057.html" href="dir_000007_000057.html" color="steelblue1" fontcolor="steelblue1"];
 }

@@ -7,8 +7,6 @@ digraph "C:/GEU/GEUCore/Source/Graphics/Lights"
   compound=true
   subgraph clusterdir_809c4f716c50d1269b0b29ab8c19935a {
     graph [ bgcolor="#ebfef5", pencolor="grey50", label="Graphics", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_809c4f716c50d1269b0b29ab8c19935a.html",tooltip=""]
-  dir_6284c909491867f13bcb2d30824e6481 [label="Shaders", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_6284c909491867f13bcb2d30824e6481.html",tooltip=""];
   dir_19ab12eef0a2af131db0f14a4ce0c72f [label="Lights", fillcolor="#ebfef5", color="grey25", style="filled,bold", URL="dir_19ab12eef0a2af131db0f14a4ce0c72f.html",tooltip=""];
   }
-  dir_19ab12eef0a2af131db0f14a4ce0c72f->dir_6284c909491867f13bcb2d30824e6481 [headlabel="4", labeldistance=1.5 headhref="dir_000021_000032.html" href="dir_000021_000032.html" color="steelblue1" fontcolor="steelblue1"];
 }

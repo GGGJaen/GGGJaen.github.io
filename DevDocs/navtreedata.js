@@ -112,7 +112,6 @@ var NAVTREE =
       [ "Uso de cadenas localizadas en Visual Studio", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas-en-visual-studio", null ]
     ] ],
     [ "Nubes de puntos", "db/d00/nubes-de-puntos.html", null ],
-    [ "Shaders", "d8/d00/shaders.html", null ],
     [ "Unit tests", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html", [
       [ "📘 Instrucciones", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones", [
         [ "Cómo crear un unit test", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-crear-un-_unit-test_", null ],
@@ -120,17 +119,13 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Uso del Logger", "dc/d05/md__c_1_2_g_e_u_2_docs_2_uso_01del_01_logger.html", null ],
-    [ "Lista de tareas pendientes", "dd/d00/todo.html", null ],
-    [ "Espacios de nombres", "namespaces.html", [
-      [ "Lista de espacios de nombres", "namespaces.html", "namespaces_dup" ],
-      [ "Miembros del espacio de nombres ", "namespacemembers.html", [
-        [ "Todos", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Funciones", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "typedefs", "namespacemembers_type.html", null ],
-        [ "Enumeraciones", "namespacemembers_enum.html", null ],
-        [ "Valores de enumeraciones", "namespacemembers_eval.html", null ]
-      ] ]
+    [ "Miembros del espacio de nombres ", "namespacemembers.html", [
+      [ "Todos", "namespacemembers.html", "namespacemembers_dup" ],
+      [ "Funciones", "namespacemembers_func.html", null ],
+      [ "Variables", "namespacemembers_vars.html", null ],
+      [ "typedefs", "namespacemembers_type.html", null ],
+      [ "Enumeraciones", "namespacemembers_enum.html", null ],
+      [ "Valores de enumeraciones", "namespacemembers_eval.html", null ]
     ] ],
     [ "Clases", "annotated.html", [
       [ "Lista de clases", "annotated.html", "annotated_dup" ],
@@ -146,18 +141,6 @@ var NAVTREE =
         [ "Símbolos relacionados", "functions_rela.html", null ]
       ] ]
     ] ],
-    [ "Archivos", "files.html", [
-      [ "Lista de archivos", "files.html", "files_dup" ],
-      [ "Miembros de los archivos", "globals.html", [
-        [ "Todos", "globals.html", "globals_dup" ],
-        [ "Funciones", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "typedefs", "globals_type.html", null ],
-        [ "Enumeraciones", "globals_enum.html", null ],
-        [ "Valores de enumeraciones", "globals_eval.html", "globals_eval" ],
-        [ "defines", "globals_defs.html", "globals_defs" ]
-      ] ]
-    ] ],
     [ "Ejemplos", "examples.html", "examples" ]
   ] ]
 ];
@@ -165,41 +148,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/d07/class_env_point_cloud.html#aaffe506925e4e620af70288e5c12d569",
-"d1/d03/class_g_e_u_1_1_f_b_o_render.html#a2ed5bce289f68b4634e0e76162017f49",
-"d2/d00/class_g_e_u_1_1_lines_model.html#ab544aceb57667a13e1d42c3bc35d62e2",
-"d2/d03/class_g_e_u_1_1_n_a_s_session.html#a79f607f7d16a04104341f8d1c0488689",
-"d2/d05/struct_database_1_1_sensor.html#a4d7149a20a4a39c0d224aabf5d6ee7a9",
-"d3/d03/_file_manager_8cpp.html",
-"d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#af597155c8fedb691b53903b53df12409",
-"d4/d01/class_g_e_u_1_1_light_properties.html#a36e8d91c9583c42cd32a356f6c9f0cfb",
-"d4/d05/json_8h.html#a811faf05268df9a0f83453fe9a003937",
-"d4/d07/class_g_e_u_1_1_point_cloud.html#a46f161f64b41a18d8a262ab90f3e6c65",
+"d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac9046ae1ab6003e5f1351348fddd8b81",
+"d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#af292c70b27838641ff231dc60eaa9433a912830f28808f71a373d26d5fe6369db",
+"d3/d00/class_g_e_u_1_1_thermal_augment.html#a5744648f0d918b565c8c479809d0c676",
+"d4/d01/class_g_e_u_1_1_light_properties.html#a9f4f35ca2b1cdeda15519da2f1d7cd89",
 "d5/d00/struct_database_1_1_dron.html",
-"d5/d01/_icons_font_awesome6_8h.html#a24319fb353fa2bfc5f1aae25ddbfecb3",
-"d5/d01/_icons_font_awesome6_8h.html#a540865c415ce6d401327a580ced4f70e",
-"d5/d01/_icons_font_awesome6_8h.html#a7fe459dc80ab096e9ab94e03dd3305d9",
-"d5/d01/_icons_font_awesome6_8h.html#aaf24469b9ff6ac14acd96da7337a4964",
-"d5/d01/_icons_font_awesome6_8h.html#add01cc7c1aa69ef51e94219983252c3c",
-"d5/d02/class_g_e_u_1_1_scene.html#ab5b0955ceb4a5bd97f415c3803ccea05",
-"d6/d02/struct_g_e_u_1_1_gui_utilities_1_1_colors.html#a091a64b410fe30cc1920d4d726aab67c",
-"d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ac6bed4f15fb306bd776c0a72605dddd4",
-"d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbac383d195b457c82abdaae2e9f7de4bcf",
-"d8/d04/class_im_gui_toast.html#aa8fac09338154542811c1f2c2040c554",
-"d9/d03/class_g_e_u_1_1_popup_system.html",
-"d9/d07/classjson_1_1jobject_1_1entry.html#a8cbcd041225df788b6558d36f59763f4",
-"da/d03/namespace_random_utilities.html#a8a4d647eb2304a77c589ccc1638a8556",
-"db/d03/class_projection.html#a367e6bc3a1ffefad827f781d3b34fcce",
-"dc/d00/class_g_e_u_1_1_database_query_dato_popup.html#a64cdb006a3fc9207111433cd5c6290e2",
-"dc/d03/class_g_e_u_1_1_i___g_u_i_window.html#a060a2dadbaa13b87a57358cf9bd351b3",
-"dd/d01/class_g_e_u_1_1_file_manager.html#ab51716fc5bd2ada33d27805c53647e34",
-"dd/d04/class_g_e_u_1_1_camera.html#aeb635da2341a0665bcc77e3a6a18dfa3",
-"de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ae010685fca60eb1f93cc82367fd3a2c5",
-"de/d04/class_g_e_u_1_1_application.html#add51df07594acfc284004bc0f26de930",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a04a4353a9f1903e4262ec5eb93c3c3f8",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a73b9880c90b2533f004e78ac55a3c300",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ae714d4c604e6a4d60d9cad7df3aabb64",
-"df/d07/structjson_1_1parsing_1_1parse__results.html"
+"d7/d06/class_g_e_u_1_1_cloud_export_dialog_popup.html#a092d04abdbff3af00eecdbd5d748c8ba",
+"d8/d04/class_im_gui_toast.html#afc6e18786a35bccfd12afb2050e68f05",
+"da/d01/class_g_e_u_1_1_inspector_window.html#a3a09148efb45473e0df187a85a8d0c8f",
+"db/d04/class_g_e_u_1_1_model3_d.html#a6d54d98f7abd69ac5060ab27538d92a4",
+"dc/d06/class_g_e_u_1_1_texture.html#a5cdc54384bf8224134a6e119d85ad69d",
+"dd/d07/struct_database_1_1_vuelo.html#a5f5335ba4bfb78b91c7e37528b45e7fc",
+"de/d05/structunibn_1_1_l2_distance.html#abbf9c8554977155f00f22e125dd02ab3"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

@@ -13,7 +13,4 @@ digraph "C:/GEU/GEUModules/SpectralAnalysis/Source"
   dir_2313e68ccd22397665e0c49205adc9ef [label="UI", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_2313e68ccd22397665e0c49205adc9ef.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_251af26a4215ff7c551dd5935c709624->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="5", labeldistance=1.5 headhref="dir_000042_000015.html" href="dir_000042_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_2313e68ccd22397665e0c49205adc9ef->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="4", labeldistance=1.5 headhref="dir_000054_000015.html" href="dir_000054_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }

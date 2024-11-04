@@ -9,6 +9,4 @@ digraph "C:/GEU/GEUCore/Source/UI/Addons/DateSelector"
     graph [ bgcolor="#ebfef5", pencolor="grey50", label="Addons", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_ed28fcff23d26531979feec0f8d8af01.html",tooltip=""]
   dir_3e720b917651abd4c1609414c1b33e9f [label="DateSelector", fillcolor="#ebfef5", color="grey25", style="filled,bold", URL="dir_3e720b917651abd4c1609414c1b33e9f.html",tooltip=""];
   }
-  dir_ba98d1c57f2db257d685d96c8633f8b6 [label="Utilities", fillcolor="#ebfef5", color="grey50", style="filled", URL="dir_ba98d1c57f2db257d685d96c8633f8b6.html",tooltip=""];
-  dir_3e720b917651abd4c1609414c1b33e9f->dir_ba98d1c57f2db257d685d96c8633f8b6 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000057.html" href="dir_000007_000057.html" color="steelblue1" fontcolor="steelblue1"];
 }

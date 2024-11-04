@@ -15,15 +15,4 @@ digraph "C:/GEU/GEUApp/Source/UI"
   dir_8fb440dc97f5cef2ddb754b68c4f0f6e [label="Popups", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_8fb440dc97f5cef2ddb754b68c4f0f6e.html",tooltip=""];
   }
   }
-  dir_27e7292ccf631aad9354b9464cb90a84 [label="GEUCore", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_27e7292ccf631aad9354b9464cb90a84.html",tooltip=""];
-  dir_70e1bd6aad29eaa9efcef7cf630be9eb [label="GEUModules", fillcolor="#ebfef5", color="red", style="filled,dashed", URL="dir_70e1bd6aad29eaa9efcef7cf630be9eb.html",tooltip=""];
-  dir_201d0ca4247bd2216c2f0ac04b8cedca->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="61", labeldistance=1.5 headhref="dir_000046_000015.html" href="dir_000046_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_201d0ca4247bd2216c2f0ac04b8cedca->dir_8fb440dc97f5cef2ddb754b68c4f0f6e [headlabel="8", labeldistance=1.5 headhref="dir_000046_000028.html" href="dir_000046_000028.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_201d0ca4247bd2216c2f0ac04b8cedca->dir_bea50f326174bc395fc3cff627dc2732 [headlabel="1", labeldistance=1.5 headhref="dir_000046_000025.html" href="dir_000046_000025.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_201d0ca4247bd2216c2f0ac04b8cedca->dir_d6d8f22b6d86cc0f8322458917ada218 [headlabel="9", labeldistance=1.5 headhref="dir_000046_000022.html" href="dir_000046_000022.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_d6d8f22b6d86cc0f8322458917ada218->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="38", labeldistance=1.5 headhref="dir_000022_000015.html" href="dir_000022_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_d6d8f22b6d86cc0f8322458917ada218->dir_8fb440dc97f5cef2ddb754b68c4f0f6e [headlabel="3", labeldistance=1.5 headhref="dir_000022_000028.html" href="dir_000022_000028.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_bea50f326174bc395fc3cff627dc2732->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="2", labeldistance=1.5 headhref="dir_000025_000015.html" href="dir_000025_000015.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_bea50f326174bc395fc3cff627dc2732->dir_70e1bd6aad29eaa9efcef7cf630be9eb [headlabel="6", labeldistance=1.5 headhref="dir_000025_000016.html" href="dir_000025_000016.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_8fb440dc97f5cef2ddb754b68c4f0f6e->dir_27e7292ccf631aad9354b9464cb90a84 [headlabel="11", labeldistance=1.5 headhref="dir_000028_000015.html" href="dir_000028_000015.html" color="steelblue1" fontcolor="steelblue1"];
 }
