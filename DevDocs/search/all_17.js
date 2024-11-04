@@ -336,7 +336,7 @@ var searchData=
   ['strings_5fmap_333',['STRINGS_MAP',['../d2/d04/class_locale_strings.html#acba0a716ef589f635c88c0315b10ef9a',1,'LocaleStrings']]],
   ['strippadding_334',['StripPadding',['../d4/d04/class_base64.html#ab97d90737b8e76ce60e87c5a6e3ab1a3',1,'Base64']]],
   ['structure_5fmask_335',['STRUCTURE_MASK',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a977fdb8b52ac31865d974679e32a1efe',1,'locale_strings.h']]],
-  ['studio_336',['Cómo generar el proyecto para Visual Studio',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-generar-el-proyecto-para-visual-studio',1,'']]],
+  ['studio_336',['Studio',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-generar-el-proyecto-para-visual-studio',1,'Cómo generar el proyecto para Visual Studio'],['../d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas-en-visual-studio',1,'Uso de cadenas localizadas en Visual Studio']]],
   ['study_5farea_5ffolder_337',['STUDY_AREA_FOLDER',['../dc/d00/struct_env_path.html#a37602baf6b84039dce4f60ad37cea48a',1,'EnvPath']]],
   ['su_20propio_20módulo_338',['Cada persona es responsable de su propio módulo',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#cada-persona-es-responsable-de-su-propio-módulo',1,'']]],
   ['sub_5freader_339',['sub_reader',['../d2/d07/classjson_1_1reader.html#a31cf478374282bbbcfa0e4b725bcd87e',1,'json::reader']]],

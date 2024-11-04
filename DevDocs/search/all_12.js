@@ -71,7 +71,7 @@ var searchData=
   ['nubes_20de_20puntos_68',['Nubes de puntos',['../db/d00/nubes-de-puntos.html',1,'']]],
   ['nubes_20de_20puntos_2emd_69',['Nubes de puntos.md',['../d4/d05/_nubes_01de_01puntos_8md.html',1,'']]],
   ['nueva_20versión_70',['Cómo desplegar una nueva versión',['../d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html',1,'']]],
-  ['nuevo_20idioma_71',['Incorporación de un nuevo idioma',['../d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#incorporación-de-un-nuevo-idioma',1,'']]],
+  ['nuevo_20idioma_20o_20término_71',['Incorporación de un nuevo idioma o término',['../d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#incorporación-de-un-nuevo-idioma-o-término',1,'']]],
   ['nuevo_20módulo_72',['Cómo añadir un nuevo módulo',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-añadir-un-nuevo-módulo',1,'']]],
   ['num_5fclases_73',['NUM_CLASES',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a28b5c947b9b966ed41e3eaddeb013685a106a1ad003b69e2d4f0dce0aa826e761',1,'GEU::ImageCloudProj']]],
   ['num_5fcompute_5fsubroutines_74',['NUM_COMPUTE_SUBROUTINES',['../de/d03/struct_g_e_u_1_1_shader_enum.html#a8ebe01c4b624b1d4b4f0ef122de6a149a85ae1634dd88f3ed08b1359a655597b8',1,'GEU::ShaderEnum']]],

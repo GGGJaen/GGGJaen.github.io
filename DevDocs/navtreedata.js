@@ -75,7 +75,15 @@ var NAVTREE =
         [ "Cómo activar un módulo desactivado", "d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-activar-un-módulo-desactivado", null ]
       ] ]
     ] ],
-    [ "Glosario de herramientas", "d3/d06/md__c_1_2_g_e_u_2_docs_2_glosario.html", null ],
+    [ "Glosario de herramientas", "d1/d05/md__c_1_2_g_e_u_2_docs_2_glosario_01de_01herramientas.html", null ],
+    [ "Glosario de términos", "dd/d05/md__c_1_2_g_e_u_2_docs_2_glosario_01de_01téinos.html", null ],
+    [ "Guia de instalación de GEU para desarrolladores", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html", [
+      [ "📘Instrucciones", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#instrucciones-1", [
+        [ "Herramientas iniciales a instalar", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#herramientas-iniciales-a-instalar", null ],
+        [ "Primeros pasos", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#primeros-pasos", null ],
+        [ "Aspectos adicionales a considerar", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#aspectos-adicionales-a-considerar", null ]
+      ] ]
+    ] ],
     [ "Índices de vegetación y análisis hiperespectral", "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html", [
       [ "Un poco de teoría", "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#un-poco-de-teoría", [
         [ "Región visible", "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#región-visible", null ],
@@ -99,9 +107,9 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
-    [ "Localización", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html", [
-      [ "Incorporación de un nuevo idioma", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#incorporación-de-un-nuevo-idioma", null ],
-      [ "Uso de cadenas localizadas", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas", null ]
+    [ "Localización e idiomas", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html", [
+      [ "Incorporación de un nuevo idioma o término", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#incorporación-de-un-nuevo-idioma-o-término", null ],
+      [ "Uso de cadenas localizadas en Visual Studio", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas-en-visual-studio", null ]
     ] ],
     [ "Nubes de puntos", "db/d00/nubes-de-puntos.html", null ],
     [ "Shaders", "d8/d00/shaders.html", null ],
@@ -159,39 +167,39 @@ var NAVTREEINDEX =
 "annotated.html",
 "d0/d07/class_env_point_cloud.html#aaffe506925e4e620af70288e5c12d569",
 "d1/d03/class_g_e_u_1_1_f_b_o_render.html#a2ed5bce289f68b4634e0e76162017f49",
-"d2/d00/class_g_e_u_1_1_lines_model.html#ad87ec93a3e72d9eee2f1d41f97e8f346",
-"d2/d03/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6",
-"d2/d05/struct_database_1_1_sensor.html#a8fabb0f1b961b881ab66bc8a2d178d42",
-"d3/d03/_typedefs_8h.html#a43182e59794291f6ab00e51b160706c2",
-"d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#afba9c16e20bb1b5a4e39f27e3d4c3607",
-"d4/d01/class_g_e_u_1_1_light_properties.html#a46d1840cb3a203d4f406a7a15e780578",
-"d4/d05/json_8h_source.html",
-"d4/d07/class_g_e_u_1_1_point_cloud.html#a4848e9c773e19b0f0d9b7e4c2799c993",
-"d5/d00/struct_database_1_1_dron.html#a160b60fc766477fbbd79e4b5a8f757c8",
-"d5/d01/_icons_font_awesome6_8h.html#a2516bad0a5e5d1daec1a2202b89bdc8a",
-"d5/d01/_icons_font_awesome6_8h.html#a547a1869188384ef4c307b0fb6d7b1ec",
-"d5/d01/_icons_font_awesome6_8h.html#a80e3d8e1db6cf5dfe12f686f3f64f67e",
-"d5/d01/_icons_font_awesome6_8h.html#aafad2d9cb492d324ec5810eadcbc89c3",
-"d5/d01/_icons_font_awesome6_8h.html#addad9c6808c2eefbc9c26bd71aa37818",
-"d5/d02/class_g_e_u_1_1_scene.html#ad079a178c5029519e352fd3efc91071f",
-"d6/d02/struct_g_e_u_1_1_gui_utilities_1_1_colors.html#a8ea0e01cf8601c81d00b5ae6c5f1e4e0",
-"d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ae6d76872ddb35ab857d5216ee8d3fbcb",
-"d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbadb9d388f5ee27203c978984808873057",
-"d8/d04/class_im_gui_toast.html#ac803efd1f988cbe4054b941e3daa6618",
-"d9/d03/class_g_e_u_1_1_popup_system.html#ac5a3536de371167fdf200e8943f8c2b0",
-"d9/d07/classjson_1_1jobject_1_1entry.html#a9c574de47f66e388e2bac8f69d01bb8f",
-"da/d03/namespace_random_utilities.html#af397f39fe9bbef75b3df74e22e3259c2",
-"db/d03/class_projection.html#a4b7d2eafc5a632b50a1afe882ec77931",
-"dc/d00/class_g_e_u_1_1_database_query_dato_popup.html#a6b45f3f4957a46091ab0d75b9600a56d",
-"dc/d03/class_g_e_u_1_1_i___g_u_i_window.html#a1eecb6ffeef9fe5d82f3913da2b112dd",
-"dd/d01/class_g_e_u_1_1_file_manager.html#acb231926a3ab3d27c1ece018f614143b",
-"dd/d04/class_g_e_u_1_1_camera.html#afa004d12d68aa244e03ac65c1e3f1cd2",
-"de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#af60c068588d1808f0fb3f8dc9e03ba0f",
-"de/d04/class_g_e_u_1_1_renderer.html#a0260debe7d5d906f74820113f14ed1cd",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a06a2067ce56b46919add02b13033011a",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a780ba353745c035eecf46b077f3cb8be",
-"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ae8916083eab48f45641b3db654fb50c6",
-"df/d07/structjson_1_1parsing_1_1parse__results.html#a4d6ae81fc41392813f64202785ff3a20"
+"d2/d00/class_g_e_u_1_1_lines_model.html#ab544aceb57667a13e1d42c3bc35d62e2",
+"d2/d03/class_g_e_u_1_1_n_a_s_session.html#a79f607f7d16a04104341f8d1c0488689",
+"d2/d05/struct_database_1_1_sensor.html#a4d7149a20a4a39c0d224aabf5d6ee7a9",
+"d3/d03/_typedefs_8h.html#a2ae0654b8272003bf84d58e1cbd8eb44",
+"d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#af6e56da7d826c93cd857460892489ca6",
+"d4/d01/class_g_e_u_1_1_light_properties.html#a3acadd258ae6b11f7b41a429876185ac",
+"d4/d05/json_8h.html#a811faf05268df9a0f83453fe9a003937",
+"d4/d07/class_g_e_u_1_1_point_cloud.html#a46f161f64b41a18d8a262ab90f3e6c65",
+"d5/d00/struct_database_1_1_dron.html",
+"d5/d01/_icons_font_awesome6_8h.html#a24319fb353fa2bfc5f1aae25ddbfecb3",
+"d5/d01/_icons_font_awesome6_8h.html#a540865c415ce6d401327a580ced4f70e",
+"d5/d01/_icons_font_awesome6_8h.html#a7fe459dc80ab096e9ab94e03dd3305d9",
+"d5/d01/_icons_font_awesome6_8h.html#aaf24469b9ff6ac14acd96da7337a4964",
+"d5/d01/_icons_font_awesome6_8h.html#add01cc7c1aa69ef51e94219983252c3c",
+"d5/d02/class_g_e_u_1_1_scene.html#ab5b0955ceb4a5bd97f415c3803ccea05",
+"d6/d02/struct_g_e_u_1_1_gui_utilities_1_1_colors.html#a091a64b410fe30cc1920d4d726aab67c",
+"d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html#ac6bed4f15fb306bd776c0a72605dddd4",
+"d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bbac383d195b457c82abdaae2e9f7de4bcf",
+"d8/d04/class_im_gui_toast.html#aa8fac09338154542811c1f2c2040c554",
+"d9/d03/class_g_e_u_1_1_popup_system.html",
+"d9/d07/classjson_1_1jobject_1_1entry.html#a8cbcd041225df788b6558d36f59763f4",
+"da/d03/namespace_random_utilities.html#a8a4d647eb2304a77c589ccc1638a8556",
+"db/d03/class_projection.html#a367e6bc3a1ffefad827f781d3b34fcce",
+"dc/d00/class_g_e_u_1_1_database_query_dato_popup.html#a64cdb006a3fc9207111433cd5c6290e2",
+"dc/d03/class_g_e_u_1_1_i___g_u_i_window.html#a060a2dadbaa13b87a57358cf9bd351b3",
+"dd/d01/class_g_e_u_1_1_file_manager.html#ab51716fc5bd2ada33d27805c53647e34",
+"dd/d04/class_g_e_u_1_1_camera.html#aeb635da2341a0665bcc77e3a6a18dfa3",
+"de/d02/class_g_e_u_1_1_multiespectral_g_u_i_adapter.html#ae010685fca60eb1f93cc82367fd3a2c5",
+"de/d04/class_g_e_u_1_1_application.html#add51df07594acfc284004bc0f26de930",
+"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a04a4353a9f1903e4262ec5eb93c3c3f8",
+"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573a73b9880c90b2533f004e78ac55a3c300",
+"de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ae714d4c604e6a4d60d9cad7df3aabb64",
+"df/d07/structjson_1_1parsing_1_1parse__results.html"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

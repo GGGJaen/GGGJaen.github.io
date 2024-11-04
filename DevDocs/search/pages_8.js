@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['manual_20de_20buenas_20prácticas_0',['Manual de buenas prácticas',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html',1,'']]],
-  ['manual_20de_20desarrollador_1',['Cómo actualizar el manual de desarrollador',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01desarrollador.html',1,'']]],
-  ['manual_20de_20usuario_2',['Cómo actualizar el manual de usuario',['../d2/d00/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01usuario.html',1,'']]]
+  ['lista_20de_20tareas_20pendientes_0',['Lista de tareas pendientes',['../dd/d00/todo.html',1,'']]],
+  ['localización_20e_20idiomas_1',['Localización e idiomas',['../d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html',1,'']]],
+  ['logger_2',['Uso del Logger',['../dc/d05/md__c_1_2_g_e_u_2_docs_2_uso_01del_01_logger.html',1,'']]]
 ];

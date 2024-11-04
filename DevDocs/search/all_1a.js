@@ -61,7 +61,7 @@ var searchData=
   ['vignettingcorrection_58',['vignettingCorrection',['../d1/d00/class_d_j_i_img.html#aa7e0adfe4ea04c3eefb33c04f6e7da1a',1,'DJIImg']]],
   ['vignettingcorrectionperpixel_59',['vignettingCorrectionPerPixel',['../d1/d00/class_d_j_i_img.html#a7346d2ac1254111f223796b8213717ae',1,'DJIImg']]],
   ['visible_60',['Región visible',['../d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#región-visible',1,'']]],
-  ['visual_20studio_61',['Cómo generar el proyecto para Visual Studio',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-generar-el-proyecto-para-visual-studio',1,'']]],
+  ['visual_20studio_61',['Visual Studio',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-generar-el-proyecto-para-visual-studio',1,'Cómo generar el proyecto para Visual Studio'],['../d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas-en-visual-studio',1,'Uso de cadenas localizadas en Visual Studio']]],
   ['voxelgrid_62',['voxelGrid',['../dd/d03/class_g_e_u_1_1_procedural_generator.html#aafa005097e1a7b2c7155ea49f1697546',1,'GEU::ProceduralGenerator']]],
   ['voxelgrid_5fsceneitem_63',['VOXELGRID_SCENEITEM',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ab41b7338658e82c389267db63cd094bf',1,'locale_strings.h']]],
   ['voxelgrid_5fsceneitem_5fgenerate_64',['VOXELGRID_SCENEITEM_GENERATE',['../de/d07/locale__strings_8h.html#a601a7b55b6c3e8ec0bf8451cb7995573ac15412c9d2835a979b1555f839176772',1,'locale_strings.h']]],
