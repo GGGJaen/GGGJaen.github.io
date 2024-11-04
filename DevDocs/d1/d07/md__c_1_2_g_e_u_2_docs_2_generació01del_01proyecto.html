@@ -104,13 +104,12 @@ $(function(){initNavTree('d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proy
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="generación-del-proyecto"></a></p>
-<pre class="fragment">GEU utiliza Premake5 como sistema de configuración de proyecto basado en Lua. Esto facilita la gestión del mismo, haciendo que solo se suban los ficheros del código fuente al repositorio de git, sin provocar conflictos en los ficheros inherentes al proyecto de Visual Studio. Además, nos permite simplificar la inclusión/exclusión de módulos del proyecto, asi como automatizar su generación.
-
-En caso de querer realizar la instalación desde cero es mejor irse al apartado **Guia de instalación de GEU para desarrolladores**
-</pre><h1><a class="anchor" id="️previos"></a>
+<p><a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> utiliza Premake5 como sistema de configuración de proyecto basado en Lua. Esto facilita la gestión del mismo, haciendo que solo se suban los ficheros del código fuente al repositorio de git, sin provocar conflictos en los ficheros inherentes al proyecto de Visual Studio. Además, nos permite simplificar la inclusión/exclusión de módulos del proyecto, asi como automatizar su generación.</p>
+<p>En caso de querer realizar la instalación desde cero es mejor irse al apartado <b>Guia de instalación de <a class="el" href="../../d0/d01/namespace_g_e_u.html">GEU</a> para desarrolladores</b></p>
+<h1><a class="anchor" id="️previos"></a>
 ⏮️Previos</h1>
-<pre class="fragment">En principio está todo configurado para poder usarse sin tener conocimientos de Premake5. No obstante, si fuera necesario alguna modificación, es bastante sencillo de utilizar: https://premake.github.io/docs/.
-</pre><h1><a class="anchor" id="instrucciones"></a>
+<p>En principio está todo configurado para poder usarse sin tener conocimientos de Premake5. No obstante, si fuera necesario alguna modificación, es bastante sencillo de utilizar: <a href="https://premake.github.io/docs/">https://premake.github.io/docs/</a>.</p>
+<h1><a class="anchor" id="instrucciones-1"></a>
 📘Instrucciones</h1>
 <h2><a class="anchor" id="cómo-generar-el-proyecto-para-visual-studio"></a>
 Cómo generar el proyecto para Visual Studio</h2>
@@ -143,7 +142,7 @@ Cómo añadir un nuevo módulo</h2>
 <ul>
 <li><b>UI/</b>: Será la carpeta donde se almacena la clase de renderizado de la interfaz del módulo, junto con la clase se crean:<ul>
 <li>El constructor de la clase</li>
-<li>La función renderGuiObject encargada de la visualización de la ventana para ejecutar el módulo. Trabaja con funciones de las clases ImGUI y GuiUtilities</li>
+<li>La función renderGuiObject encargada de la visualización de la ventana para ejecutar el módulo. Trabaja con funciones de las clases <a class="el" href="../../df/d03/namespace_im_gui.html">ImGui</a> y GuiUtilities</li>
 </ul>
 </li>
 <li><b>moduloPch.h / moduloPch.cpp:</b> Ficheros de una clase de Precompiled Headers donde colocar dependencias pesadas para compilarlas de forma más rápida</li>
