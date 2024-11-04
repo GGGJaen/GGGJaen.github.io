@@ -3,7 +3,7 @@ var searchData=
   ['p_0',['p',['../d1/d02/structlazperf_point10.html#a3ca5820f21dc34bba7e3346f0c0de37f',1,'lazperfPoint10::p'],['../db/d05/structlazperf_point14.html#adb1e1a4736a7df64a4de33ef53a47e28',1,'lazperfPoint14::p']]],
   ['pan_1',['PAN',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca6abc6e5f6c0ff75b8b16731d95832dbe',1,'GEU::InputManager']]],
   ['pan_2',['pan',['../dd/d04/class_g_e_u_1_1_camera.html#a85cbd1db438eee7b53e63c98910dce6c',1,'GEU::Camera']]],
-  ['para_20desarrolladores_3',['Guia de instalación de GEU para desarrolladores',['../d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html',1,'']]],
+  ['para_20desarrolladores_3',['Instalación de GEU para desarrolladores',['../d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html',1,'']]],
   ['para_20mantener_20la_20cordura_4',['Para mantener la cordura',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#para-mantener-la-cordura',1,'']]],
   ['para_20mantener_20los_20tiempos_20de_20compilación_20controlados_5',['Para mantener los tiempos de compilación controlados',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#para-mantener-los-tiempos-de-compilación-controlados',1,'']]],
   ['para_20mejorar_20el_20rendimiento_6',['Para mejorar el rendimiento',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#para-mejorar-el-rendimiento',1,'']]],

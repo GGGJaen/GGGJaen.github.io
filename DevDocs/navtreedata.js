@@ -77,7 +77,7 @@ var NAVTREE =
     ] ],
     [ "Glosario de herramientas", "d1/d05/md__c_1_2_g_e_u_2_docs_2_glosario_01de_01herramientas.html", null ],
     [ "Glosario de términos", "dd/d05/md__c_1_2_g_e_u_2_docs_2_glosario_01de_01téinos.html", null ],
-    [ "Guia de instalación de GEU para desarrolladores", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html", [
+    [ "Instalación de GEU para desarrolladores", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html", [
       [ "📘Instrucciones", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#instrucciones-1", [
         [ "Herramientas iniciales a instalar", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#herramientas-iniciales-a-instalar", null ],
         [ "Primeros pasos", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#primeros-pasos", null ],
@@ -114,7 +114,7 @@ var NAVTREE =
     [ "Nubes de puntos", "db/d00/nubes-de-puntos.html", null ],
     [ "Shaders", "d8/d00/shaders.html", null ],
     [ "Unit tests", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html", [
-      [ "📘 Instrucciones", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones-2", [
+      [ "📘 Instrucciones", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones-1", [
         [ "Cómo crear un unit test", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-crear-un-_unit-test_", null ],
         [ "Cómo lanzar los Unit test", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-lanzar-los-unit-test", null ]
       ] ]
