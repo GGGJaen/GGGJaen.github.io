@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"d4/d01/class_g_e_u_1_1_light_properties.html#a36e8d91c9583c42cd32a356f6c9f0cfb":[16,0,6,55,44],
+"d4/d01/class_g_e_u_1_1_light_properties.html#a36e8d91c9583c42cd32a356f6c9f0cfb":[17,0,1,53,44],
+"d4/d01/class_g_e_u_1_1_light_properties.html#a37652bd5e21f461ffe064f4d235c1296":[16,0,6,55,19],
+"d4/d01/class_g_e_u_1_1_light_properties.html#a37652bd5e21f461ffe064f4d235c1296":[17,0,1,53,19],
 "d4/d01/class_g_e_u_1_1_light_properties.html#a3acadd258ae6b11f7b41a429876185ac":[16,0,6,55,40],
 "d4/d01/class_g_e_u_1_1_light_properties.html#a3acadd258ae6b11f7b41a429876185ac":[17,0,1,53,40],
 "d4/d01/class_g_e_u_1_1_light_properties.html#a3f9d3fd20aee0393da8e7ff822c18128":[16,0,6,55,51],
@@ -126,10 +130,6 @@ var NAVTREEINDEX8 =
 "d4/d01/namespace_file_dialog_regex.html#abc72412e188ec7ae765fce8b2cb1d6d8aff3f9580d8873262f01a202e5ebc355b":[16,0,4,0,9],
 "d4/d02/_vegetation_index_8h.html":[18,0,0,3,0,0,12],
 "d4/d02/_vegetation_index_8h_source.html":[18,0,0,3,0,0,12],
-"d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html":[4],
-"d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html#en-el-autoupdater":[4,2],
-"d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html#en-el-instalador":[4,1],
-"d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html#en-github":[4,0],
 "d4/d02/pcl_conversor_8h.html":[18,0,0,2,0,9,18],
 "d4/d02/pcl_conversor_8h_source.html":[18,0,0,2,0,9,18],
 "d4/d02/struct_g_e_u_1_1_thermal_data.html":[16,0,6,96],

@@ -23,7 +23,7 @@ var searchData=
   ['un_20obstaculo_20',['Piensa en una arquitectura que no sea un obstaculo',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#piensa-en-una-arquitectura-que-no-sea-un-obstaculo',1,'']]],
   ['un_20poco_20de_20teoría_21',['Un poco de teoría',['../d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#un-poco-de-teoría',1,'']]],
   ['una_20arquitectura_20que_20no_20sea_20un_20obstaculo_22',['Piensa en una arquitectura que no sea un obstaculo',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#piensa-en-una-arquitectura-que-no-sea-un-obstaculo',1,'']]],
-  ['una_20nueva_20versión_23',['Cómo desplegar una nueva versión',['../d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html',1,'']]],
+  ['una_20nueva_20versión_23',['Cómo desplegar una nueva versión',['../d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html',1,'']]],
   ['undistort_24',['undistort',['../d0/d00/class_open_c_v_image.html#a93cc7000e2f6ab3558ce7dc984351beb',1,'OpenCVImage']]],
   ['undistortimg_25',['undistortImg',['../d1/d00/class_d_j_i_img.html#a6fb28f55a13c624f6e00d1e986687e65',1,'DJIImg::undistortImg()'],['../d6/d01/class_micasense_img.html#acf541a5456ee69abf3bbe5b92a5e44d4',1,'MicasenseImg::undistortImg()']]],
   ['unibn_26',['unibn',['../de/d00/namespaceunibn.html',1,'']]],

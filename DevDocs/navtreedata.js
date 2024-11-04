@@ -61,10 +61,10 @@ var NAVTREE =
     ] ],
     [ "Cómo actualizar el manual de desarrollador", "d2/d03/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01desarrollador.html", null ],
     [ "Cómo actualizar el manual de usuario", "d2/d00/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01usuario.html", null ],
-    [ "Cómo desplegar una nueva versión", "d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html", [
-      [ "En GitHub", "d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html#en-github", null ],
-      [ "En el instalador", "d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html#en-el-instalador", null ],
-      [ "En el AutoUpdater", "d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html#en-el-autoupdater", null ]
+    [ "Cómo desplegar una nueva versión", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html", [
+      [ "En GitHub", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-github", null ],
+      [ "En el instalador", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-el-instalador", null ],
+      [ "En el AutoUpdater", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-el-autoupdater", null ]
     ] ],
     [ "Generación del proyecto", "d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html", [
       [ "⏮️Previos", "d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#️previos", null ],
@@ -114,7 +114,7 @@ var NAVTREE =
     [ "Nubes de puntos", "db/d00/nubes-de-puntos.html", null ],
     [ "Shaders", "d8/d00/shaders.html", null ],
     [ "Unit tests", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html", [
-      [ "📘 Instrucciones", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones-1", [
+      [ "📘 Instrucciones", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones-2", [
         [ "Cómo crear un unit test", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-crear-un-_unit-test_", null ],
         [ "Cómo lanzar los Unit test", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-lanzar-los-unit-test", null ]
       ] ]
@@ -170,9 +170,9 @@ var NAVTREEINDEX =
 "d2/d00/class_g_e_u_1_1_lines_model.html#ab544aceb57667a13e1d42c3bc35d62e2",
 "d2/d03/class_g_e_u_1_1_n_a_s_session.html#a79f607f7d16a04104341f8d1c0488689",
 "d2/d05/struct_database_1_1_sensor.html#a4d7149a20a4a39c0d224aabf5d6ee7a9",
-"d3/d03/_typedefs_8h.html#a2ae0654b8272003bf84d58e1cbd8eb44",
-"d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#af6e56da7d826c93cd857460892489ca6",
-"d4/d01/class_g_e_u_1_1_light_properties.html#a3acadd258ae6b11f7b41a429876185ac",
+"d3/d03/_file_manager_8cpp.html",
+"d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#af597155c8fedb691b53903b53df12409",
+"d4/d01/class_g_e_u_1_1_light_properties.html#a36e8d91c9583c42cd32a356f6c9f0cfb",
 "d4/d05/json_8h.html#a811faf05268df9a0f83453fe9a003937",
 "d4/d07/class_g_e_u_1_1_point_cloud.html#a46f161f64b41a18d8a262ab90f3e6c65",
 "d5/d00/struct_database_1_1_dron.html",

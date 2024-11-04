@@ -6,7 +6,7 @@ var searchData=
   ['cómo_20actualizar_20el_20manual_20de_20desarrollador_3',['Cómo actualizar el manual de desarrollador',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01desarrollador.html',1,'']]],
   ['cómo_20actualizar_20el_20manual_20de_20usuario_4',['Cómo actualizar el manual de usuario',['../d2/d00/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01usuario.html',1,'']]],
   ['cómo_20crear_20un_20em_20unit_20test_20em_5',['Cómo crear un &lt;em&gt;unit test&lt;/em&gt;',['../d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-crear-un-_unit-test_',1,'']]],
-  ['cómo_20desplegar_20una_20nueva_20versión_6',['Cómo desplegar una nueva versión',['../d4/d02/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióusuario.html',1,'']]],
+  ['cómo_20desplegar_20una_20nueva_20versión_6',['Cómo desplegar una nueva versión',['../d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html',1,'']]],
   ['cómo_20eliminar_20desactivar_20un_20módulo_7',['Cómo eliminar/desactivar un módulo',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-eliminardesactivar-un-módulo',1,'']]],
   ['cómo_20generar_20el_20proyecto_20para_20visual_20studio_8',['Cómo generar el proyecto para Visual Studio',['../d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#cómo-generar-el-proyecto-para-visual-studio',1,'']]],
   ['cómo_20lanzar_20los_20em_20unit_20test_20em_9',['Cómo lanzar los &lt;em&gt;Unit test&lt;/em&gt;',['../d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-lanzar-los-unit-test',1,'']]],
