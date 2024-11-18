@@ -72,7 +72,7 @@ var searchData=
   ['lockrange_69',['lockRange',['../d3/d01/struct_g_e_u_1_1_mapped_memory.html#a58610631362e5abff90cee513229be0e',1,'GEU::MappedMemory::lockRange()'],['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a663eee97979881d8a832957ed3e2fab1',1,'GEU::GPUResources::lockRange()']]],
   ['logger_70',['Uso del Logger',['../dc/d05/md__c_1_2_g_e_u_2_docs_2_uso_01del_01_logger.html',1,'']]],
   ['logger_20em_71',['Evita el uso de &lt;em&gt;std::cout&lt;/em&gt; a favor del &lt;em&gt;logger&lt;/em&gt;',['../d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#evita-el-uso-de-stdcout-a-favor-del-logger',1,'']]],
-  ['login_72',['logIn',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6',1,'GEU::NASSession']]],
+  ['login_72',['logIn',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6',1,'GEU::NASSession::logIn(const std::string &amp;user, const std::string &amp;password)'],['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a333401c009fe3557c503840c6efdaf18',1,'GEU::NASSession::logIn()']]],
   ['login_5fdelay_73',['LOGIN_DELAY',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a780bb8be7fcb5685b34fb02859f9ff66',1,'GEU::NASSession']]],
   ['logout_74',['logOut',['../d2/d03/class_g_e_u_1_1_n_a_s_session.html#a6185d29735320a6365915506a5ee0111',1,'GEU::NASSession']]],
   ['longitud_75',['longitud',['../da/d03/struct_database_1_1_zona.html#a1a5d97d81df9eca3aeb333b972006936',1,'Database::Zona']]],

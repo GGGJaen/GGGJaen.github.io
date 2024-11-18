@@ -5,5 +5,11 @@ digraph "Gráfico de jerarquía de clases"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="json::jobject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d07/classjson_1_1jobject.html",tooltip="The class used for manipulating JSON objects and arrays."];
+  Node0 [id="Node000000",label="json::jobject::entry",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d07/classjson_1_1jobject_1_1entry.html",tooltip="Representation of a value in the object."];
+  Node0 -> Node1 [id="edge68_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="json::jobject::const\l_proxy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d03/classjson_1_1jobject_1_1const__proxy.html",tooltip="Represents an entry as a constant proxy to the value."];
+  Node1 -> Node2 [id="edge69_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="json::jobject::proxy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d00/classjson_1_1jobject_1_1proxy.html",tooltip="A proxy that allows modification of the value."];
+  Node0 -> Node3 [id="edge70_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="json::jobject::const\l_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d03/classjson_1_1jobject_1_1const__value.html",tooltip="Represents an entry as a constant value."];
 }

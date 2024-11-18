@@ -9,5 +9,5 @@ var searchData=
   ['rio_6',['RIO',['../dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a18e2cf9f931834e3d06bfce9b38f9f3aa76f25dc51d9bb1ef4ab82431c868a137',1,'GEU::ImageCloudProj']]],
   ['rotation_7',['ROTATION',['../d9/d05/class_g_e_u_1_1_input_manager.html#a8231d603f3bb1e6f810194a88170d6eca7feb0a01ee0cca7c4291baf231a05012',1,'GEU::InputManager']]],
   ['roughness_8',['ROUGHNESS',['../dc/d06/class_g_e_u_1_1_texture.html#a819945accff31cec112c5e58e14662b3a36ce2ce14949a0e98a5d86390a22afd5',1,'GEU::Texture']]],
-  ['rvi_9',['RVI',['../d0/d01/namespace_g_e_u.html#a5c55d05e545f500fc9d14fe669ff7b76a4985587d3906a012a2312fc507645360',1,'GEU::RVI'],['../d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aa20c46b42a8a47a4bf02d57a8b31e91ee',1,'GEU::RVI']]]
+  ['rvi_9',['RVI',['../d0/d01/namespace_g_e_u.html#a097a5470bfce6254cd4deae1d64a319aa20c46b42a8a47a4bf02d57a8b31e91ee',1,'GEU']]]
 ];

@@ -9,7 +9,7 @@ digraph "GEU::DetailsWindow::makeCameraItemInspector"
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="GEU::GuiUtilities::\lBeginCombo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a95d5f616a34dd70aca4886e546720966",tooltip=" "];
   Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="GEU::GuiUtilities::Text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a76a49056660c5a9246a94564afbb676a",tooltip=" "];
+  Node3 [id="Node000003",label="GEU::GuiUtilities::Text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a2650eb29bb209df2fcab9b5aaa6a527e",tooltip=" "];
   Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
   Node4 [id="Node000004",label="GEU::GuiUtilities::\lDragFloat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#ae128381ddcd82162c730d91f06492621",tooltip=" "];
   Node4 -> Node3 [id="edge4_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];

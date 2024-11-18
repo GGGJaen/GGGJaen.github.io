@@ -7,7 +7,7 @@ digraph "GEU::PopupSystem::addPopup"
   rankdir="RL";
   Node1 [id="Node000001",label="GEU::PopupSystem::addPopup",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="AutoUpdater::checkForUpdate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d03/class_auto_updater.html#addbef684fb89817493a5bbc81c8ef36a",tooltip="Check for updates in the NAS server."];
+  Node2 [id="Node000002",label="GEU::Application::checkUpdate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d04/class_g_e_u_1_1_application.html#a4ba09fe951b9550e01c34d6b71cd6daa",tooltip=" "];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node3 [id="Node000003",label="GEU::DetailsWindow\l::makePCloudItemInspector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d00/class_g_e_u_1_1_details_window.html#a696b110218746e301559da2c93e6cd60",tooltip="Renders inspector details for point cloud items."];
   Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
@@ -29,13 +29,11 @@ digraph "GEU::PopupSystem::addPopup"
   Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node12 [id="Node000012",label="GEU::ThermalGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a1509f8f0d21826efa7cc133bbd190931",tooltip="Custom module GUI window contents."];
   Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node13 [id="Node000013",label="GEU::TreeDetectionGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#aad85feb2429451bc4e566d9339f6d0dc",tooltip="Custom module GUI window contents."];
+  Node13 [id="Node000013",label="GEU::TreeSegmentationGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#afcda560180acc4f5fbd7caeaa40f9018",tooltip="Custom module GUI window contents."];
   Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node14 [id="Node000014",label="GEU::TreeSegmentationGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#afcda560180acc4f5fbd7caeaa40f9018",tooltip="Custom module GUI window contents."];
+  Node14 [id="Node000014",label="GEU::DatabaseNewRawPopup\l::renderPopup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d00/class_g_e_u_1_1_database_new_raw_popup.html#aabf3be0d95c567d3b439cdae51edc79e",tooltip="Renders the popup and its contents."];
   Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node15 [id="Node000015",label="GEU::DatabaseNewRawPopup\l::renderPopup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d00/class_g_e_u_1_1_database_new_raw_popup.html#aabf3be0d95c567d3b439cdae51edc79e",tooltip="Renders the popup and its contents."];
+  Node15 [id="Node000015",label="GEU::DatabaseNewDatoWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb",tooltip="Renders the window and contents."];
   Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node16 [id="Node000016",label="GEU::DatabaseNewDatoWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb",tooltip="Renders the window and contents."];
-  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node17 [id="Node000017",label="GEU::InspectorWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d01/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74",tooltip="Renders the window and contents."];
+  Node16 [id="Node000016",label="GEU::InspectorWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d01/class_g_e_u_1_1_inspector_window.html#a63b0402d61dd34944da9280a89fa9f74",tooltip="Renders the window and contents."];
 }

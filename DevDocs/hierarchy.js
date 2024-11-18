@@ -31,6 +31,7 @@ var hierarchy =
     [ "GEU::GuiUtilities::Colors", "d6/d02/struct_g_e_u_1_1_gui_utilities_1_1_colors.html", null ],
     [ "GEU::PointCloud::CompactInfo", "dc/d01/struct_g_e_u_1_1_point_cloud_1_1_compact_info.html", null ],
     [ "GEU::TriangleMesh::Component", "d7/d04/struct_g_e_u_1_1_triangle_mesh_1_1_component.html", null ],
+    [ "GEU::CredentialsStorage", "d9/d03/class_g_e_u_1_1_credentials_storage.html", null ],
     [ "GEU::DatabaseDownloadedFiles", "d5/d01/struct_g_e_u_1_1_database_downloaded_files.html", null ],
     [ "Database::Dato", "d4/d04/struct_database_1_1_dato.html", null ],
     [ "GEU::GuiUtilities::DragDropIDs", "d3/d07/struct_g_e_u_1_1_gui_utilities_1_1_drag_drop_i_ds.html", null ],
@@ -89,6 +90,7 @@ var hierarchy =
       [ "GEU::InspectorWindow", "da/d01/class_g_e_u_1_1_inspector_window.html", null ],
       [ "GEU::MaterialsWindow", "df/d00/class_g_e_u_1_1_materials_window.html", null ],
       [ "GEU::PickingWindow", "d9/d01/class_g_e_u_1_1_picking_window.html", null ],
+      [ "GEU::ReportWindow", "da/d06/class_g_e_u_1_1_report_window.html", null ],
       [ "GEU::SettingsWindow", "da/d04/class_g_e_u_1_1_settings_window.html", null ],
       [ "GEU::StatsWindow", "d0/d07/class_g_e_u_1_1_stats_window.html", null ]
     ] ],
@@ -109,7 +111,6 @@ var hierarchy =
       [ "GEU::ReconstruccionGUIAdapter", "d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html", null ],
       [ "GEU::SpectralAnalysisGUIAdapter", "d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html", null ],
       [ "GEU::ThermalGUIAdapter", "d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html", null ],
-      [ "GEU::TreeDetectionGUIAdapter", "d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html", null ],
       [ "GEU::TreeSegmentationGUIAdapter", "d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html", null ],
       [ "NormalesGUIAdapter", "d4/d07/class_normales_g_u_i_adapter.html", null ]
     ] ],
@@ -169,7 +170,6 @@ var hierarchy =
     [ "unibn::Octree< PointT, ContainerT >", "d2/d03/classunibn_1_1_octree.html", null ],
     [ "unibn::Octree< glm::vec3 >", "d2/d03/classunibn_1_1_octree.html", null ],
     [ "unibn::OctreeParams", "dc/d07/structunibn_1_1_octree_params.html", null ],
-    [ "GEU::Olivo", "d4/d05/struct_g_e_u_1_1_olivo.html", null ],
     [ "OpenCVImage", "d0/d00/class_open_c_v_image.html", null ],
     [ "GEU::GuiUtilities::Parameters", "d0/d05/struct_g_e_u_1_1_gui_utilities_1_1_parameters.html", null ],
     [ "json::parsing::parse_results", "df/d07/structjson_1_1parsing_1_1parse__results.html", null ],
@@ -203,9 +203,6 @@ var hierarchy =
       [ "GEU::RenderingShader", "d0/d07/class_g_e_u_1_1_rendering_shader.html", null ]
     ] ],
     [ "GEU::Singleton< T >", "d1/d01/class_g_e_u_1_1_singleton.html", null ],
-    [ "GEU::Singleton< AutoUpdater >", "d1/d01/class_g_e_u_1_1_singleton.html", [
-      [ "AutoUpdater", "da/d03/class_auto_updater.html", null ]
-    ] ],
     [ "GEU::Singleton< DatabaseConnector >", "d1/d01/class_g_e_u_1_1_singleton.html", [
       [ "DatabaseConnector", "d1/d01/class_database_connector.html", null ]
     ] ],

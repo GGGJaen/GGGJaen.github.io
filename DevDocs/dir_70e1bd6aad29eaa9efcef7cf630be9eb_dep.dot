@@ -12,7 +12,6 @@ digraph "C:/GEU/GEUModules"
     dir_70e1bd6aad29eaa9efcef7cf630be9eb [shape=plaintext, label="GEUModules"];
   dir_a6871284801cd8e0d42b8cd7d010316e [label="Analisis_Hyper", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_a6871284801cd8e0d42b8cd7d010316e.html",tooltip=""];
   dir_0129ba3f32007c239cd60995d242a57e [label="ComparacionNormales", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_0129ba3f32007c239cd60995d242a57e.html",tooltip=""];
-  dir_9b3704e47943695a24c4d7690939f59d [label="DeteccionIndividuos", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_9b3704e47943695a24c4d7690939f59d.html",tooltip=""];
   dir_86b37628ca0b061e7a196be0ad48b8b4 [label="Hiperespectral", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_86b37628ca0b061e7a196be0ad48b8b4.html",tooltip=""];
   dir_604952758cc987df994525f86194e033 [label="Multiespectral", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_604952758cc987df994525f86194e033.html",tooltip=""];
   dir_ab3852577ff19ca34a462b36a64867c4 [label="Reconstruccion", fillcolor="#98fdce", color="grey25", style="filled", URL="dir_ab3852577ff19ca34a462b36a64867c4.html",tooltip=""];

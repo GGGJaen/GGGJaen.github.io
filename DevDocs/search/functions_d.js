@@ -16,7 +16,5 @@ var searchData=
   ['normalesguiadapter_13',['NormalesGUIAdapter',['../d4/d07/class_normales_g_u_i_adapter.html#a2a9aafc9707e829940b1fa606be6c3ab',1,'NormalesGUIAdapter::NormalesGUIAdapter()=delete'],['../d4/d07/class_normales_g_u_i_adapter.html#a4f3921a79afc92c349d918715f762354',1,'NormalesGUIAdapter::NormalesGUIAdapter(const std::string &amp;id, const std::string &amp;icon, LOCALE_STRINGS idx)'],['../d4/d07/class_normales_g_u_i_adapter.html#a521e75664214fdddd83c20265a7b7888',1,'NormalesGUIAdapter::NormalesGUIAdapter(const InterfaceAdapter &amp;o)']]],
   ['normalicemsavi_14',['normaliceMSAVI',['../d7/d00/class_g_e_u_1_1_calculator_m_s_a_v_i.html#a9992150a92a4ef290a87c66101dd603c',1,'GEU::CalculatorMSAVI']]],
   ['normalicetvi_15',['normaliceTVI',['../d1/d04/class_g_e_u_1_1_calculator_t_v_i.html#a8660527575da0ae270f0a07b84b74040',1,'GEU::CalculatorTVI']]],
-  ['normalizavi_16',['normalizaVI',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a0eee77135b0491b2521819815475736e',1,'GEU::TreeDetectionGUIAdapter']]],
-  ['normalizevi_17',['normalizeVI',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a657e8ed3093c9730ba83d25ae43d19db',1,'GEU::TreeDetectionGUIAdapter']]],
-  ['numberpointstodensity_18',['numberPointsToDensity',['../dd/d00/class_procedural_voxel.html#adbf03535a497f92cee03cf6d7d575094',1,'ProceduralVoxel']]]
+  ['numberpointstodensity_16',['numberPointsToDensity',['../dd/d00/class_procedural_voxel.html#adbf03535a497f92cee03cf6d7d575094',1,'ProceduralVoxel']]]
 ];

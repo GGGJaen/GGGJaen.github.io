@@ -19,6 +19,5 @@ var searchData=
   ['writefn_16',['writeFn',['../da/d04/class_g_e_u_1_1_settings_window.html#ab715922065c19d5071d9f67f1ec5bfb4',1,'GEU::SettingsWindow']]],
   ['writegpudata_17',['writeGPUData',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#a9c2f21388e73823fefa495fd8c275284',1,'GEU::GPUResources']]],
   ['writegpumappeddata_18',['writeGPUMappedData',['../d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#ae8c6da48c65236a366b1d4d05e1586b0',1,'GEU::GPUResources']]],
-  ['writelightarray_19',['writeLightArray',['../d5/d02/class_g_e_u_1_1_scene.html#a523aac564146b4d3bb893b4eb9aba280',1,'GEU::Scene']]],
-  ['writetiff_20',['writeTiff',['../d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#a7e42b015e29b15a8d1614691777b6a50',1,'GEU::TreeDetectionGUIAdapter']]]
+  ['writelightarray_19',['writeLightArray',['../d5/d02/class_g_e_u_1_1_scene.html#a523aac564146b4d3bb893b4eb9aba280',1,'GEU::Scene']]]
 ];

@@ -2,6 +2,7 @@ var class_g_e_u_1_1_application =
 [
     [ "Application", "de/d04/class_g_e_u_1_1_application.html#af2d7c4e756da5bd931705d9aa803fb1f", null ],
     [ "~Application", "de/d04/class_g_e_u_1_1_application.html#ac1a7adb55a510927ee4f28209e4d6dd3", null ],
+    [ "checkUpdate", "de/d04/class_g_e_u_1_1_application.html#a4ba09fe951b9550e01c34d6b71cd6daa", null ],
     [ "init", "de/d04/class_g_e_u_1_1_application.html#a79b0c21bffd692c1552ebd9e4c90d984", null ],
     [ "loop", "de/d04/class_g_e_u_1_1_application.html#ace52a4bd41f167ea4a62c32afe85d61e", null ],
     [ "releaseResources", "de/d04/class_g_e_u_1_1_application.html#add51df07594acfc284004bc0f26de930", null ],

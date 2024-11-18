@@ -8,6 +8,7 @@ var class_g_e_u_1_1_n_a_s_session =
     [ "getRemoteFileAsFileStream", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#aab7e02581d64801797d4e1799c0a4137", null ],
     [ "getRemoteFolder", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#a45f35a0eea1be47d162b6e8eaee7136a", null ],
     [ "getSharedListings", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#a8ba33518127084da74a31f3d97903cf1", null ],
+    [ "logIn", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#a333401c009fe3557c503840c6efdaf18", null ],
     [ "logIn", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#a865fbe49cfb77213703237ce479c33f6", null ],
     [ "logOut", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#a6185d29735320a6365915506a5ee0111", null ],
     [ "nasProgressCallback", "d2/d03/class_g_e_u_1_1_n_a_s_session.html#abd71f738d3b9f49177138b67b4c9d9e6", null ],

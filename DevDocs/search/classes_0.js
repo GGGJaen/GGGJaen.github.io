@@ -8,6 +8,5 @@ var searchData=
   ['ambientlight_5',['AmbientLight',['../d5/d01/class_g_e_u_1_1_ambient_light.html',1,'GEU']]],
   ['analisis_5fhyperguiadapter_6',['Analisis_HyperGUIAdapter',['../d4/d01/class_g_e_u_1_1_analisis___hyper_g_u_i_adapter.html',1,'GEU']]],
   ['application_7',['Application',['../de/d04/class_g_e_u_1_1_application.html',1,'GEU']]],
-  ['applicationstate_8',['ApplicationState',['../d2/d00/struct_g_e_u_1_1_application_state.html',1,'GEU']]],
-  ['autoupdater_9',['AutoUpdater',['../da/d03/class_auto_updater.html',1,'']]]
+  ['applicationstate_8',['ApplicationState',['../d2/d00/struct_g_e_u_1_1_application_state.html',1,'GEU']]]
 ];

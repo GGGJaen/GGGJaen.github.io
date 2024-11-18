@@ -4,6 +4,7 @@ var class_g_e_u_1_1_g_u_i =
       [ "DATABASE_NEWRAW", "de/d06/class_g_e_u_1_1_g_u_i.html#a78ad1555741d137c00b9c5335fbad6cdae0a50e8517bbdb1d571c6abe6832a60d", null ],
       [ "DATABASE_DOWNLOADED", "de/d06/class_g_e_u_1_1_g_u_i.html#a78ad1555741d137c00b9c5335fbad6cda728aff49e1edd211138c69a4c9ede566", null ],
       [ "POINT_PICKING", "de/d06/class_g_e_u_1_1_g_u_i.html#a78ad1555741d137c00b9c5335fbad6cda0a306d511ff52f1ac1a15a5417bcbaf4", null ],
+      [ "ERROR_REPORT", "de/d06/class_g_e_u_1_1_g_u_i.html#a78ad1555741d137c00b9c5335fbad6cda638d8d4bb9c46368ca7daaaddd1039d6", null ],
       [ "count", "de/d06/class_g_e_u_1_1_g_u_i.html#a78ad1555741d137c00b9c5335fbad6cdae2942a04780e223b215eb8b663cf5353", null ]
     ] ],
     [ "GUI", "de/d06/class_g_e_u_1_1_g_u_i.html#a81c34c519134397a19ca3d9b6ae99658", null ],

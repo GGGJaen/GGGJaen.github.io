@@ -6,7 +6,6 @@ var searchData=
   ['octree_3',['Octree',['../d2/d03/classunibn_1_1_octree.html',1,'unibn']]],
   ['octree_3c_20glm_3a_3avec3_20_3e_4',['Octree&lt; glm::vec3 &gt;',['../d2/d03/classunibn_1_1_octree.html',1,'unibn']]],
   ['octreeparams_5',['OctreeParams',['../dc/d07/structunibn_1_1_octree_params.html',1,'unibn']]],
-  ['olivo_6',['Olivo',['../d4/d05/struct_g_e_u_1_1_olivo.html',1,'GEU']]],
-  ['opencvimage_7',['OpenCVImage',['../d0/d00/class_open_c_v_image.html',1,'']]],
-  ['orthographicprojection_8',['OrthographicProjection',['../d2/d03/class_g_e_u_1_1_orthographic_projection.html',1,'GEU']]]
+  ['opencvimage_6',['OpenCVImage',['../d0/d00/class_open_c_v_image.html',1,'']]],
+  ['orthographicprojection_7',['OrthographicProjection',['../d2/d03/class_g_e_u_1_1_orthographic_projection.html',1,'GEU']]]
 ];

@@ -5,5 +5,5 @@ digraph "Gráfico de jerarquía de clases"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="GEU::Olivo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d05/struct_g_e_u_1_1_olivo.html",tooltip=" "];
+  Node0 [id="Node000000",label="GEU::NASSession::NASFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d04/struct_g_e_u_1_1_n_a_s_session_1_1_n_a_s_file.html",tooltip=" "];
 }

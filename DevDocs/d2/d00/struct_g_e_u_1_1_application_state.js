@@ -27,6 +27,7 @@ var struct_g_e_u_1_1_application_state =
     [ "_screenshotFactor", "d2/d00/struct_g_e_u_1_1_application_state.html#a44b78eb7a5fe5527d9edce281a57eb5d", null ],
     [ "_screenshotFilenameBuffer", "d2/d00/struct_g_e_u_1_1_application_state.html#a616cb0c92555465280362ab3e27d8471", null ],
     [ "_selectedMeshlet", "d2/d00/struct_g_e_u_1_1_application_state.html#aa2e706ebabb62872f27bc23b4d0fb563", null ],
+    [ "_serverCredentials", "d2/d00/struct_g_e_u_1_1_application_state.html#a7f6e162ad22f08dbd70ea4dd733fb710", null ],
     [ "_UIFocus", "d2/d00/struct_g_e_u_1_1_application_state.html#add9e817a263b08aa8fb2e7f6adb57903", null ],
     [ "_viewportSize", "d2/d00/struct_g_e_u_1_1_application_state.html#a95d402af2adc85b5e30540dc675b2df2", null ],
     [ "_visualizationMode", "d2/d00/struct_g_e_u_1_1_application_state.html#ac857ba0f8617d818d71976f9d3739e20", null ],

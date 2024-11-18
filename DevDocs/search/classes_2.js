@@ -20,5 +20,6 @@ var searchData=
   ['confirmclosepopup_17',['ConfirmClosePopup',['../dd/d00/class_g_e_u_1_1_confirm_close_popup.html',1,'GEU']]],
   ['confirmpopup_18',['ConfirmPopup',['../d3/d04/class_g_e_u_1_1_confirm_popup.html',1,'GEU']]],
   ['const_5fproxy_19',['const_proxy',['../df/d03/classjson_1_1jobject_1_1const__proxy.html',1,'json::jobject']]],
-  ['const_5fvalue_20',['const_value',['../d6/d03/classjson_1_1jobject_1_1const__value.html',1,'json::jobject']]]
+  ['const_5fvalue_20',['const_value',['../d6/d03/classjson_1_1jobject_1_1const__value.html',1,'json::jobject']]],
+  ['credentialsstorage_21',['CredentialsStorage',['../d9/d03/class_g_e_u_1_1_credentials_storage.html',1,'GEU']]]
 ];

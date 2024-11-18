@@ -5,5 +5,5 @@ digraph "Gráfico de jerarquía de clases"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="json::parsing::parse\l_results",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d07/structjson_1_1parsing_1_1parse__results.html",tooltip="Structure for capturing the results of parsing."];
+  Node0 [id="Node000000",label="lazperfPoint10",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d02/structlazperf_point10.html",tooltip=" "];
 }

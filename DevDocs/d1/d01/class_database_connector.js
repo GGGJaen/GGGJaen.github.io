@@ -3,6 +3,7 @@ var class_database_connector =
     [ "DatabaseConnector", "d1/d01/class_database_connector.html#af371bd32e0f186f1de9fa487872eb1c1", null ],
     [ "~DatabaseConnector", "d1/d01/class_database_connector.html#a4312f4426fbfd8519bea54c919c27c6a", null ],
     [ "connect", "d1/d01/class_database_connector.html#aa1aa6d6e4c67b2b3b61a598cc801805f", null ],
+    [ "connect", "d1/d01/class_database_connector.html#adee0fa23d58f16aaff52338d549fe60b", null ],
     [ "disconnect", "d1/d01/class_database_connector.html#a3e5a7533877956070312220d98322587", null ],
     [ "getConnectionString", "d1/d01/class_database_connector.html#afbe1575aa327bcd68b3de1f7bbfa6fd5", null ],
     [ "getDatosCrudos", "d1/d01/class_database_connector.html#a27720811fa78551204cf683be8b4f5db", null ],
@@ -31,6 +32,7 @@ var class_database_connector =
     [ "insert", "d1/d01/class_database_connector.html#a378f473ba70e81a7f1b56aada27cc76a", null ],
     [ "insert", "d1/d01/class_database_connector.html#ac4d7b7ccc44db78c256fb64f062e7082", null ],
     [ "isConnected", "d1/d01/class_database_connector.html#ac297aa2871a48ccbe6e5a0f7668a6807", null ],
+    [ "makePoolConnection", "d1/d01/class_database_connector.html#ae730a862376b0d62f22ef80e691329ec", null ],
     [ "queryAsyncDatoCrudo", "d1/d01/class_database_connector.html#adacdaa0b6505fb94120265d3ae37e37e", null ],
     [ "queryAsyncVuelo", "d1/d01/class_database_connector.html#a6318696fa147d8bfb49b387960b9dbbc", null ],
     [ "queryCamara", "d1/d01/class_database_connector.html#a3e726abb90bca0d86c1a2c7f5c72cdc8", null ],
@@ -48,7 +50,5 @@ var class_database_connector =
     [ "_connected", "d1/d01/class_database_connector.html#acf41cf94c2b8ef98d3021de519103155", null ],
     [ "_connectString", "d1/d01/class_database_connector.html#ae2288c98168fb293187ead3a7eed5312", null ],
     [ "_connPool", "d1/d01/class_database_connector.html#aafc7cad7e05c96fd10e9ea33028d1e6e", null ],
-    [ "_env", "d1/d01/class_database_connector.html#aebb96e23eb2728c41b3801f3ea5704c1", null ],
-    [ "_pass", "d1/d01/class_database_connector.html#a0670541cfe6785eb74af8df23dc51cb2", null ],
-    [ "_user", "d1/d01/class_database_connector.html#a945c5f640dd4b3ac0c594e1a15bd3189", null ]
+    [ "_env", "d1/d01/class_database_connector.html#aebb96e23eb2728c41b3801f3ea5704c1", null ]
 ];

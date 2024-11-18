@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "GEU", "index.html", [
     [ "¡Bienvenido a GEU Docs!", "index.html", null ],
+    [ "Arquitectura de transferencia de datos en GEU", "da/d05/md__c_1_2_g_e_u_2_docs_2_arquitectura_01de_01datos_01en_01_g_e_u.html", null ],
     [ "Manual de buenas prácticas", "d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html", [
       [ "Porque somos buenos compañeros", "d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#porque-somos-buenos-compañeros", [
         [ "Cada persona es responsable de su propio módulo", "d2/d03/md__c_1_2_g_e_u_2_docs_2_buenas_01practicas.html#cada-persona-es-responsable-de-su-propio-módulo", null ],
@@ -61,10 +62,10 @@ var NAVTREE =
     ] ],
     [ "Cómo actualizar el manual de desarrollador", "d2/d03/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01desarrollador.html", null ],
     [ "Cómo actualizar el manual de usuario", "d2/d00/md__c_1_2_g_e_u_2_docs_2_como_01actualizar_01el_01manual_01de_01usuario.html", null ],
-    [ "Cómo desplegar una nueva versión", "d5/d03/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióuario.html", [
-      [ "En GitHub", "d5/d03/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióuario.html#en-github", null ],
-      [ "En el instalador", "d5/d03/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióuario.html#en-el-instalador", null ],
-      [ "En el AutoUpdater", "d5/d03/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versióuario.html#en-el-autoupdater", null ]
+    [ "Cómo desplegar una nueva versión", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html", [
+      [ "En GitHub", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-github", null ],
+      [ "En el instalador", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-el-instalador", null ],
+      [ "En el AutoUpdater", "d3/d00/md__c_1_2_g_e_u_2_docs_2_como_01desplegar_01una_01nueva_01versió.html#en-el-autoupdater", null ]
     ] ],
     [ "Generación del proyecto", "d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html", [
       [ "⏮️Previos", "d1/d07/md__c_1_2_g_e_u_2_docs_2_generació01del_01proyecto.html#️previos", null ],
@@ -77,13 +78,7 @@ var NAVTREE =
     ] ],
     [ "Glosario de herramientas", "d1/d05/md__c_1_2_g_e_u_2_docs_2_glosario_01de_01herramientas.html", null ],
     [ "Glosario de términos", "dd/d05/md__c_1_2_g_e_u_2_docs_2_glosario_01de_01téinos.html", null ],
-    [ "Instalación de GEU para desarrolladores", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html", [
-      [ "📘Instrucciones", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#instrucciones-1", [
-        [ "Herramientas iniciales a instalar", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#herramientas-iniciales-a-instalar", null ],
-        [ "Primeros pasos", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#primeros-pasos", null ],
-        [ "Aspectos adicionales a considerar", "d2/d01/md__c_1_2_g_e_u_2_docs_2_guia_01de_01instalació01_g_e_u.html#aspectos-adicionales-a-considerar", null ]
-      ] ]
-    ] ],
+    [ "Glosario de herramientas", "d3/d06/md__c_1_2_g_e_u_2_docs_2_glosario.html", null ],
     [ "Índices de vegetación y análisis hiperespectral", "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html", [
       [ "Un poco de teoría", "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#un-poco-de-teoría", [
         [ "Región visible", "d3/d07/md__c_1_2_g_e_u_2_docs_2_indices_01_vegetacion_01_hiper.html#región-visible", null ],
@@ -112,6 +107,7 @@ var NAVTREE =
       [ "Uso de cadenas localizadas en Visual Studio", "d1/d03/md__c_1_2_g_e_u_2_docs_2_localizació01e_01idiomas.html#uso-de-cadenas-localizadas-en-visual-studio", null ]
     ] ],
     [ "Nubes de puntos", "db/d00/nubes-de-puntos.html", null ],
+    [ "Shaders", "d8/d00/shaders.html", null ],
     [ "Unit tests", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html", [
       [ "📘 Instrucciones", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#autotoc_md-instrucciones-1", [
         [ "Cómo crear un unit test", "d3/d07/md__c_1_2_g_e_u_2_docs_2_unit_01tests.html#cómo-crear-un-_unit-test_", null ],
@@ -149,17 +145,17 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d1/d02/class_g_e_u_1_1_image_tree_segmentation.html#ac9046ae1ab6003e5f1351348fddd8b81",
-"d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#af292c70b27838641ff231dc60eaa9433a912830f28808f71a373d26d5fe6369db",
-"d3/d00/class_g_e_u_1_1_thermal_augment.html#a5744648f0d918b565c8c479809d0c676",
-"d4/d01/class_g_e_u_1_1_light_properties.html#aab44d0f7e3b5d31dc2ffd5a63fd935c1",
-"d5/d00/struct_database_1_1_dron.html#a59a52993325ba238554a137ed74c5830",
-"d7/d06/class_g_e_u_1_1_cloud_export_dialog_popup.html#a092d04abdbff3af00eecdbd5d748c8ba",
-"d8/d04/class_im_gui_toast.html#afc6e18786a35bccfd12afb2050e68f05",
-"da/d01/class_g_e_u_1_1_inspector_window.html#a3a09148efb45473e0df187a85a8d0c8f",
-"db/d04/class_g_e_u_1_1_model3_d.html#a6d54d98f7abd69ac5060ab27538d92a4",
-"dc/d06/class_g_e_u_1_1_texture.html#a5cdc54384bf8224134a6e119d85ad69d",
-"dd/d07/struct_database_1_1_vuelo.html#a5f5335ba4bfb78b91c7e37528b45e7fc",
-"de/d05/structunibn_1_1_l2_distance.html#abbf9c8554977155f00f22e125dd02ab3"
+"d2/d01/struct_g_e_u_1_1_g_p_u_resources.html#af292c70b27838641ff231dc60eaa9433af2bbdf9f72c085adc4d0404e370f0f4c",
+"d3/d00/class_g_e_u_1_1_thermal_augment.html#a5a0a096d8ce55e1db6c270487c48c4c9",
+"d4/d04/struct_g_e_u_1_1_n_a_s_session_1_1_n_a_s_file.html",
+"d5/d03/class_histogram.html#ae8b4704e4f2747ff23354adfa5ff879c",
+"d7/d06/class_g_e_u_1_1_database_query_popup.html#ac99c561e4f9992845d08a61cab6809bba3479e5073c2aa5d8a6fc7f5f83382b76",
+"d9/d02/class_g_e_u_1_1_triangle_mesh.html#a1e834a362cc76979f92f1d38efd824e8",
+"da/d02/struct_g_e_u_1_1_texture_1_1_render_texture_requirements.html",
+"db/d06/class_g_e_u_1_1_database_new_vuelo_popup.html#ac1b98a11d860c6c9fe497bdcaa689d79",
+"dc/d07/class_g_e_u_1_1_debug_window.html#a1f2cfac0bb36d54ae3d08d24576f745b",
+"de/d01/struct_g_e_u_1_1_point_cloud_1_1_meanlet_1_1_stat_data.html#a925620dedcb2d9603f17b1473e4bcb6c",
+"df/d01/class_g_e_u_1_1_database_new_zona_popup.html#aadf042c260b0ec1acde0014e5828ac6b"
 ];
 
 var SYNCONMSG = 'pulsar para deshabilitar sincronización';

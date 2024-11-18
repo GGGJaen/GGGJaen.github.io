@@ -38,12 +38,14 @@ digraph "GEU::GuiUtilities::Button"
   Node1 -> Node16 [id="edge16_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node16 [id="Node000016",label="GEU::PickingWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d01/class_g_e_u_1_1_picking_window.html#a56f55b34996a68d41418a2df8ea008db",tooltip="Renders the window and contents."];
   Node1 -> Node17 [id="edge17_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node17 [id="Node000017",label="GEU::SpectralAnalysisGUIAdapter\l::ShowHyperspectral",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a999da4a334d859af4fd1d311dc6d0d6c",tooltip=" "];
-  Node17 -> Node18 [id="edge18_Node000017_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node18 [id="Node000018",label="GEU::SpectralAnalysisGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a32508f5a1377ace9941d1e8d57ec78ba",tooltip="Custom module GUI window contents."];
-  Node1 -> Node19 [id="edge19_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node19 [id="Node000019",label="GEU::SpectralAnalysisGUIAdapter\l::ShowMultispectral",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a7f21ce3f327dd2c34f70be9728401450",tooltip=" "];
-  Node19 -> Node18 [id="edge20_Node000019_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node20 [id="edge21_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node20 [id="Node000020",label="GEU::DatabaseNewDatoWindow\l::showNewDatoDuplicatedPopup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#a6ea01dc83a34747f5390085fda4e8980",tooltip=" "];
+  Node17 [id="Node000017",label="GEU::ReportWindow::\lrenderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d06/class_g_e_u_1_1_report_window.html#a9001c82379e967b0ed766f3faa5d76cf",tooltip="Renders the window and contents."];
+  Node1 -> Node18 [id="edge18_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="GEU::SpectralAnalysisGUIAdapter\l::ShowHyperspectral",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a999da4a334d859af4fd1d311dc6d0d6c",tooltip=" "];
+  Node18 -> Node19 [id="edge19_Node000018_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="GEU::SpectralAnalysisGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a32508f5a1377ace9941d1e8d57ec78ba",tooltip="Custom module GUI window contents."];
+  Node1 -> Node20 [id="edge20_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="GEU::SpectralAnalysisGUIAdapter\l::ShowMultispectral",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a7f21ce3f327dd2c34f70be9728401450",tooltip=" "];
+  Node20 -> Node19 [id="edge21_Node000020_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node21 [id="edge22_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="GEU::DatabaseNewDatoWindow\l::showNewDatoDuplicatedPopup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#a6ea01dc83a34747f5390085fda4e8980",tooltip=" "];
 }

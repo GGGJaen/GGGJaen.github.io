@@ -26,6 +26,4 @@ digraph "GEU::GuiUtilities::makeLocSepText"
   Node10 [id="Node000010",label="GEU::ReconstruccionGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7",tooltip="Custom module GUI window contents."];
   Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node11 [id="Node000011",label="GEU::ThermalGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d03/class_g_e_u_1_1_thermal_g_u_i_adapter.html#a1509f8f0d21826efa7cc133bbd190931",tooltip="Custom module GUI window contents."];
-  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node12 [id="Node000012",label="GEU::TreeDetectionGUIAdapter\l::renderGuiObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/class_g_e_u_1_1_tree_detection_g_u_i_adapter.html#aad85feb2429451bc4e566d9339f6d0dc",tooltip="Custom module GUI window contents."];
 }

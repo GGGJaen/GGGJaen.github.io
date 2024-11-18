@@ -5,5 +5,5 @@ digraph "Gráfico de jerarquía de clases"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="unibn::Octree\< PointT,\l ContainerT \>::Octant",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d03/classunibn_1_1_octree_1_1_octant.html",tooltip=" "];
+  Node0 [id="Node000000",label="unibn::OctreeParams",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d07/structunibn_1_1_octree_params.html",tooltip=" "];
 }

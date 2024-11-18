@@ -26,4 +26,8 @@ digraph "GEU::GuiUtilities::InputText"
   Node9 [id="Node000009",label="GEU::DatabaseNewDatoWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb",tooltip="Renders the window and contents."];
   Node1 -> Node10 [id="edge11_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node10 [id="Node000010",label="GEU::PickingWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d01/class_g_e_u_1_1_picking_window.html#a56f55b34996a68d41418a2df8ea008db",tooltip="Renders the window and contents."];
+  Node1 -> Node11 [id="edge12_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="GEU::ReportWindow::\lrenderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d06/class_g_e_u_1_1_report_window.html#a9001c82379e967b0ed766f3faa5d76cf",tooltip="Renders the window and contents."];
+  Node1 -> Node12 [id="edge13_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="GEU::SettingsWindow\l::renderWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d04/class_g_e_u_1_1_settings_window.html#a7af9db6d6ad56c4c4fc336251024472f",tooltip="Renders the window and contents."];
 }

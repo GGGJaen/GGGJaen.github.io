@@ -5,5 +5,5 @@ digraph "Gráfico de jerarquía de clases"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="ImGradientMark",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d03/struct_im_gradient_mark.html",tooltip=" "];
+  Node0 [id="Node000000",label="ImGuiToast",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d04/class_im_gui_toast.html",tooltip="A class for creating toast notifications with ImGui."];
 }
