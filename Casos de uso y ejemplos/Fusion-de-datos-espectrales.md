@@ -1,4 +1,3 @@
-
 ---
 title: Fusión de datos espectrales
 layout: default
