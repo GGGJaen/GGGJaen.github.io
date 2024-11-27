@@ -1,0 +1,47 @@
+@import "./color_schemes/dark";
+
+$geu-color-darkgreen : #001310;
+$geu-color-green: #4caf50;
+$geu-color-lime: #aed581;
+$geu-color-darkblue : #181e2b;
+
+$color-scheme: dark;
+$body-background-color: $geu-color-darkgreen;
+$body-heading-color: $grey-lt-000;
+$body-text-color: $grey-lt-300;
+$link-color: $geu-color-lime;
+$nav-child-link-color: #407a70;
+$sidebar-color: #001d18;
+$base-button-color: $grey-dk-250;
+$btn-primary-color: $blue-200;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$search-result-preview-color: $grey-dk-000;
+
+
+// Borders
+
+$border: 1px solid;
+$border-radius: 4px;
+$border-color: $grey-dk-200;
+
+// Grid system
+
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
+$nav-width: 18.5rem;
+$nav-width-md: 12.5rem;
+$nav-list-item-height: $sp-6;
+$nav-list-item-height-sm: $sp-7;
+$nav-list-expander-right: true;
+$content-width: 72rem;
+$header-height: 3.75rem;
+$search-results-width: $content-width - $nav-width;
+$transition-duration: 400ms;
+
+$body-line-height: 1.4;
+$content-line-height: 1.6;
+$body-heading-line-height: 1.25;
