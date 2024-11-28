@@ -1,7 +1,0 @@
-<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
-<area shape="rect" id="Node000000" href="$da/d02/class_g_e_u_1_1_shader_program.html" title=" " alt="" coords="5,31,153,57"/>
-<area shape="rect" id="Node000001" href="$d1/d07/class_g_e_u_1_1_compute_shader.html" title=" " alt="" coords="204,5,354,32"/>
-<area shape="poly" id="edge51_Node000000_Node000001" title=" " alt="" coords="168,30,203,26,204,31,168,35"/>
-<area shape="rect" id="Node000002" href="$d0/d07/class_g_e_u_1_1_rendering_shader.html" title=" " alt="" coords="201,56,357,83"/>
-<area shape="poly" id="edge52_Node000000_Node000002" title=" " alt="" coords="169,53,201,57,200,62,168,58"/>
-</map>

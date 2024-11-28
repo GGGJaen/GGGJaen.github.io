@@ -1,9 +1,0 @@
-<map id="GEU::GuiUtilities::DragScalarN" name="GEU::GuiUtilities::DragScalarN">
-<area shape="rect" id="Node000001" title=" " alt="" coords="444,39,572,81"/>
-<area shape="rect" id="Node000002" href="$db/d00/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="197,5,396,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="428,50,396,45,397,40,429,45"/>
-<area shape="rect" id="Node000003" href="$db/d00/class_g_e_u_1_1_details_window.html#a241455ad0e5a659831aa86d3182b9551" title="Renders inspector details for camera items." alt="" coords="204,72,389,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="429,75,389,81,389,76,428,70"/>
-<area shape="rect" id="Node000004" href="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,72,149,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="189,96,149,96,149,91,189,91"/>
-</map>

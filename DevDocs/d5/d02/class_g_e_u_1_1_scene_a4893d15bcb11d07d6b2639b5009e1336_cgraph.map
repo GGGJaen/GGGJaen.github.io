@@ -1,7 +1,0 @@
-<map id="GEU::Scene::save" name="GEU::Scene::save">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,134,61"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a38005f76139166c7769c35f8b29f50bf" title=" " alt="" coords="182,5,394,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,37,168,32,169,37,134,42"/>
-<area shape="rect" id="Node000003" href="$d9/d02/class_g_e_u_1_1_triangle_mesh.html#a67310695358d8ffdde5abe28d79eeec0" title=" " alt="" coords="217,56,359,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,54,202,63,201,68,133,59"/>
-</map>

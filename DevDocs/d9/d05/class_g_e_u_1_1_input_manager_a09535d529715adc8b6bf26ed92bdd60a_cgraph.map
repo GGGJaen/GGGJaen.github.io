@@ -1,9 +1,0 @@
-<map id="GEU::InputManager::scrollCallback" name="GEU::InputManager::scrollCallback">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,149,99"/>
-<area shape="rect" id="Node000002" href="$de/d04/class_g_e_u_1_1_renderer.html#aab42a61060bb126a7f7eff0417abe72a" title=" " alt="" coords="197,5,377,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,55,221,34,223,39,150,60"/>
-<area shape="rect" id="Node000003" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="199,56,375,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,75,183,75,183,80,149,80"/>
-<area shape="rect" id="Node000004" href="$dd/d04/class_g_e_u_1_1_camera.html#a3db6280579b87817bf7faae4ce642030" title=" " alt="" coords="216,123,358,149"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,95,223,115,221,121,148,100"/>
-</map>

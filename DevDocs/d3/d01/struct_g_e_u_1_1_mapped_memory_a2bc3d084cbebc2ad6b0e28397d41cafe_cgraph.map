@@ -1,9 +1,0 @@
-<map id="GEU::MappedMemory::waitForLockedRange" name="GEU::MappedMemory::waitForLockedRange">
-<area shape="rect" id="Node000001" title="Locks code execution until the range fence is signalled." alt="" coords="5,64,164,107"/>
-<area shape="rect" id="Node000002" href="$d3/d01/struct_g_e_u_1_1_mapped_memory.html#aceb8e1ced25d94419cd1dbec8e46d9d9" title=" " alt="" coords="224,5,382,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,61,208,49,209,55,165,67"/>
-<area shape="rect" id="Node000003" href="$d2/d02/struct_g_e_u_1_1_buffer_range.html#aafb94ec924a31cb4b9f33ac3eb0ab2c4" title=" " alt="" coords="212,72,394,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,83,196,83,196,88,164,88"/>
-<area shape="rect" id="Node000004" href="$d3/d01/struct_g_e_u_1_1_mapped_memory.html#a9869750a2727beb6c14a75b5eca74637" title=" " alt="" coords="212,123,394,149"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,101,228,116,227,121,164,106"/>
-</map>

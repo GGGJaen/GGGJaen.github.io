@@ -1,9 +1,0 @@
-<map id="AABB::extent" name="AABB::extent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="515,47,616,73"/>
-<area shape="rect" id="Node000002" href="$db/d00/class_g_e_u_1_1_details_window.html#ad35f61717358ebd11631e5b8c5ed9ff9" title="Makes and handles basic enabled and POS/ROT/SCL edit controls." alt="" coords="268,5,467,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="499,52,467,46,468,41,500,46"/>
-<area shape="rect" id="Node000003" href="$dc/d01/class_g_e_u_1_1_image_cloud_proj.html#a9113b9f785ba6dd50b0af47a3a5a1ecb" title=" " alt="" coords="293,72,442,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="500,74,443,83,442,78,499,68"/>
-<area shape="rect" id="Node000004" href="$d5/d03/class_g_e_u_1_1_reconstruccion_g_u_i_adapter.html#a2918ca118794a47873dbc1df297d68d7" title="Custom module GUI window contents." alt="" coords="5,72,220,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="277,96,220,96,220,91,277,91"/>
-</map>

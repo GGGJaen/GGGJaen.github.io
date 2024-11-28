@@ -1,9 +1,0 @@
-<map id="GEU::PickingWindow::~PickingWindow" name="GEU::PickingWindow::~PickingWindow">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,152,115"/>
-<area shape="rect" id="Node000002" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="200,5,401,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,69,212,50,213,56,152,74"/>
-<area shape="rect" id="Node000003" href="$d9/d05/class_g_e_u_1_1_input_manager.html#adef70b84828c70f6cdd62c967293df42" title=" " alt="" coords="220,72,381,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,91,204,91,204,96,152,96"/>
-<area shape="rect" id="Node000004" href="$d9/d05/class_g_e_u_1_1_input_manager.html#a88183cf687ef9e63adcfaf33c99cbc66" title=" " alt="" coords="224,139,377,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,113,213,131,212,136,151,118"/>
-</map>

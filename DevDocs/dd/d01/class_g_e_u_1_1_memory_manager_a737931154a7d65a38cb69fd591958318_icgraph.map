@@ -1,5 +1,0 @@
-<map id="GEU::MemoryManager::currentVramUsage" name="GEU::MemoryManager::currentVramUsage">
-<area shape="rect" id="Node000001" title="Returns current Vram usage in MBs." alt="" coords="232,5,386,48"/>
-<area shape="rect" id="Node000002" href="$d0/d07/class_g_e_u_1_1_stats_window.html#a3f37b7ff110985d1f88f9d741f70bf7d" title="Renders the window and contents." alt="" coords="5,5,184,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,29,184,29,184,24,216,24"/>
-</map>

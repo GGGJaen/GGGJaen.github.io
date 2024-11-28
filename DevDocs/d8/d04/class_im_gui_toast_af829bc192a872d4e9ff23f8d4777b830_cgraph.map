@@ -1,5 +1,0 @@
-<map id="ImGuiToast::setButtonLabel" name="ImGuiToast::setButtonLabel">
-<area shape="rect" id="Node000001" title="Set the label for the button in the notification." alt="" coords="5,5,188,32"/>
-<area shape="rect" id="Node000002" href="$d8/d04/class_im_gui_toast.html#a2087f90eab991e6e65834a9ab79df55d" title=" " alt="" coords="236,5,418,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
-</map>

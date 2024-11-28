@@ -1,7 +1,0 @@
-<map id="GEU::PointCloud::loadBinaryFile" name="GEU::PointCloud::loadBinaryFile">
-<area shape="rect" id="Node000001" title=" " alt="" coords="250,35,460,61"/>
-<area shape="rect" id="Node000002" href="$d5/d02/class_g_e_u_1_1_scene.html#a6008c15bade4b7c949e9e958c21b7acb" title=" " alt="" coords="40,5,167,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,37,167,29,167,23,234,31"/>
-<area shape="rect" id="Node000003" href="$dd/d01/class_g_e_u_1_1_file_manager.html#a7bcb4c4a764ee9419f0d924477566f60" title=" " alt="" coords="5,56,202,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,65,203,68,202,63,234,59"/>
-</map>

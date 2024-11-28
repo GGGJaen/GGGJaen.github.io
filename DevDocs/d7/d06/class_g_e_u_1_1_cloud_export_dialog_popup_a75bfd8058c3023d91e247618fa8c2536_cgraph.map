@@ -1,9 +1,0 @@
-<map id="GEU::CloudExportDialogPopup::openPopup" name="GEU::CloudExportDialogPopup::openPopup">
-<area shape="rect" id="Node000001" title="Sets up ImGUI to open a popup window." alt="" coords="5,35,207,77"/>
-<area shape="rect" id="Node000002" href="$df/d05/class_g_e_u_1_1_i___g_u_i_popup.html#a007e39bdd438f261c5410c3a2800b203" title=" " alt="" coords="255,43,431,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,53,239,53,239,59,207,59"/>
-<area shape="rect" id="Node000003" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="479,5,681,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,42,463,38,464,44,432,48"/>
-<area shape="rect" id="Node000004" href="$d2/d04/class_locale_strings.html#ac66087ac25e72051ea7b5bf3d00dd71f" title=" " alt="" coords="500,72,660,99"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="432,64,485,71,484,76,431,70"/>
-</map>

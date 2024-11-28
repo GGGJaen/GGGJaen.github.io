@@ -1,7 +1,0 @@
-<map id="GEU::GuiUtilities::makeSelectableTextBox" name="GEU::GuiUtilities::makeSelectableTextBox">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,168,48"/>
-<area shape="rect" id="Node000002" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a7b24395f0bd0bd368bde0935682746ce" title=" " alt="" coords="216,5,344,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,24,200,24,200,29,168,29"/>
-<area shape="rect" id="Node000003" href="$d1/d01/class_g_e_u_1_1_singleton.html#a47c7e7c2110f4cc59c9ff1f5594c366e" title=" " alt="" coords="392,5,594,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,24,377,24,377,29,344,29"/>
-</map>

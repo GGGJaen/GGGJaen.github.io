@@ -1,7 +1,0 @@
-<map id="ImGui::GradientButton" name="ImGui::GradientButton">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,156,32"/>
-<area shape="rect" id="Node000002" href="$df/d03/namespace_im_gui.html#abfe978df1447fa5bdfa023e53f9aff26" title=" " alt="" coords="204,5,365,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,16,188,16,188,21,156,21"/>
-<area shape="rect" id="Node000003" href="$df/d07/class_im_gradient.html#a91ab111bfaafb3bf899ec98e34b4b0e7" title=" " alt="" coords="413,5,559,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,16,397,16,397,21,366,21"/>
-</map>

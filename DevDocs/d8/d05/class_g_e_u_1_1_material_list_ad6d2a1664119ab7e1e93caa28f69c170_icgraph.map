@@ -1,9 +1,0 @@
-<map id="GEU::MaterialList::getBegin" name="GEU::MaterialList::getBegin">
-<area shape="rect" id="Node000001" title=" " alt="" coords="419,39,551,81"/>
-<area shape="rect" id="Node000002" href="$db/d00/class_g_e_u_1_1_details_window.html#a5846380c6e133a053b1143f6d464dd70" title="Renders inspector details for 3D model items." alt="" coords="197,5,371,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,49,371,44,372,38,404,44"/>
-<area shape="rect" id="Node000004" href="$df/d00/class_g_e_u_1_1_materials_window.html#a2b35a126224eee09971a3d5874dccbc4" title="Renders the window and contents." alt="" coords="206,72,362,115"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="404,76,363,83,362,78,403,71"/>
-<area shape="rect" id="Node000003" href="$db/d00/class_g_e_u_1_1_details_window.html#a6666ec761cc5cd8a57220823b8e7daa6" title="Renders the window and contents." alt="" coords="5,5,149,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,29,149,29,149,24,181,24"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="json::reader::push_string" name="json::reader::push_string">
-<area shape="rect" id="Node000001" title="Pushes a character to a string value." alt="" coords="5,23,131,65"/>
-<area shape="rect" id="Node000002" href="$dd/d05/json_8cpp.html#ac0a1e111fb587f4f851b8b863cb4bd10" title=" " alt="" coords="179,5,317,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,32,163,28,164,33,132,38"/>
-<area shape="rect" id="Node000003" href="$dd/d05/json_8cpp.html#ab9ec435d7a36b9484cbe6fb50ba461a7" title=" " alt="" coords="203,56,293,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,50,187,58,187,63,131,56"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="GEU::GuiUtilities::Combo" name="GEU::GuiUtilities::Combo">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,134,115"/>
-<area shape="rect" id="Node000002" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a93d270e10057bb4a04b130a9e20301e2" title=" " alt="" coords="191,5,326,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,69,181,51,183,56,133,74"/>
-<area shape="rect" id="Node000003" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#ab5bd8ee6ec7674dc502b5330d41beadf" title=" " alt="" coords="194,72,323,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,91,179,91,179,96,134,96"/>
-<area shape="rect" id="Node000004" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a76a49056660c5a9246a94564afbb676a" title=" " alt="" coords="182,139,335,165"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="135,111,199,131,198,136,133,116"/>
-</map>

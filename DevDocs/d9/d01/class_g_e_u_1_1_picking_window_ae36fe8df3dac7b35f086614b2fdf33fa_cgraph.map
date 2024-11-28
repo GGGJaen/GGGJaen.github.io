@@ -1,9 +1,0 @@
-<map id="GEU::PickingWindow::drawPickedGizmos" name="GEU::PickingWindow::drawPickedGizmos">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,48,152,91"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#a00a0faeacb66351453a63b2577a9cbc0" title=" " alt="" coords="203,5,402,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,50,225,33,226,39,153,55"/>
-<area shape="rect" id="Node000003" href="$db/d04/class_g_e_u_1_1_model3_d.html#aea23eb9ab8de56f02dacaa5155fcac15" title=" " alt="" coords="200,56,405,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,67,184,67,184,72,152,72"/>
-<area shape="rect" id="Node000004" href="$dd/d04/class_g_e_u_1_1_camera.html#a14795044ab6f5c7714d19a590b74df7b" title=" " alt="" coords="213,107,392,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,83,226,100,225,105,152,89"/>
-</map>

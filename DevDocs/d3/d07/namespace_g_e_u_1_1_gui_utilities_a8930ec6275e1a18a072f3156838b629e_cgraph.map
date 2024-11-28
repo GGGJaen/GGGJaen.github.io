@@ -1,7 +1,0 @@
-<map id="GEU::GuiUtilities::ComboPointCloud" name="GEU::GuiUtilities::ComboPointCloud">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,134,65"/>
-<area shape="rect" id="Node000002" href="$db/d04/class_g_e_u_1_1_model3_d.html#ab1c9f2d432831bde695e19caf32e3ebd" title=" " alt="" coords="182,5,350,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,33,166,29,166,34,135,38"/>
-<area shape="rect" id="Node000003" href="$d3/d07/namespace_g_e_u_1_1_gui_utilities.html#a76a49056660c5a9246a94564afbb676a" title=" " alt="" coords="189,56,343,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,50,174,55,173,60,134,55"/>
-</map>

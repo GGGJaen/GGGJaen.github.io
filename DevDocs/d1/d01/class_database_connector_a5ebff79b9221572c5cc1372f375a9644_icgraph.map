@@ -1,9 +1,0 @@
-<map id="DatabaseConnector::queryObjeto" name="DatabaseConnector::queryObjeto">
-<area shape="rect" id="Node000001" title=" " alt="" coords="515,39,658,81"/>
-<area shape="rect" id="Node000002" href="$d6/d00/class_g_e_u_1_1_tree_segmentation_g_u_i_adapter.html#a220f4253fbaddc522c033e939717f015" title="Draw Export to Database tab to handle remote conection and upload." alt="" coords="238,5,467,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="499,50,467,46,468,40,500,45"/>
-<area shape="rect" id="Node000003" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#a66a3af3a767847d263899d0d0e287b78" title=" " alt="" coords="260,72,445,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="500,75,445,83,445,78,499,70"/>
-<area shape="rect" id="Node000004" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#aee96f5bdc802183d992461ccf7af7606" title=" " alt="" coords="5,72,190,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="245,96,190,96,190,91,245,91"/>
-</map>

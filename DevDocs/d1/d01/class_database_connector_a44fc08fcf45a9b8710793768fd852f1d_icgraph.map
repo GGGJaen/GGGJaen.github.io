@@ -1,9 +1,0 @@
-<map id="DatabaseConnector::getDronFabricantes" name="DatabaseConnector::getDronFabricantes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="470,39,613,81"/>
-<area shape="rect" id="Node000002" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#ae89ab2cd1b3a99f5d1b32f244d1b71cf" title=" " alt="" coords="238,39,422,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="454,63,422,63,422,57,454,57"/>
-<area shape="rect" id="Node000003" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#a0cf99167e20e9d5384eff43f86c0c926" title=" " alt="" coords="5,5,190,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,47,190,43,191,37,223,42"/>
-<area shape="rect" id="Node000004" href="$d7/d06/class_g_e_u_1_1_database_query_popup.html#a1946c8c9ce8e263ceda1d7cc6da23e9e" title=" " alt="" coords="5,72,190,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="223,78,191,83,190,77,222,73"/>
-</map>

@@ -7,6 +7,7 @@ url: https://gggjaen.github.io
 permalink: pretty
 
 exclude:
+   - Doxygen/
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
    - .sass-cache/
    - .jekyll-cache/
@@ -34,8 +35,8 @@ exclude:
  # theme test code
    - fixtures/
 
-logo: "/Assets/Images/Logo.png"
-favicon_ico: "/Assets/Images/Logo.ico"
+# logo: "/Assets/Images/Logo.png"
+favicon_ico: "/assets/Images/Logo.ico"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -128,3 +129,4 @@ callouts:
 
 sass:
   quiet_deps: true
+  silence_deprecations: ["import", "legacy-js-api"]

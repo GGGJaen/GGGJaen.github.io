@@ -1,7 +1,0 @@
-<map id="GEU::GuiUtilities::InputTextMultiline" name="GEU::GuiUtilities::InputTextMultiline">
-<area shape="rect" id="Node000001" title=" " alt="" coords="264,39,392,81"/>
-<area shape="rect" id="Node000002" href="$df/d01/class_g_e_u_1_1_database_new_zona_popup.html#a12c7cda56d74fc9f5f7f35b32382040f" title="Renders the popup and its contents." alt="" coords="9,5,212,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,50,212,45,212,40,249,45"/>
-<area shape="rect" id="Node000003" href="$d2/d05/class_g_e_u_1_1_database_new_dato_window.html#ae07f0a25c9ecb584624ce7bf67bc48cb" title="Renders the window and contents." alt="" coords="5,72,216,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,75,217,80,216,75,248,70"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ProceduralVoxel::internalDistribution" name="ProceduralVoxel::internalDistribution">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,172,107"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#adfe68d38eadddf88006ccc5789d5a497" title=" " alt="" coords="220,5,403,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,61,212,50,214,55,173,66"/>
-<area shape="rect" id="Node000003" href="$dc/d07/class_a_a_b_b.html#a29073914f600f7657f4a44937702a471" title=" " alt="" coords="268,72,355,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,83,253,83,253,88,172,88"/>
-<area shape="rect" id="Node000004" href="$dc/d07/class_a_a_b_b.html#a4c89f6c79185419d041bcf67f0921b25" title=" " alt="" coords="267,123,356,149"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,102,252,120,251,125,171,107"/>
-</map>

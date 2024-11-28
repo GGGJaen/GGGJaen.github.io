@@ -1,9 +1,0 @@
-<map id="GEU::ImageCloudProj::compareRasters" name="GEU::ImageCloudProj::compareRasters">
-<area shape="rect" id="Node000001" title="Compare Rasters." alt="" coords="5,23,154,65"/>
-<area shape="rect" id="Node000002" href="$d2/d00/_image_cloud_proj_8cpp.html#a412df6f88560fa7ca21c5ff03120c062" title=" " alt="" coords="253,5,336,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,33,237,23,237,28,154,38"/>
-<area shape="rect" id="Node000003" href="$d8/d02/struct_g_e_u_1_1_v_a_o_1_1_point.html#a4234196f8be419dba1c3ca4468adaa02" title="Packs an RGB color into an unsigned value." alt="" coords="202,56,387,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,50,187,54,186,59,154,55"/>
-<area shape="rect" id="Node000004" href="$d8/d02/struct_g_e_u_1_1_v_a_o_1_1_point.html#a08369eb10ee0a897e2126bab74bce5ac" title=" " alt="" coords="435,48,607,91"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="387,67,420,67,420,72,387,72"/>
-</map>

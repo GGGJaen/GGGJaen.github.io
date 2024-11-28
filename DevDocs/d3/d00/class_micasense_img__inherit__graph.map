@@ -1,7 +1,0 @@
-<map id="MicasenseImg" name="MicasenseImg">
-<area shape="rect" id="Node000001" title=" " alt="" coords="11,155,116,181"/>
-<area shape="rect" id="Node000002" href="$dc/d03/class_pin_hole_img.html" title=" " alt="" coords="20,80,107,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,122,66,154,61,154,61,122"/>
-<area shape="rect" id="Node000003" href="$d2/d00/class_multispectral_img.html" title=" " alt="" coords="5,5,122,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="66,48,66,80,61,80,61,48"/>
-</map>

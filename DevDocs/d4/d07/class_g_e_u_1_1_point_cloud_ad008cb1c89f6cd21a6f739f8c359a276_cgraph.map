@@ -1,9 +1,0 @@
-<map id="GEU::PointCloud::spatialOrdering" name="GEU::PointCloud::spatialOrdering">
-<area shape="rect" id="Node000001" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="5,48,172,91"/>
-<area shape="rect" id="Node000002" href="$d1/d06/namespace_chrono_utilities.html#a187ba409975fee77e13daed043ab94c3" title=" " alt="" coords="220,5,399,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,48,233,33,234,39,173,53"/>
-<area shape="rect" id="Node000003" href="$d1/d06/namespace_chrono_utilities.html#a9b741e2bfa3e546f9305747f35b20042" title="Starts the clock so we can execute whatever we want and measure the used time." alt="" coords="224,56,395,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,67,208,67,208,72,172,72"/>
-<area shape="rect" id="Node000004" href="$d0/d00/_point_cloud_8cpp.html#ac3dbd2278bf4d10997ddf1c88fe9677c" title=" " alt="" coords="279,107,340,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,86,264,107,263,112,172,91"/>
-</map>

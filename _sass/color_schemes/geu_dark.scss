@@ -1,17 +1,16 @@
 @import "./color_schemes/dark";
 
-$geu-color-darkgreen : #001310;
-$geu-color-green: #4caf50;
-$geu-color-lime: #aed581;
-$geu-color-darkblue : #181e2b;
+$geu-primary-color: #e6b300;
+$geu-background-color: #212426d9;
 
 $color-scheme: dark;
-$body-background-color: $geu-color-darkgreen;
-$body-heading-color: $grey-lt-000;
+$body-background-color: #212426d9;
+$body-heading-color: #e6b300;
+$body-heading-alt-color: #f4cc6d;
 $body-text-color: $grey-lt-300;
-$link-color: $geu-color-lime;
-$nav-child-link-color: #407a70;
-$sidebar-color: #001d18;
+$link-color: #e6b300;
+$nav-child-link-color: #b9a783f4;
+$sidebar-color: #36383add;
 $base-button-color: $grey-dk-250;
 $btn-primary-color: $blue-200;
 $code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid

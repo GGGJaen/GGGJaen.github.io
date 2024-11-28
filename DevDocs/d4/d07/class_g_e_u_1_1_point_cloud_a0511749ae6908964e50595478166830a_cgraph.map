@@ -1,9 +1,0 @@
-<map id="GEU::PointCloud::mortonSorting" name="GEU::PointCloud::mortonSorting">
-<area shape="rect" id="Node000001" title="Performs sorting of the points in the point cloud using Morton Encoding." alt="" coords="5,31,215,57"/>
-<area shape="rect" id="Node000002" href="$d0/d00/_point_cloud_8cpp.html#a7410c0c33621f3ecada6be82d3e0bc44" title=" " alt="" coords="263,5,384,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,29,247,25,247,30,215,34"/>
-<area shape="rect" id="Node000003" href="$d0/d00/_point_cloud_8cpp.html#acb1f00c5cfca4e810959cdbce621e2ef" title=" " alt="" coords="285,56,362,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,54,269,60,269,66,214,59"/>
-<area shape="rect" id="Node000004" href="$d0/d00/_point_cloud_8cpp.html#a76f344626b561a61f27f53facc526868" title=" " alt="" coords="432,56,518,83"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,67,417,67,417,72,362,72"/>
-</map>

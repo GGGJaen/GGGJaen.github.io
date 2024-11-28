@@ -1,5 +1,0 @@
-<map id="GEU::MaterialsWindow" name="GEU::MaterialsWindow">
-<area shape="rect" id="Node000001" title="Application materials list window: allow material selection for details window." alt="" coords="5,80,162,107"/>
-<area shape="rect" id="Node000002" href="$dc/d03/class_g_e_u_1_1_i___g_u_i_window.html" title="ImGUI window interface adapter class." alt="" coords="16,5,151,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,48,86,80,81,80,81,48"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="GEU::Operators3D::checkRayAABB" name="GEU::Operators3D::checkRayAABB">
-<area shape="rect" id="Node000001" title="Check intersection between AABB and ray. Adapted from https://github.com/erich666/GraphicsGems/blob/m..." alt="" coords="252,31,484,57"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#ad0d66dab502b16db6ae689d74d0f3fc4" title=" " alt="" coords="5,5,204,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,34,204,31,204,26,236,29"/>
-<area shape="rect" id="Node000003" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#addcd1b3699e287118af2daa2ff7a4bbb" title=" " alt="" coords="13,56,196,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,59,196,63,196,58,236,54"/>
-</map>

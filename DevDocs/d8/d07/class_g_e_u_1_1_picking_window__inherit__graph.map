@@ -1,9 +1,0 @@
-<map id="GEU::PickingWindow" name="GEU::PickingWindow">
-<area shape="rect" id="Node000001" title=" " alt="" coords="181,80,328,107"/>
-<area shape="rect" id="Node000002" href="$dc/d03/class_g_e_u_1_1_i___g_u_i_window.html" title="ImGUI window interface adapter class." alt="" coords="5,5,141,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,36,223,77,222,82,118,41"/>
-<area shape="rect" id="Node000003" href="$d5/d00/class_g_e_u_1_1_mouse_button_listener.html" title=" " alt="" coords="164,5,345,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,48,257,80,252,80,252,48"/>
-<area shape="rect" id="Node000004" href="$d7/d00/class_g_e_u_1_1_mouse_move_listener.html" title=" " alt="" coords="368,5,541,32"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="406,40,290,82,289,77,405,35"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ImGuiToast::ImGuiToast" name="ImGuiToast::ImGuiToast">
-<area shape="rect" id="Node000001" title="Constructor for creating a new ImGuiToast object with a specified type, dismiss time,..." alt="" coords="5,31,167,57"/>
-<area shape="rect" id="Node000002" href="$d8/d04/class_im_gui_toast.html#a2087f90eab991e6e65834a9ab79df55d" title=" " alt="" coords="215,5,397,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,32,199,28,199,34,167,37"/>
-<area shape="rect" id="Node000003" href="$d8/d04/class_im_gui_toast.html#af34c66201193f2aa7d728005399f35d8" title=" " alt="" coords="227,56,385,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,51,211,56,211,61,167,56"/>
-</map>

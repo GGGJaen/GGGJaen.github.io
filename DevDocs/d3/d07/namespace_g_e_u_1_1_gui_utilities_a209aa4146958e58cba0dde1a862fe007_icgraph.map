@@ -1,7 +1,0 @@
-<map id="GEU::GuiUtilities::ComboPointCloud" name="GEU::GuiUtilities::ComboPointCloud">
-<area shape="rect" id="Node000001" title=" " alt="" coords="276,39,404,81"/>
-<area shape="rect" id="Node000002" href="$d0/d05/class_g_e_u_1_1_spectral_analysis_g_u_i_adapter.html#a32508f5a1377ace9941d1e8d57ec78ba" title="Custom module GUI window contents." alt="" coords="5,5,228,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,51,228,46,229,41,261,46"/>
-<area shape="rect" id="Node000003" href="$d7/d03/class_g_e_u_1_1_hyper_g_u_i_adapter.html#a2d0ac3a4a73bd1a00f99bc0575951c9c" title="Custom module GUI window contents." alt="" coords="37,72,196,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,74,196,84,196,79,260,69"/>
-</map>

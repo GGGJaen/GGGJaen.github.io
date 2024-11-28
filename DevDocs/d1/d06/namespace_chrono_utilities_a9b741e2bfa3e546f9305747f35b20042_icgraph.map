@@ -1,5 +1,0 @@
-<map id="ChronoUtilities::initChrono" name="ChronoUtilities::initChrono">
-<area shape="rect" id="Node000001" title="Starts the clock so we can execute whatever we want and measure the used time." alt="" coords="220,13,391,40"/>
-<area shape="rect" id="Node000002" href="$d4/d07/class_g_e_u_1_1_point_cloud.html#ad008cb1c89f6cd21a6f739f8c359a276" title="Optimiza el orden de los puntos en la estructura de datos para mejorar la eficiencia del renderizado." alt="" coords="5,5,172,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,29,172,29,172,24,204,24"/>
-</map>
