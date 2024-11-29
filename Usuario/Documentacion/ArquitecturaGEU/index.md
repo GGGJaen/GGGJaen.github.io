@@ -9,7 +9,9 @@ GEU es una aplicación que surge de la intención de agregar, bajo un mismo conj
 
 # Núcleo ⭕
 
-![Diagrama de librerías utilizadas por el núcleo de GEU](./diagrama_core.png)
+|![Diagrama de librerías utilizadas por el núcleo de GEU](./diagrama_core_lgt.png)|
+|:-:|
+|Diagrama de librerías utilizadas por el núcleo de GEU|
 
 ### Entorno de desarrollo: *C++* y *Visual Studio*
 
@@ -47,7 +49,9 @@ Simultáneamente, gran parte de las imágenes tratadas cuentan con información 
 
 # Conexiones remotas 🌐
 
-![Diagrama de los sistemas utilizados como conexiones remotas desde GEU](./diagrama_conexiones.png)
+|![Diagrama de los sistemas utilizados como conexiones remotas desde GEU](./diagrama_conexiones_lgt.png)|
+|:-:|
+|Diagrama de los sistemas utilizados como conexiones remotas desde GEU|
 
 ### Servidor de almacenamiento NAS: *Synology* y *FTP*
 
