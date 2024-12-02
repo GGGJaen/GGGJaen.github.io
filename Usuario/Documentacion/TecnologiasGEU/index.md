@@ -1,13 +1,17 @@
 ---
-title: Arquitectura de GEU
+title: Tecnologías para la implementación
 parent: Documentación de GEU
 layout: default
 nav_order: 1
 ---
 
-GEU es una aplicación que surge de la intención de agregar, bajo un mismo conjunto, diversas utilidades y métodos relativos al uso y gestión de nube de puntos. Al incorporar múltiples métodos diversos, el listado de dependencias y sistemas externos vinculados al uso de GEU aumenta con cada actualización; esta página resume la arquitectura interna de la aplicación, detallando qué sistemas o librerías se utilizan.
+GEU es una aplicación que surge de la intención de agregar, bajo un mismo conjunto, diversas utilidades y métodos relativos al uso y gestión de nube de puntos. Al incorporar múltiples métodos diversos, el listado de dependencias y sistemas externos vinculados al uso de GEU aumenta con cada actualización; esta página resume la arquitectura interna de la aplicación, es decir, las librerías y dependencias mínimas utilizadas por el software y disponibles en todo momento, implementadas para el núcleo de GEU y la conexión a los sistemas externos utilizados.
+
+Desde el punto de vista de la información tratada, GEU se encuentra en el centro del ciclo, tomando como entrada los conjuntos de datos captados desde el trabajo de campo u otros sistemas, y dando como resultado un nuevo conjunto de datos procesados según las necesidades concretas del usuario.
 
 # Núcleo ⭕
+
+El núcleo esencial de GEU es el encargado de dar soporte a la aplicación para el resto de funcionalidad. Para ello, se encarga de las tareas de visualización e interacción, junto a la definición de estructuras y modelos de datos internos que garantizen un alto rendimiento.
 
 |![Diagrama de librerías utilizadas por el núcleo de GEU](./diagrama_core_lgt.png)|
 |:-:|
@@ -48,6 +52,8 @@ Por último, es común que, al trabajar con datos procedentes de satélite o cap
 Simultáneamente, gran parte de las imágenes tratadas cuentan con información esencial entre sus metadatos (sensor utilizado, detalles del formato, geolocalización, etc.). Mediante *Exiv2*, GEU es capaz de acceder a estos metadatos e incluso editarlos si fuese necesario.
 
 # Conexiones remotas 🌐
+
+Previo al uso de GEU, el acceso a la información capturada viene dado por ficheros del sistema, almacenados en un servidor NAS y organizados mediante una base de datos relacional. Ya que el acceso a un dato requiere la conexión con ambos servicios, GEU también cuenta con la capacidad de establecer una conexión a ambos.
 
 |![Diagrama de los sistemas utilizados como conexiones remotas desde GEU](./diagrama_conexiones_lgt.png)|
 |:-:|

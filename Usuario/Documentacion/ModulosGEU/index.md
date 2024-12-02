@@ -1,8 +1,8 @@
 ---
-title: Módulos de GEU
+title: Módulos de la aplicación
 parent: Documentación de GEU
 layout: default
-nav_order: 2
+nav_order: 3
 ---
 
 GEU dispone de un amplio conjunto de funcionalidades, dividas internamente en módulos especializados e independientes entre sí. Siguiendo este enfoque, cada desarrollador tiene libertad total durante el desarrollo del módulo que implementa. Desde GEU, cada módulo se asigna a una clase o etiqueta, y se organizan en la barra superior de menú.
