@@ -37,3 +37,4 @@ El Gemelo Digital que engloba a GEU incluye, a su vez, otros módulos con objeti
 
 ![Diagrama de módulos del Gemelo Digital](./diagrama_gd.png)
 
+Siguiendo el esquema anterior, estas páginas se centran en documentar el funcionamiento del núcleo de GEU (*1*) y la aplicación para escritorio (*6*), donde queda más enfocado el desarrollo con mejoras continuas y nuevas funcionalidades específicas.
