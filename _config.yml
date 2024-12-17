@@ -36,7 +36,7 @@ exclude:
    - fixtures/
 
 # logo: "/Assets/Images/Logo.png"
-favicon_ico: "/assets/Images/Logo.ico"
+favicon_ico: "Logo.ico"
 
 # Enable or disable the site search
 # Supports true (default) or false
