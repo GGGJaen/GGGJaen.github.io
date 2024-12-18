@@ -85,11 +85,19 @@ Enfocado a OpenGL, la [documentación oficial](https://www.khronos.org/opengl/wi
 
 El hadrware espcializado en gráficos recibe continuamente multitud de mejoras por parte de distintos fabricantes. Por parte de Nvidia, desde su arquitectura *Turing* especializada en el trazado de rayos, incluyen una etapa adicional de sombreador de cómputo dedicada a mallas de triángulos ([*mesh shaders*](https://developer.nvidia.com/blog/introduction-turing-mesh-shaders/)). Como objetivo principal, esta etapa compacta mallas complejas en subdivisiones mucho menores, denominadas *meshlets*, aprovechando el uso de varios hilos de cómputo, que el resto del ciclo de renderizado puede utilizar directamente.
 
+|![Modelo 3D subdividido en *meshlets*](./meshlets_bunny.png)|
+|:-:|
+|Ejemplo de subdivisión de una malla 3D en *meshlets*. Extraído de [https://developer.nvidia.com/blog/introduction-turing-mesh-shaders/](https://developer.nvidia.com/blog/introduction-turing-mesh-shaders/)|
+
 Aplicado a nubes de puntos, estas agrupaciones se componen de puntos individuales y comparten la mayoría de propiedades que al aplicarse sobre mallas de triángulos. De hecho, utilizar únicamente puntos elimina la necesidad de mantener la topología que caracteriza a una malla de triángulos: simplificar una malla necesita recalcular nuevas caras y aristas, mientras que simplifcar un conjunto de puntos solo requiere seleccionar un subconjunto.
 
 Ya que el objetivo del *meshlet* es simplificar la escena 3D reduciendo la cantidad de primitivas, su generación debe primar la agrupación de primitivas cercanas espacialmente (carece de sentido, por ejemplo, conjuntar triángulos pertenecientes a los brazos de un personaje modelado, o los puntos de árboles ubicados en extremos opuestos de una finca en el caso de una nube de puntos). Si bien la falta de topología facilita algunas operaciones al tratar con nubes de puntos, dificulta en parte la búsqueda de puntos próximos espacialmente.
 
 La solución integrada en GEU solventa este problema mediante una ordenación con [curvas de Hilbert](https://mathworld.wolfram.com/HilbertCurve.html), capaces de atravesar todo el espacio 2D o 3D con un patrón establecido. Es posible utilizar estructuras de datos como *octrees* o *kd-trees*, pero en las pruebas realizadas el uso de curvas de Hilebrt presenta resultados positivos de forma general (siempre habrá casos donde un método se adapte mejor que otro a la escena). Una vez disponible la búsqueda de puntos cercanos, se toman grupos de un tamaño fijo definido, comúnmente, por el fabricante del hardware (en nuestro caso, potencias de 2, variable según el número de puntos).
+
+|![Curva de Hilbert tridimensional](./3dhilbert.png)|
+|:-:|
+|Ejemplo de curva de Hilbert sobre un espacio tridimensional. Extraído de [https://eisenwave.github.io/voxel-compression-docs/rle/hilbert_curves.html](https://eisenwave.github.io/voxel-compression-docs/rle/hilbert_curves.html)|
 
 En este punto, los *meshlets* han sido construidos y pueden utilizarse para cualquier operación, destacando el proceso de dibujado y varias de sus etapas internas. GEU aplica dos optimizaciones simultáneas a partir del *meshlet*. Primero, evalúa el descarte de puntos pertenecientes a cada agrupación: cuando está situado lejos de la cámara virtual, su tamaño en la imagen será menor cuanta mayor distancia al usar una vista en perspectiva, pudiendo originar situaciones en que varios puntos ocupen un mismo píxel. Ante esto, el descarte elige puntos al azar según la distancia a la cámara, eliminado la mayoría de puntos para *meshlets* lejanos y manteniéndolos para los más cercanos. Así, se reduce considerablemente la cantidad de primitivas por dibujar a la vez que se mantiene una elevada calidad visual de la escena.
 
