@@ -97,9 +97,13 @@ UTM_X UTM_Y UTM_HEIGHT
 imageName Pmatrix
 ```
 
+<img src="./NodosHojaOctree.gif" width="240" style="float: right; margin: 0px 0px 16px 16px;"/>
+
 En este punto, todos los datos se encuentran preparados para incorporarse en GEU y realizar el proceso de fusión. Como primer paso, las imágenes deben alinearse en el mismo sistema de coordenadas, para lo cual se recurre a las transformaciones definidas por los ficheros anteriores. A continuación, ambos conjuntos de imágenes, RGB y térmicas, se vinculan entre sí asignando las parejas tomadas en la misma posición del dron durante el vuelo. Cada imagen térmica, una vez se conoce su correspondiente imagen RGB, debe deformarse hasta igualar su resolución; este proceso queda resuelto utilizando el [método *ECC* de alineamiento con OpenCV](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/).
 
 Con todas las imágenes alineadas, vinculadas y con el mismo tamaño, la fusión sobre una nube de puntos es realizada mediante la proyección de cada punto al píxel correspondiente. 
 Para realizar esta proyección, GEU recorre la posición de la cámara en cada imagen capturada y selecciona un subconjunto de puntos de la nube dentro de un radio cercano utilizando un *octree*. Así, solo es necesario procesar un subconjunto de puntos al añadir los valores de temperatura, en lugar de examinar toda la nube cada vez.
+
+El resultado de la fusión incorpora un nuevo valor a cada punto, que puede utilizarse como parámetro al ser visualizado junto a, por ejemplo, un gradiente de color:
 
 ![Visualización de la temperatura en cada punto, resultado del proceso de fusión](./ResultadoFusionTermica.png)
