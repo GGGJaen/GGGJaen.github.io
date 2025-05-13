@@ -35,7 +35,11 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
     </button>
     {%- endif -%}
-    <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
+    {%- if node.not_ready -%}
+      <a href="{{ node.url | relative_url }}" class="nav-list-link">🏗️ <del>{{ node.title }}</del> 🏗️</a>
+    {%- else -%}
+      <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
+    {%- endif -%}
     {%- if node.has_children -%}
       {%- assign children_list = second_level_pages
             | where: "parent", node.title -%}
@@ -50,7 +54,11 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
           </button>
           {%- endif -%}
-          <a href="{{ child.url | relative_url }}" class="nav-list-link">{{ child.title }}</a>
+          {%- if child.not_ready -%}
+            <a href="{{ child.url | relative_url }}" class="nav-list-link">🏗️ <del>{{ child.title }}</del> 🏗️</a>
+          {%- else -%}
+            <a href="{{ child.url | relative_url }}" class="nav-list-link">{{ child.title }}</a>
+          {%- endif -%}
           {%- if child.has_children -%}
             {%- assign grand_children_list = third_level_pages
                   | where: "parent", child.title
@@ -61,7 +69,11 @@
             <ul class="nav-list">
             {%- for grand_child in grand_children_list -%}
               <li class="nav-list-item">
-                <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
+                {%- if grand_child.not_ready -%}
+                  <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">🏗️ <del>{{ grand_child.title }}</del> 🏗️</a>
+                {%- else -%}
+                  <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
+                {%- endif -%}
               </li>
             {%- endfor -%}
             </ul>

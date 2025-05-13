@@ -4,6 +4,7 @@ parent: Módulos de la aplicación
 grand_parent: Documentación de GEU
 layout: default
 nav_order: 5
+not_ready: true
 ---
 
 Aunque GEU destaca por su soporte para nubes de puntos 3D, también permite operar con imágenes ráster. Una de las aplicaciones del manejo de imágenes es la segmentación de individuos, por la cual distinguir una serie de regiones de interés del resto de píxeles. Esto es especialmente útil al trabajar con imágenes satelitales sobre zonas de cultivo, pues cada individuo estará considerablemente separado del resto (especialmente, para el caso de plantaciones de olivar).

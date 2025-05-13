@@ -33,14 +33,5 @@ GEU permite dos formas de seleccionar puntos interactivamente: puntos individual
 El tamaño del área seleccionada influye en el tiempo de respuesta de la selección: seleccionar gran parte de la nube de puntos puede tomar varios minutos.
 
 |![Resultado de la selección de un área de puntos](./seleccion_selArea.png)|
-|:-: |.
+|:-: |
 |Resultado de la selección de un área de puntos|
-
-<!-- # Análisis espectral
-
-Uno de los usos para la selección de un subconjunto de puntos consiste en realizar un análisis a menor escala sobre la información espectral fusionada en la nube. Dado el gran tamaño de los datos fusionados, trabajar con la totalidad de los mismos requiere tiempos de ejecución excesivos y un alto uso de los recursos del sistema; esto se solventa limitando el conjunto de datos a un subconjunto mucho menor seleccionado manualmente.
-
-{: .warning }
-La visualización espectral se encuentra limitada a datos hiperespectrales.
-
-Desde la propia ventana de selección, al marcar un entrada del historial se mostrará una gráfica sobre la cual pueden visualizarse los datos espectrales. Sobre esta, el selector desplegable permite elegir qué tipo de información consultar, y los botones junto a este acceden y generan la gráfica con los datos asociados. -->

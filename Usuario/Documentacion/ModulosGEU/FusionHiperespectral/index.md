@@ -12,7 +12,9 @@ Una captura hiperespectral incorpora ingentes cantidades de información al comp
 
 Al igual que el resto de procesos de fusión, los datos hiperespectrales requieren cierto preprocesamiento que facilite el acceso a sus valores y permitan alinear los conjuntos de datos espectrales y espaciales:
 
-![Flujo de datos para la fusión hiperespectral](./EsquemaGEU_FusionHiperespectral.png)
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="./EsquemaGEU_FusionHiperespectral.png" />
+</div>
 
 Comenzando por el aspecto común, la nube de puntos que representa la zona a aumentar puede obtenerse con un escaneo LiDAR o aplicando un proceso de *SfM* a un conjunto de imágenes RGB.
 
@@ -62,14 +64,18 @@ Siguiendo el conteo anterior, un único punto requeriría 1028 bytes, algo más 
 
 ### Agregación de datos hiperespectrales: estructura del *meanlet*
 
-Como solución principal al manejo de ingentes cantidades de información espectral fusionada sobre nubes de puntos, GEU implementa la estructura del *meanlet* presentada en (```doi```). Un *meanlet* es una estructura de datos paralela al *meshlet*, aprovechando su construcción para agregar los valores espectrales del conjunto de puntos que contiene.
+Como solución principal al manejo de ingentes cantidades de información espectral fusionada sobre nubes de puntos, GEU implementa la estructura del *meanlet*<sup>[1](#fn1)</sup>. Un *meanlet* es una estructura de datos paralela al *meshlet*, aprovechando su construcción para agregar los valores espectrales del conjunto de puntos que contiene.
 
-![Esquema de la estructura de datos *meanlet*](./EsquemaGEU_EstructuraMeanlet.png)
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="./EsquemaGEU_EstructuraMeanlet.png" />
+</div>
 
-Mediante los *meanlets*, una nube de puntos aumentada con datos espectrales no requiere mantener toda la información de su signatura espectral en cada punto; en su lugar, utiliza la media del valor en cada longitud de onda y su desviación típica sobre los puntos de cada *meshlet*, reduciendo cientos de veces la memoria principal requerida. La generación de los *meshlets* agrupa puntos próximos entre sí en grupos con un tamaño relativo a la extensión y densidad de la nube, utilizando potencias de 2, pero, generalmente, un tamaño de 512 puntos suele suplir las necesidades para la mayoría de escenas.
+Mediante los *meanlets*, una nube de puntos aumentada con datos espectrales no requiere mantener toda la información de su signatura espectral en cada punto; en su lugar, utiliza la media del valor en cada longitud de onda y su desviación típica sobre los puntos de cada *meshlet*, reduciendo cientos de veces la memoria principal requerida. La generación de los *meshlets* agrupa puntos próximos entre sí en grupos con un tamaño relativo a la extensión y densidad de la nube, utilizando potencias de 2, pero, generalmente, un tamaño de 512 o 1024 puntos suele suplir las necesidades para la mayoría de escenas.
 
 Retomando el ejemplo anterior, con una nube de un millón de puntos, que requiere en torno a 1 GB de almacenamiento en memoria principal, agregar su información espectral con *meanlets* sobre *meshlets* de 512 puntos reduce el espacio requerido casi esa misma cantidad de veces (según la extensión y el número de *meshlets*, será una cantidad menor pero igualmente considerable): pasaría, por tanto, de ocupar 1 GB a unos escasos MB.
 
 Además de esta ventaja en ocupación de memoria, trabajar con datos agregados acelera cualquier acceso a la información posterior. Desde GEU, el usuario puede seleccionar uno o varios puntos de la nube y acceder a la información espectral de los mismos; sin optimizaciones, cada punto seleccionado debe accederse independientemente. Aunque en puntos individuales no puede aplicarse el uso del *meanlet*, seleccionar un área de la escena trabaja sobre los *meshlets* en lugar de los puntos.
 
-Tras una selección de área, donde se marcan unos *meshlets* como seleccionados, la lectura de la información espectral induce cientos de accesos a esos datos, escalando el tiempo de respuesta por encima del mínimo aceptable (según el tamaño de la escena y la selección, puede alcanzar varios minutos o incluso horas). Utilizando el *meanlet*, el acceso se reduce a una operación por *meshlet* seleccionado, minimizando la respuesta a meros segundos en las pruebas realizadas (```doi```).
+Tras una selección de área, donde se marcan unos *meshlets* como seleccionados, la lectura de la información espectral induce cientos de accesos a esos datos, escalando el tiempo de respuesta por encima del mínimo aceptable (según el tamaño de la escena y la selección, puede alcanzar varios minutos o incluso horas). Utilizando el *meanlet*, el acceso se reduce a una operación por *meshlet* seleccionado, minimizando la respuesta a meros segundos en las pruebas realizadas.<sup>[1](#fn1)</sup>
+
+<span id="fn1">1</span>: <a href="https://www.sciencedirect.com/science/article/pii/S016816992500208X">https://www.sciencedirect.com/science/article/pii/S016816992500208X</a>

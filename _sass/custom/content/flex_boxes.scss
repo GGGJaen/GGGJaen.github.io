@@ -1,0 +1,29 @@
+.vflex-start {
+    display: flex;
+    align-items: flex-start;
+
+    img {
+        margin-left: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+.vflex-center {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-left: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+.vflex-end {
+    display: flex;
+    align-items: flex-end;
+
+    img {
+        margin-left: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
+}

@@ -91,7 +91,7 @@ heading_anchors: true
 back_to_top: false
 #back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2024-2024 GGGJ."
+footer_content: "Copyright &copy; 2024-2025 GGGJ."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

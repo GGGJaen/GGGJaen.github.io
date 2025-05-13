@@ -12,7 +12,9 @@ Los datos térmicos presentan la ventaja de ser lo más livianos y fáciles de t
 
 En cuanto al proceso de fusión, la siguiente imagen desglosa el flujo de los datos involucrados desde su captura hasta su procesamiento con GEU:
 
-![Flujo de datos para la fusión térmica](./EsquemaGEU_FusionTermica.png)
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="./EsquemaGEU_FusionTermica.png" />
+</div>
 
 En primer lugar, la nube de puntos puede obtenerse de dos formas: mediante un escaneo LiDAR o aplicando un procedimiento de *Structure from Motion* a un conjunto de imágenes RGB; ambas alternativas pueden utilizarse indistiguiblemente desde GEU según la disponibilidad del conjunto de datos (en ocasiones, alguno no estará disponible).
 
@@ -21,11 +23,13 @@ Respecto a la información térmica, el sensor se encarga de captar una imagen y
 {: .highlight}
 > Al cambiar la cámara térmica utilizada, el proceso de fusión térmica en GEU no soporta las tomas más recientes: es necesario actualizar el método incorporando una compatibilidad genérica.
 
-Considerando el uso de drones *DJI*©, este fabricante incorpora múltiples ficheros con ajustes y correcciones de las imágenes que capturan sus cámaras integradas; en nuestros conjuntos de datos, estos son tanto las imágenes RGB como las térmicas.
+<div style="display: flex">
 
-![Ficheros de alineación de cámaras generados por el dron utilizado](./FusionTermica_FicherosAlineacionCamara.png)
+Considerando el uso de drones *DJI*©, este fabricante incorpora múltiples ficheros con ajustes y correcciones de las imágenes que capturan sus cámaras integradas; en nuestros conjuntos de datos, estos son tanto las imágenes RGB como las térmicas. Cada fichero cuenta con una estructura propia e información general sobre la cámara o específica a cada imagen tomada:
 
-Cada uno de los ficheros anteriores cuenta con una estructura propia, con información general sobre la cámara o específica a cada imagen tomada:
+<img src="./FusionTermica_FicherosAlineacionCamara.png" style="width: 360px; height: auto; margin-left: 4rem; margin-bottom: 2rem"/>
+
+</div>
 
 ```
 > calibrated_camera_parameters.txt
@@ -97,13 +101,22 @@ UTM_X UTM_Y UTM_HEIGHT
 imageName Pmatrix
 ```
 
-<img src="./NodosHojaOctree.gif" width="240" style="float: right; margin: 0px 0px 16px 16px;"/>
-
-En este punto, todos los datos se encuentran preparados para incorporarse en GEU y realizar el proceso de fusión. Como primer paso, las imágenes deben alinearse en el mismo sistema de coordenadas, para lo cual se recurre a las transformaciones definidas por los ficheros anteriores. A continuación, ambos conjuntos de imágenes, RGB y térmicas, se vinculan entre sí asignando las parejas tomadas en la misma posición del dron durante el vuelo. Cada imagen térmica, una vez se conoce su correspondiente imagen RGB, debe deformarse hasta igualar su resolución; este proceso queda resuelto utilizando el [método *ECC* de alineamiento con OpenCV](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/).
-
+<div style="display: flex;">
+<div>
+<p>
+En este punto, todos los datos se encuentran preparados para incorporarse en GEU y realizar el proceso de fusión. Como primer paso, las imágenes deben alinearse en el mismo sistema de coordenadas, para lo cual se recurre a las transformaciones definidas por los ficheros anteriores. A continuación, ambos conjuntos de imágenes, RGB y térmicas, se vinculan entre sí asignando las parejas tomadas en la misma posición del dron durante el vuelo. Cada imagen térmica, una vez se conoce su correspondiente imagen RGB, debe deformarse hasta igualar su resolución; este proceso queda resuelto utilizando el <a href="https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/">método <i>ECC</i> de alineamiento con OpenCV</a>.
+</p>
+<p>
 Con todas las imágenes alineadas, vinculadas y con el mismo tamaño, la fusión sobre una nube de puntos es realizada mediante la proyección de cada punto al píxel correspondiente. 
-Para realizar esta proyección, GEU recorre la posición de la cámara en cada imagen capturada y selecciona un subconjunto de puntos de la nube dentro de un radio cercano utilizando un *octree*. Así, solo es necesario procesar un subconjunto de puntos al añadir los valores de temperatura, en lugar de examinar toda la nube cada vez.
+Para realizar esta proyección, GEU recorre la posición de la cámara en cada imagen capturada y selecciona un subconjunto de puntos de la nube dentro de un radio cercano utilizando un <i>octree</i>. Así, solo es necesario procesar un subconjunto de puntos al añadir los valores de temperatura, en lugar de examinar toda la nube cada vez.
+</p>
+</div>
+<img src="./NodosHojaOctree.gif" width="250" style="margin-left: 4rem; margin-bottom: 4rem; height: auto;"/>
+</div>
 
 El resultado de la fusión incorpora un nuevo valor a cada punto, que puede utilizarse como parámetro al ser visualizado junto a, por ejemplo, un gradiente de color:
 
-![Visualización de la temperatura en cada punto, resultado del proceso de fusión](./ResultadoFusionTermica.png)
+
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="./ResultadoFusionTermica.png" />
+</div>

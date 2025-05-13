@@ -13,7 +13,7 @@ Desde el punto de vista de la información tratada, GEU se encuentra en el centr
 
 El núcleo esencial de GEU es el encargado de dar soporte a la aplicación para el resto de funcionalidad. Para ello, se encarga de las tareas de visualización e interacción, junto a la definición de estructuras y modelos de datos internos que garantizen un alto rendimiento.
 
-|![Diagrama de librerías utilizadas por el núcleo de GEU](./diagrama_core_lgt.png)|
+|![Diagrama de librerías utilizadas por el núcleo de GEU](./TecnologiasGEU.png)|
 |:-:|
 |Diagrama de librerías utilizadas por el núcleo de GEU|
 
@@ -55,7 +55,7 @@ Simultáneamente, gran parte de las imágenes tratadas cuentan con información 
 
 Previo al uso de GEU, el acceso a la información capturada viene dado por ficheros del sistema, almacenados en un servidor NAS y organizados mediante una base de datos relacional. Ya que el acceso a un dato requiere la conexión con ambos servicios, GEU también cuenta con la capacidad de establecer una conexión a ambos.
 
-|![Diagrama de los sistemas utilizados como conexiones remotas desde GEU](./diagrama_conexiones_lgt.png)|
+|![Diagrama de los sistemas utilizados como conexiones remotas desde GEU](./ConexionesGEU.png)|
 |:-:|
 |Diagrama de los sistemas utilizados como conexiones remotas desde GEU|
 

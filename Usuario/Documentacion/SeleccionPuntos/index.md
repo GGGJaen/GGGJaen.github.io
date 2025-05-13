@@ -28,11 +28,17 @@ for Point p in pointCloud:
   nearestPoint = p
 ```
 
-Una vez más, aparece el problema de la densidad de puntos en las escenas utilizadas; comparar individualmente uno a uno contra millones de puntos ralentiza drásticamente el tiempo de respuesta de la aplicación. Ante este problema, el uso de estructuras de datos espaciales como *octrees* o *kd-trees* añade coherencia espacial a toda la escena, acelerando los procesos de búsqueda de objetos. Si bien estas soluciones son óptimas en situaciones generales, GEU hace un uso intensivo de los recursos del sistema, especialmente la memoria principal, y dichas estructuras espaciales incrementan esos requisitos.
-
-Con el fin de evitar el uso de estructuras adicionales, la selección de puntos individuales aprovecha los *meshlets* generados. Cada *meshlet* agrupa cierta cantidad de puntos cercanos espacialmente, por lo que puede representarse con la caja envolvente o *AABB* formada por todos los puntos que contiene. Al realizar la selección, en lugar de comprobar el rayo contra cada punto, se comprueba su intersección contra todos los *meshlets*; aquellos en que intersecte serán los que definen qué puntos utilizar al medir su proximidad al rayo.
-
-![Ejemplo de interesección de un rayo sobre un conjunto de cajas envolventes (*meshlets*)](./SeleccionRayoMeshlets.png)
+<div class="vflex-center">
+<div>
+<p>
+Una vez más, aparece el problema de la densidad de puntos en las escenas utilizadas; comparar individualmente uno a uno contra millones de puntos ralentiza drásticamente el tiempo de respuesta de la aplicación. Ante este problema, el uso de estructuras de datos espaciales como <i>octrees</i> o <i>kd-trees</i> añade coherencia espacial a toda la escena, acelerando los procesos de búsqueda de objetos. Si bien estas soluciones son óptimas en situaciones generales, GEU hace un uso intensivo de los recursos del sistema, especialmente la memoria principal, y dichas estructuras espaciales incrementan esos requisitos.
+</p>
+<p>
+Con el fin de evitar el uso de estructuras adicionales, la selección de puntos individuales aprovecha los <i>meshlets</i> generados. Cada <i>meshlet</i> agrupa cierta cantidad de puntos cercanos espacialmente, por lo que puede representarse con la caja envolvente o <i>AABB</i> formada por todos los puntos que contiene. Al realizar la selección, en lugar de comprobar el rayo contra cada punto, se comprueba su intersección contra todos los <i>meshlets</i>; aquellos en que intersecte serán los que definen qué puntos utilizar al medir su proximidad al rayo.
+</p>
+</div>
+<img src="./SeleccionRayoMeshlets.png" style="height: 350px"/>
+</div>
 
 ### Selección de área
 
